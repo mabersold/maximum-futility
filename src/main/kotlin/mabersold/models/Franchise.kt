@@ -15,8 +15,10 @@ data class Franchise(
     val metroArea = timeline.last().metroArea
     val totalChampionships = timeline.sumOf { it.championships.size }
     val championshipAppearances = timeline.sumOf { it.championshipAppearances.size }
+    val bestInDivision = timeline.sumOf { it.bestInDivision.size }
     val bestInConference = timeline.sumOf { it.bestInConference.size }
     val bestOverall = timeline.sumOf { it.bestOverall.size }
+    val worstInDivision = timeline.sumOf { it.worstInDivision.size }
     val worstInConference = timeline.sumOf { it.worstInConference.size }
     val worstOverall = timeline.sumOf { it.worstOverall.size }
 }

@@ -19,8 +19,10 @@ Defunct franchises not included
             <th scope="col">Metro Area</th>
             <th scope="col">Total Championships</th>
             <th scope="col">Championship Appearances</th>
+            <th scope="col">Best in Division</th>
             <th scope="col">Best in Conference</th>
             <th scope="col">Best Overall</th>
+            <th scope="col">Worst in Division</th>
             <th scope="col">Worst in Conference</th>
             <th scope="col">Worst Overall</th>
         </tr>
@@ -33,8 +35,10 @@ Defunct franchises not included
             <td th:text="${franchise.metroArea.displayName}"></td>
             <td th:text="${franchise.totalChampionships}"></td>
             <td th:text="${franchise.championshipAppearances}"></td>
+            <td th:text="${franchise.bestInDivision}"></td>
             <td th:text="${franchise.bestInConference}"></td>
             <td th:text="${franchise.bestOverall}"></td>
+            <td th:text="${franchise.worstInDivision}"></td>
             <td th:text="${franchise.worstInConference}"></td>
             <td th:text="${franchise.worstOverall}"></td>
         </tr>

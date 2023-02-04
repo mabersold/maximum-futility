@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Enumclaw Rednecks",
+    "first_season": 1950,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1950,
+        "name": "Enumclaw Rednecks",
+        "metro_area": "Seattle",
+        "championships": [1980],
+        "championship_appearances": [1980, 1990],
+        "playoff_appearances": [1980, 1990, 1995],
+        "advanced_in_playoffs": [1980, 1990],
+        "best_in_division": [1980, 1995],
+        "best_in_conference": [1980, 1995],
+        "best_overall": [1980],
+        "worst_in_division": [1985, 1987, 1991],
+        "worst_in_conference": [1985, 1987],
+        "worst_overall": [1985]
+      }
+    ]
+  },
+  {
+    "name": "Bellevue Nimbys",
+    "first_season": 1960,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1960,
+        "end_season": 1970,
+        "name": "Bellevue Squares",
+        "metro_area": "Seattle",
+        "championships": [],
+        "championship_appearances": [1965],
+        "playoff_appearances": [1965],
+        "advanced_in_playoffs": [1965],
+        "best_in_division": [1965],
+        "best_in_conference": [1965],
+        "best_overall": [],
+        "worst_in_division": [1969],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1971,
+        "name": "Bellevue Nimbys",
+        "metro_area": "Seattle",
+        "championships": [2005],
+        "championship_appearances": [2005, 2006],
+        "playoff_appearances": [2005, 2006, 2007],
+        "advanced_in_playoffs": [2005, 2006],
+        "best_in_division": [2005, 2006, 2007],
+        "best_in_conference": [2005, 2006],
+        "best_overall": [2005],
+        "worst_in_division": [2004],
+        "worst_in_conference": [2004],
+        "worst_overall": [2004]
+      }
+    ]
+  }
+]

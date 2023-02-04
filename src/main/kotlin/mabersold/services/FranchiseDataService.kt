@@ -5,8 +5,8 @@ import kotlinx.serialization.json.Json
 import mabersold.models.Franchise
 
 class FranchiseDataService {
-    fun getFranchiseData(): List<Franchise> {
-        val franchiseJsonString = this::class.java.classLoader.getResource("data/baseball/franchises.json")?.readText()
+    fun getFranchiseData(source: String = "data/baseball/franchises.json"): List<Franchise> {
+        val franchiseJsonString = this::class.java.classLoader.getResource(source)?.readText()
             ?: throw RuntimeException("Could not load data")
 
         val json = Json {

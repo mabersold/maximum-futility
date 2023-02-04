@@ -22,7 +22,12 @@ fun Application.configureTemplating() {
             call.respond(ThymeleafContent("index", mapOf()))
         }
         get("/franchises") {
-            call.respond(ThymeleafContent("franchises", mapOf("franchises" to FranchiseDataService().getFranchiseData())))
+            call.respond(
+                ThymeleafContent(
+                    "franchises",
+                    mapOf("franchises" to FranchiseDataService().getFranchiseData().map { it.within(1903, 2022) }.sortedBy { it.name })
+                )
+            )
         }
     }
 }

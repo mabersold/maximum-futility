@@ -7,40 +7,62 @@
 </head>
 <body>
 
-<h1>Franchise Data through 1968</h1>
+<h1>Franchise Data</h1>
 Defunct franchises not included
 
 <div>
-    <table class="table">
+    <table class="table fs-6">
         <thead>
         <tr>
             <th scope="col">Name</th>
-            <th scope="col">First Season</th>
-            <th scope="col">Metro Area</th>
+            <th scope="col">Total Seasons</th>
             <th scope="col">Total Championships</th>
+            <th scope="col">%</th>
             <th scope="col">Championship Appearances</th>
+            <th scope="col">%</th>
+            <th scope="col">Playoff Appearances</th>
+            <th scope="col">%</th>
+            <th scope="col">Advanced in Playoffs</th>
+            <th scope="col">%</th>
             <th scope="col">Best in Division</th>
+            <th scope="col">%</th>
             <th scope="col">Best in Conference</th>
+            <th scope="col">%</th>
             <th scope="col">Best Overall</th>
+            <th scope="col">%</th>
             <th scope="col">Worst in Division</th>
+            <th scope="col">%</th>
             <th scope="col">Worst in Conference</th>
+            <th scope="col">%</th>
             <th scope="col">Worst Overall</th>
+            <th scope="col">%</th>
         </tr>
         </thead>
         <!--/*@thymesVar id="franchises" type="kotlin.collections.List<Franchise>"*/-->
         <tr th:each="franchise: ${franchises}">
             <!--/*@thymesVar id="franchise" type="mabersold.models.Franchise"*/-->
             <td th:text="${franchise.name}"></td>
-            <td th:text="${franchise.firstSeason}"></td>
-            <td th:text="${franchise.metroArea.displayName}"></td>
+            <td th:text="${franchise.totalSeasons}"></td>
             <td th:text="${franchise.totalChampionships}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.championshipsPerSeason, 1, 2)}"></td>
             <td th:text="${franchise.championshipAppearances}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.championshipAppearancesPerSeason, 1, 2)}"></td>
+            <td th:text="${franchise.playoffAppearances}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.playoffAppearancesPerSeason, 1, 2)}"></td>
+            <td th:text="${franchise.advancedInPlayoffs}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.advancedInPlayoffsPerSeason, 1, 2)}"></td>
             <td th:text="${franchise.bestInDivision}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.bestInDivisionPerSeason, 1, 2)}"></td>
             <td th:text="${franchise.bestInConference}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.bestInConferencePerSeason, 1, 2)}"></td>
             <td th:text="${franchise.bestOverall}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.bestOverallPerSeason, 1, 2)}"></td>
             <td th:text="${franchise.worstInDivision}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.worstInDivisionPerSeason, 1, 2)}"></td>
             <td th:text="${franchise.worstInConference}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.worstInConferencePerSeason, 1, 2)}"></td>
             <td th:text="${franchise.worstOverall}"></td>
+            <td th:text="${#numbers.formatPercent(franchise.worstOverallPerSeason, 1, 2)}"></td>
         </tr>
     </table>
 </div>

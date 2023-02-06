@@ -1,10 +1,9 @@
 package mabersold.models
 
 import mabersold.`a timeline from 1980-1989 with data`
-import mabersold.`a timeline from 1980-present with no data`
+import mabersold.`a timeline from 1990-1999 with no data`
 import mabersold.`a timeline that is ready to be trimmed`
 import kotlin.test.Test
-import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
@@ -13,71 +12,6 @@ class FranchiseTimelineTest {
     @Test
     fun `total seasons is correct`() {
         assertEquals(10, `a timeline from 1980-1989 with data`.totalSeasons)
-    }
-
-    @Test
-    fun `championships per season is correct`() {
-        assertEquals(0.1, `a timeline from 1980-1989 with data`.championshipsPerSeason)
-    }
-
-    @Test
-    fun `championship appearances per season is correct`() {
-        assertEquals(0.2, `a timeline from 1980-1989 with data`.championshipAppearancesPerSeason)
-    }
-
-    @Test
-    fun `advanced in playoffs per season is correct`() {
-        assertEquals(0.2, `a timeline from 1980-1989 with data`.advancedInPlayoffsPerSeason)
-    }
-
-    @Test
-    fun `playoff appearances per season is correct`() {
-        assertEquals(0.4, `a timeline from 1980-1989 with data`.playoffAppearancesPerSeason)
-    }
-
-    @Test
-    fun `best in division per season is correct`() {
-        assertEquals(0.4, `a timeline from 1980-1989 with data`.bestInDivisionPerSeason)
-    }
-
-    @Test
-    fun `best in conference per season is correct`() {
-        assertEquals(0.2, `a timeline from 1980-1989 with data`.bestInConferencePerSeason)
-    }
-
-    @Test
-    fun `best overall per season is correct`() {
-        assertEquals(0.1, `a timeline from 1980-1989 with data`.bestOverallPerSeason)
-    }
-
-    @Test
-    fun `worst in division per season is correct`() {
-        assertEquals(0.4, `a timeline from 1980-1989 with data`.worstInDivisionPerSeason)
-    }
-
-    @Test
-    fun `worst in conference per season is correct`() {
-        assertEquals(0.2, `a timeline from 1980-1989 with data`.worstInConferencePerSeason)
-    }
-
-    @Test
-    fun `worst overall per season is correct`() {
-        assertEquals(0.1, `a timeline from 1980-1989 with data`.worstOverallPerSeason)
-    }
-
-    @Test
-    fun `isBefore returns true if timeline ends before given year`() {
-        assertTrue(`a timeline from 1980-1989 with data`.isBefore(1990))
-    }
-
-    @Test
-    fun `isBefore returns false if timeline ends after given year`() {
-        assertFalse(`a timeline from 1980-1989 with data`.isBefore(1970))
-    }
-
-    @Test
-    fun `isBefore returns false if timeline has no end year`() {
-        assertFalse(`a timeline from 1980-present with no data`.isBefore(1990))
     }
 
     @Test
@@ -146,5 +80,35 @@ class FranchiseTimelineTest {
 
         assertEquals(2, timeline.worstOverall.size)
         assertTrue(timeline.worstOverall.containsAll(listOf(1992, 1993)))
+    }
+
+    @Test
+    fun `seasonsWithPlayoffs is same as total seasons for range without omissions`() {
+        assertEquals(10, `a timeline from 1980-1989 with data`.totalPostSeasons(League.MLB))
+    }
+
+    @Test
+    fun `seasonsWithPlayoffs is one less than total seasons for range that includes a season with no playoffs`() {
+        assertEquals(9, `a timeline from 1990-1999 with no data`.totalPostSeasons(League.MLB))
+    }
+
+    @Test
+    fun `seasonsWithPlayoffs is same as total seasons when no league provided`() {
+        assertEquals(10, `a timeline from 1990-1999 with no data`.totalPostSeasons())
+    }
+
+    @Test
+    fun `totalRegularSeasons is correct for range without extra seasons`() {
+        assertEquals(10, `a timeline from 1990-1999 with no data`.totalRegularSeasons(League.MLB))
+    }
+
+    @Test
+    fun `totalRegularSeasons is correct for range with extra seasons`() {
+        assertEquals(11, `a timeline from 1980-1989 with data`.totalRegularSeasons(League.MLB))
+    }
+
+    @Test
+    fun `totalRegularSeasons is correct when no league provided`() {
+        assertEquals(10, `a timeline from 1980-1989 with data`.totalRegularSeasons())
     }
 }

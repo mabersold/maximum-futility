@@ -6,6 +6,7 @@ import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
 import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
+import mabersold.models.League
 import mabersold.services.FranchiseDataService
 
 fun Application.configureTemplating() {
@@ -25,7 +26,7 @@ fun Application.configureTemplating() {
             call.respond(
                 ThymeleafContent(
                     "franchises",
-                    mapOf("franchises" to FranchiseDataService().getFranchiseData().map { it.within(1903, 2022) }.sortedBy { it.name })
+                    mapOf("franchises" to FranchiseDataService().getFranchiseData().map { it.withLeague(League.MLB) }.sortedBy { it.name })
                 )
             )
         }

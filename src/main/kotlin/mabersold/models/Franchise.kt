@@ -11,7 +11,8 @@ data class Franchise(
     val firstSeason: Int,
     @SerialName("is_defunct")
     val isDefunct: Boolean,
-    val timeline: List<FranchiseTimeline>
+    val timeline: List<FranchiseTimeline>,
+    val league: League? = null
 ) {
     val metroArea = timeline.last().metroArea
     val totalSeasons = timeline.sumOf { it.totalSeasons }
@@ -25,16 +26,22 @@ data class Franchise(
     val worstInDivision = timeline.sumOf { it.worstInDivision.size }
     val worstInConference = timeline.sumOf { it.worstInConference.size }
     val worstOverall = timeline.sumOf { it.worstOverall.size }
-    val championshipsPerSeason = totalChampionships.toDouble() / totalSeasons
-    val championshipAppearancesPerSeason = championshipAppearances.toDouble() / totalSeasons
-    val advancedInPlayoffsPerSeason = advancedInPlayoffs.toDouble() / totalSeasons
-    val playoffAppearancesPerSeason = playoffAppearances.toDouble() / totalSeasons
-    val bestInDivisionPerSeason = bestInDivision.toDouble() / totalSeasons
-    val bestInConferencePerSeason = bestInConference.toDouble() / totalSeasons
-    val bestOverallPerSeason = bestOverall.toDouble() / totalSeasons
-    val worstInDivisionPerSeason = worstInDivision.toDouble() / totalSeasons
-    val worstInConferencePerSeason = worstInConference.toDouble() / totalSeasons
-    val worstOverallPerSeason = worstOverall.toDouble() / totalSeasons
+    val championshipsPerSeason = totalChampionships.toDouble() / timeline.sumOf { it.totalPostSeasons(league) }
+    val championshipAppearancesPerSeason = championshipAppearances.toDouble() / timeline.sumOf { it.totalPostSeasons(league) }
+    val advancedInPlayoffsPerSeason = advancedInPlayoffs.toDouble() / timeline.sumOf { it.totalPostSeasons(league) }
+    val playoffAppearancesPerSeason = playoffAppearances.toDouble() / timeline.sumOf { it.totalPostSeasons(league) }
+    val bestInDivisionPerSeason = bestInDivision.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
+    val bestInConferencePerSeason = bestInConference.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
+    val bestOverallPerSeason = bestOverall.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
+    val worstInDivisionPerSeason = worstInDivision.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
+    val worstInConferencePerSeason = worstInConference.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
+    val worstOverallPerSeason = worstOverall.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
+
+    fun withLeague(league: League) =
+        this.copy(
+            league = league,
+            timeline = timeline.within(league.firstSeason, league.mostRecentFinishedSeason)
+        )
 
     fun within(startYear: Int, endYear: Int) =
         this.copy(
@@ -75,19 +82,8 @@ data class FranchiseTimeline(
     @SerialName("worst_overall")
     val worstOverall: List<Int>,
 ) {
-    val totalSeasons = endSeason - startSeason + 1
-    val championshipsPerSeason = championships.size.toDouble() / totalSeasons
-    val championshipAppearancesPerSeason = championshipAppearances.size.toDouble() / totalSeasons
-    val advancedInPlayoffsPerSeason = advancedInPlayoffs.size.toDouble() / totalSeasons
-    val playoffAppearancesPerSeason = playoffAppearances.size.toDouble() / totalSeasons
-    val bestInDivisionPerSeason = bestInDivision.size.toDouble() / totalSeasons
-    val bestInConferencePerSeason = bestInConference.size.toDouble() / totalSeasons
-    val bestOverallPerSeason = bestOverall.size.toDouble() / totalSeasons
-    val worstInDivisionPerSeason = worstInDivision.size.toDouble() / totalSeasons
-    val worstInConferencePerSeason = worstInConference.size.toDouble() / totalSeasons
-    val worstOverallPerSeason = worstOverall.size.toDouble() / totalSeasons
+    val totalSeasons = (startSeason..endSeason).toList().size
 
-    fun isBefore(year: Int) = endSeason < year
     fun isWithin(startYear: Int, endYear: Int) = (startYear..endYear).intersect(startSeason..endSeason).isNotEmpty()
 
     fun trim(startYear: Int, endYear: Int) = this.copy(
@@ -104,6 +100,17 @@ data class FranchiseTimeline(
         worstInConference = worstInConference.getWithin(startYear, endYear),
         worstOverall = worstOverall.getWithin(startYear, endYear)
     )
+
+    fun totalPostSeasons(league: League? = null) =
+        (startSeason..endSeason).toList().filterNot { league?.excludePostseason?.contains(it) ?: false }.size
+
+    fun totalRegularSeasons(league: League? = null) =
+        totalSeasons + league.extraSeasons()
+
+    private fun League?.extraSeasons() =
+        this?.let {
+            (startSeason..endSeason).intersect(it.doubleRegularSeasons.toSet()).size
+        } ?: 0
 
     private fun List<Int>.getWithin(startYear: Int, endYear: Int) = this.filter { it in startYear..endYear }
 }

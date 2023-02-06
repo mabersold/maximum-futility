@@ -79,4 +79,34 @@ class FranchiseTest {
         assertEquals((6.0 / 66), franchise.worstInConferencePerSeason)
         assertEquals((4.0 / 66), franchise.worstOverallPerSeason)
     }
+
+    @Test
+    fun `applies league correctly`() {
+        val franchise = `a really old franchise`.withLeague(League.MLB)
+
+        assertEquals(League.MLB, franchise.league)
+        assertEquals((League.MLB.firstSeason..League.MLB.mostRecentFinishedSeason).toList().size, franchise.totalSeasons)
+    }
+
+    @Test
+    fun `omits seasons without postseason in calculations`() {
+        val franchise = `a franchise with two timelines and data`.withLeague(League.MLB)
+
+        assertEquals(2.0 / 19, franchise.championshipsPerSeason)
+        assertEquals(4.0 / 19, franchise.championshipAppearancesPerSeason)
+        assertEquals(4.0 / 19, franchise.advancedInPlayoffsPerSeason)
+        assertEquals(8.0 / 19, franchise.playoffAppearancesPerSeason)
+    }
+
+    @Test
+    fun `includes extra seasons in calculations`() {
+        val franchise = `a franchise with two timelines and data`.withLeague(League.MLB)
+
+        assertEquals((8.0 / 21), franchise.bestInDivisionPerSeason)
+        assertEquals((4.0 / 21), franchise.bestInConferencePerSeason)
+        assertEquals((2.0 / 21), franchise.bestOverallPerSeason)
+        assertEquals((8.0 / 21), franchise.worstInDivisionPerSeason)
+        assertEquals((4.0 / 21), franchise.worstInConferencePerSeason)
+        assertEquals((2.0 / 21), franchise.worstOverallPerSeason)
+    }
 }

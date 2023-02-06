@@ -2,40 +2,8 @@ package mabersold
 
 import mabersold.models.Franchise
 import mabersold.models.FranchiseTimeline
+import mabersold.models.League
 import mabersold.models.Metro
-
-val `a timeline from 1980-1989 with no data` = FranchiseTimeline(
-    startSeason = 1980,
-    endSeason = 1989,
-    name = "Bellevue Squares",
-    metroArea = Metro.SEATTLE,
-    championships = listOf(),
-    championshipAppearances = listOf(),
-    playoffAppearances = listOf(),
-    advancedInPlayoffs = listOf(),
-    bestInDivision = listOf(),
-    bestInConference = listOf(),
-    bestOverall = listOf(),
-    worstInDivision = listOf(),
-    worstInConference = listOf(),
-    worstOverall = listOf()
-)
-
-val `a timeline from 1980-present with no data` = FranchiseTimeline(
-    startSeason = 1980,
-    name = "Bellevue Squares",
-    metroArea = Metro.SEATTLE,
-    championships = listOf(),
-    championshipAppearances = listOf(),
-    playoffAppearances = listOf(),
-    advancedInPlayoffs = listOf(),
-    bestInDivision = listOf(),
-    bestInConference = listOf(),
-    bestOverall = listOf(),
-    worstInDivision = listOf(),
-    worstInConference = listOf(),
-    worstOverall = listOf()
-)
 
 val `a timeline from 1990-1999 with no data` = FranchiseTimeline(
     startSeason = 1990,
@@ -88,11 +56,46 @@ val `a timeline from 1990-1999 with data` = FranchiseTimeline(
     worstOverall = listOf(1990)
 )
 
-val `a franchise with two timelines and no data` = Franchise(
+val `an old timeline that predates divisions` = FranchiseTimeline(
+    startSeason = 1940,
+    endSeason = 1949,
     name = "Factoria Trash",
-    firstSeason = 1980,
+    metroArea = Metro.SEATTLE,
+    championships = listOf(),
+    championshipAppearances = listOf(),
+    playoffAppearances = listOf(),
+    advancedInPlayoffs = listOf(),
+    bestInDivision = listOf(1941),
+    bestInConference = listOf(),
+    bestOverall = listOf(),
+    worstInDivision = listOf(1942),
+    worstInConference = listOf(),
+    worstOverall = listOf()
+)
+
+val `a timeline that straddles the creation of divisions` = FranchiseTimeline(
+    startSeason = 1964,
+    endSeason = 1973,
+    name = "Factoria Trash",
+    metroArea = Metro.SEATTLE,
+    championships = listOf(),
+    championshipAppearances = listOf(),
+    playoffAppearances = listOf(),
+    advancedInPlayoffs = listOf(),
+    bestInDivision = listOf(1964, 1973),
+    bestInConference = listOf(),
+    bestOverall = listOf(),
+    worstInDivision = listOf(1965, 1972),
+    worstInConference = listOf(),
+    worstOverall = listOf()
+)
+
+val `an MLB franchise that has one timeline that straddles the creation of divisions` = Franchise(
+    name = "Factoria Trash",
+    firstSeason = 1964,
     isDefunct = false,
-    timeline = listOf(`a timeline from 1980-1989 with no data`, `a timeline from 1990-1999 with no data`)
+    league = League.MLB,
+    timeline = listOf(`a timeline that straddles the creation of divisions`, `a timeline from 1990-1999 with data`)
 )
 
 val `a franchise with two timelines and data` = Franchise(

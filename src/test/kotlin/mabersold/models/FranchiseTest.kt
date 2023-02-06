@@ -3,6 +3,7 @@ package mabersold.models
 import mabersold.MOST_RECENT_COMPLETED_MLB_SEASON
 import mabersold.`a franchise with two timelines and data`
 import mabersold.`a really old franchise`
+import mabersold.`an MLB franchise that has one timeline that straddles the creation of divisions`
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -108,5 +109,13 @@ class FranchiseTest {
         assertEquals((8.0 / 21), franchise.worstInDivisionPerSeason)
         assertEquals((4.0 / 21), franchise.worstInConferencePerSeason)
         assertEquals((2.0 / 21), franchise.worstOverallPerSeason)
+    }
+
+    @Test
+    fun `omits divisional status from before divisions existed`() {
+        val franchise = `an MLB franchise that has one timeline that straddles the creation of divisions`
+
+        assertEquals((5.0 / 15), franchise.bestInDivisionPerSeason)
+        assertEquals((5.0 / 15), franchise.worstInDivisionPerSeason)
     }
 }

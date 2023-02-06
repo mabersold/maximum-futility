@@ -1,8 +1,11 @@
 package mabersold.models
 
 import mabersold.`a timeline from 1980-1989 with data`
+import mabersold.`a timeline from 1990-1999 with data`
 import mabersold.`a timeline from 1990-1999 with no data`
 import mabersold.`a timeline that is ready to be trimmed`
+import mabersold.`an old timeline that predates divisions`
+import mabersold.`a timeline that straddles the creation of divisions`
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
@@ -110,5 +113,71 @@ class FranchiseTimelineTest {
     @Test
     fun `totalRegularSeasons is correct when no league provided`() {
         assertEquals(10, `a timeline from 1980-1989 with data`.totalRegularSeasons())
+    }
+
+    @Test
+    fun `totalSeasonsWithDivisions is correct for range when all seasons have divisions`() {
+        assertEquals(10, `a timeline from 1990-1999 with no data`.totalSeasonsWithDivisions(League.MLB))
+    }
+
+    @Test
+    fun `totalSeasonsWithDivisions is correct for range when no seasons have divisions`() {
+        assertEquals(0, `an old timeline that predates divisions`.totalSeasonsWithDivisions(League.MLB))
+    }
+
+    @Test
+    fun `totalSeasonsWithDivisions is correct for range when some of the seasons have divisions`() {
+        assertEquals(5, `a timeline that straddles the creation of divisions`.totalSeasonsWithDivisions(League.MLB))
+    }
+
+    @Test
+    fun `totalSeasonsWithDivisions is correct with no league applied`() {
+        assertEquals(10, `a timeline that straddles the creation of divisions`.totalSeasonsWithDivisions())
+    }
+
+    @Test
+    fun `bestInDivision is correct for range when all seasons have divisions`() {
+        assertEquals(4, `a timeline from 1990-1999 with data`.bestInDivision(League.MLB).size)
+        assertTrue(`a timeline from 1990-1999 with data`.bestInDivision(League.MLB).containsAll(listOf(1995, 1996, 1997, 1998)))
+    }
+
+    @Test
+    fun `bestInDivision is correct for range when no seasons have divisions`() {
+        assertEquals(0, `an old timeline that predates divisions`.bestInDivision(League.MLB).size)
+    }
+
+    @Test
+    fun `bestInDivision is correct for range when some seasons have divisions`() {
+        assertEquals(1, `a timeline that straddles the creation of divisions`.bestInDivision(League.MLB).size)
+        assertTrue(`a timeline that straddles the creation of divisions`.bestInDivision(League.MLB).containsAll(listOf(1973)))
+    }
+
+    @Test
+    fun `bestInDivision is correct when no league applied`() {
+        assertEquals(2, `a timeline that straddles the creation of divisions`.bestInDivision().size)
+        assertTrue(`a timeline that straddles the creation of divisions`.bestInDivision().containsAll(listOf(1964, 1973)))
+    }
+
+    @Test
+    fun `worstInDivision is correct for range when all seasons have divisions`() {
+        assertEquals(4, `a timeline from 1990-1999 with data`.worstInDivision(League.MLB).size)
+        assertTrue(`a timeline from 1990-1999 with data`.worstInDivision(League.MLB).containsAll(listOf(1990, 1991, 1992, 1993)))
+    }
+
+    @Test
+    fun `worstInDivision is correct for range when no seasons have divisions`() {
+        assertEquals(0, `an old timeline that predates divisions`.worstInDivision(League.MLB).size)
+    }
+
+    @Test
+    fun `worstInDivision is correct for range when some seasons have divisions`() {
+        assertEquals(1, `a timeline that straddles the creation of divisions`.worstInDivision(League.MLB).size)
+        assertTrue(`a timeline that straddles the creation of divisions`.worstInDivision(League.MLB).containsAll(listOf(1972)))
+    }
+
+    @Test
+    fun `worstInDivision is correct when no league applied`() {
+        assertEquals(2, `a timeline that straddles the creation of divisions`.worstInDivision().size)
+        assertTrue(`a timeline that straddles the creation of divisions`.worstInDivision().containsAll(listOf(1965, 1972)))
     }
 }

@@ -8,6 +8,7 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import mabersold.models.League
 import mabersold.services.FranchiseDataService
+import mabersold.services.FranchiseToCityMapper
 
 fun Application.configureTemplating() {
     install(Thymeleaf) {
@@ -20,7 +21,10 @@ fun Application.configureTemplating() {
 
     routing {
         get("/") {
-            call.respond(ThymeleafContent("index", mapOf()))
+            val franchises = FranchiseDataService().getFranchiseData().map { it.withLeague(League.MLB) }
+            val cities = FranchiseToCityMapper().mapToCities(franchises)
+
+            call.respond(ThymeleafContent("index", mapOf("cities" to cities)))
         }
         get("/franchises") {
             call.respond(

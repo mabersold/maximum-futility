@@ -176,3 +176,88 @@ val `a timeline that is ready to be trimmed` = FranchiseTimeline(
     worstInConference = listOf(1977, 1978, 1979, 1991, 1992, 1993, 2001, 2002, 2003),
     worstOverall = listOf(1978, 1979, 1992, 1993, 2002, 2003)
 )
+
+val `a franchise in New York` = Franchise(
+    name = "New York Newsies",
+    firstSeason = 1900,
+    isDefunct = false,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1900,
+            name = "New York Newsies",
+            metroArea = Metro.NEW_YORK,
+            championships = listOf(),
+            championshipAppearances = listOf(),
+            playoffAppearances = listOf(),
+            advancedInPlayoffs = listOf(),
+            bestInDivision = listOf(),
+            bestInConference = listOf(),
+            bestOverall = listOf(),
+            worstInDivision = listOf(),
+            worstInConference = listOf(),
+            worstOverall = listOf(),
+        )
+    )
+)
+
+val `a franchise in Los Angeles` = Franchise(
+    name = "Los Angeles Art Deco Enthusiasts",
+    firstSeason = 1920,
+    isDefunct = false,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1920,
+            name = "Los Angeles Art Deco Enthusiasts",
+            metroArea = Metro.LOS_ANGELES,
+            championships = listOf(),
+            championshipAppearances = listOf(),
+            playoffAppearances = listOf(),
+            advancedInPlayoffs = listOf(),
+            bestInDivision = listOf(),
+            bestInConference = listOf(),
+            bestOverall = listOf(),
+            worstInDivision = listOf(),
+            worstInConference = listOf(),
+            worstOverall = listOf(),
+        )
+    )
+)
+
+val `a franchise with timelines in different cities` = Franchise(
+    name = "Los Angeles Divers",
+    firstSeason = 1900,
+    isDefunct = false,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1900,
+            endSeason = 1957,
+            name = "Brooklyn Divers",
+            metroArea = Metro.NEW_YORK,
+            championships = listOf(),
+            championshipAppearances = listOf(),
+            playoffAppearances = listOf(),
+            advancedInPlayoffs = listOf(),
+            bestInDivision = listOf(),
+            bestInConference = listOf(),
+            bestOverall = listOf(),
+            worstInDivision = listOf(),
+            worstInConference = listOf(),
+            worstOverall = listOf(),
+        ),
+        FranchiseTimeline(
+            startSeason = 1958,
+            name = "Los Angeles Divers",
+            metroArea = Metro.LOS_ANGELES,
+            championships = listOf(),
+            championshipAppearances = listOf(),
+            playoffAppearances = listOf(),
+            advancedInPlayoffs = listOf(),
+            bestInDivision = listOf(),
+            bestInConference = listOf(),
+            bestOverall = listOf(),
+            worstInDivision = listOf(),
+            worstInConference = listOf(),
+            worstOverall = listOf(),
+        ),
+    )
+)

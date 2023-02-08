@@ -93,6 +93,7 @@ class FranchiseTest {
     fun `omits seasons without postseason in calculations`() {
         val franchise = `a franchise with two timelines and data`.withLeague(League.MLB)
 
+        assertEquals(19, franchise.totalPostSeasons)
         assertEquals(2.0 / 19, franchise.championshipsPerSeason)
         assertEquals(4.0 / 19, franchise.championshipAppearancesPerSeason)
         assertEquals(4.0 / 19, franchise.advancedInPlayoffsPerSeason)
@@ -103,6 +104,7 @@ class FranchiseTest {
     fun `includes extra seasons in calculations`() {
         val franchise = `a franchise with two timelines and data`.withLeague(League.MLB)
 
+        assertEquals(21, franchise.totalRegularSeasons)
         assertEquals((8.0 / 21), franchise.bestInDivisionPerSeason)
         assertEquals((4.0 / 21), franchise.bestInConferencePerSeason)
         assertEquals((2.0 / 21), franchise.bestOverallPerSeason)
@@ -115,7 +117,15 @@ class FranchiseTest {
     fun `omits divisional status from before divisions existed`() {
         val franchise = `an MLB franchise that has one timeline that straddles the creation of divisions`
 
+        assertEquals(15, franchise.totalSeasonsWithDivisions)
         assertEquals((5.0 / 15), franchise.bestInDivisionPerSeason)
         assertEquals((5.0 / 15), franchise.worstInDivisionPerSeason)
+    }
+
+    @Test
+    fun `gets total seasons with divisions correctly`() {
+        val franchise = `an MLB franchise that has one timeline that straddles the creation of divisions`
+
+        assertEquals(15, franchise.totalSeasonsWithDivisions)
     }
 }

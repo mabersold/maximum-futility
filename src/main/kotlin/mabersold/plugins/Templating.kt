@@ -22,7 +22,7 @@ fun Application.configureTemplating() {
     routing {
         get("/") {
             val franchises = FranchiseDataService().getFranchiseData().map { it.withLeague(League.MLB) }
-            val cities = FranchiseToCityMapper().mapToCities(franchises)
+            val cities = FranchiseToCityMapper().mapToCities(franchises).sortedBy { it.metroArea.displayName }
 
             call.respond(ThymeleafContent("index", mapOf("cities" to cities)))
         }

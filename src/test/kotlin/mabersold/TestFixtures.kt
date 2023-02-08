@@ -1,5 +1,6 @@
 package mabersold
 
+import mabersold.models.City
 import mabersold.models.Franchise
 import mabersold.models.FranchiseTimeline
 import mabersold.models.League
@@ -260,4 +261,221 @@ val `a franchise with timelines in different cities` = Franchise(
             worstOverall = listOf(),
         ),
     )
+)
+
+val `a franchise in Chicago` = Franchise(
+    name = "Chicago Dogs",
+    firstSeason = 1970,
+    isDefunct = false,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1970,
+            endSeason = 1989,
+            name = "Chicago Dogs",
+            metroArea = Metro.CHICAGO,
+            championships = listOf(1983),
+            championshipAppearances = listOf(1982, 1983),
+            playoffAppearances = listOf(1980, 1981, 1982, 1983),
+            advancedInPlayoffs = listOf(1981, 1982, 1983),
+            bestInDivision = listOf(1981, 1982, 1985, 1983),
+            bestInConference = listOf(1982, 1985),
+            bestOverall = listOf(1982),
+            worstInDivision = listOf(1970, 1971, 1972),
+            worstInConference = listOf(1970, 1971),
+            worstOverall = listOf(1970),
+        )
+    )
+)
+
+val `a second franchise in Chicago` = Franchise(
+    name = "Chicago Buellers",
+    firstSeason = 1970,
+    isDefunct = false,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1970,
+            endSeason = 1979,
+            name = "Chicago Camerons",
+            metroArea = Metro.CHICAGO,
+            championships = listOf(),
+            championshipAppearances = listOf(),
+            playoffAppearances = listOf(),
+            advancedInPlayoffs = listOf(),
+            bestInDivision = listOf(),
+            bestInConference = listOf(),
+            bestOverall = listOf(),
+            worstInDivision = listOf(1970, 1971, 1972),
+            worstInConference = listOf(1970, 1971),
+            worstOverall = listOf(1970),
+        ),
+        FranchiseTimeline(
+            startSeason = 1980,
+            endSeason = 1989,
+            name = "Chicago Buellers",
+            metroArea = Metro.CHICAGO,
+            championships = listOf(1989),
+            championshipAppearances = listOf(1989),
+            playoffAppearances = listOf(1988, 1989),
+            advancedInPlayoffs = listOf(1989),
+            bestInDivision = listOf(1988),
+            bestInConference = listOf(1988),
+            bestOverall = listOf(1988),
+            worstInDivision = listOf(),
+            worstInConference = listOf(),
+            worstOverall = listOf(),
+        ),
+    )
+)
+
+val `a city with one franchise` = City(
+    metroArea = Metro.CHICAGO,
+    franchises = listOf(
+        `a franchise in Chicago`
+    )
+)
+
+val `a city with two franchises` = City(
+    metroArea = Metro.CHICAGO,
+    franchises = listOf(
+        `a franchise in Chicago`,
+        `a second franchise in Chicago`
+    )
+)
+
+val `an MLB franchise that has some seasons before divisional play` = Franchise(
+    name = "Cleveland Rocks",
+    firstSeason = 1960,
+    isDefunct = false,
+    league = League.MLB,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1960,
+            endSeason = 1979,
+            name = "Cleveland Rocks",
+            metroArea = Metro.CLEVELAND,
+            championships = listOf(),
+            championshipAppearances = listOf(),
+            playoffAppearances = listOf(),
+            advancedInPlayoffs = listOf(),
+            bestInDivision = listOf(1965, 1966, 1975, 1976),
+            bestInConference = listOf(1965, 1966, 1975, 1976),
+            bestOverall = listOf(1965, 1966, 1975, 1976),
+            worstInDivision = listOf(1961, 1962, 1971, 1972),
+            worstInConference = listOf(1961, 1962, 1971, 1972),
+            worstOverall = listOf(1961, 1962, 1971, 1972),
+        )
+    )
+)
+
+val `a city with an MLB franchise that has some seasons before divisional play` = City(
+    metroArea = Metro.CLEVELAND,
+    franchises = listOf(`an MLB franchise that has some seasons before divisional play`)
+)
+
+val `an MLB franchise that includes a double season` = Franchise(
+    name = "Detroit Temptations",
+    firstSeason = 1980,
+    isDefunct = false,
+    league = League.MLB,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1980,
+            endSeason = 1989,
+            name = "Detroit Temptations",
+            metroArea = Metro.DETROIT,
+            championships = listOf(),
+            championshipAppearances = listOf(),
+            playoffAppearances = listOf(),
+            advancedInPlayoffs = listOf(),
+            bestInDivision = listOf(1981, 1985),
+            bestInConference = listOf(1981, 1985),
+            bestOverall = listOf(1981, 1985),
+            worstInDivision = listOf(1981, 1989),
+            worstInConference = listOf(1981, 1989),
+            worstOverall = listOf(1981, 1989),
+        )
+    )
+)
+
+val `a franchise that does not have a double season` = Franchise(
+    name = "Detroit Robocops",
+    firstSeason = 1980,
+    isDefunct = false,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1980,
+            endSeason = 1989,
+            name = "Detroit Robocops",
+            metroArea = Metro.DETROIT,
+            championships = listOf(),
+            championshipAppearances = listOf(),
+            playoffAppearances = listOf(),
+            advancedInPlayoffs = listOf(),
+            bestInDivision = listOf(1981, 1985),
+            bestInConference = listOf(1981, 1985),
+            bestOverall = listOf(1981, 1985),
+            worstInDivision = listOf(1981, 1989),
+            worstInConference = listOf(1981, 1989),
+            worstOverall = listOf(1981, 1989),
+        )
+    )
+)
+
+val `a city with an MLB franchise that played in a double season, and one other franchise` = City(
+    metroArea = Metro.DETROIT,
+    franchises = listOf(`an MLB franchise that includes a double season`, `a franchise that does not have a double season`)
+)
+
+val `an mlb franchise with a season without a postseason` = Franchise(
+    name = "Cincinnati Flying Pigs",
+    firstSeason = 1990,
+    isDefunct = false,
+    league = League.MLB,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1990,
+            endSeason = 1999,
+            name = "Cincinnati Flying Pigs",
+            metroArea = Metro.CINCINNATI,
+            championships = listOf(1991, 1995),
+            championshipAppearances = listOf(1991, 1995),
+            playoffAppearances = listOf(1991, 1995),
+            advancedInPlayoffs = listOf(1991, 1995),
+            bestInDivision = listOf(),
+            bestInConference = listOf(),
+            bestOverall = listOf(),
+            worstInDivision = listOf(),
+            worstInConference = listOf(),
+            worstOverall = listOf()
+        )
+    )
+)
+
+val `another franchise with all seasons having postseasons` = Franchise(
+    name = "Cincinnati Skylines",
+    firstSeason = 1990,
+    isDefunct = false,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1990,
+            endSeason = 1999,
+            name = "Cincinnati Skylines",
+            metroArea = Metro.CINCINNATI,
+            championships = listOf(1991, 1995),
+            championshipAppearances = listOf(1991, 1995),
+            playoffAppearances = listOf(1991, 1995),
+            advancedInPlayoffs = listOf(1991, 1995),
+            bestInDivision = listOf(),
+            bestInConference = listOf(),
+            bestOverall = listOf(),
+            worstInDivision = listOf(),
+            worstInConference = listOf(),
+            worstOverall = listOf()
+        )
+    )
+)
+
+val `a city with an MLB franchise that played in a season with no postseason, and one other franchise` = City(
+    metroArea = Metro.CINCINNATI,
+    franchises = listOf(`an mlb franchise with a season without a postseason`, `another franchise with all seasons having postseasons`)
 )

@@ -16,6 +16,9 @@ data class Franchise(
 ) {
     val metroArea = timeline.last().metroArea
     val totalSeasons = timeline.sumOf { it.totalSeasons }
+    val totalRegularSeasons = timeline.sumOf { it.totalRegularSeasons(league) }
+    val totalSeasonsWithDivisions = timeline.sumOf { it.totalSeasonsWithDivisions(league) }
+    val totalPostSeasons = timeline.sumOf { it.totalPostSeasons(league) }
     val totalChampionships = timeline.sumOf { it.championships.size }
     val championshipAppearances = timeline.sumOf { it.championshipAppearances.size }
     val advancedInPlayoffs = timeline.sumOf { it.advancedInPlayoffs.size }
@@ -26,16 +29,16 @@ data class Franchise(
     val worstInDivision = timeline.sumOf { it.worstInDivision(league).size }
     val worstInConference = timeline.sumOf { it.worstInConference.size }
     val worstOverall = timeline.sumOf { it.worstOverall.size }
-    val championshipsPerSeason = totalChampionships.toDouble() / timeline.sumOf { it.totalPostSeasons(league) }
-    val championshipAppearancesPerSeason = championshipAppearances.toDouble() / timeline.sumOf { it.totalPostSeasons(league) }
-    val advancedInPlayoffsPerSeason = advancedInPlayoffs.toDouble() / timeline.sumOf { it.totalPostSeasons(league) }
-    val playoffAppearancesPerSeason = playoffAppearances.toDouble() / timeline.sumOf { it.totalPostSeasons(league) }
-    val bestInDivisionPerSeason = bestInDivision.toDouble() / timeline.sumOf { it.totalSeasonsWithDivisions(league) }
-    val bestInConferencePerSeason = bestInConference.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
-    val bestOverallPerSeason = bestOverall.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
-    val worstInDivisionPerSeason = worstInDivision.toDouble() / timeline.sumOf { it.totalSeasonsWithDivisions(league) }
-    val worstInConferencePerSeason = worstInConference.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
-    val worstOverallPerSeason = worstOverall.toDouble() / timeline.sumOf { it.totalRegularSeasons(league) }
+    val championshipsPerSeason = totalChampionships.toDouble() / totalPostSeasons
+    val championshipAppearancesPerSeason = championshipAppearances.toDouble() / totalPostSeasons
+    val advancedInPlayoffsPerSeason = advancedInPlayoffs.toDouble() / totalPostSeasons
+    val playoffAppearancesPerSeason = playoffAppearances.toDouble() / totalPostSeasons
+    val bestInDivisionPerSeason = bestInDivision.toDouble() / totalSeasonsWithDivisions
+    val bestInConferencePerSeason = bestInConference.toDouble() / totalRegularSeasons
+    val bestOverallPerSeason = bestOverall.toDouble() / totalRegularSeasons
+    val worstInDivisionPerSeason = worstInDivision.toDouble() / totalSeasonsWithDivisions
+    val worstInConferencePerSeason = worstInConference.toDouble() / totalRegularSeasons
+    val worstOverallPerSeason = worstOverall.toDouble() / totalRegularSeasons
 
     fun withLeague(league: League) =
         this.copy(

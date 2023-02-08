@@ -9,13 +9,13 @@
 <body>
 <h1>Maximum Futility</h1>
 <div>
-    View <a href="/franchises">franchise data</a>?
+    View <a href="/franchises">franchise data</a>
 </div>
 <div>
-    <table id="city-table" class="table fs-6" data-show-multi-sort="true" data-show-columns="true">
+    <table id="city-table" class="table table-striped table-sm fs-6" data-show-multi-sort="true" data-show-columns="true">
         <thead>
         <tr>
-            <th colspan="1" rowspan="2" scope="col" data-sortable="true">City</th>
+            <th colspan="1" rowspan="2" scope="col" data-sortable="true" data-searchable="true">City</th>
             <th colspan="1" rowspan="2" scope="col" data-sortable="true">Seasons</th>
             <th colspan="2" scope="col">Titles</th>
             <th colspan="2">Made Finals</th>
@@ -29,7 +29,7 @@
             <th colspan="2">Worst Overall</th>
         </tr>
         <tr>
-            <th data-sortable="true">#</th>
+            <th scope="col" data-sortable="true">#</th>
             <th scope="col" data-sortable="true" data-sorter="percentSorter">%</th>
             <th scope="col" data-sortable="true">#</th>
             <th scope="col" data-sortable="true" data-sorter="percentSorter">%</th>
@@ -52,31 +52,33 @@
         </tr>
         </thead>
         <!--/*@thymesVar id="franchises" type="kotlin.collections.List<mabersold.models.City>"*/-->
-        <tr th:each="city: ${cities}">
-            <!--/*@thymesVar id="franchise" type="mabersold.models.City"*/-->
-            <td th:text="${city.metroArea.displayName}"></td>
-            <td th:text="${city.totalSeasons}"></td>
-            <td th:text="${city.totalChampionships}"></td>
-            <td th:text="${#numbers.formatPercent(city.championshipsPerSeason, 1, 2)}"></td>
-            <td th:text="${city.championshipAppearances}"></td>
-            <td th:text="${#numbers.formatPercent(city.championshipAppearancesPerSeason, 1, 2)}"></td>
-            <td th:text="${city.playoffAppearances}"></td>
-            <td th:text="${#numbers.formatPercent(city.playoffAppearancesPerSeason, 1, 2)}"></td>
-            <td th:text="${city.advancedInPlayoffs}"></td>
-            <td th:text="${#numbers.formatPercent(city.advancedInPlayoffsPerSeason, 1, 2)}"></td>
-            <td th:text="${city.bestInDivision}"></td>
-            <td th:text="${#numbers.formatPercent(city.bestInDivisionPerSeason, 1, 2)}"></td>
-            <td th:text="${city.bestInConference}"></td>
-            <td th:text="${#numbers.formatPercent(city.bestInConferencePerSeason, 1, 2)}"></td>
-            <td th:text="${city.bestOverall}"></td>
-            <td th:text="${#numbers.formatPercent(city.bestOverallPerSeason, 1, 2)}"></td>
-            <td th:text="${city.worstInDivision}"></td>
-            <td th:text="${#numbers.formatPercent(city.worstInDivisionPerSeason, 1, 2)}"></td>
-            <td th:text="${city.worstInConference}"></td>
-            <td th:text="${#numbers.formatPercent(city.worstInConferencePerSeason, 1, 2)}"></td>
-            <td th:text="${city.worstOverall}"></td>
-            <td th:text="${#numbers.formatPercent(city.worstOverallPerSeason, 1, 2)}"></td>
-        </tr>
+        <tbody>
+            <tr th:each="city: ${cities}">
+                <!--/*@thymesVar id="franchise" type="mabersold.models.City"*/-->
+                <td th:text="${city.metroArea.displayName}"></td>
+                <td th:text="${city.totalSeasons}"></td>
+                <td th:text="${city.totalChampionships}"></td>
+                <td th:text="${#numbers.formatPercent(city.championshipsPerSeason, 1, 2)}"></td>
+                <td th:text="${city.championshipAppearances}"></td>
+                <td th:text="${#numbers.formatPercent(city.championshipAppearancesPerSeason, 1, 2)}"></td>
+                <td th:text="${city.playoffAppearances}"></td>
+                <td th:text="${#numbers.formatPercent(city.playoffAppearancesPerSeason, 1, 2)}"></td>
+                <td th:text="${city.advancedInPlayoffs}"></td>
+                <td th:text="${#numbers.formatPercent(city.advancedInPlayoffsPerSeason, 1, 2)}"></td>
+                <td th:text="${city.bestInDivision}"></td>
+                <td th:text="${#numbers.formatPercent(city.bestInDivisionPerSeason, 1, 2)}"></td>
+                <td th:text="${city.bestInConference}"></td>
+                <td th:text="${#numbers.formatPercent(city.bestInConferencePerSeason, 1, 2)}"></td>
+                <td th:text="${city.bestOverall}"></td>
+                <td th:text="${#numbers.formatPercent(city.bestOverallPerSeason, 1, 2)}"></td>
+                <td th:text="${city.worstInDivision}"></td>
+                <td th:text="${#numbers.formatPercent(city.worstInDivisionPerSeason, 1, 2)}"></td>
+                <td th:text="${city.worstInConference}"></td>
+                <td th:text="${#numbers.formatPercent(city.worstInConferencePerSeason, 1, 2)}"></td>
+                <td th:text="${city.worstOverall}"></td>
+                <td th:text="${#numbers.formatPercent(city.worstOverallPerSeason, 1, 2)}"></td>
+            </tr>
+        </tbody>
     </table>
 </div>
 

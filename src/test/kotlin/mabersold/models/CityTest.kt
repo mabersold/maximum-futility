@@ -3,10 +3,12 @@ package mabersold.models
 import mabersold.`a city with an MLB franchise that has some seasons before divisional play`
 import mabersold.`a city with an MLB franchise that played in a double season, and one other franchise`
 import mabersold.`a city with an MLB franchise that played in a season with no postseason, and one other franchise`
+import mabersold.`a city with no postseason history`
 import mabersold.`a city with one franchise`
 import mabersold.`a city with two franchises`
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertNull
 
 class CityTest {
     @Test
@@ -40,6 +42,9 @@ class CityTest {
         assertEquals((3.0 / 20), city.worstInDivisionPerSeason)
         assertEquals((2.0 / 20), city.worstInConferencePerSeason)
         assertEquals((1.0 / 20), city.worstOverallPerSeason)
+        assertEquals((1.0 / 2), city.winningPercentageInFinals)
+        assertEquals((2.0 / 4), city.reachingFinalsPerPlayoffAppearance)
+        assertEquals((3.0 / 4), city.advancingInPlayoffsPerPlayoffAppearance)
     }
 
     @Test
@@ -73,6 +78,9 @@ class CityTest {
         assertEquals((6.0 / 40), city.worstInDivisionPerSeason)
         assertEquals((4.0 / 40), city.worstInConferencePerSeason)
         assertEquals((2.0 / 40), city.worstOverallPerSeason)
+        assertEquals((2.0 / 3), city.winningPercentageInFinals)
+        assertEquals((3.0 / 6), city.reachingFinalsPerPlayoffAppearance)
+        assertEquals((4.0 / 6), city.advancingInPlayoffsPerPlayoffAppearance)
     }
 
     @Test
@@ -115,5 +123,22 @@ class CityTest {
         assertEquals((4.0 / 19), city.championshipAppearancesPerSeason)
         assertEquals((4.0 / 19), city.playoffAppearancesPerSeason)
         assertEquals((4.0 / 19), city.advancedInPlayoffsPerSeason)
+    }
+
+    @Test
+    fun `per-postseason stats are null when city has no postseason history`() {
+        val city = `a city with no postseason history`
+
+        assertNull(city.winningPercentageInFinals)
+        assertNull(city.reachingFinalsPerPlayoffAppearance)
+        assertNull(city.advancingInPlayoffsPerPlayoffAppearance)
+    }
+
+    @Test
+    fun `calculates averages correctly for city with two franchises that have some seasons before multi-round playoffs`() {
+        val city = `a city with an MLB franchise that has some seasons before divisional play`
+
+        assertEquals((1.0 /3), city.reachingFinalsPerPlayoffAppearance)
+        assertEquals((2.0 / 3), city.advancingInPlayoffsPerPlayoffAppearance)
     }
 }

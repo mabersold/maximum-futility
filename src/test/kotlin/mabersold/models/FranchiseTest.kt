@@ -1,11 +1,14 @@
 package mabersold.models
 
 import mabersold.MOST_RECENT_COMPLETED_MLB_SEASON
+import mabersold.`a franchise in New York`
+import mabersold.`a franchise that spans the start of multi-round playoffs`
 import mabersold.`a franchise with two timelines and data`
 import mabersold.`a really old franchise`
 import mabersold.`an MLB franchise that has one timeline that straddles the creation of divisions`
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertNull
 
 class FranchiseTest {
     @Test
@@ -123,9 +126,64 @@ class FranchiseTest {
     }
 
     @Test
-    fun `gets total seasons with divisions correctly`() {
+    fun `winning percentage in finals is correct for franchise that has reached finals`() {
+        val franchise = `a franchise with two timelines and data`
+
+        assertEquals((2.0 / 4), franchise.winningPercentageInFinals)
+    }
+
+    @Test
+    fun `winning percentage in finals is null for franchise that has never reached finals`() {
+        val franchise = `a franchise in New York`
+
+        assertNull(franchise.winningPercentageInFinals)
+    }
+
+    @Test
+    fun `reaching finals per playoff appearance is correct for franchise that has reached finals`() {
+        val franchise = `a franchise with two timelines and data`
+
+        assertEquals((4.0 / 8), franchise.reachingFinalsPerPlayoffAppearance)
+    }
+
+    @Test
+    fun `reaching finals per playoff appearance is null for franchise that does not have playoff appearances`() {
+        val franchise = `a franchise in New York`
+
+        assertNull(franchise.reachingFinalsPerPlayoffAppearance)
+    }
+
+    @Test
+    fun `advancing in playoffs per playoff appearance is correct for franchise that has playoff appearances`() {
+        val franchise = `a franchise with two timelines and data`
+
+        assertEquals((4.0 / 8), franchise.advancingInPlayoffsPerPlayoffAppearance)
+    }
+
+    @Test
+    fun `advancing in playoffs per playoff appearance is null for franchise that does not have playoff appearances`() {
+        val franchise = `a franchise in New York`
+
+        assertNull(franchise.advancingInPlayoffsPerPlayoffAppearance)
+    }
+
+    @Test
+    fun `playoff appearance stats are correct for years before and after multi-round playoffs`() {
         val franchise = `an MLB franchise that has one timeline that straddles the creation of divisions`
 
-        assertEquals(15, franchise.totalSeasonsWithDivisions)
+        assertEquals((4.0 / 7), franchise.advancingInPlayoffsPerPlayoffAppearance)
+        assertEquals((3.0 / 7), franchise.reachingFinalsPerPlayoffAppearance)
+    }
+
+    @Test
+    fun `calculates multi-round playoff stat totals correctly`() {
+        val franchise = `a franchise that spans the start of multi-round playoffs`
+
+        assertEquals(3, franchise.championshipAppearancesInMultiRoundPlayoffYears)
+        assertEquals(6, franchise.championshipAppearances)
+        assertEquals(4, franchise.advancedInPlayoffsInMultiRoundPlayoffYears)
+        assertEquals(8, franchise.advancedInPlayoffs)
+        assertEquals(5, franchise.playoffAppearancesInMultiRoundPlayoffYears)
+        assertEquals(10, franchise.playoffAppearances)
     }
 }

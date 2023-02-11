@@ -80,9 +80,9 @@ val `a timeline that straddles the creation of divisions` = FranchiseTimeline(
     name = "Factoria Trash",
     metroArea = Metro.SEATTLE,
     championships = listOf(),
-    championshipAppearances = listOf(),
-    playoffAppearances = listOf(),
-    advancedInPlayoffs = listOf(),
+    championshipAppearances = listOf(1964, 1973),
+    playoffAppearances = listOf(1964, 1967, 1968, 1970, 1971, 1973),
+    advancedInPlayoffs = listOf(1967, 1968, 1971, 1973),
     bestInDivision = listOf(1964, 1973),
     bestInConference = listOf(),
     bestOverall = listOf(),
@@ -105,6 +105,24 @@ val `a franchise with two timelines and data` = Franchise(
     isDefunct = false,
     timeline = listOf(`a timeline from 1980-1989 with data`, `a timeline from 1990-1999 with data`)
 )
+
+val `an old timeline with championship appearances and advancing in playoffs` = FranchiseTimeline(
+    name = "Dallas Excessively Large Pickup Trucks",
+    startSeason = 1920,
+    endSeason = 1929,
+    metroArea = Metro.DALLAS,
+    championships = listOf(),
+    championshipAppearances = listOf(1920, 1921, 1922, 1923),
+    playoffAppearances = listOf(1920, 1921, 1922, 1923),
+    advancedInPlayoffs = listOf(1920, 1921, 1922, 1923),
+    bestInDivision = listOf(),
+    bestInConference = listOf(),
+    bestOverall = listOf(),
+    worstInDivision = listOf(),
+    worstInConference = listOf(),
+    worstOverall = listOf()
+)
+
 
 val `a really old franchise` = Franchise(
     name = "Brooklyn Bubblebutts",
@@ -354,9 +372,9 @@ val `an MLB franchise that has some seasons before divisional play` = Franchise(
             name = "Cleveland Rocks",
             metroArea = Metro.CLEVELAND,
             championships = listOf(),
-            championshipAppearances = listOf(),
-            playoffAppearances = listOf(),
-            advancedInPlayoffs = listOf(),
+            championshipAppearances = listOf(1965, 1975),
+            playoffAppearances = listOf(1965, 1966, 1975, 1976, 1977),
+            advancedInPlayoffs = listOf(1965, 1975, 1977),
             bestInDivision = listOf(1965, 1966, 1975, 1976),
             bestInConference = listOf(1965, 1966, 1975, 1976),
             bestOverall = listOf(1965, 1966, 1975, 1976),
@@ -478,4 +496,56 @@ val `another franchise with all seasons having postseasons` = Franchise(
 val `a city with an MLB franchise that played in a season with no postseason, and one other franchise` = City(
     metroArea = Metro.CINCINNATI,
     franchises = listOf(`an mlb franchise with a season without a postseason`, `another franchise with all seasons having postseasons`)
+)
+
+val `a city with no postseason history` = City(
+    metroArea = Metro.BOSTON,
+    franchises = listOf(
+        Franchise(
+            name = "Boston Baked Beans",
+            firstSeason = 1990,
+            isDefunct = false,
+            timeline = listOf(
+                FranchiseTimeline(
+                    startSeason = 1990,
+                    name = "Boston Baked Beans",
+                    metroArea = Metro.BOSTON,
+                    championships = listOf(),
+                    championshipAppearances = listOf(),
+                    playoffAppearances = listOf(),
+                    advancedInPlayoffs = listOf(),
+                    bestInDivision = listOf(),
+                    bestInConference = listOf(),
+                    bestOverall = listOf(),
+                    worstInDivision = listOf(),
+                    worstInConference = listOf(),
+                    worstOverall = listOf()
+                )
+            )
+        )
+    )
+)
+
+val `a franchise that spans the start of multi-round playoffs` = Franchise(
+    name = "Miami Scarfaces",
+    firstSeason = 1960,
+    isDefunct = false,
+    league = League.MLB,
+    timeline = listOf(
+        FranchiseTimeline(
+            startSeason = 1960,
+            name = "Miami Scarfaces",
+            metroArea = Metro.MIAMI,
+            championships = listOf(),
+            championshipAppearances = listOf(1960, 1961, 1962, 1970, 1971, 1972),
+            playoffAppearances = listOf(1960, 1961, 1962, 1963, 1964, 1970, 1971, 1972, 1973, 1974),
+            advancedInPlayoffs = listOf(1960, 1961, 1962, 1963, 1970, 1971, 1972, 1973),
+            bestInDivision = listOf(),
+            bestInConference = listOf(),
+            bestOverall = listOf(),
+            worstInDivision = listOf(),
+            worstInConference = listOf(),
+            worstOverall = listOf()
+        )
+    )
 )

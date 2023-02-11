@@ -10,8 +10,11 @@ data class City(
     val totalPostSeasons = franchises.sumOf { it.totalPostSeasons }
     val totalChampionships = franchises.sumOf { it.totalChampionships }
     val championshipAppearances = franchises.sumOf { it.championshipAppearances }
+    private val championshipAppearancesInMultiRoundPlayoffYears = franchises.sumOf { it.championshipAppearancesInMultiRoundPlayoffYears }
     val advancedInPlayoffs = franchises.sumOf { it.advancedInPlayoffs }
+    private val advancedInPlayoffsInMultiRoundPlayoffYears = franchises.sumOf { it.advancedInPlayoffsInMultiRoundPlayoffYears }
     val playoffAppearances = franchises.sumOf { it.playoffAppearances }
+    private val playoffAppearancesInMultiRoundPlayoffYears = franchises.sumOf { it.playoffAppearancesInMultiRoundPlayoffYears }
     val bestInDivision = franchises.sumOf { it.bestInDivision }
     val bestInConference = franchises.sumOf { it.bestInConference }
     val bestOverall = franchises.sumOf { it.bestOverall }
@@ -28,4 +31,7 @@ data class City(
     val worstInDivisionPerSeason = worstInDivision.toDouble() / totalSeasonsWithDivisions
     val worstInConferencePerSeason = worstInConference.toDouble() / totalRegularSeasons
     val worstOverallPerSeason = worstOverall.toDouble() / totalRegularSeasons
+    val winningPercentageInFinals = if (championshipAppearances > 0) totalChampionships.toDouble() / championshipAppearances else null
+    val reachingFinalsPerPlayoffAppearance = if (playoffAppearancesInMultiRoundPlayoffYears > 0) championshipAppearancesInMultiRoundPlayoffYears.toDouble() / playoffAppearancesInMultiRoundPlayoffYears else null
+    val advancingInPlayoffsPerPlayoffAppearance = if (playoffAppearancesInMultiRoundPlayoffYears > 0) advancedInPlayoffsInMultiRoundPlayoffYears.toDouble() / playoffAppearancesInMultiRoundPlayoffYears else null
 }

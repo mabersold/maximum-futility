@@ -6,6 +6,7 @@ import mabersold.`a timeline from 1990-1999 with no data`
 import mabersold.`a timeline that is ready to be trimmed`
 import mabersold.`an old timeline that predates divisions`
 import mabersold.`a timeline that straddles the creation of divisions`
+import mabersold.`an old timeline with championship appearances and advancing in playoffs`
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
@@ -179,5 +180,94 @@ class FranchiseTimelineTest {
     fun `worstInDivision is correct when no league applied`() {
         assertEquals(2, `a timeline that straddles the creation of divisions`.worstInDivision().size)
         assertTrue(`a timeline that straddles the creation of divisions`.worstInDivision().containsAll(listOf(1965, 1972)))
+    }
+
+    @Test
+    fun `totalSeasonsWithMultiRoundPlayoffs is correct for range when all seasons have multi-round playoffs`() {
+        assertEquals(10, `a timeline from 1990-1999 with no data`.seasonsWithMultiRoundPlayoffs(League.MLB))
+    }
+
+    @Test
+    fun `totalSeasonsWithMultiRoundPlayoffs is correct for range when no seasons have multi-round playoffs`() {
+        assertEquals(0, `an old timeline that predates divisions`.seasonsWithMultiRoundPlayoffs(League.MLB))
+    }
+
+    @Test
+    fun `totalSeasonsWithMultiRoundPlayoffs is correct for range when some of the seasons have multi-round playoffs`() {
+        assertEquals(5, `a timeline that straddles the creation of divisions`.seasonsWithMultiRoundPlayoffs(League.MLB))
+    }
+
+    @Test
+    fun `totalSeasonsWithMultiRoundPlayoffs is correct with no league applied`() {
+        assertEquals(10, `a timeline that straddles the creation of divisions`.seasonsWithMultiRoundPlayoffs())
+    }
+
+    @Test
+    fun `advancedInPlayoffs is correct for range when all seasons have multi-round playoffs`() {
+        assertEquals(2, `a timeline from 1980-1989 with data`.advancedInPlayoffs(League.MLB).size)
+        assertTrue(`a timeline from 1980-1989 with data`.advancedInPlayoffs(League.MLB).containsAll(listOf(1985, 1986)))
+    }
+
+    @Test
+    fun `advancedInPlayoffs is correct for range when no seasons have multi-round playoffs`() {
+        assertEquals(0, `an old timeline with championship appearances and advancing in playoffs`.advancedInPlayoffs(League.MLB).size)
+    }
+
+    @Test
+    fun `advancedInPlayoffs is correct for range when some of the seasons have multi-round playoffs`() {
+        assertEquals(2, `a timeline that straddles the creation of divisions`.advancedInPlayoffs(League.MLB).size)
+        assertTrue(`a timeline that straddles the creation of divisions`.advancedInPlayoffs(League.MLB).containsAll(listOf(1971, 1973)))
+    }
+
+    @Test
+    fun `advancedInPlayoffs is correct with no league applied`() {
+        assertEquals(4, `a timeline that straddles the creation of divisions`.advancedInPlayoffs().size)
+        assertTrue(`a timeline that straddles the creation of divisions`.advancedInPlayoffs().containsAll(listOf(1967, 1968, 1971, 1973)))
+    }
+
+    @Test
+    fun `championshipAppearances is correct for range when all seasons have multi-round playoffs`() {
+        assertEquals(2, `a timeline from 1980-1989 with data`.championshipAppearances(League.MLB).size)
+        assertTrue(`a timeline from 1980-1989 with data`.championshipAppearances(League.MLB).containsAll(listOf(1985, 1986)))
+    }
+
+    @Test
+    fun `championshipAppearances is correct for range when no seasons have multi-round playoffs`() {
+        assertEquals(0, `an old timeline with championship appearances and advancing in playoffs`.championshipAppearances(League.MLB).size)
+    }
+
+    @Test
+    fun `championshipAppearances is correct for range when some of the seasons have multi-round playoffs`() {
+        assertEquals(1, `a timeline that straddles the creation of divisions`.championshipAppearances(League.MLB).size)
+        assertTrue(`a timeline that straddles the creation of divisions`.championshipAppearances(League.MLB).containsAll(listOf(1973)))
+    }
+
+    @Test
+    fun `championshipAppearances is correct with no league applied`() {
+        assertEquals(2, `a timeline that straddles the creation of divisions`.championshipAppearances().size)
+        assertTrue(`a timeline that straddles the creation of divisions`.championshipAppearances().containsAll(listOf(1964, 1973)))
+    }
+
+    @Test
+    fun `playoffAppearances is correct for range when all seasons have multi-round playoffs`() {
+        assertEquals(4, `a timeline from 1980-1989 with data`.playoffAppearances(League.MLB).size)
+        assertTrue(`a timeline from 1980-1989 with data`.playoffAppearances(League.MLB).containsAll(listOf(1985, 1986, 1987, 1988)))
+    }
+
+    @Test
+    fun `playoffAppearances is correct for range when no seasons have multi-round playoffs`() {
+        assertEquals(0, `an old timeline with championship appearances and advancing in playoffs`.playoffAppearances(League.MLB).size)
+    }
+
+    @Test
+    fun `playoffAppearances is correct for range when some of the seasons have multi-round playoffs`() {
+        assertEquals(3, `a timeline that straddles the creation of divisions`.playoffAppearances(League.MLB).size)
+        assertTrue(`a timeline that straddles the creation of divisions`.playoffAppearances(League.MLB).containsAll(listOf(1970, 1971, 1973)))
+    }
+
+    @Test
+    fun `playoffAppearances is correct with no league applied`() {
+        assertEquals(6, `a timeline that straddles the creation of divisions`.playoffAppearances().size)
+        assertTrue(`a timeline that straddles the creation of divisions`.playoffAppearances().containsAll(listOf(1964, 1967, 1968, 1970, 1971, 1973)))
     }
 }

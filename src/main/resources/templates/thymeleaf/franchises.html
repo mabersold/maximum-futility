@@ -30,6 +30,9 @@
             <th colspan="2">Worst in Division</th>
             <th colspan="2">Worst in Conference</th>
             <th colspan="2">Worst Overall</th>
+            <th colspan="1" rowspan="2" scope="col" data-sortable="true" data-sorter="percentSorter">Winning % in finals</th>
+            <th colspan="1" rowspan="2" scope="col" data-sortable="true" data-sorter="percentSorter">Reached finals per playoff</th>
+            <th colspan="1" rowspan="2" scope="col" data-sortable="true" data-sorter="percentSorter">Advanced in playoffs per playoffs</th>
         </tr>
         <tr>
             <th scope="col" data-sortable="true">#</th>
@@ -80,6 +83,9 @@
                 <td th:text="${#numbers.formatPercent(franchise.worstInConferencePerSeason, 1, 2)}"></td>
                 <td th:text="${franchise.worstOverall}"></td>
                 <td th:text="${#numbers.formatPercent(franchise.worstOverallPerSeason, 1, 2)}"></td>
+                <td th:text="${#numbers.formatPercent(franchise.winningPercentageInFinals, 1, 2)}"></td>
+                <td th:text="${#numbers.formatPercent(franchise.reachingFinalsPerPlayoffAppearance, 1, 2)}"></td>
+                <td th:text="${#numbers.formatPercent(franchise.advancingInPlayoffsPerPlayoffAppearance, 1, 2)}"></td>
             </tr>
         </tbody>
     </table>

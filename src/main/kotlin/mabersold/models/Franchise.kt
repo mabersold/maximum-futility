@@ -21,8 +21,11 @@ data class Franchise(
     val totalPostSeasons = timeline.sumOf { it.totalPostSeasons(league) }
     val totalChampionships = timeline.sumOf { it.championships.size }
     val championshipAppearances = timeline.sumOf { it.championshipAppearances.size }
+    val championshipAppearancesInMultiRoundPlayoffYears = timeline.sumOf { it.championshipAppearances(league).size }
     val advancedInPlayoffs = timeline.sumOf { it.advancedInPlayoffs.size }
+    val advancedInPlayoffsInMultiRoundPlayoffYears = timeline.sumOf { it.advancedInPlayoffs(league).size }
     val playoffAppearances = timeline.sumOf { it.playoffAppearances.size }
+    val playoffAppearancesInMultiRoundPlayoffYears = timeline.sumOf { it.playoffAppearances(league).size }
     val bestInDivision = timeline.sumOf { it.bestInDivision(league).size }
     val bestInConference = timeline.sumOf { it.bestInConference.size }
     val bestOverall = timeline.sumOf { it.bestOverall.size }
@@ -39,6 +42,9 @@ data class Franchise(
     val worstInDivisionPerSeason = worstInDivision.toDouble() / totalSeasonsWithDivisions
     val worstInConferencePerSeason = worstInConference.toDouble() / totalRegularSeasons
     val worstOverallPerSeason = worstOverall.toDouble() / totalRegularSeasons
+    val winningPercentageInFinals = if (championshipAppearances > 0) totalChampionships.toDouble() / championshipAppearances else null
+    val reachingFinalsPerPlayoffAppearance = if (playoffAppearancesInMultiRoundPlayoffYears > 0) championshipAppearancesInMultiRoundPlayoffYears.toDouble() / playoffAppearancesInMultiRoundPlayoffYears else null
+    val advancingInPlayoffsPerPlayoffAppearance = if (playoffAppearancesInMultiRoundPlayoffYears > 0) advancedInPlayoffsInMultiRoundPlayoffYears.toDouble() / playoffAppearancesInMultiRoundPlayoffYears else null
 
     fun withLeague(league: League) =
         this.copy(
@@ -119,6 +125,18 @@ data class FranchiseTimeline(
     fun worstInDivision(league: League? = null) =
         league?.let { l -> worstInDivision.filter { divisionTitle -> divisionTitle >= l.firstSeasonWithDivisions } } ?: worstInDivision
 
+    fun playoffAppearances(league: League? = null) =
+        league?.let { l -> playoffAppearances.filter { playoffYear -> playoffYear >= l.firstSeasonWithMultiRoundPlayoffs } } ?: playoffAppearances
+
+    fun advancedInPlayoffs(league: League? = null) =
+        league?.let { l -> advancedInPlayoffs.filter { advancedYear -> advancedYear >= l.firstSeasonWithMultiRoundPlayoffs } } ?: advancedInPlayoffs
+
+    fun championshipAppearances(league: League? = null) =
+        league?.let { l -> championshipAppearances.filter { appearanceYear -> appearanceYear >= l.firstSeasonWithMultiRoundPlayoffs } } ?: championshipAppearances
+
+    fun seasonsWithMultiRoundPlayoffs(league: League? = null) =
+        (startSeason..endSeason).toList().withMultiRoundPlayoffs(league).size
+
     private fun League?.extraSeasons() =
         this?.let {
             (startSeason..endSeason).intersect(it.doubleRegularSeasons.toSet()).size
@@ -128,6 +146,9 @@ data class FranchiseTimeline(
 
     private fun List<Int>.withDivisions(league: League?) =
         this.filter { season -> league?.let { l -> season >= l.firstSeasonWithDivisions } ?: true }
+
+    private fun List<Int>.withMultiRoundPlayoffs(league: League?) =
+        this.filter { season -> league?.let { l -> season >= l.firstSeasonWithMultiRoundPlayoffs } ?: true }
 }
 
 @Serializable

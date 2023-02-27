@@ -11,6 +11,10 @@ enum class Metro(val displayName: String) {
     BALTIMORE("Baltimore"),
     @SerialName("Boston")
     BOSTON("Boston"),
+    @SerialName("Buffalo")
+    BUFFALO("Buffalo"),
+    @SerialName("Charlotte")
+    CHARLOTTE("Charlotte"),
     @SerialName("Chicago")
     CHICAGO("Chicago"),
     @SerialName("Cincinnati")
@@ -25,12 +29,22 @@ enum class Metro(val displayName: String) {
     DETROIT("Detroit"),
     @SerialName("Grand Rapids")
     GRAND_RAPIDS("Grand Rapids"),
+    @SerialName("Green Bay")
+    GREEN_BAY("Green Bay"),
     @SerialName("Houston")
     HOUSTON("Houston"),
+    @SerialName("Indianapolis")
+    INDIANAPOLIS("Indianapolis"),
+    @SerialName("Jacksonville")
+    JACKSONVILLE("Jacksonville"),
     @SerialName("Kansas City")
     KANSAS_CITY("Kansas City"),
+    @SerialName("Las Vegas")
+    LAS_VEGAS("Las Vegas"),
     @SerialName("Los Angeles")
     LOS_ANGELES("Los Angeles"),
+    @SerialName("Memphis")
+    MEMPHIS("Memphis"),
     @SerialName("Miami")
     MIAMI("Miami"),
     @SerialName("Milwaukee")
@@ -39,6 +53,10 @@ enum class Metro(val displayName: String) {
     MINNEAPOLIS("Minneapolis"),
     @SerialName("Montreal")
     MONTREAL("Montreal"),
+    @SerialName("Nashville")
+    NASHVILLE("Nashville"),
+    @SerialName("New Orleans")
+    NEW_ORLEANS("New Orleans"),
     @SerialName("New York")
     NEW_YORK("New York"),
     @SerialName("Philadelphia")

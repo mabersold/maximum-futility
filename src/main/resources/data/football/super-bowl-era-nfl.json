@@ -1,0 +1,961 @@
+[
+  {
+    "name": "Arizona Cardinals",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "end_season": 1987,
+        "name": "St. Louis Cardinals",
+        "metro_area": "St. Louis",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1974, 1975, 1982],
+        "advanced_in_playoffs": [],
+        "best_in_division": [1974, 1975],
+        "best_in_conference": [1974],
+        "best_overall": [],
+        "worst_in_division": [1979, 1981, 1985, 1986],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1988,
+        "end_season": 1993,
+        "name": "Phoenix Cardinals",
+        "metro_area": "Phoenix",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1990, 1991, 1992],
+        "worst_in_conference": [1990, 1992],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1994,
+        "name": "Arizona Cardinals",
+        "metro_area": "Phoenix",
+        "championships": [],
+        "championship_appearances": [2008],
+        "playoff_appearances": [1995, 1998, 2008, 2009, 2014, 2015, 2021],
+        "advanced_in_playoffs": [1998, 2008, 2009, 2015],
+        "best_in_division": [2008, 2009, 2015],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1995, 1997, 2000, 2002, 2003, 2006, 2010, 2012, 2018, 2019, 2022],
+        "worst_in_conference": [1995, 1997, 2000, 2003, 2018],
+        "worst_overall": [2003, 2018]
+      }
+    ]
+  },
+  {
+    "name": "Atlanta Falcons",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Atlanta Falcons",
+        "metro_area": "Atlanta",
+        "championships": [],
+        "championship_appearances": [1998, 2016],
+        "playoff_appearances": [1978, 1980, 1982, 1991, 1998, 2002, 2004, 2008, 2010, 2011, 2012, 2016, 2017],
+        "advanced_in_playoffs": [1978, 1991, 1998, 2002, 2004, 2012, 2016, 2017],
+        "best_in_division": [1980, 1982, 2004, 2010, 2012, 2016],
+        "best_in_conference": [1980, 2010, 2012],
+        "best_overall": [1980, 2012],
+        "worst_in_division": [1967, 1968, 1974, 1983, 1984, 1985, 1987, 1988, 1989, 1990, 1992, 1996, 1998, 2000, 2003, 2007, 2013, 2020, 2022],
+        "worst_in_conference": [1967, 1968, 1987, 1990, 1996, 2020],
+        "worst_overall": [1967, 1987]
+      }
+    ]
+  },
+  {
+    "name": "Baltimore Ravens",
+    "first_season": 1996,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1996,
+        "name": "Baltimore Ravens",
+        "metro_area": "Baltimore",
+        "championships": [2000, 2012],
+        "championship_appearances": [2000, 2012],
+        "playoff_appearances": [2000, 2001, 2003, 2006, 2008, 2009, 2010, 2011, 2012, 2014, 2018, 2019, 2022],
+        "advanced_in_playoffs": [2000, 2001, 2008, 2009, 2010, 2011, 2012, 2014],
+        "best_in_division": [2003, 2006, 2010, 2011, 2012, 2018, 2019],
+        "best_in_conference": [2019],
+        "best_overall": [2019],
+        "worst_in_division": [1996, 1997, 2005, 2007, 2021],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Buffalo Bills",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Buffalo Bills",
+        "metro_area": "Buffalo",
+        "championships": [],
+        "championship_appearances": [1990, 1991, 1992, 1993],
+        "playoff_appearances": [1966, 1974, 1980, 1981, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 1996, 1998, 1999, 2017, 2019, 2020, 2021, 2022],
+        "advanced_in_playoffs": [1981, 1988, 1990, 1991, 1992, 1993, 1995, 2020, 2021, 2022],
+        "best_in_division": [1966, 1980, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 2020, 2021, 2022],
+        "best_in_conference": [1980, 1988, 1990, 1991, 1992, 1993],
+        "best_overall": [1988, 1993],
+        "worst_in_division": [1968, 1971, 1976, 1977, 1978, 1984, 1985, 2001, 2002, 2003, 2008, 2009, 2010, 2011, 2013],
+        "worst_in_conference": [1968, 1971, 1984, 1985, 2001, 2010],
+        "worst_overall": [1968, 1971, 1984, 1985]
+      }
+    ]
+  },
+  {
+    "name": "Carolina Panthers",
+    "first_season": 1995,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1995,
+        "name": "Carolina Panthers",
+        "metro_area": "Charlotte",
+        "championships": [],
+        "championship_appearances": [2003, 2015],
+        "playoff_appearances": [1996, 2003, 2005, 2008, 2013, 2014, 2015, 2017],
+        "advanced_in_playoffs": [1996, 2003, 2005, 2014, 2015],
+        "best_in_division": [1996, 2003, 2008, 2013, 2014, 2015, 2017],
+        "best_in_conference": [2008, 2015],
+        "best_overall": [2015],
+        "worst_in_division": [1995, 1998, 2001, 2002, 2010, 2012, 2016, 2019, 2021, 2022],
+        "worst_in_conference": [2001, 2010],
+        "worst_overall": [2001, 2010]
+      }
+    ]
+  },
+  {
+    "name": "Chicago Bears",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Chicago Bears",
+        "metro_area": "Chicago",
+        "championships": [1985],
+        "championship_appearances": [1985, 2006],
+        "playoff_appearances": [1977, 1979, 1984, 1985, 1986, 1987, 1988, 1990, 1991, 1994, 2001, 2005, 2006, 2010, 2018, 2020],
+        "advanced_in_playoffs": [1984, 1985, 1988, 1990, 1994, 2001, 2006, 2010],
+        "best_in_division": [1979, 1984, 1985, 1986, 1988, 1990, 2001, 2005, 2006, 2010, 2018],
+        "best_in_conference": [1985, 1986, 1988, 2006],
+        "best_overall": [1985, 1986, 1988],
+        "worst_in_division": [1969, 1970, 1972, 1973, 1974, 1975, 1981, 1982, 1987, 1992, 1997, 1998, 1999, 2000, 2004, 2007, 2014, 2015, 2016, 2017, 2022],
+        "worst_in_conference": [1969, 1997, 2022],
+        "worst_overall": [1969, 2022]
+      }
+    ]
+  },
+  {
+    "name": "Cincinnati Bengals",
+    "first_season": 1968,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1968,
+        "name": "Cincinnati Bengals",
+        "metro_area": "Cincinnati",
+        "championships": [],
+        "championship_appearances": [1981, 1988, 2021],
+        "playoff_appearances": [1970, 1973, 1975, 1981, 1982, 1988, 1990, 2005, 2009, 2011, 2012, 2013, 2014, 2015, 2021, 2022],
+        "advanced_in_playoffs": [1981, 1988, 1990, 2021, 2022],
+        "best_in_division": [1970, 1973, 1976, 1981, 1982, 1988, 1990, 2005, 2009, 2012, 2013, 2015, 2021, 2022],
+        "best_in_conference": [1981, 1988, 2015],
+        "best_overall": [1988],
+        "worst_in_division": [1968, 1969, 1971, 1978, 1979, 1980, 1987, 1989, 1991, 1992, 1993, 1998, 2001, 2002, 2010, 2018, 2019, 2020],
+        "worst_in_conference": [1978, 1979, 1987, 1993, 1998, 2002, 2010, 2019],
+        "worst_overall": [1993, 1998, 2002, 2019]
+      }
+    ]
+  },
+  {
+    "name": "Cleveland Browns",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "end_season": 1995,
+        "name": "Cleveland Browns",
+        "metro_area": "Cleveland",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1967, 1968, 1969, 1971, 1972, 1980, 1982, 1985, 1986, 1987, 1988, 1989, 1994],
+        "advanced_in_playoffs": [1968, 1969, 1986, 1987, 1989, 1994],
+        "best_in_division": [1967, 1968, 1969, 1971, 1980, 1985, 1986, 1987, 1989],
+        "best_in_conference": [1980, 1986],
+        "best_overall": [],
+        "worst_in_division": [1974, 1975, 1977, 1981, 1990],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1999,
+        "name": "Cleveland Browns",
+        "metro_area": "Cleveland",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2002, 2020],
+        "advanced_in_playoffs": [2020],
+        "best_in_division": [2007],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1999, 2000, 2003, 2004, 2005, 2006, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2021, 2022],
+        "worst_in_conference": [1999, 2004, 2015, 2016, 2017],
+        "worst_overall": [1999, 2015, 2016, 2017]
+      }
+    ]
+  },
+  {
+    "name": "Dallas Cowboys",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Dallas Cowboys",
+        "metro_area": "Dallas",
+        "championships": [1971, 1977, 1992, 1993, 1995],
+        "championship_appearances": [1970, 1971, 1975, 1977, 1978, 1992, 1993, 1995],
+        "playoff_appearances": [1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1985, 1991, 1992, 1993, 1994, 1995, 1996, 1998, 1999, 2003, 2006, 2007, 2009, 2014, 2016, 2018, 2021, 2022],
+        "advanced_in_playoffs": [1967, 1970, 1971, 1972, 1973, 1975, 1977, 1978, 1980, 1981, 1982, 1991, 1992, 1993, 1994, 1995, 1996, 2009, 2014, 2018, 2022],
+        "best_in_division": [1966, 1967, 1969, 1970, 1971, 1973, 1976, 1977, 1978, 1979, 1980, 1981, 1985, 1992, 1993, 1994, 1995, 1996, 1998, 2007, 2009, 2014, 2016, 2018, 2021],
+        "best_in_conference": [1971, 1977, 1978, 1979, 1980, 1993, 1995, 2007, 2014, 2016],
+        "best_overall": [1971, 1977, 1980, 1993, 2014],
+        "worst_in_division": [1968, 1988, 1989, 2001, 2002, 2004, 2010, 2015],
+        "worst_in_conference": [1988, 1989, 2015],
+        "worst_overall": [1988, 1989]
+      }
+    ]
+  },
+  {
+    "name": "Denver Broncos",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Denver Broncos",
+        "metro_area": "Denver",
+        "championships": [1997, 1998, 2015],
+        "championship_appearances": [1977, 1986, 1987, 1989, 1997, 1998, 2013, 2015],
+        "playoff_appearances": [1977, 1978, 1979, 1983, 1984, 1986, 1987, 1989, 1991, 1993, 1996, 1997, 1998, 2000, 2003, 2004, 2005, 2011, 2012, 2013, 2014, 2015],
+        "advanced_in_playoffs": [1977, 1986, 1987, 1989, 1991, 1997, 1998, 2005, 2011, 2013, 2015],
+        "best_in_division": [1977, 1978, 1981, 1984, 1986, 1987, 1989, 1991, 1996, 1998, 2005, 2008, 2011, 2012, 2013, 2014, 2015],
+        "best_in_conference": [1977, 1987, 1989, 1996, 1998, 2012, 2013, 2014, 2015],
+        "best_overall": [1977, 1996, 2012, 2013, 2014],
+        "worst_in_division": [1966, 1970, 1971, 1982, 1990, 1999, 2010, 2017, 2020, 2021, 2022],
+        "worst_in_conference": [2010],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Detroit Lions",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Detroit Lions",
+        "metro_area": "Detroit",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1970, 1982, 1983, 1991, 1993, 1994, 1995, 1997, 1999, 2011, 2014, 2016],
+        "advanced_in_playoffs": [1991],
+        "best_in_division": [1983, 1991, 1993],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1968, 1979, 1987, 1988, 1990, 1992, 1996, 2001, 2002, 2003, 2006, 2007, 2008, 2009, 2010, 2012, 2018, 2019, 2020, 2021],
+        "worst_in_conference": [1979, 2002, 2006, 2008, 2012, 2021],
+        "worst_overall": [1979, 2008]
+      }
+    ]
+  },
+  {
+    "name": "Green Bay Packers",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Green Bay Packers",
+        "metro_area": "Green Bay",
+        "championships": [1966, 1967, 1996, 2010],
+        "championship_appearances": [1966, 1967, 1996, 1997, 2010],
+        "playoff_appearances": [1966, 1967, 1972, 1982, 1993, 1994, 1995, 1996, 1997, 1998, 2001, 2002, 2003, 2004, 2007, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2019, 2020, 2021],
+        "advanced_in_playoffs": [1966, 1967, 1982, 1993, 1994, 1995, 1996, 1997, 2001, 2003, 2007, 2010, 2012, 2014, 2015, 2016, 2019, 2020],
+        "best_in_division": [1966, 1967, 1972, 1982, 1989, 1995, 1996, 1997, 2002, 2003, 2004, 2007, 2011, 2012, 2013, 2014, 2016, 2019, 2020, 2021],
+        "best_in_conference": [1966, 1996, 1997, 2002, 2007, 2011, 2014, 2019, 2020, 2021],
+        "best_overall": [1966, 1996, 1997, 2002, 2011, 2014, 2021],
+        "worst_in_division": [1971, 1975, 1976, 1980, 1988, 1990, 2005],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Houston Texans",
+    "first_season": 2002,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 2002,
+        "name": "Houston Texans",
+        "metro_area": "Houston",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2011, 2012, 2015, 2016, 2018, 2019],
+        "advanced_in_playoffs": [2011, 2012, 2016, 2019],
+        "best_in_division": [2011, 2012, 2015, 2016, 2018, 2019],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [2002, 2003, 2005, 2006, 2007, 2010, 2013, 2017, 2022],
+        "worst_in_conference": [2005, 2013, 2022],
+        "worst_overall": [2005, 2013]
+      }
+    ]
+  },
+  {
+    "name": "Indianapolis Colts",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "end_season": 1983,
+        "name": "Baltimore Colts",
+        "metro_area": "Baltimore",
+        "championships": [1971],
+        "championship_appearances": [1968, 1971],
+        "playoff_appearances": [1968, 1970, 1971, 1975, 1976, 1977],
+        "advanced_in_playoffs": [1968, 1970, 1971],
+        "best_in_division": [1968, 1970, 1975, 1976, 1977],
+        "best_in_conference": [1968, 1970],
+        "best_overall": [1968],
+        "worst_in_division": [1973, 1974, 1978, 1979, 1981, 1982, 1983],
+        "worst_in_conference": [1974, 1981, 1982],
+        "worst_overall": [1974, 1981, 1982]
+      },
+      {
+        "start_season": 1984,
+        "name": "Indianapolis Colts",
+        "metro_area": "Indianapolis",
+        "championships": [2006],
+        "championship_appearances": [2006, 2009],
+        "playoff_appearances": [1987, 1995, 1996, 1999, 2000, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2012, 2013, 2014, 2018, 2020],
+        "advanced_in_playoffs": [1995, 2002, 2003, 2004, 2006, 2007, 2009, 2013, 2014, 2018],
+        "best_in_division": [1987, 1999, 2003, 2004, 2005, 2006, 2007, 2009, 2010, 2013, 2014, 2020],
+        "best_in_conference": [2005, 2009],
+        "best_overall": [2005, 2009],
+        "worst_in_division": [1986, 1991, 1993, 1997, 1998, 2011, 2017],
+        "worst_in_conference": [1986, 1991, 1997, 1998, 2011],
+        "worst_overall": [1991, 1997, 1998, 2011]
+      }
+    ]
+  },
+  {
+    "name": "Jacksonville Jaguars",
+    "first_season": 1995,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1995,
+        "name": "Jacksonville Jaguars",
+        "metro_area": "Jacksonville",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1996, 1997, 1998, 1999, 2005, 2007, 2017, 2022],
+        "advanced_in_playoffs": [1996, 1998, 1999, 2007, 2017, 2022],
+        "best_in_division": [1998, 1999, 2017, 2022],
+        "best_in_conference": [1999],
+        "best_overall": [1999],
+        "worst_in_division": [2001, 2003, 2008, 2009, 2012, 2016, 2018, 2019, 2020, 2021],
+        "worst_in_conference": [2012, 2020, 2021],
+        "worst_overall": [2012, 2020, 2021]
+      }
+    ]
+  },
+  {
+    "name": "Kansas City Chiefs",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Kansas City Chiefs",
+        "metro_area": "Kansas City",
+        "championships": [1969, 2019, 2022],
+        "championship_appearances": [1966, 1969, 2019, 2020, 2022],
+        "playoff_appearances": [1966, 1969, 1971, 1986, 1990, 1991, 1992, 1993, 1994, 1995, 1997, 2003, 2006, 2010, 2013, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+        "advanced_in_playoffs": [1966, 1969, 1991, 1993, 2015, 2018, 2019, 2020, 2021, 2022],
+        "best_in_division": [1966, 1968, 1971, 1993, 1995, 1997, 1999, 2003, 2010, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+        "best_in_conference": [1966, 1968, 1971, 1995, 1997, 2018, 2020, 2021, 2022],
+        "best_overall": [1995, 1997, 2020, 2022],
+        "worst_in_division": [1974, 1977, 1978, 1979, 1983, 1985, 1987, 1988, 2002, 2007, 2008, 2009, 2011, 2012],
+        "worst_in_conference": [1977, 1978, 1987, 1988, 2008, 2009, 2012],
+        "worst_overall": [1977, 2012]
+      }
+    ]
+  },
+  {
+    "name": "Las Vegas Raiders",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "end_season": 1981,
+        "name": "Oakland Raiders",
+        "metro_area": "San Francisco Bay",
+        "championships": [1976, 1980],
+        "championship_appearances": [1967, 1976, 1980],
+        "playoff_appearances": [1967, 1968, 1969, 1970, 1972, 1973, 1974, 1975, 1976, 1977, 1980],
+        "advanced_in_playoffs": [1967, 1969, 1970, 1973, 1974, 1975, 1976, 1977, 1980],
+        "best_in_division": [1967, 1968, 1969, 1970, 1972, 1973, 1974, 1975, 1976, 1980],
+        "best_in_conference": [1967, 1968, 1969, 1974, 1976, 1980],
+        "best_overall": [1967, 1969, 1974, 1976],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1982,
+        "end_season": 1994,
+        "name": "Los Angeles Raiders",
+        "metro_area": "Los Angeles",
+        "championships": [1983],
+        "championship_appearances": [1983],
+        "playoff_appearances": [1982, 1983, 1984, 1985, 1990, 1991, 1993],
+        "advanced_in_playoffs": [1982, 1983, 1990, 1993],
+        "best_in_division": [1982, 1983, 1985, 1990],
+        "best_in_conference": [1982, 1983, 1985],
+        "best_overall": [1982],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1995,
+        "end_season": 2019,
+        "name": "Oakland Raiders",
+        "metro_area": "San Francisco Bay",
+        "championships": [],
+        "championship_appearances": [2002],
+        "playoff_appearances": [2000, 2001, 2002, 2016],
+        "advanced_in_playoffs": [2000, 2001, 2002],
+        "best_in_division": [2000, 2001, 2002, 2011, 2016],
+        "best_in_conference": [2002],
+        "best_overall": [],
+        "worst_in_division": [1996, 1997, 2003, 2004, 2005, 2006, 2007, 2013, 2014, 2018],
+        "worst_in_conference": [2003, 2006, 2018],
+        "worst_overall": [2003, 2006]
+      },{
+        "start_season": 2020,
+        "name": "Las Vegas Raiders",
+        "metro_area": "Las Vegas",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2021],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Los Angeles Chargers",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "end_season": 2016,
+        "name": "San Diego Chargers",
+        "metro_area": "San Diego",
+        "championships": [],
+        "championship_appearances": [1994],
+        "playoff_appearances": [1979, 1980, 1981, 1982, 1992, 1994, 1995, 2004, 2006, 2007, 2008, 2009, 2013],
+        "advanced_in_playoffs": [1980, 1981, 1982, 1992, 1994, 2004, 2007, 2008, 2013],
+        "best_in_division": [1979, 1980, 1981, 1992, 1994, 2004, 2006, 2007, 2008, 2009, 2011],
+        "best_in_conference": [1979, 1980, 1992, 2006],
+        "best_overall": [1979, 2006],
+        "worst_in_division": [1972, 1973, 1974, 1975, 1983, 1984, 1986, 1989, 1991, 1997, 1998, 2000, 2001, 2002, 2003, 2015, 2016],
+        "worst_in_conference": [1975, 2000, 2003],
+        "worst_overall": [1975, 2000, 2003]
+      },
+      {
+        "start_season": 2017,
+        "name": "Los Angeles Chargers",
+        "metro_area": "Los Angeles",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2018, 2022],
+        "advanced_in_playoffs": [2018],
+        "best_in_division": [2018],
+        "best_in_conference": [2018],
+        "best_overall": [],
+        "worst_in_division": [2019],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Los Angeles Rams",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "end_season": 1994,
+        "name": "Los Angeles Rams",
+        "metro_area": "Los Angeles",
+        "championships": [],
+        "championship_appearances": [1979],
+        "playoff_appearances": [1967, 1969, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1983, 1984, 1985, 1986, 1988, 1989],
+        "advanced_in_playoffs": [1974, 1975, 1976, 1978, 1979, 1983, 1985, 1989],
+        "best_in_division": [1967, 1969, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1985, 1988],
+        "best_in_conference": [1967, 1973, 1974, 1975, 1978],
+        "best_overall": [1973, 1975],
+        "worst_in_division": [1982, 1990, 1991, 1992, 1993, 1994],
+        "worst_in_conference": [1982, 1990, 1991],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1995,
+        "end_season": 2015,
+        "name": "St. Louis Rams",
+        "metro_area": "St. Louis",
+        "championships": [1999],
+        "championship_appearances": [1999, 2001],
+        "playoff_appearances": [1999, 2000, 2001, 2003, 2004],
+        "advanced_in_playoffs": [1999, 2001, 2004],
+        "best_in_division": [1999, 2000, 2001, 2003, 2010],
+        "best_in_conference": [1999, 2001, 2003],
+        "best_overall": [2001],
+        "worst_in_division": [1995, 1997, 1998, 2007, 2008, 2009, 2011, 2013, 2014],
+        "worst_in_conference": [2007, 2009, 2011],
+        "worst_overall": [2009, 2011]
+      },
+      {
+        "start_season": 2016,
+        "name": "Los Angeles Rams",
+        "metro_area": "Los Angeles",
+        "championships": [2021],
+        "championship_appearances": [2018, 2021],
+        "playoff_appearances": [2017, 2018, 2020, 2021],
+        "advanced_in_playoffs": [2018, 2020, 2021],
+        "best_in_division": [2017, 2018, 2021],
+        "best_in_conference": [2018],
+        "best_overall": [2018],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Miami Dolphins",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Miami Dolphins",
+        "metro_area": "Miami",
+        "championships": [1972, 1973],
+        "championship_appearances": [1971, 1972, 1973, 1982, 1984],
+        "playoff_appearances": [1970, 1971, 1972, 1973, 1974, 1978, 1979, 1981, 1982, 1983, 1984, 1985, 1990, 1992, 1994, 1995, 1997, 1998, 1999, 2000, 2001, 2008, 2016, 2022],
+        "advanced_in_playoffs": [1971, 1972, 1973, 1984, 1985, 1990, 1992, 1994, 1998, 1999, 2000],
+        "best_in_division": [1971, 1972, 1973, 1974, 1975, 1977, 1978, 1979, 1981, 1982, 1983, 1984, 1985, 1992, 1994, 2000, 2001, 2002, 2008],
+        "best_in_conference": [1971, 1972, 1973, 1983, 1984, 1985, 1992],
+        "best_overall": [1972, 1973],
+        "worst_in_division": [1966, 1969, 1988, 2004, 2006, 2007, 2011, 2015, 2019],
+        "worst_in_conference": [1966, 1969, 2004, 2007],
+        "worst_overall": [2007]
+      }
+    ]
+  },
+  {
+    "name": "Minnesota Vikings",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Minnesota Vikings",
+        "metro_area": "Minneapolis",
+        "championships": [],
+        "championship_appearances": [1969, 1973, 1974, 1976],
+        "playoff_appearances": [1968, 1969, 1970, 1971, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1987, 1988, 1989, 1992, 1993, 1994, 1996, 1997, 1998, 1999, 2000, 2004, 2008, 2009, 2012, 2015, 2017, 2019, 2022],
+        "advanced_in_playoffs": [1969, 1973, 1974, 1976, 1977, 1982, 1987, 1988, 1997, 1998, 1999, 2000, 2004, 2009, 2017, 2019],
+        "best_in_division": [1968, 1969, 1970, 1971, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1989, 1992, 1994, 1998, 2000, 2008, 2009, 2015, 2017, 2022],
+        "best_in_conference": [1969, 1970, 1971, 1973, 1974, 1975, 1976, 1998, 2017],
+        "best_overall": [1970, 1971, 1973, 1975, 1998, 2017],
+        "worst_in_division": [1966, 1967, 1984, 1990, 2010, 2011, 2013],
+        "worst_in_conference": [1984],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "New England Patriots",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "end_season": 1970,
+        "name": "Boston Patriots",
+        "metro_area": "Boston",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1970],
+        "worst_in_conference": [1970],
+        "worst_overall": [1970]
+      },
+      {
+        "start_season": 1971,
+        "name": "New England Patriots",
+        "metro_area": "Boston",
+        "championships": [2001, 2003, 2004, 2014, 2016, 2018],
+        "championship_appearances": [1985, 1996, 2001, 2003, 2004, 2007, 2011, 2014, 2016, 2017, 2018],
+        "playoff_appearances": [1976, 1978, 1982, 1985, 1986, 1994, 1996, 1997, 1998, 2001, 2003, 2004, 2005, 2006, 2007, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021],
+        "advanced_in_playoffs": [1985, 1996, 1997, 2001, 2003, 2004, 2005, 2006, 2007, 2011, 2012, 2013, 2014, 2015, 2017, 2018],
+        "best_in_division": [1976, 1978, 1986, 1994, 1996, 1997, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+        "best_in_conference": [2003, 2007, 2010, 2011, 2014, 2015, 2016, 2017],
+        "best_overall": [2003, 2007, 2010, 2014, 2016, 2017],
+        "worst_in_division": [1972, 1975, 1981, 1990, 1992, 1999, 2000],
+        "worst_in_conference": [1981, 1990, 1992],
+        "worst_overall": [1981, 1990, 1992]
+      }
+    ]
+  },
+  {
+    "name": "New Orleans Saints",
+    "first_season": 1967,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1967,
+        "name": "New Orleans Saints",
+        "metro_area": "New Orleans",
+        "championships": [2009],
+        "championship_appearances": [2009],
+        "playoff_appearances": [1987, 1990, 1991, 1992, 2000, 2006, 2009, 2010, 2011, 2013, 2017, 2018, 2019, 2020],
+        "advanced_in_playoffs": [2000, 2006, 2009, 2011, 2013, 2017, 2018, 2020],
+        "best_in_division": [1991, 2000, 2006, 2009, 2011, 2017, 2018, 2019, 2020],
+        "best_in_conference": [2009, 2018, 2019],
+        "best_overall": [2018],
+        "worst_in_division": [1967, 1970, 1971, 1972, 1973, 1975, 1977, 1980, 1981, 1986, 1988, 1995, 1996, 1999, 2005, 2008, 2012, 2022],
+        "worst_in_conference": [1970, 1972, 1975, 1980, 1981, 1996, 1999, 2005],
+        "worst_overall": [1975, 1980]
+      }
+    ]
+  },
+  {
+    "name": "New York Giants",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "New York Giants",
+        "metro_area": "New York",
+        "championships": [1986, 1990, 2007, 2011],
+        "championship_appearances": [1986, 1990, 2000, 2007, 2011],
+        "playoff_appearances": [1981, 1984, 1985, 1986, 1989, 1990, 1993, 1997, 2000, 2002, 2005, 2006, 2007, 2008, 2011, 2016, 2022],
+        "advanced_in_playoffs": [1981, 1984, 1985, 1986, 1990, 1993, 2000, 2007, 2011, 2022],
+        "best_in_division": [1985, 1986, 1988, 1989, 1990, 1997, 2000, 2005, 2008, 2010, 2011],
+        "best_in_conference": [1986, 2000, 2008],
+        "best_overall": [1986],
+        "worst_in_division": [1966, 1971, 1973, 1974, 1976, 1977, 1978, 1980, 1983, 1987, 1996, 2003, 2004, 2017, 2018, 2021],
+        "worst_in_conference": [1966, 1971, 1973, 1974, 2003, 2017],
+        "worst_overall": [1966, 1974, 2003]
+      }
+    ]
+  },
+  {
+    "name": "New York Jets",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "New York Jets",
+        "metro_area": "New York",
+        "championships": [1968],
+        "championship_appearances": [1968],
+        "playoff_appearances": [1968, 1969, 1981, 1982, 1985, 1986, 1991, 1998, 2001, 2002, 2004, 2006, 2009, 2010],
+        "advanced_in_playoffs": [1968, 1982, 1986, 1998, 2002, 2004, 2009, 2010],
+        "best_in_division": [1968, 1969, 1998, 2002],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1975, 1977, 1980, 1983, 1987, 1989, 1994, 1995, 1996, 1999, 2003, 2005, 2012, 2014, 2016, 2017, 2018, 2020, 2021, 2022],
+        "worst_in_conference": [1980, 1989, 1995, 1996, 2012, 2018],
+        "worst_overall": [1995, 1996]
+      }
+    ]
+  },
+  {
+    "name": "Philadelphia Eagles",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Philadelphia Eagles",
+        "metro_area": "Philadelphia",
+        "championships": [2017],
+        "championship_appearances": [1980, 2004, 2017, 2022],
+        "playoff_appearances": [1978, 1979, 1980, 1981, 1988, 1989, 1990, 1992, 1995, 1996, 2000, 2001, 2002, 2003, 2004, 2006, 2008, 2009, 2010, 2013, 2017, 2018, 2019, 2021, 2021, 2022],
+        "advanced_in_playoffs": [1979, 1980, 1992, 1995, 2000, 2001, 2002, 2003, 2004, 2006, 2008, 2017, 2018, 2022],
+        "best_in_division": [1979, 1980, 1988, 1996, 2001, 2002, 2003, 2004, 2006, 2009, 2010, 2013, 2017, 2019, 2022],
+        "best_in_conference": [1979, 1980, 2002, 2003, 2004, 2017, 2022],
+        "best_overall": [1980, 2002, 2017, 2022],
+        "worst_in_division": [1968, 1969, 1970, 1972, 1975, 1977, 1982, 1984, 1998, 1999, 2005, 2007, 2012, 2016, 2020],
+        "worst_in_conference": [1968, 1972, 1998, 2012],
+        "worst_overall": [1998]
+      }
+    ]
+  },
+  {
+    "name": "Pittsburgh Steelers",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "Pittsburgh Steelers",
+        "metro_area": "Pittsburgh",
+        "championships": [1974, 1975, 1978, 1979, 2005, 2008],
+        "championship_appearances": [1974, 1975, 1978, 1979, 1995, 2005, 2008, 2010],
+        "playoff_appearances": [1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1982, 1983, 1984, 1989, 1992, 1993, 1994, 1995, 1996, 1997, 2001, 2002, 2004, 2005, 2007, 2008, 2010, 2011, 2014, 2015, 2016, 2017, 2020],
+        "advanced_in_playoffs": [1972, 1974, 1975, 1976, 1978, 1979, 1984, 1989, 1994, 1995, 1996, 1997, 2001, 2002, 2004, 2005, 2008, 2010, 2015, 2016],
+        "best_in_division": [1972, 1974, 1975, 1976, 1977, 1978, 1979, 1983, 1984, 1990, 1992, 1994, 1995, 1996, 1997, 2001, 2002, 2004, 2005, 2007, 2008, 2010, 2011, 2014, 2016, 2017, 2020],
+        "best_in_conference": [1975, 1978, 1979, 1992, 1994, 2001, 2004, 2017],
+        "best_overall": [1975, 1978, 1979, 2004, 2017],
+        "worst_in_division": [1967, 1968, 1969, 1988],
+        "worst_in_conference": [1969],
+        "worst_overall": [1969]
+      }
+    ]
+  },
+  {
+    "name": "San Francisco 49ers",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "name": "San Francisco 49ers",
+        "metro_area": "San Francisco Bay",
+        "championships": [1981, 1984, 1988, 1989, 1994],
+        "championship_appearances": [1981, 1984, 1988, 1989, 1994, 2012, 2019],
+        "playoff_appearances": [1970, 1971, 1972, 1981, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 2001, 2002, 2011, 2012, 2013, 2019, 2021, 2022],
+        "advanced_in_playoffs": [1970, 1971, 1981, 1983, 1984, 1988, 1989, 1990, 1992, 1993, 1994, 1996, 1997, 1998, 2002, 2011, 2012, 2013, 2019, 2021, 2022],
+        "best_in_division": [1970, 1971, 1972, 1981, 1983, 1984, 1986, 1987, 1988, 1989, 1990, 1992, 1993, 1994, 1995, 1996, 1997, 2002, 2011, 2012, 2019, 2022],
+        "best_in_conference": [1981, 1984, 1987, 1989, 1990, 1992, 1994, 1997, 2019],
+        "best_overall": [1981, 1984, 1987, 1989, 1990, 1992, 1994, 1997],
+        "worst_in_division": [1969, 1973, 1978, 1979, 2004, 2005, 2015, 2016, 2017, 2020],
+        "worst_in_conference": [1978, 1979, 2004, 2016],
+        "worst_overall": [1978, 1979, 2004]
+      }
+    ]
+  },
+  {
+    "name": "Seattle Seahawks",
+    "first_season": 1976,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1976,
+        "name": "Seattle Seahawks",
+        "metro_area": "Seattle",
+        "championships": [2013],
+        "championship_appearances": [2005, 2013, 2014],
+        "playoff_appearances": [1983, 1984, 1987, 1988, 1999, 2003, 2004, 2005, 2006, 2007, 2010, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2022],
+        "advanced_in_playoffs": [1983, 1984, 2005, 2006, 2007, 2010, 2012, 2013, 2014, 2015, 2016, 2019],
+        "best_in_division": [1988, 1999, 2004, 2005, 2006, 2007, 2010, 2013, 2014, 2016, 2020],
+        "best_in_conference": [2005, 2013, 2014],
+        "best_overall": [2013, 2014],
+        "worst_in_division": [1976, 1980, 1981, 1992, 1993, 1994, 1996, 2021],
+        "worst_in_conference": [1976, 1980, 1992],
+        "worst_overall": [1992]
+      }
+    ]
+  },
+  {
+    "name": "Tampa Bay Buccaneers",
+    "first_season": 1976,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1976,
+        "name": "Tampa Bay Buccaneers",
+        "metro_area": "Tampa Bay",
+        "championships": [2002, 2020],
+        "championship_appearances": [2002, 2020],
+        "playoff_appearances": [1979, 1981, 1982, 1997, 1999, 2000, 2001, 2002, 2005, 2007, 2020, 2021, 2022],
+        "advanced_in_playoffs": [1979, 1997, 1999, 2002, 2020, 2021],
+        "best_in_division": [1979, 1981, 1999, 2002, 2005, 2007, 2021, 2022],
+        "best_in_conference": [2002, 2021],
+        "best_overall": [2002, 2021],
+        "worst_in_division": [1976, 1977, 1978, 1980, 1983, 1985, 1986, 1987, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 2004, 2006, 2009, 2011, 2012, 2013, 2014, 2015, 2017, 2018],
+        "worst_in_conference": [1976, 1977, 1983, 1985, 1986, 1991, 2014],
+        "worst_overall": [1976, 1977, 1983, 1985, 1986, 2014]
+      }
+    ]
+  },
+  {
+    "name": "Tennessee Titans",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "end_season": 1996,
+        "name": "Houston Oilers",
+        "metro_area": "Houston",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1967, 1969, 1978, 1979, 1980, 1987, 1988, 1989, 1990, 1991, 1992, 1993],
+        "advanced_in_playoffs": [1978, 1979, 1987, 1988, 1991],
+        "best_in_division": [1967, 1980, 1990, 1991, 1993],
+        "best_in_conference": [1980, 1993],
+        "best_overall": [1993],
+        "worst_in_division": [1966, 1970, 1972, 1973, 1976, 1982, 1983, 1984, 1985, 1986, 1994],
+        "worst_in_conference": [1966, 1972, 1973, 1983, 1994],
+        "worst_overall": [1972, 1973, 1983, 1994]
+      },
+      {
+        "start_season": 1997,
+        "end_season": 1997,
+        "name": "Tennessee Oilers",
+        "metro_area": "Memphis",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1998,
+        "end_season": 1998,
+        "name": "Tennessee Oilers",
+        "metro_area": "Nashville",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1999,
+        "name": "Tennessee Titans",
+        "metro_area": "Nashville",
+        "championships": [],
+        "championship_appearances": [1999],
+        "playoff_appearances": [1999, 2000, 2002, 2003, 2007, 2008, 2017, 2019, 2020, 2021],
+        "advanced_in_playoffs": [1999, 2002, 2003, 2017, 2019],
+        "best_in_division": [2000, 2002, 2008, 2016, 2020, 2021],
+        "best_in_conference": [2000, 2002, 2008, 2021],
+        "best_overall": [2000, 2008],
+        "worst_in_division": [2004, 2010, 2014, 2015],
+        "worst_in_conference": [2014, 2015],
+        "worst_overall": [2014, 2015]
+      }
+    ]
+  },
+  {
+    "name": "Washington Commanders",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1966,
+        "end_season": 2019,
+        "name": "Washington Redskins",
+        "metro_area": "Washington",
+        "championships": [1982, 1987, 1991],
+        "championship_appearances": [1972, 1982, 1983, 1987, 1991],
+        "playoff_appearances": [1971, 1972, 1973, 1974, 1976, 1982, 1983, 1984, 1986, 1987, 1990, 1991, 1992, 1999, 2005, 2007, 2012, 2015],
+        "advanced_in_playoffs": [1972, 1982, 1983, 1986, 1987, 1990, 1991, 1992, 1999, 2005],
+        "best_in_division": [1972, 1974, 1982, 1983, 1984, 1985, 1987, 1991, 1999, 2012, 2015],
+        "best_in_conference": [1972, 1974, 1982, 1983, 1991],
+        "best_overall": [1982, 1983, 1991],
+        "worst_in_division": [1993, 1994, 2004, 2006, 2008, 2009, 2010, 2011, 2013, 2014, 2019],
+        "worst_in_conference": [1993, 1994, 2013, 2019],
+        "worst_overall": []
+      },
+      {
+        "start_season": 2020,
+        "end_season": 2021,
+        "name": "Washington Football Team",
+        "metro_area": "Washington",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2020],
+        "advanced_in_playoffs": [],
+        "best_in_division": [2020],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 2022,
+        "name": "Washington Commanders",
+        "metro_area": "Washington",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [2022],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  }
+]

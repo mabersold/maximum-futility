@@ -23,6 +23,8 @@ enum class Metro(val displayName: String) {
     CLEVELAND("Cleveland"),
     @SerialName("Dallas")
     DALLAS("Dallas"),
+    @SerialName("Decatur")
+    DECATUR("Decatur"),
     @SerialName("Denver")
     DENVER("Denver"),
     @SerialName("Detroit")
@@ -65,6 +67,8 @@ enum class Metro(val displayName: String) {
     PHOENIX("Phoenix"),
     @SerialName("Pittsburgh")
     PITTSBURGH("Pittsburgh"),
+    @SerialName("Portsmouth")
+    PORTSMOUTH("Portsmouth"),
     @SerialName("San Diego")
     SAN_DIEGO("San Diego"),
     @SerialName("San Francisco Bay")

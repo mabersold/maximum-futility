@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Arizona Cardinals",
+    "first_season": 1920,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1920,
+        "end_season": 1959,
+        "name": "Chicago Cardinals",
+        "metro_area": "Chicago",
+        "championships": [1947],
+        "championship_appearances": [1947, 1948],
+        "playoff_appearances": [1947, 1948],
+        "advanced_in_playoffs": [1947],
+        "best_in_division": [1947, 1948],
+        "best_in_conference": [1947, 1948],
+        "best_overall": [1947, 1948],
+        "worst_in_division": [1933, 1935, 1936, 1938, 1939, 1940, 1943, 1944, 1945, 1951, 1952, 1953, 1954, 1957, 1958, 1959],
+        "worst_in_conference": [1933, 1935, 1936, 1938, 1939, 1940, 1943, 1944, 1945, 1951, 1952, 1953, 1954, 1957, 1958, 1959],
+        "worst_overall": [1933, 1938, 1939, 1943, 1944, 1945, 1953, 1954, 1957, 1959]
+      },
+      {
+        "start_season": 1960,
+        "end_season": 1965,
+        "name": "St. Louis Cardinals",
+        "metro_area": "St. Louis",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Brooklyn Dodgers",
+    "first_season": 1930,
+    "is_defunct": true,
+    "timeline":[
+      {
+        "start_season": 1930,
+        "end_season": 1943,
+        "name": "Brooklyn Dodgers",
+        "metro_area": "New York",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1943],
+        "worst_in_conference": [1943],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1944,
+        "end_season": 1945,
+        "name": "Brooklyn Tigers",
+        "metro_area": "New York",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1944],
+        "worst_in_conference": [1944],
+        "worst_overall": [1944]
+      }
+
+    ]
+  },
+  {
+    "name": "Chicago Bears",
+    "first_season": 1919,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1919,
+        "end_season": 1920,
+        "name": "Decatur Staleys",
+        "metro_area": "Decatur",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1921,
+        "end_season": 1921,
+        "name": "Chicago Staleys",
+        "metro_area": "Chicago",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1922,
+        "end_season": 1965,
+        "name": "Chicago Bears",
+        "metro_area": "Chicago",
+        "championships": [1933, 1940, 1941, 1943, 1946, 1963],
+        "championship_appearances": [1933, 1934, 1937, 1947, 1940, 1941, 1942, 1943, 1946, 1956, 1963],
+        "playoff_appearances": [1933, 1934, 1937, 1940, 1941, 1942, 1943, 1946, 1956, 1963],
+        "advanced_in_playoffs": [1933, 1940, 1941, 1943, 1946, 1963],
+        "best_in_division": [1933, 1934, 1937, 1940, 1941, 1942, 1943, 1946, 1950, 1956, 1963],
+        "best_in_conference": [1933, 1934, 1937, 1940, 1941, 1942, 1943, 1946, 1950, 1956, 1963],
+        "best_overall": [1933, 1934, 1937, 1941, 1942, 1943, 1946, 1956, 1963],
+        "worst_in_division": [1935],
+        "worst_in_conference": [1935],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Cincinnati Reds",
+    "first_season": 1933,
+    "is_defunct": true,
+    "timeline":[
+      {
+        "start_season": 1933,
+        "end_season": 1934,
+        "name": "Cincinnati Reds",
+        "metro_area": "Cincinnati",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1934],
+        "worst_in_conference": [1934],
+        "worst_overall": [1934]
+      }
+    ]
+  },
+  {
+    "name": "Cleveland Browns",
+    "first_season": 1946,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1946,
+        "end_season": 1965,
+        "name": "Cleveland Browns",
+        "metro_area": "Cleveland",
+        "championships": [1950, 1954, 1955, 1964],
+        "championship_appearances": [1950, 1951, 1952, 1953, 1954, 1955, 1957, 1964, 1965],
+        "playoff_appearances": [1950, 1951, 1952, 1953, 1954, 1955, 1957, 1964, 1965],
+        "advanced_in_playoffs": [1950, 1954, 1955, 1964],
+        "best_in_division": [1950, 1951, 1952, 1953, 1954, 1955, 1957, 1958, 1964, 1965],
+        "best_in_conference": [1950, 1951, 1952, 1953, 1954, 1955, 1957, 1958, 1964, 1965],
+        "best_overall": [1950, 1951, 1953, 1955, 1957, 1958, 1965],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Dallas Cowboys",
+    "first_season": 1960,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1960,
+        "end_season": 1965,
+        "name": "Dallas Cowboys",
+        "metro_area": "Dallas",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1960],
+        "worst_in_conference": [1960],
+        "worst_overall": [1960]
+      }
+    ]
+  },
+  {
+    "name": "Dallas Texans",
+    "first_season": 1944,
+    "is_defunct": true,
+    "timeline":[
+      {
+        "start_season": 1944,
+        "end_season": 1948,
+        "name": "Boston Yanks",
+        "metro_area": "Boston",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1946, 1948],
+        "worst_in_conference": [1946, 1948],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1949,
+        "end_season": 1949,
+        "name": "New York Bulldogs",
+        "metro_area": "New York",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1949],
+        "worst_in_conference": [1949],
+        "worst_overall": [1949]
+      },
+      {
+        "start_season": 1950,
+        "end_season": 1951,
+        "name": "New York Yanks",
+        "metro_area": "New York",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1951],
+        "worst_in_conference": [1951],
+        "worst_overall": [1951]
+      },
+      {
+        "start_season": 1952,
+        "end_season": 1952,
+        "name": "Dallas Texans",
+        "metro_area": "Dallas",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1952],
+        "worst_in_conference": [1952],
+        "worst_overall": [1952]
+      }
+    ]
+  },
+  {
+    "name": "Detroit Lions",
+    "first_season": 1930,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1930,
+        "end_season": 1933,
+        "name": "Portsmouth Spartans",
+        "metro_area": "Portsmouth",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1934,
+        "end_season": 1965,
+        "name": "Detroit Lions",
+        "metro_area": "Detroit",
+        "championships": [1935, 1952, 1953, 1957],
+        "championship_appearances": [1935, 1952, 1953, 1954, 1957],
+        "playoff_appearances": [1935, 1952, 1953, 1954, 1957],
+        "advanced_in_playoffs": [1935, 1952, 1953, 1957],
+        "best_in_division": [1935, 1952, 1953, 1954, 1957],
+        "best_in_conference": [1935, 1952, 1953, 1954, 1957],
+        "best_overall": [1952, 1954],
+        "worst_in_division": [1942, 1946, 1947, 1948, 1955],
+        "worst_in_conference": [1942, 1946, 1947, 1948, 1955],
+        "worst_overall": [1942, 1946, 1948, 1955]
+      }
+    ]
+  },
+  {
+    "name": "Green Bay Packers",
+    "first_season": 1919,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1919,
+        "end_season": 1965,
+        "name": "Green Bay Packers",
+        "metro_area": "Green Bay",
+        "championships": [1936, 1939, 1944, 1961, 1962, 1965],
+        "championship_appearances": [1936, 1938, 1939, 1944, 1960, 1961, 1962, 1965],
+        "playoff_appearances": [1936, 1938, 1939, 1944, 1960, 1961, 1962, 1965],
+        "advanced_in_playoffs": [1936, 1939, 1944, 1961, 1962, 1965],
+        "best_in_division": [1936, 1938, 1939, 1941, 1944, 1960, 1961, 1962, 1965],
+        "best_in_conference": [1936, 1938, 1939, 1941, 1944, 1960, 1961, 1962, 1965],
+        "best_overall": [1936, 1941, 1961, 1962],
+        "worst_in_division": [1949, 1953, 1956, 1957, 1958],
+        "worst_in_conference": [1949, 1953, 1956, 1957, 1958],
+        "worst_overall": [1957, 1958]
+      }
+    ]
+  },
+  {
+    "name": "Indianapolis Colts",
+    "first_season": 1953,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1953,
+        "end_season": 1965,
+        "name": "Baltimore Colts",
+        "metro_area": "Baltimore",
+        "championships": [1958, 1959],
+        "championship_appearances": [1958, 1959, 1964],
+        "playoff_appearances": [1958, 1959, 1964],
+        "advanced_in_playoffs": [1958, 1959],
+        "best_in_division": [1958, 1959, 1964, 1965],
+        "best_in_conference": [1958, 1959, 1964, 1965],
+        "best_overall": [1958, 1964],
+        "worst_in_division": [1950, 1954],
+        "worst_in_conference": [1950, 1954],
+        "worst_overall": [1950]
+      }
+    ]
+  },
+  {
+    "name": "Los Angeles Rams",
+    "first_season": 1936,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1936,
+        "end_season": 1942,
+        "name": "Cleveland Rams",
+        "metro_area": "Cleveland",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1937, 1941, 1965],
+        "worst_in_conference": [1937, 1941, 1965],
+        "worst_overall": [1937]
+      },
+      {
+        "start_season": 1944,
+        "end_season": 1945,
+        "name": "Cleveland Rams",
+        "metro_area": "Cleveland",
+        "championships": [1945],
+        "championship_appearances": [1945],
+        "playoff_appearances": [1945],
+        "advanced_in_playoffs": [1945],
+        "best_in_division": [1945],
+        "best_in_conference": [1945],
+        "best_overall": [1945],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1946,
+        "end_season": 1965,
+        "name": "Los Angeles Rams",
+        "metro_area": "Los Angeles",
+        "championships": [1951],
+        "championship_appearances": [1949, 1950, 1951, 1955],
+        "playoff_appearances": [1949, 1950, 1951, 1955],
+        "advanced_in_playoffs": [1951],
+        "best_in_division": [1949, 1950, 1951, 1952, 1955],
+        "best_in_conference": [1949, 1950, 1951, 1952, 1955],
+        "best_overall": [1952],
+        "worst_in_division": [1956, 1959, 1962],
+        "worst_in_conference": [1956, 1959, 1962],
+        "worst_overall": [1959, 1962]
+      }
+    ]
+  },
+  {
+    "name": "Minnesota Vikings",
+    "first_season": 1961,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1961,
+        "end_season": 1965,
+        "name": "Minnesota Vikings",
+        "metro_area": "Minneapolis",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1961],
+        "worst_in_conference": [1961],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "New York Giants",
+    "first_season": 1925,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1925,
+        "end_season": 1965,
+        "name": "New York Giants",
+        "metro_area": "New York",
+        "championships": [1934, 1938, 1956],
+        "championship_appearances": [1933, 1934, 1935, 1939, 1941, 1944, 1946, 1938, 1956, 1958, 1959, 1961, 1962, 1963],
+        "playoff_appearances": [1933, 1934, 1935, 1938, 1939, 1941, 1944, 1946, 1956, 1958, 1959, 1961, 1962, 1963],
+        "advanced_in_playoffs": [1934, 1938, 1956],
+        "best_in_division": [1933, 1934, 1935, 1938, 1939, 1941, 1943, 1944, 1946, 1950, 1956, 1958, 1959, 1961, 1962, 1963],
+        "best_in_conference": [1933, 1934, 1935, 1938, 1939, 1941, 1943, 1944, 1946, 1950, 1956, 1958, 1959, 1961, 1962, 1963],
+        "best_overall": [1935, 1938, 1939, 1944, 1950, 1958, 1959],
+        "worst_in_division": [1947, 1964],
+        "worst_in_conference": [1947, 1964],
+        "worst_overall": [1947, 1964]
+      }
+    ]
+  },
+  {
+    "name": "Philadelphia Eagles",
+    "first_season": 1933,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1933,
+        "end_season": 1965,
+        "name": "Philadelphia Eagles",
+        "metro_area": "Philadelphia",
+        "championships": [1948, 1949, 1960],
+        "championship_appearances": [1947, 1948, 1949, 1960],
+        "playoff_appearances": [1947, 1948, 1949, 1960],
+        "advanced_in_playoffs": [1948, 1949, 1960],
+        "best_in_division": [1947, 1948, 1949, 1960],
+        "best_in_conference": [1947, 1948, 1949, 1960],
+        "best_overall": [1948, 1949, 1960],
+        "worst_in_division": [1935, 1936, 1937, 1939, 1940, 1942, 1956, 1958, 1962, 1963],
+        "worst_in_conference": [1935, 1936, 1937, 1939, 1940, 1942, 1956, 1958, 1962, 1963],
+        "worst_overall": [1935, 1936, 1940, 1956]
+      }
+    ]
+  },
+  {
+    "name": "Pittsburgh Steelers",
+    "first_season": 1933,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1933,
+        "end_season": 1939,
+        "name": "Pittsburgh Pirates",
+        "metro_area": "Pittsburgh",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1933, 1934, 1938, 1939],
+        "worst_in_conference": [1933, 1934, 1938, 1939],
+        "worst_overall": [1938]
+      },
+      {
+        "start_season": 1940,
+        "end_season": 1965,
+        "name": "Pittsburgh Steelers",
+        "metro_area": "Pittsburgh",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [1947],
+        "best_in_conference": [1947],
+        "best_overall": [],
+        "worst_in_division": [1941, 1944, 1945, 1955, 1965],
+        "worst_in_conference": [1941, 1944, 1945, 1955, 1965],
+        "worst_overall": [1941, 1944, 1965]
+      }
+    ]
+  },
+  {
+    "name": "San Francisco 49ers",
+    "first_season": 1946,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1946,
+        "end_season": 1965,
+        "name": "San Francisco 49ers",
+        "metro_area": "San Francisco Bay",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [1957],
+        "best_in_conference": [1957],
+        "best_overall": [],
+        "worst_in_division": [1963, 1964],
+        "worst_in_conference": [1963, 1964],
+        "worst_overall": [1963]
+      }
+    ]
+  },
+  {
+    "name": "Washington Commanders",
+    "first_season": 1932,
+    "is_defunct": false,
+    "timeline":[
+      {
+        "start_season": 1932,
+        "end_season": 1932,
+        "name": "Boston Braves",
+        "metro_area": "Boston",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1933,
+        "end_season": 1936,
+        "name": "Boston Redskins",
+        "metro_area": "Boston",
+        "championships": [],
+        "championship_appearances": [1936],
+        "playoff_appearances": [1936],
+        "advanced_in_playoffs": [],
+        "best_in_division": [1936],
+        "best_in_conference": [1936],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1937,
+        "end_season": 1965,
+        "name": "Washington Redskins",
+        "metro_area": "Washington",
+        "championships": [1937, 1942],
+        "championship_appearances": [1936, 1937, 1940, 1942, 1943, 1945],
+        "playoff_appearances": [1937, 1940, 1942, 1943],
+        "advanced_in_playoffs": [1937, 1942],
+        "best_in_division": [1937, 1940, 1942, 1943, 1945],
+        "best_in_conference": [1937, 1940, 1942, 1943, 1945],
+        "best_overall": [1940],
+        "worst_in_division": [1950, 1952, 1960, 1961],
+        "worst_in_conference": [1950, 1952, 1960, 1961],
+        "worst_overall": [1961]
+      }
+    ]
+  }
+]

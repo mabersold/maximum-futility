@@ -2,15 +2,15 @@ package mabersold.models
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import mabersold.MOST_RECENT_COMPLETED_MLB_SEASON
 
 @Serializable
 data class FranchiseTimeline(
+    val name: String,
+    val league: League,
     @SerialName("start_season")
     val startSeason: Int,
     @SerialName("end_season")
-    val endSeason: Int = MOST_RECENT_COMPLETED_MLB_SEASON,
-    val name: String,
+    val endSeason: Int = league.mostRecentFinishedSeason,
     @SerialName("metro_area")
     val metroArea: Metro,
     val championships: List<Int>,
@@ -21,13 +21,13 @@ data class FranchiseTimeline(
     @SerialName("advanced_in_playoffs")
     val advancedInPlayoffs: List<Int>,
     @SerialName("best_in_division")
-    val bestInDivision: List<Int>,
+    private val bestInDivision: List<Int>,
     @SerialName("best_in_conference")
     val bestInConference: List<Int>,
     @SerialName("best_overall")
     val bestOverall: List<Int>,
     @SerialName("worst_in_division")
-    val worstInDivision: List<Int>,
+    private val worstInDivision: List<Int>,
     @SerialName("worst_in_conference")
     val worstInConference: List<Int>,
     @SerialName("worst_overall")
@@ -52,32 +52,20 @@ data class FranchiseTimeline(
         worstOverall = worstOverall.getWithin(startYear, endYear)
     )
 
-    fun totalPostSeasons(league: League? = null) =
-        (startSeason..endSeason).toList().filterNot { league?.excludePostseason?.contains(it) ?: false }.size
-
-    fun totalRegularSeasons(league: League? = null) =
-        totalSeasons + league.extraSeasons()
-
-    fun totalSeasonsWithDivisions(league: League? = null) =
-        (startSeason..endSeason).toList().withDivisions(league).size + league.extraSeasons()
-
-    fun bestInDivision(league: League? = null) =
-        league?.let { l -> bestInDivision.filter { divisionTitle -> divisionTitle >= l.firstSeasonWithDivisions } } ?: bestInDivision
-
-    fun worstInDivision(league: League? = null) =
-        league?.let { l -> worstInDivision.filter { divisionTitle -> divisionTitle >= l.firstSeasonWithDivisions } } ?: worstInDivision
-
-    fun playoffAppearances(league: League? = null) =
-        league?.let { l -> playoffAppearances.filter { playoffYear -> playoffYear >= l.firstSeasonWithMultiRoundPlayoffs } } ?: playoffAppearances
-
-    fun advancedInPlayoffs(league: League? = null) =
-        league?.let { l -> advancedInPlayoffs.filter { advancedYear -> advancedYear >= l.firstSeasonWithMultiRoundPlayoffs } } ?: advancedInPlayoffs
-
-    fun championshipAppearances(league: League? = null) =
-        league?.let { l -> championshipAppearances.filter { appearanceYear -> appearanceYear >= l.firstSeasonWithMultiRoundPlayoffs } } ?: championshipAppearances
-
-    fun seasonsWithMultiRoundPlayoffs(league: League? = null) =
-        (startSeason..endSeason).toList().withMultiRoundPlayoffs(league).size
+    val totalPostSeasons = (startSeason..endSeason).toList().filterNot { league.excludePostseason.contains(it) }.size
+    val totalRegularSeasons = totalSeasons + league.extraSeasons()
+    val totalSeasonsWithDivisions = (startSeason..endSeason).toList().withDivisions(league).size + league.extraSeasons()
+    val bestInDivisionInSeasonsWithDivisionalPlay = bestInDivision.filter { divisionTitle -> divisionTitle >= league.firstSeasonWithDivisions }
+    val totalBestInDivisionInSeasonsWithDivisionalPlay = bestInDivisionInSeasonsWithDivisionalPlay.size
+    val worstInDivisionInSeasonsWithDivisionalPlay = worstInDivision.filter { divisionLoser -> divisionLoser >= league.firstSeasonWithDivisions }
+    val totalWorstInDivisionInSeasonsWithDivisionalPlay = worstInDivisionInSeasonsWithDivisionalPlay.size
+    val playoffAppearancesInMultiRoundPlayoffSeasons = playoffAppearances.filter { playoffYear -> playoffYear >= league.firstSeasonWithMultiRoundPlayoffs }
+    val totalPlayoffAppearancesInMultiRoundPlayoffSeasons = playoffAppearancesInMultiRoundPlayoffSeasons.size
+    val advancedInPlayoffsInMultiRoundPlayoffSeasons = advancedInPlayoffs.filter { advancedYear -> advancedYear >= league.firstSeasonWithMultiRoundPlayoffs }
+    val totalAdvancedInPlayoffsInMultiRoundPlayoffSeasons = advancedInPlayoffsInMultiRoundPlayoffSeasons.size
+    val championshipAppearancesInMultiRoundPlayoffSeasons = championshipAppearances.filter { appearanceYear -> appearanceYear >= league.firstSeasonWithMultiRoundPlayoffs }
+    val totalChampionshipAppearancesInMultiRoundPlayoffSeasons = championshipAppearancesInMultiRoundPlayoffSeasons.size
+    val totalSeasonsWithMultiRoundPlayoffs = (startSeason..endSeason).toList().withMultiRoundPlayoffs(league).size
 
     private fun League?.extraSeasons() =
         this?.let {

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Atlanta Disease Controllers",
+    "first_season": 1960,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1960,
+        "end_season": 1979,
+        "name": "Atlanta Disease Controllers",
+        "league": "NFL",
+        "metro_area": "Atlanta",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Buffalo Chips",
+    "first_season": 1960,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1960,
+        "end_season": 1979,
+        "name": "Buffalo Chips",
+        "league": "NFL",
+        "metro_area": "Buffalo",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  }
+]

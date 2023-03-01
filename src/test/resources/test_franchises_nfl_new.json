@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Atlanta Disease Controllers",
+    "first_season": 1980,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1980,
+        "name": "Atlanta Disease Controllers",
+        "league": "NFL",
+        "metro_area": "Atlanta",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Baltimore Wires",
+    "first_season": 1980,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1980,
+        "name": "Baltimore Wires",
+        "league": "NFL",
+        "metro_area": "Baltimore",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  }
+]

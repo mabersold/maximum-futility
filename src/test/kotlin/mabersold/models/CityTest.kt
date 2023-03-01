@@ -6,6 +6,7 @@ import mabersold.`a city with an MLB franchise that played in a season with no p
 import mabersold.`a city with no postseason history`
 import mabersold.`a city with one franchise`
 import mabersold.`a city with two franchises`
+import mabersold.`a city with two generic franchises`
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
@@ -66,7 +67,7 @@ class CityTest {
 
     @Test
     fun `calculates averages correctly for city with two franchises`() {
-        val city = `a city with two franchises`
+        val city = `a city with two generic franchises`
 
         assertEquals((2.0 / 40), city.championshipsPerSeason)
         assertEquals((3.0 / 40), city.championshipAppearancesPerSeason)

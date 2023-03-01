@@ -4,6 +4,7 @@ import mabersold.MOST_RECENT_COMPLETED_MLB_SEASON
 import mabersold.`a franchise in New York`
 import mabersold.`a franchise that spans the start of multi-round playoffs`
 import mabersold.`a franchise with two timelines and data`
+import mabersold.`a generic franchise with two timelines and data`
 import mabersold.`a really old franchise`
 import mabersold.`an MLB franchise that has one timeline that straddles the creation of divisions`
 import kotlin.test.Test
@@ -13,9 +14,9 @@ import kotlin.test.assertNull
 class FranchiseTest {
     @Test
     fun `all data is correct`() {
-        val franchise = `a franchise with two timelines and data`
+        val franchise = `a generic franchise with two timelines and data`
 
-        assertEquals(Metro.SEATTLE, franchise.metroArea)
+        assertEquals(Metro.GRAND_RAPIDS, franchise.metroArea)
         assertEquals(20, franchise.totalSeasons)
         assertEquals(2, franchise.totalChampionships)
         assertEquals(4, franchise.championshipAppearances)

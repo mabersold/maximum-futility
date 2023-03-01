@@ -8,5 +8,7 @@ enum class League(
     val firstSeasonWithDivisions: Int,
     val firstSeasonWithMultiRoundPlayoffs: Int
 ) {
-    MLB(1903, listOf(1904, 1994), 2022, listOf(1981), 1969, 1969)
+    GENERIC(1, listOf(), 2022, listOf(), 1, 1),
+    MLB(1903, listOf(1904, 1994), 2022, listOf(1981), 1969, 1969),
+    NFL(1933, listOf(), 2022, listOf(), 1966, 1966)
 }

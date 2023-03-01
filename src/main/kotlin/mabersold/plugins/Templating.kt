@@ -21,7 +21,12 @@ fun Application.configureTemplating() {
 
     routing {
         get("/") {
-            val franchises = FranchiseDataService().getFranchiseData().map { it.withLeague(League.MLB) }
+            val leagueMap = mapOf(
+                League.MLB to listOf("data/baseball/franchises.json"),
+                League.NFL to listOf("data/football/pre-super-bowl-nfl.json", "data/football/super-bowl-era-nfl.json")
+            )
+
+            val franchises = FranchiseDataService().getFranchiseData(leagueMap)
             val cities = FranchiseToCityMapper().mapToCities(franchises).sortedBy { it.metroArea.displayName }
 
             call.respond(ThymeleafContent("index", mapOf("cities" to cities)))

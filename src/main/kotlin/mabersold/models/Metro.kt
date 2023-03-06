@@ -29,6 +29,8 @@ enum class Metro(val displayName: String) {
     DENVER("Denver"),
     @SerialName("Detroit")
     DETROIT("Detroit"),
+    @SerialName("Fort Wayne")
+    FORT_WAYNE("Fort Wayne"),
     @SerialName("Grand Rapids")
     GRAND_RAPIDS("Grand Rapids"),
     @SerialName("Green Bay")
@@ -61,14 +63,30 @@ enum class Metro(val displayName: String) {
     NEW_ORLEANS("New Orleans"),
     @SerialName("New York")
     NEW_YORK("New York"),
+    @SerialName("Oklahoma City")
+    OKLAHOMA_CITY("Oklahoma City"),
+    @SerialName("Orlando")
+    ORLANDO("Orlando"),
     @SerialName("Philadelphia")
     PHILADELPHIA("Philadelphia"),
     @SerialName("Phoenix")
     PHOENIX("Phoenix"),
     @SerialName("Pittsburgh")
     PITTSBURGH("Pittsburgh"),
+    @SerialName("Portland")
+    PORTLAND("Portland"),
     @SerialName("Portsmouth")
     PORTSMOUTH("Portsmouth"),
+    @SerialName("Providence")
+    PROVIDENCE("Providence"),
+    @SerialName("Rochester")
+    ROCHESTER("Rochester"),
+    @SerialName("Sacramento")
+    SACRAMENTO("Sacramento"),
+    @SerialName("Salt Lake City")
+    SALT_LAKE_CITY("Salt Lake City"),
+    @SerialName("San Antonio")
+    SAN_ANTONIO("San Antonio"),
     @SerialName("San Diego")
     SAN_DIEGO("San Diego"),
     @SerialName("San Francisco Bay")
@@ -77,10 +95,16 @@ enum class Metro(val displayName: String) {
     SEATTLE("Seattle"),
     @SerialName("St. Louis")
     ST_LOUIS("St. Louis"),
+    @SerialName("Syracuse")
+    SYRACUSE("Syracuse"),
     @SerialName("Tampa Bay")
     TAMPA_BAY("Tampa Bay"),
     @SerialName("Toronto")
     TORONTO("Toronto"),
+    @SerialName("Tri-Cities")
+    TRI_CITIES("Tri-Cities"),
+    @SerialName("Vancouver")
+    VANCOUVER("Vancouver"),
     @SerialName("Washington")
     WASHINGTON("Washington")
 }

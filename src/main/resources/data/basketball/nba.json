@@ -1,0 +1,1374 @@
+[
+  {
+    "name": "Atlanta Hawks",
+    "first_season": 1949,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1949,
+        "end_season": 1950,
+        "name": "Tri-Cities Blackhawks",
+        "league": "NBA",
+        "metro_area": "Tri-Cities",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1949],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1950],
+        "worst_in_conference": [1950],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1951,
+        "end_season": 1954,
+        "name": "Milwaukee Hawks",
+        "league": "NBA",
+        "metro_area": "Milwaukee",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1951, 1952, 1953, 1954],
+        "worst_in_conference": [1951, 1952, 1953, 1954],
+        "worst_overall": [1951, 1954]
+      },
+      {
+        "start_season": 1955,
+        "end_season": 1967,
+        "name": "St. Louis Hawks",
+        "league": "NBA",
+        "metro_area": "St. Louis",
+        "championships": [1957],
+        "championship_appearances": [1956, 1957, 1959, 1960],
+        "playoff_appearances": [1955, 1956, 1957, 1958, 1959, 1960, 1962, 1963, 1964, 1965, 1966, 1967],
+        "advanced_in_playoffs": [1955, 1956, 1957, 1959, 1960, 1962, 1963, 1965, 1966],
+        "best_in_division": [1956, 1957, 1958, 1959, 1960, 1967],
+        "best_in_conference": [1956, 1957, 1958, 1959, 1960, 1967],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1968,
+        "name": "Atlanta Hawks",
+        "league": "NBA",
+        "metro_area": "Atlanta",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1968, 1969, 1970, 1971, 1972, 1977, 1978, 1979, 1981, 1982, 1983, 1985, 1986, 1987, 1988, 1990, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2020, 2021],
+        "advanced_in_playoffs": [1968, 1969, 1978, 1985, 1986, 1987, 1993, 1995, 1996, 1998, 2008, 2009, 2010, 2014, 2015, 2020],
+        "best_in_division": [1969, 1979, 1986, 1993, 2014, 2020],
+        "best_in_conference": [1969, 1993, 2014],
+        "best_overall": [],
+        "worst_in_division": [1975, 1976, 2004, 2005, 2006, 2017, 2018, 2019],
+        "worst_in_conference": [1975, 2004, 2017],
+        "worst_overall": [2004]
+      }
+    ]
+  },
+  {
+    "name": "Baltimore Bullets (original)",
+    "first_season": 1947,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1947,
+        "end_season": 1953,
+        "name": "Baltimore Bullets (original)",
+        "league": "NBA",
+        "metro_area": "Boston",
+        "championships": [1947],
+        "championship_appearances": [1947],
+        "playoff_appearances": [1947, 1948, 1952],
+        "advanced_in_playoffs": [1947],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1947, 1951, 1953],
+        "worst_in_conference": [1947, 1951, 1953],
+        "worst_overall": [1953]
+      }
+    ]
+  },
+  {
+    "name": "Boston Celtics",
+    "first_season": 1946,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1946,
+        "name": "Boston Celtics",
+        "league": "NBA",
+        "metro_area": "Boston",
+        "championships": [1956, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1967, 1968, 1973, 1975, 1980, 1983, 1985, 2007],
+        "championship_appearances": [1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1967, 1968, 1973, 1975, 1980, 1983, 1984, 1985, 1986, 2007, 2009, 2021],
+        "playoff_appearances": [1947, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1971, 1972, 1973, 1974, 1975, 1976, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1994, 2001, 2002, 2003, 2004, 2007, 2008, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+        "advanced_in_playoffs": [1952, 1953, 1954, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1971, 1972, 1973, 1974, 1975, 1976, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1990, 1991, 2001, 2002, 2007, 2008, 2009, 2010, 2011, 2014, 2015, 2016, 2017, 2018, 2019, 2021],
+        "best_in_division": [1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1971, 1972, 1973, 1974, 1975, 1979, 1980, 1981, 1983, 1984, 1985, 1986, 1987, 1990, 1991, 2004, 2007, 2008, 2009, 2010, 2011, 2016, 2021],
+        "best_in_conference": [1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1971, 1972, 1973, 1974, 1975, 1979, 1980, 1981, 1983, 1984, 1985, 1986, 1987, 2007, 2016],
+        "best_overall": [1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1972, 1974, 1979, 1980, 1981, 1983, 1984, 1985, 2007],
+        "worst_in_division": [1949, 1978, 1996, 2006],
+        "worst_in_conference": [1949, 1996, 2006],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Brooklyn Nets",
+    "first_season": 1976,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1976,
+        "end_season": 1976,
+        "name": "New York Nets",
+        "league": "NBA",
+        "metro_area": "New York",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1976],
+        "worst_in_conference": [1976],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1977,
+        "end_season": 2011,
+        "name": "New Jersey Nets",
+        "league": "NBA",
+        "metro_area": "New York",
+        "championships": [],
+        "championship_appearances": [2001, 2002],
+        "playoff_appearances": [1978, 1981, 1982, 1983, 1984, 1985, 1991, 1992, 1993, 1997, 2001, 2002, 2003, 2004, 2005, 2006],
+        "advanced_in_playoffs": [1983, 2001, 2002, 2003, 2005, 2006],
+        "best_in_division": [2001, 2002, 2003, 2005],
+        "best_in_conference": [2001],
+        "best_overall": [],
+        "worst_in_division": [1977, 1979, 1980, 1986, 1987, 1989, 1998, 2009, 2011],
+        "worst_in_conference": [1977, 1986, 1987, 1989, 2009],
+        "worst_overall": [1977, 1989, 2009]
+      },
+      {
+        "start_season": 2012,
+        "name": "Brooklyn Nets",
+        "league": "NBA",
+        "metro_area": "New York",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2012, 2013, 2014, 2018, 2019, 2020, 2021],
+        "advanced_in_playoffs": [2013, 2020],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [2016, 2017],
+        "worst_in_conference": [2016],
+        "worst_overall": [2016]
+      }
+    ]
+  },
+  {
+    "name": "Charlotte Hornets",
+    "first_season": 1988,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1988,
+        "end_season": 2001,
+        "name": "Charlotte Hornets",
+        "league": "NBA",
+        "metro_area": "Charlotte",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1992, 1994, 1996, 1997, 1999, 2000, 2001],
+        "advanced_in_playoffs": [1992, 1997, 2000, 2001],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1988, 1989, 1990, 1991],
+        "worst_in_conference": [1988, 1989, 1990],
+        "worst_overall": []
+      },
+      {
+        "start_season": 2004,
+        "end_season": 2013,
+        "name": "Charlotte Bobcats",
+        "league": "NBA",
+        "metro_area": "Charlotte",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2009, 2013, 2015],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [2011],
+        "worst_in_conference": [2011],
+        "worst_overall": [2011]
+      },
+      {
+        "start_season": 2014,
+        "name": "Charlotte Hornets",
+        "league": "NBA",
+        "metro_area": "Charlotte",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Chicago Bulls",
+    "first_season": 1966,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1966,
+        "name": "Chicago Bulls",
+        "league": "NBA",
+        "metro_area": "Chicago",
+        "championships": [1990, 1991, 1992, 1995, 1996, 1997],
+        "championship_appearances": [1990, 1991, 1992, 1995, 1996, 1997],
+        "playoff_appearances": [1966, 1967, 1969, 1970, 1971, 1972, 1973, 1974, 1976, 1980, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 2004, 2005, 2006, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2021],
+        "advanced_in_playoffs": [1973, 1974, 1980, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 2006, 2010, 2012, 2014],
+        "best_in_division": [1974, 1990, 1991, 1992, 1995, 1996, 1997, 2010, 2011],
+        "best_in_conference": [1990, 1991, 1995, 1996, 1997, 2010, 2011],
+        "best_overall": [1991, 1995, 1996, 1997, 2010, 2011],
+        "worst_in_division": [1975, 1978, 1998, 1999, 2000, 2001, 2003, 2017],
+        "worst_in_conference": [1975, 1978, 1998, 1999, 2000, 2001],
+        "worst_overall": [1975, 2000, 2001]
+      }
+    ]
+  },
+  {
+    "name": "Chicago Stags",
+    "first_season": 1946,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1946,
+        "end_season": 1949,
+        "name": "Chicago Stags",
+        "league": "NBA",
+        "metro_area": "Chicago",
+        "championships": [],
+        "championship_appearances": [1948],
+        "playoff_appearances": [1946, 1947, 1948, 1949],
+        "advanced_in_playoffs": [1946, 1947],
+        "best_in_division": [1946],
+        "best_in_conference": [1946],
+        "best_overall": [],
+        "worst_in_division": [1947],
+        "worst_in_conference": [1947],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Cleveland Cavaliers",
+    "first_season": 1970,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1970,
+        "name": "Cleveland Cavaliers",
+        "league": "NBA",
+        "metro_area": "Cleveland",
+        "championships": [2015],
+        "championship_appearances": [2006, 2014, 2015, 2016, 2017],
+        "playoff_appearances": [1975, 1976, 1977, 1984, 1987, 1988, 1989, 1991, 1992, 1993, 1994, 1995, 1997, 2005, 2006, 2007, 2008, 2009, 2014, 2015, 2016, 2017],
+        "advanced_in_playoffs": [1975, 1991, 1992, 2005, 2006, 2007, 2008, 2009, 2014, 2015, 2016, 2017],
+        "best_in_division": [1975, 2008, 2009, 2014, 2015, 2016, 2017],
+        "best_in_conference": [2008, 2009, 2015],
+        "best_overall": [2008, 2009],
+        "worst_in_division": [1971, 1972, 1973, 1981, 1986, 2010, 2011, 2012, 2018, 2019],
+        "worst_in_conference": [1981, 2010, 2019],
+        "worst_overall": [1981]
+      }
+    ]
+  },
+  {
+    "name": "Dallas Mavericks",
+    "first_season": 1980,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1980,
+        "name": "Dallas Mavericks",
+        "league": "NBA",
+        "metro_area": "Dallas",
+        "championships": [2010],
+        "championship_appearances": [2005, 2010],
+        "playoff_appearances": [1983, 1984, 1985, 1986, 1987, 1989, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015, 2019, 2020, 2021],
+        "advanced_in_playoffs": [1983, 1985, 1987, 2000, 2001, 2002, 2004, 2005, 2008, 2010, 2021],
+        "best_in_division": [1986, 2002, 2006, 2009, 2020],
+        "best_in_conference": [2002, 2006],
+        "best_overall": [2002, 2006],
+        "worst_in_division": [1980, 1992, 1993, 2016, 2018],
+        "worst_in_conference": [1980, 1992, 1993],
+        "worst_overall": [1980, 1992, 1993]
+      }
+    ]
+  },
+  {
+    "name": "Denver Nuggets",
+    "first_season": 1976,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1976,
+        "name": "Denver Nuggets",
+        "league": "NBA",
+        "metro_area": "Denver",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1976, 1977, 1978, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1993, 1994, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2018, 2019, 2020, 2021],
+        "advanced_in_playoffs": [1977, 1982, 1984, 1985, 1987, 1993, 2008, 2018, 2019, 2020],
+        "best_in_division": [1976, 1977, 1984, 1987, 2005, 2008, 2009, 2018, 2019],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1990, 1997, 2017],
+        "worst_in_conference": [1990, 1997],
+        "worst_overall": [1990, 1997]
+      }
+    ]
+  },
+  {
+    "name": "Denver Nuggets (original)",
+    "first_season": 1949,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1949,
+        "end_season": 1949,
+        "name": "Denver Nuggets (original)",
+        "league": "NBA",
+        "metro_area": "Denver",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1949],
+        "worst_in_conference": [1949],
+        "worst_overall": [1949]
+      }
+    ]
+  },
+  {
+    "name": "Detroit Pistons",
+    "first_season": 1948,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1948,
+        "end_season": 1956,
+        "name": "Fort Wayne Pistons",
+        "league": "NBA",
+        "metro_area": "Fort Wayne",
+        "championships": [],
+        "championship_appearances": [1954, 1955],
+        "playoff_appearances": [1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956],
+        "advanced_in_playoffs": [1949, 1952, 1954, 1955],
+        "best_in_division": [1954, 1955, 1956],
+        "best_in_conference": [1954, 1955, 1956],
+        "best_overall": [1954],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1957,
+        "name": "Detroit Pistons",
+        "league": "NBA",
+        "metro_area": "Detroit",
+        "championships": [1988, 1989, 2003],
+        "championship_appearances": [1987, 1988, 1989, 2003, 2004],
+        "playoff_appearances": [1957, 1958, 1959, 1960, 1961, 1962, 1967, 1973, 1974, 1975, 1976, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1995, 1996, 1998, 1999, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2015, 2018],
+        "advanced_in_playoffs": [1957, 1961, 1975, 1984, 1986, 1987, 1988, 1989, 1990, 2001, 2002, 2003, 2004, 2005, 2006, 2007],
+        "best_in_division": [1987, 1988, 1989, 2001, 2002, 2004, 2005, 2006, 2007],
+        "best_in_conference": [1988, 1989, 2002, 2005, 2006],
+        "best_overall": [1988, 2005],
+        "worst_in_division": [1963, 1965, 1966, 1969, 1971, 1979, 1980, 1993, 1994, 2009, 2014, 2016, 2020, 2021],
+        "worst_in_conference": [1963, 1965, 1966, 1969, 1979, 1980, 1993, 2020],
+        "worst_overall": [1965, 1979]
+      }
+    ]
+  },
+  {
+    "name": "Golden State Warriors",
+    "first_season": 1946,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1946,
+        "end_season": 1961,
+        "name": "Philadelphia Warriors",
+        "league": "NBA",
+        "metro_area": "Philadelphia",
+        "championships": [1946, 1955],
+        "championship_appearances": [1946, 1955],
+        "playoff_appearances": [1946, 1947, 1948, 1949, 1950, 1951, 1955, 1956, 1957, 1959, 1960, 1961],
+        "advanced_in_playoffs": [1946, 1947, 1955, 1957, 1959, 1961],
+        "best_in_division": [1947, 1950, 1955],
+        "best_in_conference": [1947, 1950, 1955],
+        "best_overall": [1955],
+        "worst_in_division": [1952, 1954, 1958],
+        "worst_in_conference": [1952, 1954, 1958],
+        "worst_overall": [1952]
+      },
+      {
+        "start_season": 1962,
+        "end_season": 1970,
+        "name": "San Francisco Warriors",
+        "league": "NBA",
+        "metro_area": "San Francisco Bay",
+        "championships": [],
+        "championship_appearances": [1963, 1966],
+        "playoff_appearances": [1963, 1966, 1967, 1968, 1970],
+        "advanced_in_playoffs": [1963, 1966, 1967],
+        "best_in_division": [1963, 1966],
+        "best_in_conference": [1963, 1966],
+        "best_overall": [1963],
+        "worst_in_division": [1964],
+        "worst_in_conference": [1964],
+        "worst_overall": [1964]
+      },
+      {
+        "start_season": 1971,
+        "name": "Golden State Warriors",
+        "league": "NBA",
+        "metro_area": "San Francisco Bay",
+        "championships": [1974, 2014, 2016, 2017, 2021],
+        "championship_appearances": [1974, 2014, 2015, 2016, 2017, 2018, 2021],
+        "playoff_appearances": [1971, 1972, 1974, 1975, 1976, 1986, 1988, 1990, 1991, 1993, 2006, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2021],
+        "advanced_in_playoffs": [1972, 1974, 1975, 1976, 1986, 1988, 1990, 2006, 2012, 2014, 2015, 2016, 2017, 2018, 2021],
+        "best_in_division": [1974, 1975, 2014, 2015, 2016, 2017, 2018],
+        "best_in_conference": [1974, 1975, 2014, 2015, 2016, 2018],
+        "best_overall": [1975, 2014, 2015, 2016],
+        "worst_in_division": [1977, 1978, 1979, 1984, 1985, 1996, 2000, 2001, 2004, 2005, 2019],
+        "worst_in_conference": [1979, 1984, 1985, 2000, 2001, 2019],
+        "worst_overall": [1984, 2001, 2019]
+      }
+    ]
+  },
+  {
+    "name": "Houston Rockets",
+    "first_season": 1967,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1967,
+        "end_season": 1970,
+        "name": "San Diego Rockets",
+        "league": "NBA",
+        "metro_area": "San Diego",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1968],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1967, 1969],
+        "worst_in_conference": [1967, 1969],
+        "worst_overall": [1967, 1969]
+      },
+      {
+        "start_season": 1971,
+        "name": "Houston Rockets",
+        "league": "NBA",
+        "metro_area": "Houston",
+        "championships": [1993, 1994],
+        "championship_appearances": [1980, 1985, 1993, 1994],
+        "playoff_appearances": [1974, 1976, 1978, 1979, 1980, 1981, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 2003, 2004, 2006, 2007, 2008, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+        "advanced_in_playoffs": [1974, 1976, 1979, 1980, 1985, 1986, 1992, 1993, 1994, 1995, 1996, 2008, 2014, 2016, 2017, 2018],
+        "best_in_division": [1976, 1985, 1992, 1993, 2014, 2017, 2018, 2019],
+        "best_in_conference": [2017],
+        "best_overall": [2017],
+        "worst_in_division": [1977, 1982, 1983, 2005, 2010, 2020, 2021],
+        "worst_in_conference": [1982, 1983, 2020, 2021],
+        "worst_overall": [1982, 2020, 2021]
+      }
+    ]
+  },
+  {
+    "name": "Indiana Pacers",
+    "first_season": 1976,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1976,
+        "name": "Indiana Pacers",
+        "league": "NBA",
+        "metro_area": "Indianapolis",
+        "championships": [],
+        "championship_appearances": [1999],
+        "playoff_appearances": [1980, 1986, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2010, 2011, 2012, 2013, 2015, 2016, 2017, 2018, 2019],
+        "advanced_in_playoffs": [1993, 1994, 1997, 1998, 1999, 2003, 2004, 2011, 2012, 2013],
+        "best_in_division": [1994, 1998, 1999, 2003, 2012, 2013],
+        "best_in_conference": [1998, 1999, 2003, 2013],
+        "best_overall": [2003],
+        "worst_in_division": [1977, 1982, 1983, 1984, 1985, 1987, 1988],
+        "worst_in_conference": [1977, 1982, 1983, 1984],
+        "worst_overall": [1983, 1984]
+      }
+    ]
+  },
+  {
+    "name": "Indianapolis Jets",
+    "first_season": 1948,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1948,
+        "end_season": 1948,
+        "name": "Indianapolis Jets",
+        "league": "NBA",
+        "metro_area": "Indianapolis",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1948],
+        "worst_in_conference": [1948],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Indianapolis Olympians",
+    "first_season": 1949,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1949,
+        "end_season": 1952,
+        "name": "Indianapolis Olympians",
+        "league": "NBA",
+        "metro_area": "Indianapolis",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1949, 1950, 1951, 1952],
+        "advanced_in_playoffs": [1949],
+        "best_in_division": [1949],
+        "best_in_conference": [1949],
+        "best_overall": [],
+        "worst_in_division": [],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Los Angeles Clippers",
+    "first_season": 1970,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1970,
+        "end_season": 1977,
+        "name": "Buffalo Braves",
+        "league": "NBA",
+        "metro_area": "Buffalo",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1973, 1974, 1975],
+        "advanced_in_playoffs": [1975],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1971],
+        "worst_in_conference": [1971],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1978,
+        "end_season": 1983,
+        "name": "San Diego Clippers",
+        "league": "NBA",
+        "metro_area": "San Diego",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1981, 1982, 1983],
+        "worst_in_conference": [1981],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1984,
+        "name": "Los Angeles Clippers",
+        "league": "NBA",
+        "metro_area": "Los Angeles",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1991, 1992, 1996, 2005, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020],
+        "advanced_in_playoffs": [2005, 2011, 2013, 2014, 2019, 2020],
+        "best_in_division": [2012, 2013],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1983, 1986, 1987, 1988, 1993, 1994, 1995, 1997, 1998, 1999, 2003, 2007],
+        "worst_in_conference": [1986, 1987, 1994, 1999, 2003],
+        "worst_overall": [1986, 1987, 1994, 1999]
+      }
+    ]
+  },
+  {
+    "name": "Los Angeles Lakers",
+    "first_season": 1948,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1948,
+        "end_season": 1959,
+        "name": "Minneapolis Lakers",
+        "league": "NBA",
+        "metro_area": "Minneapolis",
+        "championships": [1948, 1949, 1951, 1952, 1953],
+        "championship_appearances": [1948, 1949, 1951, 1952, 1953, 1958],
+        "playoff_appearances": [1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1958, 1959],
+        "advanced_in_playoffs": [1948, 1949, 1950, 1951, 1952, 1953, 1954, 1956, 1958, 1959],
+        "best_in_division": [1949, 1950, 1952, 1953, 1956],
+        "best_in_conference": [1949, 1950, 1952, 1953, 1956],
+        "best_overall": [1949, 1950, 1952, 1953],
+        "worst_in_division": [1957],
+        "worst_in_conference": [1957],
+        "worst_overall": [1957]
+      },
+      {
+        "start_season": 1960,
+        "name": "Los Angeles Lakers",
+        "league": "NBA",
+        "metro_area": "Los Angeles",
+        "championships": [1971, 1979, 1981, 1984, 1986, 1987, 1999, 2000, 2001, 2008, 2009, 2019],
+        "championship_appearances": [1961, 1962, 1964, 1965, 1967, 1968, 1969, 1971, 1972, 1979, 1981, 1982, 1983, 1984, 1986, 1987, 1988, 1990, 1999, 2000, 2001, 2003, 2007, 2008, 2009, 2019],
+        "playoff_appearances": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2019, 2020],
+        "advanced_in_playoffs": [1960, 1961, 1962, 1964, 1965, 1967, 1968, 1969, 1970, 1971, 1972, 1976, 1978, 1979, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1994, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2007, 2008, 2009, 2010, 2011, 2019],
+        "best_in_division": [1961, 1962, 1964, 1965, 1968, 1970, 1971, 1972, 1973, 1976, 1979, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1997, 1999, 2000, 2003, 2007, 2008, 2009, 2010, 2011, 2019],
+        "best_in_conference": [1961, 1962, 1964, 1965, 1968, 1971, 1972, 1976, 1979, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1999, 2007, 2008, 2009, 2019],
+        "best_overall": [1971, 1976, 1986, 1987, 1989, 1999],
+        "worst_in_division": [1974, 2013, 2014, 2015],
+        "worst_in_conference": [1974, 2015],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Memphis Grizzlies",
+    "first_season": 1995,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1995,
+        "end_season": 2000,
+        "name": "Vancouver Grizzlies",
+        "league": "NBA",
+        "metro_area": "Vancouver",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1995, 1996, 1998, 1999, 2000],
+        "worst_in_conference": [1995, 1996, 1998],
+        "worst_overall": [1995, 1996, 1998]
+      },
+      {
+        "start_season": 2001,
+        "name": "Memphis Grizzlies",
+        "league": "NBA",
+        "metro_area": "Memphis",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2003, 2004, 2005, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2020, 2021],
+        "advanced_in_playoffs": [2010, 2012, 2014, 2021],
+        "best_in_division": [2021],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [2001, 2006, 2007, 2008, 2017],
+        "worst_in_conference": [2006],
+        "worst_overall": [2006]
+      }
+    ]
+  },
+  {
+    "name": "Miami Heat",
+    "first_season": 1988,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1988,
+        "name": "Miami Heat",
+        "league": "NBA",
+        "metro_area": "Miami",
+        "championships": [2005, 2011, 2012],
+        "championship_appearances": [2005, 2010, 2011, 2012, 2013, 2019],
+        "playoff_appearances": [1991, 1993, 1995, 1996, 1997, 1998, 1999, 2000, 2003, 2004, 2005, 2006, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2017, 2019, 2020, 2021],
+        "advanced_in_playoffs": [1996, 1999, 2003, 2004, 2005, 2010, 2011, 2012, 2013, 2015, 2019, 2021],
+        "best_in_division": [1996, 1997, 1998, 1999, 2004, 2005, 2006, 2010, 2011, 2012, 2013, 2015, 2017, 2019, 2021],
+        "best_in_conference": [1998, 2004, 2012, 2021],
+        "best_overall": [2012],
+        "worst_in_division": [1988, 1990, 1996, 1997, 2007],
+        "worst_in_conference": [1988, 1990, 2007],
+        "worst_overall": [1988, 2007]
+      }
+    ]
+  },
+  {
+    "name": "Milwaukee Bucks",
+    "first_season": 1968,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1968,
+        "name": "Milwaukee Bucks",
+        "league": "NBA",
+        "metro_area": "Milwaukee",
+        "championships": [1970, 2020],
+        "championship_appearances": [1970, 1973, 2020],
+        "playoff_appearances": [1969, 1970, 1971, 1972, 1973, 1975, 1977, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1998, 1999, 2000, 2002, 2003, 2005, 2009, 2012, 2014, 2016, 2017, 2018, 2019, 2020, 2021],
+        "advanced_in_playoffs": [1969, 1970, 1971, 1973, 1977, 1982, 1983, 1984, 1985, 1986, 1988, 2000, 2018, 2019, 2020, 2021],
+        "best_in_division": [1970, 1971, 1972, 1973, 1975, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 2000, 2018, 2019, 2020, 2021],
+        "best_in_conference": [1970, 1972, 1973, 2018, 2019],
+        "best_overall": [1970, 1973, 2018, 2019],
+        "worst_in_division": [1968, 1974, 1976, 1992, 2004, 2005, 2006, 2007, 2008, 2013, 2015],
+        "worst_in_conference": [1968, 1976, 2013],
+        "worst_overall": [2013]
+      }
+    ]
+  },
+  {
+    "name": "Minnesota Timberwolves",
+    "first_season": 1989,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1989,
+        "name": "Minnesota Timberwolves",
+        "league": "NBA",
+        "metro_area": "Minneapolis",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2017, 2021],
+        "advanced_in_playoffs": [2003],
+        "best_in_division": [2003],
+        "best_in_conference": [2003],
+        "best_overall": [],
+        "worst_in_division": [1991, 1994, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2018, 2019],
+        "worst_in_conference": [1991, 2009, 2010, 2014],
+        "worst_overall": [1991, 2010, 2014]
+      }
+    ]
+  },
+  {
+    "name": "New Orleans Pelicans",
+    "first_season": 2002,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 2002,
+        "end_season": 2012,
+        "name": "New Orleans Hornets",
+        "league": "NBA",
+        "metro_area": "New Orleans",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2002, 2003, 2007, 2008, 2010],
+        "advanced_in_playoffs": [2007],
+        "best_in_division": [2007],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [2004, 2009, 2011, 2012],
+        "worst_in_conference": [2004, 2011],
+        "worst_overall": []
+      },
+      {
+        "start_season": 2013,
+        "name": "New Orleans Pelicans",
+        "league": "NBA",
+        "metro_area": "New Orleans",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2014, 2017, 2021],
+        "advanced_in_playoffs": [2017],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [2013, 2014, 2015, 2019],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "New York Knicks",
+    "first_season": 1946,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1946,
+        "name": "New York Knicks",
+        "league": "NBA",
+        "metro_area": "New York",
+        "championships": [1969, 1972],
+        "championship_appearances": [1950, 1951, 1952, 1969, 1971, 1972, 1993, 1998],
+        "playoff_appearances": [1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1958, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1977, 1980, 1982, 1983, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2003, 2010, 2011, 2012, 2020],
+        "advanced_in_playoffs": [1946, 1948, 1949, 1950, 1951, 1952, 1968, 1969, 1970, 1971, 1972, 1973, 1977, 1982, 1983, 1988, 1989, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2012],
+        "best_in_division": [1952, 1953, 1955, 1969, 1970, 1988, 1992, 1993, 2012],
+        "best_in_conference": [1952, 1953, 1955, 1969, 1970, 1992, 1993],
+        "best_overall": [1969],
+        "worst_in_division": [1956, 1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1975, 1981, 1984, 1985, 1986, 2001, 2004, 2005, 2007, 2014, 2018, 2019, 2021],
+        "worst_in_conference": [1956, 1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1985, 1986, 2005, 2008, 2014, 2018],
+        "worst_overall": [1960, 1962, 1963, 1985, 2018]
+      }
+    ]
+  },
+  {
+    "name": "Oklahoma City Thunder",
+    "first_season": 1967,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1967,
+        "end_season": 2007,
+        "name": "Seattle Supersonics",
+        "league": "NBA",
+        "metro_area": "Seattle",
+        "championships": [1978],
+        "championship_appearances": [1977, 1978, 1995],
+        "playoff_appearances": [1974, 1975, 1977, 1978, 1979, 1981, 1982, 1983, 1986, 1987, 1988, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1999, 2001, 2004],
+        "advanced_in_playoffs": [1974, 1977, 1978, 1979, 1981, 1986, 1988, 1991, 1992, 1995, 1996, 1997, 2004],
+        "best_in_division": [1978, 1993, 1995, 1996, 1997, 2004],
+        "best_in_conference": [1978, 1993, 1995],
+        "best_overall": [1993],
+        "worst_in_division": [1980, 2006, 2007],
+        "worst_in_conference": [2007],
+        "worst_overall": []
+      },
+      {
+        "start_season": 2008,
+        "name": "Oklahoma City Thunder",
+        "league": "NBA",
+        "metro_area": "Oklahoma City",
+        "championships": [],
+        "championship_appearances": [2011],
+        "playoff_appearances": [2009, 2010, 2011, 2012, 2013, 2015, 2016, 2017, 2018, 2019],
+        "advanced_in_playoffs": [2010, 2011, 2012, 2013, 2015],
+        "best_in_division": [2010, 2011, 2012, 2013, 2015],
+        "best_in_conference": [2012],
+        "best_overall": [],
+        "worst_in_division": [2008, 2020, 2021],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Orlando Magic",
+    "first_season": 1989,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1989,
+        "name": "Orlando Magic",
+        "league": "NBA",
+        "metro_area": "Orlando",
+        "championships": [],
+        "championship_appearances": [1994, 2008],
+        "playoff_appearances": [1993, 1994, 1995, 1996, 1998, 2000, 2001, 2002, 2006, 2007, 2008, 2009, 2010, 2011, 2018, 2019],
+        "advanced_in_playoffs": [1994, 1995, 2007, 2008, 2009],
+        "best_in_division": [1994, 1995, 2007, 2008, 2009, 2018],
+        "best_in_conference": [1994, 1998],
+        "best_overall": [],
+        "worst_in_division": [1989, 1991, 2003, 2012, 2013, 2014, 2015, 2016, 2020, 2021],
+        "worst_in_conference": [1991, 2003, 2012, 2021],
+        "worst_overall": [2003, 2012]
+      }
+    ]
+  },
+  {
+    "name": "Philadelphia 76ers",
+    "first_season": 1949,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1949,
+        "end_season": 1962,
+        "name": "Syracuse Nationals",
+        "league": "NBA",
+        "metro_area": "Syracuse",
+        "championships": [1954],
+        "championship_appearances": [1949, 1953, 1954],
+        "playoff_appearances": [1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962],
+        "advanced_in_playoffs": [1949, 1950, 1951, 1953, 1954, 1955, 1956, 1958, 1960],
+        "best_in_division": [1949, 1951, 1954],
+        "best_in_conference": [1949, 1951, 1954],
+        "best_overall": [1949, 1954],
+        "worst_in_division": [1955],
+        "worst_in_conference": [1955],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1963,
+        "name": "Philadelphia 76ers",
+        "league": "NBA",
+        "metro_area": "Philadelphia",
+        "championships": [1966, 1982],
+        "championship_appearances": [1966, 1976, 1979, 1981, 1982, 2000],
+        "playoff_appearances": [1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1988, 1989, 1990, 1998, 1999, 2000, 2001, 2002, 2004, 2007, 2008, 2010, 2011, 2017, 2018, 2019, 2020, 2021],
+        "advanced_in_playoffs": [1964, 1966, 1967, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1984, 1985, 1989, 1990, 1998, 1999, 2000, 2002, 2011, 2017, 2018, 2020, 2021],
+        "best_in_division": [1965, 1966, 1967, 1976, 1977, 1982, 1989, 2000, 2020],
+        "best_in_conference": [1965, 1966, 1967, 1976, 1977, 1982, 2000, 2020],
+        "best_overall": [1965, 1966, 1967, 1982],
+        "worst_in_division": [1972, 1973, 1995, 1997, 2013, 2015],
+        "worst_in_conference": [1972, 1973, 1995, 2015],
+        "worst_overall": [1972, 1973, 2015]
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Suns",
+    "first_season": 1968,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1968,
+        "name": "Phoenix Suns",
+        "league": "NBA",
+        "metro_area": "Phoenix",
+        "championships": [],
+        "championship_appearances": [1975, 1992, 2020],
+        "playoff_appearances": [1969, 1975, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2002, 2004, 2005, 2006, 2007, 2009, 2020, 2021],
+        "advanced_in_playoffs": [1975, 1978, 1979, 1981, 1983, 1988, 1989, 1991, 1992, 1993, 1994, 1999, 2004, 2005, 2006, 2009, 2020, 2021],
+        "best_in_division": [1980, 1992, 1994, 2004, 2005, 2006, 2020, 2021],
+        "best_in_conference": [1980, 1992, 2004, 2021],
+        "best_overall": [1992, 2004, 2021],
+        "worst_in_division": [1968, 1976, 2012, 2016, 2017, 2018],
+        "worst_in_conference": [1968, 2012, 2016, 2017, 2018],
+        "worst_overall": [1968, 2012, 2017]
+      }
+    ]
+  },
+  {
+    "name": "Pittsburgh Ironmen",
+    "first_season": 1946,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1946,
+        "end_season": 1946,
+        "name": "Pittsburgh Ironmen",
+        "league": "NBA",
+        "metro_area": "Pittsburgh",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1946],
+        "worst_in_conference": [1946],
+        "worst_overall": [1946]
+      }
+    ]
+  },
+  {
+    "name": "Portland Trail Blazers",
+    "first_season": 1970,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1970,
+        "name": "Portland Trail Blazers",
+        "league": "NBA",
+        "metro_area": "Portland",
+        "championships": [1976],
+        "championship_appearances": [1976, 1989, 1991],
+        "playoff_appearances": [1976, 1977, 1978, 1979, 1980, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2008, 2009, 2010, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+        "advanced_in_playoffs": [1976, 1982, 1984, 1989, 1990, 1991, 1998, 1999, 2013, 2015, 2018],
+        "best_in_division": [1977, 1990, 1991, 1998, 2014, 2017],
+        "best_in_conference": [1977, 1990, 1991],
+        "best_overall": [1977, 1990],
+        "worst_in_division": [1971, 1972, 1973, 1975, 2005],
+        "worst_in_conference": [1971, 1972, 1973, 2005],
+        "worst_overall": [1971, 2005]
+      }
+    ]
+  },
+  {
+    "name": "Providence Steamrollers",
+    "first_season": 1946,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1946,
+        "end_season": 1948,
+        "name": "Providence Steamrollers",
+        "league": "NBA",
+        "metro_area": "Providence",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1947, 1948],
+        "worst_in_conference": [1947, 1948],
+        "worst_overall": [1947, 1948]
+      }
+    ]
+  },
+  {
+    "name": "Sacramento Kings",
+    "first_season": 1948,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1948,
+        "end_season": 1956,
+        "name": "Rochester Royals",
+        "league": "NBA",
+        "metro_area": "Rochester",
+        "championships": [1950],
+        "championship_appearances": [1950],
+        "playoff_appearances": [1948, 1949, 1950, 1951, 1952, 1953, 1954],
+        "advanced_in_playoffs": [1948, 1950, 1951, 1953],
+        "best_in_division": [1948, 1951],
+        "best_in_conference": [1948, 1951],
+        "best_overall": [1948, 1951],
+        "worst_in_division": [1955],
+        "worst_in_conference": [1955],
+        "worst_overall": [1955]
+      },
+      {
+        "start_season": 1957,
+        "end_season": 1971,
+        "name": "Cincinnati Royals",
+        "league": "NBA",
+        "metro_area": "Cincinnati",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1957, 1961, 1962, 1963, 1964, 1965, 1966],
+        "advanced_in_playoffs": [1962, 1963],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1956, 1958, 1959, 1960],
+        "worst_in_conference": [1956, 1958, 1959, 1960],
+        "worst_overall": [1956, 1958, 1959]
+      },
+      {
+        "start_season": 1972,
+        "end_season": 1984,
+        "name": "Kansas City Kings",
+        "league": "NBA",
+        "metro_area": "Kansas City",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1974, 1978, 1979, 1980, 1983],
+        "advanced_in_playoffs": [1980],
+        "best_in_division": [1978],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1972, 1973, 1984],
+        "worst_in_conference": [],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1985,
+        "name": "Sacramento Kings",
+        "league": "NBA",
+        "metro_area": "Sacramento",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1985, 1995, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005],
+        "advanced_in_playoffs": [2000, 2001, 2002, 2003],
+        "best_in_division": [2001, 2002],
+        "best_in_conference": [2001],
+        "best_overall": [2001],
+        "worst_in_division": [1987, 1989, 1990, 1991, 1992, 2006, 2008, 2009, 2010, 2011, 2020, 2021],
+        "worst_in_conference": [2008],
+        "worst_overall": [2008]
+      }
+    ]
+  },
+  {
+    "name": "San Antonio Spurs",
+    "first_season": 1976,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1976,
+        "name": "San Antonio",
+        "league": "NBA",
+        "metro_area": "San Antonio",
+        "championships": [1998, 2002, 2004, 2006, 2013],
+        "championship_appearances": [1998, 2002, 2004, 2006, 2012, 2013],
+        "playoff_appearances": [1976, 1977, 1978, 1979, 1980, 1981, 1982, 1984, 1985, 1987, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+        "advanced_in_playoffs": [1978, 1981, 1982, 1989, 1992, 1994, 1995, 1997, 1998, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2009, 2011, 2012, 2013, 2015, 2016],
+        "best_in_division": [1977, 1978, 1980, 1981, 1982, 1989, 1990, 1994, 1995, 1998, 2000, 2001, 2002, 2004, 2005, 2008, 2010, 2011, 2012, 2013, 2015, 2016],
+        "best_in_conference": [1994, 1998, 2000, 2002, 2005, 2010, 2011, 2013],
+        "best_overall": [1994, 1998, 2000, 2002, 2011, 2013],
+        "worst_in_division": [1985, 1986],
+        "worst_in_conference": [],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "St. Louis Bombers",
+    "first_season": 1946,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1946,
+        "end_season": 1949,
+        "name": "St. Louis Bombers",
+        "league": "NBA",
+        "metro_area": "St. Louis",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [1946, 1947, 1948],
+        "advanced_in_playoffs": [],
+        "best_in_division": [1947],
+        "best_in_conference": [1947],
+        "best_overall": [1947],
+        "worst_in_division": [1949],
+        "worst_in_conference": [1949],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Toronto Huskies",
+    "first_season": 1946,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1946,
+        "end_season": 1946,
+        "name": "Toronto Huskies",
+        "league": "NBA",
+        "metro_area": "Toronto",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1946],
+        "worst_in_conference": [1946],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Toronto Raptors",
+    "first_season": 1995,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1995,
+        "name": "Toronto Raptors",
+        "league": "NBA",
+        "metro_area": "Toronto",
+        "championships": [2018],
+        "championship_appearances": [2018],
+        "playoff_appearances": [1999, 2000, 2001, 2006, 2007, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021],
+        "advanced_in_playoffs": [2000, 2015, 2016, 2017, 2018, 2019],
+        "best_in_division": [2006, 2013, 2014, 2015, 2017, 2018, 2019],
+        "best_in_conference": [2017],
+        "best_overall": [],
+        "worst_in_division": [1995, 1996, 1997, 2010, 2012, 2020],
+        "worst_in_conference": [1997],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Utah Jazz",
+    "first_season": 1974,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1974,
+        "end_season": 1978,
+        "name": "New Orleans Jazz",
+        "league": "NBA",
+        "metro_area": "New Orleans",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1974, 1978],
+        "worst_in_conference": [1974, 1978],
+        "worst_overall": [1974]
+      },
+      {
+        "start_season": 1979,
+        "name": "Utah Jazz",
+        "league": "NBA",
+        "metro_area": "Salt Lake City",
+        "championships": [],
+        "championship_appearances": [1996, 1997],
+        "playoff_appearances": [1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2006, 2007, 2008, 2009, 2011, 2016, 2017, 2018, 2019, 2020, 2021],
+        "advanced_in_playoffs": [1983, 1984, 1987, 1990, 1991, 1993, 1995, 1996, 1997, 1998, 1999, 2006, 2007, 2009, 2016, 2017, 2020],
+        "best_in_division": [1983, 1988, 1991, 1996, 1997, 1998, 1999, 2006, 2007, 2016, 2020, 2021],
+        "best_in_conference": [1996, 1997, 1998, 2020],
+        "best_overall": [1997, 1998, 2020],
+        "worst_in_division": [1979, 1981, 2003, 2004, 2013],
+        "worst_in_conference": [1979, 2013],
+        "worst_overall": []
+      }
+    ]
+  },
+  {
+    "name": "Washington Capitols",
+    "first_season": 1946,
+    "is_defunct": true,
+    "timeline": [
+      {
+        "start_season": 1946,
+        "end_season": 1950,
+        "name": "Washington Capitols",
+        "league": "NBA",
+        "metro_area": "Washington",
+        "championships": [],
+        "championship_appearances": [1948],
+        "playoff_appearances": [1946, 1947, 1948, 1949],
+        "advanced_in_playoffs": [1948],
+        "best_in_division": [1946, 1948],
+        "best_in_conference": [1946, 1948],
+        "best_overall": [1946],
+        "worst_in_division": [1947, 1950],
+        "worst_in_conference": [1947, 1950],
+        "worst_overall": [1950]
+      }
+    ]
+  },
+  {
+    "name": "Washington Wizards",
+    "first_season": 1961,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1961,
+        "end_season": 1961,
+        "name": "Chicago Packers",
+        "league": "NBA",
+        "metro_area": "Chicago",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1961],
+        "worst_in_conference": [1961],
+        "worst_overall": [1961]
+      },
+      {
+        "start_season": 1962,
+        "end_season": 1962,
+        "name": "Chicago Zephyrs",
+        "league": "NBA",
+        "metro_area": "Chicago",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [],
+        "advanced_in_playoffs": [],
+        "best_in_division": [],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1962],
+        "worst_in_conference": [1962],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1963,
+        "end_season": 1972,
+        "name": "Baltimore Bullets",
+        "league": "NBA",
+        "metro_area": "Baltimore",
+        "championships": [],
+        "championship_appearances": [1970],
+        "playoff_appearances": [1964, 1965, 1968, 1969, 1970, 1971, 1972],
+        "advanced_in_playoffs": [1964, 1970],
+        "best_in_division": [1968, 1970, 1971, 1972],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1966, 1967, 1968],
+        "worst_in_conference": [1966, 1967, 1968],
+        "worst_overall": [1966]
+      },
+      {
+        "start_season": 1973,
+        "end_season": 1996,
+        "name": "Washington Bullets",
+        "league": "NBA",
+        "metro_area": "Washington",
+        "championships": [1977],
+        "championship_appearances": [1974, 1977, 1978],
+        "playoff_appearances": [1973, 1974, 1975, 1976, 1977, 1978, 1979, 1981, 1983, 1984, 1985, 1986, 1987, 1996],
+        "advanced_in_playoffs": [1974, 1976, 1977, 1978, 1981],
+        "best_in_division": [1973, 1974, 1978],
+        "best_in_conference": [1974, 1978],
+        "best_overall": [1974, 1978],
+        "worst_in_division": [1982, 1983, 1992, 1993, 1994],
+        "worst_in_conference": [1992, 1994],
+        "worst_overall": []
+      },
+      {
+        "start_season": 1997,
+        "name": "Washington Wizards",
+        "league": "NBA",
+        "metro_area": "Washington",
+        "championships": [],
+        "championship_appearances": [],
+        "playoff_appearances": [2004, 2005, 2006, 2007, 2013, 2014, 2016, 2017, 2020],
+        "advanced_in_playoffs": [2004, 2013, 2014, 2016],
+        "best_in_division": [2016],
+        "best_in_conference": [],
+        "best_overall": [],
+        "worst_in_division": [1999, 2000, 2008, 2009, 2010],
+        "worst_in_conference": [2008],
+        "worst_overall": []
+      }
+    ]
+  }
+]

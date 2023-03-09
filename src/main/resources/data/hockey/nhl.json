@@ -13,11 +13,11 @@
         "championship_appearances": [2002, 2006],
         "playoff_appearances": [1996, 1998, 2002, 2005, 2006, 2007, 2008, 2010, 2012, 2013, 2014, 2015, 2016, 2017],
         "advanced_in_playoffs": [1996, 2002, 2005, 2006, 2008, 2013, 2014, 2016],
-        "best_in_division": [],
-        "best_in_conference": [],
+        "best_in_division": [2006, 2012, 2013, 2014, 2015, 2016],
+        "best_in_conference": [2013, 2014],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
+        "worst_in_division": [1994, 1999, 2000, 2001, 2011, 2020],
+        "worst_in_conference": [1994, 2000, 2020],
         "worst_overall": []
       }
     ]
@@ -40,9 +40,9 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1980, 1988, 1990, 1993, 1994],
+        "worst_in_conference": [1980, 1993],
+        "worst_overall": [1980]
       },
       {
         "start_season": 1996,
@@ -53,11 +53,11 @@
         "championship_appearances": [],
         "playoff_appearances": [1996, 1997, 1998, 1999, 2001, 2009, 2010, 2011, 2019],
         "advanced_in_playoffs": [2011, 2019],
-        "best_in_division": [],
+        "best_in_division": [2011],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
+        "worst_in_division": [2003, 2005, 2006, 2008, 2014, 2017, 2021],
+        "worst_in_conference": [2006, 2014, 2017, 2021],
         "worst_overall": []
       }
     ]
@@ -76,12 +76,12 @@
         "championship_appearances": [1926, 1928, 1929, 1938, 1940, 1942, 1945, 1952, 1956, 1957, 1969, 1971, 1973, 1976, 1977, 1987, 1989, 2010, 2012, 2018],
         "playoff_appearances": [1926, 1927, 1928, 1929, 1930, 1932, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1944, 1945, 1946, 1947, 1948, 1950, 1951, 1952, 1953, 1954, 1956, 1957, 1958, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1997, 1998, 2001, 2002, 2003, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2016, 2017, 2018, 2019, 2020, 2021],
         "advanced_in_playoffs": [1926, 1928, 1929, 1938, 1940, 1941, 1942, 1945, 1952, 1956, 1957, 1968, 1969, 1971, 1973, 1975, 1976, 1977, 1978, 1979, 1981, 1982, 1987, 1988, 1989, 1990, 1991, 1993, 1998, 2008, 2009, 2010, 2012, 2013, 2017, 2018, 2019, 2020],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1927, 1928, 1929, 1930, 1932, 1934, 1937, 1938, 1939, 1940, 1969, 1970, 1971, 1973, 1975, 1976, 1977, 1978, 1982, 1983, 1989, 1990, 1992, 2001, 2003, 2008, 2010, 2011, 2013, 2019],
+        "best_in_conference": [1927, 1928, 1929, 1930, 1932, 1934, 1937, 1938, 1939, 1940, 1969, 1970, 1971, 1973, 1982, 1983, 1989, 1990, 2001, 2008, 2013, 2019],
+        "best_overall": [1929, 1930, 1932, 1937, 1938, 1939, 1940, 1969, 1970, 1971, 1973, 1982, 1989, 2013, 2019],
+        "worst_in_division": [1931, 1933, 1960, 1961, 1962, 1963, 1964, 1966, 1996, 1999, 2005, 2006],
+        "worst_in_conference": [1931, 1933, 1960, 1961, 1962, 1963, 1964, 1966, 1996],
+        "worst_overall": [1960, 1961, 1962, 1963, 1964, 1966, 1996]
       }
     ]
   },
@@ -99,12 +99,12 @@
         "championship_appearances": [1974, 1998],
         "playoff_appearances": [1972, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1996, 1997, 1998, 1999, 2000, 2005, 2006, 2009, 2010],
         "advanced_in_playoffs": [1974, 1975, 1976, 1977, 1979, 1980, 1982, 1992, 1996, 1997, 1998, 2000, 2005, 2006],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1974, 1979, 1980, 1996, 2006, 2009],
+        "best_in_conference": [1974, 1979, 2006],
+        "best_overall": [1974, 2006],
+        "worst_in_division": [1985, 1986, 2001, 2002, 2003, 2012, 2013, 2014, 2016, 2017, 2020],
+        "worst_in_conference": [1986, 2013, 2014, 2017, 2020],
+        "worst_overall": [1986, 2013, 2014, 2017, 2020]
       }
     ]
   },
@@ -126,7 +126,7 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
+        "worst_in_division": [1974, 1978],
         "worst_in_conference": [],
         "worst_overall": []
       },
@@ -139,10 +139,10 @@
         "championship_appearances": [1985, 1988, 2003],
         "playoff_appearances": [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1992, 1993, 1994, 1995, 2003, 2005, 2006, 2007, 2008, 2014, 2016, 2018, 2019, 2021],
         "advanced_in_playoffs": [1980, 1982, 1983, 1985, 1987, 1988, 2003, 2014, 2019, 2021],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
+        "best_in_division": [1987, 1988, 1989, 1993, 1994, 2005, 2018, 2021],
+        "best_in_conference": [1987, 1988, 1989, 2018],
+        "best_overall": [1987, 1988],
+        "worst_in_division": [1999, 2002],
         "worst_in_conference": [],
         "worst_overall": []
       }
@@ -166,9 +166,9 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1967, 1970, 1972, 1973, 1974, 1975],
+        "worst_in_conference": [1967, 1970, 1972, 1973],
+        "worst_overall": [1967, 1970, 1973]
       },
       {
         "start_season": 1976,
@@ -183,7 +183,7 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
+        "worst_in_division": [1976, 1977],
         "worst_in_conference": [],
         "worst_overall": []
       }
@@ -204,12 +204,12 @@
         "championship_appearances": [],
         "playoff_appearances": [1979, 1985, 1986, 1987, 1988, 1989, 1990, 1991],
         "advanced_in_playoffs": [1985],
-        "best_in_division": [],
+        "best_in_division": [1986],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1981, 1982, 1983, 1984, 1997],
+        "worst_in_conference": [1981, 1982],
+        "worst_overall": [1982]
       },
       {
         "start_season": 1997,
@@ -220,12 +220,12 @@
         "championship_appearances": [2001, 2005],
         "playoff_appearances": [1998, 2000, 2001, 2005, 2008, 2018, 2019, 2020, 2021],
         "advanced_in_playoffs": [2001, 2005, 2008, 2018, 2019, 2020, 2021],
-        "best_in_division": [],
-        "best_in_conference": [],
+        "best_in_division": [1998, 2001, 2005, 2020, 2021],
+        "best_in_conference": [2020],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1997, 2002, 2011, 2014],
+        "worst_in_conference": [2002],
+        "worst_overall": [2002]
       }
     ]
   },
@@ -243,12 +243,12 @@
         "championship_appearances": [1930, 1933, 1937, 1943, 1960, 1961, 1964, 1970, 1972, 1991, 2009, 2012, 2014],
         "playoff_appearances": [1926, 1929, 1930, 1931, 1933, 1934, 1935, 1937, 1939, 1940, 1941, 1943, 1945, 1952, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 2001, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2019],
         "advanced_in_playoffs": [1930, 1933, 1937, 1940, 1943, 1960, 1961, 1964, 1967, 1969, 1970, 1971, 1972, 1973, 1974, 1979, 1981, 1982, 1984, 1988, 1989, 1991, 1994, 1995, 2008, 2009, 2012, 2013, 2014, 2019],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1966, 1969, 1970, 1971, 1972, 1975, 1977, 1978, 1979, 1982, 1985, 1989, 1990, 1992, 2009, 2012, 2016],
+        "best_in_conference": [1966, 1969, 1970, 1971, 1972, 1990, 1992, 2012, 2016],
+        "best_overall": [1966, 1969, 1990, 2012],
+        "worst_in_division": [1927, 1928, 1932, 1936, 1938, 1946, 1947, 1949, 1950, 1951, 1953, 1954, 1955, 1956, 1968, 2000, 2003, 2006, 2017, 2019],
+        "worst_in_conference": [1927, 1928, 1932, 1936, 1938, 1946, 1947, 1949, 1950, 1951, 1953, 1954, 1955, 1956, 1968, 2003],
+        "worst_overall": [1927, 1928, 1938, 1946, 1947, 1949, 1950, 1951, 1953, 1954, 1955, 1956]
       }
     ]
   },
@@ -267,12 +267,12 @@
         "championship_appearances": [],
         "playoff_appearances": [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1992, 1994],
         "advanced_in_playoffs": [1981, 1983, 1984, 1986],
-        "best_in_division": [],
-        "best_in_conference": [],
+        "best_in_division": [1985, 1994],
+        "best_in_conference": [1994],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1979, 1987, 1988, 1989, 1990, 1991],
+        "worst_in_conference": [1979, 1987, 1988, 1989, 1990, 1991],
+        "worst_overall": [1988, 1989, 1990]
       },
       {
         "start_season": 1995,
@@ -283,12 +283,12 @@
         "championship_appearances": [1995, 2000, 2021],
         "playoff_appearances": [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2007, 2009, 2013, 2017, 2018, 2019, 2020, 2021],
         "advanced_in_playoffs": [1995, 1996, 1998, 1999, 2000, 2001, 2003, 2005, 2007, 2018, 2019, 2020, 2021],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2013, 2020, 2021],
+        "best_in_conference": [1996, 2000, 2020, 2021],
+        "best_overall": [1996, 2000, 2020],
+        "worst_in_division": [2008, 2012, 2014, 2016],
+        "worst_in_conference": [2008, 2012, 2016],
+        "worst_overall": [2016]
       }
     ]
   },
@@ -309,9 +309,9 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [2000, 2001, 2002, 2009, 2010, 2011, 2015, 2020],
+        "worst_in_conference": [2001, 2002, 2011, 2020],
+        "worst_overall": [2011]
       }
     ]
   },
@@ -330,12 +330,12 @@
         "championship_appearances": [1980, 1990],
         "playoff_appearances": [1967, 1969, 1970, 1971, 1972, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1988, 1989, 1990, 1991],
         "advanced_in_playoffs": [1967, 1979, 1980, 1982, 1983, 1984, 1990],
-        "best_in_division": [],
+        "best_in_division": [1981, 1983],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1968, 1977, 1978, 1986, 1987],
+        "worst_in_conference": [1968, 1977, 1987],
+        "worst_overall": [1968, 1977, 1987]
       },
       {
         "start_season": 1993,
@@ -346,10 +346,10 @@
         "championship_appearances": [1998, 1999, 2019],
         "playoff_appearances": [1993, 1994, 1996, 1997, 1998, 1999, 2000, 2002, 2003, 2005, 2006, 2007, 2013, 2015, 2018, 2019, 2021],
         "advanced_in_playoffs": [1993, 1997, 1998, 1999, 2000, 2002, 2007, 2015, 2018, 2019],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
+        "best_in_division": [1996, 1997, 1998, 1999, 2000, 2002, 2005, 2015],
+        "best_in_conference": [1997, 1998, 2002, 2015],
+        "best_overall": [1997, 1998],
+        "worst_in_division": [1995, 2009, 2010, 2012],
         "worst_in_conference": [],
         "worst_overall": []
       }
@@ -369,12 +369,12 @@
         "championship_appearances": [1933, 1935, 1936, 1940, 1941, 1942, 1944, 1947, 1948, 1949, 1951, 1953, 1954, 1955, 1960, 1962, 1963, 1965, 1995, 1996, 1997, 2001, 2007, 2008],
         "playoff_appearances": [1928, 1931, 1932, 1933, 1935, 1936, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1959, 1960, 1962, 1963, 1964, 1965, 1969, 1977, 1983, 1984, 1986, 1987, 1988, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015],
         "advanced_in_playoffs": [1932, 1933, 1935, 1936, 1938, 1939, 1940, 1941, 1942, 1944, 1947, 1948, 1949, 1951, 1953, 1954, 1955, 1960, 1962, 1963, 1965, 1977, 1986, 1987, 1991, 1994, 1995, 1996, 1997, 1998, 1999, 2001, 2003, 2006, 2007, 2008, 2009, 2010, 2012],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1932, 1933, 1935, 1936, 1942, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1956, 1964, 1987, 1988, 1991, 1993, 1994, 1995, 1998, 2000, 2001, 2002, 2003, 2005, 2006, 2007, 2008, 2010],
+        "best_in_conference": [1932, 1933, 1935, 1936, 1942, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1956, 1964, 1991, 1993, 1994, 1995, 2001, 2003, 2005, 2006, 2007],
+        "best_overall": [1932, 1935, 1936, 1942, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1956, 1964, 1994, 1995, 2001, 2003, 2005, 2006, 2007],
+        "worst_in_division": [1926, 1934, 1937, 1958, 1967, 1970, 1976, 1978, 1979, 1980, 1981, 1982, 1985, 1989, 2019],
+        "worst_in_conference": [1926, 1934, 1937, 1958, 1967, 1970, 1976, 1978, 1980, 1982, 1985, 2019],
+        "worst_overall": [1926, 1958, 1976, 1985, 2019]
       }
     ]
   },
@@ -392,12 +392,12 @@
         "championship_appearances": [1982, 1983, 1984, 1986, 1987, 1989, 2005],
         "playoff_appearances": [1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1996, 1997, 1998, 1999, 2000, 2002, 2005, 2016, 2019, 2020, 2021],
         "advanced_in_playoffs": [1980, 1982, 1983, 1984, 1985, 1986, 1987, 1989, 1990, 1991, 1996, 1997, 2005, 2016, 2021],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1981, 1982, 1983, 1984, 1985, 1986, 1993],
+        "best_in_conference": [1981, 1982, 1983, 1984, 1985, 1986],
+        "best_overall": [1983, 1985, 1986],
+        "worst_in_division": [2006, 2007, 2009, 2010, 2011, 2013, 2015],
+        "worst_in_conference": [2009, 2010, 2013, 2015],
+        "worst_overall": [2009, 2010]
       }
     ]
   },
@@ -415,12 +415,12 @@
         "championship_appearances": [1995],
         "playoff_appearances": [1995, 1996, 1999, 2011, 2015, 2019, 2020, 2021],
         "advanced_in_playoffs": [1995, 2021],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [2011, 2015, 2021],
+        "best_in_conference": [2021],
+        "best_overall": [2021],
+        "worst_in_division": [2009, 2010, 2012],
+        "worst_in_conference": [2010, 2012],
+        "worst_overall": [2012]
       }
     ]
   },
@@ -438,12 +438,12 @@
         "championship_appearances": [1992, 2011, 2013],
         "playoff_appearances": [1967, 1968, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1984, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1997, 1999, 2000, 2001, 2009, 2010, 2011, 2012, 2013, 2015, 2017, 2021],
         "advanced_in_playoffs": [1968, 1975, 1976, 1981, 1988, 1989, 1990, 1992, 2000, 2011, 2012, 2013],
-        "best_in_division": [],
+        "best_in_division": [1990],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1969, 1971, 1982, 1983, 1985, 1998, 2007, 2008, 2018],
+        "worst_in_conference": [1969, 1971, 1983, 2007, 2018],
+        "worst_overall": [1969, 2007]
       }
     ]
   },
@@ -461,10 +461,10 @@
         "championship_appearances": [],
         "playoff_appearances": [2002, 2006, 2007, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021],
         "advanced_in_playoffs": [2002, 2013, 2014],
-        "best_in_division": [],
+        "best_in_division": [2007],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
+        "worst_in_division": [2000, 2001, 2003, 2005, 2018],
         "worst_in_conference": [],
         "worst_overall": []
       }
@@ -484,12 +484,12 @@
         "championship_appearances": [1929, 1930, 1943, 1945, 1946, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1964, 1965, 1966, 1967, 1968, 1970, 1972, 1975, 1976, 1977, 1978, 1985, 1988, 1992, 2020],
         "playoff_appearances": [1926, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1936, 1937, 1938, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1995, 1996, 1997, 2001, 2003, 2005, 2007, 2008, 2009, 2010, 2012, 2013, 2014, 2016, 2019, 2020],
         "advanced_in_playoffs": [1926, 1929, 1930, 1943, 1945, 1946, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1964, 1965, 1966, 1967, 1968, 1970, 1972, 1974, 1975, 1976, 1977, 1978, 1979, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1997, 2001, 2003, 2007, 2009, 2013, 2014, 2019, 2020],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1927, 1928, 1929, 1930, 1931, 1936, 1943, 1944, 1945, 1946, 1955, 1957, 1958, 1959, 1960, 1961, 1963, 1965, 1967, 1968, 1972, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1984, 1987, 1988, 1991, 2007, 2012, 2014, 2016],
+        "best_in_conference": [1927, 1928, 1929, 1930, 1931, 1936, 1943, 1944, 1945, 1946, 1955, 1957, 1958, 1959, 1960, 1961, 1963, 1965, 1967, 1968, 1972, 1974, 1975, 1976, 1977, 1978, 1980, 1987, 1988, 2007],
+        "best_overall": [1927, 1928, 1931, 1943, 1944, 1945, 1946, 1955, 1957, 1958, 1959, 1960, 1961, 1963, 1965, 1967, 1968, 1972, 1974, 1975, 1976, 1977],
+        "worst_in_division": [1935, 1939, 1998, 2000, 2011, 2021],
+        "worst_in_conference": [1935, 1939, 2011, 2021],
+        "worst_overall": [1935, 1939, 2021]
       }
     ]
   },
@@ -508,12 +508,12 @@
         "championship_appearances": [1927, 1934],
         "playoff_appearances": [1926, 1927, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936],
         "advanced_in_playoffs": [1927, 1931, 1933, 1934, 1936],
-        "best_in_division": [],
-        "best_in_conference": [],
+        "best_in_division": [1929, 1935],
+        "best_in_conference": [1929, 1935],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1928, 1937],
+        "worst_in_conference": [1928, 1937],
+        "worst_overall": [1937]
       }
     ]
   },
@@ -531,11 +531,11 @@
         "championship_appearances": [2016],
         "playoff_appearances": [2003, 2005, 2006, 2007, 2009, 2010, 20011, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
         "advanced_in_playoffs": [2010, 2011, 2015, 2016, 2017],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
+        "best_in_division": [2017, 2018],
+        "best_in_conference": [2017],
+        "best_overall": [2017],
+        "worst_in_division": [1998, 1999, 2008, 2012],
+        "worst_in_conference": [1999],
         "worst_overall": []
       }
     ]
@@ -558,8 +558,8 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
+        "worst_in_division": [1974, 1975],
+        "worst_in_conference": [1974, 1975],
         "worst_overall": []
       },
       {
@@ -575,9 +575,9 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1976, 1978, 1979, 1981],
+        "worst_in_conference": [1976, 1978, 1979, 1981],
+        "worst_overall": [1978, 1979, 1981]
       },
       {
         "start_season": 1982,
@@ -588,12 +588,12 @@
         "championship_appearances": [1994, 1999, 2000, 2002, 2011],
         "playoff_appearances": [1987, 1989, 1990, 1991, 1992, 1993, 1994, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2011, 2017],
         "advanced_in_playoffs": [1987, 1993, 1994, 1996, 1999, 2000, 2002, 2005, 2006, 2011],
-        "best_in_division": [],
-        "best_in_conference": [],
+        "best_in_division": [1996, 1997, 1998, 2000, 2002, 2005, 2006, 2008, 2009],
+        "best_in_conference": [1996, 1997, 1998, 2000],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1985, 1986, 2012, 2016, 2018, 2019],
+        "worst_in_conference": [1985, 1986, 2016],
+        "worst_overall": [1986]
       }
     ]
   },
@@ -615,9 +615,9 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1927, 1929, 1931, 1936, 1940, 1941],
+        "worst_in_conference": [1927, 1929, 1931, 1936, 1940, 1941],
+        "worst_overall": [1931, 1936, 1940, 1941]
       }
     ]
   },
@@ -635,12 +635,12 @@
         "championship_appearances": [1979, 1980, 1981, 1982, 1983],
         "playoff_appearances": [1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1989, 1992, 1993, 2001, 2002, 2003, 2006, 2012, 2014, 2015, 2018, 2019, 2020],
         "advanced_in_playoffs": [1974, 1975, 1976, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1986, 1992, 2015, 2018, 2019, 2020],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1977, 1978, 1980, 1981, 1983, 1987],
+        "best_in_conference": [1977, 1978, 1980, 1981, 1983],
+        "best_overall": [1978, 1980, 1981],
+        "worst_in_division": [1972, 1973, 1988, 1990, 1994, 1995, 1996, 1998, 1999, 2000, 2007, 2008, 2009, 2010, 2011, 2013],
+        "worst_in_conference": [1972, 1973, 1988, 2000, 2008],
+        "worst_overall": [1972, 1988, 2000, 2008]
       }
     ]
   },
@@ -658,12 +658,12 @@
         "championship_appearances": [1927, 1928, 1931, 1932, 1936, 1939, 1949, 1971, 1978, 1993, 2013],
         "playoff_appearances": [1926, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1936, 1937, 1938, 1939, 1940, 1941, 1947, 1949, 1955, 1956, 1957, 1961, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1988, 1989, 1990, 1991, 1993, 1994, 1995, 1996, 2005, 2006, 2007, 2008, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2019, 2021],
         "advanced_in_playoffs": [1927, 1928, 1929, 1930, 1931, 1932, 1934, 1936, 1939, 1949, 1970, 1971, 1972, 1973, 1978, 1979, 1980, 1981, 1982, 1985, 1989, 1991, 1993, 1994, 1995, 1996, 2006, 2007, 2011, 2012, 2013, 2014, 2016, 2021],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1926, 1931, 1941, 1989, 1991, 1993, 2011, 2014],
+        "best_in_conference": [1926, 1931, 1941, 1991, 1993, 2011, 2014],
+        "best_overall": [1941, 1991, 1993, 2014],
+        "worst_in_division": [1935, 1942, 1943, 1944, 1945, 1948, 1952, 1959, 1965, 1975, 1976, 1977, 1992, 2017],
+        "worst_in_conference": [1935, 1942, 1943, 1944, 1945, 1948, 1952, 1959, 1965],
+        "worst_overall": [1942, 1943, 1944, 1945, 1948, 1952, 1959, 1965]
       }
     ]
   },
@@ -681,12 +681,12 @@
         "championship_appearances": [2006],
         "playoff_appearances": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2005, 2006, 2007, 2009, 2011, 2012, 2014, 2016],
         "advanced_in_playoffs": [1997, 2001, 2002, 2005, 2006, 2012, 2016],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1998, 2000, 2002, 2005],
+        "best_in_conference": [2002, 2005],
+        "best_overall": [2002],
+        "worst_in_division": [1992, 1993, 1994, 1995, 2010, 2018],
+        "worst_in_conference": [1992, 1993, 1994, 1995, 2018],
+        "worst_overall": [1992, 1993, 1994, 1995, 2018]
       }
     ]
   },
@@ -705,12 +705,12 @@
         "championship_appearances": [1926],
         "playoff_appearances": [1926, 1927, 1929],
         "advanced_in_playoffs": [],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1926],
+        "best_in_conference": [1926],
+        "best_overall": [1926],
+        "worst_in_division": [1930, 1932, 1933],
+        "worst_in_conference": [1930, 1932, 1933],
+        "worst_overall": [1932, 1933]
       },
       {
         "start_season": 1934,
@@ -725,9 +725,9 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1934],
+        "worst_in_conference": [1934],
+        "worst_overall": [1934]
       }
     ]
   },
@@ -745,12 +745,12 @@
         "championship_appearances": [1973, 1974, 1975, 1979, 1984, 1986, 1996, 2009],
         "playoff_appearances": [1967, 1968, 1970, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2005, 2007, 2008, 2009, 2010, 2011, 2013, 2015, 2017, 2019],
         "advanced_in_playoffs": [1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1984, 1986, 1988, 1994, 1995, 1996, 1999, 2002, 2003, 2007, 2009, 2010, 2011, 2019],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1967, 1973, 1974, 1975, 1976, 1979, 1982, 1984, 1985, 1986, 1994, 1995, 1999, 2001, 2003, 2005, 2010],
+        "best_in_conference": [1967, 1973, 1974, 1975, 1976, 1979, 1984, 1985, 1986, 1995, 1999],
+        "best_overall": [1974, 1979, 1984],
+        "worst_in_division": [1989, 1991, 2006, 2021],
+        "worst_in_conference": [2006],
+        "worst_overall": [2006]
       }
     ]
   },
@@ -768,35 +768,12 @@
         "championship_appearances": [1990, 1991, 2007, 2008, 2015, 2016],
         "playoff_appearances": [1969, 1971, 1974, 1975, 1976, 1978, 1979, 1980, 1981, 1988, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
         "advanced_in_playoffs": [1969, 1974, 1978, 1988, 1990, 1991, 1992, 1994, 1995, 1998, 1999, 2000, 2007, 2008, 2009, 2012, 2013, 2015, 2016, 2017],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
-      }
-    ]
-  },
-  {
-    "name": "San Jose Sharks",
-    "first_season": 1991,
-    "is_defunct": false,
-    "timeline": [
-      {
-        "start_season": 1992,
-        "name": "San Jose Sharks",
-        "league": "NHL",
-        "metro_area": "San Francisco Bay",
-        "championships": [],
-        "championship_appearances": [2015],
-        "playoff_appearances": [1993, 1994, 1997, 1998, 1999, 2000, 2001, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016, 2017, 2018],
-        "advanced_in_playoffs": [1993, 1994, 1999, 2001, 2003, 2005, 2006, 2007, 2009, 2010, 2012, 2015, 2017, 2018],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1990, 1992, 1993, 1995, 1997, 2007, 2012, 2013, 2020],
+        "best_in_conference": [1992, 2012, 2020],
+        "best_overall": [1992],
+        "worst_in_division": [1968, 1982, 1983, 1984, 1987, 2001, 2002, 2003, 2005],
+        "worst_in_conference": [1968, 1982, 1983, 1984, 2003, 2005],
+        "worst_overall": [1968, 1982, 1983, 2003]
       }
     ]
   },
@@ -818,9 +795,9 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1929],
+        "worst_in_conference": [1929],
+        "worst_overall": [1929]
       },
       {
         "start_season": 1930,
@@ -835,9 +812,32 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1930],
+        "worst_in_conference": [1930],
+        "worst_overall": [1930]
+      }
+    ]
+  },
+  {
+    "name": "San Jose Sharks",
+    "first_season": 1991,
+    "is_defunct": false,
+    "timeline": [
+      {
+        "start_season": 1991,
+        "name": "San Jose Sharks",
+        "league": "NHL",
+        "metro_area": "San Francisco Bay",
+        "championships": [],
+        "championship_appearances": [2015],
+        "playoff_appearances": [1993, 1994, 1997, 1998, 1999, 2000, 2001, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016, 2017, 2018],
+        "advanced_in_playoffs": [1993, 1994, 1999, 2001, 2003, 2005, 2006, 2007, 2009, 2010, 2012, 2015, 2017, 2018],
+        "best_in_division": [2001, 2003, 2007, 2008, 2009, 2010],
+        "best_in_conference": [2008, 2009],
+        "best_overall": [2008],
+        "worst_in_division": [1991, 1992, 1995, 1996, 2002, 2019],
+        "worst_in_conference": [1991, 1992, 1995, 1996, 2019],
+        "worst_overall": [1991, 1992]
       }
     ]
   },
@@ -858,7 +858,7 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
+        "worst_in_division": [2021],
         "worst_in_conference": [],
         "worst_overall": []
       }
@@ -874,16 +874,16 @@
         "name": "St. Louis Blues",
         "league": "NHL",
         "metro_area": "St. Louis",
-        "championships": [],
+        "championships": [2018],
         "championship_appearances": [1967, 1968, 1969, 2018],
         "playoff_appearances": [1967, 1968, 1969, 1970, 1971, 1972, 1974, 1975, 1976, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2008, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021],
         "advanced_in_playoffs": [1697, 1968, 1969, 1971, 1980, 1981, 1983, 1985, 1987, 1988, 1989, 1990, 1992, 1995, 1997, 1998, 2000, 2001, 2011, 2015, 2016, 2018, 2021],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1968, 1969, 1976, 1980, 1984, 1986, 1999, 2011, 2014, 2019],
+        "best_in_conference": [1968, 1969, 1999, 2014, 2019],
+        "best_overall": [1999],
+        "worst_in_division": [2005, 2007],
+        "worst_in_conference": [2005],
+        "worst_overall": [2005]
       }
     ]
   },
@@ -901,12 +901,12 @@
         "championship_appearances": [2003, 2014, 2019, 2020, 2021],
         "playoff_appearances": [1995, 2002, 2003, 2005, 2006, 2010, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021],
         "advanced_in_playoffs": [2002, 2003, 2010, 2014, 2015, 2017, 2019, 2020, 2021],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [2002, 2003, 2017, 2018],
+        "best_in_conference": [2003, 2017, 2018],
+        "best_overall": [2018],
+        "worst_in_division": [1992, 1993, 1997, 1998, 2000, 2007, 2008],
+        "worst_in_conference": [1997, 1998, 2007],
+        "worst_overall": [1997, 1998, 2007]
       }
     ]
   },
@@ -924,12 +924,12 @@
         "championship_appearances": [1931, 1932, 1934, 1935, 1937, 1938, 1939, 1941, 1944, 1946, 1947, 1948, 1950, 1958, 1959, 1961, 1962, 1963, 1966],
         "playoff_appearances": [1928, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1946, 1947, 1948, 1949, 1950, 1951, 1953, 1954, 1955, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1970, 1971, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1982, 1985, 1986, 1987, 1989, 1992, 1993, 1994, 1995, 1998, 1999, 2000, 2001, 2002, 2003, 2012, 2016, 2017, 2018, 2019, 2020, 2021],
         "advanced_in_playoffs": [1928, 1931, 1932, 1934, 1935, 1937, 1938, 1939, 1941, 1944, 1946, 1947, 1948, 1950, 1958, 1959, 1961, 1962, 1963, 1966, 1974, 1975, 1976, 1977, 1978, 1985, 1986, 1992, 1993, 1998, 1999, 2000, 2001, 2003],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1932, 1933, 1934, 1937, 1947, 1962, 1999, 2020],
+        "best_in_conference": [1932, 1933, 1934, 1937, 1947, 1962, 2020],
+        "best_overall": [1933, 1934, 1947, 1962],
+        "worst_in_division": [1926, 1957, 1969, 1980, 1983, 1984, 1986, 1988, 1990, 1991, 1996, 1997, 2007, 2008, 2009, 2015],
+        "worst_in_conference": [1926, 1957, 1969, 1984, 1988, 1990, 2015],
+        "worst_overall": [1957, 1984, 2015]
       }
     ]
   },
@@ -947,12 +947,12 @@
         "championship_appearances": [1981, 1993, 2010],
         "playoff_appearances": [1974, 1975, 1978, 1979, 1980, 1981, 1982, 1983, 1985, 1988, 1990, 1991, 1992, 1993, 1994, 1995, 2000, 2001, 2002, 2003, 2006, 2008, 2009, 2010, 2011, 2012, 2014, 2019],
         "advanced_in_playoffs": [1981, 1991, 1992, 1993, 1994, 2002, 2006, 2008, 2009, 2010, 2019],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1974, 1991, 1992, 2003, 2006, 2008, 2009, 2010, 2011, 2012],
+        "best_in_conference": [2010, 2011],
+        "best_overall": [2010, 2011],
+        "worst_in_division": [1971, 1984, 1986, 1987, 1989, 1997, 1998, 2007, 2016, 2020],
+        "worst_in_conference": [1971, 1986, 1989, 1997, 1998, 2020],
+        "worst_overall": [1971]
       }
     ]
   },
@@ -970,9 +970,9 @@
         "championship_appearances": [2017],
         "playoff_appearances": [2017, 2018, 2019, 2020],
         "advanced_in_playoffs": [2017, 2019, 2020],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
+        "best_in_division": [2017, 2019, 2020],
+        "best_in_conference": [2020],
+        "best_overall": [2020],
         "worst_in_division": [],
         "worst_in_conference": [],
         "worst_overall": []
@@ -993,12 +993,12 @@
         "championship_appearances": [1997, 2017],
         "playoff_appearances": [1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1997, 1999, 2000, 2002, 2007, 2008, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
         "advanced_in_playoffs": [1983, 1985, 1987, 1989, 1990, 1993, 1997, 2008, 2010, 2011, 2014, 2015, 2016, 2017],
-        "best_in_division": [],
-        "best_in_conference": [],
-        "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "best_in_division": [1988, 1999, 2000, 2007, 2008, 2009, 2010, 2012, 2015, 2016, 2017, 2018, 2019, 2020],
+        "best_in_conference": [2009, 2010, 2015, 2016, 2020],
+        "best_overall": [2009, 2015, 2016],
+        "worst_in_division": [1974, 1975, 1977, 1979, 1980, 1981, 2003, 2005, 2006],
+        "worst_in_conference": [1974, 1975, 1977],
+        "worst_overall": [1974, 1975]
       }
     ]
   },
@@ -1017,12 +1017,12 @@
         "championship_appearances": [],
         "playoff_appearances": [2006],
         "advanced_in_playoffs": [],
-        "best_in_division": [],
+        "best_in_division": [2006],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
-        "worst_in_conference": [],
-        "worst_overall": []
+        "worst_in_division": [1999, 2001],
+        "worst_in_conference": [1999, 2001],
+        "worst_overall": [1999, 2001]
       },
       {
         "start_season": 2011,
@@ -1036,7 +1036,7 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [],
+        "worst_in_division": [2013, 2015],
         "worst_in_conference": [],
         "worst_overall": []
       }

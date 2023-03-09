@@ -24,7 +24,8 @@ fun Application.configureTemplating() {
             val leagueMap = mapOf(
                 League.MLB to listOf("data/baseball/franchises.json"),
                 League.NFL to listOf("data/football/pre-super-bowl-nfl.json", "data/football/super-bowl-era-nfl.json"),
-                League.NBA to listOf("data/basketball/nba.json")
+                League.NBA to listOf("data/basketball/nba.json"),
+                League.NHL to listOf("data/hockey/nhl.json")
             )
 
             val franchises = FranchiseDataService().getFranchiseData(leagueMap)

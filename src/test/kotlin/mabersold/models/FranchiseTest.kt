@@ -9,7 +9,9 @@ import mabersold.`a really old franchise`
 import mabersold.`an MLB franchise that has one timeline that straddles the creation of divisions`
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
 import kotlin.test.assertNull
+import kotlin.test.assertTrue
 
 class FranchiseTest {
     @Test
@@ -186,5 +188,14 @@ class FranchiseTest {
         assertEquals(8, franchise.advancedInPlayoffs)
         assertEquals(5, franchise.playoffAppearancesInMultiRoundPlayoffYears)
         assertEquals(10, franchise.playoffAppearances)
+    }
+
+    @Test
+    fun `determines whether a franchise was active in a given season or not`() {
+        val franchise = `a franchise with two timelines and data`
+
+        assertFalse(franchise.playedInSeason(1970))
+        assertTrue(franchise.playedInSeason(1985))
+        assertFalse(franchise.playedInSeason(2005))
     }
 }

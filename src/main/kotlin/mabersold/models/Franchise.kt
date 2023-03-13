@@ -56,6 +56,13 @@ data class Franchise(
             timeline = timeline.within(startYear, endYear)
         )
 
+    /**
+     * Given a season, returns true if this franchise was active during that season
+     */
+    fun playedInSeason(season: Int): Boolean {
+        return timeline.any { (it.startSeason..it.endSeason).contains(season) }
+    }
+
     private fun List<FranchiseTimeline>.within(startYear: Int, endYear: Int) =
         this.filter { it.isWithin(startYear, endYear) }
             .map { it.trim(startYear, endYear) }

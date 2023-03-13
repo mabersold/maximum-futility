@@ -691,3 +691,59 @@ val `a franchise that spans the start of multi-round playoffs` = Franchise(
         )
     )
 )
+
+val `a city with two franchises in the same league, and some championships` = City(
+    metroArea = Metro.CALGARY,
+    franchises = listOf(
+        Franchise(
+            name = "Calgary Ruffriders",
+            firstSeason = 1980,
+            isDefunct = false,
+            league = League.NHL,
+            timeline = listOf(
+                FranchiseTimeline(
+                    startSeason = 1980,
+                    endSeason = 1989,
+                    name = "Calgary Ruffriders",
+                    metroArea = Metro.CALGARY,
+                    league = League.NHL,
+                    championships = listOf(1985),
+                    championshipAppearances = listOf(),
+                    playoffAppearances = listOf(),
+                    advancedInPlayoffs = listOf(),
+                    bestInDivision = listOf(),
+                    bestInConference = listOf(),
+                    bestOverall = listOf(),
+                    worstInDivision = listOf(),
+                    worstInConference = listOf(),
+                    worstOverall = listOf()
+                )
+            )
+        ),
+        Franchise(
+            name = "Calgary Roughryders",
+            firstSeason = 1980,
+            isDefunct = false,
+            league = League.NHL,
+            timeline = listOf(
+                FranchiseTimeline(
+                    startSeason = 1980,
+                    endSeason = 1989,
+                    name = "Calgary Roughryders",
+                    metroArea = Metro.CALGARY,
+                    league = League.NHL,
+                    championships = listOf(1986),
+                    championshipAppearances = listOf(),
+                    playoffAppearances = listOf(),
+                    advancedInPlayoffs = listOf(),
+                    bestInDivision = listOf(),
+                    bestInConference = listOf(),
+                    bestOverall = listOf(),
+                    worstInDivision = listOf(),
+                    worstInConference = listOf(),
+                    worstOverall = listOf()
+                )
+            )
+        )
+    )
+)

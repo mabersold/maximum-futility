@@ -6,6 +6,7 @@ import mabersold.`a city with an MLB franchise that played in a season with no p
 import mabersold.`a city with no postseason history`
 import mabersold.`a city with one franchise`
 import mabersold.`a city with two franchises`
+import mabersold.`a city with two franchises in the same league, and some championships`
 import mabersold.`a city with two generic franchises`
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -139,7 +140,14 @@ class CityTest {
     fun `calculates averages correctly for city with two franchises that have some seasons before multi-round playoffs`() {
         val city = `a city with an MLB franchise that has some seasons before divisional play`
 
-        assertEquals((1.0 /3), city.reachingFinalsPerPlayoffAppearance)
+        assertEquals((1.0 / 3), city.reachingFinalsPerPlayoffAppearance)
         assertEquals((2.0 / 3), city.advancingInPlayoffsPerPlayoffAppearance)
+    }
+
+    @Test
+    fun `applies discount to a city with multiple franchises in the same league for championships`() {
+        val city = `a city with two franchises in the same league, and some championships`
+
+        assertEquals((2.0 / 18), city.championshipsPerSeason)
     }
 }

@@ -53,8 +53,8 @@ data class FranchiseTimeline(
     )
 
     val totalPostSeasons = (startSeason..endSeason).toList().filterNot { league.excludePostseason.contains(it) }.size
-    val totalRegularSeasons = totalSeasons + league.extraSeasons()
-    val totalSeasonsWithDivisions = (startSeason..endSeason).toList().withDivisions(league).size + league.extraSeasons()
+    val totalRegularSeasons = totalSeasons + league.extraSeasons() - league.omittedSeasons()
+    val totalSeasonsWithDivisions = (startSeason..endSeason).toList().withDivisions(league).size + league.extraSeasons() - league.omittedSeasons()
     val bestInDivisionInSeasonsWithDivisionalPlay = bestInDivision.filter { divisionTitle -> divisionTitle >= league.firstSeasonWithDivisions }
     val totalBestInDivisionInSeasonsWithDivisionalPlay = bestInDivisionInSeasonsWithDivisionalPlay.size
     val worstInDivisionInSeasonsWithDivisionalPlay = worstInDivision.filter { divisionLoser -> divisionLoser >= league.firstSeasonWithDivisions }
@@ -70,6 +70,11 @@ data class FranchiseTimeline(
     private fun League?.extraSeasons() =
         this?.let {
             (startSeason..endSeason).intersect(it.doubleRegularSeasons.toSet()).size
+        } ?: 0
+
+    private fun League?.omittedSeasons() =
+        this?.let {
+            (startSeason..endSeason).intersect(it.excludeRegularSeason.toSet()).size
         } ?: 0
 
     private fun List<Int>.getWithin(startYear: Int, endYear: Int) = this.filter { it in startYear..endYear }

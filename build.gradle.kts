@@ -33,10 +33,11 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 
 dependencies {
     implementation("ch.qos.logback:logback-classic:$logbackVersion")
-    implementation("io.ktor:ktor-server-core-jvm:2.2.3")
-    implementation("io.ktor:ktor-server-thymeleaf-jvm:2.2.3")
-    implementation("io.ktor:ktor-server-netty-jvm:2.2.3")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:2.2.3")
+    implementation("io.ktor:ktor-server-core-jvm:2.2.4")
+    implementation("io.ktor:ktor-server-thymeleaf-jvm:2.2.4")
+    implementation("io.ktor:ktor-server-html-builder:2.2.4")
+    implementation("io.ktor:ktor-server-netty-jvm:2.2.4")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.2.4")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
-    testImplementation("io.ktor:ktor-server-tests-jvm:2.2.3")
+    testImplementation("io.ktor:ktor-server-tests-jvm:2.2.4")
 }

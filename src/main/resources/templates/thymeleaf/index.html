@@ -60,29 +60,29 @@
                 <!--/*@thymesVar id="franchise" type="mabersold.models.City"*/-->
                 <td th:text="${city.metroArea.displayName}"></td>
                 <td th:text="${city.totalSeasons}"></td>
-                <td th:text="${city.totalChampionships}"></td>
-                <td th:text="${#numbers.formatPercent(city.championshipsPerSeason, 1, 2)}"></td>
-                <td th:text="${city.championshipAppearances}"></td>
-                <td th:text="${#numbers.formatPercent(city.championshipAppearancesPerSeason, 1, 2)}"></td>
-                <td th:text="${city.playoffAppearances}"></td>
-                <td th:text="${#numbers.formatPercent(city.playoffAppearancesPerSeason, 1, 2)}"></td>
-                <td th:text="${city.advancedInPlayoffs}"></td>
-                <td th:text="${#numbers.formatPercent(city.advancedInPlayoffsPerSeason, 1, 2)}"></td>
-                <td th:text="${city.bestInDivision}"></td>
-                <td th:text="${#numbers.formatPercent(city.bestInDivisionPerSeason, 1, 2)}"></td>
-                <td th:text="${city.bestInConference}"></td>
-                <td th:text="${#numbers.formatPercent(city.bestInConferencePerSeason, 1, 2)}"></td>
-                <td th:text="${city.bestOverall}"></td>
-                <td th:text="${#numbers.formatPercent(city.bestOverallPerSeason, 1, 2)}"></td>
-                <td th:text="${city.worstInDivision}"></td>
-                <td th:text="${#numbers.formatPercent(city.worstInDivisionPerSeason, 1, 2)}"></td>
-                <td th:text="${city.worstInConference}"></td>
-                <td th:text="${#numbers.formatPercent(city.worstInConferencePerSeason, 1, 2)}"></td>
-                <td th:text="${city.worstOverall}"></td>
-                <td th:text="${#numbers.formatPercent(city.worstOverallPerSeason, 1, 2)}"></td>
-                <td th:text="${#numbers.formatPercent(city.winningPercentageInFinals, 1, 2)}"></td>
-                <td th:text="${#numbers.formatPercent(city.reachingFinalsPerPlayoffAppearance, 1, 2)}"></td>
-                <td th:text="${#numbers.formatPercent(city.advancingInPlayoffsPerPlayoffAppearance, 1, 2)}"></td>
+                <td th:text="${city.championships.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.championships.rate, 1, 2)}"></td>
+                <td th:text="${city.championshipAppearances.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.championshipAppearances.rate, 1, 2)}"></td>
+                <td th:text="${city.playoffAppearances.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.playoffAppearances.rate, 1, 2)}"></td>
+                <td th:text="${city.advancedInPlayoffs.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.advancedInPlayoffs.rate, 1, 2)}"></td>
+                <td th:text="${city.bestInDivision.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.bestInDivision.rate, 1, 2)}"></td>
+                <td th:text="${city.bestInConference.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.bestInConference.rate, 1, 2)}"></td>
+                <td th:text="${city.bestOverall.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.bestOverall.rate, 1, 2)}"></td>
+                <td th:text="${city.worstInDivision.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.worstInDivision.rate, 1, 2)}"></td>
+                <td th:text="${city.worstInConference.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.worstInConference.rate, 1, 2)}"></td>
+                <td th:text="${city.worstOverall.total}"></td>
+                <td th:text="${#numbers.formatPercent(city.worstOverall.rate, 1, 2)}"></td>
+                <td th:text="${#numbers.formatPercent(city.successInFinals.rate, 1, 2)}"></td>
+                <td th:text="${#numbers.formatPercent(city.reachingFinalsPerPlayoffs.rate, 1, 2)}"></td>
+                <td th:text="${#numbers.formatPercent(city.advancingInPlayoffsPerPlayoffs.rate, 1, 2)}"></td>
             </tr>
         </tbody>
     </table>

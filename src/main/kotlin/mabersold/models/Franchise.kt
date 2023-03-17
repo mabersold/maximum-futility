@@ -51,6 +51,9 @@ data class Franchise(
             timeline = timeline.within(league.firstSeason, league.mostRecentFinishedSeason)
         )
 
+    fun isWithin(startYear: Int, endYear: Int) =
+        timeline.within(startYear, endYear).isNotEmpty()
+
     fun within(startYear: Int, endYear: Int) =
         this.copy(
             timeline = timeline.within(startYear, endYear)

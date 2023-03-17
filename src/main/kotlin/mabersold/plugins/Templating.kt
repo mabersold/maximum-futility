@@ -1,14 +1,17 @@
 package mabersold.plugins
 
+import io.ktor.server.application.Application
+import io.ktor.server.application.call
+import io.ktor.server.application.install
+import io.ktor.server.response.respond
+import io.ktor.server.routing.get
+import io.ktor.server.routing.routing
 import io.ktor.server.thymeleaf.Thymeleaf
 import io.ktor.server.thymeleaf.ThymeleafContent
-import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
-import io.ktor.server.application.*
-import io.ktor.server.response.*
-import io.ktor.server.routing.*
 import mabersold.models.League
 import mabersold.services.FranchiseDataService
 import mabersold.services.FranchiseToCityMapper
+import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
 
 fun Application.configureTemplating() {
     install(Thymeleaf) {
@@ -28,7 +31,10 @@ fun Application.configureTemplating() {
                 League.NHL to listOf("data/hockey/nhl.json")
             )
 
-            val franchises = FranchiseDataService().getFranchiseData(leagueMap)
+            val startYear = call.request.queryParameters["startYear"]?.toInt() ?: League.MLB.firstSeason
+            val endYear = call.request.queryParameters["endYear"]?.toInt() ?: League.MLB.mostRecentFinishedSeason
+
+            val franchises = FranchiseDataService().getFranchiseData(leagueMap, startYear, endYear)
             val cities = FranchiseToCityMapper().mapToCities(franchises).sortedBy { it.metroArea.displayName }
 
             call.respond(ThymeleafContent("index", mapOf("cities" to cities)))
@@ -37,7 +43,8 @@ fun Application.configureTemplating() {
             call.respond(
                 ThymeleafContent(
                     "franchises",
-                    mapOf("franchises" to FranchiseDataService().getFranchiseData().map { it.withLeague(League.MLB) }.sortedBy { it.name })
+                    mapOf("franchises" to FranchiseDataService().getFranchiseData().map { it.withLeague(League.MLB) }
+                        .sortedBy { it.name })
                 )
             )
         }

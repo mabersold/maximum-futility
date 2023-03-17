@@ -198,4 +198,15 @@ class FranchiseTest {
         assertTrue(franchise.playedInSeason(1985))
         assertFalse(franchise.playedInSeason(2005))
     }
+
+    @Test
+    fun `isWithin evaluates correctly`() {
+        val franchise = `a franchise with two timelines and data`
+
+        assertTrue(franchise.isWithin(1980, 1999))
+        assertTrue(franchise.isWithin(1975, 1985))
+        assertTrue(franchise.isWithin(1995, 2005))
+        assertFalse(franchise.isWithin(1970, 1975))
+        assertFalse(franchise.isWithin(2005, 2010))
+    }
 }

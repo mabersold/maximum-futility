@@ -139,4 +139,25 @@ class FranchiseDataServiceTest {
         assertEquals(1960, franchises[0].timeline[0].startSeason)
         assertEquals(1980, franchises[0].timeline[1].startSeason)
     }
+
+    @Test
+    fun `only returns info within specified dates`() {
+        // Given
+        val sources = mapOf(
+            League.MLB to listOf("test_franchises.json")
+        )
+
+        // When
+        val franchises = franchiseDataService.getFranchiseData(sources, 1950, 1959)
+        val franchises2 = franchiseDataService.getFranchiseData(sources, 1970, 1999)
+
+        // Then
+        assertEquals(1, franchises.size)
+        assertEquals(0, franchises[0].totalChampionships)
+        assertEquals(2, franchises2.size)
+        assertEquals(1, franchises2[1].totalChampionships)
+        assertEquals(2, franchises2[1].championshipAppearances)
+        assertEquals(0, franchises2[0].totalChampionships)
+        assertEquals(0, franchises2[0].championshipAppearances)
+    }
 }

@@ -15,14 +15,14 @@ class FranchiseDataService {
         return getFranchiseListFromFile(source)
     }
 
-    fun getFranchiseData(sources: Map<League, List<String>>): List<Franchise> {
+    fun getFranchiseData(sources: Map<League, List<String>>, startYear: Int = 1903, endYear: Int = 2022): List<Franchise> {
         val newMap = sources.mapValues { entry ->
             entry.value.flatMap { sourceFile ->
                 getFranchiseListFromFile(sourceFile).map { it.withLeague(entry.key) }
             }.mergeFranchises()
         }
 
-        return newMap.values.flatten().sortedBy { it.name }
+        return newMap.values.flatten().within(startYear, endYear).sortedBy { it.name }
     }
 
     private fun getFranchiseListFromFile(sourceFile: String): List<Franchise> {
@@ -55,4 +55,8 @@ class FranchiseDataService {
             league = this.league
         )
     }
+
+    private fun List<Franchise>.within(startYear: Int, endYear: Int) =
+        this.filter { it.isWithin(startYear, endYear) }
+            .map { it.within(startYear, endYear) }
 }

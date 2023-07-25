@@ -1,0 +1,12 @@
+postseason,league,metro,rounds_won,appeared_in_championship,won_championship
+1947,NFL,Chicago,1,true,true
+1948,NFL,Chicago,0,true,false
+1974,NFL,St. Louis,0,false,false
+1975,NFL,St. Louis,0,false,false
+1982,NFL,St. Louis,0,false,false
+1998,NFL,Phoenix,1,false,false
+2008,NFL,Phoenix,3,true,false
+2009,NFL,Phoenix,1,false,false
+2014,NFL,Phoenix,0,false,false
+2015,NFL,Phoenix,1,false,false
+2021,NFL,Phoenix,0,false,false

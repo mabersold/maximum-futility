@@ -1,0 +1,41 @@
+name,is_defunct,league
+Atlanta Hawks,false,NBA
+Balitmore Bullets (original),true,NBA
+Boston Celtics,false,NBA
+Brooklyn Nets,false,NBA
+Charlotte Hornets,false,NBA
+Chicago Bulls,false,NBA
+Chicago Stags,true,NBA
+Cleveland Cavaliers,false,NBA
+Dallas Mavericks,false,NBA
+Denver Nuggets,false,NBA
+Denver Nuggets (original),true,NBA
+Detroit Pistons,false,NBA
+Golden State Warriors,false,NBA
+Houston Rockets,false,NBA
+Indiana Pacers,false,NBA
+Indianapolis Jets,true,NBA
+Indianapolis Olympians,true,NBA
+Los Angeles Clippers,false,NBA
+Los Angeles Lakers,false,NBA
+Memphis Grizzlies,false,NBA
+Miami Heat,false,NBA
+Milwaukee Bucks,false,NBA
+Minnesotta Timberwolves,false,NBA
+New Orleans Pelicans,false,NBA
+New York Knicks,false,NBA
+Oklahoma City Thunder,false,NBA
+Orlando Magic,false,NBA
+Philadelphia 76ers,false,NBA
+Phoenix Suns,false,NBA
+Pittsburgh Ironmen,true,NBA
+Portland Trail Blazers,false,NBA
+Providence Steam Rollers,true,NBA
+Sacramento Kings,false,NBA
+San Antonio Spurs,false,NBA
+St. Louis Bombers,true,NBA
+Toronto Huskies,true,NBA
+Toronto Raptors,false,NBA
+Utah Jazz,false,NBA
+Washington Capitols,true,NBA
+Washington Wizards,false,NBA

@@ -1,0 +1,32 @@
+name,is_defunct,league
+Chicago Cubs,false,MLB
+Atlanta Braves,false,MLB
+San Francisco Giants,false,MLB
+Philadelphia Phillies,false,MLB
+Pittsburgh Pirates,false,MLB
+Cincinnati Reds,false,MLB
+Los Angeles Dodgers,false,MLB
+St. Louis Cardinals,false,MLB
+Baltimore Orioles (1901-1902),true,MLB
+Boston Red Sox,false,MLB
+Chicago White Sox,false,MLB
+Cleveland Guardians,false,MLB
+Detroit Tigers,false,MLB
+Baltimore Orioles,false,MLB
+Oakland Athletics,false,MLB
+Minnesota Twins,false,MLB
+New York Yankees,false,MLB
+Texas Rangers,false,MLB
+Los Angeles Angels,false,MLB
+New York Mets,false,MLB
+Houston Astros,false,MLB
+Kansas City Royals,false,MLB
+Milwaukee Brewers,false,MLB
+San Diego Padres,false,MLB
+Washington Nationals,false,MLB
+Seattle Mariners,false,MLB
+Toronto Blue Jays,false,MLB
+Colorado Rockies,false,MLB
+Miami Marlins,false,MLB
+Arizona Diamondbacks,false,MLB
+Tampa Bay Rays,false,MLB

@@ -17,6 +17,12 @@ Or, if you don't have gradle installed, using the handy gradlew files that are i
 
 Once built, direct your browser to http://localhost:8080 to see the output.
 
+### Database Schema
+
+Run with the command line argument `--createSchema` to create the database schema. This will create a SQLite database file called `maximum_futility.db` in the build directory.
+
+    gradle run --args="--createSchema"
+
 ## How it Works
 
 The data is stored as JSON files. Although the main output is by city, the data is stored by franchise. When you load the main page, it maps the franchise data to city data. It also performs all the necessary calculations to give you the output.

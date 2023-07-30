@@ -99,16 +99,26 @@ object DatabaseFactory {
             // Populate franchise seasons and postseasons
             val franchiseSeasonData = mapOf(
                 "data/baseball/seasons/arizona-diamondbacks-seasons.csv" to "Arizona Diamondbacks",
+                "data/baseball/seasons/atlanta-braves-seasons.csv" to "Atlanta Braves",
+                "data/baseball/seasons/miami-marlins-seasons.csv" to "Miami Marlins",
+                "data/baseball/seasons/tampa-bay-rays-seasons.csv" to "Tampa Bay Rays",
                 "data/hockey/seasons/arizona-coyotes-seasons.csv" to "Arizona Coyotes",
+                "data/hockey/seasons/tampa-bay-lightning-seasons.csv" to "Tampa Bay Lightning",
                 "data/basketball/seasons/phoenix-suns-seasons.csv" to "Phoenix Suns",
-                "data/football/seasons/arizona-cardinals-seasons.csv" to "Arizona Cardinals"
+                "data/football/seasons/arizona-cardinals-seasons.csv" to "Arizona Cardinals",
+                "data/football/seasons/tampa-bay-buccaneers-seasons.csv" to "Tampa Bay Buccaneers"
             )
 
             val franchisePostSeasonData = mapOf(
                 "data/baseball/postseasons/arizona-diamondbacks-postseasons.csv" to "Arizona Diamondbacks",
+                "data/baseball/postseasons/atlanta-braves-postseasons.csv" to "Atlanta Braves",
+                "data/baseball/postseasons/miami-marlins-postseasons.csv" to "Miami Marlins",
+                "data/baseball/postseasons/tampa-bay-rays-postseasons.csv" to "Tampa Bay Rays",
                 "data/hockey/postseasons/arizona-coyotes-postseasons.csv" to "Arizona Coyotes",
+                "data/hockey/postseasons/tampa-bay-lightning-postseasons.csv" to "Tampa Bay Lightning",
                 "data/basketball/postseasons/phoenix-suns-postseasons.csv" to "Phoenix Suns",
-                "data/football/postseasons/arizona-cardinals-postseasons.csv" to "Arizona Cardinals"
+                "data/football/postseasons/arizona-cardinals-postseasons.csv" to "Arizona Cardinals",
+                "data/football/postseasons/tampa-bay-buccaneers-postseasons.csv" to "Tampa Bay Buccaneers"
             )
 
             franchiseSeasonData.forEach { (filename, franchiseName) ->

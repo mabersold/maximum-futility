@@ -855,8 +855,8 @@
         "best_in_division": [1957, 1958],
         "best_in_conference": [1957, 1958],
         "best_overall": [1958],
-        "worst_in_division": [1976, 1977, 1978],
-        "worst_in_conference": [1977],
+        "worst_in_division": [],
+        "worst_in_conference": [],
         "worst_overall": []
       },
       {
@@ -871,8 +871,8 @@
         "best_in_division": [1969, 1982, 1991, 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2013, 2018, 2019, 2020, 2021, 2022],
         "best_in_conference": [1992, 1993, 1995, 1996, 1997, 1998, 1999, 2002, 2003],
         "best_overall": [1992, 1993, 1997, 2003],
-        "worst_in_division": [1979, 1986, 1988, 1989, 1990, 2016],
-        "worst_in_conference": [1988, 1989, 1990],
+        "worst_in_division": [1976, 1977, 1978, 1979, 1986, 1988, 1989, 1990, 2016],
+        "worst_in_conference": [1977, 1988, 1989, 1990],
         "worst_overall": [1990]
       }
     ]

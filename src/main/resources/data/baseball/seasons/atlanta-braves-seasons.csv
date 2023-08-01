@@ -1,121 +1,121 @@
-season,metro,team_name,league,conference,division,league_position,conference_position,division_position
-1903,Boston,Boston Beaneaters,MLB,NL,,,,
-1904,Boston,Boston Beaneaters,MLB,NL,,,,
-1905,Boston,Boston Beaneaters,MLB,NL,,,,
-1906,Boston,Boston Beaneaters,MLB,NL,,,LAST,
-1907,Boston,Boston Doves,MLB,NL,,,,
-1908,Boston,Boston Doves,MLB,NL,,,,
-1909,Boston,Boston Doves,MLB,NL,,,LAST,
-1910,Boston,Boston Doves,MLB,NL,,,LAST,
-1911,Boston,Boston Rustlers,MLB,NL,,LAST,LAST,
-1912,Boston,Boston Braves,MLB,NL,,,LAST,
-1913,Boston,Boston Braves,MLB,NL,,,,
-1914,Boston,Boston Braves,MLB,NL,,,FIRST,
-1915,Boston,Boston Braves,MLB,NL,,,,
-1916,Boston,Boston Braves,MLB,NL,,,,
-1917,Boston,Boston Braves,MLB,NL,,,,
-1918,Boston,Boston Braves,MLB,NL,,,,
-1919,Boston,Boston Braves,MLB,NL,,,,
-1920,Boston,Boston Braves,MLB,NL,,,,
-1921,Boston,Boston Braves,MLB,NL,,,,
-1922,Boston,Boston Braves,MLB,NL,,LAST,LAST,
-1923,Boston,Boston Braves,MLB,NL,,,,
-1924,Boston,Boston Braves,MLB,NL,,LAST,LAST,
-1925,Boston,Boston Braves,MLB,NL,,,,
-1926,Boston,Boston Braves,MLB,NL,,,,
-1927,Boston,Boston Braves,MLB,NL,,,,
-1928,Boston,Boston Braves,MLB,NL,,,,
-1929,Boston,Boston Braves,MLB,NL,,LAST,LAST,
-1930,Boston,Boston Braves,MLB,NL,,,,
-1931,Boston,Boston Braves,MLB,NL,,,,
-1932,Boston,Boston Braves,MLB,NL,,,,
-1933,Boston,Boston Braves,MLB,NL,,,,
-1934,Boston,Boston Braves,MLB,NL,,,,
-1935,Boston,Boston Braves,MLB,NL,,LAST,LAST,
-1936,Boston,Boston Bees,MLB,NL,,,,
-1937,Boston,Boston Bees,MLB,NL,,,,
-1938,Boston,Boston Bees,MLB,NL,,,,
-1939,Boston,Boston Bees,MLB,NL,,,,
-1940,Boston,Boston Bees,MLB,NL,,,,
-1941,Boston,Boston Braves,MLB,NL,,,,
-1942,Boston,Boston Braves,MLB,NL,,,,
-1943,Boston,Boston Braves,MLB,NL,,,,
-1944,Boston,Boston Braves,MLB,NL,,,,
-1945,Boston,Boston Braves,MLB,NL,,,,
-1946,Boston,Boston Braves,MLB,NL,,,,
-1947,Boston,Boston Braves,MLB,NL,,,,
-1948,Boston,Boston Braves,MLB,NL,,,FIRST,
-1949,Boston,Boston Braves,MLB,NL,,,,
-1950,Boston,Boston Braves,MLB,NL,,,,
-1951,Boston,Boston Braves,MLB,NL,,,,
-1952,Boston,Boston Braves,MLB,NL,,,,
-1953,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1954,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1955,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1956,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1957,Milwaukee,Milwaukee Braves,MLB,NL,,,FIRST,
-1958,Milwaukee,Milwaukee Braves,MLB,NL,,FIRST,FIRST,
-1959,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1960,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1961,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1962,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1963,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1964,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1965,Milwaukee,Milwaukee Braves,MLB,NL,,,,
-1966,Atlanta,Atlanta Braves,MLB,NL,,,,
-1967,Atlanta,Atlanta Braves,MLB,NL,,,,
-1968,Atlanta,Atlanta Braves,MLB,NL,,,,
-1969,Atlanta,Atlanta Braves,MLB,NL,NL West,,,FIRST
-1970,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1971,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1972,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1973,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1974,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1975,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1976,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1977,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1978,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1979,Atlanta,Atlanta Braves,MLB,NL,NL West,,,LAST
-1980,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1981,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1982,Atlanta,Atlanta Braves,MLB,NL,NL West,,,FIRST
-1983,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1984,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1985,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1986,Atlanta,Atlanta Braves,MLB,NL,NL West,,,LAST
-1987,Atlanta,Atlanta Braves,MLB,NL,NL West,,,
-1988,Atlanta,Atlanta Braves,MLB,NL,NL West,,LAST,LAST
-1989,Atlanta,Atlanta Braves,MLB,NL,NL West,,LAST,LAST
-1990,Atlanta,Atlanta Braves,MLB,NL,NL West,LAST,LAST,LAST
-1991,Atlanta,Atlanta Braves,MLB,NL,NL West,,,FIRST
-1992,Atlanta,Atlanta Braves,MLB,NL,NL West,FIRST,FIRST,FIRST
-1993,Atlanta,Atlanta Braves,MLB,NL,NL West,FIRST,FIRST,FIRST
-1994,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-1995,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST
-1996,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST
-1997,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST
-1998,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST
-1999,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST
-2000,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
-2001,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
-2002,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST
-2003,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST
-2004,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
-2005,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
-2006,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2007,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2008,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2009,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2010,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2011,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2012,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2013,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
-2014,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2015,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2016,Atlanta,Atlanta Braves,MLB,NL,NL East,,,LAST
-2017,Atlanta,Atlanta Braves,MLB,NL,NL East,,,
-2018,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
-2019,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
-2020,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
-2021,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
-2022,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1903,Boston,Boston Beaneaters,MLB,NL,,,,,false,,,
+1904,Boston,Boston Beaneaters,MLB,NL,,,,,,,,
+1905,Boston,Boston Beaneaters,MLB,NL,,,,,false,,,
+1906,Boston,Boston Beaneaters,MLB,NL,,,LAST,,false,,,
+1907,Boston,Boston Doves,MLB,NL,,,,,false,,,
+1908,Boston,Boston Doves,MLB,NL,,,,,false,,,
+1909,Boston,Boston Doves,MLB,NL,,,LAST,,false,,,
+1910,Boston,Boston Doves,MLB,NL,,,LAST,,false,,,
+1911,Boston,Boston Rustlers,MLB,NL,,LAST,LAST,,false,,,
+1912,Boston,Boston Braves,MLB,NL,,,LAST,,false,,,
+1913,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1914,Boston,Boston Braves,MLB,NL,,,FIRST,,true,1,true,true
+1915,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1916,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1917,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1918,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1919,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1920,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1921,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1922,Boston,Boston Braves,MLB,NL,,LAST,LAST,,false,,,
+1923,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1924,Boston,Boston Braves,MLB,NL,,LAST,LAST,,false,,,
+1925,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1926,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1927,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1928,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1929,Boston,Boston Braves,MLB,NL,,LAST,LAST,,false,,,
+1930,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1931,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1932,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1933,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1934,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1935,Boston,Boston Braves,MLB,NL,,LAST,LAST,,false,,,
+1936,Boston,Boston Bees,MLB,NL,,,,,false,,,
+1937,Boston,Boston Bees,MLB,NL,,,,,false,,,
+1938,Boston,Boston Bees,MLB,NL,,,,,false,,,
+1939,Boston,Boston Bees,MLB,NL,,,,,false,,,
+1940,Boston,Boston Bees,MLB,NL,,,,,false,,,
+1941,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1942,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1943,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1944,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1945,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1946,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1947,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1948,Boston,Boston Braves,MLB,NL,,,FIRST,,true,0,true,false
+1949,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1950,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1951,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1952,Boston,Boston Braves,MLB,NL,,,,,false,,,
+1953,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1954,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1955,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1956,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1957,Milwaukee,Milwaukee Braves,MLB,NL,,,FIRST,,true,1,true,true
+1958,Milwaukee,Milwaukee Braves,MLB,NL,,FIRST,FIRST,,true,0,true,false
+1959,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1960,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1961,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1962,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1963,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1964,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1965,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
+1966,Atlanta,Atlanta Braves,MLB,NL,,,,,false,,,
+1967,Atlanta,Atlanta Braves,MLB,NL,,,,,false,,,
+1968,Atlanta,Atlanta Braves,MLB,NL,,,,,false,,,
+1969,Atlanta,Atlanta Braves,MLB,NL,NL West,,,FIRST,true,0,false,false
+1970,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1971,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1972,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1973,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1974,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1975,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1976,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1977,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1978,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1979,Atlanta,Atlanta Braves,MLB,NL,NL West,,,LAST,false,,,
+1980,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1981,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1982,Atlanta,Atlanta Braves,MLB,NL,NL West,,,FIRST,true,0,false,false
+1983,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1984,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1985,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1986,Atlanta,Atlanta Braves,MLB,NL,NL West,,,LAST,false,,,
+1987,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1988,Atlanta,Atlanta Braves,MLB,NL,NL West,,LAST,LAST,false,,,
+1989,Atlanta,Atlanta Braves,MLB,NL,NL West,,LAST,LAST,false,,,
+1990,Atlanta,Atlanta Braves,MLB,NL,NL West,LAST,LAST,LAST,false,,,
+1991,Atlanta,Atlanta Braves,MLB,NL,NL West,,,FIRST,true,1,true,false
+1992,Atlanta,Atlanta Braves,MLB,NL,NL West,FIRST,FIRST,FIRST,true,1,true,false
+1993,Atlanta,Atlanta Braves,MLB,NL,NL West,FIRST,FIRST,FIRST,true,0,false,false
+1994,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,,,,
+1995,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,2,true,true
+1996,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,2,true,false
+1997,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST,true,1,false,false
+1998,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,1,false,false
+1999,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,2,true,false
+2000,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
+2001,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,1,false,false
+2002,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,0,false,false
+2003,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST,true,0,false,false
+2004,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
+2005,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
+2006,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,false,,,
+2007,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,false,,,
+2008,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,false,,,
+2009,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,false,,,
+2010,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,true,0,false,false
+2011,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,false,,,
+2012,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,true,0,false,false
+2013,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
+2014,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,false,,,
+2015,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,false,,,
+2016,Atlanta,Atlanta Braves,MLB,NL,NL East,,,LAST,false,,,
+2017,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,false,,,
+2018,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
+2019,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
+2020,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,2,false,false
+2021,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,3,true,true
+2022,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false

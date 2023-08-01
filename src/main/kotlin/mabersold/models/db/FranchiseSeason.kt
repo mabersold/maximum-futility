@@ -13,7 +13,11 @@ data class FranchiseSeason(
     val division: String?,
     val leaguePosition: Standing?,
     val conferencePosition: Standing?,
-    val divisionPosition: Standing?
+    val divisionPosition: Standing?,
+    val qualifiedForPostseason: Boolean?,
+    val roundsWon: Int?,
+    val appearedInChampionship: Boolean?,
+    val wonChampionship: Boolean?
 )
 
 object FranchiseSeasons : IntIdTable() {
@@ -27,6 +31,10 @@ object FranchiseSeasons : IntIdTable() {
     val leaguePosition = enumerationByName("league_position", 128, Standing::class).nullable()
     val conferencePosition = enumerationByName("conference_position", 128, Standing::class).nullable()
     val divisionPosition = enumerationByName("division_position", 128, Standing::class).nullable()
+    val qualifiedForPostseason = bool("qualified_for_postseason").nullable()
+    val roundsWon = integer("rounds_won").nullable()
+    val appearedInChampionship = bool("appeared_in_championship").nullable()
+    val wonChampionship = bool("won_championship").nullable()
 }
 
 enum class Standing {

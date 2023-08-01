@@ -7,5 +7,5 @@ import mabersold.models.db.FranchiseSeason
 interface FranchiseSeasonDAO {
     suspend fun all(): List<FranchiseSeason>
     suspend fun get(id: Int): FranchiseSeason?
-    suspend fun regularSeasonResultsByMetro(metricType: MetricType): List<MetroData>
+    suspend fun resultsByMetro(metricType: MetricType): List<MetroData>
 }

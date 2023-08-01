@@ -8,11 +8,11 @@ import io.ktor.server.routing.get
 import io.ktor.server.routing.routing
 import io.ktor.server.thymeleaf.Thymeleaf
 import io.ktor.server.thymeleaf.ThymeleafContent
+import mabersold.dao.FranchiseSeasonDAOImpl
 import mabersold.models.League
 import mabersold.models.MetricType
 import mabersold.services.FranchiseDataService
 import mabersold.services.FranchiseToCityMapper
-import mabersold.services.MetroDataService
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
 
 fun Application.configureTemplating() {
@@ -52,8 +52,7 @@ fun Application.configureTemplating() {
         }
         get("/metros") {
             val metricType = call.request.queryParameters["metricType"]?.let { metricType -> MetricType.valueOf(metricType) } ?: MetricType.BEST_OVERALL
-            val metroDataService = MetroDataService()
-            val metroData = metroDataService.getMetroData(metricType)
+            val metroData = FranchiseSeasonDAOImpl().resultsByMetro(metricType)
             val allMetricTypes = MetricType.values().toList()
 
             call.respond(ThymeleafContent("metros", mapOf("metros" to metroData, "type" to metricType.displayName, "metricTypes" to allMetricTypes)))

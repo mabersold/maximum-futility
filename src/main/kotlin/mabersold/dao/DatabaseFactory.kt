@@ -3,7 +3,6 @@ package mabersold.dao
 import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
 import java.io.File
 import kotlinx.coroutines.Dispatchers
-import mabersold.models.db.FranchisePostseasons
 import mabersold.models.db.FranchiseSeasons
 import mabersold.models.db.Franchises
 import mabersold.models.db.League
@@ -32,7 +31,7 @@ object DatabaseFactory {
 
     private fun createSchema(database: Database) {
         transaction(database) {
-            val tables = listOf(FranchisePostseasons, FranchiseSeasons, Seasons, PostSeasons, Franchises, Metros, Leagues)
+            val tables = listOf(FranchiseSeasons, Seasons, PostSeasons, Franchises, Metros, Leagues)
 
             // Drop all tables, if they exist
             tables.forEach { table ->
@@ -100,6 +99,7 @@ object DatabaseFactory {
             val franchiseSeasonData = mapOf(
                 "data/baseball/seasons/arizona-diamondbacks-seasons.csv" to "Arizona Diamondbacks",
                 "data/baseball/seasons/atlanta-braves-seasons.csv" to "Atlanta Braves",
+                "data/baseball/seasons/baltimore-orioles-seasons.csv" to "Baltimore Orioles",
                 "data/baseball/seasons/miami-marlins-seasons.csv" to "Miami Marlins",
                 "data/baseball/seasons/tampa-bay-rays-seasons.csv" to "Tampa Bay Rays",
                 "data/hockey/seasons/arizona-coyotes-seasons.csv" to "Arizona Coyotes",
@@ -109,24 +109,8 @@ object DatabaseFactory {
                 "data/football/seasons/tampa-bay-buccaneers-seasons.csv" to "Tampa Bay Buccaneers"
             )
 
-            val franchisePostSeasonData = mapOf(
-                "data/baseball/postseasons/arizona-diamondbacks-postseasons.csv" to "Arizona Diamondbacks",
-                "data/baseball/postseasons/atlanta-braves-postseasons.csv" to "Atlanta Braves",
-                "data/baseball/postseasons/miami-marlins-postseasons.csv" to "Miami Marlins",
-                "data/baseball/postseasons/tampa-bay-rays-postseasons.csv" to "Tampa Bay Rays",
-                "data/hockey/postseasons/arizona-coyotes-postseasons.csv" to "Arizona Coyotes",
-                "data/hockey/postseasons/tampa-bay-lightning-postseasons.csv" to "Tampa Bay Lightning",
-                "data/basketball/postseasons/phoenix-suns-postseasons.csv" to "Phoenix Suns",
-                "data/football/postseasons/arizona-cardinals-postseasons.csv" to "Arizona Cardinals",
-                "data/football/postseasons/tampa-bay-buccaneers-postseasons.csv" to "Tampa Bay Buccaneers"
-            )
-
             franchiseSeasonData.forEach { (filename, franchiseName) ->
                 populateFranchiseSeasons(filename, seasonIds, franchiseIds[franchiseName]!!, metroIds, leagueIds)
-            }
-
-            franchisePostSeasonData.forEach { (filename, franchiseName) ->
-                populateFranchisePostseasons(filename, postseasonIds, franchiseIds[franchiseName]!!, metroIds, leagueIds)
             }
         }
     }
@@ -200,24 +184,23 @@ object DatabaseFactory {
                 it[leaguePosition] = if (row["league_position"].isNullOrBlank()) null else Standing.valueOf(row["league_position"]!!)
                 it[conferencePosition] = if (row["conference_position"].isNullOrBlank()) null else Standing.valueOf(row["conference_position"]!!)
                 it[divisionPosition] = if (row["division_position"].isNullOrBlank()) null else Standing.valueOf(row["division_position"]!!)
+                it[qualifiedForPostseason] = row["qualified_for_postseason"].getNullableBoolean()
+                it[roundsWon] = row["rounds_won"].getNullableInt()
+                it[appearedInChampionship] = row["appeared_in_championship"].getNullableBoolean()
+                it[wonChampionship] = row["won_championship"].getNullableBoolean()
             }
         }
     }
 
-    private fun populateFranchisePostseasons(fileName: String, postseasonIds: Map<Pair<Int, Int>, Int>, teamId: Int, metroIds: Map<String, Int>, leagueIds: Map<String, Int>) {
-        val data = getCSVData(fileName)
+    private fun String?.getNullableBoolean(): Boolean? = when (this) {
+        "true" -> true
+        "false" -> false
+        else -> null
+    }
 
-        for (row in data) {
-            FranchisePostseasons.insert {
-                it[postSeasonId] = postseasonIds[Pair(leagueIds[row["league"]], row["postseason"]!!.toInt())] ?: throw Exception("Could not find postseason ${row["postseason"]}")
-                it[franchiseId] = teamId
-                it[metroId] = metroIds[row["metro"]] ?: throw Exception("Could not find metro ${row["metro"]}")
-                it[leagueId] = leagueIds[row["league"]] ?: throw Exception("Could not find league ${row["league"]}")
-                it[roundsWon] = row["rounds_won"]!!.toInt()
-                it[appearedInChampionship] = row["appeared_in_championship"]!!.toBoolean()
-                it[wonChampionship] = row["won_championship"]!!.toBoolean()
-            }
-        }
+    private fun String?.getNullableInt(): Int? = when (this) {
+        null, "" -> null
+        else -> this.toInt()
     }
 
     suspend fun <T> dbQuery(block: suspend () -> T): T =

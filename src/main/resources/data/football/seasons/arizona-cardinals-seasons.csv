@@ -1,91 +1,91 @@
-season,metro,team_name,league,conference,division,league_position,conference_position,division_position
-1933,Chicago,Chicago Cardinals,NFL,Western,,LAST,LAST,
-1934,Chicago,Chicago Cardinals,NFL,Western,,,,
-1935,Chicago,Chicago Cardinals,NFL,Western,,,LAST_TIED,
-1936,Chicago,Chicago Cardinals,NFL,Western,,,LAST,
-1937,Chicago,Chicago Cardinals,NFL,Western,,,,
-1938,Chicago,Chicago Cardinals,NFL,Western,,LAST_TIED,LAST,
-1939,Chicago,Chicago Cardinals,NFL,Western,,LAST,LAST,
-1940,Chicago,Chicago Cardinals,NFL,Western,,,LAST,
-1941,Chicago,Chicago Cardinals,NFL,Western,,,,
-1942,Chicago,Chicago Cardinals,NFL,Western,,,,
-1943,Chicago,Chicago Cardinals,NFL,Western,,LAST,LAST,
-1944,Chicago,Card-Pitt,NFL,Western,,LAST_TIED,LAST,
-1945,Chicago,Chicago Cardinals,NFL,Western,,LAST,LAST,
-1946,Chicago,Chicago Cardinals,NFL,Western,,,,
-1947,Chicago,Chicago Cardinals,NFL,Western,,FIRST,FIRST,
-1948,Chicago,Chicago Cardinals,NFL,Western,,FIRST,FIRST,
-1949,Chicago,Chicago Cardinals,NFL,Western,,,,
-1950,Chicago,Chicago Cardinals,NFL,American,,,,
-1951,Chicago,Chicago Cardinals,NFL,American,,,,
-1952,Chicago,Chicago Cardinals,NFL,American,,,,
-1953,Chicago,Chicago Cardinals,NFL,Eastern,,LAST,LAST,
-1954,Chicago,Chicago Cardinals,NFL,Eastern,,LAST,LAST,
-1955,Chicago,Chicago Cardinals,NFL,Eastern,,,,
-1956,Chicago,Chicago Cardinals,NFL,Eastern,,,,
-1957,Chicago,Chicago Cardinals,NFL,Eastern,,LAST_TIED,LAST,
-1958,Chicago,Chicago Cardinals,NFL,Eastern,,,,
-1959,Chicago,Chicago Cardinals,NFL,Eastern,,LAST_TIED,LAST,
-1960,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,
-1961,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,
-1962,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,
-1963,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,
-1964,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,
-1965,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,
-1966,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,
-1967,St. Louis,St. Louis Cardinals,NFL,Eastern,Century,,,
-1968,St. Louis,St. Louis Cardinals,NFL,Eastern,Century,,,
-1969,St. Louis,St. Louis Cardinals,NFL,Eastern,Century,,,
-1970,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1971,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1972,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1973,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1974,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,FIRST_TIED,FIRST_TIED
-1975,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,FIRST
-1976,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1977,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1978,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1979,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,LAST
-1980,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1981,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,LAST
-1982,St. Louis,St. Louis Cardinals,NFL,NFC,,,,
-1983,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1984,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1985,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,LAST
-1986,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,LAST
-1987,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,
-1988,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,,
-1989,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,,
-1990,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,LAST_TIED,LAST
-1991,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,,LAST
-1992,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,LAST,LAST
-1993,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,,
-1994,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,
-1995,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,LAST,LAST
-1996,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,
-1997,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,LAST_TIED,LAST
-1998,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,
-1999,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,
-2000,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,LAST,LAST
-2001,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,
-2002,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST
-2003,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,LAST_TIED,LAST_TIED,LAST
-2004,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2005,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2006,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST
-2007,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2008,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,FIRST
-2009,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,FIRST
-2010,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST
-2011,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2012,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST
-2013,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2014,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2015,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,FIRST
-2016,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2017,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2018,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,LAST,LAST,LAST
-2019,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST
-2020,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2021,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,
-2022,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1933,Chicago,Chicago Cardinals,NFL,Western,,LAST,LAST,,false,,,
+1934,Chicago,Chicago Cardinals,NFL,Western,,,,,false,,,
+1935,Chicago,Chicago Cardinals,NFL,Western,,,LAST_TIED,,false,,,
+1936,Chicago,Chicago Cardinals,NFL,Western,,,LAST,,false,,,
+1937,Chicago,Chicago Cardinals,NFL,Western,,,,,false,,,
+1938,Chicago,Chicago Cardinals,NFL,Western,,LAST_TIED,LAST,,false,,,
+1939,Chicago,Chicago Cardinals,NFL,Western,,LAST,LAST,,false,,,
+1940,Chicago,Chicago Cardinals,NFL,Western,,,LAST,,false,,,
+1941,Chicago,Chicago Cardinals,NFL,Western,,,,,false,,,
+1942,Chicago,Chicago Cardinals,NFL,Western,,,,,false,,,
+1943,Chicago,Chicago Cardinals,NFL,Western,,LAST,LAST,,false,,,
+1944,Chicago,Card-Pitt,NFL,Western,,LAST_TIED,LAST,,false,,,
+1945,Chicago,Chicago Cardinals,NFL,Western,,LAST,LAST,,false,,,
+1946,Chicago,Chicago Cardinals,NFL,Western,,,,,false,,,
+1947,Chicago,Chicago Cardinals,NFL,Western,,FIRST,FIRST,,true,1,true,true
+1948,Chicago,Chicago Cardinals,NFL,Western,,FIRST,FIRST,,true,0,true,false
+1949,Chicago,Chicago Cardinals,NFL,Western,,,,,false,,,
+1950,Chicago,Chicago Cardinals,NFL,American,,,,,false,,,
+1951,Chicago,Chicago Cardinals,NFL,American,,,,,false,,,
+1952,Chicago,Chicago Cardinals,NFL,American,,,,,false,,,
+1953,Chicago,Chicago Cardinals,NFL,Eastern,,LAST,LAST,,false,,,
+1954,Chicago,Chicago Cardinals,NFL,Eastern,,LAST,LAST,,false,,,
+1955,Chicago,Chicago Cardinals,NFL,Eastern,,,,,false,,,
+1956,Chicago,Chicago Cardinals,NFL,Eastern,,,,,false,,,
+1957,Chicago,Chicago Cardinals,NFL,Eastern,,LAST_TIED,LAST,,false,,,
+1958,Chicago,Chicago Cardinals,NFL,Eastern,,,,,false,,,
+1959,Chicago,Chicago Cardinals,NFL,Eastern,,LAST_TIED,LAST,,false,,,
+1960,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,,false,,,
+1961,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,,false,,,
+1962,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,,false,,,
+1963,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,,false,,,
+1964,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,,false,,,
+1965,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,,false,,,
+1966,St. Louis,St. Louis Cardinals,NFL,Eastern,,,,,false,,,
+1967,St. Louis,St. Louis Cardinals,NFL,Eastern,Century,,,,false,,,
+1968,St. Louis,St. Louis Cardinals,NFL,Eastern,Century,,,,false,,,
+1969,St. Louis,St. Louis Cardinals,NFL,Eastern,Century,,,,false,,,
+1970,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1971,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1972,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1973,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1974,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,FIRST_TIED,FIRST_TIED,true,0,false,false
+1975,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,FIRST,true,0,false,false
+1976,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1977,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1978,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1979,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,LAST,false,,,
+1980,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1981,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,LAST,false,,,
+1982,St. Louis,St. Louis Cardinals,NFL,NFC,,,,,true,0,false,false
+1983,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1984,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1985,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,LAST,false,,,
+1986,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,LAST,false,,,
+1987,St. Louis,St. Louis Cardinals,NFL,NFC,NFC East,,,,false,,,
+1988,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,,,false,,,
+1989,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,,,false,,,
+1990,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,LAST_TIED,LAST,false,,,
+1991,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,,LAST,false,,,
+1992,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,LAST,LAST,false,,,
+1993,Phoenix,Phoenix Cardinals,NFL,NFC,NFC East,,,,false,,,
+1994,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,,false,,,
+1995,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,LAST,LAST,false,,,
+1996,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,,false,,,
+1997,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,LAST_TIED,LAST,false,,,
+1998,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,,true,1,false,false
+1999,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,,false,,,
+2000,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,LAST,LAST,false,,,
+2001,Phoenix,Arizona Cardinals,NFL,NFC,NFC East,,,,false,,,
+2002,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST,false,,,
+2003,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,LAST_TIED,LAST_TIED,LAST,false,,,
+2004,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,false,,,
+2005,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,false,,,
+2006,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST,false,,,
+2007,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,false,,,
+2008,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,FIRST,true,3,true,false
+2009,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,FIRST,true,1,false,false
+2010,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST,false,,,
+2011,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,false,,,
+2012,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST,false,,,
+2013,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,false,,,
+2014,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,true,0,false,false
+2015,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,FIRST,true,1,false,false
+2016,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,false,,,
+2017,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,false,,,
+2018,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,LAST,LAST,LAST,false,,,
+2019,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST,false,,,
+2020,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,false,,,
+2021,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,,true,0,false,false
+2022,Phoenix,Arizona Cardinals,NFL,NFC,NFC West,,,LAST,false,,,

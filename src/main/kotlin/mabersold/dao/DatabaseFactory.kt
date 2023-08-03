@@ -8,7 +8,6 @@ import mabersold.models.db.Franchises
 import mabersold.models.db.League
 import mabersold.models.db.Leagues
 import mabersold.models.db.Metros
-import mabersold.models.db.PostSeasons
 import mabersold.models.db.Seasons
 import mabersold.models.db.Standing
 import org.jetbrains.exposed.sql.Database
@@ -31,7 +30,7 @@ object DatabaseFactory {
 
     private fun createSchema(database: Database) {
         transaction(database) {
-            val tables = listOf(FranchiseSeasons, Seasons, PostSeasons, Franchises, Metros, Leagues)
+            val tables = listOf(FranchiseSeasons, Seasons, Franchises, Metros, Leagues)
 
             // Drop all tables, if they exist
             tables.forEach { table ->
@@ -85,22 +84,29 @@ object DatabaseFactory {
                 Pair(row[Seasons.leagueId].value, row[Seasons.startYear]) to row[Seasons.id].value
             }
 
-            // Populate postseasons
-            populate("data/baseball/mlb-postseasons.csv", leagues, ::insertPostSeason)
-            populate("data/basketball/nba-postseasons.csv", leagues, ::insertPostSeason)
-            populate("data/hockey/nhl-postseasons.csv", leagues, ::insertPostSeason)
-            populate("data/football/nfl-postseasons.csv", leagues, ::insertPostSeason)
-
-            val postseasonIds: Map<Pair<Int, Int>, Int> = PostSeasons.selectAll().associate { row ->
-                Pair(row[PostSeasons.leagueId].value, row[PostSeasons.year]) to row[PostSeasons.id].value
-            }
-
             // Populate franchise seasons and postseasons
             val franchiseSeasonData = mapOf(
                 "data/baseball/seasons/arizona-diamondbacks-seasons.csv" to "Arizona Diamondbacks",
                 "data/baseball/seasons/atlanta-braves-seasons.csv" to "Atlanta Braves",
                 "data/baseball/seasons/baltimore-orioles-seasons.csv" to "Baltimore Orioles",
+                "data/baseball/seasons/boston-red-sox.csv" to "Boston Red Sox",
+                "data/baseball/seasons/chicago-cubs.csv" to "Chicago Cubs",
+                "data/baseball/seasons/chicago-white-sox.csv" to "Chicago White Sox",
+                "data/baseball/seasons/cincinnati-reds.csv" to "Cincinnati Reds",
+                "data/baseball/seasons/cleveland-guardians.csv" to "Cleveland Guardians",
+                "data/baseball/seasons/colorado-rockies.csv" to "Colorado Rockies",
+                "data/baseball/seasons/detroit-tigers.csv" to "Detroit Tigers",
+                "data/baseball/seasons/houston-astros.csv" to "Houston Astros",
+                "data/baseball/seasons/kansas-city-royals.csv" to "Kansas City Royals",
+                "data/baseball/seasons/los-angeles-angels.csv" to "Los Angeles Angels",
+                "data/baseball/seasons/los-angeles-dodgers.csv" to "Los Angeles Dodgers",
                 "data/baseball/seasons/miami-marlins-seasons.csv" to "Miami Marlins",
+                "data/baseball/seasons/milwaukee-brewers.csv" to "Milwaukee Brewers",
+                "data/baseball/seasons/minnesota-twins.csv" to "Minnesota Twins",
+                "data/baseball/seasons/new-york-mets.csv" to "New York Mets",
+                "data/baseball/seasons/new-york-yankees.csv" to "New York Yankees",
+                "data/baseball/seasons/oakland-athletics.csv" to "Oakland Athletics",
+                "data/baseball/seasons/philadelphia-phillies.csv" to "Philadelphia Phillies",
                 "data/baseball/seasons/tampa-bay-rays-seasons.csv" to "Tampa Bay Rays",
                 "data/hockey/seasons/arizona-coyotes-seasons.csv" to "Arizona Coyotes",
                 "data/hockey/seasons/tampa-bay-lightning-seasons.csv" to "Tampa Bay Lightning",
@@ -160,13 +166,7 @@ object DatabaseFactory {
         it[leagueId] = leagues.first { league -> league.name == csvRow["league"]!! }.id
         it[totalMajorDivisions] = csvRow["total_major_divisions"]!!.toInt()
         it[totalMinorDivisions] = csvRow["total_minor_divisions"]!!.toInt()
-    }
-
-    private fun insertPostSeason(csvRow: Map<String, String>, leagues: List<League>) = PostSeasons.insert {
-        it[name] = csvRow["name"]!!
-        it[year] = csvRow["year"]!!.toInt()
-        it[leagueId] = leagues.first { league -> league.name == csvRow["league"]!! }.id
-        it[numberOfRounds] = csvRow["number_of_rounds"]!!.toInt()
+        it[postSeasonRounds] = csvRow["postseason_rounds"].getNullableInt()
     }
 
     private fun populateFranchiseSeasons(fileName: String, seasonIds: Map<Pair<Int, Int>, Int>, teamId: Int, metroIds: Map<String, Int>, leagueIds: Map<String, Int>) {

@@ -1,0 +1,121 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1903,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1904,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,,,,
+1905,Philadelphia,Philadelphia Athletics,MLB,AL,,,FIRST,,true,0,true,false
+1906,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1907,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1908,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1909,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1910,Philadelphia,Philadelphia Athletics,MLB,AL,,FIRST,FIRST,,true,1,true,true
+1911,Philadelphia,Philadelphia Athletics,MLB,AL,,FIRST,FIRST,,true,1,true,true
+1912,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1913,Philadelphia,Philadelphia Athletics,MLB,AL,,,FIRST,,true,1,true,true
+1914,Philadelphia,Philadelphia Athletics,MLB,AL,,FIRST,FIRST,,true,0,true,false
+1915,Philadelphia,Philadelphia Athletics,MLB,AL,,LAST,LAST,,false,,,
+1916,Philadelphia,Philadelphia Athletics,MLB,AL,,LAST,LAST,,false,,,
+1917,Philadelphia,Philadelphia Athletics,MLB,AL,,,LAST,,false,,,
+1918,Philadelphia,Philadelphia Athletics,MLB,AL,,,LAST,,false,,,
+1919,Philadelphia,Philadelphia Athletics,MLB,AL,,LAST,LAST,,false,,,
+1920,Philadelphia,Philadelphia Athletics,MLB,AL,,LAST,LAST,,false,,,
+1921,Philadelphia,Philadelphia Athletics,MLB,AL,,,LAST,,false,,,
+1922,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1923,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1924,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1925,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1926,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1927,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1928,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1929,Philadelphia,Philadelphia Athletics,MLB,AL,,FIRST,FIRST,,true,1,true,true
+1930,Philadelphia,Philadelphia Athletics,MLB,AL,,FIRST,FIRST,,true,1,true,true
+1931,Philadelphia,Philadelphia Athletics,MLB,AL,,FIRST,FIRST,,true,0,true,false
+1932,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1933,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1934,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1935,Philadelphia,Philadelphia Athletics,MLB,AL,,,LAST,,false,,,
+1936,Philadelphia,Philadelphia Athletics,MLB,AL,,LAST,LAST,,false,,,
+1937,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1938,Philadelphia,Philadelphia Athletics,MLB,AL,,,LAST,,false,,,
+1939,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1940,Philadelphia,Philadelphia Athletics,MLB,AL,,,LAST,,false,,,
+1941,Philadelphia,Philadelphia Athletics,MLB,AL,,,LAST,,false,,,
+1942,Philadelphia,Philadelphia Athletics,MLB,AL,,,LAST,,false,,,
+1943,Philadelphia,Philadelphia Athletics,MLB,AL,,LAST,LAST,,false,,,
+1944,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1945,Philadelphia,Philadelphia Athletics,MLB,AL,,,LAST,,false,,,
+1946,Philadelphia,Philadelphia Athletics,MLB,AL,,LAST,LAST,,false,,,
+1947,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1948,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1949,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1950,Philadelphia,Philadelphia Athletics,MLB,AL,,LAST,LAST,,false,,,
+1951,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1952,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1953,Philadelphia,Philadelphia Athletics,MLB,AL,,,,,false,,,
+1954,Philadelphia,Philadelphia Athletics,MLB,AL,,LAST,LAST,,false,,,
+1955,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
+1956,Kansas City,Kansas City Athletics,MLB,AL,,LAST,LAST,,false,,,
+1957,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
+1958,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
+1959,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
+1960,Kansas City,Kansas City Athletics,MLB,AL,,LAST,LAST,,false,,,
+1961,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
+1962,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
+1963,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
+1964,Kansas City,Kansas City Athletics,MLB,AL,,,LAST,,false,,,
+1965,Kansas City,Kansas City Athletics,MLB,AL,,,LAST,,false,,,
+1966,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
+1967,Kansas City,Kansas City Athletics,MLB,AL,,,LAST,,false,,,
+1968,San Francisco Bay,Oakland Athletics,MLB,AL,,,,,false,,,
+1969,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1970,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1971,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,0,false,false
+1972,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,FIRST,FIRST,true,2,true,true
+1973,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,2,true,true
+1974,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,2,true,true
+1975,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,FIRST,FIRST,true,0,false,false
+1976,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1977,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
+1978,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1979,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
+1980,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1981,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,FIRST,FIRST,FIRST,true,1,false,false
+1982,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1983,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1984,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1985,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1986,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1987,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1988,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,FIRST,FIRST,FIRST,true,1,true,false
+1989,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,FIRST,FIRST,FIRST,true,2,true,true
+1990,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,FIRST,FIRST,FIRST,true,1,true,false
+1991,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1992,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,FIRST,FIRST,true,0,false,false
+1993,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,LAST,LAST,false,,,
+1994,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,,,,
+1995,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
+1996,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+1997,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
+1998,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
+1999,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+2000,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,0,false,false
+2001,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,true,0,false,false
+2002,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,FIRST,FIRST,FIRST,true,0,false,false
+2003,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,0,false,false
+2004,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+2005,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+2006,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,1,false,false
+2007,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+2008,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+2009,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
+2010,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+2011,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+2012,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,0,false,false
+2013,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,0,false,false
+2014,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,true,0,false,false
+2015,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,LAST,LAST,false,,,
+2016,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
+2017,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
+2018,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,true,0,false,false
+2019,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,true,0,false,false
+2020,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,1,false,false
+2021,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
+2022,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,LAST,LAST,false,,,

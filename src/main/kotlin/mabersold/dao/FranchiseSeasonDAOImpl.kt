@@ -133,12 +133,11 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
         private val postSeasonOpportunities = FranchiseSeasons.qualifiedForPostseason.count().castTo<Int>(IntegerColumnType()).alias("postseason_opportunities")
         private val advancingInPlayoffsQuery = """
             SELECT m.name,
-            COUNT(DISTINCT CASE WHEN f.ROUNDS_WON > 0 AND p.NUMBER_OF_ROUNDS > 1 THEN f.ID end) AS advanced_in_playoffs,
-            COUNT(DISTINCT CASE WHEN p.NUMBER_OF_ROUNDS > 1 THEN p.ID END) AS postseason_opportunities
+            COUNT(DISTINCT CASE WHEN f.ROUNDS_WON > 0 AND s.TOTAL_POSTSEASON_ROUNDS > 1 THEN f.ID end) AS advanced_in_playoffs,
+            COUNT(DISTINCT CASE WHEN s.TOTAL_POSTSEASON_ROUNDS > 1 THEN s.ID END) AS postseason_opportunities
             FROM METROS m
             JOIN FRANCHISESEASONS f ON m.ID = f.METRO_ID
             LEFT JOIN SEASONS s ON f.SEASON_ID = s.ID
-            LEFT JOIN POSTSEASONS p ON f.LEAGUE_ID = p.LEAGUE_ID AND s.END_YEAR = p."YEAR"
             group BY m.name
         """.trimIndent()
     }

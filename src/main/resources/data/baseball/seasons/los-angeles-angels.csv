@@ -1,0 +1,63 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1961,Los Angeles,Los Angeles Angels,MLB,AL,,,,,false,,,
+1962,Los Angeles,Los Angeles Angels,MLB,AL,,,,,false,,,
+1963,Los Angeles,Los Angeles Angels,MLB,AL,,,,,false,,,
+1964,Los Angeles,Los Angeles Angels,MLB,AL,,,,,false,,,
+1965,Los Angeles,California Angels,MLB,AL,,,,,false,,,
+1966,Los Angeles,California Angels,MLB,AL,,,,,false,,,
+1967,Los Angeles,California Angels,MLB,AL,,,,,false,,,
+1968,Los Angeles,California Angels,MLB,AL,,,,,false,,,
+1969,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1970,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1971,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1972,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1973,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1974,Los Angeles,California Angels,MLB,AL,AL West,,LAST,LAST,false,,,
+1975,Los Angeles,California Angels,MLB,AL,AL West,,,LAST,false,,,
+1976,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1977,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1978,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1979,Los Angeles,California Angels,MLB,AL,AL West,,,FIRST,true,0,false,false
+1980,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1981,Los Angeles,California Angels,MLB,AL,AL West,,LAST,LAST,false,,,
+1982,Los Angeles,California Angels,MLB,AL,AL West,,,FIRST,true,0,false,false
+1983,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1984,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1985,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1986,Los Angeles,California Angels,MLB,AL,AL West,,,FIRST,true,0,false,false
+1987,Los Angeles,California Angels,MLB,AL,AL West,,,LAST,false,,,
+1988,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1989,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1990,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1991,Los Angeles,California Angels,MLB,AL,AL West,,,LAST,false,,,
+1992,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1993,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1994,Los Angeles,California Angels,MLB,AL,AL West,,,LAST,,,,
+1995,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
+1996,Los Angeles,California Angels,MLB,AL,AL West,,,LAST,false,,,
+1997,Los Angeles,Anaheim Angels,MLB,AL,AL West,,,,false,,,
+1998,Los Angeles,Anaheim Angels,MLB,AL,AL West,,,,false,,,
+1999,Los Angeles,Anaheim Angels,MLB,AL,AL West,,,LAST,false,,,
+2000,Los Angeles,Anaheim Angels,MLB,AL,AL West,,,,false,,,
+2001,Los Angeles,Anaheim Angels,MLB,AL,AL West,,,,false,,,
+2002,Los Angeles,Anaheim Angels,MLB,AL,AL West,,,,true,3,true,true
+2003,Los Angeles,Anaheim Angels,MLB,AL,AL West,,,,false,,,
+2004,Los Angeles,Anaheim Angels,MLB,AL,AL West,,,FIRST,true,0,false,false
+2005,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,,,FIRST,true,1,false,false
+2006,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,,,,false,,,
+2007,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,,,FIRST,true,0,false,false
+2008,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,FIRST,FIRST,FIRST,true,0,false,false
+2009,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,,,FIRST,true,1,false,false
+2010,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,,,,false,,,
+2011,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,,,,false,,,
+2012,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,,,,false,,,
+2013,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,,,,false,,,
+2014,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,FIRST,FIRST,FIRST,true,0,false,false
+2015,Los Angeles,Los Angeles Angels of Anaheim,MLB,AL,AL West,,,,false,,,
+2016,Los Angeles,Los Angeles Angels,MLB,AL,AL West,,,,false,,,
+2017,Los Angeles,Los Angeles Angels,MLB,AL,AL West,,,,false,,,
+2018,Los Angeles,Los Angeles Angels,MLB,AL,AL West,,,,false,,,
+2019,Los Angeles,Los Angeles Angels,MLB,AL,AL West,,,,false,,,
+2020,Los Angeles,Los Angeles Angels,MLB,AL,AL West,,,,false,,,
+2021,Los Angeles,Los Angeles Angels,MLB,AL,AL West,,,,false,,,
+2022,Los Angeles,Los Angeles Angels,MLB,AL,AL West,,,,false,,,

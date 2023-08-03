@@ -9,7 +9,8 @@ data class Season(
     val endYear: Int,
     val leagueId: Int,
     val totalMajorDivisions: Int,
-    val totalMinorDivisions: Int
+    val totalMinorDivisions: Int,
+    val postSeasonRounds: Int?
 )
 
 object Seasons : IntIdTable() {
@@ -19,4 +20,5 @@ object Seasons : IntIdTable() {
     val leagueId = reference("league_id", Leagues)
     val totalMajorDivisions = integer("total_major_divisions")
     val totalMinorDivisions = integer("total_minor_divisions")
+    val postSeasonRounds = integer("total_postseason_rounds").nullable()
 }

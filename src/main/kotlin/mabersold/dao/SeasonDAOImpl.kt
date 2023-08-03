@@ -16,7 +16,8 @@ class SeasonDAOImpl : SeasonDAO {
         endYear = row[Seasons.endYear],
         leagueId = row[Seasons.leagueId].value,
         totalMajorDivisions = row[Seasons.totalMajorDivisions],
-        totalMinorDivisions = row[Seasons.totalMinorDivisions]
+        totalMinorDivisions = row[Seasons.totalMinorDivisions],
+        postSeasonRounds = row[Seasons.postSeasonRounds]
     )
 
     override suspend fun all(): List<Season> = dbQuery {

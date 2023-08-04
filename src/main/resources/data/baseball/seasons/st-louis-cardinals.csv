@@ -1,0 +1,121 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1903,St. Louis,St. Louis Cardinals,MLB,NL,,LAST,LAST,,false,,,
+1904,St. Louis,St. Louis Cardinals,MLB,NL,,,,,,,,
+1905,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1906,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1907,St. Louis,St. Louis Cardinals,MLB,NL,,,LAST,,false,,,
+1908,St. Louis,St. Louis Cardinals,MLB,NL,,LAST,LAST,,false,,,
+1909,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1910,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1911,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1912,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1913,St. Louis,St. Louis Cardinals,MLB,NL,,LAST,LAST,,false,,,
+1914,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1915,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1916,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1917,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1918,St. Louis,St. Louis Cardinals,MLB,NL,,LAST,LAST,,false,,,
+1919,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1920,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1921,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1922,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1923,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1924,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1925,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1926,St. Louis,St. Louis Cardinals,MLB,NL,,,FIRST,,true,1,true,true
+1927,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1928,St. Louis,St. Louis Cardinals,MLB,NL,,,FIRST,,true,0,true,false
+1929,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1930,St. Louis,St. Louis Cardinals,MLB,NL,,,FIRST,,true,0,true,false
+1931,St. Louis,St. Louis Cardinals,MLB,NL,,,FIRST,,true,1,true,true
+1932,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1933,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1934,St. Louis,St. Louis Cardinals,MLB,NL,,,FIRST,,true,1,true,true
+1935,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1936,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1937,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1938,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1939,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1940,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1941,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1942,St. Louis,St. Louis Cardinals,MLB,NL,,FIRST,FIRST,,true,1,true,true
+1943,St. Louis,St. Louis Cardinals,MLB,NL,,FIRST,FIRST,,true,0,true,false
+1944,St. Louis,St. Louis Cardinals,MLB,NL,,FIRST,FIRST,,true,1,true,true
+1945,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1946,St. Louis,St. Louis Cardinals,MLB,NL,,,FIRST,,true,1,true,true
+1947,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1948,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1949,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1950,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1951,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1952,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1953,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1954,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1955,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1956,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1957,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1958,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1959,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1960,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1961,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1962,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1963,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1964,St. Louis,St. Louis Cardinals,MLB,NL,,,FIRST,,true,1,true,true
+1965,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1966,St. Louis,St. Louis Cardinals,MLB,NL,,,,,false,,,
+1967,St. Louis,St. Louis Cardinals,MLB,NL,,FIRST,FIRST,,true,1,true,true
+1968,St. Louis,St. Louis Cardinals,MLB,NL,,,FIRST,,true,0,true,false
+1969,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1970,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1971,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1972,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1973,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1974,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1975,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1976,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1977,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1978,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1979,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1980,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1981,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1982,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,FIRST,FIRST,true,2,true,true
+1983,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1984,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1985,St. Louis,St. Louis Cardinals,MLB,NL,NL East,FIRST,FIRST,FIRST,true,1,true,false
+1986,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1987,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,FIRST,FIRST,true,1,true,false
+1988,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1989,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1990,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,LAST,false,,,
+1991,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1992,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1993,St. Louis,St. Louis Cardinals,MLB,NL,NL East,,,,false,,,
+1994,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,,,,
+1995,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+1996,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,FIRST,true,1,false,false
+1997,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+1998,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+1999,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+2000,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,FIRST,true,1,false,false
+2001,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,FIRST,FIRST,true,0,false,false
+2002,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,FIRST,true,1,false,false
+2003,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+2004,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,FIRST,FIRST,FIRST,true,2,true,false
+2005,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,FIRST,FIRST,FIRST,true,1,false,false
+2006,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,FIRST,true,3,true,true
+2007,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+2008,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+2009,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,FIRST,true,0,false,false
+2010,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+2011,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,true,3,true,true
+2012,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,true,2,false,false
+2013,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,FIRST,FIRST,true,2,true,false
+2014,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,FIRST,true,1,false,false
+2015,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,FIRST,FIRST,FIRST,true,0,false,false
+2016,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+2017,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+2018,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,false,,,
+2019,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,FIRST,true,1,false,false
+2020,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,true,0,false,false
+2021,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,true,0,false,false
+2022,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,FIRST,true,0,false,false

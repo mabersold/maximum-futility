@@ -77,7 +77,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1978,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,FIRST,true,0,false,false
 1979,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,,false,,,
 1980,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,FIRST,true,2,true,true
-1981,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,FIRST,true,0,false,false
+1981,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,,true,0,false,false
 1982,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,,false,,,
 1983,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,FIRST,true,1,true,false
 1984,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,,false,,,

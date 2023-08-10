@@ -1,0 +1,76 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1948,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,,,false,,,
+1949,Fort Wayne,Fort Wayne Pistons,NBA,Central,,,,,true,1,false,false
+1950,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,,,true,0,false,false
+1951,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,,,true,0,false,false
+1952,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,,,true,1,false,false
+1953,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,,,true,0,false,false
+1954,Fort Wayne,Fort Wayne Pistons,NBA,Western,,FIRST,FIRST,,true,1,false,false
+1955,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,FIRST,,true,1,false,false
+1956,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,FIRST,,true,0,false,false
+1957,Detroit,Detroit Pistons,NBA,Western,,,,,true,1,false,false
+1958,Detroit,Detroit Pistons,NBA,Western,,,,,true,0,false,false
+1959,Detroit,Detroit Pistons,NBA,Western,,,,,true,0,false,false
+1960,Detroit,Detroit Pistons,NBA,Western,,,,,true,0,false,false
+1961,Detroit,Detroit Pistons,NBA,Western,,,,,true,1,false,false
+1962,Detroit,Detroit Pistons,NBA,Western,,,,,true,0,false,false
+1963,Detroit,Detroit Pistons,NBA,Western,,,LAST,,false,,,
+1964,Detroit,Detroit Pistons,NBA,Western,,,,,false,,,
+1965,Detroit,Detroit Pistons,NBA,Western,,LAST,LAST,,false,,,
+1966,Detroit,Detroit Pistons,NBA,Western,,,LAST,,false,,,
+1967,Detroit,Detroit Pistons,NBA,Western,,,,,true,0,false,false
+1968,Detroit,Detroit Pistons,NBA,Western,,,,,false,,,
+1969,Detroit,Detroit Pistons,NBA,Western,,,LAST,,false,,,
+1970,Detroit,Detroit Pistons,NBA,Western,Midwest,,,,false,,,
+1971,Detroit,Detroit Pistons,NBA,Western,Midwest,,,LAST,false,,,
+1972,Detroit,Detroit Pistons,NBA,Western,Midwest,,,,true,,,
+1973,Detroit,Detroit Pistons,NBA,Western,Midwest,,,,true,0,false,false
+1974,Detroit,Detroit Pistons,NBA,Western,Midwest,,,,true,0,false,false
+1975,Detroit,Detroit Pistons,NBA,Western,Midwest,,,,true,1,false,false
+1976,Detroit,Detroit Pistons,NBA,Western,Midwest,,,,true,0,false,false
+1977,Detroit,Detroit Pistons,NBA,Western,Midwest,,,,false,,,
+1978,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+1979,Detroit,Detroit Pistons,NBA,Eastern,Central,LAST,LAST,LAST,false,,,
+1980,Detroit,Detroit Pistons,NBA,Eastern,Central,,LAST,LAST,false,,,
+1981,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+1982,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+1983,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+1984,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,1,false,false
+1985,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+1986,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,2,false,false
+1987,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,3,true,false
+1988,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,4,true,true
+1989,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,4,true,true
+1990,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,2,false,false
+1991,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+1992,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+1993,Detroit,Detroit Pistons,NBA,Eastern,Central,,LAST,LAST,false,,,
+1994,Detroit,Detroit Pistons,NBA,Eastern,Central,,,LAST,false,,,
+1995,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+1996,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+1997,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+1998,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+1999,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+2000,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+2001,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,1,false,false
+2002,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,2,false,false
+2003,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,4,true,true
+2004,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,3,true,false
+2005,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,2,false,false
+2006,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,2,false,false
+2007,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,2,false,false
+2008,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+2009,Detroit,Detroit Pistons,NBA,Eastern,Central,,,LAST,false,,,
+2010,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+2011,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+2012,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+2013,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+2014,Detroit,Detroit Pistons,NBA,Eastern,Central,,,LAST,false,,,
+2015,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+2016,Detroit,Detroit Pistons,NBA,Eastern,Central,,,LAST,false,,,
+2017,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+2018,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,true,0,false,false
+2019,Detroit,Detroit Pistons,NBA,Eastern,Central,,,,false,,,
+2020,Detroit,Detroit Pistons,NBA,Eastern,Central,,LAST,LAST,false,,,
+2021,Detroit,Detroit Pistons,NBA,Eastern,Central,,,LAST,false,,,
+2022,Detroit,Detroit Pistons,NBA,Eastern,Central,LAST,LAST,LAST,false,,,

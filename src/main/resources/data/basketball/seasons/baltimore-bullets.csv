@@ -1,0 +1,9 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1947,Baltimore,Baltimore Bullets,NBA,Western,,,LAST,,true,4,true,true
+1948,Baltimore,Baltimore Bullets,NBA,Eastern,,,,,true,0,false,false
+1949,Baltimore,Baltimore Bullets,NBA,Eastern,,,,,false,,,
+1950,Baltimore,Baltimore Bullets,NBA,Eastern,,,,,false,,,
+1951,Baltimore,Baltimore Bullets,NBA,Eastern,,,LAST,,false,,,
+1952,Baltimore,Baltimore Bullets,NBA,Eastern,,,,,true,0,false,false
+1953,Baltimore,Baltimore Bullets,NBA,Eastern,,LAST,LAST,,false,,,
+1954,Baltimore,Baltimore Bullets,NBA,Eastern,,,,,false,,,

@@ -3,7 +3,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1978,Toronto,Toronto Blue Jays,MLB,AL,AL East,,,LAST,false,,,
 1979,Toronto,Toronto Blue Jays,MLB,AL,AL East,LAST,LAST,LAST,false,,,
 1980,Toronto,Toronto Blue Jays,MLB,AL,AL East,,,LAST,false,,,
-1981,Toronto,Toronto Blue Jays,MLB,AL,AL East,,LAST,LAST,false,,,
+1981,Toronto,Toronto Blue Jays,MLB,AL,AL East,LAST,LAST,LAST,false,,,
 1982,Toronto,Toronto Blue Jays,MLB,AL,AL East,,,LAST,false,,,
 1983,Toronto,Toronto Blue Jays,MLB,AL,AL East,,,,false,,,
 1984,Toronto,Toronto Blue Jays,MLB,AL,AL East,,,,false,,,

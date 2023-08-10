@@ -11,7 +11,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1978,Montreal,Montreal Expos,MLB,NL,NL East,,,,false,,,
 1979,Montreal,Montreal Expos,MLB,NL,NL East,,,,false,,,
 1980,Montreal,Montreal Expos,MLB,NL,NL East,,,,false,,,
-1981,Montreal,Montreal Expos,MLB,NL,NL East,,,FIRST,true,1,false,false
+1981,Montreal,Montreal Expos,MLB,NL,NL East,,,,true,1,false,false
 1982,Montreal,Montreal Expos,MLB,NL,NL East,,,,false,,,
 1983,Montreal,Montreal Expos,MLB,NL,NL East,,,,false,,,
 1984,Montreal,Montreal Expos,MLB,NL,NL East,,,,false,,,

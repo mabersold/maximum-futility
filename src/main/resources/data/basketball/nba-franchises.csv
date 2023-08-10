@@ -1,6 +1,6 @@
 name,is_defunct,league
 Atlanta Hawks,false,NBA
-Balitmore Bullets (original),true,NBA
+Baltimore Bullets (original),true,NBA
 Boston Celtics,false,NBA
 Brooklyn Nets,false,NBA
 Charlotte Hornets,false,NBA
@@ -21,7 +21,7 @@ Los Angeles Lakers,false,NBA
 Memphis Grizzlies,false,NBA
 Miami Heat,false,NBA
 Milwaukee Bucks,false,NBA
-Minnesotta Timberwolves,false,NBA
+Minnesota Timberwolves,false,NBA
 New Orleans Pelicans,false,NBA
 New York Knicks,false,NBA
 Oklahoma City Thunder,false,NBA
@@ -30,7 +30,7 @@ Philadelphia 76ers,false,NBA
 Phoenix Suns,false,NBA
 Pittsburgh Ironmen,true,NBA
 Portland Trail Blazers,false,NBA
-Providence Steam Rollers,true,NBA
+Providence Steamrollers,true,NBA
 Sacramento Kings,false,NBA
 San Antonio Spurs,false,NBA
 St. Louis Bombers,true,NBA

@@ -19,7 +19,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1978,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
 1979,Los Angeles,California Angels,MLB,AL,AL West,,,FIRST,true,0,false,false
 1980,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
-1981,Los Angeles,California Angels,MLB,AL,AL West,,LAST,LAST,false,,,
+1981,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
 1982,Los Angeles,California Angels,MLB,AL,AL West,,,FIRST,true,0,false,false
 1983,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
 1984,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,

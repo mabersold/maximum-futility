@@ -18,7 +18,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1978,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
 1979,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
 1980,Houston,Houston Astros,MLB,NL,NL West,,FIRST,FIRST,true,0,false,false
-1981,Houston,Houston Astros,MLB,NL,NL West,FIRST,FIRST,FIRST,true,0,false,false
+1981,Houston,Houston Astros,MLB,NL,NL West,,,,true,0,false,false
 1982,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
 1983,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
 1984,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,

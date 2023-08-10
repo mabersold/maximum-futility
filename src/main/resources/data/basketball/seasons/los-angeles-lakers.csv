@@ -1,0 +1,76 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1948,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,3,true,true
+1949,Minneapolis,Minneapolis Lakers,NBA,Western,,FIRST,FIRST,,true,4,true,true
+1950,Minneapolis,Minneapolis Lakers,NBA,Central,,FIRST,FIRST,,true,1,false,false
+1951,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,3,true,true
+1952,Minneapolis,Minneapolis Lakers,NBA,Western,,FIRST,FIRST,,true,3,true,true
+1953,Minneapolis,Minneapolis Lakers,NBA,Western,,FIRST,FIRST,,true,3,true,true
+1954,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,1,false,false
+1955,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,0,false,false
+1956,Minneapolis,Minneapolis Lakers,NBA,Western,,,FIRST,,true,1,false,false
+1957,Minneapolis,Minneapolis Lakers,NBA,Western,,LAST,LAST,,false,,,
+1958,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,2,false,false
+1959,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,1,false,false
+1960,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,1,false,false
+1961,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,false,false
+1962,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,false,false
+1963,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,0,false,false
+1964,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,false,false
+1965,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,false,false
+1966,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,0,false,false
+1967,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,2,false,false
+1968,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,2,false,false
+1969,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,2,false,false
+1970,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,1,false,false
+1971,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,3,true,true
+1972,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,2,true,false
+1973,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,0,false,false
+1974,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,LAST,LAST,false,,,
+1975,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,false,,,
+1976,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,1,false,false
+1977,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
+1978,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,1,false,false
+1979,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,3,true,true
+1980,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
+1981,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,3,true,true
+1982,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,2,true,false
+1983,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,3,true,false
+1984,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,4,true,true
+1985,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,2,false,false
+1986,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+1987,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+1988,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,3,true,false
+1989,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,1,false,false
+1990,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,3,true,false
+1991,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
+1992,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
+1993,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,false,,,
+1994,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,1,false,false
+1995,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
+1996,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,1,false,false
+1997,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,2,false,false
+1998,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,1,false,false
+1999,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+2000,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,4,true,true
+2001,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,4,true,true
+2002,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,1,false,false
+2003,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,3,true,false
+2004,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,false,,,
+2005,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
+2006,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
+2007,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,3,true,false
+2008,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,4,true,true
+2009,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,4,true,true
+2010,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,1,false,false
+2011,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,1,false,false
+2012,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
+2013,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,LAST,false,,,
+2014,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,LAST,false,,,
+2015,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,LAST,LAST,false,,,
+2016,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,false,,,
+2017,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,false,,,
+2018,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,false,,,
+2019,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,4,true,true
+2020,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
+2021,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,false,,,
+2022,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,LAST,true,2,false,false

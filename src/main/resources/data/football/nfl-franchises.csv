@@ -1,3 +1,36 @@
 name,is_defunct,league
 Arizona Cardinals,false,NFL
+Atlanta Falcons,false,NFL
+Baltimore Ravens,false,NFL
+Buffalo Bills,false,NFL
+Carolina Panthers,false,NFL
+Chicago Bears,false,NFL
+Cincinnati Bengals,false,NFL
+Cleveland Browns,false,NFL
+Dallas Cowboys,false,NFL
+Denver Broncos,false,NFL
+Detroit Lions,false,NFL
+Green Bay Packers,false,NFL
+Houston Texans,false,NFL
+Indianapolis Colts,false,NFL
+Jacksonville Jaguars,false,NFL
+Kansas City Chiefs,false,NFL
+Las Vegas Raiders,false,NFL
+Los Angeles Chargers,false,NFL
+Los Angeles Rams,false,NFL
+Miami Dolphins,false,NFL
+Minnesota Vikings,false,NFL
+New England Patriots,false,NFL
+New Orleans Saints,false,NFL
+New York Giants,false,NFL
+New York Jets,false,NFL
+Philadelphia Eagles,false,NFL
+Pittsburgh Steelers,false,NFL
+San Francisco 49ers,false,NFL
+Seattle Seahawks,false,NFL
 Tampa Bay Buccaneers,false,NFL
+Tennessee Titans,false,NFL
+Washington Commanders,false,NFL
+Boston Yanks,true,NFL
+Brooklyn Dodgers,true,NFL
+Cincinnati Reds (NFL),true,NFL

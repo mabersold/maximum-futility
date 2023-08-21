@@ -394,8 +394,8 @@
         "best_in_division": [],
         "best_in_conference": [],
         "best_overall": [],
-        "worst_in_division": [1937, 1941, 1965],
-        "worst_in_conference": [1937, 1941, 1965],
+        "worst_in_division": [1937, 1941],
+        "worst_in_conference": [1937, 1941],
         "worst_overall": [1937]
       },
       {
@@ -428,8 +428,8 @@
         "best_in_division": [1949, 1950, 1951, 1952, 1955],
         "best_in_conference": [1949, 1950, 1951, 1952, 1955],
         "best_overall": [1952],
-        "worst_in_division": [1956, 1959, 1962],
-        "worst_in_conference": [1956, 1959, 1962],
+        "worst_in_division": [1956, 1959, 1962, 1965],
+        "worst_in_conference": [1956, 1959, 1962, 1965],
         "worst_overall": [1959, 1962]
       }
     ]

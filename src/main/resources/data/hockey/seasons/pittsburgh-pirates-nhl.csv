@@ -1,0 +1,6 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1926,Pittsburgh,Pittsburgh Pirates,NHL,American,,,,,false,,,
+1927,Pittsburgh,Pittsburgh Pirates,NHL,American,,,,,true,0,,
+1928,Pittsburgh,Pittsburgh Pirates,NHL,American,,,,,false,,,
+1929,Pittsburgh,Pittsburgh Pirates,NHL,American,,LAST,LAST,,false,,,
+1930,Philadelphia,Philadelphia Quakers,NHL,American,,LAST,LAST,,false,,,

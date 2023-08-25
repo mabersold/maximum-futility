@@ -1,0 +1,12 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1967,San Francisco Bay,Oakland Seals,NHL,West,,LAST,LAST,,false,,,
+1968,San Francisco Bay,Oakland Seals,NHL,West,,,,,false,0,,
+1969,San Francisco Bay,Oakland Seals,NHL,West,,,,,false,0,,
+1970,San Francisco Bay,California Golden Seals,NHL,West,,LAST,LAST,,false,,,
+1971,San Francisco Bay,California Golden Seals,NHL,West,,,,,false,,,
+1972,San Francisco Bay,California Golden Seals,NHL,West,,,LAST,,false,,,
+1973,San Francisco Bay,California Golden Seals,NHL,West,,LAST,LAST,,false,,,
+1974,San Francisco Bay,California Golden Seals,NHL,Prince of Wales,Adams,,,LAST,false,,,
+1975,San Francisco Bay,California Golden Seals,NHL,Prince of Wales,Adams,,,LAST,false,,,
+1976,Cleveland,Cleveland Barons,NHL,Prince of Wales,Adams,,,LAST,false,0,,
+1977,Cleveland,Cleveland Barons,NHL,Prince of Wales,Adams,,,LAST,false,0,,

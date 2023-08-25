@@ -1,3 +1,38 @@
 name,is_defunct,league
+Anaheim Ducks,false,NHL
 Arizona Coyotes,false,NHL
+Boston Bruins,false,NHL
+Buffalo Sabres,false,NHL
+Calgary Flames,false,NHL
+California Golden Seals,true,NHL
+Carolina Hurricanes,false,NHL
+Chicago Blackhawks,false,NHL
+Colorado Avalanche,false,NHL
+Columbus Blue Jackets,false,NHL
+Dallas Stars,false,NHL
+Detroit Red Wings,false,NHL
+Edmonton Oilers,false,NHL
+Florida Panthers,false,NHL
+Los Angeles Kings,false,NHL
+Minnesota Wild,false,NHL
+Montreal Canadiens,false,NHL
+Montreal Maroons,true,NHL
+Nashville Predators,false,NHL
+New Jersey Devils,false,NHL
+New York Americans,true,NHL
+New York Islanders,false,NHL
+New York Rangers,false,NHL
+Ottawa Senators,false,NHL
+Ottawa Senators (original),true,NHL
+Philadelphia Flyers,false,NHL
+Pittsburgh Penguins,false,NHL
+Pittsburgh Pirates (NHL),true,NHL
+San Jose Sharks,false,NHL
+Seattle Kraken,false,NHL
+St. Louis Blues,false,NHL
 Tampa Bay Lightning,false,NHL
+Toronto Maple Leafs,false,NHL
+Vancouver Canucks,false,NHL
+Vegas Golden Knights,false,NHL
+Washington Capitals,false,NHL
+Winnipeg Jets,false,NHL

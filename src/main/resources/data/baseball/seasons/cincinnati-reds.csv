@@ -71,8 +71,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1972,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,FIRST,true,1,true,false
 1973,Cincinnati,Cincinnati Reds,MLB,NL,NL West,FIRST,FIRST,FIRST,true,0,false,false
 1974,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,,false,,,
-1975,Cincinnati,Cincinnati Reds,MLB,NL,NL West,FIRST,FIRST,FIRST,true,2,true,false
-1976,Cincinnati,Cincinnati Reds,MLB,NL,NL West,FIRST,FIRST,FIRST,true,2,true,false
+1975,Cincinnati,Cincinnati Reds,MLB,NL,NL West,FIRST,FIRST,FIRST,true,2,true,true
+1976,Cincinnati,Cincinnati Reds,MLB,NL,NL West,FIRST,FIRST,FIRST,true,2,true,true
 1977,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,,false,,,
 1978,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,,false,,,
 1979,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,FIRST,true,0,false,false

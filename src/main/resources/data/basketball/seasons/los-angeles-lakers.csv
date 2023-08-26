@@ -9,18 +9,18 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1955,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,0,false,false
 1956,Minneapolis,Minneapolis Lakers,NBA,Western,,,FIRST,,true,1,false,false
 1957,Minneapolis,Minneapolis Lakers,NBA,Western,,LAST,LAST,,false,,,
-1958,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,2,false,false
+1958,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,2,true,false
 1959,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,1,false,false
 1960,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,1,false,false
-1961,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,false,false
-1962,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,false,false
+1961,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,true,false
+1962,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,true,false
 1963,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,0,false,false
-1964,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,false,false
-1965,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,false,false
+1964,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,true,false
+1965,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,1,true,false
 1966,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,0,false,false
-1967,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,2,false,false
-1968,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,2,false,false
-1969,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,2,false,false
+1967,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,2,true,false
+1968,Los Angeles,Los Angeles Lakers,NBA,Western,,,FIRST,,true,2,true,false
+1969,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,2,true,false
 1970,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,1,false,false
 1971,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,3,true,true
 1972,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,2,true,false

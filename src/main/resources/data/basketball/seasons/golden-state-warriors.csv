@@ -16,11 +16,11 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1960,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,0,false,false
 1961,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,1,false,false
 1962,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,false,,,
-1963,San Francisco Bay,San Francisco Warriors,NBA,Western,,FIRST,FIRST,,true,1,false,false
+1963,San Francisco Bay,San Francisco Warriors,NBA,Western,,FIRST,FIRST,,true,1,true,false
 1964,San Francisco Bay,San Francisco Warriors,NBA,Western,,LAST,LAST,,false,,,
 1965,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,false,,,
 1966,San Francisco Bay,San Francisco Warriors,NBA,Western,,,FIRST,,true,2,false,false
-1967,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,true,1,false,false
+1967,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,true,1,true,false
 1968,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,true,0,false,false
 1969,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,false,,,
 1970,San Francisco Bay,San Francisco Warriors,NBA,Western,Pacific,,,,true,0,false,false

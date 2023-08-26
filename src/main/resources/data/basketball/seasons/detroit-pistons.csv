@@ -5,8 +5,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1951,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,,,true,0,false,false
 1952,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,,,true,1,false,false
 1953,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,,,true,0,false,false
-1954,Fort Wayne,Fort Wayne Pistons,NBA,Western,,FIRST,FIRST,,true,1,false,false
-1955,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,FIRST,,true,1,false,false
+1954,Fort Wayne,Fort Wayne Pistons,NBA,Western,,FIRST,FIRST,,true,1,true,false
+1955,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,FIRST,,true,1,true,false
 1956,Fort Wayne,Fort Wayne Pistons,NBA,Western,,,FIRST,,true,0,false,false
 1957,Detroit,Detroit Pistons,NBA,Western,,,,,true,1,false,false
 1958,Detroit,Detroit Pistons,NBA,Western,,,,,true,0,false,false

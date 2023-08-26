@@ -6,11 +6,11 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1953,Milwaukee,Milwaukee Hawks,NBA,Western,,,LAST,,false,,,
 1954,Milwaukee,Milwaukee Hawks,NBA,Western,,LAST,LAST,,false,,,
 1955,St. Louis,St. Louis Hawks,NBA,Western,,,,,true,1,false,false
-1956,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,1,false,false
-1957,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,2,false,false
+1956,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,1,true,false
+1957,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,2,true,true
 1958,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,0,false,false
-1959,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,1,false,false
-1960,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,1,false,false
+1959,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,1,true,false
+1960,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,1,true,false
 1961,St. Louis,St. Louis Hawks,NBA,Western,,,,,true,,,
 1962,St. Louis,St. Louis Hawks,NBA,Western,,,,,true,1,false,false
 1963,St. Louis,St. Louis Hawks,NBA,Western,,,,,true,1,false,false

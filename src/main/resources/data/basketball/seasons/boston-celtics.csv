@@ -10,7 +10,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1954,Boston,Boston Celtics,NBA,Eastern,,,,,true,1,false,false
 1955,Boston,Boston Celtics,NBA,Eastern,,,,,true,0,false,false
 1956,Boston,Boston Celtics,NBA,Eastern,,FIRST,FIRST,,true,2,true,true
-1957,Boston,Boston Celtics,NBA,Eastern,,FIRST,FIRST,,true,1,false,false
+1957,Boston,Boston Celtics,NBA,Eastern,,FIRST,FIRST,,true,1,true,false
 1958,Boston,Boston Celtics,NBA,Eastern,,FIRST,FIRST,,true,2,true,true
 1959,Boston,Boston Celtics,NBA,Eastern,,FIRST,FIRST,,true,2,true,true
 1960,Boston,Boston Celtics,NBA,Eastern,,FIRST,FIRST,,true,2,true,true

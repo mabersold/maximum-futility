@@ -73,11 +73,25 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
             MetricType.WORST_CONFERENCE -> regularSeasonResults(metricType, lastInConferenceTotal, totalSeasonsWithConferences)
             MetricType.BEST_DIVISION -> regularSeasonResults(metricType, firstInDivisionTotal, totalSeasonsWithDivisions)
             MetricType.WORST_DIVISION -> regularSeasonResults(metricType, lastInDivisionTotal, totalSeasonsWithDivisions)
-            MetricType.TOTAL_CHAMPIONSHIPS -> postSeasonResults(metricType, wonChampionshipTotal, postSeasonOpportunities)
+            MetricType.TOTAL_CHAMPIONSHIPS -> championshipResults()
             MetricType.CHAMPIONSHIP_APPEARANCES -> postSeasonResults(metricType, appearedInChampionshipTotal, postSeasonOpportunities)
             MetricType.QUALIFIED_FOR_PLAYOFFS -> postSeasonResults(metricType, qualifiedForPostseasonTotal, postSeasonOpportunities)
             MetricType.ADVANCED_IN_PLAYOFFS -> calculateAdvancedInPlayoffs()
         }
+    }
+
+    override suspend fun activeMetros(): List<String> {
+        val activeMetros = mutableListOf<String>()
+        dbQuery {
+            TransactionManager.current().exec(activeMetrosQuery) { rs ->
+
+                while (rs.next()) {
+                    activeMetros.add(rs.getString(1))
+                }
+                activeMetros
+            }
+        }
+        return activeMetros
     }
 
     private suspend fun regularSeasonResults(metricType: MetricType, totalAlias: ExpressionAlias<Int?>, opportunityAlias: ExpressionAlias<Int>) = dbQuery {
@@ -102,6 +116,23 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
             .selectAll()
             .groupBy(Metros.id)
             .map{ resultRowToMetroData(it, metricType, totalAlias, opportunityAlias) }
+    }
+
+    private suspend fun championshipResults(): List<MetroData> {
+        val metroDataList = mutableListOf<MetroData>()
+        dbQuery {
+            TransactionManager.current().exec(adjustedChampionshipQuery) { rs ->
+                while (rs.next()) {
+                    metroDataList.add(MetroData(
+                        name = rs.getString(1),
+                        metricType = MetricType.TOTAL_CHAMPIONSHIPS,
+                        total = rs.getInt(2),
+                        opportunities = rs.getInt(3)
+                    ))
+                }
+            }
+        }
+        return metroDataList
     }
 
     private suspend fun calculateAdvancedInPlayoffs(): List<MetroData> {
@@ -139,6 +170,51 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
             JOIN FRANCHISESEASONS f ON m.ID = f.METRO_ID
             LEFT JOIN SEASONS s ON f.SEASON_ID = s.ID
             group BY m.name
+        """.trimIndent()
+        private val adjustedChampionshipQuery = """
+            SELECT main.metro_name,
+            main.won_championship,
+            main.postseason_opportunities - COALESCE(adj.TOTALS, 0) AS adjusted_postseason_opportunities
+            FROM (
+                SELECT m.name AS metro_name,
+                COUNT(DISTINCT CASE WHEN f.WON_CHAMPIONSHIP THEN f.ID END) AS won_championship,
+                COUNT(DISTINCT CASE WHEN f.QUALIFIED_FOR_POSTSEASON IS NOT NULL THEN f.id end) AS postseason_opportunities
+                FROM METROS m
+                JOIN FRANCHISESEASONS f ON m.ID = f.METRO_ID
+                LEFT JOIN SEASONS s ON f.SEASON_ID = s.ID
+                GROUP BY m.name
+            ) AS main
+            LEFT JOIN (
+                SELECT subq.metro_name, SUM(subq.totals) AS TOTALS
+                FROM (
+                    SELECT m.NAME AS metro_name, COUNT(1) - 1 AS totals
+                    FROM METROS m
+                    JOIN (
+                        SELECT DISTINCT METRO_ID, LEAGUE_ID, SEASON_ID
+                        FROM FRANCHISESEASONS
+                        WHERE won_championship = true
+                    ) championship_seasons ON m.ID = championship_seasons.METRO_ID
+                    JOIN FRANCHISESEASONS fs ON m.ID = fs.METRO_ID AND fs.SEASON_ID = championship_seasons.SEASON_ID
+                    LEFT JOIN SEASONS s ON fs.SEASON_ID = s.ID
+                    JOIN LEAGUES l ON l.ID = s.LEAGUE_ID
+                    GROUP BY m.NAME, s.LEAGUE_ID, s.ID
+                    HAVING totals > 0
+                ) AS subq
+            GROUP BY subq.metro_name
+            ) AS adj ON main.metro_name = adj.metro_name;
+        """.trimIndent()
+        private val activeMetrosQuery = """
+            SELECT distinct(m.name)
+            FROM FRANCHISESEASONS f 
+            JOIN seasons s ON s.ID = f.SEASON_ID 
+            JOIN METROS m ON m.ID = f.metro_id
+            JOIN (
+                SELECT LEAGUE_ID, MAX(END_YEAR) AS MOST_RECENT_SEASON
+                FROM seasons
+                GROUP BY LEAGUE_ID
+            ) recent_seasons
+            ON s.LEAGUE_ID = recent_seasons.LEAGUE_ID AND s.END_YEAR = recent_seasons.MOST_RECENT_SEASON
+            GROUP BY m.id, m.name
         """.trimIndent()
     }
 }

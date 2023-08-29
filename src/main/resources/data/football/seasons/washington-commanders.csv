@@ -11,7 +11,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1942,Washington,Washington Redskins,NFL,East,,,FIRST,,true,1,true,true
 1943,Washington,Washington Redskins,NFL,East,,,FIRST,,true,1,true,
 1944,Washington,Washington Redskins,NFL,East,,,,,false,,,
-1945,Washington,Washington Redskins,NFL,East,,,FIRST,,true,0,,
+1945,Washington,Washington Redskins,NFL,East,,,FIRST,,true,0,true,
 1946,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1947,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1948,Washington,Washington Redskins,NFL,East,,,,,false,,,

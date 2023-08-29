@@ -51,11 +51,28 @@ fun Application.configureTemplating() {
             )
         }
         get("/metros") {
-            val metricType = call.request.queryParameters["metricType"]?.let { metricType -> MetricType.valueOf(metricType) } ?: MetricType.BEST_OVERALL
-            val metroData = FranchiseSeasonDAOImpl().resultsByMetro(metricType)
+            val metricType =
+                call.request.queryParameters["metricType"]?.let { metricType -> MetricType.valueOf(metricType) }
+                    ?: MetricType.TOTAL_CHAMPIONSHIPS
+            val dao = FranchiseSeasonDAOImpl()
+            val metroData = dao.resultsByMetro(metricType)
+            val activeMetros = dao.activeMetros()
+
+            val metroDataWithActiveMetros = metroData.filter { activeMetros.contains(it.name) }
             val allMetricTypes = MetricType.values().toList()
 
-            call.respond(ThymeleafContent("metros", mapOf("metros" to metroData, "type" to metricType.displayName, "metricTypes" to allMetricTypes)))
+            val excludedMetros = metroData.filter { !activeMetros.contains(it.name) }.map { it.name }
+
+            call.respond(
+                ThymeleafContent(
+                    "metros",
+                    mapOf(
+                        "metros" to metroDataWithActiveMetros,
+                        "type" to metricType.displayName,
+                        "metricTypes" to allMetricTypes,
+                        "excludedMetros" to excludedMetros.joinToString { it })
+                )
+            )
         }
     }
 }

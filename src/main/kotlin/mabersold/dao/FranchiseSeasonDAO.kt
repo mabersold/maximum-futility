@@ -8,4 +8,5 @@ interface FranchiseSeasonDAO {
     suspend fun all(): List<FranchiseSeason>
     suspend fun get(id: Int): FranchiseSeason?
     suspend fun resultsByMetro(metricType: MetricType): List<MetroData>
+    suspend fun activeMetros(): List<String>
 }

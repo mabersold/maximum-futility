@@ -2,23 +2,23 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1950,Cleveland,Cleveland Browns,NFL,American,,FIRST,FIRST,,true,2,true,true
 1951,Cleveland,Cleveland Browns,NFL,American,,FIRST,FIRST,,true,0,true,
 1952,Cleveland,Cleveland Browns,NFL,American,,,FIRST,,true,0,true,
-1953,Cleveland,Cleveland Browns,NFL,Eastern,,FIRST,FIRST,,true,0,true,
-1954,Cleveland,Cleveland Browns,NFL,Eastern,,,FIRST,,true,1,true,true
-1955,Cleveland,Cleveland Browns,NFL,Eastern,,FIRST,FIRST,,true,1,true,true
-1956,Cleveland,Cleveland Browns,NFL,Eastern,,,,,false,,,
-1957,Cleveland,Cleveland Browns,NFL,Eastern,,FIRST,FIRST,,true,0,true,
-1958,Cleveland,Cleveland Browns,NFL,Eastern,,FIRST,FIRST,,true,0,,
-1959,Cleveland,Cleveland Browns,NFL,Eastern,,,,,false,,,
-1960,Cleveland,Cleveland Browns,NFL,Eastern,,,,,false,,,
-1961,Cleveland,Cleveland Browns,NFL,Eastern,,,,,false,,,
-1962,Cleveland,Cleveland Browns,NFL,Eastern,,,,,false,,,
-1963,Cleveland,Cleveland Browns,NFL,Eastern,,,,,false,,,
-1964,Cleveland,Cleveland Browns,NFL,Eastern,,,FIRST,,true,1,true,true
-1965,Cleveland,Cleveland Browns,NFL,Eastern,,FIRST,FIRST,,true,0,true,
-1966,Cleveland,Cleveland Browns,NFL,Eastern,,,,,false,,,
-1967,Cleveland,Cleveland Browns,NFL,Eastern,Century,,,FIRST,true,0,,
-1968,Cleveland,Cleveland Browns,NFL,Eastern,Century,,,FIRST,true,1,,
-1969,Cleveland,Cleveland Browns,NFL,Eastern,Century,,,FIRST,true,1,,
+1953,Cleveland,Cleveland Browns,NFL,East,,FIRST,FIRST,,true,0,true,
+1954,Cleveland,Cleveland Browns,NFL,East,,,FIRST,,true,1,true,true
+1955,Cleveland,Cleveland Browns,NFL,East,,FIRST,FIRST,,true,1,true,true
+1956,Cleveland,Cleveland Browns,NFL,East,,,,,false,,,
+1957,Cleveland,Cleveland Browns,NFL,East,,FIRST,FIRST,,true,0,true,
+1958,Cleveland,Cleveland Browns,NFL,East,,FIRST,FIRST,,true,0,,
+1959,Cleveland,Cleveland Browns,NFL,East,,,,,false,,,
+1960,Cleveland,Cleveland Browns,NFL,East,,,,,false,,,
+1961,Cleveland,Cleveland Browns,NFL,East,,,,,false,,,
+1962,Cleveland,Cleveland Browns,NFL,East,,,,,false,,,
+1963,Cleveland,Cleveland Browns,NFL,East,,,,,false,,,
+1964,Cleveland,Cleveland Browns,NFL,East,,,FIRST,,true,1,true,true
+1965,Cleveland,Cleveland Browns,NFL,East,,FIRST,FIRST,,true,0,true,
+1966,Cleveland,Cleveland Browns,NFL,East,,,,,false,,,
+1967,Cleveland,Cleveland Browns,NFL,,Century,,,FIRST,true,0,,
+1968,Cleveland,Cleveland Browns,NFL,,Century,,,FIRST,true,1,,
+1969,Cleveland,Cleveland Browns,NFL,,Century,,,FIRST,true,1,,
 1970,Cleveland,Cleveland Browns,NFL,AFC,AFC Central,,,,false,,,
 1971,Cleveland,Cleveland Browns,NFL,AFC,AFC Central,,,FIRST,true,0,,
 1972,Cleveland,Cleveland Browns,NFL,AFC,AFC Central,,,,true,0,,

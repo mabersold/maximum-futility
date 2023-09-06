@@ -1,7 +1,7 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1967,New Orleans,New Orleans Saints,NFL,Eastern,Capitol,,,LAST,false,,,
-1968,New Orleans,New Orleans Saints,NFL,Eastern,Century,,,,false,,,
-1969,New Orleans,New Orleans Saints,NFL,Eastern,Capitol,,,,false,,,
+1967,New Orleans,New Orleans Saints,NFL,,Capitol,,,LAST,false,,,
+1968,New Orleans,New Orleans Saints,NFL,,Century,,,,false,,,
+1969,New Orleans,New Orleans Saints,NFL,,Capitol,,,,false,,,
 1970,New Orleans,New Orleans Saints,NFL,NFC,NFC West,,LAST,LAST,false,,,
 1971,New Orleans,New Orleans Saints,NFL,NFC,NFC West,,,LAST,false,,,
 1972,New Orleans,New Orleans Saints,NFL,NFC,NFC West,,LAST,LAST,false,,,

@@ -1,5 +1,5 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1903,Washington,Washington Senators,MLB,AL,,LAST,LAST,,false,,,
+1903,Washington,Washington Senators,MLB,AL,,LAST_TIED,LAST,,false,,,
 1904,Washington,Washington Senators,MLB,AL,,LAST,LAST,,,,,
 1905,Washington,Washington Senators,MLB,AL,,,,,false,,,
 1906,Washington,Washington Senators,MLB,AL,,,,,false,,,
@@ -20,8 +20,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1921,Washington,Washington Senators,MLB,AL,,,,,false,,,
 1922,Washington,Washington Senators,MLB,AL,,,,,false,,,
 1923,Washington,Washington Senators,MLB,AL,,,,,false,,,
-1924,Washington,Washington Senators,MLB,AL,,FIRST,FIRST,,true,1,true,true
-1925,Washington,Washington Senators,MLB,AL,,,FIRST,,true,0,true,false
+1924,Washington,Washington Senators,MLB,AL,,,FIRST,,true,1,true,true
+1925,Washington,Washington Senators,MLB,AL,,FIRST,FIRST,,true,0,true,false
 1926,Washington,Washington Senators,MLB,AL,,,,,false,,,
 1927,Washington,Washington Senators,MLB,AL,,,,,false,,,
 1928,Washington,Washington Senators,MLB,AL,,,,,false,,,
@@ -64,7 +64,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1965,Minneapolis,Minnesota Twins,MLB,AL,,FIRST,FIRST,FIRST,true,0,true,false
 1966,Minneapolis,Minnesota Twins,MLB,AL,,,,,false,,,
 1967,Minneapolis,Minnesota Twins,MLB,AL,,,,,false,,,
-1968,Minneapolis,Minnesota Twins,MLB,AL,AL West,,,,false,,,
+1968,Minneapolis,Minnesota Twins,MLB,AL,,,,,false,,,
 1969,Minneapolis,Minnesota Twins,MLB,AL,AL West,,,FIRST,true,0,false,false
 1970,Minneapolis,Minnesota Twins,MLB,AL,AL West,,,FIRST,true,0,false,false
 1971,Minneapolis,Minnesota Twins,MLB,AL,AL West,,,,false,,,
@@ -91,7 +91,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1992,Minneapolis,Minnesota Twins,MLB,AL,AL West,,,,false,,,
 1993,Minneapolis,Minnesota Twins,MLB,AL,AL West,,,,false,,,
 1994,Minneapolis,Minnesota Twins,MLB,AL,AL Central,,,,,,,
-1995,Minneapolis,Minnesota Twins,MLB,AL,AL Central,LAST,LAST,LAST,false,,,
+1995,Minneapolis,Minnesota Twins,MLB,AL,AL Central,LAST_TIED,LAST_TIED,LAST,false,,,
 1996,Minneapolis,Minnesota Twins,MLB,AL,AL Central,,,,false,,,
 1997,Minneapolis,Minnesota Twins,MLB,AL,AL Central,,,,false,,,
 1998,Minneapolis,Minnesota Twins,MLB,AL,AL Central,,,,false,,,

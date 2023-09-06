@@ -12,7 +12,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1913,Cincinnati,Cincinnati Reds,MLB,NL,,,,,false,,,
 1914,Cincinnati,Cincinnati Reds,MLB,NL,,,LAST,,false,,,
 1915,Cincinnati,Cincinnati Reds,MLB,NL,,,,,false,,,
-1916,Cincinnati,Cincinnati Reds,MLB,NL,,,LAST,,false,,,
+1916,Cincinnati,Cincinnati Reds,MLB,NL,,,LAST_TIED,,false,,,
 1917,Cincinnati,Cincinnati Reds,MLB,NL,,,,,false,,,
 1918,Cincinnati,Cincinnati Reds,MLB,NL,,,,,false,,,
 1919,Cincinnati,Cincinnati Reds,MLB,NL,,FIRST,FIRST,,true,1,true,true

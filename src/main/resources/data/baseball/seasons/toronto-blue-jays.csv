@@ -17,7 +17,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1992,Toronto,Toronto Blue Jays,MLB,AL,AL East,,FIRST,FIRST,true,2,true,true
 1993,Toronto,Toronto Blue Jays,MLB,AL,AL East,,FIRST,FIRST,true,2,true,true
 1994,Toronto,Toronto Blue Jays,MLB,AL,AL East,,,,,,,
-1995,Toronto,Toronto Blue Jays,MLB,AL,AL East,LAST,LAST,LAST,false,,,
+1995,Toronto,Toronto Blue Jays,MLB,AL,AL East,LAST_TIED,LAST_TIED,LAST,false,,,
 1996,Toronto,Toronto Blue Jays,MLB,AL,AL East,,,,false,,,
 1997,Toronto,Toronto Blue Jays,MLB,AL,AL East,,,LAST,false,,,
 1998,Toronto,Toronto Blue Jays,MLB,AL,AL East,,,,false,,,

@@ -33,9 +33,9 @@ name,start_year,end_year,league,total_major_divisions,total_minor_divisions,post
 1964 NFL Season,1964,1964,NFL,2,0,1
 1965 NFL Season,1965,1965,NFL,2,0,1
 1966 NFL Season,1966,1966,NFL,2,0,1
-1967 NFL Season,1967,1967,NFL,2,4,2
-1968 NFL Season,1968,1968,NFL,2,4,2
-1969 NFL Season,1969,1969,NFL,2,4,2
+1967 NFL Season,1967,1967,NFL,0,4,2
+1968 NFL Season,1968,1968,NFL,0,4,2
+1969 NFL Season,1969,1969,NFL,0,4,2
 1970 NFL Season,1970,1970,NFL,2,6,3
 1971 NFL Season,1971,1971,NFL,2,6,3
 1972 NFL Season,1972,1972,NFL,2,6,3

@@ -8,7 +8,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1909,Boston,Boston Red Sox,MLB,AL,,,,,false,,,
 1910,Boston,Boston Red Sox,MLB,AL,,,,,false,,,
 1911,Boston,Boston Red Sox,MLB,AL,,,,,false,,,
-1912,Boston,Boston Red Sox,MLB,AL,,,,,true,1,true,true
+1912,Boston,Boston Red Sox,MLB,AL,,FIRST,FIRST,,true,1,true,true
 1913,Boston,Boston Red Sox,MLB,AL,,,,,false,,,
 1914,Boston,Boston Red Sox,MLB,AL,,,,,false,,,
 1915,Boston,Boston Red Sox,MLB,AL,,FIRST,FIRST,,true,1,true,true
@@ -23,7 +23,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1924,Boston,Boston Red Sox,MLB,AL,,,,,false,,,
 1925,Boston,Boston Red Sox,MLB,AL,,LAST,LAST,,false,,,
 1926,Boston,Boston Red Sox,MLB,AL,,LAST,LAST,,false,,,
-1927,Boston,Boston Red Sox,MLB,AL,,LAST,LAST,,false,,,
+1927,Boston,Boston Red Sox,MLB,AL,,LAST_TIED,LAST,,false,,,
 1928,Boston,Boston Red Sox,MLB,AL,,,LAST,,false,,,
 1929,Boston,Boston Red Sox,MLB,AL,,,LAST,,false,,,
 1930,Boston,Boston Red Sox,MLB,AL,,LAST,LAST,,false,,,

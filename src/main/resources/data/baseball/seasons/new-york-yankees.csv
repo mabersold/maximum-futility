@@ -17,7 +17,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1918,New York,New York Yankees,MLB,AL,,,,,false,,,
 1919,New York,New York Yankees,MLB,AL,,,,,false,,,
 1920,New York,New York Yankees,MLB,AL,,,,,false,,,
-1921,New York,New York Yankees,MLB,AL,,,,,true,0,true,false
+1921,New York,New York Yankees,MLB,AL,,FIRST,FIRST,,true,0,true,false
 1922,New York,New York Yankees,MLB,AL,,FIRST,FIRST,,true,0,true,false
 1923,New York,New York Yankees,MLB,AL,,FIRST,FIRST,,true,1,true,true
 1924,New York,New York Yankees,MLB,AL,,,,,false,,,

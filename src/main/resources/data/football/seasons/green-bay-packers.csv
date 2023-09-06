@@ -19,23 +19,23 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1950,Green Bay,Green Bay Packers,NFL,National,,,,,false,,,
 1951,Green Bay,Green Bay Packers,NFL,National,,,,,false,,,
 1952,Green Bay,Green Bay Packers,NFL,National,,,,,false,,,
-1953,Green Bay,Green Bay Packers,NFL,Western,,,LAST,,false,,,
-1954,Green Bay,Green Bay Packers,NFL,Western,,,,,false,,,
-1955,Green Bay,Green Bay Packers,NFL,Western,,,,,false,,,
-1956,Green Bay,Green Bay Packers,NFL,Western,,,LAST,,false,,,
-1957,Green Bay,Green Bay Packers,NFL,Western,,LAST,LAST,,false,,,
-1958,Green Bay,Green Bay Packers,NFL,Western,,LAST,LAST,,false,,,
-1959,Green Bay,Green Bay Packers,NFL,Western,,,,,false,,,
-1960,Green Bay,Green Bay Packers,NFL,Western,,,FIRST,,true,0,true,
-1961,Green Bay,Green Bay Packers,NFL,Western,,FIRST,FIRST,,true,1,true,true
-1962,Green Bay,Green Bay Packers,NFL,Western,,FIRST,FIRST,,true,1,true,true
-1963,Green Bay,Green Bay Packers,NFL,Western,,,,,false,,,
-1964,Green Bay,Green Bay Packers,NFL,Western,,,,,false,,,
-1965,Green Bay,Green Bay Packers,NFL,Western,,,FIRST,,true,2,true,true
-1966,Green Bay,Green Bay Packers,NFL,Western,,FIRST,FIRST,,true,2,true,true
-1967,Green Bay,Green Bay Packers,NFL,Western,Central,,,FIRST,true,3,true,true
-1968,Green Bay,Green Bay Packers,NFL,Western,Central,,,,false,,,
-1969,Green Bay,Green Bay Packers,NFL,Western,Central,,,,false,,,
+1953,Green Bay,Green Bay Packers,NFL,West,,,LAST,,false,,,
+1954,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
+1955,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
+1956,Green Bay,Green Bay Packers,NFL,West,,,LAST,,false,,,
+1957,Green Bay,Green Bay Packers,NFL,West,,LAST,LAST,,false,,,
+1958,Green Bay,Green Bay Packers,NFL,West,,LAST,LAST,,false,,,
+1959,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
+1960,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,0,true,
+1961,Green Bay,Green Bay Packers,NFL,West,,FIRST,FIRST,,true,1,true,true
+1962,Green Bay,Green Bay Packers,NFL,West,,FIRST,FIRST,,true,1,true,true
+1963,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
+1964,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
+1965,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,2,true,true
+1966,Green Bay,Green Bay Packers,NFL,West,,FIRST,FIRST,,true,2,true,true
+1967,Green Bay,Green Bay Packers,NFL,,Central,,,FIRST,true,3,true,true
+1968,Green Bay,Green Bay Packers,NFL,,Central,,,,false,,,
+1969,Green Bay,Green Bay Packers,NFL,,Central,,,,false,,,
 1970,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
 1971,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,LAST,false,,,
 1972,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,FIRST,true,0,,

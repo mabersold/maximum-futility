@@ -11,7 +11,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1912,Philadelphia,Philadelphia Phillies,MLB,NL,,,,,false,,,
 1913,Philadelphia,Philadelphia Phillies,MLB,NL,,,,,false,,,
 1914,Philadelphia,Philadelphia Phillies,MLB,NL,,,,,false,,,
-1915,Philadelphia,Philadelphia Phillies,MLB,NL,,FIRST,,,true,0,true,false
+1915,Philadelphia,Philadelphia Phillies,MLB,NL,,,FIRST,,true,0,true,false
 1916,Philadelphia,Philadelphia Phillies,MLB,NL,,,,,false,,,
 1917,Philadelphia,Philadelphia Phillies,MLB,NL,,,,,false,,,
 1918,Philadelphia,Philadelphia Phillies,MLB,NL,,,,,false,,,
@@ -23,7 +23,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1924,Philadelphia,Philadelphia Phillies,MLB,NL,,,,,false,,,
 1925,Philadelphia,Philadelphia Phillies,MLB,NL,,,,,false,,,
 1926,Philadelphia,Philadelphia Phillies,MLB,NL,,,LAST,,false,,,
-1927,Philadelphia,Philadelphia Phillies,MLB,NL,,LAST,LAST,,false,,,
+1927,Philadelphia,Philadelphia Phillies,MLB,NL,,LAST_TIED,LAST,,false,,,
 1928,Philadelphia,Philadelphia Phillies,MLB,NL,,LAST,LAST,,false,,,
 1929,Philadelphia,Philadelphia Phillies,MLB,NL,,,,,false,,,
 1930,Philadelphia,Philadelphia Phillies,MLB,NL,,LAST,LAST,,false,,,

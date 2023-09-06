@@ -1,21 +1,21 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1953,Baltimore,Baltimore Colts,NFL,Western,,,,,false,,,
-1954,Baltimore,Baltimore Colts,NFL,Western,,,LAST,,false,,,
-1955,Baltimore,Baltimore Colts,NFL,Western,,,,,false,,,
-1956,Baltimore,Baltimore Colts,NFL,Western,,,,,false,,,
-1957,Baltimore,Baltimore Colts,NFL,Western,,,,,false,,,
-1958,Baltimore,Baltimore Colts,NFL,Western,,FIRST,FIRST,,true,1,true,true
-1959,Baltimore,Baltimore Colts,NFL,Western,,,FIRST,,true,1,true,true
-1960,Baltimore,Baltimore Colts,NFL,Western,,,,,false,,,
-1961,Baltimore,Baltimore Colts,NFL,Western,,,,,false,,,
-1962,Baltimore,Baltimore Colts,NFL,Western,,,,,false,,,
-1963,Baltimore,Baltimore Colts,NFL,Western,,,,,false,,,
-1964,Baltimore,Baltimore Colts,NFL,Western,,FIRST,FIRST,,true,0,true,
-1965,Baltimore,Baltimore Colts,NFL,Western,,,FIRST,,true,0,,
-1966,Baltimore,Baltimore Colts,NFL,Western,,,,,false,,,
-1967,Baltimore,Baltimore Colts,NFL,Western,Coastal,,,,false,,,
-1968,Baltimore,Baltimore Colts,NFL,Western,Coastal,FIRST,FIRST,FIRST,true,2,true,
-1969,Baltimore,Baltimore Colts,NFL,Western,Coastal,,,,false,,,
+1953,Baltimore,Baltimore Colts,NFL,West,,,,,false,,,
+1954,Baltimore,Baltimore Colts,NFL,West,,,LAST,,false,,,
+1955,Baltimore,Baltimore Colts,NFL,West,,,,,false,,,
+1956,Baltimore,Baltimore Colts,NFL,West,,,,,false,,,
+1957,Baltimore,Baltimore Colts,NFL,West,,,,,false,,,
+1958,Baltimore,Baltimore Colts,NFL,West,,FIRST,FIRST,,true,1,true,true
+1959,Baltimore,Baltimore Colts,NFL,West,,,FIRST,,true,1,true,true
+1960,Baltimore,Baltimore Colts,NFL,West,,,,,false,,,
+1961,Baltimore,Baltimore Colts,NFL,West,,,,,false,,,
+1962,Baltimore,Baltimore Colts,NFL,West,,,,,false,,,
+1963,Baltimore,Baltimore Colts,NFL,West,,,,,false,,,
+1964,Baltimore,Baltimore Colts,NFL,West,,FIRST,FIRST,,true,0,true,
+1965,Baltimore,Baltimore Colts,NFL,West,,,FIRST,,true,0,,
+1966,Baltimore,Baltimore Colts,NFL,West,,,,,false,,,
+1967,Baltimore,Baltimore Colts,NFL,,Coastal,,,,false,,,
+1968,Baltimore,Baltimore Colts,NFL,,Coastal,FIRST,FIRST,FIRST,true,2,true,
+1969,Baltimore,Baltimore Colts,NFL,,Coastal,,,,false,,,
 1970,Baltimore,Baltimore Colts,NFL,AFC,AFC East,,FIRST,FIRST,true,3,true,true
 1971,Baltimore,Baltimore Colts,NFL,AFC,AFC East,,,,true,1,,
 1972,Baltimore,Baltimore Colts,NFL,AFC,AFC East,,,,false,,,

@@ -18,7 +18,19 @@ data class FranchiseSeason(
     val roundsWon: Int?,
     val appearedInChampionship: Boolean?,
     val wonChampionship: Boolean?
-)
+) {
+    val bestOverall: Boolean get() = BEST.contains(this.leaguePosition)
+    val worstOverall: Boolean get() = WORST.contains(this.leaguePosition)
+    val bestInConference: Boolean get() = BEST.contains(this.conferencePosition)
+    val worstInConference: Boolean get() = WORST.contains(this.conferencePosition)
+    val bestInDivision: Boolean get() = BEST.contains(this.divisionPosition)
+    val worstInDivision: Boolean get() = WORST.contains(this.divisionPosition)
+
+    companion object {
+        private val BEST = listOf(Standing.FIRST, Standing.FIRST_TIED)
+        private val WORST = listOf(Standing.LAST, Standing.LAST_TIED)
+    }
+}
 
 object FranchiseSeasons : IntIdTable() {
     val seasonId = reference("season_id", Seasons)

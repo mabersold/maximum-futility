@@ -21,6 +21,7 @@ import org.jetbrains.exposed.sql.alias
 import org.jetbrains.exposed.sql.castTo
 import org.jetbrains.exposed.sql.count
 import org.jetbrains.exposed.sql.intLiteral
+import org.jetbrains.exposed.sql.select
 import org.jetbrains.exposed.sql.selectAll
 import org.jetbrains.exposed.sql.transactions.TransactionManager
 
@@ -92,6 +93,11 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
             }
         }
         return activeMetros
+    }
+
+    override suspend fun getBySeason(seasonId: Int) = dbQuery {
+        FranchiseSeasons.select { FranchiseSeasons.seasonId eq seasonId }
+            .map(::resultRowToFranchiseSeason)
     }
 
     private suspend fun regularSeasonResults(metricType: MetricType, totalAlias: ExpressionAlias<Int?>, opportunityAlias: ExpressionAlias<Int>) = dbQuery {

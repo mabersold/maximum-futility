@@ -3,11 +3,13 @@ val kotlinVersion: String by project
 val logbackVersion: String by project
 val exposedVersion: String by project
 val h2Version: String by project
+val koinVersion: String by project
+val mockkVersion: String by project
 
 plugins {
-    kotlin("jvm") version "1.8.0"
+    kotlin("jvm") version "1.8.21"
     id("io.ktor.plugin") version "2.2.2"
-    kotlin("plugin.serialization") version "1.8.0"
+    kotlin("plugin.serialization") version "1.8.21"
 }
 
 group = "mabersold"
@@ -45,6 +47,10 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
     implementation("com.h2database:h2:$h2Version")
     implementation("com.github.doyaaaaaken:kotlin-csv-jvm:1.9.1")
+    implementation("io.insert-koin:koin-ktor:$koinVersion")
+    implementation("io.insert-koin:koin-logger-slf4j:$koinVersion")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
     testImplementation("io.ktor:ktor-server-tests-jvm:2.2.4")
+    testImplementation("io.mockk:mockk:${mockkVersion}")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
 }

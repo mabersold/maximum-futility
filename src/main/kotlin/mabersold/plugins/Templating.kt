@@ -9,10 +9,13 @@ import io.ktor.server.routing.routing
 import io.ktor.server.thymeleaf.Thymeleaf
 import io.ktor.server.thymeleaf.ThymeleafContent
 import mabersold.dao.FranchiseSeasonDAOImpl
+import mabersold.dao.SeasonDAOImpl
 import mabersold.models.League
 import mabersold.models.MetricType
 import mabersold.services.FranchiseDataService
 import mabersold.services.FranchiseToCityMapper
+import mabersold.services.SeasonDataService
+import org.koin.ktor.ext.inject
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
 
 fun Application.configureTemplating() {
@@ -23,6 +26,8 @@ fun Application.configureTemplating() {
             characterEncoding = "utf-8"
         })
     }
+
+    val seasonDataService by inject<SeasonDataService>()
 
     routing {
         get("/") {
@@ -72,6 +77,15 @@ fun Application.configureTemplating() {
                         "metricTypes" to allMetricTypes,
                         "excludedMetros" to excludedMetros.joinToString { it })
                 )
+            )
+        }
+        get("/season") {
+            val seasonId = call.request.queryParameters["id"]?.toInt() ?: 1
+
+            val seasonSummary = seasonDataService.getSeasonSummary(seasonId)
+
+            call.respond(
+                ThymeleafContent("season", mapOf("season" to seasonSummary, "nextSeason" to seasonId + 1))
             )
         }
     }

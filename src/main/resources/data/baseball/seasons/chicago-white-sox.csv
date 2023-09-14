@@ -90,7 +90,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1991,Chicago,Chicago White Sox,MLB,AL,AL West,,,,false,,,
 1992,Chicago,Chicago White Sox,MLB,AL,AL West,,,,false,,,
 1993,Chicago,Chicago White Sox,MLB,AL,AL West,,,FIRST,true,0,false,false
-1994,Chicago,Chicago White Sox,MLB,AL,AL Central,,,,,,,
+1994,Chicago,Chicago White Sox,MLB,AL,AL Central,,,FIRST,,,,
 1995,Chicago,Chicago White Sox,MLB,AL,AL Central,,,,false,,,
 1996,Chicago,Chicago White Sox,MLB,AL,AL Central,,,,false,,,
 1997,Chicago,Chicago White Sox,MLB,AL,AL Central,,,,false,,,

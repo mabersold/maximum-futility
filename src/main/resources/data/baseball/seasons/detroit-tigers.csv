@@ -30,7 +30,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1931,Detroit,Detroit Tigers,MLB,AL,,,,,false,,,
 1932,Detroit,Detroit Tigers,MLB,AL,,,,,false,,,
 1933,Detroit,Detroit Tigers,MLB,AL,,,,,false,,,
-1934,Detroit,Detroit Tigers,MLB,AL,,,FIRST,,true,0,true,false
+1934,Detroit,Detroit Tigers,MLB,AL,,FIRST,FIRST,,true,0,true,false
 1935,Detroit,Detroit Tigers,MLB,AL,,,FIRST,,true,1,true,true
 1936,Detroit,Detroit Tigers,MLB,AL,,,,,false,,,
 1937,Detroit,Detroit Tigers,MLB,AL,,,,,false,,,
@@ -98,7 +98,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1999,Detroit,Detroit Tigers,MLB,AL,AL Central,,,,false,,,
 2000,Detroit,Detroit Tigers,MLB,AL,AL Central,,,,false,,,
 2001,Detroit,Detroit Tigers,MLB,AL,AL Central,,,,false,,,
-2002,Detroit,Detroit Tigers,MLB,AL,AL Central,LAST,LAST,LAST,false,,,
+2002,Detroit,Detroit Tigers,MLB,AL,AL Central,LAST_TIED,LAST_TIED,LAST,false,,,
 2003,Detroit,Detroit Tigers,MLB,AL,AL Central,LAST,LAST,LAST,false,,,
 2004,Detroit,Detroit Tigers,MLB,AL,AL Central,,,,false,,,
 2005,Detroit,Detroit Tigers,MLB,AL,AL Central,,,,false,,,
@@ -113,7 +113,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2014,Detroit,Detroit Tigers,MLB,AL,AL Central,,,FIRST,true,0,false,false
 2015,Detroit,Detroit Tigers,MLB,AL,AL Central,,,LAST,false,,,
 2016,Detroit,Detroit Tigers,MLB,AL,AL Central,,,,false,,,
-2017,Detroit,Detroit Tigers,MLB,AL,AL Central,LAST,LAST,LAST,false,,,
+2017,Detroit,Detroit Tigers,MLB,AL,AL Central,LAST_TIED,LAST,LAST,false,,,
 2018,Detroit,Detroit Tigers,MLB,AL,AL Central,,,,false,,,
 2019,Detroit,Detroit Tigers,MLB,AL,AL Central,LAST,LAST,LAST,false,,,
 2020,Detroit,Detroit Tigers,MLB,AL,AL Central,,,LAST,false,,,

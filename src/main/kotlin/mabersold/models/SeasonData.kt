@@ -13,7 +13,10 @@ data class SeasonSummary(
     val champions: String,
     val results: List<RegularSeasonResult>,
     val warnings: List<Warning> = emptyList()
-)
+) {
+    val conferenceNames = conferences.joinToString()
+    val divisionNames = divisions.joinToString()
+}
 
 data class RegularSeasonResult(
     val title: String,

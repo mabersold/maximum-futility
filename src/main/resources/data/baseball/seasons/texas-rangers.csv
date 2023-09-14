@@ -1,5 +1,5 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1961,Washington,Washington Senators,MLB,AL,,,LAST,,false,,,
+1961,Washington,Washington Senators,MLB,AL,,,LAST_TIED,,false,,,
 1962,Washington,Washington Senators,MLB,AL,,,LAST,,false,,,
 1963,Washington,Washington Senators,MLB,AL,,,LAST,,false,,,
 1964,Washington,Washington Senators,MLB,AL,,,,,false,,,
@@ -8,7 +8,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1967,Washington,Washington Senators,MLB,AL,,,,,false,,,
 1968,Washington,Washington Senators,MLB,AL,,LAST,LAST,,false,,,
 1969,Washington,Washington Senators,MLB,AL,AL East,,,,false,,,
-1970,Washington,Washington Senators,MLB,AL,AL East,,,,false,,,
+1970,Washington,Washington Senators,MLB,AL,AL East,,,LAST,false,,,
 1971,Washington,Washington Senators,MLB,AL,AL East,,,,false,,,
 1972,Dallas,Texas Rangers,MLB,AL,AL West,LAST,LAST,LAST,false,,,
 1973,Dallas,Texas Rangers,MLB,AL,AL West,LAST,LAST,LAST,false,,,

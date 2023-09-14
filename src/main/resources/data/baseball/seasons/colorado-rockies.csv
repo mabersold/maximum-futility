@@ -11,7 +11,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2002,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
 2003,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
 2004,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
-2005,Denver,Colorado Rockies,MLB,NL,NL West,,LAST,LAST,false,,,
+2005,Denver,Colorado Rockies,MLB,NL,NL West,,LAST_TIED,LAST,false,,,
 2006,Denver,Colorado Rockies,MLB,NL,NL West,,,LAST,false,,,
 2007,Denver,Colorado Rockies,MLB,NL,NL West,,,,true,2,true,false
 2008,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
@@ -28,4 +28,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2019,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
 2020,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
 2021,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
-2022,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
+2022,Denver,Colorado Rockies,MLB,NL,NL West,,,LAST,false,,,

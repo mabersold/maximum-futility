@@ -11,8 +11,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1978,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,,,,false,,,
 1979,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,,,,false,,,
 1980,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,,,,false,,,
-1981,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,,,FIRST,true,0,true,false
-1982,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,FIRST,FIRST,FIRST,true,1,false,false
+1981,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,,,FIRST,true,0,false,false
+1982,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,FIRST,FIRST,FIRST,true,1,true,false
 1983,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,,,,false,,,
 1984,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,,LAST,LAST,false,,,
 1985,Milwaukee,Milwaukee Brewers,MLB,AL,AL East,,,,false,,,

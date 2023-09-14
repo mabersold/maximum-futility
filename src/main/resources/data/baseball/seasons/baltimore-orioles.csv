@@ -29,7 +29,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1930,St. Louis,St. Louis Browns,MLB,AL,,,,,false,,,
 1931,St. Louis,St. Louis Browns,MLB,AL,,,,,false,,,
 1932,St. Louis,St. Louis Browns,MLB,AL,,,,,false,,,
-1933,St. Louis,St. Louis Browns,MLB,AL,,,,,false,,,
+1933,St. Louis,St. Louis Browns,MLB,AL,,LAST,LAST,,false,,,
 1934,St. Louis,St. Louis Browns,MLB,AL,,,,,false,,,
 1935,St. Louis,St. Louis Browns,MLB,AL,,,,,false,,,
 1936,St. Louis,St. Louis Browns,MLB,AL,,,,,false,,,
@@ -79,7 +79,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1980,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,,false,,,
 1981,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,,false,,,
 1982,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,,false,,,
-1983,Baltimore,Baltimore Orioles,MLB,AL,AL East,,FIRST,FIRST,true,2,true,true
+1983,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,FIRST,true,2,true,true
 1984,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,,false,,,
 1985,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,,false,,,
 1986,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,LAST,false,,,
@@ -117,5 +117,5 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2018,Baltimore,Baltimore Orioles,MLB,AL,AL East,LAST,LAST,LAST,false,,,
 2019,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,LAST,false,,,
 2020,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,,false,,,
-2021,Baltimore,Baltimore Orioles,MLB,AL,AL East,LAST,LAST,LAST,false,,,
+2021,Baltimore,Baltimore Orioles,MLB,AL,AL East,LAST_TIED,LAST,LAST,false,,,
 2022,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,,false,,,

@@ -38,7 +38,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1998,Houston,Houston Astros,MLB,NL,NL Central,,,FIRST,true,0,false,false
 1999,Houston,Houston Astros,MLB,NL,NL Central,,,FIRST,true,0,false,false
 2000,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
-2001,Houston,Houston Astros,MLB,NL,NL Central,,FIRST,FIRST,true,0,false,false
+2001,Houston,Houston Astros,MLB,NL,NL Central,,FIRST_TIED,FIRST_TIED,true,0,false,false
 2002,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
 2003,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
 2004,Houston,Houston Astros,MLB,NL,NL Central,,,,true,1,false,false

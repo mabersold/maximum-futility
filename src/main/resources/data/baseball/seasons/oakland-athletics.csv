@@ -57,7 +57,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1958,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
 1959,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
 1960,Kansas City,Kansas City Athletics,MLB,AL,,LAST,LAST,,false,,,
-1961,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
+1961,Kansas City,Kansas City Athletics,MLB,AL,,,LAST_TIED,,false,,,
 1962,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
 1963,Kansas City,Kansas City Athletics,MLB,AL,,,,,false,,,
 1964,Kansas City,Kansas City Athletics,MLB,AL,,,LAST,,false,,,
@@ -77,7 +77,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1978,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
 1979,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
 1980,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
-1981,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,FIRST,FIRST,FIRST,true,1,false,false
+1981,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,FIRST,FIRST,true,1,false,false
 1982,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
 1983,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
 1984,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
@@ -88,17 +88,17 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1989,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,FIRST,FIRST,FIRST,true,2,true,true
 1990,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,FIRST,FIRST,FIRST,true,1,true,false
 1991,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
-1992,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,FIRST,FIRST,true,0,false,false
+1992,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,FIRST_TIED,FIRST,true,0,false,false
 1993,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,LAST,LAST,false,,,
 1994,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,,,,
 1995,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
 1996,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
-1997,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
+1997,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,LAST,LAST,LAST,false,,,
 1998,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,LAST,false,,,
 1999,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
 2000,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,0,false,false
 2001,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,true,0,false,false
-2002,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,FIRST,FIRST,FIRST,true,0,false,false
+2002,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,0,false,false
 2003,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,FIRST,true,0,false,false
 2004,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,
 2005,San Francisco Bay,Oakland Athletics,MLB,AL,AL West,,,,false,,,

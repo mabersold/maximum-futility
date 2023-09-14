@@ -78,8 +78,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1979,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
 1980,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
 1981,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
-1982,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
-1983,Cleveland,Cleveland Indians,MLB,AL,AL East,LAST,LAST,LAST,false,,,
+1982,Cleveland,Cleveland Indians,MLB,AL,AL East,,,LAST_TIED,false,,,
+1983,Cleveland,Cleveland Indians,MLB,AL,AL East,,,LAST,false,,,
 1984,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
 1985,Cleveland,Cleveland Indians,MLB,AL,AL East,,LAST,LAST,false,,,
 1986,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
@@ -87,7 +87,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1988,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
 1989,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
 1990,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
-1991,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
+1991,Cleveland,Cleveland Indians,MLB,AL,AL East,LAST,LAST,LAST,false,,,
 1992,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
 1993,Cleveland,Cleveland Indians,MLB,AL,AL East,,,,false,,,
 1994,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,,,,
@@ -103,7 +103,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2004,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
 2005,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
 2006,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
-2007,Cleveland,Cleveland Indians,MLB,AL,AL Central,FIRST,FIRST,FIRST,true,1,false,false
+2007,Cleveland,Cleveland Indians,MLB,AL,AL Central,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
 2008,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
 2009,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
 2010,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
@@ -118,4 +118,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2019,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
 2020,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,true,,,
 2021,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
-2022,Cleveland,Cleveland Guardians,MLB,AL,AL Central,,,FIRST,false,1,false,false
+2022,Cleveland,Cleveland Guardians,MLB,AL,AL Central,,,FIRST,true,1,false,false

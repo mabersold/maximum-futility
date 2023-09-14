@@ -5,7 +5,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1980,Seattle,Seattle Mariners,MLB,AL,AL West,LAST,LAST,LAST,false,,,
 1981,Seattle,Seattle Mariners,MLB,AL,AL West,,,,false,,,
 1982,Seattle,Seattle Mariners,MLB,AL,AL West,,,,false,,,
-1983,Seattle,Seattle Mariners,MLB,AL,AL West,,,LAST,false,,,
+1983,Seattle,Seattle Mariners,MLB,AL,AL West,LAST,LAST,LAST,false,,,
 1984,Seattle,Seattle Mariners,MLB,AL,AL West,,,,false,,,
 1985,Seattle,Seattle Mariners,MLB,AL,AL West,,,,false,,,
 1986,Seattle,Seattle Mariners,MLB,AL,AL West,,LAST,LAST,false,,,

@@ -45,7 +45,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1946,New York,Brooklyn Dodgers,MLB,NL,,,,,false,,,
 1947,New York,Brooklyn Dodgers,MLB,NL,,,FIRST,,true,0,true,false
 1948,New York,Brooklyn Dodgers,MLB,NL,,,,,false,,,
-1949,New York,Brooklyn Dodgers,MLB,NL,,FIRST,FIRST,,true,0,true,false
+1949,New York,Brooklyn Dodgers,MLB,NL,,FIRST_TIED,FIRST,,true,0,true,false
 1950,New York,Brooklyn Dodgers,MLB,NL,,,,,false,,,
 1951,New York,Brooklyn Dodgers,MLB,NL,,,,,false,,,
 1952,New York,Brooklyn Dodgers,MLB,NL,,FIRST,FIRST,,true,0,true,false
@@ -79,9 +79,9 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1980,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,false,,,
 1981,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,true,3,true,true
 1982,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,false,,,
-1983,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,FIRST,FIRST,false,0,false,false
+1983,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,FIRST,FIRST,true,0,false,false
 1984,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,false,,,
-1985,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,FIRST,false,0,false,false
+1985,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,FIRST,true,0,false,false
 1986,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,false,,,
 1987,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,false,,,
 1988,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,FIRST,true,2,true,true
@@ -90,7 +90,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1991,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,false,,,
 1992,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,LAST,LAST,LAST,false,,,
 1993,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,false,,,
-1994,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,,,,
+1994,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,FIRST,,,,
 1995,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,FIRST,true,0,false,false
 1996,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,true,0,false,false
 1997,Los Angeles,Los Angeles Dodgers,MLB,NL,NL West,,,,false,,,

@@ -32,7 +32,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1991,Los Angeles,California Angels,MLB,AL,AL West,,,LAST,false,,,
 1992,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
 1993,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
-1994,Los Angeles,California Angels,MLB,AL,AL West,,,LAST,,,,
+1994,Los Angeles,California Angels,MLB,AL,AL West,,LAST,LAST,,,,
 1995,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
 1996,Los Angeles,California Angels,MLB,AL,AL West,,,LAST,false,,,
 1997,Los Angeles,Anaheim Angels,MLB,AL,AL West,,,,false,,,

@@ -78,7 +78,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1979,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,FIRST,true,0,false,false
 1980,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,,false,,,
 1981,Cincinnati,Cincinnati Reds,MLB,NL,NL West,FIRST,FIRST,FIRST,false,,,
-1982,Cincinnati,Cincinnati Reds,MLB,NL,NL West,LAST,LAST,LAST,false,,,
+1982,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,LAST,LAST,false,,,
 1983,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,LAST,false,,,
 1984,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,,false,,,
 1985,Cincinnati,Cincinnati Reds,MLB,NL,NL West,,,,false,,,
@@ -112,7 +112,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2013,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,,true,0,false,false
 2014,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,,false,,,
 2015,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,LAST,false,,,
-2016,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,LAST,LAST,false,,,
+2016,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,LAST_TIED,LAST,false,,,
 2017,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,LAST,false,,,
 2018,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,LAST,false,,,
 2019,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,,false,,,

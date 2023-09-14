@@ -54,7 +54,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1955,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
 1956,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
 1957,Milwaukee,Milwaukee Braves,MLB,NL,,,FIRST,,true,1,true,true
-1958,Milwaukee,Milwaukee Braves,MLB,NL,,FIRST,FIRST,,true,0,true,false
+1958,Milwaukee,Milwaukee Braves,MLB,NL,,FIRST_TIED,FIRST,,true,0,true,false
 1959,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
 1960,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
 1961,Milwaukee,Milwaukee Braves,MLB,NL,,,,,false,,,
@@ -72,9 +72,9 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1973,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
 1974,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
 1975,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
-1976,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
-1977,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
-1978,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
+1976,Atlanta,Atlanta Braves,MLB,NL,NL West,,,LAST,false,,,
+1977,Atlanta,Atlanta Braves,MLB,NL,NL West,,LAST,LAST,false,,,
+1978,Atlanta,Atlanta Braves,MLB,NL,NL West,,,LAST,false,,,
 1979,Atlanta,Atlanta Braves,MLB,NL,NL West,,,LAST,false,,,
 1980,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
 1981,Atlanta,Atlanta Braves,MLB,NL,NL West,,,,false,,,
@@ -95,11 +95,11 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1996,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,2,true,false
 1997,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST,true,1,false,false
 1998,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,1,false,false
-1999,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,2,true,false
+1999,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST,true,2,true,false
 2000,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
 2001,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,1,false,false
 2002,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,0,false,false
-2003,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST,true,0,false,false
+2003,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST_TIED,FIRST,FIRST,true,0,false,false
 2004,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
 2005,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
 2006,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,false,,,

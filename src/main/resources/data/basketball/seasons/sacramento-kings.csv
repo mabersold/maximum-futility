@@ -1,6 +1,6 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1948,Rochester,Rochester Royals,NBA,Western,,FIRST,FIRST,,true,1,false,false
-1949,Rochester,Rochester Royals,NBA,Central,,,,,true,0,false,false
+1949,Rochester,Rochester Royals,NBA,Central,,,,FIRST_TIED,true,0,false,false
 1950,Rochester,Rochester Royals,NBA,Western,,,,,true,3,true,true
 1951,Rochester,Rochester Royals,NBA,Western,,FIRST,FIRST,,true,1,false,false
 1952,Rochester,Rochester Royals,NBA,Western,,,,,true,0,false,false
@@ -28,7 +28,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1974,Kansas City,Kansas City-Omaha Kings,NBA,Western,Midwest,,,,true,0,false,false
 1975,Kansas City,Kansas City Kings,NBA,Western,Midwest,,,,false,,,
 1976,Kansas City,Kansas City Kings,NBA,Western,Midwest,,,,false,,,
-1977,Kansas City,Kansas City Kings,NBA,Western,Midwest,,,,false,,,
+1977,Kansas City,Kansas City Kings,NBA,Western,Midwest,,LAST_TIED,LAST_TIED,false,,,
 1978,Kansas City,Kansas City Kings,NBA,Western,Midwest,,,FIRST,true,0,false,false
 1979,Kansas City,Kansas City Kings,NBA,Western,Midwest,,,,true,0,false,false
 1980,Kansas City,Kansas City Kings,NBA,Western,Midwest,,,,true,2,false,false

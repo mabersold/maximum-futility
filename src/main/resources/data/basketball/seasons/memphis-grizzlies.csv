@@ -22,8 +22,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2015,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,,true,0,false,false
 2016,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,,true,0,false,false
 2017,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,LAST,false,,,
-2018,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,,false,,,
+2018,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,LAST_TIED,false,,,
 2019,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,,false,,,
-2020,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,,false,0,false,false
-2021,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,FIRST,false,1,false,false
-2022,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,FIRST,false,0,false,false
+2020,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,,true,0,false,false
+2021,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,FIRST,true,1,false,false
+2022,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,FIRST,true,0,false,false

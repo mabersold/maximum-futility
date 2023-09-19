@@ -21,7 +21,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1999,Dallas,Dallas Mavericks,NBA,Western,Midwest,,,,false,,,
 2000,Dallas,Dallas Mavericks,NBA,Western,Midwest,,,,true,1,false,false
 2001,Dallas,Dallas Mavericks,NBA,Western,Midwest,,,,true,1,false,false
-2002,Dallas,Dallas Mavericks,NBA,Western,Midwest,FIRST,FIRST,FIRST,true,2,false,false
+2002,Dallas,Dallas Mavericks,NBA,Western,Midwest,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,2,false,false
 2003,Dallas,Dallas Mavericks,NBA,Western,Midwest,,,,true,0,false,false
 2004,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,,true,1,false,false
 2005,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,,true,3,true,false
@@ -37,7 +37,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2015,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,,true,0,false,false
 2016,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,LAST,false,,,
 2017,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,,false,,,
-2018,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,LAST,false,,,
+2018,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,LAST_TIED,false,,,
 2019,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,,true,0,false,false
 2020,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,FIRST,true,0,false,false
 2021,Dallas,Dallas Mavericks,NBA,Western,Southwest,,,,true,2,false,false

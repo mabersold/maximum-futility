@@ -30,11 +30,11 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1994,Chicago,Chicago Bulls,NBA,Eastern,Central,,,,true,1,false,false
 1995,Chicago,Chicago Bulls,NBA,Eastern,Central,FIRST,FIRST,FIRST,true,4,true,true
 1996,Chicago,Chicago Bulls,NBA,Eastern,Central,FIRST,FIRST,FIRST,true,4,true,true
-1997,Chicago,Chicago Bulls,NBA,Eastern,Central,FIRST,FIRST,FIRST,true,4,true,true
+1997,Chicago,Chicago Bulls,NBA,Eastern,Central,FIRST_TIED,FIRST,FIRST,true,4,true,true
 1998,Chicago,Chicago Bulls,NBA,Eastern,Central,,LAST,LAST,false,,,
 1999,Chicago,Chicago Bulls,NBA,Eastern,Central,,LAST,LAST,false,,,
 2000,Chicago,Chicago Bulls,NBA,Eastern,Central,LAST,LAST,LAST,false,,,
-2001,Chicago,Chicago Bulls,NBA,Eastern,Central,LAST,LAST,LAST,false,,,
+2001,Chicago,Chicago Bulls,NBA,Eastern,Central,LAST_TIED,LAST,LAST,false,,,
 2002,Chicago,Chicago Bulls,NBA,Eastern,Central,,,,false,,,
 2003,Chicago,Chicago Bulls,NBA,Eastern,Central,,,LAST,false,,,
 2004,Chicago,Chicago Bulls,NBA,Eastern,Central,,,,true,0,false,false
@@ -44,7 +44,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2008,Chicago,Chicago Bulls,NBA,Eastern,Central,,,,true,0,false,false
 2009,Chicago,Chicago Bulls,NBA,Eastern,Central,,,,true,0,false,false
 2010,Chicago,Chicago Bulls,NBA,Eastern,Central,FIRST,FIRST,FIRST,true,2,false,false
-2011,Chicago,Chicago Bulls,NBA,Eastern,Central,FIRST,FIRST,FIRST,true,0,false,false
+2011,Chicago,Chicago Bulls,NBA,Eastern,Central,FIRST_TIED,FIRST,FIRST,true,0,false,false
 2012,Chicago,Chicago Bulls,NBA,Eastern,Central,,,,true,1,false,false
 2013,Chicago,Chicago Bulls,NBA,Eastern,Central,,,,true,0,false,false
 2014,Chicago,Chicago Bulls,NBA,Eastern,Central,,,,true,1,false,false

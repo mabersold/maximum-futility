@@ -8,7 +8,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2001,Toronto,Toronto Raptors,NBA,Eastern,Central,,,,true,0,false,false
 2002,Toronto,Toronto Raptors,NBA,Eastern,Central,,,,false,,,
 2003,Toronto,Toronto Raptors,NBA,Eastern,Central,,,,false,,,
-2004,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,,false,,,
+2004,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,LAST_TIED,false,,,
 2005,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,,false,,,
 2006,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,FIRST,true,0,false,false
 2007,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,,true,0,false,false
@@ -16,7 +16,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2009,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,,false,,,
 2010,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,LAST,false,,,
 2011,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,,false,,,
-2012,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,LAST,false,,,
+2012,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,LAST_TIED,false,,,
 2013,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,FIRST,true,0,false,false
 2014,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,FIRST,true,0,false,false
 2015,Toronto,Toronto Raptors,NBA,Eastern,Atlantic,,,FIRST,true,2,false,false

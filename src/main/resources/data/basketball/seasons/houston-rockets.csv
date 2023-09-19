@@ -54,4 +54,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2019,Houston,Houston Rockets,NBA,Western,Southwest,,,FIRST,true,1,false,false
 2020,Houston,Houston Rockets,NBA,Western,Southwest,LAST,LAST,LAST,false,,,
 2021,Houston,Houston Rockets,NBA,Western,Southwest,LAST,LAST,LAST,false,,,
-2022,Houston,Houston Rockets,NBA,Western,Southwest,,,,false,,,
+2022,Houston,Houston Rockets,NBA,Western,Southwest,,LAST_TIED,LAST_TIED,false,,,

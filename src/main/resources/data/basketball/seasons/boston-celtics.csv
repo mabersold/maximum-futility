@@ -27,7 +27,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1971,Boston,Boston Celtics,NBA,Eastern,Atlantic,,FIRST,FIRST,true,1,false,false
 1972,Boston,Boston Celtics,NBA,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
 1973,Boston,Boston Celtics,NBA,Eastern,Atlantic,,FIRST,FIRST,true,3,true,true
-1974,Boston,Boston Celtics,NBA,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
+1974,Boston,Boston Celtics,NBA,Eastern,Atlantic,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
 1975,Boston,Boston Celtics,NBA,Eastern,Atlantic,,FIRST,FIRST,true,3,true,true
 1976,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,true,1,false,false
 1977,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,false,,,
@@ -74,5 +74,5 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2018,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,true,1,false,false
 2019,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,true,2,false,false
 2020,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,true,0,false,false
-2021,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,FIRST,true,3,true,false
+2021,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,FIRST_TIED,true,3,true,false
 2022,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,FIRST,true,2,false,false

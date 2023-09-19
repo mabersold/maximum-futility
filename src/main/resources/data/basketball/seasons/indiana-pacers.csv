@@ -1,13 +1,13 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1976,Indianapolis,Indiana Pacers,NBA,Western,Midwest,,,,false,,,
-1977,Indianapolis,Indiana Pacers,NBA,Western,Midwest,,LAST,LAST,false,,,
+1977,Indianapolis,Indiana Pacers,NBA,Western,Midwest,,LAST_TIED,LAST_TIED,false,,,
 1978,Indianapolis,Indiana Pacers,NBA,Western,Midwest,,,,false,,,
 1979,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,false,,,
 1980,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,true,0,false,false
 1981,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,false,,,
 1982,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,LAST,LAST,false,,,
 1983,Indianapolis,Indiana Pacers,NBA,Eastern,Central,LAST,LAST,LAST,false,,,
-1984,Indianapolis,Indiana Pacers,NBA,Eastern,Central,LAST,LAST,LAST,false,,,
+1984,Indianapolis,Indiana Pacers,NBA,Eastern,Central,LAST_TIED,LAST,LAST,false,,,
 1985,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,LAST,false,,,
 1986,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,true,0,false,false
 1987,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,LAST,false,,,
@@ -21,7 +21,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1995,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,true,0,false,false
 1996,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,false,,,
 1997,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,true,2,false,false
-1998,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,FIRST,FIRST,true,2,false,false
+1998,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,FIRST_TIED,FIRST,true,2,false,false
 1999,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,FIRST,FIRST,true,3,true,false
 2000,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,true,0,false,false
 2001,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,true,0,false,false

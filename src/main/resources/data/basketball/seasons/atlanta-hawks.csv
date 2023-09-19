@@ -6,12 +6,12 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1953,Milwaukee,Milwaukee Hawks,NBA,Western,,,LAST,,false,,,
 1954,Milwaukee,Milwaukee Hawks,NBA,Western,,LAST,LAST,,false,,,
 1955,St. Louis,St. Louis Hawks,NBA,Western,,,,,true,1,false,false
-1956,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,1,true,false
+1956,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST_TIED,,true,1,true,false
 1957,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,2,true,true
 1958,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,0,false,false
 1959,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,1,true,false
 1960,St. Louis,St. Louis Hawks,NBA,Western,,,FIRST,,true,1,true,false
-1961,St. Louis,St. Louis Hawks,NBA,Western,,,,,true,,,
+1961,St. Louis,St. Louis Hawks,NBA,Western,,,,,false,,,
 1962,St. Louis,St. Louis Hawks,NBA,Western,,,,,true,1,false,false
 1963,St. Louis,St. Louis Hawks,NBA,Western,,,,,true,1,false,false
 1964,St. Louis,St. Louis Hawks,NBA,Western,,,,,true,0,false,false
@@ -43,7 +43,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1990,Atlanta,Atlanta Hawks,NBA,Eastern,Central,,,,true,0,false,false
 1991,Atlanta,Atlanta Hawks,NBA,Eastern,Central,,,,false,,,
 1992,Atlanta,Atlanta Hawks,NBA,Eastern,Central,,,,true,0,false,false
-1993,Atlanta,Atlanta Hawks,NBA,Eastern,Central,,FIRST,FIRST,true,1,false,false
+1993,Atlanta,Atlanta Hawks,NBA,Eastern,Central,,FIRST_TIED,FIRST,true,1,false,false
 1994,Atlanta,Atlanta Hawks,NBA,Eastern,Central,,,,true,0,false,false
 1995,Atlanta,Atlanta Hawks,NBA,Eastern,Central,,,,true,1,false,false
 1996,Atlanta,Atlanta Hawks,NBA,Eastern,Central,,,,true,1,false,false
@@ -65,7 +65,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2012,Atlanta,Atlanta Hawks,NBA,Eastern,Southeast,,,,true,0,false,false
 2013,Atlanta,Atlanta Hawks,NBA,Eastern,Southeast,,,,true,0,false,false
 2014,Atlanta,Atlanta Hawks,NBA,Eastern,Southeast,,FIRST,FIRST,true,2,false,false
-2015,Atlanta,Atlanta Hawks,NBA,Eastern,Southeast,,,,true,1,false,false
+2015,Atlanta,Atlanta Hawks,NBA,Eastern,Southeast,,,FIRST_TIED,true,1,false,false
 2016,Atlanta,Atlanta Hawks,NBA,Eastern,Southeast,,,,true,0,false,false
 2017,Atlanta,Atlanta Hawks,NBA,Eastern,Southeast,,LAST,LAST,false,,,
 2018,Atlanta,Atlanta Hawks,NBA,Eastern,Southeast,,,LAST,false,,,

@@ -15,7 +15,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2015,New Orleans,New Orleans Pelicans,NBA,Western,Southwest,,,LAST,false,,,
 2016,New Orleans,New Orleans Pelicans,NBA,Western,Southwest,,,,false,,,
 2017,New Orleans,New Orleans Pelicans,NBA,Western,Southwest,,,,true,1,false,false
-2018,New Orleans,New Orleans Pelicans,NBA,Western,Southwest,,,,false,,,
+2018,New Orleans,New Orleans Pelicans,NBA,Western,Southwest,,,LAST_TIED,false,,,
 2019,New Orleans,New Orleans Pelicans,NBA,Western,Southwest,,,LAST,false,,,
 2020,New Orleans,New Orleans Pelicans,NBA,Western,Southwest,,,,false,,,
 2021,New Orleans,New Orleans Pelicans,NBA,Western,Southwest,,,,true,0,false,false

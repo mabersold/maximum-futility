@@ -1,13 +1,13 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1948,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,3,true,true
-1949,Minneapolis,Minneapolis Lakers,NBA,Central,,FIRST,FIRST,,true,4,true,true
+1949,Minneapolis,Minneapolis Lakers,NBA,Central,,,FIRST_TIED,,true,4,true,true
 1950,Minneapolis,Minneapolis Lakers,NBA,Western,,FIRST,FIRST,,true,1,false,false
 1951,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,3,true,true
 1952,Minneapolis,Minneapolis Lakers,NBA,Western,,FIRST,FIRST,,true,3,true,true
 1953,Minneapolis,Minneapolis Lakers,NBA,Western,,FIRST,FIRST,,true,3,true,true
 1954,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,1,false,false
 1955,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,0,false,false
-1956,Minneapolis,Minneapolis Lakers,NBA,Western,,,FIRST,,true,1,false,false
+1956,Minneapolis,Minneapolis Lakers,NBA,Western,,,FIRST_TIED,,true,1,false,false
 1957,Minneapolis,Minneapolis Lakers,NBA,Western,,LAST,LAST,,false,,,
 1958,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,2,true,false
 1959,Minneapolis,Minneapolis Lakers,NBA,Western,,,,,true,1,false,false
@@ -23,7 +23,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1969,Los Angeles,Los Angeles Lakers,NBA,Western,,,,,true,2,true,false
 1970,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,1,false,false
 1971,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,3,true,true
-1972,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST,FIRST,true,2,true,false
+1972,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,FIRST_TIED,FIRST,true,2,true,false
 1973,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,0,false,false
 1974,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,LAST,LAST,false,,,
 1975,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,false,,,
@@ -48,7 +48,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1994,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,1,false,false
 1995,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,0,false,false
 1996,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,1,false,false
-1997,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,2,false,false
+1997,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST_TIED,true,2,false,false
 1998,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,,true,1,false,false
 1999,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
 2000,Los Angeles,Los Angeles Lakers,NBA,Western,Pacific,,,FIRST,true,4,true,true

@@ -8,7 +8,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1995,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,,FIRST,true,2,false,false
 1996,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,,,true,0,false,false
 1997,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,,,false,,,
-1998,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,FIRST,FIRST,true,0,false,false
+1998,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,FIRST_TIED,FIRST_TIED,true,0,false,false
 1999,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,,,false,,,
 2000,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,,,true,0,false,false
 2001,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,,,true,0,false,false

@@ -1,12 +1,12 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1968,Milwaukee,Milwaukee Bucks,NBA,Eastern,,,LAST,,false,,,
-1969,Milwaukee,Milwaukee Bucks,NBA,Eastern,,,,,false,1,false,false
-1970,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,FIRST,FIRST,FIRST,false,3,true,true
-1971,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,,,false,1,false,false
-1972,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,FIRST,FIRST,false,0,false,false
-1973,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,FIRST,FIRST,FIRST,false,2,true,false
+1969,Milwaukee,Milwaukee Bucks,NBA,Eastern,,,,,true,1,false,false
+1970,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,FIRST,FIRST,FIRST,true,3,true,true
+1971,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,,FIRST,true,1,false,false
+1972,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,FIRST_TIED,FIRST,true,0,false,false
+1973,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,FIRST,FIRST,FIRST,true,2,true,false
 1974,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,,LAST,false,,,
-1975,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,,FIRST,false,0,false,false
+1975,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,,FIRST,true,0,false,false
 1976,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,LAST,LAST,false,,,
 1977,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,,,true,1,false,false
 1978,Milwaukee,Milwaukee Bucks,NBA,Western,Midwest,,,,false,,,
@@ -24,7 +24,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1990,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,true,0,false,false
 1991,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,false,,,
 1992,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,LAST,false,,,
-1993,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,false,,,
+1993,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,LAST_TIED,LAST_TIED,false,,,
 1994,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,false,,,
 1995,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,false,,,
 1996,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,false,,,

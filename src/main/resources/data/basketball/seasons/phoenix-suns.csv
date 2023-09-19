@@ -23,9 +23,9 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1989,Phoenix,Phoenix Suns,NBA,Western,Pacific,,,,true,2,false,false
 1990,Phoenix,Phoenix Suns,NBA,Western,Pacific,,,,true,0,false,false
 1991,Phoenix,Phoenix Suns,NBA,Western,Pacific,,,,true,1,false,false
-1992,Phoenix,Phoenix Suns,NBA,Western,Pacific,,,FIRST,true,3,true,false
+1992,Phoenix,Phoenix Suns,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,3,true,false
 1993,Phoenix,Phoenix Suns,NBA,Western,Pacific,,,,true,1,false,false
-1994,Phoenix,Phoenix Suns,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,1,false,false
+1994,Phoenix,Phoenix Suns,NBA,Western,Pacific,,,FIRST,true,1,false,false
 1995,Phoenix,Phoenix Suns,NBA,Western,Pacific,,,,true,0,false,false
 1996,Phoenix,Phoenix Suns,NBA,Western,Pacific,,,,true,0,false,false
 1997,Phoenix,Phoenix Suns,NBA,Western,Pacific,,,,true,0,false,false

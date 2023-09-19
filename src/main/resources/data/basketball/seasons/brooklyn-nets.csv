@@ -1,5 +1,5 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1976,New York,New York Nets,NBA,Eastern,Atlantic,,LAST,LAST,false,,,
+1976,New York,New York Nets,NBA,Eastern,Atlantic,LAST,LAST,LAST,false,,,
 1977,New York,New Jersey Nets,NBA,Eastern,Atlantic,LAST,LAST,LAST,false,,,
 1978,New York,New Jersey Nets,NBA,Eastern,Atlantic,,,,true,0,false,false
 1979,New York,New Jersey Nets,NBA,Eastern,Atlantic,,,LAST,false,,,
@@ -9,7 +9,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1983,New York,New Jersey Nets,NBA,Eastern,Atlantic,,,,true,1,false,false
 1984,New York,New Jersey Nets,NBA,Eastern,Atlantic,,,,true,0,false,false
 1985,New York,New Jersey Nets,NBA,Eastern,Atlantic,,,,true,0,false,false
-1986,New York,New Jersey Nets,NBA,Eastern,Atlantic,,LAST,LAST,false,,,
+1986,New York,New Jersey Nets,NBA,Eastern,Atlantic,,LAST_TIED,LAST_TIED,false,,,
 1987,New York,New Jersey Nets,NBA,Eastern,Atlantic,,LAST,LAST,false,,,
 1988,New York,New Jersey Nets,NBA,Eastern,Atlantic,,,,false,,,
 1989,New York,New Jersey Nets,NBA,Eastern,Atlantic,LAST,LAST,LAST,false,,,
@@ -39,8 +39,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2013,New York,Brooklyn Nets,NBA,Eastern,Atlantic,,,,true,1,false,false
 2014,New York,Brooklyn Nets,NBA,Eastern,Atlantic,,,,true,0,false,false
 2015,New York,Brooklyn Nets,NBA,Eastern,Atlantic,,,,false,,,
-2016,New York,Brooklyn Nets,NBA,Eastern,Atlantic,,,,false,,,
-2017,New York,Brooklyn Nets,NBA,Eastern,Atlantic,,,,false,,,
+2016,New York,Brooklyn Nets,NBA,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+2017,New York,Brooklyn Nets,NBA,Eastern,Atlantic,,,LAST,false,,,
 2018,New York,Brooklyn Nets,NBA,Eastern,Atlantic,,,,true,0,false,false
 2019,New York,Brooklyn Nets,NBA,Eastern,Atlantic,,,,true,0,false,false
 2020,New York,Brooklyn Nets,NBA,Eastern,Atlantic,,,,true,1,false,false

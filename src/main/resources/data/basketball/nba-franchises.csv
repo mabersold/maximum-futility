@@ -1,4 +1,5 @@
 name,is_defunct,league
+Anderson Packers,true,NBA
 Atlanta Hawks,false,NBA
 Baltimore Bullets (original),true,NBA
 Boston Celtics,false,NBA
@@ -7,6 +8,7 @@ Charlotte Hornets,false,NBA
 Chicago Bulls,false,NBA
 Chicago Stags,true,NBA
 Cleveland Cavaliers,false,NBA
+Cleveland Rebels,true,NBA
 Dallas Mavericks,false,NBA
 Denver Nuggets,false,NBA
 Denver Nuggets (original),true,NBA
@@ -33,6 +35,7 @@ Portland Trail Blazers,false,NBA
 Providence Steamrollers,true,NBA
 Sacramento Kings,false,NBA
 San Antonio Spurs,false,NBA
+Sheboygan Red Skins,true,NBA
 St. Louis Bombers,true,NBA
 Toronto Huskies,true,NBA
 Toronto Raptors,false,NBA

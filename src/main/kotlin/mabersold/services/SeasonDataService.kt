@@ -93,9 +93,9 @@ class SeasonDataService(private val seasonDAO: SeasonDAO, private val franchiseS
             season.totalMinorDivisions,
             franchiseSeasons.mapNotNull { it.conference }.distinct().sorted(),
             franchiseSeasons.mapNotNull { it.division }.distinct().sorted(),
-            franchiseSeasons.filter { it.qualifiedForPostseason == true }.map { it.teamName },
-            franchiseSeasons.filter { it.roundsWon != null && it.roundsWon > 0 }.map { it.teamName },
-            franchiseSeasons.filter { it.appearedInChampionship == true }.map { it.teamName },
+            franchiseSeasons.filter { it.qualifiedForPostseason == true }.map { it.teamName }.sorted(),
+            franchiseSeasons.filter { it.roundsWon != null && it.roundsWon > 0 }.map { it.teamName }.sorted(),
+            franchiseSeasons.filter { it.appearedInChampionship == true }.map { it.teamName }.sorted(),
             franchiseSeasons.filter { it.wonChampionship == true }.map { it.teamName }.firstOrNull() ?: "",
             listOf(overallResult) + conferenceResults + divisionResults,
             warnings

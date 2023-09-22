@@ -10,12 +10,12 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1980,New York,New York Islanders,NHL,Campbell,Patrick,FIRST,FIRST,FIRST,true,4,true,true
 1981,New York,New York Islanders,NHL,Prince of Wales,Patrick,FIRST,FIRST,FIRST,true,4,true,true
 1982,New York,New York Islanders,NHL,Prince of Wales,Patrick,,,,true,4,true,true
-1983,New York,New York Islanders,NHL,Prince of Wales,Patrick,,FIRST,FIRST,true,3,true,
+1983,New York,New York Islanders,NHL,Prince of Wales,Patrick,,FIRST_TIED,FIRST,true,3,true,
 1984,New York,New York Islanders,NHL,Prince of Wales,Patrick,,,,true,1,,
 1985,New York,New York Islanders,NHL,Prince of Wales,Patrick,,,,true,0,,
 1986,New York,New York Islanders,NHL,Prince of Wales,Patrick,,,,true,1,,
 1987,New York,New York Islanders,NHL,Prince of Wales,Patrick,,,FIRST,true,0,,
-1988,New York,New York Islanders,NHL,Prince of Wales,Patrick,LAST,LAST,LAST,false,,,
+1988,New York,New York Islanders,NHL,Prince of Wales,Patrick,LAST_TIED,LAST_TIED,LAST,false,,,
 1989,New York,New York Islanders,NHL,Prince of Wales,Patrick,,,,true,0,,
 1990,New York,New York Islanders,NHL,Prince of Wales,Patrick,,,LAST,false,,,
 1991,New York,New York Islanders,NHL,Prince of Wales,Patrick,,,,false,,,

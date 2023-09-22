@@ -8,7 +8,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1932,Chicago,Chicago Black Hawks,NHL,American,,,LAST,,false,,,
 1933,Chicago,Chicago Black Hawks,NHL,American,,,,,true,3,true,true
 1934,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,,
-1935,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,,
+1935,Chicago,Chicago Black Hawks,NHL,American,,,LAST_TIED,,true,0,,
 1936,Chicago,Chicago Black Hawks,NHL,American,,,LAST,,false,,,
 1937,Chicago,Chicago Black Hawks,NHL,American,,,,,true,3,true,true
 1938,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
@@ -42,7 +42,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1966,Chicago,Chicago Black Hawks,NHL,,,FIRST,,,true,0,,
 1967,Chicago,Chicago Black Hawks,NHL,East,,,,,true,1,,
 1968,Chicago,Chicago Black Hawks,NHL,East,,,LAST,,false,,,
-1969,Chicago,Chicago Black Hawks,NHL,East,,FIRST,FIRST,,true,1,,
+1969,Chicago,Chicago Black Hawks,NHL,East,,FIRST_TIED,FIRST_TIED,,true,1,,
 1970,Chicago,Chicago Black Hawks,NHL,West,,,FIRST,,true,2,true,
 1971,Chicago,Chicago Black Hawks,NHL,West,,,FIRST,,true,1,,
 1972,Chicago,Chicago Black Hawks,NHL,West,,,FIRST,,true,2,true,
@@ -73,7 +73,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1997,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 1998,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 1999,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
-2000,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST,false,,,
+2000,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST_TIED,false,,,
 2001,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,,
 2002,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 2003,Chicago,Chicago Blackhawks,NHL,Western,Central,,LAST,LAST,false,,,

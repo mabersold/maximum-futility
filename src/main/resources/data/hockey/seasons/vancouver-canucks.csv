@@ -35,7 +35,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2003,Vancouver,Vancouver Canucks,NHL,Western,Northwest,,,FIRST,true,0,,
 2005,Vancouver,Vancouver Canucks,NHL,Western,Northwest,,,,false,,,
 2006,Vancouver,Vancouver Canucks,NHL,Western,Northwest,,,FIRST,true,1,,
-2007,Vancouver,Vancouver Canucks,NHL,Western,Northwest,,,LAST,false,,,
+2007,Vancouver,Vancouver Canucks,NHL,Western,Northwest,,,LAST_TIED,false,,,
 2008,Vancouver,Vancouver Canucks,NHL,Western,Northwest,,,FIRST,true,1,,
 2009,Vancouver,Vancouver Canucks,NHL,Western,Northwest,,,FIRST,true,1,,
 2010,Vancouver,Vancouver Canucks,NHL,Western,Northwest,FIRST,FIRST,FIRST,true,3,true,

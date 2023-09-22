@@ -29,7 +29,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2001,Washington,Washington Capitals,NHL,Eastern,Southeast,,,,false,,,
 2002,Washington,Washington Capitals,NHL,Eastern,Southeast,,,,true,0,,
 2003,Washington,Washington Capitals,NHL,Eastern,Southeast,,,LAST,false,,,
-2005,Washington,Washington Capitals,NHL,Eastern,Southeast,,,,false,,,
+2005,Washington,Washington Capitals,NHL,Eastern,Southeast,,,LAST,false,,,
 2006,Washington,Washington Capitals,NHL,Eastern,Southeast,,,LAST,false,,,
 2007,Washington,Washington Capitals,NHL,Eastern,Southeast,,,FIRST,true,0,,
 2008,Washington,Washington Capitals,NHL,Eastern,Southeast,,,FIRST,true,1,,
@@ -44,6 +44,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Washington,Washington Capitals,NHL,Eastern,Metropolitan,,,FIRST,true,4,true,true
 2018,Washington,Washington Capitals,NHL,Eastern,Metropolitan,,,FIRST,true,0,,
 2019,Washington,Washington Capitals,NHL,Eastern,Metropolitan,,,FIRST,true,0,,
-2020,Washington,Washington Capitals,NHL,,East,,,FIRST,true,0,,
+2020,Washington,Washington Capitals,NHL,,East,,,FIRST_TIED,true,0,,
 2021,Washington,Washington Capitals,NHL,Eastern,Metropolitan,,,,true,0,,
 2022,Washington,Washington Capitals,NHL,Eastern,Metropolitan,,,,false,,,

@@ -1,6 +1,6 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1967,Minneapolis,Minnesota North Stars,NHL,West,,,,,true,1,,
-1968,Minneapolis,Minnesota North Stars,NHL,West,,LAST,LAST,,false,,,
+1968,Minneapolis,Minnesota North Stars,NHL,West,,LAST_TIED,LAST_TIED,,false,,,
 1969,Minneapolis,Minnesota North Stars,NHL,West,,,,,true,0,,
 1970,Minneapolis,Minnesota North Stars,NHL,West,,,,,true,1,,
 1971,Minneapolis,Minnesota North Stars,NHL,West,,,,,true,0,,
@@ -18,7 +18,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1983,Minneapolis,Minnesota North Stars,NHL,Campbell,Norris,,,FIRST,true,2,,
 1984,Minneapolis,Minnesota North Stars,NHL,Campbell,Norris,,,,true,1,,
 1985,Minneapolis,Minnesota North Stars,NHL,Campbell,Norris,,,,true,0,,
-1986,Minneapolis,Minnesota North Stars,NHL,Campbell,Norris,,,,false,,,
+1986,Minneapolis,Minnesota North Stars,NHL,Campbell,Norris,,,LAST_TIED,false,,,
 1987,Minneapolis,Minnesota North Stars,NHL,Campbell,Norris,LAST,LAST,LAST,false,,,
 1988,Minneapolis,Minnesota North Stars,NHL,Campbell,Norris,,,,true,0,,
 1989,Minneapolis,Minnesota North Stars,NHL,Campbell,Norris,,,,true,0,,

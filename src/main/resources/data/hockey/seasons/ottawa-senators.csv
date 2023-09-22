@@ -1,5 +1,5 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1992,Ottawa,Ottawa Senators,NHL,Prince of Wales,Adams,LAST,LAST,LAST,false,,,
+1992,Ottawa,Ottawa Senators,NHL,Prince of Wales,Adams,LAST_TIED,LAST,LAST,false,,,
 1993,Ottawa,Ottawa Senators,NHL,Eastern,Northeast,LAST,LAST,LAST,false,,,
 1994,Ottawa,Ottawa Senators,NHL,Eastern,Northeast,LAST,LAST,LAST,false,,,
 1995,Ottawa,Ottawa Senators,NHL,Eastern,Northeast,LAST,LAST,LAST,false,,,

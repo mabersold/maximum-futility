@@ -1,6 +1,6 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1991,San Francisco Bay,San Jose Sharks,NHL,Campbell,Smythe,LAST,LAST,LAST,false,,,
-1992,San Francisco Bay,San Jose Sharks,NHL,Campbell,Smythe,LAST,LAST,LAST,false,,,
+1992,San Francisco Bay,San Jose Sharks,NHL,Campbell,Smythe,LAST_TIED,LAST,LAST,false,,,
 1993,San Francisco Bay,San Jose Sharks,NHL,Western,Pacific,,,,true,1,,
 1994,San Francisco Bay,San Jose Sharks,NHL,Western,Pacific,,,,true,1,,
 1995,San Francisco Bay,San Jose Sharks,NHL,Western,Pacific,,LAST,LAST,false,,,

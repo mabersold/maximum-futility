@@ -39,7 +39,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1963,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
 1964,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
 1965,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
-1966,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,
+1966,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
 1967,Toronto,Toronto Maple Leafs,NHL,East,,,,,false,,,
 1968,Toronto,Toronto Maple Leafs,NHL,East,,,,,true,0,,
 1969,Toronto,Toronto Maple Leafs,NHL,East,,,LAST,,false,,,
@@ -59,7 +59,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1983,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,LAST,false,,,
 1984,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,LAST,LAST,LAST,false,,,
 1985,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,1,,
-1986,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,LAST,true,1,,
+1986,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,LAST_TIED,true,1,,
 1987,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,0,,
 1988,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,LAST,LAST,false,,,
 1989,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,0,,
@@ -81,7 +81,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2006,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,false,,,
 2007,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,LAST,false,,,
 2008,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,LAST,false,,,
-2009,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,LAST,false,,,
+2009,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,LAST,LAST,false,,,
 2010,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,false,,,
 2011,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,false,,,
 2012,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,0,,

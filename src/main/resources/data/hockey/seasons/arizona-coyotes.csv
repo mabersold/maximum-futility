@@ -1,5 +1,5 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1979,Winnipeg,Winnipeg Jets,NHL,Campbell,Smythe,,,,false,,,
+1979,Winnipeg,Winnipeg Jets,NHL,Campbell,Smythe,LAST_TIED,LAST_TIED,LAST_TIED,false,,,
 1980,Winnipeg,Winnipeg Jets,NHL,Campbell,Smythe,LAST,LAST,LAST,false,,,
 1981,Winnipeg,Winnipeg Jets,NHL,Campbell,Norris,,,,true,0,false,false
 1982,Winnipeg,Winnipeg Jets,NHL,Campbell,Smythe,,,,true,0,false,false
@@ -37,8 +37,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2015,Phoenix,Arizona Coyotes,NHL,Western,Pacific,,,,false,,,
 2016,Phoenix,Arizona Coyotes,NHL,Western,Pacific,,,,false,,,
 2017,Phoenix,Arizona Coyotes,NHL,Western,Pacific,,LAST,LAST,false,,,
-2018,Phoenix,Arizona Coyotes,NHL,Western,Pacific,,,,true,1,false,false
-2019,Phoenix,Arizona Coyotes,NHL,Western,Pacific,,,,false,,,
+2018,Phoenix,Arizona Coyotes,NHL,Western,Pacific,,,,false,,,
+2019,Phoenix,Arizona Coyotes,NHL,Western,Pacific,,,,true,1,,
 2020,Phoenix,Arizona Coyotes,NHL,,West,,,,false,,,
 2021,Phoenix,Arizona Coyotes,NHL,Western,Central,,LAST,LAST,false,,,
 2022,Phoenix,Arizona Coyotes,NHL,Western,Central,,,,false,,,

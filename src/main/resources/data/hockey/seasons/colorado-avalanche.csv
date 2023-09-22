@@ -8,7 +8,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1985,Quebec,Quebec Nordiques,NHL,Prince of Wales,Adams,,,FIRST,true,0,,
 1986,Quebec,Quebec Nordiques,NHL,Prince of Wales,Adams,,,,true,1,,
 1987,Quebec,Quebec Nordiques,NHL,Prince of Wales,Adams,,LAST,LAST,false,,,
-1988,Quebec,Quebec Nordiques,NHL,Prince of Wales,Adams,LAST,LAST,LAST,false,,,
+1988,Quebec,Quebec Nordiques,NHL,Prince of Wales,Adams,LAST_TIED,LAST_TIED,LAST,false,,,
 1989,Quebec,Quebec Nordiques,NHL,Prince of Wales,Adams,LAST,LAST,LAST,false,,,
 1990,Quebec,Quebec Nordiques,NHL,Prince of Wales,Adams,LAST,LAST,LAST,false,,,
 1991,Quebec,Quebec Nordiques,NHL,Prince of Wales,Adams,,LAST,LAST,false,,,
@@ -39,6 +39,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Denver,Colorado Avalanche,NHL,Western,Central,,,,true,0,,
 2018,Denver,Colorado Avalanche,NHL,Western,Central,,,,true,1,,
 2019,Denver,Colorado Avalanche,NHL,Western,Central,,,,true,1,,
-2020,Denver,Colorado Avalanche,NHL,,West,FIRST,FIRST,,true,1,,
+2020,Denver,Colorado Avalanche,NHL,,West,FIRST_TIED,,FIRST_TIED,true,1,,
 2021,Denver,Colorado Avalanche,NHL,Western,Central,,FIRST,FIRST,true,4,true,true
 2022,Denver,Colorado Avalanche,NHL,Western,Central,,,FIRST,true,0,,

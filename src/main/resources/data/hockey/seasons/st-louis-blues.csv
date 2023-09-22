@@ -45,7 +45,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2011,St. Louis,St. Louis Blues,NHL,Western,Central,,,FIRST,true,1,,
 2012,St. Louis,St. Louis Blues,NHL,Western,Central,,,,true,0,,
 2013,St. Louis,St. Louis Blues,NHL,Western,Central,,,,true,0,,
-2014,St. Louis,St. Louis Blues,NHL,Western,Central,,FIRST,FIRST,true,0,,
+2014,St. Louis,St. Louis Blues,NHL,Western,Central,,FIRST_TIED,FIRST,true,0,,
 2015,St. Louis,St. Louis Blues,NHL,Western,Central,,,,true,2,,
 2016,St. Louis,St. Louis Blues,NHL,Western,Central,,,,true,1,,
 2017,St. Louis,St. Louis Blues,NHL,Western,Central,,,,false,,,

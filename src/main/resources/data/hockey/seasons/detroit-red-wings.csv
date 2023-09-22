@@ -1,11 +1,11 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1926,Detroit,Detroit cougars,NHL,American,,LAST,LAST,,false,,,
-1927,Detroit,Detroit cougars,NHL,American,,,,,false,,,
-1928,Detroit,Detroit cougars,NHL,American,,,,,true,0,,
-1929,Detroit,Detroit cougars,NHL,American,,,,,false,,,
+1926,Detroit,Detroit Cougars,NHL,American,,LAST,LAST,,false,,,
+1927,Detroit,Detroit Cougars,NHL,American,,,,,false,,,
+1928,Detroit,Detroit Cougars,NHL,American,,,,,true,0,,
+1929,Detroit,Detroit Cougars,NHL,American,,,,,false,,,
 1930,Detroit,Detroit Falcons,NHL,American,,,,,false,,,
 1931,Detroit,Detroit Falcons,NHL,American,,,,,true,0,,
-1932,Detroit,Detroit Red Wings,NHL,American,,FIRST,FIRST,,true,1,,
+1932,Detroit,Detroit Red Wings,NHL,American,,FIRST_TIED,FIRST_TIED,,true,1,,
 1933,Detroit,Detroit Red Wings,NHL,American,,,FIRST,,true,1,true,
 1934,Detroit,Detroit Red Wings,NHL,American,,,LAST,,false,,,
 1935,Detroit,Detroit Red Wings,NHL,American,,FIRST,FIRST,,true,2,true,true
@@ -67,8 +67,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1991,Detroit,Detroit Red Wings,NHL,Campbell,Norris,,FIRST,FIRST,true,1,,
 1992,Detroit,Detroit Red Wings,NHL,Campbell,Norris,,,,true,0,,
 1993,Detroit,Detroit Red Wings,NHL,Western,Central,,FIRST,FIRST,true,0,,
-1994,Detroit,Detroit Red Wings,NHL,Western,Central,FIRST,FIRST,FIRST,true,3,,
-1995,Detroit,Detroit Red Wings,NHL,Western,Central,FIRST,FIRST,FIRST,true,2,true,
+1994,Detroit,Detroit Red Wings,NHL,Western,Central,FIRST,FIRST,FIRST,true,3,true,
+1995,Detroit,Detroit Red Wings,NHL,Western,Central,FIRST,FIRST,FIRST,true,2,,
 1996,Detroit,Detroit Red Wings,NHL,Western,Central,,,,true,4,true,true
 1997,Detroit,Detroit Red Wings,NHL,Western,Central,,,,true,4,true,true
 1998,Detroit,Detroit Red Wings,NHL,Western,Central,,,FIRST,true,1,,
@@ -78,7 +78,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2002,Detroit,Detroit Red Wings,NHL,Western,Central,,,FIRST,true,0,,
 2003,Detroit,Detroit Red Wings,NHL,Western,Central,FIRST,FIRST,FIRST,true,1,,
 2005,Detroit,Detroit Red Wings,NHL,Western,Central,FIRST,FIRST,FIRST,true,0,,
-2006,Detroit,Detroit Red Wings,NHL,Western,Central,FIRST,FIRST,FIRST,true,2,,
+2006,Detroit,Detroit Red Wings,NHL,Western,Central,FIRST_TIED,FIRST,FIRST,true,2,,
 2007,Detroit,Detroit Red Wings,NHL,Western,Central,FIRST,FIRST,FIRST,true,4,true,true
 2008,Detroit,Detroit Red Wings,NHL,Western,Central,,,FIRST,true,3,true,
 2009,Detroit,Detroit Red Wings,NHL,Western,Central,,,,true,1,,
@@ -92,6 +92,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Detroit,Detroit Red Wings,NHL,Eastern,Atlantic,,,,false,,,
 2018,Detroit,Detroit Red Wings,NHL,Eastern,Atlantic,,,,false,,,
 2019,Detroit,Detroit Red Wings,NHL,Eastern,Atlantic,LAST,LAST,LAST,false,,,
-2020,Detroit,Detroit Red Wings,NHL,,Central,,,,false,,,
+2020,Detroit,Detroit Red Wings,NHL,,Central,,,LAST_TIED,false,,,
 2021,Detroit,Detroit Red Wings,NHL,Eastern,Atlantic,,,,false,,,
 2022,Detroit,Detroit Red Wings,NHL,Eastern,Atlantic,,,,false,,,

@@ -38,8 +38,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2003,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 2005,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 2006,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
-2007,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,LAST,LAST,LAST,false,,,
-2008,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,LAST,false,,,
+2007,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,LAST_TIED,LAST,LAST,false,,,
+2008,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,LAST_TIED,false,,,
 2009,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
 2010,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
 2011,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,4,true,true

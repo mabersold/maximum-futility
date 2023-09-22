@@ -13,7 +13,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2003,Tampa Bay,Tampa Bay Lightning,NHL,Eastern,Southeast,,FIRST,FIRST,true,4,true,true
 2005,Tampa Bay,Tampa Bay Lightning,NHL,Eastern,Southeast,,,,true,0,,
 2006,Tampa Bay,Tampa Bay Lightning,NHL,Eastern,Southeast,,,,true,0,,
-2007,Tampa Bay,Tampa Bay Lightning,NHL,Eastern,Southeast,LAST,LAST,LAST,false,,,
+2007,Tampa Bay,Tampa Bay Lightning,NHL,Eastern,Southeast,LAST_TIED,LAST,LAST,false,,,
 2008,Tampa Bay,Tampa Bay Lightning,NHL,Eastern,Southeast,,,LAST,false,,,
 2009,Tampa Bay,Tampa Bay Lightning,NHL,Eastern,Southeast,,,,false,,,
 2010,Tampa Bay,Tampa Bay Lightning,NHL,Eastern,Southeast,,,,true,2,,

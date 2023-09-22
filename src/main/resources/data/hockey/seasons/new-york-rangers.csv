@@ -8,7 +8,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1932,New York,New York Rangers,NHL,American,,,,,true,3,true,true
 1933,New York,New York Rangers,NHL,American,,,,,true,0,,
 1934,New York,New York Rangers,NHL,American,,,,,true,1,,
-1935,New York,New York Rangers,NHL,American,,,LAST,,false,,,
+1935,New York,New York Rangers,NHL,American,,,LAST_TIED,,false,,,
 1936,New York,New York Rangers,NHL,American,,,,,true,2,true,
 1937,New York,New York Rangers,NHL,American,,,,,true,0,,
 1938,New York,New York Rangers,NHL,,,,,,true,0,,
@@ -77,7 +77,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2001,New York,New York Rangers,NHL,Eastern,Atlantic,,,,false,,,
 2002,New York,New York Rangers,NHL,Eastern,Atlantic,,,,false,,,
 2003,New York,New York Rangers,NHL,Eastern,Atlantic,,,,false,,,
-2005,New York,New York Rangers,NHL,Eastern,Atlantic,,,,false,,,
+2005,New York,New York Rangers,NHL,Eastern,Atlantic,,,,true,0,,
 2006,New York,New York Rangers,NHL,Eastern,Atlantic,,,,true,1,,
 2007,New York,New York Rangers,NHL,Eastern,Atlantic,,,,true,1,,
 2008,New York,New York Rangers,NHL,Eastern,Atlantic,,,,true,0,,

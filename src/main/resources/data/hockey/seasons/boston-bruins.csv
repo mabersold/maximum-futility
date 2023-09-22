@@ -5,10 +5,10 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1929,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,1,true,
 1930,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,0,,
 1931,Boston,Boston Bruins,NHL,American,,,LAST,,false,,,
-1932,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,0,,
-1933,Boston,Boston Bruins,NHL,American,,,,,false,,,
+1932,Boston,Boston Bruins,NHL,American,,FIRST_TIED,FIRST_TIED,,true,0,,
+1933,Boston,Boston Bruins,NHL,American,,,LAST,,false,,,
 1934,Boston,Boston Bruins,NHL,American,,,FIRST,,true,0,,
-1935,Boston,Boston Bruins,NHL,American,,,,,true,0,,
+1935,Boston,Boston Bruins,NHL,American,,,LAST_TIED,,true,0,,
 1936,Boston,Boston Bruins,NHL,American,,,,,true,0,,
 1937,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,0,,
 1938,Boston,Boston Bruins,NHL,,,FIRST,,,true,2,true,true
@@ -42,7 +42,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1966,Boston,Boston Bruins,NHL,,,LAST,,,false,,,
 1967,Boston,Boston Bruins,NHL,East,,,,,true,0,,
 1968,Boston,Boston Bruins,NHL,East,,,,,true,1,,
-1969,Boston,Boston Bruins,NHL,East,,FIRST,FIRST,,true,3,true,true
+1969,Boston,Boston Bruins,NHL,East,,FIRST_TIED,FIRST_TIED,,true,3,true,true
 1970,Boston,Boston Bruins,NHL,East,,FIRST,FIRST,,true,0,,
 1971,Boston,Boston Bruins,NHL,East,,FIRST,FIRST,,true,3,true,true
 1972,Boston,Boston Bruins,NHL,East,,,,,true,0,,
@@ -56,7 +56,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1980,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,,
 1981,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,1,,
 1982,Boston,Boston Bruins,NHL,Prince of Wales,Adams,FIRST,FIRST,FIRST,true,2,,
-1983,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,FIRST,FIRST,true,0,,
+1983,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,FIRST_TIED,FIRST,true,0,,
 1984,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,,
 1985,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,,
 1986,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,,

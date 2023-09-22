@@ -2,7 +2,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1926,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,0,,
 1927,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,2,true,
 1928,Montreal,Montreal Maroons,NHL,Canadian,,,LAST,,false,,,
-1929,Montreal,Montreal Maroons,NHL,Canadian,,,FIRST,,true,0,,
+1929,Montreal,Montreal Maroons,NHL,Canadian,,,FIRST_TIED,,true,0,,
 1930,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,0,,
 1931,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,1,,
 1932,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,0,,

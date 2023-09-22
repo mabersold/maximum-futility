@@ -2,7 +2,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1926,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,1,,
 1927,Montreal,Montreal Canadiens,NHL,Canadian,,FIRST,FIRST,,true,0,,
 1928,Montreal,Montreal Canadiens,NHL,Canadian,,FIRST,FIRST,,true,0,,
-1929,Montreal,Montreal Canadiens,NHL,Canadian,,,FIRST,,true,3,true,true
+1929,Montreal,Montreal Canadiens,NHL,Canadian,,,FIRST_TIED,,true,3,true,true
 1930,Montreal,Montreal Canadiens,NHL,Canadian,,,FIRST,,true,2,true,true
 1931,Montreal,Montreal Canadiens,NHL,Canadian,,FIRST,FIRST,,true,0,,
 1932,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,0,,
@@ -47,7 +47,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1971,Montreal,Montreal Canadiens,NHL,East,,,,,true,0,,
 1972,Montreal,Montreal Canadiens,NHL,East,,FIRST,FIRST,,true,3,true,true
 1973,Montreal,Montreal Canadiens,NHL,East,,,,,true,0,,
-1974,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,1,,
+1974,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST_TIED,FIRST_TIED,FIRST,true,1,,
 1975,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,3,true,true
 1976,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,3,true,true
 1977,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,3,true,true

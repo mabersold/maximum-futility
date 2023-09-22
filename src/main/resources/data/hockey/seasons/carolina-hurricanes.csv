@@ -1,8 +1,8 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1979,Hartford,Hartford Whalers,NHL,Prince of Wales,Norris,,,,false,,,
+1979,Hartford,Hartford Whalers,NHL,Prince of Wales,Norris,,,,true,0,,
 1980,Hartford,Hartford Whalers,NHL,Prince of Wales,Norris,,,,false,,,
 1981,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,LAST,LAST,false,,,
-1982,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,LAST,LAST,LAST,false,,,
+1982,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,LAST_TIED,LAST_TIED,LAST,false,,,
 1983,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,LAST,false,,,
 1984,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,LAST,false,,,
 1985,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,1,,

@@ -6,7 +6,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1971,Philadelphia,Philadelphia Flyers,NHL,West,,,,,false,,,
 1972,Philadelphia,Philadelphia Flyers,NHL,West,,,,,true,1,,
 1973,Philadelphia,Philadelphia Flyers,NHL,West,,,FIRST,,true,3,true,true
-1974,Philadelphia,Philadelphia Flyers,NHL,Campbell,Patrick,FIRST,FIRST,FIRST,true,3,true,true
+1974,Philadelphia,Philadelphia Flyers,NHL,Campbell,Patrick,FIRST_TIED,FIRST,FIRST,true,3,true,true
 1975,Philadelphia,Philadelphia Flyers,NHL,Campbell,Patrick,,FIRST,FIRST,true,2,true,
 1976,Philadelphia,Philadelphia Flyers,NHL,Campbell,Patrick,,FIRST,FIRST,true,1,,
 1977,Philadelphia,Philadelphia Flyers,NHL,Campbell,Patrick,,,,true,2,,
@@ -36,12 +36,12 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2001,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,FIRST,true,0,,
 2002,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,,true,1,,
 2003,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,FIRST,true,2,,
-2005,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,FIRST,true,0,,
+2005,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,FIRST_TIED,true,0,,
 2006,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,LAST,LAST,LAST,false,,,
 2007,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,,true,2,,
 2008,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,,true,0,,
 2009,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,,true,3,true,
-2010,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,FIRST,true,1,,
+2010,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,FIRST_TIED,true,1,,
 2011,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,,true,1,,
 2012,Philadelphia,Philadelphia Flyers,NHL,Eastern,Atlantic,,,,false,,,
 2013,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,,,true,0,,

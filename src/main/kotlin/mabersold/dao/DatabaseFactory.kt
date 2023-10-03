@@ -161,6 +161,7 @@ object DatabaseFactory {
                 "data/basketball/seasons/washington-wizards.csv" to "Washington Wizards",
                 "data/football/seasons/arizona-cardinals.csv" to "Arizona Cardinals",
                 "data/football/seasons/atlanta-falcons.csv" to "Atlanta Falcons",
+                "data/football/seasons/baltimore-colts.csv" to "Baltimore Colts",
                 "data/football/seasons/baltimore-ravens.csv" to "Baltimore Ravens",
                 "data/football/seasons/buffalo-bills.csv" to "Buffalo Bills",
                 "data/football/seasons/carolina-panthers.csv" to "Carolina Panthers",

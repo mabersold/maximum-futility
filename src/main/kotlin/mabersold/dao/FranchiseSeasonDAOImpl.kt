@@ -2,7 +2,9 @@ package mabersold.dao
 
 import java.sql.ResultSet
 import mabersold.dao.DatabaseFactory.dbQuery
+import mabersold.models.FranchiseSeasonInfo
 import mabersold.models.MetricType
+import mabersold.models.Metro
 import mabersold.models.MetroData
 import mabersold.models.db.FranchiseSeason
 import mabersold.models.db.FranchiseSeasons
@@ -58,8 +60,40 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
         opportunities = rs.getInt(3)
     )
 
-    override suspend fun all(): List<FranchiseSeason> = dbQuery {
-        FranchiseSeasons.selectAll().map(::resultRowToFranchiseSeason)
+    private fun resultRowToFranchiseSeasonInfo(row: ResultRow) = FranchiseSeasonInfo(
+        metro = Metro.values().find { it.displayName == row[Metros.name] } ?: throw Exception("Metro ${row[Metros.name]} not found"),
+        teamName = row[FranchiseSeasons.teamName],
+        conference = row[FranchiseSeasons.conference],
+        division = row[FranchiseSeasons.division],
+        leaguePosition = row[FranchiseSeasons.leaguePosition],
+        conferencePosition = row[FranchiseSeasons.conferencePosition],
+        divisionPosition = row[FranchiseSeasons.divisionPosition],
+        qualifiedForPostseason = row[FranchiseSeasons.qualifiedForPostseason],
+        roundsWon = row[FranchiseSeasons.roundsWon],
+        appearedInChampionship = row[FranchiseSeasons.appearedInChampionship],
+        wonChampionship = row[FranchiseSeasons.wonChampionship],
+        totalDivisions = row[Seasons.totalMinorDivisions],
+        postSeasonRounds = row[Seasons.postSeasonRounds]
+    )
+
+    override suspend fun all(): List<FranchiseSeasonInfo> = dbQuery {
+        (Metros innerJoin FranchiseSeasons innerJoin Seasons)
+            .slice(Metros.name,
+                FranchiseSeasons.teamName,
+                FranchiseSeasons.leagueId,
+                FranchiseSeasons.conference,
+                FranchiseSeasons.division,
+                FranchiseSeasons.leaguePosition,
+                FranchiseSeasons.conferencePosition,
+                FranchiseSeasons.divisionPosition,
+                FranchiseSeasons.qualifiedForPostseason,
+                FranchiseSeasons.roundsWon,
+                FranchiseSeasons.appearedInChampionship,
+                FranchiseSeasons.wonChampionship,
+                Seasons.totalMinorDivisions,
+                Seasons.postSeasonRounds
+            ).selectAll()
+            .map(::resultRowToFranchiseSeasonInfo)
     }
 
     override suspend fun get(id: Int): FranchiseSeason? {

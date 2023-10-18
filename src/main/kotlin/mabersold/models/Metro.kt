@@ -5,6 +5,8 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 enum class Metro(val displayName: String) {
+    @SerialName("Anderson")
+    ANDERSON("Anderson"),
     @SerialName("Atlanta")
     ATLANTA("Atlanta"),
     @SerialName("Baltimore")
@@ -107,6 +109,8 @@ enum class Metro(val displayName: String) {
     SAN_FRANCISCO_BAY("San Francisco Bay"),
     @SerialName("Seattle")
     SEATTLE("Seattle"),
+    @SerialName("Sheboygan")
+    SHEBOYGAN("Sheboygan"),
     @SerialName("St. Louis")
     ST_LOUIS("St. Louis"),
     @SerialName("Syracuse")

@@ -78,12 +78,155 @@ class MetroDataServiceTest {
         assertEquals(0, data.first { it.name == Metro.PITTSBURGH.displayName }.total)
     }
 
+    @Test
+    fun `gets correct data for metros being last in division`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 0),
+            FranchiseSeasonInfoParams(5, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 2),
+            FranchiseSeasonInfoParams(3, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 2, divisionPosition = Standing.LAST),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 0),
+            FranchiseSeasonInfoParams(7, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 2),
+            FranchiseSeasonInfoParams(1, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 2, divisionPosition = Standing.LAST_TIED),
+            FranchiseSeasonInfoParams(2, Metro.PITTSBURGH, "Pittsburgh Pirates", divisionPosition = Standing.LAST),
+            FranchiseSeasonInfoParams(8, Metro.PITTSBURGH, "Pittsburgh Pirates", totalDivisions = 2),
+            FranchiseSeasonInfoParams(10, Metro.ATLANTA, "Atlanta Hawks", totalDivisions = 8),
+            FranchiseSeasonInfoParams(10, Metro.PITTSBURGH, "Pittsburgh Petunias"),
+            FranchiseSeasonInfoParams(5, Metro.SEATTLE, "Seattle Seahawks", totalDivisions = 8),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Seahawks", totalDivisions = 8, divisionPosition = Standing.LAST),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.WORST_DIVISION)
+
+        // Assert
+        assertEquals(3, data.size)
+        assertTrue(data.all { it.metricType == MetricType.WORST_DIVISION })
+        assertEquals(18, data.first { it.name == Metro.ATLANTA.displayName }.opportunities)
+        assertEquals(15, data.first { it.name == Metro.SEATTLE.displayName }.opportunities)
+        assertEquals(8, data.first { it.name == Metro.PITTSBURGH.displayName }.opportunities)
+        assertEquals(3, data.first { it.name == Metro.ATLANTA.displayName }.total)
+        assertEquals(3, data.first { it.name == Metro.SEATTLE.displayName }.total)
+        assertEquals(0, data.first { it.name == Metro.PITTSBURGH.displayName }.total)
+    }
+
+    @Test
+    fun `gets correct data for metros being first in conference`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", totalConferences = 0),
+            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", totalConferences = 2, conferencePosition = Standing.FIRST),
+            FranchiseSeasonInfoParams(5, Metro.ATLANTA, "Atlanta Braves", totalConferences = 2),
+            FranchiseSeasonInfoParams(1, Metro.ATLANTA, "Atlanta Braves", totalConferences = 2, conferencePosition = Standing.FIRST_TIED),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Mariners", totalConferences = 2, conferencePosition = Standing.FIRST),
+            FranchiseSeasonInfoParams(7, Metro.SEATTLE, "Seattle Mariners", totalConferences = 2),
+            FranchiseSeasonInfoParams(1, Metro.SEATTLE, "Seattle Mariners", totalConferences = 0, conferencePosition = Standing.FIRST_TIED),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.BEST_CONFERENCE)
+
+        // Assert
+        assertEquals(2, data.size)
+        assertTrue(data.all { it.metricType == MetricType.BEST_CONFERENCE })
+        assertEquals(8, data.first { it.name == Metro.ATLANTA.displayName }.opportunities)
+        assertEquals(9, data.first { it.name == Metro.SEATTLE.displayName }.opportunities)
+        assertEquals(3, data.first { it.name == Metro.ATLANTA.displayName }.total)
+        assertEquals(2, data.first { it.name == Metro.SEATTLE.displayName }.total)
+    }
+
+    @Test
+    fun `gets correct data for metros being last in conference`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", totalConferences = 0),
+            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", totalConferences = 2, conferencePosition = Standing.LAST),
+            FranchiseSeasonInfoParams(5, Metro.ATLANTA, "Atlanta Braves", totalConferences = 2),
+            FranchiseSeasonInfoParams(1, Metro.ATLANTA, "Atlanta Braves", totalConferences = 2, conferencePosition = Standing.LAST_TIED),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Mariners", totalConferences = 2, conferencePosition = Standing.LAST),
+            FranchiseSeasonInfoParams(7, Metro.SEATTLE, "Seattle Mariners", totalConferences = 2),
+            FranchiseSeasonInfoParams(1, Metro.SEATTLE, "Seattle Mariners", totalConferences = 0, conferencePosition = Standing.LAST_TIED),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.WORST_CONFERENCE)
+
+        // Assert
+        assertEquals(2, data.size)
+        assertTrue(data.all { it.metricType == MetricType.WORST_CONFERENCE })
+        assertEquals(8, data.first { it.name == Metro.ATLANTA.displayName }.opportunities)
+        assertEquals(9, data.first { it.name == Metro.SEATTLE.displayName }.opportunities)
+        assertEquals(3, data.first { it.name == Metro.ATLANTA.displayName }.total)
+        assertEquals(2, data.first { it.name == Metro.SEATTLE.displayName }.total)
+    }
+
+    @Test
+    fun `gets correct data for metros being first overall`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(8, Metro.ATLANTA, "Atlanta Braves"),
+            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", leaguePosition = Standing.FIRST),
+            FranchiseSeasonInfoParams(1, Metro.ATLANTA, "Atlanta Braves", leaguePosition = Standing.FIRST_TIED),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Mariners", leaguePosition = Standing.FIRST),
+            FranchiseSeasonInfoParams(7, Metro.SEATTLE, "Seattle Mariners"),
+            FranchiseSeasonInfoParams(1, Metro.SEATTLE, "Seattle Mariners", leaguePosition = Standing.FIRST_TIED),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.BEST_OVERALL)
+
+        // Assert
+        assertEquals(2, data.size)
+        assertTrue(data.all { it.metricType == MetricType.BEST_OVERALL })
+        assertEquals(11, data.first { it.name == Metro.ATLANTA.displayName }.opportunities)
+        assertEquals(10, data.first { it.name == Metro.SEATTLE.displayName }.opportunities)
+        assertEquals(3, data.first { it.name == Metro.ATLANTA.displayName }.total)
+        assertEquals(3, data.first { it.name == Metro.SEATTLE.displayName }.total)
+    }
+
+    @Test
+    fun `gets correct data for metros being last overall`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(8, Metro.ATLANTA, "Atlanta Braves"),
+            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", leaguePosition = Standing.LAST),
+            FranchiseSeasonInfoParams(1, Metro.ATLANTA, "Atlanta Braves", leaguePosition = Standing.LAST_TIED),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Mariners", leaguePosition = Standing.LAST),
+            FranchiseSeasonInfoParams(7, Metro.SEATTLE, "Seattle Mariners"),
+            FranchiseSeasonInfoParams(1, Metro.SEATTLE, "Seattle Mariners", leaguePosition = Standing.LAST_TIED),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.WORST_OVERALL)
+
+        // Assert
+        assertEquals(2, data.size)
+        assertTrue(data.all { it.metricType == MetricType.WORST_OVERALL })
+        assertEquals(11, data.first { it.name == Metro.ATLANTA.displayName }.opportunities)
+        assertEquals(10, data.first { it.name == Metro.SEATTLE.displayName }.opportunities)
+        assertEquals(3, data.first { it.name == Metro.ATLANTA.displayName }.total)
+        assertEquals(3, data.first { it.name == Metro.SEATTLE.displayName }.total)
+    }
+
     data class FranchiseSeasonInfoParams(
         val instances: Int,
         val metro: Metro,
         val teamName: String,
         val postSeasonRounds: Int? = null,
         val postSeasonRoundsWon: Int? = null,
+        val leaguePosition: Standing? = null,
+        val totalConferences: Int = 0,
+        val conferencePosition: Standing? = null,
         val totalDivisions: Int = 0,
         val divisionPosition: Standing? = null
     )
@@ -97,14 +240,15 @@ class MetroDataServiceTest {
                 params.teamName,
                 null,
                 null,
-                null,
-                null,
+                params.leaguePosition,
+                params.conferencePosition,
                 params.divisionPosition,
                 false,
                 params.postSeasonRounds,
                 params.postSeasonRoundsWon,
                 false,
                 false,
+                params.totalConferences,
                 params.totalDivisions
             )
         }

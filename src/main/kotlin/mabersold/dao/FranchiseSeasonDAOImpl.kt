@@ -72,6 +72,7 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
         roundsWon = row[FranchiseSeasons.roundsWon],
         appearedInChampionship = row[FranchiseSeasons.appearedInChampionship],
         wonChampionship = row[FranchiseSeasons.wonChampionship],
+        totalConferences = row[Seasons.totalMajorDivisions],
         totalDivisions = row[Seasons.totalMinorDivisions],
         postSeasonRounds = row[Seasons.postSeasonRounds]
     )
@@ -90,6 +91,7 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
                 FranchiseSeasons.roundsWon,
                 FranchiseSeasons.appearedInChampionship,
                 FranchiseSeasons.wonChampionship,
+                Seasons.totalMajorDivisions,
                 Seasons.totalMinorDivisions,
                 Seasons.postSeasonRounds
             ).selectAll()

@@ -8,7 +8,9 @@ import mabersold.models.db.Standing
 class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
     suspend fun getMetroDataByMetric(metricType: MetricType): List<MetroData> {
         return when(metricType) {
+            MetricType.CHAMPIONSHIP_APPEARANCES -> getAppearedInChampionship()
             MetricType.ADVANCED_IN_PLAYOFFS -> getAdvancedInPostseason()
+            MetricType.QUALIFIED_FOR_PLAYOFFS -> getQualifiedForPostseason()
             MetricType.BEST_OVERALL -> getFirstOverall()
             MetricType.WORST_OVERALL -> getLastOverall()
             MetricType.BEST_CONFERENCE -> getFirstInConference()
@@ -18,6 +20,19 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
             else -> throw Exception("Metric type not supported")
         }
     }
+
+    private suspend fun getAppearedInChampionship() =
+        franchiseSeasonDAO.all()
+            .filter { season -> season.postSeasonRounds != null }
+            .groupBy { it.metro }
+            .map { (metro, seasons) ->
+                MetroData(
+                    metro.displayName,
+                    MetricType.CHAMPIONSHIP_APPEARANCES,
+                    seasons.count { it.appearedInChampionship ?: false },
+                    seasons.count()
+                )
+            }
 
     private suspend fun getAdvancedInPostseason(): List<MetroData> {
         return franchiseSeasonDAO.all()
@@ -32,6 +47,19 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
                 )
             }
     }
+
+    private suspend fun getQualifiedForPostseason() =
+        franchiseSeasonDAO.all()
+            .filter { season -> season.postSeasonRounds != null }
+            .groupBy { it.metro }
+            .map { (metro, seasons) ->
+                MetroData(
+                    metro.displayName,
+                    MetricType.QUALIFIED_FOR_PLAYOFFS,
+                    seasons.count { it.qualifiedForPostseason ?: false },
+                    seasons.count()
+                )
+            }
 
     private suspend fun getFirstOverall() =
         franchiseSeasonDAO.all()

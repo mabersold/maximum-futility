@@ -15,6 +15,36 @@ import kotlin.test.assertTrue
 class MetroDataServiceTest {
     private val franchiseSeasonDAO = mockk<FranchiseSeasonDAO>()
     private val metroDataService = MetroDataService(franchiseSeasonDAO)
+
+    @Test
+    fun `gets correct data for metros appearing in championship`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees"),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 0),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 1, appearedInChampionship = true),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, appearedInChampionship = true),
+            FranchiseSeasonInfoParams(2, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3, appearedInChampionship = true),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Phillies", postSeasonRounds = 3),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", postSeasonRounds = 3, appearedInChampionship = true),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.CHAMPIONSHIP_APPEARANCES)
+
+        // Assert
+        assertEquals(2, data.size)
+        assertTrue(data.all { it.metricType == MetricType.CHAMPIONSHIP_APPEARANCES })
+        assertEquals(21, data.first { it.name == Metro.NEW_YORK.displayName }.opportunities)
+        assertEquals(11, data.first { it.name == Metro.NEW_YORK.displayName }.total)
+        assertEquals(6, data.first { it.name == Metro.PHILADELPHIA.displayName }.opportunities)
+        assertEquals(3, data.first { it.name == Metro.PHILADELPHIA.displayName }.total)
+    }
+
     @Test
     fun `gets correct data for metros advancing in the postseason`() = runTest {
         // Arrange
@@ -41,6 +71,35 @@ class MetroDataServiceTest {
         assertEquals(11, data.first { it.name == Metro.NEW_YORK.displayName }.opportunities)
         assertEquals(6, data.first { it.name == Metro.PHILADELPHIA.displayName }.opportunities)
         assertEquals(5, data.first { it.name == Metro.NEW_YORK.displayName }.total)
+        assertEquals(3, data.first { it.name == Metro.PHILADELPHIA.displayName }.total)
+    }
+
+    @Test
+    fun `gets correct data for metros qualifying for postseason`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees"),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 0),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 1),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, qualifiedForPostseason = true),
+            FranchiseSeasonInfoParams(2, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3, qualifiedForPostseason = true),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Phillies", postSeasonRounds = 3, qualifiedForPostseason = true),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", postSeasonRounds = 3),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.QUALIFIED_FOR_PLAYOFFS)
+
+        // Assert
+        assertEquals(2, data.size)
+        assertTrue(data.all { it.metricType == MetricType.QUALIFIED_FOR_PLAYOFFS })
+        assertEquals(21, data.first { it.name == Metro.NEW_YORK.displayName }.opportunities)
+        assertEquals(5, data.first { it.name == Metro.NEW_YORK.displayName }.total)
+        assertEquals(6, data.first { it.name == Metro.PHILADELPHIA.displayName }.opportunities)
         assertEquals(3, data.first { it.name == Metro.PHILADELPHIA.displayName }.total)
     }
 
@@ -223,7 +282,9 @@ class MetroDataServiceTest {
         val metro: Metro,
         val teamName: String,
         val postSeasonRounds: Int? = null,
+        val appearedInChampionship: Boolean = false,
         val postSeasonRoundsWon: Int? = null,
+        val qualifiedForPostseason: Boolean = false,
         val leaguePosition: Standing? = null,
         val totalConferences: Int = 0,
         val conferencePosition: Standing? = null,
@@ -243,10 +304,10 @@ class MetroDataServiceTest {
                 params.leaguePosition,
                 params.conferencePosition,
                 params.divisionPosition,
-                false,
+                params.qualifiedForPostseason,
                 params.postSeasonRounds,
                 params.postSeasonRoundsWon,
-                false,
+                params.appearedInChampionship,
                 false,
                 params.totalConferences,
                 params.totalDivisions

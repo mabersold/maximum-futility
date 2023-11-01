@@ -9,11 +9,11 @@ import io.ktor.server.routing.routing
 import io.ktor.server.thymeleaf.Thymeleaf
 import io.ktor.server.thymeleaf.ThymeleafContent
 import mabersold.dao.FranchiseSeasonDAOImpl
-import mabersold.dao.SeasonDAOImpl
 import mabersold.models.League
 import mabersold.models.MetricType
 import mabersold.services.FranchiseDataService
 import mabersold.services.FranchiseToCityMapper
+import mabersold.services.MetroDataService
 import mabersold.services.SeasonDataService
 import org.koin.ktor.ext.inject
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
@@ -28,6 +28,7 @@ fun Application.configureTemplating() {
     }
 
     val seasonDataService by inject<SeasonDataService>()
+    val metroDataService by inject<MetroDataService>()
 
     routing {
         get("/") {
@@ -60,7 +61,7 @@ fun Application.configureTemplating() {
                 call.request.queryParameters["metricType"]?.let { metricType -> MetricType.valueOf(metricType) }
                     ?: MetricType.TOTAL_CHAMPIONSHIPS
             val dao = FranchiseSeasonDAOImpl()
-            val metroData = dao.resultsByMetro(metricType)
+            val metroData = metroDataService.getMetroDataByMetric(metricType)
             val activeMetros = dao.activeMetros()
 
             val metroDataWithActiveMetros = metroData.filter { activeMetros.contains(it.name) }
@@ -75,7 +76,8 @@ fun Application.configureTemplating() {
                         "metros" to metroDataWithActiveMetros,
                         "type" to metricType.displayName,
                         "metricTypes" to allMetricTypes,
-                        "excludedMetros" to excludedMetros.joinToString { it })
+                        "excludedMetros" to excludedMetros.joinToString { it }
+                    )
                 )
             )
         }

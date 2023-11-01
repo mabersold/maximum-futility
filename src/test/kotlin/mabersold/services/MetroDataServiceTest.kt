@@ -17,6 +17,66 @@ class MetroDataServiceTest {
     private val metroDataService = MetroDataService(franchiseSeasonDAO)
 
     @Test
+    fun `gets correct data for metros winning the championship`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 2, true, true, 2, 6, 1, 1),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 2, true, true, 2, 6, 1, 2),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 1, true, false, 2, 6, 1, 3),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 4),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 5),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, null, null, false, false, 2, 6, 1, 6),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 7),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 8),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 9),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 2, true, true, 2, 6, 1, 10),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 1),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 2),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 3),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 4),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 5),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, null, null, false, false, 2, 6, 1, 6),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 7),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 8),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 9),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 10),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 11),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 12),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 2, true, false, 2, 6, 2, 13),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 2, true, true, 2, 6, 2, 14),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 15),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 16),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 17),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 18),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 19),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 20),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 1),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 2),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 3),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 4),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 5),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, null, null, false, false, 2, 6, 1, 6),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 7),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 8),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 2, true, true, 2, 6, 1, 9),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 10)
+        )
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.TOTAL_CHAMPIONSHIPS)
+
+        // Assert
+        assertEquals(2, data.size)
+        assertTrue(data.all { it.metricType == MetricType.TOTAL_CHAMPIONSHIPS })
+        assertEquals(25, data.first { it.name == Metro.NEW_YORK.displayName }.opportunities)
+        assertEquals(4, data.first { it.name == Metro.NEW_YORK.displayName }.total)
+        assertEquals(9, data.first { it.name == Metro.MINNEAPOLIS.displayName }.opportunities)
+        assertEquals(1, data.first { it.name == Metro.MINNEAPOLIS.displayName }.total)
+    }
+
+    @Test
     fun `gets correct data for metros appearing in championship`() = runTest {
         // Arrange
         val franchiseSeasons = listOf(
@@ -289,7 +349,9 @@ class MetroDataServiceTest {
         val totalConferences: Int = 0,
         val conferencePosition: Standing? = null,
         val totalDivisions: Int = 0,
-        val divisionPosition: Standing? = null
+        val divisionPosition: Standing? = null,
+        val leagueId: Int = 1,
+        val seasonId: Int = 1
     )
 
     private fun generateFranchiseSeasonInfoList(
@@ -310,7 +372,9 @@ class MetroDataServiceTest {
                 params.appearedInChampionship,
                 false,
                 params.totalConferences,
-                params.totalDivisions
+                params.totalDivisions,
+                params.leagueId,
+                params.seasonId
             )
         }
     }

@@ -11,6 +11,7 @@ import mabersold.dao.SeasonDAO
 import mabersold.dao.SeasonDAOImpl
 import mabersold.plugins.configureRouting
 import mabersold.plugins.configureTemplating
+import mabersold.services.MetroDataService
 import mabersold.services.SeasonDataService
 import org.koin.core.module.dsl.bind
 import org.koin.core.module.dsl.singleOf
@@ -40,4 +41,5 @@ val appModule = module {
     singleOf(::FranchiseSeasonDAOImpl) { bind<FranchiseSeasonDAO>() }
     singleOf(::SeasonDAOImpl) { bind<SeasonDAO>() }
     singleOf(::SeasonDataService)
+    singleOf(::MetroDataService)
 }

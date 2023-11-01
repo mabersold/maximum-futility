@@ -48,7 +48,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1979,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,FIRST_TIED,FIRST_TIED,true,1,,
 1980,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,2,true,
 1981,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,true,0,,
-1982,Philadelphia,Philadelphia Eagles,NFL,NFC,,,,LAST,false,,,
+1982,Philadelphia,Philadelphia Eagles,NFL,NFC,,,,,false,,,
 1983,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,false,,,
 1984,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,LAST,false,,,
 1985,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,false,,,

@@ -8,6 +8,7 @@ import mabersold.models.db.Standing
 class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
     suspend fun getMetroDataByMetric(metricType: MetricType): List<MetroData> {
         return when(metricType) {
+            MetricType.TOTAL_CHAMPIONSHIPS -> getTotalChampionships()
             MetricType.CHAMPIONSHIP_APPEARANCES -> getAppearedInChampionship()
             MetricType.ADVANCED_IN_PLAYOFFS -> getAdvancedInPostseason()
             MetricType.QUALIFIED_FOR_PLAYOFFS -> getQualifiedForPostseason()
@@ -17,9 +18,31 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
             MetricType.WORST_CONFERENCE -> getLastInConference()
             MetricType.BEST_DIVISION -> getFirstInDivision()
             MetricType.WORST_DIVISION -> getLastInDivision()
-            else -> throw Exception("Metric type not supported")
         }
     }
+
+    private suspend fun getTotalChampionships() =
+        franchiseSeasonDAO.all()
+            .filter { season -> season.postSeasonRounds != null }
+            .groupBy { it.metro }
+            .map { (metro, seasons) ->
+                val seasonIdsWithChampionship = seasons
+                    .filter { it.wonChampionship ?: false }
+                    .map { it.seasonId }
+                    .distinct()
+                    .toSet()
+
+                val totalDiscount = seasons.filter { season ->
+                    seasonIdsWithChampionship.contains(season.seasonId) && season.wonChampionship != true
+                }.size
+
+                MetroData(
+                    metro.displayName,
+                    MetricType.TOTAL_CHAMPIONSHIPS,
+                    seasons.count { it.wonChampionship ?: false },
+                    seasons.count() - totalDiscount
+                )
+            }
 
     private suspend fun getAppearedInChampionship() =
         franchiseSeasonDAO.all()

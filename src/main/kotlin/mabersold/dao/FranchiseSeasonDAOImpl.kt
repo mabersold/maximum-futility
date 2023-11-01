@@ -74,7 +74,9 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
         wonChampionship = row[FranchiseSeasons.wonChampionship],
         totalConferences = row[Seasons.totalMajorDivisions],
         totalDivisions = row[Seasons.totalMinorDivisions],
-        postSeasonRounds = row[Seasons.postSeasonRounds]
+        postSeasonRounds = row[Seasons.postSeasonRounds],
+        leagueId = row[FranchiseSeasons.leagueId].value,
+        seasonId = row[FranchiseSeasons.seasonId].value
     )
 
     override suspend fun all(): List<FranchiseSeasonInfo> = dbQuery {
@@ -91,6 +93,7 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
                 FranchiseSeasons.roundsWon,
                 FranchiseSeasons.appearedInChampionship,
                 FranchiseSeasons.wonChampionship,
+                FranchiseSeasons.seasonId,
                 Seasons.totalMajorDivisions,
                 Seasons.totalMinorDivisions,
                 Seasons.postSeasonRounds
@@ -207,7 +210,7 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
         private val advancingInPlayoffsQuery = """
             SELECT m.name,
             COUNT(DISTINCT CASE WHEN f.ROUNDS_WON > 0 AND s.TOTAL_POSTSEASON_ROUNDS > 1 THEN f.ID end) AS advanced_in_playoffs,
-            COUNT(DISTINCT CASE WHEN s.TOTAL_POSTSEASON_ROUNDS > 1 THEN s.ID END) AS postseason_opportunities
+            COUNT(CASE WHEN s.TOTAL_POSTSEASON_ROUNDS > 1 THEN s.ID END) AS postseason_opportunities
             FROM METROS m
             JOIN FRANCHISESEASONS f ON m.ID = f.METRO_ID
             LEFT JOIN SEASONS s ON f.SEASON_ID = s.ID

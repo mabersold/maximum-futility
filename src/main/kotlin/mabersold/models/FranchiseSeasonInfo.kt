@@ -16,5 +16,7 @@ data class FranchiseSeasonInfo(
     val appearedInChampionship: Boolean?,
     val wonChampionship: Boolean?,
     val totalConferences: Int,
-    val totalDivisions: Int
+    val totalDivisions: Int,
+    val leagueId: Int,
+    val seasonId: Int
 )

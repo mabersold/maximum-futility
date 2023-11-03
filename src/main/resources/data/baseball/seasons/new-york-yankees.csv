@@ -119,3 +119,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,New York,New York Yankees,MLB,AL,AL East,,,,true,1,false,false
 2021,New York,New York Yankees,MLB,AL,AL East,,,,true,0,false,false
 2022,New York,New York Yankees,MLB,AL,AL East,,,FIRST,true,1,false,false
+2023,New York,New York Yankees,MLB,AL,AL East,,,,false,,,

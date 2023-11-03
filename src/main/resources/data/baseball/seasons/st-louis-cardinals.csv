@@ -119,3 +119,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,true,0,false,false
 2021,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,,true,0,false,false
 2022,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,FIRST,true,0,false,false
+2023,St. Louis,St. Louis Cardinals,MLB,NL,NL Central,,,LAST,false,,,

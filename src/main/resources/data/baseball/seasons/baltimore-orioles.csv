@@ -119,3 +119,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,,false,,,
 2021,Baltimore,Baltimore Orioles,MLB,AL,AL East,LAST_TIED,LAST,LAST,false,,,
 2022,Baltimore,Baltimore Orioles,MLB,AL,AL East,,,,false,,,
+2023,Baltimore,Baltimore Orioles,MLB,AL,AL East,,FIRST,FIRST,true,0,false,false

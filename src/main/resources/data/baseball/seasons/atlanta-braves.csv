@@ -119,3 +119,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,2,false,false
 2021,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,3,true,true
 2022,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
+2023,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST,true,0,false,false

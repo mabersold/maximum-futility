@@ -60,3 +60,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,New York,New York Mets,MLB,NL,NL East,,,LAST_TIED,false,,,
 2021,New York,New York Mets,MLB,NL,NL East,,,,false,,,
 2022,New York,New York Mets,MLB,NL,NL East,,,,true,0,false,false
+2023,New York,New York Mets,MLB,NL,NL East,,,,false,,,

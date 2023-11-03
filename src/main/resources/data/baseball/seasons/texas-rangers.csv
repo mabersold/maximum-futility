@@ -61,3 +61,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Dallas,Texas Rangers,MLB,AL,AL West,,LAST,LAST,false,,,
 2021,Dallas,Texas Rangers,MLB,AL,AL West,,,LAST,false,,,
 2022,Dallas,Texas Rangers,MLB,AL,AL West,,,,false,,,
+2023,Dallas,Texas Rangers,MLB,AL,AL West,,,FIRST_TIED,true,4,true,true

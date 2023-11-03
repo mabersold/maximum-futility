@@ -24,3 +24,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,,LAST,false,,,
 2021,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,LAST_TIED,LAST,LAST,false,,,
 2022,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,,,false,,,
+2023,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,,,true,3,true,false

@@ -119,3 +119,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,,false,,,
 2021,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,,false,,,
 2022,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,,true,3,true,false
+2023,Philadelphia,Philadelphia Phillies,MLB,NL,NL East,,,,true,2,false,false

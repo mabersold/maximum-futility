@@ -60,3 +60,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Houston,Houston Astros,MLB,AL,AL West,,,,true,2,false,false
 2021,Houston,Houston Astros,MLB,AL,AL West,,,FIRST,true,2,true,false
 2022,Houston,Houston Astros,MLB,AL,AL West,,FIRST,FIRST,true,3,true,true
+2023,Houston,Houston Astros,MLB,AL,AL West,,,FIRST_TIED,true,1,false,false

@@ -12,6 +12,18 @@
             $('#city-table').DataTable({paging: false});
         });
     </script>
+    <script>
+        function buildUrl() {
+            var url = '/metros?metricType=' + $('#metricSelect').val();
+            if ($('#from').val()) {
+                url += '&from=' + $('#from').val();
+            }
+            if ($('#until').val()) {
+                url += '&until=' + $('#until').val();
+            }
+            return url;
+        }
+    </script>
     <style>
         body {
           margin: 0;
@@ -40,12 +52,22 @@
             <h1>Maximum Futility</h1>
             <h2 th:text="${type} + ' by metro area'"></h2>
             <div class="py-2">
-                Jump to: <select class="custom-select" id="metricSelect" onchange="window.location.href=this.value">
+                Jump to: <select class="custom-select" id="metricSelect" onchange="window.location.href=buildUrl()">
                     <option th:each="metricType : ${metricTypes}"
-                            th:value="'/metros?metricType=' + ${metricType}"
+                            th:value="${metricType}"
                             th:text="${metricType.displayName}"
                             th:selected="${metricType.displayName == type}"></option>
                 </select>
+            </div>
+            <div class="row py-2">
+                <div class="col-md-6">
+                    From:
+                    <input type="number" id="from" name="from" min="1900" max="2100" th:value="${from}" onchange="window.location.href=buildUrl()">
+                </div>
+                <div class="col-md-6">
+                    Until:
+                    <input type="number" id="until" name="until" min="1900" max="2100" th:value="${until}" onchange="window.location.href=buildUrl()">
+                </div>
             </div>
             <table id="city-table" class="display" style="width:100%">
                 <thead>

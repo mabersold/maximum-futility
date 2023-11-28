@@ -60,8 +60,11 @@ fun Application.configureTemplating() {
             val metricType =
                 call.request.queryParameters["metricType"]?.let { metricType -> MetricType.valueOf(metricType) }
                     ?: MetricType.TOTAL_CHAMPIONSHIPS
+            val from = call.request.queryParameters["from"]?.toInt()
+            val until = call.request.queryParameters["until"]?.toInt()
+
             val dao = FranchiseSeasonDAOImpl()
-            val metroData = metroDataService.getMetroDataByMetric(metricType)
+            val metroData = metroDataService.getMetroDataByMetric(metricType, from, until)
             val activeMetros = dao.activeMetros()
 
             val metroDataWithActiveMetros = metroData.filter { activeMetros.contains(it.name) }
@@ -75,6 +78,8 @@ fun Application.configureTemplating() {
                     mapOf(
                         "metros" to metroDataWithActiveMetros,
                         "type" to metricType.displayName,
+                        "from" to (from ?: ""),
+                        "until" to (until ?: ""),
                         "metricTypes" to allMetricTypes,
                         "excludedMetros" to excludedMetros.joinToString { it }
                     )

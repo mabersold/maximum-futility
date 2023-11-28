@@ -8,11 +8,19 @@ import mabersold.models.MetroData
 import mabersold.models.db.Standing
 
 class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
-    suspend fun getMetroDataByMetric(metricType: MetricType) =
+    suspend fun getMetroDataByMetric(metricType: MetricType, from: Int? = null, until: Int? = null) =
         franchiseSeasonDAO.all()
+            .fromSeason(from)
+            .untilSeason(until)
             .withMetricFilter(metricType)
             .groupBy { it.metro }
             .results(metricType)
+
+    private fun List<FranchiseSeasonInfo>.fromSeason(from: Int?) =
+        from?.let { this.filter { it.startYear >= from } } ?: this
+
+    private fun List<FranchiseSeasonInfo>.untilSeason(until: Int?) =
+        until?.let { this.filter { it.endYear <= until } } ?: this
 
     private fun List<FranchiseSeasonInfo>.withMetricFilter(metricType: MetricType) =
         when(metricType) {
@@ -90,7 +98,7 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
         }
 
     private fun Map<Metro, List<FranchiseSeasonInfo>>.standingResults(metricType: MetricType) =
-        this.map{ (metro, seasons) ->
+        this.map { (metro, seasons) ->
             MetroData(
                 metro.displayName,
                 metricType,

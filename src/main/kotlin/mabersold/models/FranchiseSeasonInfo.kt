@@ -18,5 +18,7 @@ data class FranchiseSeasonInfo(
     val totalConferences: Int,
     val totalDivisions: Int,
     val leagueId: Int,
-    val seasonId: Int
+    val seasonId: Int,
+    val startYear: Int,
+    val endYear: Int
 )

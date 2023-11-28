@@ -98,7 +98,7 @@ class FranchiseDataServiceTest {
         assertEquals(1960, franchises[0].timeline[0].startSeason)
         assertEquals(1979, franchises[0].timeline[0].endSeason)
         assertEquals(1980, franchises[0].timeline[1].startSeason)
-        assertEquals(MOST_RECENT_COMPLETED_MLB_SEASON, franchises[0].timeline[1].endSeason)
+        assertEquals(2022, franchises[0].timeline[1].endSeason)
         assertEquals(League.NFL, franchises[0].league)
 
         assertEquals(1, franchises[1].timeline.size)

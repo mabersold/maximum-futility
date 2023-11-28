@@ -92,7 +92,7 @@ class FranchiseTest {
         val franchise = `a really old franchise`.withLeague(League.MLB)
 
         assertEquals(League.MLB, franchise.league)
-        assertEquals((League.MLB.firstSeason..League.MLB.mostRecentFinishedSeason).toList().size, franchise.totalSeasons)
+        assertEquals((League.MLB.firstSeason..2022).toList().size, franchise.totalSeasons)
     }
 
     @Test

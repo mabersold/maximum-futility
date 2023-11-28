@@ -76,7 +76,9 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
         totalDivisions = row[Seasons.totalMinorDivisions],
         postSeasonRounds = row[Seasons.postSeasonRounds],
         leagueId = row[FranchiseSeasons.leagueId].value,
-        seasonId = row[FranchiseSeasons.seasonId].value
+        seasonId = row[FranchiseSeasons.seasonId].value,
+        startYear = row[Seasons.startYear],
+        endYear = row[Seasons.endYear]
     )
 
     override suspend fun all(): List<FranchiseSeasonInfo> = dbQuery {
@@ -96,7 +98,9 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
                 FranchiseSeasons.seasonId,
                 Seasons.totalMajorDivisions,
                 Seasons.totalMinorDivisions,
-                Seasons.postSeasonRounds
+                Seasons.postSeasonRounds,
+                Seasons.startYear,
+                Seasons.endYear
             ).selectAll()
             .map(::resultRowToFranchiseSeasonInfo)
     }

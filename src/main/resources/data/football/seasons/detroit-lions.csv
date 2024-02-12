@@ -89,3 +89,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Detroit,Detroit Lions,NFL,NFC,NFC North,,,LAST,false,,,
 2021,Detroit,Detroit Lions,NFL,NFC,NFC North,,LAST,LAST,false,,,
 2022,Detroit,Detroit Lions,NFL,NFC,NFC North,,,,false,,,
+2023,Detroit,Detroit Lions,NFL,NFC,NFC North,,FIRST_TIED,FIRST,true,2,,

@@ -89,3 +89,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,LAST,false,,,
 2021,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,true,0,,
 2022,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,FIRST_TIED,FIRST,FIRST,true,2,true,
+2023,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,true,0,,

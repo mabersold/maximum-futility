@@ -26,3 +26,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Baltimore,Baltimore Ravens,NFL,AFC,AFC North,,,,true,1,,
 2021,Baltimore,Baltimore Ravens,NFL,AFC,AFC North,,,LAST_TIED,false,,,
 2022,Baltimore,Baltimore Ravens,NFL,AFC,AFC North,,,,true,0,,
+2023,Baltimore,Baltimore Ravens,NFL,AFC,AFC North,FIRST,FIRST,FIRST,true,1,,

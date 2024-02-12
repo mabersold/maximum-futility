@@ -55,3 +55,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,New Orleans,New Orleans Saints,NFL,NFC,NFC South,,,FIRST,true,1,,
 2021,New Orleans,New Orleans Saints,NFL,NFC,NFC South,,,,false,,,
 2022,New Orleans,New Orleans Saints,NFL,NFC,NFC South,,,LAST_TIED,false,,,
+2023,New Orleans,New Orleans Saints,NFL,NFC,NFC South,,,FIRST_TIED,false,,,

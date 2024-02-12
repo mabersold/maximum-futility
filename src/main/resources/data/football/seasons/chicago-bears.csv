@@ -89,3 +89,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Chicago,Chicago Bears,NFL,NFC,NFC North,,,,true,0,,
 2021,Chicago,Chicago Bears,NFL,NFC,NFC North,,,,false,,,
 2022,Chicago,Chicago Bears,NFL,NFC,NFC North,LAST,LAST,LAST,false,,,
+2023,Chicago,Chicago Bears,NFL,NFC,NFC North,,,LAST_TIED,false,,,

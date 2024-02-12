@@ -61,3 +61,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Minneapolis,Minnesota Vikings,NFL,NFC,NFC North,,,,false,,,
 2021,Minneapolis,Minnesota Vikings,NFL,NFC,NFC North,,,,false,,,
 2022,Minneapolis,Minnesota Vikings,NFL,NFC,NFC North,,,FIRST,true,0,,
+2023,Minneapolis,Minnesota Vikings,NFL,NFC,NFC North,,,LAST_TIED,false,,,

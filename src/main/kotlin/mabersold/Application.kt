@@ -1,9 +1,11 @@
 package mabersold
 
+import io.ktor.serialization.kotlinx.json.json
 import io.ktor.server.application.Application
 import io.ktor.server.application.install
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
+import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
 import mabersold.dao.DatabaseFactory
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.FranchiseSeasonDAOImpl
@@ -26,6 +28,9 @@ fun main(args: Array<String>) {
 }
 
 fun Application.main(args: Array<String>) {
+    install(ContentNegotiation) {
+        json()
+    }
     install(Koin) {
         slf4jLogger()
         modules(appModule)

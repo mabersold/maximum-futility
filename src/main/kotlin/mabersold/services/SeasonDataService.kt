@@ -5,6 +5,7 @@ import mabersold.dao.SeasonDAO
 import mabersold.models.RegularSeasonResult
 import mabersold.models.SeasonSummary
 import mabersold.models.Warning
+import mabersold.models.api.YearRange
 import mabersold.models.db.FranchiseSeason
 import mabersold.models.db.Season
 import mabersold.models.db.Standing
@@ -100,6 +101,12 @@ class SeasonDataService(private val seasonDAO: SeasonDAO, private val franchiseS
             listOf(overallResult) + conferenceResults + divisionResults,
             warnings
         )
+    }
+
+    suspend fun getYearRange(): YearRange {
+        return seasonDAO.all().let { seasons ->
+            YearRange(seasons.minOf { it.startYear }, seasons.maxOf { it.endYear })
+        }
     }
 
     private fun Boolean.withWarning(warning: String): Warning? = if (this) Warning(warning) else null

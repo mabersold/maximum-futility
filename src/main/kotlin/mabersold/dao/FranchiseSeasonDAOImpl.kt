@@ -253,7 +253,7 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
             ) AS adj ON main.metro_name = adj.metro_name;
         """.trimIndent()
         private val activeMetrosQuery = """
-            SELECT distinct(m.name)
+            SELECT distinct(m."name")
             FROM FRANCHISESEASONS f 
             JOIN seasons s ON s.ID = f.SEASON_ID 
             JOIN METROS m ON m.ID = f.metro_id
@@ -263,7 +263,7 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
                 GROUP BY LEAGUE_ID
             ) recent_seasons
             ON s.LEAGUE_ID = recent_seasons.LEAGUE_ID AND s.END_YEAR = recent_seasons.MOST_RECENT_SEASON
-            GROUP BY m.id, m.name
+            GROUP BY m.id, m."name"
         """.trimIndent()
     }
 }

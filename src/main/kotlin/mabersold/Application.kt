@@ -9,10 +9,13 @@ import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
 import mabersold.dao.DatabaseFactory
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.FranchiseSeasonDAOImpl
+import mabersold.dao.LeagueDAO
+import mabersold.dao.LeagueDAOImpl
 import mabersold.dao.SeasonDAO
 import mabersold.dao.SeasonDAOImpl
 import mabersold.plugins.configureRouting
 import mabersold.plugins.configureTemplating
+import mabersold.services.LeagueDataService
 import mabersold.services.MetroDataService
 import mabersold.services.SeasonDataService
 import org.koin.core.module.dsl.bind
@@ -45,6 +48,8 @@ fun Application.main(args: Array<String>) {
 val appModule = module {
     singleOf(::FranchiseSeasonDAOImpl) { bind<FranchiseSeasonDAO>() }
     singleOf(::SeasonDAOImpl) { bind<SeasonDAO>() }
+    singleOf(::LeagueDAOImpl) { bind<LeagueDAO>() }
     singleOf(::SeasonDataService)
     singleOf(::MetroDataService)
+    singleOf(::LeagueDataService)
 }

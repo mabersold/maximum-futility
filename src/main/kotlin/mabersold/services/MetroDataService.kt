@@ -2,9 +2,9 @@ package mabersold.services
 
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.models.FranchiseSeasonInfo
-import mabersold.models.MetricType
+import mabersold.models.api.MetricType
 import mabersold.models.Metro
-import mabersold.models.MetroData
+import mabersold.models.api.MetroData
 import mabersold.models.db.Standing
 
 class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {

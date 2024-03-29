@@ -10,7 +10,7 @@ import io.ktor.server.thymeleaf.Thymeleaf
 import io.ktor.server.thymeleaf.ThymeleafContent
 import mabersold.dao.FranchiseSeasonDAOImpl
 import mabersold.models.League
-import mabersold.models.MetricType
+import mabersold.models.api.MetricType
 import mabersold.services.FranchiseDataService
 import mabersold.services.FranchiseToCityMapper
 import mabersold.services.MetroDataService
@@ -71,6 +71,7 @@ fun Application.configureTemplating() {
             val allMetricTypes = MetricType.values().toList()
 
             val excludedMetros = metroData.filter { !activeMetros.contains(it.name) }.map { it.name }
+            val yearRange = seasonDataService.getYearRange()
 
             call.respond(
                 ThymeleafContent(
@@ -78,8 +79,9 @@ fun Application.configureTemplating() {
                     mapOf(
                         "metros" to metroDataWithActiveMetros,
                         "type" to metricType.displayName,
-                        "from" to (from ?: ""),
-                        "until" to (until ?: ""),
+                        "from" to (from ?: yearRange.startYear),
+                        "until" to (until ?: yearRange.endYear),
+                        "yearRange" to yearRange,
                         "metricTypes" to allMetricTypes,
                         "excludedMetros" to excludedMetros.joinToString { it }
                     )

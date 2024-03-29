@@ -1,8 +1,8 @@
 package mabersold.dao
 
 import mabersold.models.FranchiseSeasonInfo
-import mabersold.models.MetricType
-import mabersold.models.MetroData
+import mabersold.models.api.MetricType
+import mabersold.models.api.MetroData
 import mabersold.models.db.FranchiseSeason
 
 interface FranchiseSeasonDAO {

@@ -3,9 +3,9 @@ package mabersold.dao
 import java.sql.ResultSet
 import mabersold.dao.DatabaseFactory.dbQuery
 import mabersold.models.FranchiseSeasonInfo
-import mabersold.models.MetricType
+import mabersold.models.api.MetricType
 import mabersold.models.Metro
-import mabersold.models.MetroData
+import mabersold.models.api.MetroData
 import mabersold.models.db.FranchiseSeason
 import mabersold.models.db.FranchiseSeasons
 import mabersold.models.db.Metros
@@ -172,12 +172,14 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
         dbQuery {
             TransactionManager.current().exec(adjustedChampionshipQuery) { rs ->
                 while (rs.next()) {
-                    metroDataList.add(MetroData(
-                        name = rs.getString(1),
-                        metricType = MetricType.TOTAL_CHAMPIONSHIPS,
-                        total = rs.getInt(2),
-                        opportunities = rs.getInt(3)
-                    ))
+                    metroDataList.add(
+                        MetroData(
+                            name = rs.getString(1),
+                            metricType = MetricType.TOTAL_CHAMPIONSHIPS,
+                            total = rs.getInt(2),
+                            opportunities = rs.getInt(3)
+                        )
+                    )
                 }
             }
         }

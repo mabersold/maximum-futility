@@ -1,5 +1,8 @@
-package mabersold.models
+package mabersold.models.api
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class MetroData(
     val name: String,
     val metricType: MetricType,

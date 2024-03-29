@@ -5,7 +5,7 @@ import io.mockk.mockk
 import kotlinx.coroutines.test.runTest
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.models.FranchiseSeasonInfo
-import mabersold.models.MetricType
+import mabersold.models.api.MetricType
 import mabersold.models.Metro
 import mabersold.models.db.Standing
 import kotlin.test.Test

@@ -37,11 +37,14 @@ fun Application.configureRouting() {
                 call.request.queryParameters["metricType"]?.let { metricType -> MetricType.valueOf(metricType) }
                     ?: MetricType.TOTAL_CHAMPIONSHIPS
 
+            val minLastActiveYear = call.request.queryParameters["minLastActiveYear"]?.toInt()
+
             val startYear = call.request.queryParameters["startYear"]?.toInt() ?: seasonDataService.getYearRange().startYear
             val endYear = call.request.queryParameters["endYear"]?.toInt() ?: seasonDataService.getYearRange().endYear
 
             val data = metroDataService.getMetroDataByMetric(metricType, startYear, endYear)
-                .sortedWith(compareBy({ it.rate }, { it.opportunities}))
+                .filter { minLastActiveYear == null || it.lastActiveYear > minLastActiveYear}
+                .sortedWith(compareBy<MetroData>{ it.rate }.thenByDescending { it.opportunities })
 
             val metroReport = MetroReport(
                 startYear,

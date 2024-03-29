@@ -63,7 +63,8 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
                 metro.displayName,
                 MetricType.TOTAL_CHAMPIONSHIPS,
                 seasons.count { it.wonChampionship ?: false },
-                seasons.count() - totalDiscount
+                seasons.count() - totalDiscount,
+                seasons.maxOf { it.endYear }
             )
         }
 
@@ -73,7 +74,8 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
                 metro.displayName,
                 MetricType.CHAMPIONSHIP_APPEARANCES,
                 seasons.count { it.appearedInChampionship ?: false },
-                seasons.count()
+                seasons.count(),
+                seasons.maxOf { it.endYear }
             )
         }
 
@@ -83,7 +85,8 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
                 metro.displayName,
                 MetricType.ADVANCED_IN_PLAYOFFS,
                 seasons.count { (it.roundsWon ?: 0) > 0 },
-                seasons.count()
+                seasons.count(),
+                seasons.maxOf { it.endYear }
             )
         }
 
@@ -93,7 +96,8 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
                 metro.displayName,
                 MetricType.QUALIFIED_FOR_PLAYOFFS,
                 seasons.count { it.qualifiedForPostseason ?: false },
-                seasons.count()
+                seasons.count(),
+                seasons.maxOf { it.endYear }
             )
         }
 
@@ -103,7 +107,8 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
                 metro.displayName,
                 metricType,
                 seasons.count { it.shouldBeCountedForMetric(metricType) },
-                seasons.count()
+                seasons.count(),
+                seasons.maxOf { it.endYear }
             )
         }
 

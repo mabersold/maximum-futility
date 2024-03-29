@@ -72,8 +72,10 @@ class MetroDataServiceTest {
         assertTrue(data.all { it.metricType == MetricType.TOTAL_CHAMPIONSHIPS })
         assertEquals(25, data.first { it.name == Metro.NEW_YORK.displayName }.opportunities)
         assertEquals(4, data.first { it.name == Metro.NEW_YORK.displayName }.total)
+        assertEquals(1999, data.first { it.name == Metro.NEW_YORK.displayName }.lastActiveYear)
         assertEquals(9, data.first { it.name == Metro.MINNEAPOLIS.displayName }.opportunities)
         assertEquals(1, data.first { it.name == Metro.MINNEAPOLIS.displayName }.total)
+        assertEquals(1999, data.first { it.name == Metro.MINNEAPOLIS.displayName }.lastActiveYear)
     }
 
     @Test
@@ -81,14 +83,14 @@ class MetroDataServiceTest {
         // Arrange
         val franchiseSeasons = listOf(
             FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees"),
-            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 0),
-            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 1, appearedInChampionship = true),
-            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3),
-            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, appearedInChampionship = true),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 0, seasonStart = 1905),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 1, appearedInChampionship = true, seasonStart = 1910),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, seasonStart = 1915),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, appearedInChampionship = true, seasonStart = 1918),
             FranchiseSeasonInfoParams(2, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3),
-            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3, appearedInChampionship = true),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3, appearedInChampionship = true, seasonStart = 1902),
             FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Phillies", postSeasonRounds = 3),
-            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", postSeasonRounds = 3, appearedInChampionship = true),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", postSeasonRounds = 3, appearedInChampionship = true, seasonStart = 1903),
         ).flatMap { generateFranchiseSeasonInfoList(it) }
 
         coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
@@ -101,8 +103,10 @@ class MetroDataServiceTest {
         assertTrue(data.all { it.metricType == MetricType.CHAMPIONSHIP_APPEARANCES })
         assertEquals(21, data.first { it.name == Metro.NEW_YORK.displayName }.opportunities)
         assertEquals(11, data.first { it.name == Metro.NEW_YORK.displayName }.total)
+        assertEquals(1921, data.first { it.name == Metro.NEW_YORK.displayName }.lastActiveYear)
         assertEquals(6, data.first { it.name == Metro.PHILADELPHIA.displayName }.opportunities)
         assertEquals(3, data.first { it.name == Metro.PHILADELPHIA.displayName }.total)
+        assertEquals(1906, data.first { it.name == Metro.PHILADELPHIA.displayName }.lastActiveYear)
     }
 
     @Test
@@ -110,14 +114,14 @@ class MetroDataServiceTest {
         // Arrange
         val franchiseSeasons = listOf(
             FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees"),
-            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 0),
-            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 1),
-            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3),
-            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, postSeasonRoundsWon = 1),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 0, seasonStart = 1905),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 1, seasonStart = 1910),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, seasonStart = 1915),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, postSeasonRoundsWon = 1, seasonStart = 1918),
             FranchiseSeasonInfoParams(2, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3, postSeasonRoundsWon = 1),
-            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3, postSeasonRoundsWon = 0),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3, postSeasonRoundsWon = 0, seasonStart = 1902),
             FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Phillies", postSeasonRounds = 3, postSeasonRoundsWon = 1),
-            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", postSeasonRounds = 3, postSeasonRoundsWon = 0),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", postSeasonRounds = 3, postSeasonRoundsWon = 0, seasonStart = 1903),
         ).flatMap { generateFranchiseSeasonInfoList(it) }
 
         coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
@@ -132,6 +136,8 @@ class MetroDataServiceTest {
         assertEquals(6, data.first { it.name == Metro.PHILADELPHIA.displayName }.opportunities)
         assertEquals(5, data.first { it.name == Metro.NEW_YORK.displayName }.total)
         assertEquals(3, data.first { it.name == Metro.PHILADELPHIA.displayName }.total)
+        assertEquals(1921, data.first { it.name == Metro.NEW_YORK.displayName }.lastActiveYear)
+        assertEquals(1906, data.first { it.name == Metro.PHILADELPHIA.displayName }.lastActiveYear)
     }
 
     @Test
@@ -139,14 +145,14 @@ class MetroDataServiceTest {
         // Arrange
         val franchiseSeasons = listOf(
             FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees"),
-            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 0),
-            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 1),
-            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3),
-            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, qualifiedForPostseason = true),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 0, seasonStart = 1905),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 1, seasonStart = 1910),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, seasonStart = 1915),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 3, qualifiedForPostseason = true, seasonStart = 1918),
             FranchiseSeasonInfoParams(2, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3, qualifiedForPostseason = true),
-            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3, seasonStart = 1902),
             FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Phillies", postSeasonRounds = 3, qualifiedForPostseason = true),
-            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", postSeasonRounds = 3),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", postSeasonRounds = 3, seasonStart = 1903),
         ).flatMap { generateFranchiseSeasonInfoList(it) }
 
         coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
@@ -161,24 +167,26 @@ class MetroDataServiceTest {
         assertEquals(5, data.first { it.name == Metro.NEW_YORK.displayName }.total)
         assertEquals(6, data.first { it.name == Metro.PHILADELPHIA.displayName }.opportunities)
         assertEquals(3, data.first { it.name == Metro.PHILADELPHIA.displayName }.total)
+        assertEquals(1921, data.first { it.name == Metro.NEW_YORK.displayName }.lastActiveYear)
+        assertEquals(1906, data.first { it.name == Metro.PHILADELPHIA.displayName }.lastActiveYear)
     }
 
     @Test
     fun `gets correct data for metros winning best in division`() = runTest {
         // Arrange
         val franchiseSeasons = listOf(
-            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 0),
-            FranchiseSeasonInfoParams(5, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 2),
-            FranchiseSeasonInfoParams(3, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 2, divisionPosition = Standing.FIRST),
-            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 0),
-            FranchiseSeasonInfoParams(7, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 2),
-            FranchiseSeasonInfoParams(1, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 2, divisionPosition = Standing.FIRST_TIED),
-            FranchiseSeasonInfoParams(2, Metro.PITTSBURGH, "Pittsburgh Pirates", divisionPosition = Standing.FIRST),
-            FranchiseSeasonInfoParams(8, Metro.PITTSBURGH, "Pittsburgh Pirates", totalDivisions = 2),
-            FranchiseSeasonInfoParams(10, Metro.ATLANTA, "Atlanta Hawks", totalDivisions = 8),
-            FranchiseSeasonInfoParams(10, Metro.PITTSBURGH, "Pittsburgh Petunias"),
-            FranchiseSeasonInfoParams(5, Metro.SEATTLE, "Seattle Seahawks", totalDivisions = 8),
-            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Seahawks", totalDivisions = 8, divisionPosition = Standing.FIRST),
+            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 0, seasonStart = 2000),
+            FranchiseSeasonInfoParams(5, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 2, seasonStart = 2002),
+            FranchiseSeasonInfoParams(3, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 2, divisionPosition = Standing.FIRST, seasonStart = 2007),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 0, seasonStart = 2000),
+            FranchiseSeasonInfoParams(7, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 2, seasonStart = 2002),
+            FranchiseSeasonInfoParams(1, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 2, divisionPosition = Standing.FIRST_TIED, seasonStart = 2009),
+            FranchiseSeasonInfoParams(2, Metro.PITTSBURGH, "Pittsburgh Pirates", divisionPosition = Standing.FIRST, seasonStart = 2000),
+            FranchiseSeasonInfoParams(8, Metro.PITTSBURGH, "Pittsburgh Pirates", totalDivisions = 2, seasonStart = 2002),
+            FranchiseSeasonInfoParams(10, Metro.ATLANTA, "Atlanta Hawks", totalDivisions = 8, seasonStart = 2000),
+            FranchiseSeasonInfoParams(10, Metro.PITTSBURGH, "Pittsburgh Petunias", seasonStart = 2000),
+            FranchiseSeasonInfoParams(5, Metro.SEATTLE, "Seattle Seahawks", totalDivisions = 8, seasonStart = 2000),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Seahawks", totalDivisions = 8, divisionPosition = Standing.FIRST, seasonStart = 2005),
         ).flatMap { generateFranchiseSeasonInfoList(it) }
 
         coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
@@ -195,6 +203,9 @@ class MetroDataServiceTest {
         assertEquals(3, data.first { it.name == Metro.ATLANTA.displayName }.total)
         assertEquals(3, data.first { it.name == Metro.SEATTLE.displayName }.total)
         assertEquals(0, data.first { it.name == Metro.PITTSBURGH.displayName }.total)
+        assertEquals(2010, data.first { it.name == Metro.ATLANTA.displayName }.lastActiveYear)
+        assertEquals(2010, data.first { it.name == Metro.SEATTLE.displayName }.lastActiveYear)
+        assertEquals(2010, data.first { it.name == Metro.PITTSBURGH.displayName }.lastActiveYear)
     }
 
     @Test
@@ -363,6 +374,8 @@ class MetroDataServiceTest {
         assertEquals(16, data.first { it.name == Metro.SEATTLE.displayName }.opportunities)
         assertEquals(2, data.first { it.name == Metro.ATLANTA.displayName }.total)
         assertEquals(1, data.first { it.name == Metro.SEATTLE.displayName }.total)
+        assertEquals(2010, data.first { it.name == Metro.ATLANTA.displayName }.lastActiveYear)
+        assertEquals(2010, data.first { it.name == Metro.SEATTLE.displayName }.lastActiveYear)
     }
 
     @Test
@@ -391,6 +404,8 @@ class MetroDataServiceTest {
         assertEquals(15, data.first { it.name == Metro.SEATTLE.displayName }.opportunities)
         assertEquals(2, data.first { it.name == Metro.ATLANTA.displayName }.total)
         assertEquals(1, data.first { it.name == Metro.SEATTLE.displayName }.total)
+        assertEquals(2005, data.first { it.name == Metro.ATLANTA.displayName }.lastActiveYear)
+        assertEquals(2005, data.first { it.name == Metro.SEATTLE.displayName }.lastActiveYear)
     }
 
     @Test
@@ -419,6 +434,8 @@ class MetroDataServiceTest {
         assertEquals(11, data.first { it.name == Metro.SEATTLE.displayName }.opportunities)
         assertEquals(1, data.first { it.name == Metro.ATLANTA.displayName }.total)
         assertEquals(1, data.first { it.name == Metro.SEATTLE.displayName }.total)
+        assertEquals(2005, data.first { it.name == Metro.ATLANTA.displayName }.lastActiveYear)
+        assertEquals(2005, data.first { it.name == Metro.SEATTLE.displayName }.lastActiveYear)
     }
 
 

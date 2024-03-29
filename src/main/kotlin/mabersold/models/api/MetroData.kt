@@ -7,7 +7,8 @@ data class MetroData(
     val name: String,
     val metricType: MetricType,
     val total: Int,
-    val opportunities: Int
+    val opportunities: Int,
+    val lastActiveYear: Int
 ) {
     val rate = if (opportunities > 0) total.toDouble() / opportunities else null
 }

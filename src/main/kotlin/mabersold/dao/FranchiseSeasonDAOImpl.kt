@@ -1,17 +1,13 @@
 package mabersold.dao
 
-import java.sql.ResultSet
 import mabersold.dao.DatabaseFactory.dbQuery
 import mabersold.models.FranchiseSeasonInfo
-import mabersold.models.api.MetricType
 import mabersold.models.Metro
-import mabersold.models.api.MetroData
 import mabersold.models.db.FranchiseSeason
 import mabersold.models.db.FranchiseSeasons
 import mabersold.models.db.Metros
 import mabersold.models.db.Seasons
 import mabersold.models.db.Standing
-import org.jetbrains.exposed.sql.ExpressionAlias
 import org.jetbrains.exposed.sql.IntegerColumnType
 import org.jetbrains.exposed.sql.ResultRow
 import org.jetbrains.exposed.sql.SqlExpressionBuilder.case
@@ -44,20 +40,6 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
         roundsWon = row[FranchiseSeasons.roundsWon],
         appearedInChampionship = row[FranchiseSeasons.appearedInChampionship],
         wonChampionship = row[FranchiseSeasons.wonChampionship]
-    )
-
-    private fun resultRowToMetroData(row: ResultRow, metricType: MetricType, totalAlias: ExpressionAlias<Int?>, opportunityAlias: ExpressionAlias<Int>) = MetroData(
-        name = row[Metros.name],
-        metricType = metricType,
-        total = row[totalAlias] ?: 0,
-        opportunities = row[opportunityAlias].toInt()
-    )
-
-    private fun resultSetToMetroData(rs: ResultSet) = MetroData(
-        name = rs.getString(1),
-        metricType = MetricType.TOTAL_CHAMPIONSHIPS,
-        total = rs.getInt(2),
-        opportunities = rs.getInt(3)
     )
 
     private fun resultRowToFranchiseSeasonInfo(row: ResultRow) = FranchiseSeasonInfo(
@@ -105,25 +87,6 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
             .map(::resultRowToFranchiseSeasonInfo)
     }
 
-    override suspend fun get(id: Int): FranchiseSeason? {
-        return null
-    }
-
-    override suspend fun resultsByMetro(metricType: MetricType): List<MetroData> {
-        return when (metricType) {
-            MetricType.BEST_OVERALL -> regularSeasonResults(metricType, firstInLeagueTotal, totalSeasons)
-            MetricType.WORST_OVERALL -> regularSeasonResults(metricType, lastInLeagueTotal, totalSeasons)
-            MetricType.BEST_CONFERENCE -> regularSeasonResults(metricType, firstInConferenceTotal, totalSeasonsWithConferences)
-            MetricType.WORST_CONFERENCE -> regularSeasonResults(metricType, lastInConferenceTotal, totalSeasonsWithConferences)
-            MetricType.BEST_DIVISION -> regularSeasonResults(metricType, firstInDivisionTotal, totalSeasonsWithDivisions)
-            MetricType.WORST_DIVISION -> regularSeasonResults(metricType, lastInDivisionTotal, totalSeasonsWithDivisions)
-            MetricType.TOTAL_CHAMPIONSHIPS -> championshipResults()
-            MetricType.CHAMPIONSHIP_APPEARANCES -> postSeasonResults(metricType, appearedInChampionshipTotal, postSeasonOpportunities)
-            MetricType.QUALIFIED_FOR_PLAYOFFS -> postSeasonResults(metricType, qualifiedForPostseasonTotal, postSeasonOpportunities)
-            MetricType.ADVANCED_IN_PLAYOFFS -> calculateAdvancedInPlayoffs()
-        }
-    }
-
     override suspend fun activeMetros(): List<String> {
         val activeMetros = mutableListOf<String>()
         dbQuery {
@@ -141,62 +104,6 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
     override suspend fun getBySeason(seasonId: Int) = dbQuery {
         FranchiseSeasons.select { FranchiseSeasons.seasonId eq seasonId }
             .map(::resultRowToFranchiseSeason)
-    }
-
-    private suspend fun regularSeasonResults(metricType: MetricType, totalAlias: ExpressionAlias<Int?>, opportunityAlias: ExpressionAlias<Int>) = dbQuery {
-        (Metros innerJoin FranchiseSeasons innerJoin Seasons)
-            .slice(
-                Metros.name,
-                totalAlias,
-                opportunityAlias
-            )
-            .selectAll()
-            .groupBy(Metros.id)
-            .map{ resultRowToMetroData(it, metricType, totalAlias, opportunityAlias) }
-    }
-
-    private suspend fun postSeasonResults(metricType: MetricType, totalAlias: ExpressionAlias<Int?>, opportunityAlias: ExpressionAlias<Int>) = dbQuery {
-        (Metros innerJoin FranchiseSeasons innerJoin Seasons)
-            .slice(
-                Metros.name,
-                totalAlias,
-                opportunityAlias
-            )
-            .selectAll()
-            .groupBy(Metros.id)
-            .map{ resultRowToMetroData(it, metricType, totalAlias, opportunityAlias) }
-    }
-
-    private suspend fun championshipResults(): List<MetroData> {
-        val metroDataList = mutableListOf<MetroData>()
-        dbQuery {
-            TransactionManager.current().exec(adjustedChampionshipQuery) { rs ->
-                while (rs.next()) {
-                    metroDataList.add(
-                        MetroData(
-                            name = rs.getString(1),
-                            metricType = MetricType.TOTAL_CHAMPIONSHIPS,
-                            total = rs.getInt(2),
-                            opportunities = rs.getInt(3)
-                        )
-                    )
-                }
-            }
-        }
-        return metroDataList
-    }
-
-    private suspend fun calculateAdvancedInPlayoffs(): List<MetroData> {
-        val metroDataList = mutableListOf<MetroData>()
-        dbQuery {
-            TransactionManager.current().exec(advancingInPlayoffsQuery) { rs ->
-                while (rs.next()) {
-                    metroDataList.add(resultSetToMetroData(rs))
-                }
-            }
-        }
-
-        return metroDataList
     }
 
     companion object {

@@ -6,6 +6,7 @@ import io.ktor.server.application.install
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
 import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.server.plugins.cors.routing.CORS
 import mabersold.dao.DatabaseFactory
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.FranchiseSeasonDAOImpl
@@ -37,6 +38,9 @@ fun Application.main(args: Array<String>) {
     install(Koin) {
         slf4jLogger()
         modules(appModule)
+    }
+    install(CORS) {
+        anyHost()
     }
 
     val createSchema = args.isNotEmpty() && args.contains("--createSchema")

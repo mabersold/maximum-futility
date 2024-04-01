@@ -7,5 +7,6 @@ data class MetroReport(
     val startYear: Int,
     val endYear: Int,
     val metricType: MetricType,
+    val leaguesIncluded: List<League>,
     val data: List<MetroData>
 )

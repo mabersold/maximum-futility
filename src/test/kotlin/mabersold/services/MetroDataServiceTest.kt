@@ -438,6 +438,40 @@ class MetroDataServiceTest {
         assertEquals(2005, data.first { it.name == Metro.SEATTLE.displayName }.lastActiveYear)
     }
 
+    @Test
+    fun `filters leagues correctly`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(2, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 0),
+            FranchiseSeasonInfoParams(5, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 2),
+            FranchiseSeasonInfoParams(3, Metro.ATLANTA, "Atlanta Braves", totalDivisions = 2, divisionPosition = Standing.LAST),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 0),
+            FranchiseSeasonInfoParams(7, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 2),
+            FranchiseSeasonInfoParams(1, Metro.SEATTLE, "Seattle Mariners", totalDivisions = 2, divisionPosition = Standing.LAST_TIED),
+            FranchiseSeasonInfoParams(2, Metro.PITTSBURGH, "Pittsburgh Pirates", divisionPosition = Standing.LAST),
+            FranchiseSeasonInfoParams(8, Metro.PITTSBURGH, "Pittsburgh Pirates", totalDivisions = 2),
+            FranchiseSeasonInfoParams(10, Metro.ATLANTA, "Atlanta Hawks", totalDivisions = 8, leagueId = 2),
+            FranchiseSeasonInfoParams(10, Metro.PITTSBURGH, "Pittsburgh Petunias", leagueId = 2),
+            FranchiseSeasonInfoParams(5, Metro.SEATTLE, "Seattle Seahawks", totalDivisions = 8, leagueId = 3),
+            FranchiseSeasonInfoParams(2, Metro.SEATTLE, "Seattle Seahawks", totalDivisions = 8, divisionPosition = Standing.LAST, leagueId = 3),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.WORST_DIVISION, leagueIds = setOf(1, 2))
+
+        // Assert
+        assertEquals(3, data.size)
+        assertTrue(data.all { it.metricType == MetricType.WORST_DIVISION })
+        assertEquals(18, data.first { it.name == Metro.ATLANTA.displayName }.opportunities)
+        assertEquals(8, data.first { it.name == Metro.SEATTLE.displayName }.opportunities)
+        assertEquals(8, data.first { it.name == Metro.PITTSBURGH.displayName }.opportunities)
+        assertEquals(3, data.first { it.name == Metro.ATLANTA.displayName }.total)
+        assertEquals(1, data.first { it.name == Metro.SEATTLE.displayName }.total)
+        assertEquals(0, data.first { it.name == Metro.PITTSBURGH.displayName }.total)
+    }
+
 
     data class FranchiseSeasonInfoParams(
         val instances: Int,

@@ -19,6 +19,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Winnipeg,Winnipeg Jets,NHL,Western,Central,,,,true,2,,
 2018,Winnipeg,Winnipeg Jets,NHL,Western,Central,,,,true,0,,
 2019,Winnipeg,Winnipeg Jets,NHL,Western,Central,,,,true,0,,
-2020,Winnipeg,Winnipeg Jets,NHL,,North,,,,true,1,,
+2020,Winnipeg,Winnipeg Jets,NHL,North,,,,,true,1,,
 2021,Winnipeg,Winnipeg Jets,NHL,Western,Central,,,,false,,,
 2022,Winnipeg,Winnipeg Jets,NHL,Western,Central,,,,true,0,,

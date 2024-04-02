@@ -18,6 +18,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Minneapolis,Minnesota Wild,NHL,Western,Central,,,,true,0,,
 2018,Minneapolis,Minnesota Wild,NHL,Western,Central,,,LAST,false,,,
 2019,Minneapolis,Minnesota Wild,NHL,Western,Central,,,,true,0,,
-2020,Minneapolis,Minnesota Wild,NHL,,West,,,,true,0,,
+2020,Minneapolis,Minnesota Wild,NHL,West,,,,,true,0,,
 2021,Minneapolis,Minnesota Wild,NHL,Western,Central,,,,true,0,,
 2022,Minneapolis,Minnesota Wild,NHL,Western,Central,,,,true,0,,

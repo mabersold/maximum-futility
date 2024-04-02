@@ -48,6 +48,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Vancouver,Vancouver Canucks,NHL,Western,Pacific,,,,false,,,
 2018,Vancouver,Vancouver Canucks,NHL,Western,Pacific,,,,false,,,
 2019,Vancouver,Vancouver Canucks,NHL,Western,Pacific,,,,true,2,,
-2020,Vancouver,Vancouver Canucks,NHL,,North,,,LAST,false,,,
+2020,Vancouver,Vancouver Canucks,NHL,North,,,LAST,,false,,,
 2021,Vancouver,Vancouver Canucks,NHL,Western,Pacific,,,,false,,,
 2022,Vancouver,Vancouver Canucks,NHL,Western,Pacific,,,,false,,,

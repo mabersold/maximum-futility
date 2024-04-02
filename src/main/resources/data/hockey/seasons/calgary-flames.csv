@@ -46,6 +46,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Calgary,Calgary Flames,NHL,Western,Pacific,,,,false,,,
 2018,Calgary,Calgary Flames,NHL,Western,Pacific,,FIRST,FIRST,true,0,,
 2019,Calgary,Calgary Flames,NHL,Western,Pacific,,,,true,1,,
-2020,Calgary,Calgary Flames,NHL,,North,,,,false,,,
+2020,Calgary,Calgary Flames,NHL,North,,,,,false,,,
 2021,Calgary,Calgary Flames,NHL,Western,Pacific,,,FIRST,true,1,,
 2022,Calgary,Calgary Flames,NHL,Western,Pacific,,,,false,,,

@@ -51,6 +51,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
 2018,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,LAST,LAST,false,,,
 2019,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
-2020,Los Angeles,Los Angeles Kings,NHL,,West,,,,false,,,
+2020,Los Angeles,Los Angeles Kings,NHL,West,,,,,false,,,
 2021,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
 2022,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,

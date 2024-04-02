@@ -51,6 +51,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Dallas,Dallas Stars,NHL,Western,Central,,,,false,,,
 2018,Dallas,Dallas Stars,NHL,Western,Central,,,,true,1,,
 2019,Dallas,Dallas Stars,NHL,Western,Central,,,,true,3,true,
-2020,Dallas,Dallas Stars,NHL,,Central,,,,false,,,
+2020,Dallas,Dallas Stars,NHL,Central,,,,,false,,,
 2021,Dallas,Dallas Stars,NHL,Western,Central,,,,true,0,,
 2022,Dallas,Dallas Stars,NHL,Western,Central,,,,true,2,,

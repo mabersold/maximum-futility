@@ -26,6 +26,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Ottawa,Ottawa Senators,NHL,Eastern,Atlantic,,,,false,,,
 2018,Ottawa,Ottawa Senators,NHL,Eastern,Atlantic,LAST,LAST,LAST,false,,,
 2019,Ottawa,Ottawa Senators,NHL,Eastern,Atlantic,,,,false,,,
-2020,Ottawa,Ottawa Senators,NHL,,North,,,,false,,,
+2020,Ottawa,Ottawa Senators,NHL,North,,,,,false,,,
 2021,Ottawa,Ottawa Senators,NHL,Eastern,Atlantic,,,,false,,,
 2022,Ottawa,Ottawa Senators,NHL,Eastern,Atlantic,,,,false,,,

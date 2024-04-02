@@ -92,6 +92,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST,false,,,
 2018,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 2019,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST,true,1,,
-2020,Chicago,Chicago Blackhawks,NHL,,Central,,,,false,,,
+2020,Chicago,Chicago Blackhawks,NHL,Central,,,,,false,,,
 2021,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 2022,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST,false,,,

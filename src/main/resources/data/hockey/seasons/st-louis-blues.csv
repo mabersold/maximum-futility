@@ -51,6 +51,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,St. Louis,St. Louis Blues,NHL,Western,Central,,,,false,,,
 2018,St. Louis,St. Louis Blues,NHL,Western,Central,,,,true,4,true,true
 2019,St. Louis,St. Louis Blues,NHL,Western,Central,,FIRST,FIRST,true,0,,
-2020,St. Louis,St. Louis Blues,NHL,,West,,,,true,0,,
+2020,St. Louis,St. Louis Blues,NHL,West,,,,,true,0,,
 2021,St. Louis,St. Louis Blues,NHL,Western,Central,,,,true,1,,
 2022,St. Louis,St. Louis Blues,NHL,Western,Central,,,,false,,,

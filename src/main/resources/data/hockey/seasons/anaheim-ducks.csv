@@ -25,6 +25,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,0,,
 2018,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,false,,,
 2019,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,false,,,
-2020,Los Angeles,Anaheim Ducks,NHL,,West,,,LAST,false,,,
+2020,Los Angeles,Anaheim Ducks,NHL,West,,,LAST,,false,,,
 2021,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,false,,,
 2022,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,LAST,LAST,LAST,false,,,

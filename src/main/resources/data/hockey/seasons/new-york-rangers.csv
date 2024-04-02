@@ -92,6 +92,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,New York,New York Rangers,NHL,Eastern,Metropolitan,,,LAST,false,,,
 2018,New York,New York Rangers,NHL,Eastern,Metropolitan,,,,false,,,
 2019,New York,New York Rangers,NHL,Eastern,Metropolitan,,,,true,0,,
-2020,New York,New York Rangers,NHL,,East,,,,false,,,
+2020,New York,New York Rangers,NHL,East,,,,,false,,,
 2021,New York,New York Rangers,NHL,Eastern,Metropolitan,,,,true,2,,
 2022,New York,New York Rangers,NHL,Eastern,Metropolitan,,,,true,0,,

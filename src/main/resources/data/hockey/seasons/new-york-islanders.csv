@@ -46,6 +46,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,New York,New York Islanders,NHL,Eastern,Metropolitan,,,,false,,,
 2018,New York,New York Islanders,NHL,Eastern,Metropolitan,,,,true,1,,
 2019,New York,New York Islanders,NHL,Eastern,Metropolitan,,,,true,3,,
-2020,New York,New York Islanders,NHL,,East,,,,true,2,,
+2020,New York,New York Islanders,NHL,East,,,,,true,2,,
 2021,New York,New York Islanders,NHL,Eastern,Metropolitan,,,,false,,,
 2022,New York,New York Islanders,NHL,Eastern,Metropolitan,,,,true,0,,

@@ -51,6 +51,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,,,true,0,,
 2018,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,,,false,,,
 2019,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,,,true,1,,
-2020,Philadelphia,Philadelphia Flyers,NHL,,East,,,,false,,,
+2020,Philadelphia,Philadelphia Flyers,NHL,East,,,,,false,,,
 2021,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,,LAST,false,,,
 2022,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,,,false,,,

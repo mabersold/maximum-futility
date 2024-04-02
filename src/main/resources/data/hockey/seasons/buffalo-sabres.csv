@@ -48,6 +48,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Buffalo,Buffalo Sabres,NHL,Eastern,Atlantic,LAST,LAST,LAST,false,,,
 2018,Buffalo,Buffalo Sabres,NHL,Eastern,Atlantic,,,,false,,,
 2019,Buffalo,Buffalo Sabres,NHL,Eastern,Atlantic,,,,false,,,
-2020,Buffalo,Buffalo Sabres,NHL,,East,LAST,,LAST,false,,,
+2020,Buffalo,Buffalo Sabres,NHL,East,,LAST,LAST,,false,,,
 2021,Buffalo,Buffalo Sabres,NHL,Eastern,Atlantic,,,,false,,,
 2022,Buffalo,Buffalo Sabres,NHL,Eastern,Atlantic,,,,false,,,

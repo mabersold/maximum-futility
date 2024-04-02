@@ -2,6 +2,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Las Vegas,Vegas Golden Knights,NHL,Western,Pacific,,,FIRST,true,3,true,
 2018,Las Vegas,Vegas Golden Knights,NHL,Western,Pacific,,,,true,0,,
 2019,Las Vegas,Vegas Golden Knights,NHL,Western,Pacific,,,FIRST,true,2,,
-2020,Las Vegas,Vegas Golden Knights,NHL,,West,FIRST_TIED,,FIRST_TIED,true,2,,
+2020,Las Vegas,Vegas Golden Knights,NHL,West,,FIRST_TIED,FIRST_TIED,,true,2,,
 2021,Las Vegas,Vegas Golden Knights,NHL,Western,Pacific,,,,false,,,
 2022,Las Vegas,Vegas Golden Knights,NHL,Western,Pacific,,FIRST,FIRST,true,4,true,true

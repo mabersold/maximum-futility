@@ -4,8 +4,10 @@ import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.test.runTest
 import mabersold.dao.FranchiseSeasonDAO
+import mabersold.dao.LeagueDAO
 import mabersold.dao.SeasonDAO
 import mabersold.models.db.FranchiseSeason
+import mabersold.models.db.League
 import mabersold.models.db.Season
 import mabersold.models.db.Standing
 import mabersold.models.db.Standing.FIRST
@@ -37,7 +39,8 @@ import kotlin.test.assertTrue
 class SeasonDataServiceTest {
     private val seasonDao = mockk<SeasonDAO>()
     private val franchiseSeasonDAO = mockk<FranchiseSeasonDAO>()
-    private val seasonDataService = SeasonDataService(seasonDao, franchiseSeasonDAO)
+    private val leagueDao = mockk<LeagueDAO>()
+    private val seasonDataService = SeasonDataService(seasonDao, franchiseSeasonDAO, leagueDao)
 
     companion object {
         private const val SEASON_ID = 1
@@ -62,62 +65,63 @@ class SeasonDataServiceTest {
         // Arrange
         coEvery { seasonDao.get(any()) } returns createSeason()
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns createBaseballSeason()
+        coEvery { leagueDao.get(any()) } returns createLeague()
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(SEASON_NAME, summary.name)
-        assertEquals("1", summary.leagueName)
-        assertEquals(MAJOR_DIVISIONS, summary.totalConferences)
-        assertEquals(MINOR_DIVISIONS, summary.totalDivisions)
-        assertEquals(listOf(AL, NL), summary.conferences)
-        assertEquals(listOf(AL_CENTRAL, AL_EAST, AL_WEST, NL_CENTRAL, NL_EAST, NL_WEST), summary.divisions)
+        assertEquals(LEAGUE_ID, summary.league.id)
+        assertEquals(MAJOR_DIVISIONS, summary.totalMajorDivisions)
+        assertEquals(MINOR_DIVISIONS, summary.totalMinorDivisions)
+        assertEquals(listOf(AL, NL), summary.structure.groups.map { it.name })
+        assertEquals(listOf(AL_CENTRAL, AL_EAST, AL_WEST, NL_CENTRAL, NL_EAST, NL_WEST), summary.structure.groups.flatMap { it.groups }.map { it.name })
         assertEquals(0, summary.warnings.size)
-        assertEquals(listOf("Atlanta Braves", "Cleveland Indians", "Seattle Mariners", "New York Yankees", "Colorado Rockies", "Cincinnati Reds", "Los Angeles Dodgers", "Boston Red Sox").sorted(), summary.appearedInPostseason)
-        assertEquals(listOf("Atlanta Braves", "Cleveland Indians", "Seattle Mariners", "Cincinnati Reds").sorted(), summary.advancedInPostseason)
-        assertEquals(listOf("Atlanta Braves", "Cleveland Indians").sorted(), summary.appearedInChampionship)
-        assertEquals("Atlanta Braves", summary.champions)
-        val overallResults = summary.results.firstOrNull { it.title == "Overall" }
-        assertEquals(listOf("Cleveland Indians"), overallResults?.teams)
-        assertEquals(listOf("Minnesota Twins", "Toronto Blue Jays"), overallResults?.worstTeams)
+        assertEquals(listOf("Atlanta Braves", "Cleveland Indians", "Seattle Mariners", "New York Yankees", "Colorado Rockies", "Cincinnati Reds", "Los Angeles Dodgers", "Boston Red Sox").sorted(), summary.teamsInPostseason)
+        assertEquals(listOf("Atlanta Braves", "Cleveland Indians", "Seattle Mariners", "Cincinnati Reds").sorted(), summary.teamsAdvancedInPostseason)
+        assertEquals(listOf("Atlanta Braves", "Cleveland Indians").sorted(), summary.teamsInChampionship)
+        assertEquals("Atlanta Braves", summary.champion)
+        assertEquals(listOf("Cleveland Indians"), summary.structure.finishedFirst)
+        assertEquals(listOf("Minnesota Twins", "Toronto Blue Jays"), summary.structure.finishedLast)
 
-        val alResults = summary.results.firstOrNull { it.title == "AL" }
-        assertEquals(listOf("Cleveland Indians"), alResults?.teams)
-        assertEquals(listOf("Minnesota Twins", "Toronto Blue Jays"), alResults?.worstTeams)
+        val alResults = summary.structure.groups.first { it.name == AL }
+        assertEquals(listOf("Cleveland Indians"), alResults.finishedFirst)
+        assertEquals(listOf("Minnesota Twins", "Toronto Blue Jays"), alResults.finishedLast)
 
-        val nlResults = summary.results.firstOrNull { it.title == "NL" }
-        assertEquals(listOf("Atlanta Braves"), nlResults?.teams)
-        assertEquals(listOf("Pittsburgh Pirates"), nlResults?.worstTeams)
+        val nlResults = summary.structure.groups.first { it.name == NL }
+        assertEquals(listOf("Atlanta Braves"), nlResults.finishedFirst)
+        assertEquals(listOf("Pittsburgh Pirates"), nlResults.finishedLast)
 
-        val alWestResults = summary.results.firstOrNull { it.title == "AL West" }
-        assertEquals(listOf("Seattle Mariners"), alWestResults?.teams)
-        assertEquals(listOf("Oakland Athletics"), alWestResults?.worstTeams)
+        val alWestResults = alResults.groups.first { it.name == AL_WEST }
+        assertEquals(listOf("Seattle Mariners"), alWestResults.finishedFirst)
+        assertEquals(listOf("Oakland Athletics"), alWestResults.finishedLast)
 
-        val alCentralResults = summary.results.firstOrNull { it.title == "AL Central" }
-        assertEquals(listOf("Cleveland Indians"), alCentralResults?.teams)
-        assertEquals(listOf("Minnesota Twins"), alCentralResults?.worstTeams)
+        val alCentralResults = alResults.groups.first { it.name == AL_CENTRAL }
+        assertEquals(listOf("Cleveland Indians"), alCentralResults.finishedFirst)
+        assertEquals(listOf("Minnesota Twins"), alCentralResults.finishedLast)
 
-        val alEastResults = summary.results.firstOrNull { it.title == "AL East" }
-        assertEquals(listOf("Boston Red Sox"), alEastResults?.teams)
-        assertEquals(listOf("Toronto Blue Jays"), alEastResults?.worstTeams)
+        val alEastResults = alResults.groups.first { it.name == AL_EAST }
+        assertEquals(listOf("Boston Red Sox"), alEastResults.finishedFirst)
+        assertEquals(listOf("Toronto Blue Jays"), alEastResults.finishedLast)
 
-        val nlWestResults = summary.results.firstOrNull { it.title == "NL West" }
-        assertEquals(listOf("Los Angeles Dodgers"), nlWestResults?.teams)
-        assertEquals(listOf("San Francisco Giants"), nlWestResults?.worstTeams)
+        val nlWestResults = nlResults.groups.first { it.name == NL_WEST }
+        assertEquals(listOf("Los Angeles Dodgers"), nlWestResults.finishedFirst)
+        assertEquals(listOf("San Francisco Giants"), nlWestResults.finishedLast)
 
-        val nlCentralResults = summary.results.firstOrNull { it.title == "NL Central" }
-        assertEquals(listOf("Cincinnati Reds"), nlCentralResults?.teams)
-        assertEquals(listOf("Pittsburgh Pirates"), nlCentralResults?.worstTeams)
+        val nlCentralResults = nlResults.groups.first { it.name == NL_CENTRAL }
+        assertEquals(listOf("Cincinnati Reds"), nlCentralResults.finishedFirst)
+        assertEquals(listOf("Pittsburgh Pirates"), nlCentralResults.finishedLast)
 
-        val nlEastResults = summary.results.firstOrNull { it.title == "NL East" }
-        assertEquals(listOf("Atlanta Braves"), nlEastResults?.teams)
-        assertEquals(listOf("Montreal Expos"), nlEastResults?.worstTeams)
+        val nlEastResults = nlResults.groups.first { it.name == NL_EAST }
+        assertEquals(listOf("Atlanta Braves"), nlEastResults.finishedFirst)
+        assertEquals(listOf("Montreal Expos"), nlEastResults.finishedLast)
     }
 
     @Test
     fun `produces warning when there are too many best in league`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -127,7 +131,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -137,6 +141,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when one team is FIRST_TIED for league position and another is FIRST`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -146,7 +151,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -156,6 +161,7 @@ class SeasonDataServiceTest {
     @Test
     fun `does not produce warning when multiple tied for best in league`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST_TIED, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -165,7 +171,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(0, summary.warnings.size)
@@ -174,6 +180,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are too many worst in league`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -183,7 +190,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -193,6 +200,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when one team is LAST_TIED for league position and another is LAST`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -202,7 +210,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -212,6 +220,7 @@ class SeasonDataServiceTest {
     @Test
     fun `does not produce warning when multiple tied for worst in league`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -221,7 +230,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(0, summary.warnings.size)
@@ -230,6 +239,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when number of conferences does not match`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(2, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", conference = "Conference 1", leaguePosition = FIRST, conferencePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -239,7 +249,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -249,6 +259,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when number of divisions does not match`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 2)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", division = "Division 1", leaguePosition = FIRST, divisionPosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -258,7 +269,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -268,6 +279,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are too many champions`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -277,7 +289,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -287,6 +299,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are too many teams in the championship`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -296,7 +309,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -306,6 +319,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there is no best overall in league`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -315,7 +329,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -325,6 +339,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there is no worst overall in league`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -334,7 +349,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -344,6 +359,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are not enough best in conference`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(2, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", conference = "Conference 1", leaguePosition = FIRST, conferencePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -353,7 +369,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -363,6 +379,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are not enough worst in conference`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(2, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", conference = "Conference 1", leaguePosition = FIRST, conferencePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -372,7 +389,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -382,6 +399,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are not enough best in division`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 2)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", division = "Division 1", leaguePosition = FIRST, divisionPosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -391,7 +409,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -401,6 +419,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are not enough worst in division`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 2)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", division = "Division 1", leaguePosition = FIRST, divisionPosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -410,7 +429,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -420,6 +439,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when a team wins more postseason rounds than are possible`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 4, appearedInChampionship = true, wonChampionship = true),
@@ -429,7 +449,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -439,6 +459,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when multiple teams win more postseason rounds than are possible`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 4, appearedInChampionship = true, wonChampionship = true),
@@ -448,7 +469,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -458,6 +479,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when team has not qualified for playoffs but has playoff metrics`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 0)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", leaguePosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
@@ -468,7 +490,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertTrue(summary.warnings.any { it.message ==  WARN_SHOULD_NOT_HAVE_POSTSEASON_DATA.format("Team 3, Team 4, Team 5")})
@@ -477,6 +499,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are too many best in conference`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(3, 0, 1)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", "Conference 1", leaguePosition = FIRST, conferencePosition = FIRST, qualifiedForPostseason = true, roundsWon = 1, appearedInChampionship = true, wonChampionship = true),
@@ -491,7 +514,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -501,6 +524,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are too many last in conference`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(3, 0, 1)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", "Conference 1", leaguePosition = FIRST, conferencePosition = FIRST, qualifiedForPostseason = true, roundsWon = 1, appearedInChampionship = true, wonChampionship = true),
@@ -515,7 +539,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -525,6 +549,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are too many best in division`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 3, 1)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", division = "Division 1", leaguePosition = FIRST, divisionPosition = FIRST, qualifiedForPostseason = true, roundsWon = 1, appearedInChampionship = true, wonChampionship = true),
@@ -539,7 +564,7 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
@@ -549,6 +574,7 @@ class SeasonDataServiceTest {
     @Test
     fun `produces warning when there are too many last in division`() = runTest {
         // Arrange
+        coEvery { leagueDao.get(any()) } returns createLeague()
         coEvery { seasonDao.get(any()) } returns createSeason(0, 3, 1)
         coEvery { franchiseSeasonDAO.getBySeason(any()) } returns listOf(
             createFranchiseSeason("Team 1", division = "Division 1", leaguePosition = FIRST, divisionPosition = FIRST, qualifiedForPostseason = true, roundsWon = 1, appearedInChampionship = true, wonChampionship = true),
@@ -563,12 +589,14 @@ class SeasonDataServiceTest {
         )
 
         // Act
-        val summary = seasonDataService.getSeasonSummary(1)
+        val summary = seasonDataService.getSeasonReport(SEASON_ID)
 
         // Assert
         assertEquals(1, summary.warnings.size)
         assertEquals(WARN_MULTIPLE_LAST_IN_DIVISION.format("Division 1, Division 2"), summary.warnings.first().message)
     }
+
+    private fun createLeague() = League(LEAGUE_ID, "MLB", "Baseball")
 
     private fun createSeason(majorDivisions: Int = MAJOR_DIVISIONS, minorDivisions: Int = MINOR_DIVISIONS, postSeasonRounds: Int = POSTSEASON_ROUNDS) = Season(
         SEASON_ID,
@@ -614,7 +642,7 @@ class SeasonDataServiceTest {
         createFranchiseSeason("Atlanta Braves", NL, NL_EAST, conferencePosition = FIRST, divisionPosition = FIRST, qualifiedForPostseason = true, roundsWon = 3, appearedInChampionship = true, wonChampionship = true),
         createFranchiseSeason("Baltimore Orioles", AL, AL_EAST),
         createFranchiseSeason("Boston Red Sox", AL, AL_EAST, divisionPosition = FIRST, qualifiedForPostseason = true, roundsWon = 0),
-        createFranchiseSeason("California Angels", NL, AL_WEST),
+        createFranchiseSeason("California Angels", AL, AL_WEST),
         createFranchiseSeason("Chicago Cubs", NL, NL_CENTRAL),
         createFranchiseSeason("Chicago White Sox", AL, AL_CENTRAL),
         createFranchiseSeason("Cincinnati Reds", NL, NL_CENTRAL, divisionPosition = FIRST, qualifiedForPostseason = true, roundsWon = 1),

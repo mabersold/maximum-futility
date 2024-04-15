@@ -59,5 +59,11 @@ fun Application.configureRouting() {
             )
             call.respond(metroReport)
         }
+        get("/season_report/{id}") {
+            val id = call.parameters["id"]?.toInt() ?: throw IllegalArgumentException("Invalid ID")
+            val report = seasonDataService.getSeasonReport(id)
+
+            call.respond(report)
+        }
     }
 }

@@ -34,3 +34,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Web UI ###
+
+mf-web-ui/.vscode/
+mf-web-ui/node_modules/

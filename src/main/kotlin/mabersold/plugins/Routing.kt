@@ -5,6 +5,7 @@ import io.ktor.server.application.*
 import io.ktor.server.response.*
 import mabersold.models.api.MetricType
 import mabersold.models.api.MetroData
+import mabersold.models.api.MetroOptions
 import mabersold.models.api.MetroReport
 import mabersold.services.LeagueDataService
 import mabersold.services.MetroDataService
@@ -20,17 +21,13 @@ fun Application.configureRouting() {
         get("/validate") {
             call.respondText("{}")
         }
-        get("/year_range") {
-            val range = seasonDataService.getYearRange()
-            call.respond(range)
-        }
-        get("/leagues") {
-            val leagues = leagueDataService.all()
-            call.respond(leagues)
-        }
-        get("/metrics") {
-            val metrics = MetricType.values().map { mapOf("name" to it.name, "display_name" to it.displayName) }
-            call.respond(metrics)
+        get("/metro_options") {
+            val options = MetroOptions(
+                yearRange = seasonDataService.getYearRange(),
+                leagues = leagueDataService.all(),
+                metrics = MetricType.values().map { mapOf("name" to it.name, "display_name" to it.displayName) }
+            )
+            call.respond(options)
         }
         get("metro_report") {
             val metricType =

@@ -7,6 +7,7 @@ import mabersold.models.api.MetricType
 import mabersold.models.api.MetroData
 import mabersold.models.api.MetroOptions
 import mabersold.models.api.MetroReport
+import mabersold.services.FranchiseDataService
 import mabersold.services.LeagueDataService
 import mabersold.services.MetroDataService
 import mabersold.services.SeasonDataService
@@ -16,6 +17,7 @@ fun Application.configureRouting() {
     val seasonDataService by inject<SeasonDataService>()
     val leagueDataService by inject<LeagueDataService>()
     val metroDataService by inject<MetroDataService>()
+    val franchiseDataService by inject<FranchiseDataService>()
 
     routing {
         get("/validate") {
@@ -61,6 +63,16 @@ fun Application.configureRouting() {
             val report = seasonDataService.getSeasonReport(id)
 
             call.respond(report)
+        }
+        get("/leagues") {
+            val leagues = leagueDataService.all()
+            call.respond(leagues)
+        }
+        get("/leagues/{leagueId}/franchises") {
+            val leagueId = call.parameters["leagueId"]?.toInt() ?: throw IllegalArgumentException("Invalid League ID")
+            val franchises = franchiseDataService.getFranchises(leagueId)
+
+            call.respond(franchises)
         }
     }
 }

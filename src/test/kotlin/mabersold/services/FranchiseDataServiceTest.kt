@@ -1,163 +1,41 @@
 package mabersold.services
 
-import mabersold.MOST_RECENT_COMPLETED_MLB_SEASON
-import mabersold.models.League
-import mabersold.models.Metro
+import io.mockk.coEvery
+import io.mockk.mockk
+import kotlinx.coroutines.test.runTest
+import mabersold.dao.FranchiseDAO
+import mabersold.models.db.Franchise
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class FranchiseDataServiceTest {
-    private val franchiseDataService = FranchiseDataService()
+    private val franchiseDAO = mockk<FranchiseDAO>()
+    private val franchiseDataService = FranchiseDataService(franchiseDAO)
 
     @Test
-    fun `translates franchise data correctly from json file`() {
-        // Given
-
-        // When
-        val franchises = franchiseDataService.getFranchiseData("test_franchises.json")
-
-        // Then
-        assertEquals(2, franchises.size)
-        assertEquals(1, franchises.first().timeline.size)
-        assertEquals(2, franchises.last().timeline.size)
-        assertEquals("Enumclaw Rednecks", franchises.first().name)
-        assertEquals("Bellevue Nimbys", franchises.last().name)
-    }
-
-    @Test
-    fun `gets a list of franchises from a single source`() {
-        // Given
-        val sources = mapOf(League.MLB to listOf("test_franchises.json"))
-
-        // When
-        val franchises = franchiseDataService.getFranchiseData(sources)
-
-        // Then
-        assertEquals(2, franchises.size)
-        assertEquals("Bellevue Nimbys", franchises[0].name)
-        assertEquals(League.MLB, franchises[0].league)
-        assertEquals(2, franchises[0].timeline.size)
-        assertEquals("Enumclaw Rednecks", franchises[1].name)
-        assertEquals(1, franchises[1].timeline.size)
-        assertEquals(League.MLB, franchises[1].league)
-    }
-
-    @Test
-    fun `gets a list of franchises from multiple sources`() {
-        // Given
-        val sources = mapOf(
-            League.MLB to listOf("test_franchises.json"),
-            League.NFL to listOf("test_franchises_nfl_new.json")
+    fun `returns a list of franchises for a league`() = runTest {
+        // Arrange
+        val leagueId = 1
+        val franchises = listOf(
+            Franchise(1, "New York Yankees", false, leagueId),
+            Franchise(2, "Boston Red Sox", false, leagueId),
+            Franchise(3, "Baltimore Orioles", false, leagueId),
+            Franchise(4, "Tampa Bay Rays", false, leagueId),
+            Franchise(5, "Toronto Blue Jays", false, leagueId)
         )
 
-        // When
-        val franchises = franchiseDataService.getFranchiseData(sources)
+        coEvery { franchiseDAO.allByLeagueId(leagueId) } returns franchises
 
-        // Then
-        assertEquals(4, franchises.size)
+        // Act
+        val result = franchiseDataService.getFranchises(leagueId)
 
-        assertEquals("Atlanta Disease Controllers", franchises[0].name)
-        assertEquals(1, franchises[0].timeline.size)
-        assertEquals(Metro.ATLANTA, franchises[0].timeline[0].metroArea)
-        assertEquals(League.NFL, franchises[0].league)
-
-        assertEquals("Baltimore Wires", franchises[1].name)
-        assertEquals(1, franchises[1].timeline.size)
-        assertEquals(Metro.BALTIMORE, franchises[1].timeline[0].metroArea)
-        assertEquals(League.NFL, franchises[1].league)
-
-        assertEquals("Bellevue Nimbys", franchises[2].name)
-        assertEquals(2, franchises[2].timeline.size)
-        assertEquals(Metro.SEATTLE, franchises[2].timeline[0].metroArea)
-        assertEquals(Metro.SEATTLE, franchises[2].timeline[1].metroArea)
-        assertEquals(League.MLB, franchises[2].league)
-
-        assertEquals("Enumclaw Rednecks", franchises[3].name)
-        assertEquals(1, franchises[3].timeline.size)
-        assertEquals(Metro.SEATTLE, franchises[3].timeline[0].metroArea)
-        assertEquals(League.MLB, franchises[3].league)
-    }
-
-    @Test
-    fun `gets a list of franchises from multiple sources and merges franchises`() {
-        // Given
-        val sources = mapOf(
-            League.MLB to listOf("test_franchises.json"),
-            League.NFL to listOf("test_franchises_nfl_old.json", "test_franchises_nfl_new.json")
-        )
-
-        // When
-        val franchises = franchiseDataService.getFranchiseData(sources)
-
-        // Then
-        assertEquals(5, franchises.size)
-
-        assertEquals(2, franchises[0].timeline.size)
-        assertEquals("Atlanta Disease Controllers", franchises[0].name)
-        assertEquals(1960, franchises[0].firstSeason)
-        assertEquals(1960, franchises[0].timeline[0].startSeason)
-        assertEquals(1979, franchises[0].timeline[0].endSeason)
-        assertEquals(1980, franchises[0].timeline[1].startSeason)
-        assertEquals(2022, franchises[0].timeline[1].endSeason)
-        assertEquals(League.NFL, franchises[0].league)
-
-        assertEquals(1, franchises[1].timeline.size)
-        assertEquals("Baltimore Wires", franchises[1].name)
-        assertEquals(Metro.BALTIMORE, franchises[1].timeline[0].metroArea)
-        assertEquals(League.NFL, franchises[1].league)
-
-        assertEquals(2, franchises[2].timeline.size)
-        assertEquals("Bellevue Nimbys", franchises[2].name)
-        assertEquals(Metro.SEATTLE, franchises[2].timeline[0].metroArea)
-        assertEquals(Metro.SEATTLE, franchises[2].timeline[1].metroArea)
-        assertEquals(League.MLB, franchises[2].league)
-
-        assertEquals(1, franchises[3].timeline.size)
-        assertEquals("Buffalo Chips", franchises[3].name)
-        assertEquals(Metro.BUFFALO, franchises[3].timeline[0].metroArea)
-        assertEquals(League.NFL, franchises[3].league)
-
-        assertEquals(1, franchises[4].timeline.size)
-        assertEquals("Enumclaw Rednecks", franchises[4].name)
-        assertEquals(Metro.SEATTLE, franchises[4].timeline[0].metroArea)
-        assertEquals(League.MLB, franchises[4].league)
-    }
-
-    @Test
-    fun `timelines are ordered correctly when merging franchises`() {
-        // Given
-        val sources = mapOf(
-            League.NFL to listOf("test_franchises_nfl_new.json", "test_franchises_nfl_old.json")
-        )
-
-        // When
-        val franchises = franchiseDataService.getFranchiseData(sources)
-
-        // Then
-        assertEquals(3, franchises.size)
-        assertEquals(2, franchises[0].timeline.size)
-        assertEquals(1960, franchises[0].timeline[0].startSeason)
-        assertEquals(1980, franchises[0].timeline[1].startSeason)
-    }
-
-    @Test
-    fun `only returns info within specified dates`() {
-        // Given
-        val sources = mapOf(
-            League.MLB to listOf("test_franchises.json")
-        )
-
-        // When
-        val franchises = franchiseDataService.getFranchiseData(sources, 1950, 1959)
-        val franchises2 = franchiseDataService.getFranchiseData(sources, 1970, 1999)
-
-        // Then
-        assertEquals(1, franchises.size)
-        assertEquals(0, franchises[0].totalChampionships)
-        assertEquals(2, franchises2.size)
-        assertEquals(1, franchises2[1].totalChampionships)
-        assertEquals(2, franchises2[1].championshipAppearances)
-        assertEquals(0, franchises2[0].totalChampionships)
-        assertEquals(0, franchises2[0].championshipAppearances)
+        // Assert
+        assertEquals(5, result.size)
+        result.forEachIndexed { index, franchise ->
+            assertEquals(franchises[index].id, franchise.id)
+            assertEquals(franchises[index].name, franchise.name)
+            assertEquals(franchises[index].isDefunct, franchise.isDefunct)
+            assertEquals(franchises[index].leagueId, franchise.leagueId)
+        }
     }
 }

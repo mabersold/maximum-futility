@@ -21,6 +21,11 @@ class FranchiseDAOImpl : FranchiseDAO {
         Franchises.selectAll().map(::resultRowToFranchise)
     }
 
+    override suspend fun allByLeagueId(leagueId: Int): List<Franchise> = dbQuery {
+        Franchises.selectAll().where { Franchises.leagueId eq leagueId }
+            .map(::resultRowToFranchise)
+    }
+
     override suspend fun get(id: Int): Franchise? = dbQuery {
         (Franchises innerJoin Leagues).select { Franchises.id eq id }
             .map(::resultRowToFranchise)

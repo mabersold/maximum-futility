@@ -8,6 +8,8 @@ import io.ktor.server.netty.Netty
 import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.server.plugins.cors.routing.CORS
 import mabersold.dao.DatabaseFactory
+import mabersold.dao.FranchiseDAO
+import mabersold.dao.FranchiseDAOImpl
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.FranchiseSeasonDAOImpl
 import mabersold.dao.LeagueDAO
@@ -16,6 +18,7 @@ import mabersold.dao.SeasonDAO
 import mabersold.dao.SeasonDAOImpl
 import mabersold.plugins.configureRouting
 import mabersold.plugins.configureTemplating
+import mabersold.services.FranchiseDataService
 import mabersold.services.LeagueDataService
 import mabersold.services.MetroDataService
 import mabersold.services.SeasonDataService
@@ -53,7 +56,9 @@ val appModule = module {
     singleOf(::FranchiseSeasonDAOImpl) { bind<FranchiseSeasonDAO>() }
     singleOf(::SeasonDAOImpl) { bind<SeasonDAO>() }
     singleOf(::LeagueDAOImpl) { bind<LeagueDAO>() }
+    singleOf(::FranchiseDAOImpl) { bind<FranchiseDAO>() }
     singleOf(::SeasonDataService)
     singleOf(::MetroDataService)
     singleOf(::LeagueDataService)
+    singleOf(::FranchiseDataService)
 }

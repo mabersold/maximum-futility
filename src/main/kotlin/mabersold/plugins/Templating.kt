@@ -9,10 +9,7 @@ import io.ktor.server.routing.routing
 import io.ktor.server.thymeleaf.Thymeleaf
 import io.ktor.server.thymeleaf.ThymeleafContent
 import mabersold.dao.FranchiseSeasonDAOImpl
-import mabersold.models.League
 import mabersold.models.api.MetricType
-import mabersold.services.FranchiseDataService
-import mabersold.services.FranchiseToCityMapper
 import mabersold.services.MetroDataService
 import mabersold.services.SeasonDataService
 import org.koin.ktor.ext.inject
@@ -31,31 +28,6 @@ fun Application.configureTemplating() {
     val metroDataService by inject<MetroDataService>()
 
     routing {
-        get("/") {
-            val leagueMap = mapOf(
-                League.MLB to listOf("data/baseball/franchises.json"),
-                League.NFL to listOf("data/football/pre-super-bowl-nfl.json", "data/football/super-bowl-era-nfl.json"),
-                League.NBA to listOf("data/basketball/nba.json"),
-                League.NHL to listOf("data/hockey/nhl.json")
-            )
-
-            val startYear = call.request.queryParameters["startYear"]?.toInt() ?: League.MLB.firstSeason
-            val endYear = call.request.queryParameters["endYear"]?.toInt() ?: League.MLB.mostRecentFinishedSeason
-
-            val franchises = FranchiseDataService().getFranchiseData(leagueMap, startYear, endYear)
-            val cities = FranchiseToCityMapper().mapToCities(franchises).sortedBy { it.metroArea.displayName }
-
-            call.respond(ThymeleafContent("index", mapOf("cities" to cities)))
-        }
-        get("/franchises") {
-            call.respond(
-                ThymeleafContent(
-                    "franchises",
-                    mapOf("franchises" to FranchiseDataService().getFranchiseData().map { it.withLeague(League.MLB) }
-                        .sortedBy { it.name })
-                )
-            )
-        }
         get("/metros") {
             val metricType =
                 call.request.queryParameters["metricType"]?.let { metricType -> MetricType.valueOf(metricType) }

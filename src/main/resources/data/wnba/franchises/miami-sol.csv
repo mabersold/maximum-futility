@@ -1,0 +1,4 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+2000,Miami,Miami Sol,WNBA,East,,,,,,,,
+2001,Miami,Miami Sol,WNBA,East,,,,,true,0,,
+2002,Miami,Miami Sol,WNBA,East,,,,,,,,

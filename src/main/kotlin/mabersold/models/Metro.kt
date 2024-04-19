@@ -121,6 +121,8 @@ enum class Metro(val displayName: String) {
     TORONTO("Toronto"),
     @SerialName("Tri-Cities")
     TRI_CITIES("Tri-Cities"),
+    @SerialName("Tulsa")
+    TULSA("Tulsa"),
     @SerialName("Vancouver")
     VANCOUVER("Vancouver"),
     @SerialName("Washington")

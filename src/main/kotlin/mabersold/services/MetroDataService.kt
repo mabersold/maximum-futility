@@ -30,7 +30,10 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
         when(metricType) {
             MetricType.TOTAL_CHAMPIONSHIPS,
             MetricType.CHAMPIONSHIP_APPEARANCES,
+            MetricType.CHAMPIONSHIPS_WINNING_RATE,
+            MetricType.CHAMPIONSHIP_APPEARANCES_PER_POSTSEASON,
             MetricType.QUALIFIED_FOR_PLAYOFFS -> this.filter { season -> season.postSeasonRounds != null }
+            MetricType.ADVANCED_IN_PLAYOFFS_PER_POSTSEASON,
             MetricType.ADVANCED_IN_PLAYOFFS -> this.filter { season -> season.postSeasonRounds?.let { it > 1 } ?: false }
             MetricType.BEST_OVERALL, MetricType.WORST_OVERALL -> this
             MetricType.BEST_CONFERENCE, MetricType.WORST_CONFERENCE -> this.filter { it.totalConferences > 0 }
@@ -49,6 +52,9 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
             MetricType.WORST_CONFERENCE,
             MetricType.BEST_DIVISION,
             MetricType.WORST_DIVISION -> this.standingResults(metricType)
+            MetricType.CHAMPIONSHIPS_WINNING_RATE -> this.championshipWinningRateResults()
+            MetricType.CHAMPIONSHIP_APPEARANCES_PER_POSTSEASON -> this.championshipAppearancesPerPostseasonResults()
+            MetricType.ADVANCED_IN_PLAYOFFS_PER_POSTSEASON -> this.advancedInPlayoffsPerPostseasonResults()
         }
 
     private fun Map<Metro, List<FranchiseSeasonInfo>>.totalChampionshipsResults() =
@@ -125,5 +131,48 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
             MetricType.BEST_DIVISION -> listOf(Standing.FIRST, Standing.FIRST_TIED).contains(this.divisionPosition)
             MetricType.WORST_DIVISION -> listOf(Standing.LAST, Standing.LAST_TIED).contains(this.divisionPosition)
             else -> throw IllegalArgumentException("Invalid metric type for standing: $metricType")
+        }
+
+    private fun Map<Metro, List<FranchiseSeasonInfo>>.championshipWinningRateResults() =
+        this.mapNotNull { (metro, seasons) ->
+            if (seasons.all { it.appearedInChampionship != true }) return@mapNotNull null
+
+            val qualifyingSeasons = seasons.filter { it.appearedInChampionship == true }
+
+            val totalDiscount = qualifyingSeasons.groupBy( { it.seasonId }, { it.appearedInChampionship } )
+                .mapValues { it.value.count { appeared -> appeared == true } }
+                .filter { it.value > 1 }
+                .keys
+                .count()
+
+            MetroData(
+                metro.displayName,
+                MetricType.CHAMPIONSHIPS_WINNING_RATE,
+                qualifyingSeasons.count { it.wonChampionship == true },
+                qualifyingSeasons.count() - totalDiscount,
+                seasons.maxOf { it.endYear }
+            )
+        }
+
+    private fun Map<Metro, List<FranchiseSeasonInfo>>.championshipAppearancesPerPostseasonResults() =
+        this.map { (metro, seasons) ->
+            MetroData(
+                metro.displayName,
+                MetricType.CHAMPIONSHIP_APPEARANCES_PER_POSTSEASON,
+                seasons.count { it.appearedInChampionship == true },
+                seasons.count { it.postSeasonRounds != null && it.qualifiedForPostseason == true },
+                seasons.maxOf { it.endYear }
+            )
+        }
+
+    private fun Map<Metro, List<FranchiseSeasonInfo>>.advancedInPlayoffsPerPostseasonResults() =
+        this.map { (metro, seasons) ->
+            MetroData(
+                metro.displayName,
+                MetricType.ADVANCED_IN_PLAYOFFS_PER_POSTSEASON,
+                seasons.count { (it.roundsWon ?: 0) > 0 },
+                seasons.count { it.postSeasonRounds != null && it.qualifiedForPostseason == true },
+                seasons.maxOf { it.endYear }
+            )
         }
 }

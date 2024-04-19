@@ -1,0 +1,25 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+2000,Seattle,Seattle Storm,WNBA,West,,LAST,LAST,,,,,
+2001,Seattle,Seattle Storm,WNBA,West,,LAST_TIED,LAST_TIED,,,,,
+2002,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2003,Seattle,Seattle Storm,WNBA,West,,,,,,,,
+2004,Seattle,Seattle Storm,WNBA,West,,,,,true,3,true,true
+2005,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2006,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2007,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2008,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2009,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2010,Seattle,Seattle Storm,WNBA,West,,FIRST,FIRST,,true,3,true,true
+2011,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2012,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2013,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2014,Seattle,Seattle Storm,WNBA,West,,LAST_TIED,LAST_TIED,,,,,
+2015,Seattle,Seattle Storm,WNBA,West,,,,,,,,
+2016,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2017,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2018,Seattle,Seattle Storm,WNBA,West,,FIRST,FIRST,,true,2,true,true
+2019,Seattle,Seattle Storm,WNBA,West,,,,,true,1,,
+2020,Seattle,Seattle Storm,WNBA,West,,FIRST_TIED,FIRST_TIED,,true,2,true,true
+2021,Seattle,Seattle Storm,WNBA,West,,,,,true,0,,
+2022,Seattle,Seattle Storm,WNBA,West,,,,,true,1,,
+2023,Seattle,Seattle Storm,WNBA,West,,,,,,,,

@@ -1,0 +1,11 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1997,Charlotte,Charlotte Sting,WNBA,East,,,LAST_TIED,,true,0,false,false
+1998,Charlotte,Charlotte Sting,WNBA,East,,,,,true,0,false,false
+1999,Charlotte,Charlotte Sting,WNBA,East,,,,,true,1,false,false
+2000,Charlotte,Charlotte Sting,WNBA,East,,,LAST,,false,,,
+2001,Charlotte,Charlotte Sting,WNBA,East,,,,,true,2,true,false
+2002,Charlotte,Charlotte Sting,WNBA,East,,,FIRST_TIED,,true,0,false,false
+2003,Charlotte,Charlotte Sting,WNBA,East,,,,,true,0,false,false
+2004,Charlotte,Charlotte Sting,WNBA,East,,,,,false,,,
+2005,Charlotte,Charlotte Sting,WNBA,East,,LAST,LAST,,false,,,
+2006,Charlotte,Charlotte Sting,WNBA,East,,,,,false,,,

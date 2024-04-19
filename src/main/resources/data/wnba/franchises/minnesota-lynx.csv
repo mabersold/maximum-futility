@@ -1,0 +1,26 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1999,Minneapolis,Minnesota Lynx,WNBA,West,,,LAST_TIED,,,,,
+2000,Minneapolis,Minnesota Lynx,WNBA,West,,,,,,,,
+2001,Minneapolis,Minnesota Lynx,WNBA,West,,,,,,,,
+2002,Minneapolis,Minnesota Lynx,WNBA,West,,,LAST,,,,,
+2003,Minneapolis,Minnesota Lynx,WNBA,West,,,,,true,0,,
+2004,Minneapolis,Minnesota Lynx,WNBA,West,,,,,true,0,,
+2005,Minneapolis,Minnesota Lynx,WNBA,West,,,,,,,,
+2006,Minneapolis,Minnesota Lynx,WNBA,West,,,LAST,,,,,
+2007,Minneapolis,Minnesota Lynx,WNBA,West,,LAST_TIED,LAST_TIED,,,,,
+2008,Minneapolis,Minnesota Lynx,WNBA,West,,,LAST_TIED,,,,,
+2009,Minneapolis,Minnesota Lynx,WNBA,West,,,,,,,,
+2010,Minneapolis,Minnesota Lynx,WNBA,West,,,,,,,,
+2011,Minneapolis,Minnesota Lynx,WNBA,West,,FIRST,FIRST,,true,3,true,true
+2012,Minneapolis,Minnesota Lynx,WNBA,West,,FIRST,FIRST,,true,2,true,
+2013,Minneapolis,Minnesota Lynx,WNBA,West,,FIRST,FIRST,,true,3,true,true
+2014,Minneapolis,Minnesota Lynx,WNBA,West,,,,,true,1,,
+2015,Minneapolis,Minnesota Lynx,WNBA,West,,,FIRST,,true,3,true,true
+2016,Minneapolis,Minnesota Lynx,WNBA,West,,FIRST,FIRST,,true,1,true,
+2017,Minneapolis,Minnesota Lynx,WNBA,West,,FIRST,FIRST,,true,2,true,true
+2018,Minneapolis,Minnesota Lynx,WNBA,West,,,,,true,0,,
+2019,Minneapolis,Minnesota Lynx,WNBA,West,,,,,true,0,,
+2020,Minneapolis,Minnesota Lynx,WNBA,West,,,,,true,1,,
+2021,Minneapolis,Minnesota Lynx,WNBA,West,,,,,true,0,,
+2022,Minneapolis,Minnesota Lynx,WNBA,West,,,,,,,,
+2023,Minneapolis,Minnesota Lynx,WNBA,West,,,,,true,0,,

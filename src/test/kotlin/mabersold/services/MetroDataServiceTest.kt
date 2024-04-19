@@ -472,6 +472,136 @@ class MetroDataServiceTest {
         assertEquals(0, data.first { it.name == Metro.PITTSBURGH.displayName }.total)
     }
 
+    @Test
+    fun `gets correct data for championship winning percentage`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 2, true, true, 2, 6, 1, 1, 1990, 1990),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 2, true, true, 2, 6, 1, 2, 1991, 1991),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 1, true, false, 2, 6, 1, 3, 1992, 1992),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 4, 1993, 1993),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 5, 1994, 1994),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, null, null, false, false, 2, 6, 1, 6, 1995, 1995),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 7, 1996, 1996),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 8, 1997, 1997),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 0, false, false, 2, 6, 1, 9, 1998, 1998),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Yankees", "AL", "AL East", null, null, null, true, 2, 2, true, true, 2, 6, 1, 10, 1999, 1999),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, true, false, 2, 6, 1, 1, 1990, 1990),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 2, 1991, 1991),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 3, 1992, 1992),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 4, 1993, 1993),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 5, 1994, 1994),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, null, null, false, false, 2, 6, 1, 6, 1995, 1995),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 7, 1996, 1996),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 8, 1997, 1997),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, true, false, 2, 6, 1, 9, 1998, 1998),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Mets", "NL", "NL East", null, null, null, true, 2, 2, false, false, 2, 6, 1, 10, 1999, 1999),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 11, 1990, 1990),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 12, 1991, 1991),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 2, true, false, 2, 6, 2, 13, 1992, 1992),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 2, true, true, 2, 6, 2, 14, 1993, 1993),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 15, 1994, 1994),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 16, 1995, 1995),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 17, 1996, 1996),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 18, 1997, 1997),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 19, 1998, 1998),
+            FranchiseSeasonInfo(Metro.NEW_YORK, "New York Giants", "NFC", "NFC East", null, null, null, true, 2, 0, false, false, 2, 6, 2, 20, 1999, 1999),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 1, 1990, 1990),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 2, 1991, 1991),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 3, 1992, 1992),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 4, 1993, 1993),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 5, 1994, 1994),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, null, null, false, false, 2, 6, 1, 6, 1995, 1995),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 7, 1996, 1996),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 8, 1997, 1997),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 2, true, false, 2, 6, 1, 9, 1998, 1998),
+            FranchiseSeasonInfo(Metro.MINNEAPOLIS, "Minnesota Twins", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 10, 1999, 1999),
+            FranchiseSeasonInfo(Metro.COLUMBUS, "Columbus Clubbers", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 10, 1999, 1999),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, 2, 2, false, false, 2, 6, 1, 1, 1990, 1990),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, 2, 2, true, false, 2, 6, 1, 2, 1991, 1991),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, 2, 1, true, false, 2, 6, 1, 3, 1992, 1992),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 4, 1993, 1993),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 5, 1994, 1994),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, null, null, false, false, 2, 6, 1, 6, 1995, 1995),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 7, 1996, 1996),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 8, 1997, 1997),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, 2, 0, false, false, 2, 6, 1, 9, 1998, 1998),
+            FranchiseSeasonInfo(Metro.CLEVELAND, "Cleveland Guardians", "AL", "AL Central", null, null, null, true, 2, 2, true, false, 2, 6, 1, 10, 1999, 1999),
+        )
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.CHAMPIONSHIPS_WINNING_RATE)
+
+        // Assert
+        assertEquals(3, data.size)
+        assertTrue(data.all { it.metricType == MetricType.CHAMPIONSHIPS_WINNING_RATE })
+        assertEquals(7, data.first { it.name == Metro.NEW_YORK.displayName }.opportunities)
+        assertEquals(1, data.first { it.name == Metro.MINNEAPOLIS.displayName }.opportunities)
+        assertEquals(3, data.first { it.name == Metro.CLEVELAND.displayName }.opportunities)
+        assertEquals(4, data.first { it.name == Metro.NEW_YORK.displayName }.total)
+        assertEquals(0, data.first { it.name == Metro.MINNEAPOLIS.displayName }.total)
+        assertEquals(0, data.first { it.name == Metro.CLEVELAND.displayName }.total)
+    }
+
+    @Test
+    fun `gets correct data for championship appearances per postseason`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees"),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", qualifiedForPostseason = true, postSeasonRounds = 0, seasonStart = 1905),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", qualifiedForPostseason = true, postSeasonRounds = 1, appearedInChampionship = true, seasonStart = 1910),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", qualifiedForPostseason = true, postSeasonRounds = 3, seasonStart = 1915),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", qualifiedForPostseason = true, postSeasonRounds = 3, appearedInChampionship = true, seasonStart = 1918),
+            FranchiseSeasonInfoParams(2, Metro.NEW_YORK, "New York Knicks", postSeasonRounds = 3),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", qualifiedForPostseason = true, postSeasonRounds = 3, appearedInChampionship = true, seasonStart = 1902),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Phillies", qualifiedForPostseason = true, postSeasonRounds = 3),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", qualifiedForPostseason = true, postSeasonRounds = 3, appearedInChampionship = true, seasonStart = 1903),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.CHAMPIONSHIP_APPEARANCES_PER_POSTSEASON)
+
+        // Assert
+        assertEquals(2, data.size)
+        assertTrue(data.all { it.metricType == MetricType.CHAMPIONSHIP_APPEARANCES_PER_POSTSEASON })
+        assertEquals(19, data.first { it.name == Metro.NEW_YORK.displayName }.opportunities)
+        assertEquals(6, data.first { it.name == Metro.PHILADELPHIA.displayName }.opportunities)
+        assertEquals(11, data.first { it.name == Metro.NEW_YORK.displayName }.total)
+        assertEquals(3, data.first { it.name == Metro.PHILADELPHIA.displayName }.total)
+    }
+
+    @Test
+    fun `gets correct data for advancing in playoffs per postseason`() = runTest {
+        // Arrange
+        val franchiseSeasons = listOf(
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees"),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", postSeasonRounds = 0, seasonStart = 1905),
+            FranchiseSeasonInfoParams(5, Metro.NEW_YORK, "New York Yankees", qualifiedForPostseason = true, postSeasonRounds = 1, postSeasonRoundsWon = 1, seasonStart = 1910),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", qualifiedForPostseason = true, postSeasonRounds = 3, seasonStart = 1915),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Yankees", qualifiedForPostseason = true, postSeasonRounds = 3, postSeasonRoundsWon = 1, seasonStart = 1918),
+            FranchiseSeasonInfoParams(2, Metro.NEW_YORK, "New York Knicks", qualifiedForPostseason = true, postSeasonRounds = 3, postSeasonRoundsWon = 1),
+            FranchiseSeasonInfoParams(3, Metro.NEW_YORK, "New York Knicks", qualifiedForPostseason = true, postSeasonRounds = 3, postSeasonRoundsWon = 0, seasonStart = 1902),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Phillies", qualifiedForPostseason = true, postSeasonRounds = 3, postSeasonRoundsWon = 1),
+            FranchiseSeasonInfoParams(3, Metro.PHILADELPHIA, "Philadelphia Flyers", qualifiedForPostseason = true, postSeasonRounds = 3, postSeasonRoundsWon = 0, seasonStart = 1903),
+        ).flatMap { generateFranchiseSeasonInfoList(it) }
+
+        coEvery { franchiseSeasonDAO.all() } returns franchiseSeasons
+
+        // Act
+        val data = metroDataService.getMetroDataByMetric(MetricType.ADVANCED_IN_PLAYOFFS_PER_POSTSEASON)
+
+        // Assert
+        assertEquals(2, data.size)
+        assertTrue(data.all { it.metricType == MetricType.ADVANCED_IN_PLAYOFFS_PER_POSTSEASON })
+        assertEquals(11, data.first { it.name == Metro.NEW_YORK.displayName }.opportunities)
+        assertEquals(6, data.first { it.name == Metro.PHILADELPHIA.displayName }.opportunities)
+        assertEquals(5, data.first { it.name == Metro.NEW_YORK.displayName }.total)
+        assertEquals(3, data.first { it.name == Metro.PHILADELPHIA.displayName }.total)
+    }
 
     data class FranchiseSeasonInfoParams(
         val instances: Int,

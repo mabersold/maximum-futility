@@ -1,0 +1,19 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+2006,Chicago,Chicago Sky,WNBA,East,,LAST,LAST,,,,,
+2007,Chicago,Chicago Sky,WNBA,East,,,LAST,,,,,
+2008,Chicago,Chicago Sky,WNBA,East,,,,,,,,
+2009,Chicago,Chicago Sky,WNBA,East,,,,,,,,
+2010,Chicago,Chicago Sky,WNBA,East,,,LAST,,,,,
+2011,Chicago,Chicago Sky,WNBA,East,,,,,,,,
+2012,Chicago,Chicago Sky,WNBA,East,,,,,,,,
+2013,Chicago,Chicago Sky,WNBA,East,,,FIRST,,true,0,,
+2014,Chicago,Chicago Sky,WNBA,East,,,,,true,2,true,false
+2015,Chicago,Chicago Sky,WNBA,East,,,,,true,0,,
+2016,Chicago,Chicago Sky,WNBA,East,,,,,true,1,,
+2017,Chicago,Chicago Sky,WNBA,East,,,,,,,,
+2018,Chicago,Chicago Sky,WNBA,East,,,,,,,,
+2019,Chicago,Chicago Sky,WNBA,East,,,,,true,1,,
+2020,Chicago,Chicago Sky,WNBA,East,,,FIRST,,true,0,,
+2021,Chicago,Chicago Sky,WNBA,East,,,,,true,4,true,true
+2022,Chicago,Chicago Sky,WNBA,East,,FIRST_TIED,FIRST,,true,1,,
+2023,Chicago,Chicago Sky,WNBA,East,,,,,true,0,,

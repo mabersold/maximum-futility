@@ -23,5 +23,8 @@ enum class MetricType(val displayName: String) {
     BEST_CONFERENCE("Best in Conference"),
     WORST_CONFERENCE("Worst in Conference"),
     BEST_DIVISION("Best in Division"),
-    WORST_DIVISION("Worst in Division")
+    WORST_DIVISION("Worst in Division"),
+    CHAMPIONSHIPS_WINNING_RATE("Winning Rate in Championships"),
+    CHAMPIONSHIP_APPEARANCES_PER_POSTSEASON("Championship Appearances per Postseason"),
+    ADVANCED_IN_PLAYOFFS_PER_POSTSEASON("Advanced in Playoffs per Postseason"),
 }

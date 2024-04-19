@@ -1,0 +1,27 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1998,Detroit,Detroit Shock,WNBA,East,,,,,,,,
+1999,Detroit,Detroit Shock,WNBA,East,,,,,true,0,,
+2000,Detroit,Detroit Shock,WNBA,East,,,,,,,,
+2001,Detroit,Detroit Shock,WNBA,East,,LAST_TIED,LAST_TIED,,,,,
+2002,Detroit,Detroit Shock,WNBA,East,,LAST,LAST,,,,,
+2003,Detroit,Detroit Shock,WNBA,East,,FIRST,FIRST,,true,3,true,true
+2004,Detroit,Detroit Shock,WNBA,East,,,,,true,0,,
+2005,Detroit,Detroit Shock,WNBA,East,,,,,true,0,,
+2006,Detroit,Detroit Shock,WNBA,East,,,,,true,3,true,true
+2007,Detroit,Detroit Shock,WNBA,East,,FIRST,FIRST,,true,3,true,
+2008,Detroit,Detroit Shock,WNBA,East,,,FIRST,,true,3,true,true
+2009,Detroit,Detroit Shock,WNBA,East,,,,,true,1,,
+2010,Tulsa,Tulsa Shock,WNBA,West,,LAST,LAST,,,,,
+2011,Tulsa,Tulsa Shock,WNBA,West,,LAST,LAST,,,,,
+2012,Tulsa,Tulsa Shock,WNBA,West,,,,,,,,
+2013,Tulsa,Tulsa Shock,WNBA,West,,,LAST,,,,,
+2014,Tulsa,Tulsa Shock,WNBA,West,,LAST_TIED,LAST_TIED,,,,,
+2015,Tulsa,Tulsa Shock,WNBA,West,,,,,true,0,,
+2016,Dallas,Dallas Wings,WNBA,West,,,,,,,,
+2017,Dallas,Dallas Wings,WNBA,West,,,,,true,0,,
+2018,Dallas,Dallas Wings,WNBA,West,,,,,true,0,,
+2019,Dallas,Dallas Wings,WNBA,West,,,LAST,,,,,
+2020,Dallas,Dallas Wings,WNBA,West,,,LAST,,,,,
+2021,Dallas,Dallas Wings,WNBA,West,,,,,true,0,,
+2022,Dallas,Dallas Wings,WNBA,West,,,,,true,0,,
+2023,Dallas,Dallas Wings,WNBA,West,,,,,true,1,,

@@ -69,6 +69,7 @@ object DatabaseFactory {
             populate("data/basketball/nba-franchises.csv", leagues, ::insertFranchise)
             populate("data/hockey/nhl-franchises.csv", leagues, ::insertFranchise)
             populate("data/football/nfl-franchises.csv", leagues, ::insertFranchise)
+            populate("data/wnba/wnba-franchises.csv", leagues, ::insertFranchise)
 
             val franchiseIds: Map<String, Int> = Franchises.selectAll().associate { row ->
                 row[Franchises.name] to row[Franchises.id].value
@@ -79,6 +80,7 @@ object DatabaseFactory {
             populate("data/basketball/nba-seasons.csv", leagues, ::insertSeason)
             populate("data/hockey/nhl-seasons.csv", leagues, ::insertSeason)
             populate("data/football/nfl-seasons.csv", leagues, ::insertSeason)
+            populate("data/wnba/wnba-seasons.csv", leagues, ::insertSeason)
 
             val seasonIds: Map<Pair<Int, Int>, Int> = Seasons.selectAll().associate { row ->
                 Pair(row[Seasons.leagueId].value, row[Seasons.startYear]) to row[Seasons.id].value
@@ -232,6 +234,24 @@ object DatabaseFactory {
                 "data/hockey/seasons/vegas-golden-knights.csv" to "Vegas Golden Knights",
                 "data/hockey/seasons/washington-capitals.csv" to "Washington Capitals",
                 "data/hockey/seasons/winnipeg-jets.csv" to "Winnipeg Jets",
+                "data/wnba/franchises/atlanta-dream.csv" to "Atlanta Dream",
+                "data/wnba/franchises/charlotte-sting.csv" to "Charlotte Sting",
+                "data/wnba/franchises/chicago-sky.csv" to "Chicago Sky",
+                "data/wnba/franchises/cleveland-rockers.csv" to "Cleveland Rockers",
+                "data/wnba/franchises/connecticut-sun.csv" to "Connecticut Sun",
+                "data/wnba/franchises/dallas-wings.csv" to "Dallas Wings",
+                "data/wnba/franchises/houston-comets.csv" to "Houston Comets",
+                "data/wnba/franchises/indiana-fever.csv" to "Indiana Fever",
+                "data/wnba/franchises/las-vegas-aces.csv" to "Las Vegas Aces",
+                "data/wnba/franchises/los-angeles-sparks.csv" to "Los Angeles Sparks",
+                "data/wnba/franchises/miami-sol.csv" to "Miami Sol",
+                "data/wnba/franchises/minnesota-lynx.csv" to "Minnesota Lynx",
+                "data/wnba/franchises/new-york-liberty.csv" to "New York Liberty",
+                "data/wnba/franchises/phoenix-mercury.csv" to "Phoenix Mercury",
+                "data/wnba/franchises/portland-fire.csv" to "Portland Fire",
+                "data/wnba/franchises/sacramento-monarchs.csv" to "Sacramento Monarchs",
+                "data/wnba/franchises/seattle-storm.csv" to "Seattle Storm",
+                "data/wnba/franchises/washington-mystics.csv" to "Washington Mystics"
             )
 
             franchiseSeasonData.forEach { (filename, franchiseName) ->

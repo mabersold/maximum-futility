@@ -9,6 +9,8 @@ enum class Metro(val displayName: String) {
     ANDERSON("Anderson"),
     @SerialName("Atlanta")
     ATLANTA("Atlanta"),
+    @SerialName("Austin")
+    AUSTIN("Austin"),
     @SerialName("Baltimore")
     BALTIMORE("Baltimore"),
     @SerialName("Boston")

@@ -1,0 +1,13 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+2012,Montreal,Montreal Impact,MLS,East,,,,,,,,
+2013,Montreal,Montreal Impact,MLS,East,,,,,true,0,,
+2014,Montreal,Montreal Impact,MLS,East,,LAST,LAST,,,,,
+2015,Montreal,Montreal Impact,MLS,East,,,,,true,1,,
+2016,Montreal,Montreal Impact,MLS,East,,,,,true,2,,
+2017,Montreal,Montreal Impact,MLS,East,,,,,,,,
+2018,Montreal,Montreal Impact,MLS,East,,,,,,,,
+2019,Montreal,Montreal Impact,MLS,East,,,,,,,,
+2020,Montreal,CF Montreal,MLS,East,,,,,true,0,,
+2021,Montreal,CF Montreal,MLS,East,,,,,,,,
+2022,Montreal,CF Montreal,MLS,East,,,,,true,1,,
+2023,Montreal,CF Montreal,MLS,East,,,,,,,,

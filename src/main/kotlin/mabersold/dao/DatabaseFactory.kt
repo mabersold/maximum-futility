@@ -70,6 +70,7 @@ object DatabaseFactory {
             populate("data/hockey/nhl-franchises.csv", leagues, ::insertFranchise)
             populate("data/football/nfl-franchises.csv", leagues, ::insertFranchise)
             populate("data/wnba/wnba-franchises.csv", leagues, ::insertFranchise)
+            populate("data/mls/mls-franchises.csv", leagues, ::insertFranchise)
 
             val franchiseIds: Map<String, Int> = Franchises.selectAll().associate { row ->
                 row[Franchises.name] to row[Franchises.id].value
@@ -81,6 +82,7 @@ object DatabaseFactory {
             populate("data/hockey/nhl-seasons.csv", leagues, ::insertSeason)
             populate("data/football/nfl-seasons.csv", leagues, ::insertSeason)
             populate("data/wnba/wnba-seasons.csv", leagues, ::insertSeason)
+            populate("data/mls/mls-seasons.csv", leagues, ::insertSeason)
 
             val seasonIds: Map<Pair<Int, Int>, Int> = Seasons.selectAll().associate { row ->
                 Pair(row[Seasons.leagueId].value, row[Seasons.startYear]) to row[Seasons.id].value
@@ -251,7 +253,39 @@ object DatabaseFactory {
                 "data/wnba/franchises/portland-fire.csv" to "Portland Fire",
                 "data/wnba/franchises/sacramento-monarchs.csv" to "Sacramento Monarchs",
                 "data/wnba/franchises/seattle-storm.csv" to "Seattle Storm",
-                "data/wnba/franchises/washington-mystics.csv" to "Washington Mystics"
+                "data/wnba/franchises/washington-mystics.csv" to "Washington Mystics",
+                "data/mls/franchises/atlanta-united.csv" to "Atlanta United",
+                "data/mls/franchises/austin-fc.csv" to "Austin FC",
+                "data/mls/franchises/cf-montreal.csv" to "CF Montreal",
+                "data/mls/franchises/charlotte-fc.csv" to "Charlotte FC",
+                "data/mls/franchises/chicago-fire.csv" to "Chicago Fire",
+                "data/mls/franchises/chivas-usa.csv" to "Chivas USA",
+                "data/mls/franchises/colorado-rapids.csv" to "Colorado Rapids",
+                "data/mls/franchises/columbus-crew.csv" to "Columbus Crew",
+                "data/mls/franchises/dc-united.csv" to "DC United",
+                "data/mls/franchises/fc-cincinnati.csv" to "FC Cincinnati",
+                "data/mls/franchises/fc-dallas.csv" to "FC Dallas",
+                "data/mls/franchises/houston-dynamo.csv" to "Houston Dynamo",
+                "data/mls/franchises/inter-miami.csv" to "Inter Miami CF",
+                "data/mls/franchises/la-galaxy.csv" to "LA Galaxy",
+                "data/mls/franchises/lafc.csv" to "Los Angeles FC",
+                "data/mls/franchises/miami-fusion.csv" to "Miami Fusion",
+                "data/mls/franchises/minnesota-united.csv" to "Minnesota United",
+                "data/mls/franchises/nashville-sc.csv" to "Nashville SC",
+                "data/mls/franchises/new-england-revolution.csv" to "New England Revolution",
+                "data/mls/franchises/nycfc.csv" to "New York City FC",
+                "data/mls/franchises/orlando-city.csv" to "Orlando City SC",
+                "data/mls/franchises/philadelphia-union.csv" to "Philadelphia Union",
+                "data/mls/franchises/portland-timbers.csv" to "Portland Timbers",
+                "data/mls/franchises/real-salt-lake.csv" to "Real Salt Lake",
+                "data/mls/franchises/red-bull-new-york.csv" to "Red Bull New York",
+                "data/mls/franchises/san-jose-earthquakes.csv" to "San Jose Earthquakes",
+                "data/mls/franchises/seattle-sounders.csv" to "Seattle Sounders",
+                "data/mls/franchises/sporting-kc.csv" to "Sporting KC",
+                "data/mls/franchises/st-louis-city.csv" to "St. Louis City SC",
+                "data/mls/franchises/tampa-bay-mutiny.csv" to "Tampa Bay Mutiny",
+                "data/mls/franchises/toronto-fc.csv" to "Toronto FC",
+                "data/mls/franchises/vancouver-whitecaps.csv" to "Vancouver Whitecaps"
             )
 
             franchiseSeasonData.forEach { (filename, franchiseName) ->

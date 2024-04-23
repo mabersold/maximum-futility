@@ -1,0 +1,19 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+2006,Houston,Houston Dynamo,MLS,West,,,,,true,3,true,true
+2007,Houston,Houston Dynamo,MLS,West,,,,,true,3,true,true
+2008,Houston,Houston Dynamo,MLS,West,,,FIRST,,true,1,,
+2009,Houston,Houston Dynamo,MLS,West,,,FIRST_TIED,,true,2,,
+2010,Houston,Houston Dynamo,MLS,West,,,,,,,,
+2011,Houston,Houston Dynamo,MLS,East,,,,,true,2,true,
+2012,Houston,Houston Dynamo,MLS,East,,,,,true,3,true,
+2013,Houston,Houston Dynamo,MLS,East,,,,,true,2,,
+2014,Houston,Houston Dynamo,MLS,East,,,,,,,,
+2015,Houston,Houston Dynamo,MLS,West,,,,,,,,
+2016,Houston,Houston Dynamo,MLS,West,,,LAST,,,,,
+2017,Houston,Houston Dynamo,MLS,West,,,,,true,2,,
+2018,Houston,Houston Dynamo,MLS,West,,,,,,,,
+2019,Houston,Houston Dynamo,MLS,West,,,,,,,,
+2020,Houston,Houston Dynamo,MLS,West,,,LAST,,,,,
+2021,Houston,Houston Dynamo,MLS,West,,,LAST,,,,,
+2022,Houston,Houston Dynamo,MLS,West,,,,,,,,
+2023,Houston,Houston Dynamo,MLS,West,,,,,,,,

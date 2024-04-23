@@ -1,0 +1,18 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+2007,Toronto,Toronto FC,MLS,East,,LAST,LAST,,,,,
+2008,Toronto,Toronto FC,MLS,East,,,LAST,,,,,
+2009,Toronto,Toronto FC,MLS,East,,,,,,,,
+2010,Toronto,Toronto FC,MLS,East,,,,,,,,
+2011,Toronto,Toronto FC,MLS,East,,,,,,,,
+2012,Toronto,Toronto FC,MLS,East,,LAST,LAST,,,,,
+2013,Toronto,Toronto FC,MLS,East,,,,,,,,
+2014,Toronto,Toronto FC,MLS,East,,,,,,,,
+2015,Toronto,Toronto FC,MLS,East,,,,,true,0,,
+2016,Toronto,Toronto FC,MLS,East,,,,,true,3,true,
+2017,Toronto,Toronto FC,MLS,East,,FIRST,FIRST,,true,3,true,true
+2018,Toronto,Toronto FC,MLS,East,,,,,,,,
+2019,Toronto,Toronto FC,MLS,East,,,,,true,3,true,
+2020,Toronto,Toronto FC,MLS,East,,,,,true,0,,
+2021,Toronto,Toronto FC,MLS,East,,,,,,,,
+2022,Toronto,Toronto FC,MLS,East,,,,,,,,
+2023,Toronto,Toronto FC,MLS,East,,LAST,LAST,,,,,

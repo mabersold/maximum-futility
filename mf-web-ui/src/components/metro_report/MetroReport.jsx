@@ -34,7 +34,7 @@ const MetroReport = () => {
 
   return (
     <Container>
-        <h1>City Report</h1>
+      <h1>City Report</h1>
       <MetroReportOptions
         loading={loading}
         options={options}

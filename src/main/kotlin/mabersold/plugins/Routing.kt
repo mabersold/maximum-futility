@@ -74,5 +74,11 @@ fun Application.configureRouting() {
 
             call.respond(franchises)
         }
+        get("/leagues/{leagueId}/seasons") {
+            val leagueId = call.parameters["leagueId"]?.toInt() ?: throw IllegalArgumentException("Invalid League ID")
+            val seasons = seasonDataService.getSeasons(leagueId).sortedBy { it.startYear }
+
+            call.respond(seasons)
+        }
     }
 }

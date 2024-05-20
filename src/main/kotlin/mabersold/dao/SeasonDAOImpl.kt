@@ -29,4 +29,8 @@ class SeasonDAOImpl : SeasonDAO {
             .map(::resultRowToSeason)
             .singleOrNull()
     }
+
+    override suspend fun allByLeagueId(leagueId: Int): List<Season> = dbQuery {
+        Seasons.selectAll().where { Seasons.leagueId eq leagueId }.map(::resultRowToSeason)
+    }
 }

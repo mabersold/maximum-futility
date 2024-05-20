@@ -3,10 +3,10 @@ package mabersold.services
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.LeagueDAO
 import mabersold.dao.SeasonDAO
-import mabersold.dao.leagueDao
 import mabersold.models.RegularSeasonResult
 import mabersold.models.SeasonSummary
 import mabersold.models.api.Group
+import mabersold.models.api.Season as ApiSeason
 import mabersold.models.api.SeasonReport
 import mabersold.models.api.Warning
 import mabersold.models.api.YearRange
@@ -118,6 +118,17 @@ class SeasonDataService(
     suspend fun getYearRange(): YearRange {
         return seasonDAO.all().let { seasons ->
             YearRange(seasons.minOf { it.startYear }, seasons.maxOf { it.endYear })
+        }
+    }
+
+    suspend fun getSeasons(leagueId: Int): List<ApiSeason> {
+        return seasonDAO.allByLeagueId(leagueId).map {
+            ApiSeason(
+                it.id,
+                it.name,
+                it.startYear,
+                it.endYear
+            )
         }
     }
 

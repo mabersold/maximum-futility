@@ -1,0 +1,58 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1967,Seattle,Seattle SuperSonics,NBA,Western,,,,,false,,,
+1968,Seattle,Seattle SuperSonics,NBA,Western,,,,,false,,,
+1969,Seattle,Seattle SuperSonics,NBA,Western,,,,,false,,,
+1970,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+1971,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+1972,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+1973,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+1974,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,1,false,false
+1975,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,0,false,false
+1976,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+1977,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,3,true,false
+1978,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,FIRST,FIRST,true,4,true,true
+1979,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,2,false,false
+1980,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,LAST,false,,,
+1981,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,1,false,false
+1982,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,0,false,false
+1983,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,0,false,false
+1984,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+1985,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+1986,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,2,false,false
+1987,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,0,false,false
+1988,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,1,false,false
+1989,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+1990,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,0,false,false
+1991,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,1,false,false
+1992,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,2,false,false
+1993,Seattle,Seattle SuperSonics,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,0,false,false
+1994,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,0,false,false
+1995,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,FIRST,FIRST,true,3,true,false
+1996,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,FIRST,true,1,false,false
+1997,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,FIRST_TIED,true,1,false,false
+1998,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+1999,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,0,false,false
+2000,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+2001,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,0,false,false
+2002,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+2003,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
+2004,Seattle,Seattle SuperSonics,NBA,Western,Northwest,,,FIRST,true,1,false,false
+2005,Seattle,Seattle SuperSonics,NBA,Western,Northwest,,,,false,,,
+2006,Seattle,Seattle SuperSonics,NBA,Western,Northwest,,,LAST,false,,,
+2007,Seattle,Seattle SuperSonics,NBA,Western,Northwest,,LAST,LAST,false,,,
+2008,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,LAST,false,,,
+2009,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,,true,0,false,false
+2010,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,FIRST,true,2,false,false
+2011,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,FIRST,true,3,true,false
+2012,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,FIRST,FIRST,true,1,false,false
+2013,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,FIRST,true,2,false,false
+2014,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,,false,,,
+2015,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,FIRST,true,2,false,false
+2016,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,,true,0,false,false
+2017,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,,true,0,false,false
+2018,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,,true,0,false,false
+2019,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,,true,0,false,false
+2020,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,LAST,false,,,
+2021,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,LAST,false,,,
+2022,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,,,false,,,
+2023,Oklahoma City,Oklahoma City Thunder,NBA,Western,Northwest,,FIRST_TIED,FIRST_TIED,true,1,false,false

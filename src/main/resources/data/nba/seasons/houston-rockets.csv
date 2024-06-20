@@ -1,0 +1,58 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1967,San Diego,San Diego Rockets,NBA,Western,,LAST,LAST,,false,,,
+1968,San Diego,San Diego Rockets,NBA,Western,,,,,true,0,false,false
+1969,San Diego,San Diego Rockets,NBA,Western,,LAST,LAST,,false,,,
+1970,San Diego,San Diego Rockets,NBA,Western,Pacific,,,,false,,,
+1971,Houston,Houston Rockets,NBA,Western,Pacific,,,,false,,,
+1972,Houston,Houston Rockets,NBA,Western,Central,,,,false,,,
+1973,Houston,Houston Rockets,NBA,Western,Central,,,,false,,,
+1974,Houston,Houston Rockets,NBA,Western,Central,,,,true,1,false,false
+1975,Houston,Houston Rockets,NBA,Western,Central,,,,false,,,
+1976,Houston,Houston Rockets,NBA,Western,Central,,,FIRST,true,1,false,false
+1977,Houston,Houston Rockets,NBA,Western,Central,,,LAST,false,,,
+1978,Houston,Houston Rockets,NBA,Western,Central,,,,true,0,false,false
+1979,Houston,Houston Rockets,NBA,Western,Central,,,,true,1,false,false
+1980,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,3,true,false
+1981,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
+1982,Houston,Houston Rockets,NBA,Western,Midwest,LAST,LAST,LAST,false,,,
+1983,Houston,Houston Rockets,NBA,Western,Midwest,,LAST,LAST,false,,,
+1984,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
+1985,Houston,Houston Rockets,NBA,Western,Midwest,,,FIRST,true,3,true,false
+1986,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,1,false,false
+1987,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
+1988,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
+1989,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
+1990,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
+1991,Houston,Houston Rockets,NBA,Western,Midwest,,,,false,,,
+1992,Houston,Houston Rockets,NBA,Western,Midwest,,,FIRST,true,1,false,false
+1993,Houston,Houston Rockets,NBA,Western,Midwest,,,FIRST,true,4,true,true
+1994,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,4,true,true
+1995,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,1,false,false
+1996,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,2,false,false
+1997,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
+1998,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
+1999,Houston,Houston Rockets,NBA,Western,Midwest,,,,false,,,
+2000,Houston,Houston Rockets,NBA,Western,Midwest,,,,false,,,
+2001,Houston,Houston Rockets,NBA,Western,Midwest,,,,false,,,
+2002,Houston,Houston Rockets,NBA,Western,Midwest,,,,false,,,
+2003,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
+2004,Houston,Houston Rockets,NBA,Western,Southwest,,,,true,0,false,false
+2005,Houston,Houston Rockets,NBA,Western,Southwest,,,LAST,false,,,
+2006,Houston,Houston Rockets,NBA,Western,Southwest,,,,true,0,false,false
+2007,Houston,Houston Rockets,NBA,Western,Southwest,,,,true,0,false,false
+2008,Houston,Houston Rockets,NBA,Western,Southwest,,,,true,1,false,false
+2009,Houston,Houston Rockets,NBA,Western,Southwest,,,,false,,,
+2010,Houston,Houston Rockets,NBA,Western,Southwest,,,LAST,false,,,
+2011,Houston,Houston Rockets,NBA,Western,Southwest,,,,false,,,
+2012,Houston,Houston Rockets,NBA,Western,Southwest,,,,true,0,false,false
+2013,Houston,Houston Rockets,NBA,Western,Southwest,,,,true,0,false,false
+2014,Houston,Houston Rockets,NBA,Western,Southwest,,,FIRST,true,2,false,false
+2015,Houston,Houston Rockets,NBA,Western,Southwest,,,,true,0,false,false
+2016,Houston,Houston Rockets,NBA,Western,Southwest,,,,true,1,false,false
+2017,Houston,Houston Rockets,NBA,Western,Southwest,FIRST,FIRST,FIRST,true,2,false,false
+2018,Houston,Houston Rockets,NBA,Western,Southwest,,,FIRST,true,1,false,false
+2019,Houston,Houston Rockets,NBA,Western,Southwest,,,FIRST,true,1,false,false
+2020,Houston,Houston Rockets,NBA,Western,Southwest,LAST,LAST,LAST,false,,,
+2021,Houston,Houston Rockets,NBA,Western,Southwest,LAST,LAST,LAST,false,,,
+2022,Houston,Houston Rockets,NBA,Western,Southwest,,LAST_TIED,LAST_TIED,false,,,
+2023,Houston,Houston Rockets,NBA,Western,Southwest,,,,false,,,

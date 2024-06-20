@@ -1,0 +1,79 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1946,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,3,true,true
+1947,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,FIRST,,true,1,true,false
+1948,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,0,false,false
+1949,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,0,false,false
+1950,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,FIRST,,true,0,false,false
+1951,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,0,false,false
+1952,Philadelphia,Philadelphia Warriors,NBA,Eastern,,LAST,LAST,,false,,,
+1953,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,false,,,
+1954,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,LAST,,false,,,
+1955,Philadelphia,Philadelphia Warriors,NBA,Eastern,,FIRST,FIRST,,true,2,true,true
+1956,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,0,false,false
+1957,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,1,false,false
+1958,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,LAST,,false,,,
+1959,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,1,false,false
+1960,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,0,false,false
+1961,Philadelphia,Philadelphia Warriors,NBA,Eastern,,,,,true,1,false,false
+1962,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,false,,,
+1963,San Francisco Bay,San Francisco Warriors,NBA,Western,,,FIRST,,true,1,true,false
+1964,San Francisco Bay,San Francisco Warriors,NBA,Western,,LAST,LAST,,false,,,
+1965,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,false,,,
+1966,San Francisco Bay,San Francisco Warriors,NBA,Western,,,FIRST,,true,2,true,false
+1967,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,true,1,false,false
+1968,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,true,0,false,false
+1969,San Francisco Bay,San Francisco Warriors,NBA,Western,,,,,false,,,
+1970,San Francisco Bay,San Francisco Warriors,NBA,Western,Pacific,,,,true,0,false,false
+1971,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,0,false,false
+1972,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,1,false,false
+1973,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1974,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,FIRST,FIRST,true,3,true,true
+1975,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,1,false,false
+1976,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,1,false,false
+1977,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,LAST,false,,,
+1978,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,LAST,false,,,
+1979,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,LAST_TIED,LAST,false,,,
+1980,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1981,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1982,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1983,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1984,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,LAST_TIED,LAST,LAST,false,,,
+1985,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,LAST,LAST,false,,,
+1986,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,1,false,false
+1987,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1988,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,1,false,false
+1989,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1990,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,1,false,false
+1991,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,0,false,false
+1992,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1993,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,0,false,false
+1994,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1995,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1996,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,LAST,false,,,
+1997,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1998,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+1999,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+2000,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,LAST,LAST,false,,,
+2001,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,LAST_TIED,LAST,LAST,false,,,
+2002,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+2003,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+2004,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,LAST,false,,,
+2005,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,LAST,false,,,
+2006,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,1,false,false
+2007,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+2008,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+2009,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+2010,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+2011,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+2012,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,1,false,false
+2013,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,0,false,false
+2014,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+2015,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,3,true,false
+2016,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+2017,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,FIRST,true,4,true,true
+2018,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,FIRST,FIRST,true,3,true,false
+2019,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,LAST,LAST,LAST,false,,,
+2020,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,false,,,
+2021,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,4,true,true
+2022,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,,true,1,false,false
+2023,San Francisco Bay,Golden State Warriors,NBA,Western,Pacific,,,LAST_TIED,false,,,

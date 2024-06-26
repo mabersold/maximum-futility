@@ -51,3 +51,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,Vancouver,Vancouver Canucks,NHL,North,,,LAST,,false,,,
 2021,Vancouver,Vancouver Canucks,NHL,Western,Pacific,,,,false,,,
 2022,Vancouver,Vancouver Canucks,NHL,Western,Pacific,,,,false,,,
+2023,Vancouver,Vancouver Canucks,NHL,Western,Pacific,,,FIRST,true,1,,

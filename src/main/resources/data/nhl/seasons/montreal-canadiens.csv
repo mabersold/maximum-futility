@@ -92,6 +92,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,false,,,
 2018,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,false,,,
 2019,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,true,1,,
-2020,Montreal,Montreal Canadiens,NHL,North,,,,,true,3,true,
+2020,Montreal,Montreal Canadiens,NHL,North,,,,,true,3,true,false
 2021,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,LAST,LAST,LAST,false,,,
 2022,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,LAST,false,,,
+2023,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,LAST,false,,,

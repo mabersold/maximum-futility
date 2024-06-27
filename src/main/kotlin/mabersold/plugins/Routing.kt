@@ -46,7 +46,7 @@ fun Application.configureRouting() {
             val leaguesIncluded = leagueDataService.all().filter { leagues.isEmpty() || leagues.contains(it.id) }
 
             val data = metroDataService.getMetroDataByMetric(metricType, startYear, endYear, leagues)
-                .filter { minLastActiveYear == null || it.lastActiveYear > minLastActiveYear}
+                .filter { minLastActiveYear == null || it.lastActiveYear >= minLastActiveYear}
                 .sortedWith(compareBy<MetroData>{ it.rate }.thenByDescending { it.opportunities })
 
             val metroReport = MetroReport(

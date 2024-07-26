@@ -18,10 +18,10 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
             .results(metricType)
 
     private fun List<FranchiseSeasonInfo>.fromSeason(from: Int?) =
-        from?.let { this.filter { it.startYear >= from } } ?: this
+        this.filter { from == null || it.startYear >= from }
 
     private fun List<FranchiseSeasonInfo>.untilSeason(until: Int?) =
-        until?.let { this.filter { it.endYear <= until } } ?: this
+        this.filter { until == null || it.startYear <= until }
 
     private fun List<FranchiseSeasonInfo>.withLeagues(leagueIds: Set<Int>) =
         this.filter { leagueIds.isEmpty() || leagueIds.contains(it.leagueId) }

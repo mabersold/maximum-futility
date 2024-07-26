@@ -117,7 +117,7 @@ class SeasonDataService(
 
     suspend fun getYearRange(): YearRange {
         return seasonDAO.all().let { seasons ->
-            YearRange(seasons.minOf { it.startYear }, seasons.maxOf { it.endYear })
+            YearRange(seasons.minOf { it.startYear }, seasons.maxOf { it.startYear })
         }
     }
 

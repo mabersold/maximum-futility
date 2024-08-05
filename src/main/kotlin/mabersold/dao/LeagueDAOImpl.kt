@@ -8,6 +8,7 @@ import org.jetbrains.exposed.sql.ResultRow
 import org.jetbrains.exposed.sql.insert
 import org.jetbrains.exposed.sql.select
 import org.jetbrains.exposed.sql.selectAll
+import org.jetbrains.exposed.sql.update
 
 class LeagueDAOImpl : LeagueDAO {
     private fun resultRowToLeague(row: ResultRow) = League(
@@ -32,6 +33,13 @@ class LeagueDAOImpl : LeagueDAO {
             it[Leagues.sport] = sport
         }
         insertStatement.resultedValues?.singleOrNull()?.let(::resultRowToLeague)
+    }
+
+    override suspend fun update(id: Int, name: String?, sport: String?): Int = dbQuery {
+        Leagues.update({ Leagues.id eq id}) { update ->
+            name?.let { update[Leagues.name] = name }
+            sport?.let { update[Leagues.sport] = sport }
+        }
     }
 }
 

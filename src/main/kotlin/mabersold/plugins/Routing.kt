@@ -2,11 +2,14 @@ package mabersold.plugins
 
 import io.ktor.server.routing.*
 import io.ktor.server.application.*
+import io.ktor.server.request.receive
 import io.ktor.server.response.*
+import mabersold.models.api.League
 import mabersold.models.api.MetricType
 import mabersold.models.api.MetroData
 import mabersold.models.api.MetroOptions
 import mabersold.models.api.MetroReport
+import mabersold.models.api.requests.UpdateLeagueRequest
 import mabersold.services.FranchiseDataService
 import mabersold.services.LeagueDataService
 import mabersold.services.MetroDataService
@@ -64,21 +67,31 @@ fun Application.configureRouting() {
 
             call.respond(report)
         }
-        get("/leagues") {
-            val leagues = leagueDataService.all()
-            call.respond(leagues)
-        }
-        get("/leagues/{leagueId}/franchises") {
-            val leagueId = call.parameters["leagueId"]?.toInt() ?: throw IllegalArgumentException("Invalid League ID")
-            val franchises = franchiseDataService.getFranchises(leagueId)
+        route("/leagues") {
+            get {
+                val leagues = leagueDataService.all()
+                call.respond(leagues)
+            }
+            get("/{leagueId}/franchises") {
+                val leagueId = call.parameters["leagueId"]?.toInt() ?: throw IllegalArgumentException("Invalid League ID")
+                val franchises = franchiseDataService.getFranchises(leagueId)
 
-            call.respond(franchises)
-        }
-        get("/leagues/{leagueId}/seasons") {
-            val leagueId = call.parameters["leagueId"]?.toInt() ?: throw IllegalArgumentException("Invalid League ID")
-            val seasons = seasonDataService.getSeasons(leagueId).sortedBy { it.startYear }
+                call.respond(franchises)
+            }
+            get("/{leagueId}/seasons") {
+                val leagueId = call.parameters["leagueId"]?.toInt() ?: throw IllegalArgumentException("Invalid League ID")
+                val seasons = seasonDataService.getSeasons(leagueId).sortedBy { it.startYear }
 
-            call.respond(seasons)
+                call.respond(seasons)
+            }
+            patch("/{leagueId}") {
+                val leagueId = call.parameters["leagueId"]?.toInt() ?: throw IllegalArgumentException("Invalid League ID")
+                val request = call.receive<UpdateLeagueRequest>()
+                val updated = leagueDataService.update(leagueId, request.name, request.sport)
+                updated?.let {
+                    call.respond(it)
+                }
+            }
         }
     }
 }

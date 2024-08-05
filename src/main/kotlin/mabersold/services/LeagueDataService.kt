@@ -11,4 +11,12 @@ class LeagueDataService(private val leagueDAO: LeagueDAO) {
             sport = l.sport
         )
     }
+
+    suspend fun update(leagueId: Int, name: String?, sport: String?): League? {
+        leagueDAO.update(leagueId, name, sport)
+
+        return leagueDAO.get(leagueId)?.let {
+            League(it.id, it.name, it.sport)
+        }
+    }
 }

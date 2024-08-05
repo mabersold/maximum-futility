@@ -1,14 +1,15 @@
 package mabersold.plugins
 
+import io.ktor.http.HttpStatusCode
 import io.ktor.server.routing.*
 import io.ktor.server.application.*
 import io.ktor.server.request.receive
 import io.ktor.server.response.*
-import mabersold.models.api.League
 import mabersold.models.api.MetricType
 import mabersold.models.api.MetroData
 import mabersold.models.api.MetroOptions
 import mabersold.models.api.MetroReport
+import mabersold.models.api.requests.CreateLeagueRequest
 import mabersold.models.api.requests.UpdateLeagueRequest
 import mabersold.services.FranchiseDataService
 import mabersold.services.LeagueDataService
@@ -84,12 +85,28 @@ fun Application.configureRouting() {
 
                 call.respond(seasons)
             }
+            post {
+                val request = call.receive<CreateLeagueRequest>()
+                val created = leagueDataService.create(request)
+                created?.let {
+                    call.respond(it)
+                }
+            }
             patch("/{leagueId}") {
                 val leagueId = call.parameters["leagueId"]?.toInt() ?: throw IllegalArgumentException("Invalid League ID")
                 val request = call.receive<UpdateLeagueRequest>()
                 val updated = leagueDataService.update(leagueId, request.name, request.sport)
                 updated?.let {
                     call.respond(it)
+                }
+            }
+            delete("/{leagueId}") {
+                val leagueId = call.parameters["leagueId"]?.toInt() ?: throw IllegalArgumentException("Invalid League ID")
+                val isDeleted = leagueDataService.delete(leagueId)
+                if (isDeleted) {
+                    call.respond(HttpStatusCode.NoContent)
+                } else {
+                    call.respond(HttpStatusCode.BadRequest)
                 }
             }
         }

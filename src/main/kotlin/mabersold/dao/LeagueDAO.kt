@@ -7,4 +7,5 @@ interface LeagueDAO {
     suspend fun get(id: Int): League?
     suspend fun create(name: String, sport: String): League?
     suspend fun update(id: Int, name: String?, sport: String?): Int
+    suspend fun delete(id: Int): Boolean
 }

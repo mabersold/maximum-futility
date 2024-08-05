@@ -1,12 +1,12 @@
 package mabersold.dao
 
-import kotlinx.coroutines.runBlocking
 import mabersold.dao.DatabaseFactory.dbQuery
 import mabersold.models.db.League
 import mabersold.models.db.Leagues
 import org.jetbrains.exposed.sql.ResultRow
+import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
+import org.jetbrains.exposed.sql.deleteWhere
 import org.jetbrains.exposed.sql.insert
-import org.jetbrains.exposed.sql.select
 import org.jetbrains.exposed.sql.selectAll
 import org.jetbrains.exposed.sql.update
 
@@ -22,7 +22,7 @@ class LeagueDAOImpl : LeagueDAO {
     }
 
     override suspend fun get(id: Int): League? = dbQuery {
-        Leagues.select { Leagues.id eq id }
+        Leagues.selectAll().where { Leagues.id eq id }
             .map(::resultRowToLeague)
             .singleOrNull()
     }
@@ -41,15 +41,11 @@ class LeagueDAOImpl : LeagueDAO {
             sport?.let { update[Leagues.sport] = sport }
         }
     }
-}
 
-val leagueDao: LeagueDAO = LeagueDAOImpl().apply {
-    runBlocking {
-        if(all().isEmpty()) {
-            create("MLB", "Baseball")
-            create("NFL", "Football")
-            create("NBA", "Basketball")
-            create("NHL", "Hockey")
+    override suspend fun delete(id: Int): Boolean = dbQuery {
+        val rowsDeleted = Leagues.deleteWhere {
+            Leagues.id eq id
         }
+        rowsDeleted == 1
     }
 }

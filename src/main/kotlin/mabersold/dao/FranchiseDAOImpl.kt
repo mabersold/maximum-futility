@@ -5,9 +5,11 @@ import mabersold.models.db.Leagues
 import mabersold.models.db.Franchise
 import mabersold.models.db.Franchises
 import org.jetbrains.exposed.sql.ResultRow
+import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
+import org.jetbrains.exposed.sql.deleteWhere
 import org.jetbrains.exposed.sql.insert
-import org.jetbrains.exposed.sql.select
 import org.jetbrains.exposed.sql.selectAll
+import org.jetbrains.exposed.sql.update
 
 class FranchiseDAOImpl : FranchiseDAO {
     private fun resultRowToFranchise(row: ResultRow) = Franchise(
@@ -27,7 +29,7 @@ class FranchiseDAOImpl : FranchiseDAO {
     }
 
     override suspend fun get(id: Int): Franchise? = dbQuery {
-        (Franchises innerJoin Leagues).select { Franchises.id eq id }
+        (Franchises innerJoin Leagues).selectAll().where { Franchises.id eq id }
             .map(::resultRowToFranchise)
             .singleOrNull()
     }
@@ -39,5 +41,29 @@ class FranchiseDAOImpl : FranchiseDAO {
             it[Franchises.leagueId] = leagueId
         }
         insertStatement.resultedValues?.singleOrNull()?.let(::resultRowToFranchise)
+    }
+
+    override suspend fun update(id: Int, name: String?, isDefunct: Boolean?, leagueId: Int?): Franchise? = dbQuery {
+        val updated = Franchises.update({Franchises.id eq id}) { update ->
+            name?.let { update[Franchises.name] = it }
+            isDefunct?.let { update[Franchises.isDefunct] = it }
+            leagueId?.let { update[Franchises.leagueId] = it }
+        }
+
+        if (updated > 0) {
+            Franchises.selectAll().where { Franchises.id eq id }
+                .map(::resultRowToFranchise)
+                .singleOrNull()
+        } else {
+            null
+        }
+    }
+
+    override suspend fun delete(id: Int): Boolean = dbQuery {
+        val rowsDeleted = Franchises.deleteWhere {
+            Franchises.id eq id
+        }
+
+        rowsDeleted == 1
     }
 }

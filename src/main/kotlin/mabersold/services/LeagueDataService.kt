@@ -2,7 +2,6 @@ package mabersold.services
 
 import mabersold.dao.LeagueDAO
 import mabersold.models.api.League
-import mabersold.models.api.requests.CreateLeagueRequest
 
 class LeagueDataService(private val leagueDAO: LeagueDAO) {
     suspend fun all() = leagueDAO.all().map { l ->
@@ -13,8 +12,8 @@ class LeagueDataService(private val leagueDAO: LeagueDAO) {
         )
     }
 
-    suspend fun create(request: CreateLeagueRequest): League? {
-        val result = leagueDAO.create(request.name, request.sport)
+    suspend fun create(name: String, sport: String): League? {
+        val result = leagueDAO.create(name, sport)
         return result?.let {
             League(it.id, it.name, it.sport)
         }

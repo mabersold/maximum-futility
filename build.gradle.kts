@@ -46,7 +46,9 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
     implementation("com.h2database:h2:2.2.224")
     implementation("com.jsoizo:kotlin-csv-jvm:1.10.0")
-    implementation("com.opencsv:opencsv:5.9")
+    implementation("com.opencsv:opencsv:5.9") {
+        exclude(group = "commons-collections", module="commons-collections")
+    }
     implementation("io.insert-koin:koin-ktor:$koinVersion")
     implementation("io.insert-koin:koin-logger-slf4j:$koinVersion")
     implementation("io.ktor:ktor-server-content-negotiation:$ktorVersion")

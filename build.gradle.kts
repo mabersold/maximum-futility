@@ -1,14 +1,11 @@
-val ktorVersion = "2.3.7"
-val kotlinVersion = "1.8.21"
-val exposedVersion = "0.49.0"
-val h2Version = "2.2.224"
-val koinVersion = "3.5.1"
-val mockkVersion = "1.13.9"
+val ktorVersion = "2.3.12"
+val exposedVersion = "0.52.0"
+val koinVersion = "3.5.6"
 
 plugins {
-    kotlin("jvm") version "1.8.21"
-    id("io.ktor.plugin") version "2.3.7"
-    kotlin("plugin.serialization") version "1.8.21"
+    kotlin("jvm") version "1.9.25"
+    id("io.ktor.plugin") version "2.3.12"
+    kotlin("plugin.serialization") version "1.9.25"
 }
 
 group = "mabersold"
@@ -35,7 +32,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 }
 
 dependencies {
-    implementation("ch.qos.logback:logback-classic:1.4.14")
+    implementation("ch.qos.logback:logback-classic:1.5.6")
     implementation("io.ktor:ktor-server-core-jvm:$ktorVersion")
     implementation("io.ktor:ktor-server-thymeleaf-jvm:$ktorVersion")
     implementation("io.ktor:ktor-server-html-builder:$ktorVersion")
@@ -54,8 +51,8 @@ dependencies {
     implementation("io.ktor:ktor-server-content-negotiation:$ktorVersion")
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
     implementation("io.ktor:ktor-server-cors:$ktorVersion")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.9.25")
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktorVersion")
-    testImplementation("io.mockk:mockk:${mockkVersion}")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    testImplementation("io.mockk:mockk:1.13.12")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0")
 }

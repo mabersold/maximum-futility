@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MetroReportOptions from "./MetroReportOptions";
 import MetroReportResults from "./MetroReportResults";
-import { Container } from "@mui/material";
+import { Container, Button } from "@mui/material";
 
 const MetroReport = () => {
   const [options, setOptions] = useState([]);
@@ -32,6 +32,22 @@ const MetroReport = () => {
     fetchMetrics();
   }, []);
 
+  const downloadCSV = () => {
+    const params = new URLSearchParams({
+      metricType: selectedMetric,
+      startYear: selectedRange[0],
+      endYear: selectedRange[1],
+      minLastActiveYear: selectedRange[1] - 1,
+    });
+
+    selectedLeagues.forEach((leagueId) => {
+      params.append('leagueId', leagueId);
+    });
+
+    const url = `http://localhost:8080/metro_report_csv?${params.toString()}`;
+    window.location.href = url;
+  };
+
   return (
     <Container>
       <h1>City Report</h1>
@@ -45,6 +61,9 @@ const MetroReport = () => {
         selectedRange={selectedRange}
         changeRange={(r) => setSelectedRange(r)}
       />
+      <Button variant="contained" color="primary" onClick={downloadCSV}>
+        Download CSV
+      </Button>
       <MetroReportResults
         loading={loading}
         selectedMetric={selectedMetric}

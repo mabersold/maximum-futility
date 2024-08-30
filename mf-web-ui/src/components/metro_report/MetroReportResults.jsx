@@ -28,24 +28,34 @@ const MetroReportResults = ({loading, selectedMetric, selectedLeagues, selectedR
     },
   ];
 
+  const buildUrl = (baseUrl, selectedMetric, selectedLeagues, selectedRange) => {
+    const url = new URL(baseUrl);
+    const params = new URLSearchParams();
+
+    if (selectedMetric) {
+      params.append('metricType', selectedMetric);
+    }
+
+    if (selectedLeagues && selectedLeagues.length > 0) {
+      selectedLeagues.forEach((leagueId) => {
+        params.append('leagueId', leagueId);
+      });
+    }
+
+    if (selectedRange && selectedRange.length === 2) {
+      params.append('startYear', selectedRange[0]);
+      params.append('endYear', selectedRange[1]);
+      params.append('minLastActiveYear', selectedRange[1] - 1);
+    }
+
+    url.search = params.toString();
+    return url.toString();
+  };
+
   useEffect(() => {
     const fetchData = async () => {
       try {
-        let url = "http://localhost:8080/metro_report";
-        if (selectedMetric) {
-          url += `?metricType=${selectedMetric}`;
-        }
-
-        if (selectedLeagues && selectedLeagues.length > 0) {
-          selectedLeagues.forEach((leagueId) => {
-            url += `&leagueId=${leagueId}`;
-          });
-        }
-
-        if (selectedRange && selectedRange.length === 2) {
-          url += `&startYear=${selectedRange[0]}&endYear=${selectedRange[1]}`;
-          url += `&minLastActiveYear=${selectedRange[1] - 1}`
-        }
+        const url = buildUrl("http://localhost:8080/metro_report", selectedMetric, selectedLeagues, selectedRange);
         
         const response = await fetch(url);
         if (!response.ok) {

@@ -1,9 +1,18 @@
 package mabersold.plugins.routes
 
+import com.opencsv.CSVWriter
+import io.ktor.http.ContentDisposition
+import io.ktor.http.ContentType
+import io.ktor.http.Parameters
 import io.ktor.server.application.call
+import io.ktor.server.response.header
 import io.ktor.server.response.respond
+import io.ktor.server.response.respondOutputStream
 import io.ktor.server.routing.Route
 import io.ktor.server.routing.get
+import java.io.OutputStreamWriter
+import java.security.MessageDigest
+import java.time.Instant
 import mabersold.models.api.MetricType
 import mabersold.models.api.MetroData
 import mabersold.models.api.MetroOptions
@@ -18,6 +27,34 @@ fun Route.metroRoutes() {
     val leagueDataService by inject<LeagueDataService>()
     val metroDataService by inject<MetroDataService>()
 
+    data class ReportResults(
+        val metricType: MetricType,
+        val startYear: Int,
+        val endYear: Int,
+        val leagues: Set<Int>,
+        val results: List<MetroData>
+    )
+
+    suspend fun getReportResults(queryParameters: Parameters): ReportResults {
+        val metricType = queryParameters["metricType"]?.let { metricType -> MetricType.valueOf(metricType) }
+            ?: MetricType.TOTAL_CHAMPIONSHIPS
+
+        val startYear = queryParameters["startYear"]?.toInt() ?: seasonDataService.getYearRange().startYear
+        val endYear = queryParameters["endYear"]?.toInt() ?: seasonDataService.getYearRange().endYear
+        val leagues = queryParameters.getAll("leagueId")?.map { it.toInt() }?.toSet() ?: emptySet()
+        val minLastActiveYear = queryParameters["minLastActiveYear"]?.toInt()
+
+        return ReportResults(
+            metricType,
+            startYear,
+            endYear,
+            leagues,
+            metroDataService.getMetroDataByMetric(metricType, startYear, endYear, leagues)
+                .filter { minLastActiveYear == null || it.lastActiveYear >= minLastActiveYear}
+                .sortedWith(compareBy<MetroData>{ it.rate }.thenByDescending { it.opportunities })
+        )
+    }
+
     get("/metro_options") {
         val options = MetroOptions(
             yearRange = seasonDataService.getYearRange(),
@@ -27,30 +64,51 @@ fun Route.metroRoutes() {
         call.respond(options)
     }
     get("metro_report") {
-        val metricType =
-            call.request.queryParameters["metricType"]?.let { metricType -> MetricType.valueOf(metricType) }
-                ?: MetricType.TOTAL_CHAMPIONSHIPS
+        val (metricType, startYear, endYear, leagues, data) = getReportResults(call.request.queryParameters)
 
-        val minLastActiveYear = call.request.queryParameters["minLastActiveYear"]?.toInt()
-
-        val startYear = call.request.queryParameters["startYear"]?.toInt() ?: seasonDataService.getYearRange().startYear
-        val endYear = call.request.queryParameters["endYear"]?.toInt() ?: seasonDataService.getYearRange().endYear
-
-        val leagues = call.request.queryParameters.getAll("leagueId")?.map { it.toInt() }?.toSet() ?: emptySet()
-
-        val leaguesIncluded = leagueDataService.all().filter { leagues.isEmpty() || leagues.contains(it.id) }
-
-        val data = metroDataService.getMetroDataByMetric(metricType, startYear, endYear, leagues)
-            .filter { minLastActiveYear == null || it.lastActiveYear >= minLastActiveYear}
-            .sortedWith(compareBy<MetroData>{ it.rate }.thenByDescending { it.opportunities })
-
-        val metroReport = MetroReport(
-            startYear,
-            endYear,
-            metricType,
-            leaguesIncluded,
-            data
+        call.respond(
+            MetroReport(
+                startYear,
+                endYear,
+                metricType,
+                leagueDataService.all().filter { leagues.isEmpty() || leagues.contains(it.id) },
+                data
+            )
         )
-        call.respond(metroReport)
+    }
+    get("metro_report_csv") {
+        fun generateShortHashFromTimestamp(): String {
+            val timestamp = Instant.now().toString()
+            val digest = MessageDigest.getInstance("SHA-256")
+            val hashBytes = digest.digest(timestamp.toByteArray())
+            return hashBytes.joinToString("") { "%02x".format(it) }.substring(0, 8)
+        }
+
+        val (metricType, startYear, endYear, _, data) = getReportResults(call.request.queryParameters)
+
+        val hash = generateShortHashFromTimestamp()
+        val filename = "metro_report-$metricType-$startYear-$endYear-$hash.csv"
+
+        call.response.header(
+            "Content-Disposition",
+            ContentDisposition.Attachment.withParameter(ContentDisposition.Parameters.FileName, filename).toString()
+        )
+
+        call.respondOutputStream(ContentType.Text.CSV) {
+            val writer = OutputStreamWriter(this)
+            val csvWriter = CSVWriter(writer)
+
+            csvWriter.writeNext(arrayOf("Metro Area", "Total", "Opportunities", "Rate"))
+
+            data.forEach { metroData ->
+                csvWriter.writeNext(arrayOf(
+                    metroData.name,
+                    metroData.total.toString(),
+                    metroData.opportunities.toString(),
+                    String.format("%.2f%%", metroData.rate?.times(100) ?: 0)
+                ))
+            }
+            csvWriter.close()
+        }
     }
 }

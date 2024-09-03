@@ -14,6 +14,8 @@ import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.FranchiseSeasonDAOImpl
 import mabersold.dao.LeagueDAO
 import mabersold.dao.LeagueDAOImpl
+import mabersold.dao.MetroDAO
+import mabersold.dao.MetroDAOImpl
 import mabersold.dao.SeasonDAO
 import mabersold.dao.SeasonDAOImpl
 import mabersold.plugins.configureRouting
@@ -57,6 +59,7 @@ val appModule = module {
     singleOf(::SeasonDAOImpl) { bind<SeasonDAO>() }
     singleOf(::LeagueDAOImpl) { bind<LeagueDAO>() }
     singleOf(::FranchiseDAOImpl) { bind<FranchiseDAO>() }
+    singleOf(::MetroDAOImpl) { bind<MetroDAO>() }
     singleOf(::SeasonDataService)
     singleOf(::MetroDataService)
     singleOf(::LeagueDataService)

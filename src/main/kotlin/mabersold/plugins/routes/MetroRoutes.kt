@@ -10,6 +10,7 @@ import io.ktor.server.response.respond
 import io.ktor.server.response.respondOutputStream
 import io.ktor.server.routing.Route
 import io.ktor.server.routing.get
+import io.ktor.server.routing.route
 import java.io.OutputStreamWriter
 import java.security.MessageDigest
 import java.time.Instant
@@ -53,6 +54,34 @@ fun Route.metroRoutes() {
                 .filter { minLastActiveYear == null || it.lastActiveYear >= minLastActiveYear}
                 .sortedWith(compareBy<MetroData>{ it.rate }.thenByDescending { it.opportunities })
         )
+    }
+
+    route("/metros") {
+        get {
+            val metros = metroDataService.getMetros()
+            call.respond(metros)
+        }
+        get("/csv") {
+            val metros = metroDataService.getMetros()
+
+            call.response.header(
+                "Content-Disposition",
+                ContentDisposition.Attachment.withParameter(ContentDisposition.Parameters.FileName, "metros.csv").toString()
+            )
+
+            call.respondOutputStream(ContentType.Text.CSV) {
+                val writer = OutputStreamWriter(this)
+                val csvWriter = CSVWriter(writer)
+                csvWriter.writeNext(arrayOf("Name"))
+
+                metros.forEach { metro ->
+                    csvWriter.writeNext(arrayOf(
+                        metro.name
+                    ))
+                }
+                csvWriter.close()
+            }
+        }
     }
 
     get("/metro_options") {

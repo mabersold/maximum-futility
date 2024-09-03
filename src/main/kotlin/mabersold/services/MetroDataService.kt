@@ -1,13 +1,17 @@
 package mabersold.services
 
 import mabersold.dao.FranchiseSeasonDAO
+import mabersold.dao.MetroDAO
 import mabersold.models.FranchiseSeasonInfo
 import mabersold.models.api.MetricType
 import mabersold.models.Metro
 import mabersold.models.api.MetroData
 import mabersold.models.db.Standing
 
-class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
+class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, private val metroDAO: MetroDAO) {
+    suspend fun getMetros() =
+        metroDAO.all().map { mabersold.models.api.Metro(it.id, it.name) }
+
     suspend fun getMetroDataByMetric(metricType: MetricType, from: Int? = null, until: Int? = null, leagueIds: Set<Int> = setOf()) =
         franchiseSeasonDAO.all()
             .fromSeason(from)

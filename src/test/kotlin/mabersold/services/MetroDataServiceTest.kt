@@ -4,6 +4,7 @@ import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.test.runTest
 import mabersold.dao.FranchiseSeasonDAO
+import mabersold.dao.MetroDAO
 import mabersold.models.FranchiseSeasonInfo
 import mabersold.models.api.MetricType
 import mabersold.models.Metro
@@ -14,7 +15,8 @@ import kotlin.test.assertTrue
 
 class MetroDataServiceTest {
     private val franchiseSeasonDAO = mockk<FranchiseSeasonDAO>()
-    private val metroDataService = MetroDataService(franchiseSeasonDAO)
+    private val metroDAO = mockk<MetroDAO>()
+    private val metroDataService = MetroDataService(franchiseSeasonDAO, metroDAO)
 
     @Test
     fun `gets correct data for metros winning the championship`() = runTest {

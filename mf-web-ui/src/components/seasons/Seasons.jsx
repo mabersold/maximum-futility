@@ -22,7 +22,7 @@ const Seasons = () => {
 
   useEffect(() => {
     const fetchLeagues = async () => {
-      const response = await fetch("http://localhost:8080/leagues");
+      const response = await fetch("http://localhost:8080/api/v1/leagues");
 
       if (!response.ok) {
         throw new Error("Failed to fetch data");
@@ -34,7 +34,7 @@ const Seasons = () => {
 
     const fetchSeasons = async () => {
       const response = await fetch(
-        `http://localhost:8080/leagues/${selectedLeague}/seasons`
+        `http://localhost:8080/api/v1/leagues/${selectedLeague}/seasons`
       );
 
       if (!response.ok) {
@@ -47,7 +47,7 @@ const Seasons = () => {
 
     const fetchSeasonReport = async () => {
       const response = await fetch(
-        `http://localhost:8080/season_report/${selectedSeason}`
+        `http://localhost:8080/api/v1/season_report/${selectedSeason}`
       );
 
       if (!response.ok) {

@@ -13,7 +13,7 @@ const MetroReport = () => {
   useEffect(() => {
     const fetchMetrics = async () => {
       try {
-        const response = await fetch("http://localhost:8080/metro_options");
+        const response = await fetch("http://localhost:8080/api/v1/metro_options");
         if (!response.ok) {
           throw new Error("Failed to fetch data");
         }
@@ -44,7 +44,7 @@ const MetroReport = () => {
       params.append('leagueId', leagueId);
     });
 
-    const url = `http://localhost:8080/metro_report_csv?${params.toString()}`;
+    const url = `http://localhost:8080/api/v1/metro_report_csv?${params.toString()}`;
     window.location.href = url;
   };
 

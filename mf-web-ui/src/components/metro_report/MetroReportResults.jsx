@@ -55,7 +55,7 @@ const MetroReportResults = ({loading, selectedMetric, selectedLeagues, selectedR
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const url = buildUrl("http://localhost:8080/metro_report", selectedMetric, selectedLeagues, selectedRange);
+        const url = buildUrl("http://localhost:8080/api/v1/metro_report", selectedMetric, selectedLeagues, selectedRange);
         
         const response = await fetch(url);
         if (!response.ok) {

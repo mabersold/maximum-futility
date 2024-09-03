@@ -1,5 +1,5 @@
 val ktorVersion = "2.3.12"
-val exposedVersion = "0.52.0"
+val exposedVersion = "0.54.0"
 val koinVersion = "3.5.6"
 
 plugins {

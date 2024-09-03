@@ -5,7 +5,6 @@ import mabersold.models.db.Leagues
 import mabersold.models.db.Season
 import mabersold.models.db.Seasons
 import org.jetbrains.exposed.sql.ResultRow
-import org.jetbrains.exposed.sql.select
 import org.jetbrains.exposed.sql.selectAll
 
 class SeasonDAOImpl : SeasonDAO {
@@ -25,7 +24,7 @@ class SeasonDAOImpl : SeasonDAO {
     }
 
     override suspend fun get(id: Int): Season? = dbQuery {
-        (Seasons innerJoin Leagues).select { Seasons.id eq id }
+        (Seasons innerJoin Leagues).selectAll().where { Seasons.id eq id }
             .map(::resultRowToSeason)
             .singleOrNull()
     }

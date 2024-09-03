@@ -4,7 +4,6 @@ import mabersold.dao.DatabaseFactory.dbQuery
 import mabersold.models.db.Metro
 import mabersold.models.db.Metros
 import org.jetbrains.exposed.sql.ResultRow
-import org.jetbrains.exposed.sql.select
 import org.jetbrains.exposed.sql.selectAll
 
 class MetroDAOImpl : MetroDAO {
@@ -20,7 +19,7 @@ class MetroDAOImpl : MetroDAO {
     }
 
     override suspend fun get(id: Int): Metro? = dbQuery {
-        Metros.select { Metros.id eq id }
+        Metros.selectAll().where { Metros.id eq id }
             .map(::resultRowToMetro)
             .singleOrNull()
     }

@@ -40,7 +40,7 @@ fun Application.configureTemplating() {
             val activeMetros = dao.activeMetros()
 
             val metroDataWithActiveMetros = metroData.filter { activeMetros.contains(it.name) }
-            val allMetricTypes = MetricType.values().toList()
+            val allMetricTypes = MetricType.entries
 
             val excludedMetros = metroData.filter { !activeMetros.contains(it.name) }.map { it.name }
             val yearRange = seasonDataService.getYearRange()

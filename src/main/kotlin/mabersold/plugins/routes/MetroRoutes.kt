@@ -59,7 +59,7 @@ fun Route.metroRoutes() {
         val options = MetroOptions(
             yearRange = seasonDataService.getYearRange(),
             leagues = leagueDataService.all(),
-            metrics = MetricType.values().map { mapOf("name" to it.name, "display_name" to it.displayName) }
+            metrics = MetricType.entries.map { mapOf("name" to it.name, "display_name" to it.displayName) }
         )
         call.respond(options)
     }

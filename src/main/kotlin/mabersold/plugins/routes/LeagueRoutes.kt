@@ -1,15 +1,21 @@
 package mabersold.plugins.routes
 
+import com.opencsv.CSVWriter
+import io.ktor.http.ContentDisposition
+import io.ktor.http.ContentType
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.application.call
 import io.ktor.server.request.receive
+import io.ktor.server.response.header
 import io.ktor.server.response.respond
+import io.ktor.server.response.respondOutputStream
 import io.ktor.server.routing.Route
 import io.ktor.server.routing.delete
 import io.ktor.server.routing.get
 import io.ktor.server.routing.patch
 import io.ktor.server.routing.post
 import io.ktor.server.routing.route
+import java.io.OutputStreamWriter
 import mabersold.models.api.requests.SaveLeagueRequest
 import mabersold.services.LeagueDataService
 import mabersold.services.SeasonDataService
@@ -23,6 +29,28 @@ fun Route.leagueRoutes() {
         get {
             val leagues = leagueDataService.all()
             call.respond(leagues)
+        }
+        get("/csv") {
+            val leagues = leagueDataService.all()
+
+            call.response.header(
+                "Content-Disposition",
+                ContentDisposition.Attachment.withParameter(ContentDisposition.Parameters.FileName, "leagues.csv").toString()
+            )
+
+            call.respondOutputStream(ContentType.Text.CSV) {
+                val writer = OutputStreamWriter(this)
+                val csvWriter = CSVWriter(writer)
+                csvWriter.writeNext(arrayOf("Name", "Sport"))
+
+                leagues.forEach { league ->
+                    csvWriter.writeNext(arrayOf(
+                        league.name,
+                        league.sport
+                    ))
+                }
+                csvWriter.close()
+            }
         }
         get("/{leagueId}/seasons") {
             val leagueId = call.parameters["leagueId"]?.toIntOrNull()

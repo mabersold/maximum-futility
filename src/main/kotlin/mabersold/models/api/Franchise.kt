@@ -7,5 +7,6 @@ data class Franchise(
     val id: Int,
     val name: String,
     val isDefunct: Boolean,
-    val leagueId: Int
+    val leagueId: Int,
+    val league: String? = null
 )

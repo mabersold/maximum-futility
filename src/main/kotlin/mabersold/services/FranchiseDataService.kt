@@ -10,7 +10,8 @@ class FranchiseDataService(private val franchiseDAO: FranchiseDAO) {
                 id = f.id,
                 name = f.name,
                 isDefunct = f.isDefunct,
-                leagueId = f.leagueId
+                leagueId = f.leagueId,
+                league = f.league
             )
         }
 

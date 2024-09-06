@@ -16,15 +16,19 @@ class FranchiseDAOImpl : FranchiseDAO {
         id = row[Franchises.id].value,
         name = row[Franchises.name],
         isDefunct = row[Franchises.isDefunct],
-        leagueId = row[Franchises.leagueId].value
+        leagueId = row[Franchises.leagueId].value,
+        league = row[Leagues.name]
     )
 
-    override suspend fun all(): List<Franchise> = dbQuery {
-        Franchises.selectAll().map(::resultRowToFranchise)
-    }
-
     override suspend fun allByLeagueId(leagueId: Int): List<Franchise> = dbQuery {
-        Franchises.selectAll().where { Franchises.leagueId eq leagueId }
+        (Franchises innerJoin Leagues).select(
+            Franchises.id,
+            Franchises.name,
+            Franchises.isDefunct,
+            Franchises.leagueId,
+            Leagues.name
+        )
+            .where { Franchises.leagueId eq leagueId }
             .map(::resultRowToFranchise)
     }
 
@@ -44,7 +48,7 @@ class FranchiseDAOImpl : FranchiseDAO {
     }
 
     override suspend fun update(id: Int, name: String?, isDefunct: Boolean?, leagueId: Int?): Franchise? = dbQuery {
-        val updated = Franchises.update({Franchises.id eq id}) { update ->
+        val updated = Franchises.update({ Franchises.id eq id }) { update ->
             name?.let { update[Franchises.name] = it }
             isDefunct?.let { update[Franchises.isDefunct] = it }
             leagueId?.let { update[Franchises.leagueId] = it }

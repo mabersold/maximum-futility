@@ -17,3 +17,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Chicago,Chicago Sky,WNBA,East,,,,,true,4,true,true
 2022,Chicago,Chicago Sky,WNBA,East,,FIRST_TIED,FIRST,,true,1,,
 2023,Chicago,Chicago Sky,WNBA,East,,,,,true,0,,
+2024,Chicago,Chicago Sky,WNBA,East,,,LAST,,false,,,

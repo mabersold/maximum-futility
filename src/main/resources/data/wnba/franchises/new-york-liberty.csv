@@ -25,4 +25,5 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2020,New York,New York Liberty,WNBA,East,,LAST,LAST,,,,,
 2021,New York,New York Liberty,WNBA,East,,,,,true,0,,
 2022,New York,New York Liberty,WNBA,East,,,,,true,0,,
-2023,New York,New York Liberty,WNBA,East,,,FIRST,,true,2,true,
+2023,New York,New York Liberty,WNBA,East,,,FIRST,,true,2,true,false
+2024,New York,New York Liberty,WNBA,East,,FIRST,FIRST,,true,3,true,true

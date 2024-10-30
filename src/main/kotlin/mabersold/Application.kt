@@ -19,7 +19,6 @@ import mabersold.dao.MetroDAOImpl
 import mabersold.dao.SeasonDAO
 import mabersold.dao.SeasonDAOImpl
 import mabersold.plugins.configureRouting
-import mabersold.plugins.configureTemplating
 import mabersold.services.FranchiseDataService
 import mabersold.services.LeagueDataService
 import mabersold.services.MetroDataService
@@ -50,7 +49,6 @@ fun Application.main(args: Array<String>) {
 
     val createSchema = args.isNotEmpty() && args.contains("--createSchema")
     DatabaseFactory.init(createSchema)
-    configureTemplating()
     configureRouting()
 }
 

@@ -2,7 +2,6 @@ package mabersold.dao
 
 import mabersold.dao.DatabaseFactory.dbQuery
 import mabersold.models.FranchiseSeasonInfo
-import mabersold.models.Metro
 import mabersold.models.db.FranchiseSeason
 import mabersold.models.db.FranchiseSeasons
 import mabersold.models.db.Metros
@@ -31,7 +30,7 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
     )
 
     private fun resultRowToFranchiseSeasonInfo(row: ResultRow) = FranchiseSeasonInfo(
-        metro = Metro.entries.find { it.displayName == row[Metros.name] } ?: throw Exception("Metro ${row[Metros.name]} not found"),
+        metro = row[Metros.name],
         teamName = row[FranchiseSeasons.teamName],
         conference = row[FranchiseSeasons.conference],
         division = row[FranchiseSeasons.division],

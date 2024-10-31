@@ -3,8 +3,6 @@ package mabersold.services
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.LeagueDAO
 import mabersold.dao.SeasonDAO
-import mabersold.models.RegularSeasonResult
-import mabersold.models.SeasonSummary
 import mabersold.models.api.Group
 import mabersold.models.api.Season as ApiSeason
 import mabersold.models.api.SeasonReport
@@ -38,58 +36,6 @@ class SeasonDataService(
         const val WARN_NOT_ENOUGH_WORST_IN_DIVISION = "Not enough worst in division"
         const val WARN_TOO_MANY_ROUNDS_WON = "The following teams won more postseason rounds than are possible: %s"
         const val WARN_SHOULD_NOT_HAVE_POSTSEASON_DATA = "The following teams did not qualify for playoffs, but have postseason data: %s"
-    }
-
-    suspend fun getSeasonSummary(seasonId: Int): SeasonSummary {
-        val season = seasonDAO.get(seasonId) ?: throw Exception("Season not found")
-        val franchiseSeasons = franchiseSeasonDAO.getBySeason(seasonId)
-
-        val warnings = getWarnings(season, franchiseSeasons)
-
-        val overallResult = RegularSeasonResult(
-            "Overall",
-            franchiseSeasons.filter { it.bestOverall }.map { it.teamName },
-            franchiseSeasons.filter { it.worstOverall }.map { it.teamName }
-        )
-
-        val conferenceResults = franchiseSeasons.mapNotNull { it.conference }.distinct().sorted().map { conference ->
-            RegularSeasonResult(
-                conference,
-                franchiseSeasons.filter {
-                    it.conference == conference && it.bestInConference
-                }.map { it.teamName },
-                franchiseSeasons.filter {
-                    it.conference == conference && it.worstInConference
-                }.map { it.teamName }
-            )
-        }
-
-        val divisionResults = franchiseSeasons.mapNotNull { it.division }.distinct().sorted().map { division ->
-            RegularSeasonResult(
-                division,
-                franchiseSeasons.filter {
-                    it.division == division && it.bestInDivision
-                }.map { it.teamName },
-                franchiseSeasons.filter {
-                    it.division == division && it.worstInDivision
-                }.map { it.teamName }
-            )
-        }
-
-        return SeasonSummary(
-            season.name,
-            season.leagueId.toString(),
-            season.totalMajorDivisions,
-            season.totalMinorDivisions,
-            franchiseSeasons.mapNotNull { it.conference }.distinct().sorted(),
-            franchiseSeasons.mapNotNull { it.division }.distinct().sorted(),
-            franchiseSeasons.filter { it.qualifiedForPostseason == true }.map { it.teamName }.sorted(),
-            franchiseSeasons.filter { it.roundsWon != null && it.roundsWon > 0 }.map { it.teamName }.sorted(),
-            franchiseSeasons.filter { it.appearedInChampionship == true }.map { it.teamName }.sorted(),
-            franchiseSeasons.filter { it.wonChampionship == true }.map { it.teamName }.firstOrNull() ?: "",
-            listOf(overallResult) + conferenceResults + divisionResults,
-            warnings
-        )
     }
 
     suspend fun getSeasonReport(seasonId: Int): SeasonReport {

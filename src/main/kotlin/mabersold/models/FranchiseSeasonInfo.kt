@@ -3,7 +3,7 @@ package mabersold.models
 import mabersold.models.db.Standing
 
 data class FranchiseSeasonInfo(
-    val metro: Metro,
+    val metro: String,
     val teamName: String,
     val conference: String?,
     val division: String?,

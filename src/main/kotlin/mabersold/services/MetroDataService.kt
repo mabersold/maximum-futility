@@ -4,7 +4,6 @@ import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.MetroDAO
 import mabersold.models.FranchiseSeasonInfo
 import mabersold.models.api.MetricType
-import mabersold.models.Metro
 import mabersold.models.api.MetroData
 import mabersold.models.db.Standing
 
@@ -44,7 +43,7 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             MetricType.BEST_DIVISION, MetricType.WORST_DIVISION -> this.filter { it.totalDivisions > 0 }
         }
 
-    private fun Map<Metro, List<FranchiseSeasonInfo>>.results(metricType: MetricType) =
+    private fun Map<String, List<FranchiseSeasonInfo>>.results(metricType: MetricType) =
         when(metricType) {
             MetricType.TOTAL_CHAMPIONSHIPS -> this.totalChampionshipsResults()
             MetricType.CHAMPIONSHIP_APPEARANCES -> this.appearedInChampionshipResults()
@@ -61,7 +60,7 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             MetricType.ADVANCED_IN_PLAYOFFS_PER_POSTSEASON -> this.advancedInPlayoffsPerPostseasonResults()
         }
 
-    private fun Map<Metro, List<FranchiseSeasonInfo>>.totalChampionshipsResults() =
+    private fun Map<String, List<FranchiseSeasonInfo>>.totalChampionshipsResults() =
         this.map { (metro, seasons) ->
             val seasonIdsWithChampionship = seasons
                 .filter { it.wonChampionship ?: false }
@@ -74,7 +73,7 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             }.size
 
             MetroData(
-                metro.displayName,
+                metro,
                 MetricType.TOTAL_CHAMPIONSHIPS,
                 seasons.count { it.wonChampionship ?: false },
                 seasons.count() - totalDiscount,
@@ -82,10 +81,10 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             )
         }
 
-    private fun Map<Metro, List<FranchiseSeasonInfo>>.appearedInChampionshipResults() =
+    private fun Map<String, List<FranchiseSeasonInfo>>.appearedInChampionshipResults() =
         this.map { (metro, seasons) ->
             MetroData(
-                metro.displayName,
+                metro,
                 MetricType.CHAMPIONSHIP_APPEARANCES,
                 seasons.count { it.appearedInChampionship ?: false },
                 seasons.count(),
@@ -93,10 +92,10 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             )
         }
 
-    private fun Map<Metro, List<FranchiseSeasonInfo>>.advancedInPlayoffsResults() =
+    private fun Map<String, List<FranchiseSeasonInfo>>.advancedInPlayoffsResults() =
         this.map { (metro, seasons) ->
             MetroData(
-                metro.displayName,
+                metro,
                 MetricType.ADVANCED_IN_PLAYOFFS,
                 seasons.count { (it.roundsWon ?: 0) > 0 },
                 seasons.count(),
@@ -104,10 +103,10 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             )
         }
 
-    private fun Map<Metro, List<FranchiseSeasonInfo>>.qualifiedForPlayoffsResults() =
+    private fun Map<String, List<FranchiseSeasonInfo>>.qualifiedForPlayoffsResults() =
         this.map { (metro, seasons) ->
             MetroData(
-                metro.displayName,
+                metro,
                 MetricType.QUALIFIED_FOR_PLAYOFFS,
                 seasons.count { it.qualifiedForPostseason ?: false },
                 seasons.count(),
@@ -115,10 +114,10 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             )
         }
 
-    private fun Map<Metro, List<FranchiseSeasonInfo>>.standingResults(metricType: MetricType) =
+    private fun Map<String, List<FranchiseSeasonInfo>>.standingResults(metricType: MetricType) =
         this.map { (metro, seasons) ->
             MetroData(
-                metro.displayName,
+                metro,
                 metricType,
                 seasons.count { it.shouldBeCountedForMetric(metricType) },
                 seasons.count(),
@@ -137,7 +136,7 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             else -> throw IllegalArgumentException("Invalid metric type for standing: $metricType")
         }
 
-    private fun Map<Metro, List<FranchiseSeasonInfo>>.championshipWinningRateResults() =
+    private fun Map<String, List<FranchiseSeasonInfo>>.championshipWinningRateResults() =
         this.mapNotNull { (metro, seasons) ->
             if (seasons.all { it.appearedInChampionship != true }) return@mapNotNull null
 
@@ -150,7 +149,7 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
                 .count()
 
             MetroData(
-                metro.displayName,
+                metro,
                 MetricType.CHAMPIONSHIPS_WINNING_RATE,
                 qualifyingSeasons.count { it.wonChampionship == true },
                 qualifyingSeasons.count() - totalDiscount,
@@ -158,10 +157,10 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             )
         }
 
-    private fun Map<Metro, List<FranchiseSeasonInfo>>.championshipAppearancesPerPostseasonResults() =
+    private fun Map<String, List<FranchiseSeasonInfo>>.championshipAppearancesPerPostseasonResults() =
         this.map { (metro, seasons) ->
             MetroData(
-                metro.displayName,
+                metro,
                 MetricType.CHAMPIONSHIP_APPEARANCES_PER_POSTSEASON,
                 seasons.count { it.appearedInChampionship == true },
                 seasons.count { it.postSeasonRounds != null && it.qualifiedForPostseason == true },
@@ -169,10 +168,10 @@ class MetroDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, priva
             )
         }
 
-    private fun Map<Metro, List<FranchiseSeasonInfo>>.advancedInPlayoffsPerPostseasonResults() =
+    private fun Map<String, List<FranchiseSeasonInfo>>.advancedInPlayoffsPerPostseasonResults() =
         this.map { (metro, seasons) ->
             MetroData(
-                metro.displayName,
+                metro,
                 MetricType.ADVANCED_IN_PLAYOFFS_PER_POSTSEASON,
                 seasons.count { (it.roundsWon ?: 0) > 0 },
                 seasons.count { it.postSeasonRounds != null && it.qualifiedForPostseason == true },

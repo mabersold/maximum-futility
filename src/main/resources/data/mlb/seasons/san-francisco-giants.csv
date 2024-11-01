@@ -1,0 +1,123 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1903,New York,New York Giants,MLB,NL,,,,,false,,,
+1904,New York,New York Giants,MLB,NL,,FIRST,FIRST,,,,,
+1905,New York,New York Giants,MLB,NL,,FIRST,FIRST,,true,1,true,true
+1906,New York,New York Giants,MLB,NL,,,,,false,,,
+1907,New York,New York Giants,MLB,NL,,,,,false,,,
+1908,New York,New York Giants,MLB,NL,,,,,false,,,
+1909,New York,New York Giants,MLB,NL,,,,,false,,,
+1910,New York,New York Giants,MLB,NL,,,,,false,,,
+1911,New York,New York Giants,MLB,NL,,,FIRST,,true,0,true,false
+1912,New York,New York Giants,MLB,NL,,,FIRST,,true,0,true,false
+1913,New York,New York Giants,MLB,NL,,FIRST,FIRST,,true,0,true,false
+1914,New York,New York Giants,MLB,NL,,,,,false,,,
+1915,New York,New York Giants,MLB,NL,,,LAST,,false,,,
+1916,New York,New York Giants,MLB,NL,,,,,false,,,
+1917,New York,New York Giants,MLB,NL,,,FIRST,,true,0,true,false
+1918,New York,New York Giants,MLB,NL,,,,,false,,,
+1919,New York,New York Giants,MLB,NL,,,,,false,,,
+1920,New York,New York Giants,MLB,NL,,,,,false,,,
+1921,New York,New York Giants,MLB,NL,,,FIRST,,true,1,true,true
+1922,New York,New York Giants,MLB,NL,,,FIRST,,true,1,true,true
+1923,New York,New York Giants,MLB,NL,,,FIRST,,true,0,true,false
+1924,New York,New York Giants,MLB,NL,,FIRST,FIRST,,true,0,true,false
+1925,New York,New York Giants,MLB,NL,,,,,false,,,
+1926,New York,New York Giants,MLB,NL,,,,,false,,,
+1927,New York,New York Giants,MLB,NL,,,,,false,,,
+1928,New York,New York Giants,MLB,NL,,,,,false,,,
+1929,New York,New York Giants,MLB,NL,,,,,false,,,
+1930,New York,New York Giants,MLB,NL,,,,,false,,,
+1931,New York,New York Giants,MLB,NL,,,,,false,,,
+1932,New York,New York Giants,MLB,NL,,,,,false,,,
+1933,New York,New York Giants,MLB,NL,,,FIRST,,true,1,true,true
+1934,New York,New York Giants,MLB,NL,,,,,false,,,
+1935,New York,New York Giants,MLB,NL,,,,,false,,,
+1936,New York,New York Giants,MLB,NL,,,FIRST,,true,0,true,false
+1937,New York,New York Giants,MLB,NL,,,FIRST,,true,0,true,false
+1938,New York,New York Giants,MLB,NL,,,,,false,,,
+1939,New York,New York Giants,MLB,NL,,,,,false,,,
+1940,New York,New York Giants,MLB,NL,,,,,false,,,
+1941,New York,New York Giants,MLB,NL,,,,,false,,,
+1942,New York,New York Giants,MLB,NL,,,,,false,,,
+1943,New York,New York Giants,MLB,NL,,,LAST,,false,,,
+1944,New York,New York Giants,MLB,NL,,,,,false,,,
+1945,New York,New York Giants,MLB,NL,,,,,false,,,
+1946,New York,New York Giants,MLB,NL,,,LAST,,false,,,
+1947,New York,New York Giants,MLB,NL,,,,,false,,,
+1948,New York,New York Giants,MLB,NL,,,,,false,,,
+1949,New York,New York Giants,MLB,NL,,,,,false,,,
+1950,New York,New York Giants,MLB,NL,,,,,false,,,
+1951,New York,New York Giants,MLB,NL,,,FIRST,,true,0,true,false
+1952,New York,New York Giants,MLB,NL,,,,,false,,,
+1953,New York,New York Giants,MLB,NL,,,,,false,,,
+1954,New York,New York Giants,MLB,NL,,,FIRST,,true,1,true,true
+1955,New York,New York Giants,MLB,NL,,,,,false,,,
+1956,New York,New York Giants,MLB,NL,,,,,false,,,
+1957,New York,New York Giants,MLB,NL,,,,,false,,,
+1958,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1959,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1960,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1961,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1962,San Francisco Bay,San Francisco Giants,MLB,NL,,FIRST,FIRST,,true,0,true,false
+1963,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1964,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1965,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1966,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1967,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1968,San Francisco Bay,San Francisco Giants,MLB,NL,,,,,false,,,
+1969,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1970,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1971,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,FIRST,true,0,false,false
+1972,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1973,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1974,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1975,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1976,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1977,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1978,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1979,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1980,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1981,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1982,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1983,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1984,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,LAST,LAST,LAST,false,,,
+1985,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,LAST,false,,,
+1986,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1987,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,FIRST,true,0,false,false
+1988,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1989,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,FIRST,true,1,true,false
+1990,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1991,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1992,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1993,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1994,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,,,,
+1995,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,LAST,false,,,
+1996,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,LAST,false,,,
+1997,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,FIRST,true,0,false,false
+1998,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+1999,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2000,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,FIRST,FIRST,FIRST,true,0,false,false
+2001,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2002,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,true,2,true,false
+2003,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,FIRST,true,0,false,false
+2004,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2005,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2006,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2007,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,LAST,false,,,
+2008,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2009,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2010,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,FIRST,true,3,true,true
+2011,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2012,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,FIRST,true,3,true,true
+2013,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2014,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,true,4,true,true
+2015,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2016,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,true,1,false,false
+2017,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,LAST_TIED,LAST,LAST,false,,,
+2018,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2019,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2020,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2021,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,FIRST,FIRST,FIRST,true,0,false,false
+2022,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2023,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,
+2024,San Francisco Bay,San Francisco Giants,MLB,NL,NL West,,,,false,,,

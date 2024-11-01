@@ -1,0 +1,28 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1998,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,,LAST,LAST,false,,,
+1999,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,,,LAST,false,,,
+2000,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,,,LAST,false,,,
+2001,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,LAST_TIED,LAST,LAST,false,,,
+2002,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,LAST_TIED,LAST_TIED,LAST,false,,,
+2003,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,,,LAST,false,,,
+2004,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,,,,false,,,
+2005,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,,,LAST,false,,,
+2006,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,LAST,LAST,LAST,false,,,
+2007,Tampa Bay,Tampa Bay Devil Rays,MLB,AL,AL East,LAST,LAST,LAST,false,,,
+2008,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,FIRST,true,2,true,false
+2009,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,false,,,
+2010,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,FIRST,FIRST,true,0,false,false
+2011,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,true,0,false,false
+2012,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,false,,,
+2013,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,true,1,false,false
+2014,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,false,,,
+2015,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,false,,,
+2016,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,LAST,false,,,
+2017,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,false,,,
+2018,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,false,,,
+2019,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,true,1,false,false
+2020,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,FIRST,FIRST,true,3,true,false
+2021,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,FIRST,FIRST,true,0,false,false
+2022,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,true,0,false,false
+2023,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,true,0,false,false
+2024,Tampa Bay,Tampa Bay Rays,MLB,AL,AL East,,,,false,,,

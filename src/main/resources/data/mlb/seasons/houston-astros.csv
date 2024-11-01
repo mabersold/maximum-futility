@@ -1,0 +1,64 @@
+season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+1962,Houston,Houston Colt .45s,MLB,NL,,,,,false,,,
+1963,Houston,Houston Colt .45s,MLB,NL,,,,,false,,,
+1964,Houston,Houston Colt .45s,MLB,NL,,,,,false,,,
+1965,Houston,Houston Astros,MLB,NL,,,,,false,,,
+1966,Houston,Houston Astros,MLB,NL,,,,,false,,,
+1967,Houston,Houston Astros,MLB,NL,,,,,false,,,
+1968,Houston,Houston Astros,MLB,NL,,,LAST,,false,,,
+1969,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1970,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1971,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1972,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1973,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1974,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1975,Houston,Houston Astros,MLB,NL,NL West,,LAST,LAST,false,,,
+1976,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1977,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1978,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1979,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1980,Houston,Houston Astros,MLB,NL,NL West,,FIRST,FIRST,true,0,false,false
+1981,Houston,Houston Astros,MLB,NL,NL West,,,,true,0,false,false
+1982,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1983,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1984,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1985,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1986,Houston,Houston Astros,MLB,NL,NL West,,,FIRST,true,0,false,false
+1987,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1988,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1989,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1990,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1991,Houston,Houston Astros,MLB,NL,NL West,,LAST,LAST,false,,,
+1992,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1993,Houston,Houston Astros,MLB,NL,NL West,,,,false,,,
+1994,Houston,Houston Astros,MLB,NL,NL Central,,,,,,,
+1995,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+1996,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+1997,Houston,Houston Astros,MLB,NL,NL Central,,,FIRST,true,0,false,false
+1998,Houston,Houston Astros,MLB,NL,NL Central,,,FIRST,true,0,false,false
+1999,Houston,Houston Astros,MLB,NL,NL Central,,,FIRST,true,0,false,false
+2000,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+2001,Houston,Houston Astros,MLB,NL,NL Central,,FIRST_TIED,FIRST_TIED,true,0,false,false
+2002,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+2003,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+2004,Houston,Houston Astros,MLB,NL,NL Central,,,,true,1,false,false
+2005,Houston,Houston Astros,MLB,NL,NL Central,,,,true,2,true,false
+2006,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+2007,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+2008,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+2009,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+2010,Houston,Houston Astros,MLB,NL,NL Central,,,,false,,,
+2011,Houston,Houston Astros,MLB,NL,NL Central,LAST,LAST,LAST,false,,,
+2012,Houston,Houston Astros,MLB,NL,NL Central,LAST,LAST,LAST,false,,,
+2013,Houston,Houston Astros,MLB,AL,AL West,LAST,LAST,LAST,false,,,
+2014,Houston,Houston Astros,MLB,AL,AL West,,,,false,,,
+2015,Houston,Houston Astros,MLB,AL,AL West,,,,true,1,false,false
+2016,Houston,Houston Astros,MLB,AL,AL West,,,,false,,,
+2017,Houston,Houston Astros,MLB,AL,AL West,,,FIRST,true,3,true,true
+2018,Houston,Houston Astros,MLB,AL,AL West,,,FIRST,true,1,false,false
+2019,Houston,Houston Astros,MLB,AL,AL West,FIRST,FIRST,FIRST,true,2,true,false
+2020,Houston,Houston Astros,MLB,AL,AL West,,,,true,2,false,false
+2021,Houston,Houston Astros,MLB,AL,AL West,,,FIRST,true,2,true,false
+2022,Houston,Houston Astros,MLB,AL,AL West,,FIRST,FIRST,true,3,true,true
+2023,Houston,Houston Astros,MLB,AL,AL West,,,FIRST_TIED,true,1,false,false
+2024,Houston,Houston Astros,MLB,AL,AL West,,,FIRST,true,0,false,false

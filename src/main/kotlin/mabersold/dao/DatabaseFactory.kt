@@ -65,7 +65,7 @@ object DatabaseFactory {
             }
 
             // Populate franchises
-            populate("data/baseball/mlb-franchises.csv", leagues, ::insertFranchise)
+            populate("data/mlb/mlb-franchises.csv", leagues, ::insertFranchise)
             populate("data/nba/nba-franchises.csv", leagues, ::insertFranchise)
             populate("data/nhl/nhl-franchises.csv", leagues, ::insertFranchise)
             populate("data/football/nfl-franchises.csv", leagues, ::insertFranchise)
@@ -77,7 +77,7 @@ object DatabaseFactory {
             }
 
             // Populate seasons
-            populate("data/baseball/mlb-seasons.csv", leagues, ::insertSeason)
+            populate("data/mlb/mlb-seasons.csv", leagues, ::insertSeason)
             populate("data/nba/nba-seasons.csv", leagues, ::insertSeason)
             populate("data/nhl/nhl-seasons.csv", leagues, ::insertSeason)
             populate("data/football/nfl-seasons.csv", leagues, ::insertSeason)
@@ -90,36 +90,36 @@ object DatabaseFactory {
 
             // Populate franchise seasons and postseasons
             val franchiseSeasonData = mapOf(
-                "data/baseball/seasons/arizona-diamondbacks.csv" to "Arizona Diamondbacks",
-                "data/baseball/seasons/atlanta-braves.csv" to "Atlanta Braves",
-                "data/baseball/seasons/baltimore-orioles.csv" to "Baltimore Orioles",
-                "data/baseball/seasons/boston-red-sox.csv" to "Boston Red Sox",
-                "data/baseball/seasons/chicago-cubs.csv" to "Chicago Cubs",
-                "data/baseball/seasons/chicago-white-sox.csv" to "Chicago White Sox",
-                "data/baseball/seasons/cincinnati-reds.csv" to "Cincinnati Reds",
-                "data/baseball/seasons/cleveland-guardians.csv" to "Cleveland Guardians",
-                "data/baseball/seasons/colorado-rockies.csv" to "Colorado Rockies",
-                "data/baseball/seasons/detroit-tigers.csv" to "Detroit Tigers",
-                "data/baseball/seasons/houston-astros.csv" to "Houston Astros",
-                "data/baseball/seasons/kansas-city-royals.csv" to "Kansas City Royals",
-                "data/baseball/seasons/los-angeles-angels.csv" to "Los Angeles Angels",
-                "data/baseball/seasons/los-angeles-dodgers.csv" to "Los Angeles Dodgers",
-                "data/baseball/seasons/miami-marlins.csv" to "Miami Marlins",
-                "data/baseball/seasons/milwaukee-brewers.csv" to "Milwaukee Brewers",
-                "data/baseball/seasons/minnesota-twins.csv" to "Minnesota Twins",
-                "data/baseball/seasons/new-york-mets.csv" to "New York Mets",
-                "data/baseball/seasons/new-york-yankees.csv" to "New York Yankees",
-                "data/baseball/seasons/oakland-athletics.csv" to "Oakland Athletics",
-                "data/baseball/seasons/philadelphia-phillies.csv" to "Philadelphia Phillies",
-                "data/baseball/seasons/pittsburgh-pirates.csv" to "Pittsburgh Pirates",
-                "data/baseball/seasons/san-diego-padres.csv" to "San Diego Padres",
-                "data/baseball/seasons/san-francisco-giants.csv" to "San Francisco Giants",
-                "data/baseball/seasons/seattle-mariners.csv" to "Seattle Mariners",
-                "data/baseball/seasons/st-louis-cardinals.csv" to "St. Louis Cardinals",
-                "data/baseball/seasons/tampa-bay-rays.csv" to "Tampa Bay Rays",
-                "data/baseball/seasons/texas-rangers.csv" to "Texas Rangers",
-                "data/baseball/seasons/toronto-blue-jays.csv" to "Toronto Blue Jays",
-                "data/baseball/seasons/washington-nationals.csv" to "Washington Nationals",
+                "data/mlb/seasons/arizona-diamondbacks.csv" to "Arizona Diamondbacks",
+                "data/mlb/seasons/atlanta-braves.csv" to "Atlanta Braves",
+                "data/mlb/seasons/baltimore-orioles.csv" to "Baltimore Orioles",
+                "data/mlb/seasons/boston-red-sox.csv" to "Boston Red Sox",
+                "data/mlb/seasons/chicago-cubs.csv" to "Chicago Cubs",
+                "data/mlb/seasons/chicago-white-sox.csv" to "Chicago White Sox",
+                "data/mlb/seasons/cincinnati-reds.csv" to "Cincinnati Reds",
+                "data/mlb/seasons/cleveland-guardians.csv" to "Cleveland Guardians",
+                "data/mlb/seasons/colorado-rockies.csv" to "Colorado Rockies",
+                "data/mlb/seasons/detroit-tigers.csv" to "Detroit Tigers",
+                "data/mlb/seasons/houston-astros.csv" to "Houston Astros",
+                "data/mlb/seasons/kansas-city-royals.csv" to "Kansas City Royals",
+                "data/mlb/seasons/los-angeles-angels.csv" to "Los Angeles Angels",
+                "data/mlb/seasons/los-angeles-dodgers.csv" to "Los Angeles Dodgers",
+                "data/mlb/seasons/miami-marlins.csv" to "Miami Marlins",
+                "data/mlb/seasons/milwaukee-brewers.csv" to "Milwaukee Brewers",
+                "data/mlb/seasons/minnesota-twins.csv" to "Minnesota Twins",
+                "data/mlb/seasons/new-york-mets.csv" to "New York Mets",
+                "data/mlb/seasons/new-york-yankees.csv" to "New York Yankees",
+                "data/mlb/seasons/oakland-athletics.csv" to "Oakland Athletics",
+                "data/mlb/seasons/philadelphia-phillies.csv" to "Philadelphia Phillies",
+                "data/mlb/seasons/pittsburgh-pirates.csv" to "Pittsburgh Pirates",
+                "data/mlb/seasons/san-diego-padres.csv" to "San Diego Padres",
+                "data/mlb/seasons/san-francisco-giants.csv" to "San Francisco Giants",
+                "data/mlb/seasons/seattle-mariners.csv" to "Seattle Mariners",
+                "data/mlb/seasons/st-louis-cardinals.csv" to "St. Louis Cardinals",
+                "data/mlb/seasons/tampa-bay-rays.csv" to "Tampa Bay Rays",
+                "data/mlb/seasons/texas-rangers.csv" to "Texas Rangers",
+                "data/mlb/seasons/toronto-blue-jays.csv" to "Toronto Blue Jays",
+                "data/mlb/seasons/washington-nationals.csv" to "Washington Nationals",
                 "data/nba/seasons/anderson-packers.csv" to "Anderson Packers",
                 "data/nba/seasons/atlanta-hawks.csv" to "Atlanta Hawks",
                 "data/nba/seasons/baltimore-bullets.csv" to "Baltimore Bullets (original)",

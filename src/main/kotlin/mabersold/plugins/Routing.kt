@@ -9,6 +9,7 @@ import io.ktor.server.routing.route
 import mabersold.plugins.routes.franchiseRoutes
 import mabersold.plugins.routes.leagueRoutes
 import mabersold.plugins.routes.metroRoutes
+import mabersold.plugins.routes.reportRoutes
 import mabersold.plugins.routes.seasonRoutes
 
 fun Application.configureRouting() {
@@ -21,6 +22,7 @@ fun Application.configureRouting() {
             seasonRoutes()
             leagueRoutes()
             franchiseRoutes()
+            reportRoutes()
         }
     }
 }

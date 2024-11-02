@@ -20,6 +20,7 @@ import mabersold.models.api.MetroOptions
 import mabersold.models.api.MetroReport
 import mabersold.services.LeagueDataService
 import mabersold.services.MetroDataService
+import mabersold.services.ReportingDataService
 import mabersold.services.SeasonDataService
 import org.koin.ktor.ext.inject
 
@@ -27,6 +28,7 @@ fun Route.metroRoutes() {
     val seasonDataService by inject<SeasonDataService>()
     val leagueDataService by inject<LeagueDataService>()
     val metroDataService by inject<MetroDataService>()
+    val reportingDataService by inject<ReportingDataService>()
 
     data class ReportResults(
         val metricType: MetricType,
@@ -50,7 +52,7 @@ fun Route.metroRoutes() {
             startYear,
             endYear,
             leagues,
-            metroDataService.getMetroDataByMetric(metricType, startYear, endYear, leagues)
+            reportingDataService.getMetroReportByMetric(metricType, startYear, endYear, leagues)
                 .filter { minLastActiveYear == null || it.lastActiveYear >= minLastActiveYear}
                 .sortedWith(compareBy<MetroData>{ it.rate }.thenByDescending { it.opportunities })
         )

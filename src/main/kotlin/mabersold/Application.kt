@@ -22,6 +22,7 @@ import mabersold.plugins.configureRouting
 import mabersold.services.FranchiseDataService
 import mabersold.services.LeagueDataService
 import mabersold.services.MetroDataService
+import mabersold.services.ReportingDataService
 import mabersold.services.SeasonDataService
 import org.koin.core.module.dsl.bind
 import org.koin.core.module.dsl.singleOf
@@ -60,6 +61,7 @@ val appModule = module {
     singleOf(::MetroDAOImpl) { bind<MetroDAO>() }
     singleOf(::SeasonDataService)
     singleOf(::MetroDataService)
+    singleOf(::ReportingDataService)
     singleOf(::LeagueDataService)
     singleOf(::FranchiseDataService)
 }

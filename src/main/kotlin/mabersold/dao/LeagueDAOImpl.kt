@@ -14,7 +14,8 @@ class LeagueDAOImpl : LeagueDAO {
     private fun resultRowToLeague(row: ResultRow) = League(
         id = row[Leagues.id].value,
         name = row[Leagues.name],
-        sport = row[Leagues.sport]
+        sport = row[Leagues.sport],
+        label = row[Leagues.label]
     )
 
     override suspend fun all(): List<League> = dbQuery {

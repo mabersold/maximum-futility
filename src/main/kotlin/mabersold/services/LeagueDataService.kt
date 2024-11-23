@@ -8,14 +8,15 @@ class LeagueDataService(private val leagueDAO: LeagueDAO) {
         League(
             id = l.id,
             name = l.name,
-            sport = l.sport
+            sport = l.sport,
+            label = l.label
         )
     }
 
     suspend fun create(name: String, sport: String): League? {
         val result = leagueDAO.create(name, sport)
         return result?.let {
-            League(it.id, it.name, it.sport)
+            League(it.id, it.name, it.sport, it.label)
         }
     }
 
@@ -23,7 +24,7 @@ class LeagueDataService(private val leagueDAO: LeagueDAO) {
         leagueDAO.update(leagueId, name, sport)
 
         return leagueDAO.get(leagueId)?.let {
-            League(it.id, it.name, it.sport)
+            League(it.id, it.name, it.sport, it.label)
         }
     }
 

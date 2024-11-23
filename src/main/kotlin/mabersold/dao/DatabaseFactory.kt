@@ -61,7 +61,8 @@ object DatabaseFactory {
                 League(
                     id = row[Leagues.id].value,
                     name = row[Leagues.name],
-                    sport = row[Leagues.sport]
+                    sport = row[Leagues.sport],
+                    label = row[Leagues.label]
                 )
             }
 
@@ -335,6 +336,7 @@ object DatabaseFactory {
     private fun insertLeague(csvRow: Map<String, String>) = Leagues.insert {
         it[name] = csvRow["name"]!!
         it[sport] = csvRow["sport"]!!
+        it[label] = csvRow["name"]!!.lowercase()
     }
 
     private fun insertMetro(csvRow: Map<String, String>) = Metros.insert {

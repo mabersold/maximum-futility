@@ -339,6 +339,7 @@ object DatabaseFactory {
 
     private fun insertMetro(csvRow: Map<String, String>) = Metros.insert {
         it[name] = csvRow["name"]!!
+        it[label] = csvRow["name"]!!.lowercase().replace(' ', '-').replace(".", "")
     }
 
     private fun insertFranchise(csvRow: Map<String, String>, leagues: List<League>) = Franchises.insert {

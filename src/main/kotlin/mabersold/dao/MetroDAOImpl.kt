@@ -10,7 +10,8 @@ class MetroDAOImpl : MetroDAO {
     private fun resultRowToMetro(row: ResultRow): Metro {
         return Metro(
             id = row[Metros.id].value,
-            name = row[Metros.name]
+            name = row[Metros.name],
+            label = row[Metros.label]
         )
     }
 

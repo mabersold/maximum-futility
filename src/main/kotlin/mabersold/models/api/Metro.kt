@@ -5,5 +5,6 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Metro(
     val id: Int,
-    val name: String
+    val name: String,
+    val label: String
 )

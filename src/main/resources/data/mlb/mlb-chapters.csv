@@ -1,0 +1,126 @@
+franchise,name,metro,start_year,end_year,conference,division
+Arizona Diamondbacks,Arizona Diamondbacks,Phoenix,1998,,NL,NL West
+Atlanta Braves,Boston Red Stockings,Boston,1871,1875,,
+Atlanta Braves,Boston Red Caps,Boston,1876,1882,,
+Atlanta Braves,Boston Beaneaters,Boston,1883,1902,,
+Atlanta Braves,Boston Beaneaters,Boston,1903,1906,NL,
+Atlanta Braves,Boston Doves,Boston,1907,1910,NL,
+Atlanta Braves,Boston Rustlers,Boston,1911,1911,NL,
+Atlanta Braves,Boston Braves,Boston,1912,1935,NL,
+Atlanta Braves,Boston Bees,Boston,1936,1940,NL,
+Atlanta Braves,Boston Braves,Boston,1941,1952,NL,
+Atlanta Braves,Milwaukee Braves,Milwaukee,1953,1965,NL,
+Atlanta Braves,Atlanta Braves,Atlanta,1966,1968,NL,
+Atlanta Braves,Atlanta Braves,Atlanta,1969,1993,NL,NL West
+Atlanta Braves,Atlanta Braves,Atlanta,1994,,NL,NL East
+Baltimore Orioles,Milwaukee Brewers,Milwaukee,1894,1901,,
+Baltimore Orioles,St. Louis Browns,St. Louis,1902,1953,AL,
+Baltimore Orioles,Baltimore Orioles,Baltimore,1954,1968,AL,
+Baltimore Orioles,Baltimore Orioles,Baltimore,1969,,AL,AL East
+Boston Red Sox,Boston Americans,Boston,1901,1907,AL,
+Boston Red Sox,Boston Red Sox,Boston,1908,1968,AL,
+Boston Red Sox,Boston Red Sox,Boston,1969,,AL,AL East
+Chicago Cubs,Chicago White Stockings,Chicago,1876,1889,,
+Chicago Cubs,Chicago Colts,Chicago,1890,1897,,
+Chicago Cubs,Chicago Orphans,Chicago,1898,1902,,
+Chicago Cubs,Chicago Cubs,Chicago,1903,1968,NL,
+Chicago Cubs,Chicago Cubs,Chicago,1969,1993,NL,NL East
+Chicago Cubs,Chicago Cubs,Chicago,1994,,NL,NL Central
+Chicago White Sox,Sioux City Cornhuskers,Sioux City,1894,1894,,
+Chicago White Sox,St. Paul Saints,Minneapolis,1895,1899,,
+Chicago White Sox,Chicago White Stockings,Chicago,1900,1903,AL,
+Chicago White Sox,Chicago White Sox,Chicago,1904,1968,AL,
+Chicago White Sox,Chicago White Sox,Chicago,1969,1993,AL,AL West
+Chicago White Sox,Chicago White Sox,Chicago,1994,,AL,AL Central
+Cincinnati Reds,Cincinnati Red Stockings,Cincinnati,1881,1889,,
+Cincinnati Reds,Cincinnati Reds,Cincinnati,1890,1952,NL,
+Cincinnati Reds,Cincinnati Redlegs,Cincinnati,1953,1958,NL,
+Cincinnati Reds,Cincinnati Reds,Cincinnati,1959,1968,NL,
+Cincinnati Reds,Cincinnati Reds,Cincinnati,1969,1993,NL,NL West
+Cincinnati Reds,Cincinnati Reds,Cincinnati,1994,,NL,NL Central
+Cleveland Guardians,Grand Rapids Rustlers,Grand Rapids,1894,1899,,
+Cleveland Guardians,Cleveland Lake Shores,Cleveland,1900,1900,,
+Cleveland Guardians,Cleveland Blue Birds,Cleveland,1901,1901,,
+Cleveland Guardians,Cleveland Bronchos,Cleveland,1902,1902,,
+Cleveland Guardians,Cleveland Naps,Cleveland,1903,1914,AL,
+Cleveland Guardians,Cleveland Indians,Cleveland,1915,1968,AL,
+Cleveland Guardians,Cleveland Indians,Cleveland,1969,1993,AL,AL East
+Cleveland Guardians,Cleveland Indians,Cleveland,1994,2021,AL,AL Central
+Cleveland Guardians,Cleveland Guardians,Cleveland,2022,,AL,AL Central
+Colorado Rockies,Colorado Rockies,Denver,1993,,NL,NL West
+Detroit Tigers,Detroit Tigers,Detroit,1901,1968,AL,
+Detroit Tigers,Detroit Tigers,Detroit,1969,1997,AL,AL East
+Detroit Tigers,Detroit Tigers,Detroit,1998,,AL,AL Central
+Houston Astros,Houston Colt .45s,Houston,1962,1964,NL,
+Houston Astros,Houston Astros,Houston,1965,1968,NL,
+Houston Astros,Houston Astros,Houston,1969,1993,NL,NL West
+Houston Astros,Houston Astros,Houston,1994,2012,NL,NL Central
+Houston Astros,Houston Astros,Houston,2013,,AL,AL West
+Kansas City Royals,Kansas City Royals,Kansas City,1969,1993,AL,AL West
+Kansas City Royals,Kansas City Royals,Kansas City,1994,,AL,AL Central
+Los Angeles Angels,Los Angeles Angels,Los Angeles,1961,1964,AL,
+Los Angeles Angels,California Angels,Los Angeles,1965,1968,AL,
+Los Angeles Angels,California Angels,Los Angeles,1969,1996,AL,AL West
+Los Angeles Angels,Anaheim Angels,Los Angeles,1997,2004,AL,AL West
+Los Angeles Angels,Los Angeles Angels of Anaheim,Los Angeles,2005,2015,AL,AL West
+Los Angeles Angels,Los Angeles Angels,Los Angeles,2016,,AL,AL West
+Los Angeles Dodgers,Brooklyn Grays,New York,1883,1883,,
+Los Angeles Dodgers,Brooklyn Atlantics,New York,1884,1884,,
+Los Angeles Dodgers,Brooklyn Grays,New York,1885,1887,,
+Los Angeles Dodgers,Brooklyn Bridegrooms,New York,1888,1890,,
+Los Angeles Dodgers,Brooklyn Grooms,New York,1891,1895,,
+Los Angeles Dodgers,Brooklyn Bridegrooms,New York,1896,1898,,
+Los Angeles Dodgers,Brooklyn Superbas,New York,1899,1910,NL,
+Los Angeles Dodgers,Brooklyn Trolley Dodgers,New York,1911,1912,NL,
+Los Angeles Dodgers,Brooklyn Dodgers,New York,1913,1913,NL,
+Los Angeles Dodgers,Brooklyn Robins,New York,1914,1931,NL,
+Los Angeles Dodgers,Brooklyn Dodgers,New York,1932,1957,NL,
+Los Angeles Dodgers,Los Angeles Dodgers,Los Angeles,1958,1968,NL,
+Los Angeles Dodgers,Los Angeles Dodgers,Los Angeles,1969,,NL,NL West
+Miami Marlins,Florida Marlins,Miami,1993,2011,NL,NL East
+Miami Marlins,Miami Marlins,Miami,2012,,NL,NL East
+Milwaukee Brewers,Seattle Pilots,Seattle,1969,1969,AL,AL West
+Milwaukee Brewers,Milwaukee Brewers,Milwaukee,1970,1971,AL,AL West
+Milwaukee Brewers,Milwaukee Brewers,Milwaukee,1972,1993,AL,AL East
+Milwaukee Brewers,Milwaukee Brewers,Milwaukee,1994,1997,AL,AL Central
+Milwaukee Brewers,Milwaukee Brewers,Milwaukee,1998,,NL,NL Central
+Minnesota Twins,Washington Senators,Washington,1901,1960,AL,
+Minnesota Twins,Minnesota Twins,Minneapolis,1961,1968,AL,
+Minnesota Twins,Minnesota Twins,Minneapolis,1969,1993,AL,AL West
+Minnesota Twins,Minnesota Twins,Minneapolis,1994,,AL,AL Central
+New York Mets,New York Mets,New York,1962,1968,NL,
+New York Mets,New York Mets,New York,1969,,NL,NL East
+New York Yankees,New York Highlanders,New York,1903,1912,AL,
+New York Yankees,New York Yankees,New York,1913,1968,AL,
+New York Yankees,New York Yankees,New York,1969,,AL,AL East
+Oakland Athletics,Philadelphia Athletics,Philadelphia,1901,1954,AL,
+Oakland Athletics,Kansas City Athletics,Kansas City,1955,1967,AL,
+Oakland Athletics,Oakland Athletics,San Francisco Bay,1968,1968,AL,
+Oakland Athletics,Oakland Athletics,San Francisco Bay,1969,2024,AL,AL West
+Philadelphia Phillies,Philadelphia Quakers,Philadelphia,1883,1889,NL,
+Philadelphia Phillies,Philadelphia Phillies,Philadelphia,1890,1968,NL,
+Philadelphia Phillies,Philadelphia Phillies,Philadelphia,1969,,NL,NL East
+Pittsburgh Pirates,Pittsburgh Alleghenys,Pittsburgh,1882,1890,NL,
+Pittsburgh Pirates,Pittsburgh Pirates,Pittsburgh,1891,1968,NL,
+Pittsburgh Pirates,Pittsburgh Pirates,Pittsburgh,1969,1993,NL,NL East
+Pittsburgh Pirates,Pittsburgh Pirates,Pittsburgh,1994,,NL,NL Central
+San Diego Padres,San Diego Padres,San Diego,1969,,NL,NL West
+San Francisco Giants,New York Gothams,New York,1883,1884,NL,
+San Francisco Giants,New York Giants,New York,1885,1957,NL,
+San Francisco Giants,San Francisco Giants,San Francisco Bay,1958,1968,NL,
+San Francisco Giants,San Francisco Giants,San Francisco Bay,1969,,NL,NL West
+Seattle Mariners,Seattle Mariners,Seattle,1977,,AL,AL West
+St. Louis Cardinals,St. Louis Brown Stockings,St. Louis,1882,1882,NL,
+St. Louis Cardinals,St. Louis Browns,St. Louis,1883,1898,NL,
+St. Louis Cardinals,St. Louis Perfectos,St. Louis,1899,1899,NL,
+St. Louis Cardinals,St. Louis Cardinals,St. Louis,1900,1968,NL,
+St. Louis Cardinals,St. Louis Cardinals,St. Louis,1969,1993,NL,NL East
+St. Louis Cardinals,St. Louis Cardinals,St. Louis,1994,,NL,NL Central
+Tampa Bay Rays,Tampa Bay Devil Rays,Tampa Bay,1998,2007,AL,AL East
+Tampa Bay Rays,Tampa Bay Rays,Tampa Bay,2008,,AL,AL East
+Texas Rangers,Washington Senators,Washington,1961,1968,AL,
+Texas Rangers,Washington Senators,Washington,1969,1971,AL,AL East
+Texas Rangers,Texas Rangers,Dallas,1972,,AL,AL West
+Toronto Blue Jays,Toronto Blue Jays,Toronto,1977,,AL,AL East
+Washington Nationals,Montreal Expos,Montreal,1969,2004,NL,NL East
+Washington Nationals,Washington Nationals,Washington,2005,,NL,NL East

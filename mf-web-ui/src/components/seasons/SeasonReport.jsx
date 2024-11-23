@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Box, Alert } from "@mui/material";
 import Structure from "./Structure";
 import TeamDisplay from "./TeamDisplay";

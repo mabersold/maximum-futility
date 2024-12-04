@@ -69,7 +69,7 @@ fun Route.leagueRoutes() {
                 call.respond(HttpStatusCode.UnprocessableEntity, "Invalid request: league name and sport are required")
             }
 
-            val created = leagueDataService.create(request.name!!, request.sport!!)
+            val created = leagueDataService.create(request.name!!, request.sport!!, request.label!!)
             created?.let {
                 call.respond(it)
             }

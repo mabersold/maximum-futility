@@ -13,8 +13,8 @@ class LeagueDataService(private val leagueDAO: LeagueDAO) {
         )
     }
 
-    suspend fun create(name: String, sport: String): League? {
-        val result = leagueDAO.create(name, sport)
+    suspend fun create(name: String, sport: String, label: String): League? {
+        val result = leagueDAO.create(name, sport, label)
         return result?.let {
             League(it.id, it.name, it.sport, it.label)
         }

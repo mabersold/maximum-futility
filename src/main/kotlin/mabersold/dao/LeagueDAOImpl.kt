@@ -28,10 +28,11 @@ class LeagueDAOImpl : LeagueDAO {
             .singleOrNull()
     }
 
-    override suspend fun create(name: String, sport: String): League? = dbQuery {
+    override suspend fun create(name: String, sport: String, label: String): League? = dbQuery {
         val insertStatement = Leagues.insert {
             it[Leagues.name] = name
             it[Leagues.sport] = sport
+            it[Leagues.label] = label
         }
         insertStatement.resultedValues?.singleOrNull()?.let(::resultRowToLeague)
     }

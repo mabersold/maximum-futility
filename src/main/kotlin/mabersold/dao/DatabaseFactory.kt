@@ -78,20 +78,6 @@ object DatabaseFactory {
                 row[Franchises.name] to row[Franchises.id].value
             }
 
-            // Populate chapters
-            val mlbChapters = getCSVData("data/mlb/mlb-chapters.csv")
-            for (row in mlbChapters) {
-                val franchiseId = franchiseIds[row["franchise"]!!]!!
-                val name = row["name"]!!
-                val metroId = metroIds[row["metro"]!!]!!
-                val startYear = row["start_year"]!!.toInt()
-                val endYear = row["end_year"]?.toIntOrNull()
-                val conference = row["conference"]
-                val division = row["division"]
-                println("Inserting chapter for $franchiseId, $name, $metroId, $startYear, $endYear")
-                insertChapter(franchiseId, name, metroId, startYear, endYear, conference, division)
-            }
-
             // Populate seasons
             populate("data/mlb/mlb-seasons.csv", leagues, ::insertSeason)
             populate("data/nba/nba-seasons.csv", leagues, ::insertSeason)
@@ -358,16 +344,6 @@ object DatabaseFactory {
         it[totalMajorDivisions] = csvRow["total_major_divisions"]!!.toInt()
         it[totalMinorDivisions] = csvRow["total_minor_divisions"]!!.toInt()
         it[postSeasonRounds] = csvRow["postseason_rounds"].getNullableInt()
-    }
-
-    private fun insertChapter(franchise: Int, name: String, metro: Int, start: Int, end: Int?, conference: String?, division: String?) = Chapters.insert {
-        it[franchiseId] = franchise
-        it[teamName] = name
-        it[metroId] = metro
-        it[startYear] = start
-        it[endYear] = end
-        it[conferenceName] = conference
-        it[divisionName] = division
     }
 
     private fun populateFranchiseSeasons(fileName: String, seasonIds: Map<Pair<Int, Int>, Int>, teamId: Int, metroIds: Map<String, Int>, leagueIds: Map<String, Int>) {

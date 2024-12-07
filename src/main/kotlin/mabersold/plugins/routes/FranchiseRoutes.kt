@@ -16,6 +16,7 @@ import io.ktor.server.routing.patch
 import io.ktor.server.routing.post
 import io.ktor.server.routing.route
 import java.io.OutputStreamWriter
+import mabersold.models.api.requests.CreateFranchiseRequest
 import mabersold.models.api.requests.SaveFranchiseRequest
 import mabersold.services.FranchiseDataService
 import org.koin.ktor.ext.inject
@@ -70,16 +71,9 @@ fun Route.franchiseRoutes() {
             }
         }
         post {
-            val request = call.receive<SaveFranchiseRequest>()
-            if (!request.canCreate()) {
-                call.respond(
-                    HttpStatusCode.UnprocessableEntity,
-                    "Invalid request: name, is_defunct, and league_id must be provided"
-                )
-                return@post
-            }
+            val request = call.receive<CreateFranchiseRequest>()
 
-            val created = franchiseDataService.createFranchise(request.name!!, request.isDefunct!!, request.leagueId!!)
+            val created = franchiseDataService.createFranchise(request)
             created?.let {
                 call.respond(it)
             }

@@ -5,8 +5,11 @@ import io.ktor.server.application.Application
 import io.ktor.server.application.install
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
+import io.ktor.server.plugins.callloging.CallLogging
 import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.server.plugins.cors.routing.CORS
+import mabersold.dao.ChapterDAO
+import mabersold.dao.ChapterDAOImpl
 import mabersold.dao.DatabaseFactory
 import mabersold.dao.FranchiseDAO
 import mabersold.dao.FranchiseDAOImpl
@@ -47,6 +50,7 @@ fun Application.main(args: Array<String>) {
     install(CORS) {
         anyHost()
     }
+    install(CallLogging)
 
     val createSchema = args.isNotEmpty() && args.contains("--createSchema")
     DatabaseFactory.init(createSchema)
@@ -59,6 +63,7 @@ val appModule = module {
     singleOf(::LeagueDAOImpl) { bind<LeagueDAO>() }
     singleOf(::FranchiseDAOImpl) { bind<FranchiseDAO>() }
     singleOf(::MetroDAOImpl) { bind<MetroDAO>() }
+    singleOf(::ChapterDAOImpl) { bind<ChapterDAO>() }
     singleOf(::SeasonDataService)
     singleOf(::MetroDataService)
     singleOf(::ReportingDataService)

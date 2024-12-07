@@ -8,5 +8,6 @@ data class Franchise(
     val name: String,
     val isDefunct: Boolean,
     val leagueId: Int,
-    val league: String? = null
+    val league: String? = null,
+    val chapters: List<Chapter>
 )

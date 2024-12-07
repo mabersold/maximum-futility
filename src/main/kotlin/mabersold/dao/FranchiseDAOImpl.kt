@@ -17,7 +17,7 @@ class FranchiseDAOImpl : FranchiseDAO {
         name = row[Franchises.name],
         isDefunct = row[Franchises.isDefunct],
         leagueId = row[Franchises.leagueId].value,
-        league = row[Leagues.name]
+        league = row.getOrNull(Leagues.name) ?: ""
     )
 
     override suspend fun allByLeagueId(leagueId: Int): List<Franchise> = dbQuery {
@@ -44,6 +44,7 @@ class FranchiseDAOImpl : FranchiseDAO {
             it[Franchises.isDefunct] = isDefunct
             it[Franchises.leagueId] = leagueId
         }
+
         insertStatement.resultedValues?.singleOrNull()?.let(::resultRowToFranchise)
     }
 

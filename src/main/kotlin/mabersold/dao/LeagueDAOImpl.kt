@@ -22,6 +22,11 @@ class LeagueDAOImpl : LeagueDAO {
         Leagues.selectAll().map(::resultRowToLeague)
     }
 
+    override suspend fun allByLabel(labels: List<String>): List<League> = dbQuery {
+        Leagues.selectAll().where { Leagues.label inList labels }
+            .map(::resultRowToLeague)
+    }
+
     override suspend fun get(id: Int): League? = dbQuery {
         Leagues.selectAll().where { Leagues.id eq id }
             .map(::resultRowToLeague)

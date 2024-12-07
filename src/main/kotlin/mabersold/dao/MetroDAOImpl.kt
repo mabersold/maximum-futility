@@ -1,7 +1,6 @@
 package mabersold.dao
 
 import mabersold.dao.DatabaseFactory.dbQuery
-import mabersold.models.db.Leagues
 import mabersold.models.db.Metro
 import mabersold.models.db.Metros
 import org.jetbrains.exposed.sql.ResultRow
@@ -19,6 +18,11 @@ class MetroDAOImpl : MetroDAO {
 
     override suspend fun all(): List<Metro> = dbQuery {
         Metros.selectAll().map(::resultRowToMetro)
+    }
+
+    override suspend fun allByLabel(labels: List<String>): List<Metro> = dbQuery {
+        Metros.selectAll().where { Metros.label inList labels }
+            .map(::resultRowToMetro)
     }
 
     override suspend fun get(id: Int): Metro? = dbQuery {

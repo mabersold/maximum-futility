@@ -5,3 +5,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Los Angeles,LAFC,MLS,West,,,,,,,,
 2022,Los Angeles,LAFC,MLS,West,,FIRST_TIED,FIRST,,true,3,true,true
 2023,Los Angeles,LAFC,MLS,West,,,,,true,3,true,
+2024,Los Angeles,LAFC,MLS,West,,,FIRST_TIED,,true,1,,

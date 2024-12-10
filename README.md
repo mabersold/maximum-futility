@@ -47,9 +47,9 @@ In addition to creating the database, this will also seed the database with the 
 
 ## Run the UI
 
-Instructions to be added later.
+You will need node and npm to run the UI. Navigate to the directory `mf-web-ui` and run `npm install` to install dependencies. Then, to run the UI, just run `npm start`.
 
-## How it Works
+## How Maximum Futility Works
 
 The data is stored in an H2 database. Although the main output is by city, the data is stored by franchise. When you load the main page, it maps the franchise data to city data. It also performs all the necessary calculations to give you the output.
 

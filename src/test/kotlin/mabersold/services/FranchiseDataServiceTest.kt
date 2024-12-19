@@ -3,6 +3,7 @@ package mabersold.services
 import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.test.runTest
+import mabersold.dao.ChapterDAO
 import mabersold.dao.FranchiseDAO
 import mabersold.models.db.Franchise
 import kotlin.test.Test
@@ -10,18 +11,19 @@ import kotlin.test.assertEquals
 
 class FranchiseDataServiceTest {
     private val franchiseDAO = mockk<FranchiseDAO>()
-    private val franchiseDataService = FranchiseDataService(franchiseDAO)
+    private val chapterDAO = mockk<ChapterDAO>()
+    private val franchiseDataService = FranchiseDataService(franchiseDAO, chapterDAO)
 
     @Test
     fun `returns a list of franchises for a league`() = runTest {
         // Arrange
         val leagueId = 1
         val franchises = listOf(
-            Franchise(1, "New York Yankees", false, leagueId),
-            Franchise(2, "Boston Red Sox", false, leagueId),
-            Franchise(3, "Baltimore Orioles", false, leagueId),
-            Franchise(4, "Tampa Bay Rays", false, leagueId),
-            Franchise(5, "Toronto Blue Jays", false, leagueId)
+            Franchise(1, "New York Yankees", "yankees", false, leagueId),
+            Franchise(2, "Boston Red Sox", "redsox", false, leagueId),
+            Franchise(3, "Baltimore Orioles", "orioles", false, leagueId),
+            Franchise(4, "Tampa Bay Rays", "rays", false, leagueId),
+            Franchise(5, "Toronto Blue Jays", "bluejays", false, leagueId)
         )
 
         coEvery { franchiseDAO.allByLeagueId(leagueId) } returns franchises

@@ -596,7 +596,7 @@ class SeasonDataServiceTest {
         assertEquals(WARN_MULTIPLE_LAST_IN_DIVISION.format("Division 1, Division 2"), summary.warnings.first().message)
     }
 
-    private fun createLeague() = League(LEAGUE_ID, "MLB", "Baseball")
+    private fun createLeague() = League(LEAGUE_ID, "MLB", "mlb", "Baseball")
 
     private fun createSeason(majorDivisions: Int = MAJOR_DIVISIONS, minorDivisions: Int = MINOR_DIVISIONS, postSeasonRounds: Int = POSTSEASON_ROUNDS) = Season(
         SEASON_ID,

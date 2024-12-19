@@ -15,6 +15,7 @@ class FranchiseDAOImpl : FranchiseDAO {
     private fun resultRowToFranchise(row: ResultRow) = Franchise(
         id = row[Franchises.id].value,
         name = row[Franchises.name],
+        label = row[Franchises.label],
         isDefunct = row[Franchises.isDefunct],
         leagueId = row[Franchises.leagueId].value,
         league = row.getOrNull(Leagues.name) ?: ""
@@ -38,9 +39,10 @@ class FranchiseDAOImpl : FranchiseDAO {
             .singleOrNull()
     }
 
-    override suspend fun create(name: String, isDefunct: Boolean, leagueId: Int): Franchise? = dbQuery {
+    override suspend fun create(name: String, label: String, isDefunct: Boolean, leagueId: Int): Franchise? = dbQuery {
         val insertStatement = Franchises.insert {
             it[Franchises.name] = name
+            it[Franchises.label] = label
             it[Franchises.isDefunct] = isDefunct
             it[Franchises.leagueId] = leagueId
         }

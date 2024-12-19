@@ -6,6 +6,7 @@ import kotlinx.serialization.Serializable
 data class Franchise(
     val id: Int,
     val name: String,
+    val label: String,
     val isDefunct: Boolean,
     val leagueId: Int,
     val league: String? = null,

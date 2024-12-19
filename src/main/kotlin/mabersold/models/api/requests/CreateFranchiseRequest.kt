@@ -6,10 +6,11 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class CreateFranchiseRequest(
     val name: String,
+    val label: String,
     @SerialName("is_defunct")
     val isDefunct: Boolean,
-    @SerialName("league_label")
-    val leagueLabel: String,
+    @SerialName("league_id")
+    val leagueId: Int,
     val chapters: List<CreateChapterRequest>
 )
 
@@ -17,10 +18,10 @@ data class CreateFranchiseRequest(
 data class CreateChapterRequest(
     @SerialName("team_name")
     val teamName: String,
-    @SerialName("metro_label")
-    val metroLabel: String,
-    @SerialName("league_label")
-    val leagueLabel: String,
+    @SerialName("metro_id")
+    val metroId: Int,
+    @SerialName("league_id")
+    val leagueId: Int,
     @SerialName("start_year")
     val startYear: Int,
     @SerialName("end_year")

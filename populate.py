@@ -1,5 +1,6 @@
 import json
 import http.client
+import os
 
 # Leagues data to populate
 leagues = [
@@ -16,6 +17,7 @@ metros = [
     {"name": "Anderson", "label": "anderson"},
     {"name": "Atlanta", "label": "atlanta"},
     {"name": "Austin", "label": "austin"},
+    {"name": "Boston", "label": "boston"},
     {"name": "Baltimore", "label": "baltimore"},
     {"name": "Calgary", "label": "calgary"},
     {"name": "Charlotte", "label": "charlotte"},
@@ -115,5 +117,53 @@ for metro in metros:
     metro_id = response_body['id']
     label = response_body['label']
     metro_labels_to_ids[label] = metro_id
+
+print("Populating franchises")
+
+franchise_labels_to_ids = {}
+franchises_directory = "seed_data/franchises"
+for league in leagues:
+    path = f"{franchises_directory}/{league['label']}"
+
+    print(f"Checking {path}")
+
+    if not os.path.isdir(path):
+        continue
+
+    files = os.listdir(path)
+
+    for file in files:
+        print(f"Filename is {file}")
+
+        with open(f"{path}/{file}", 'r') as f:
+            content = f.read()
+
+        request_dict = json.loads(content)
+
+        # Replace the league_id
+        league_label = request_dict['league_id']
+        request_dict['league_id'] = league_labels_to_ids[league_label]
+
+        # For each chapter, replace the league_id and metro_id
+        for chapter in request_dict['chapters']:
+            chapter['league_id'] = league_labels_to_ids[league_label]
+            chapter['metro_id'] = metro_labels_to_ids[chapter['metro_id']]
+
+        request_payload = json.dumps(request_dict)
+        print(f"Final request is {request_payload}")
+
+        conn = http.client.HTTPConnection(BASE_URL)
+        conn.request("POST", "/api/v1/franchises", body=request_payload, headers={'Content-Type': 'application/json'})
+
+        response = conn.getresponse()
+
+        if response.status != 200:
+            print(f"Failed to create franchise {request_dict['name']}")
+            continue
+
+        response_body = json.loads(response.read())
+        franchise_id = response_body['id']
+        label = response_body['label']
+        franchise_labels_to_ids[label] = franchise_id
 
 print("Done!")

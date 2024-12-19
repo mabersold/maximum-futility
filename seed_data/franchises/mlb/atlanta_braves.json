@@ -1,0 +1,89 @@
+{
+  "name": "Atlanta Braves",
+  "label": "atl-braves",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Boston Beaneaters",
+      "metro_id": "boston",
+      "league_id": "mlb",
+      "start_year": 1903,
+      "end_year": 1906,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Boston Doves",
+      "metro_id": "boston",
+      "league_id": "mlb",
+      "start_year": 1907,
+      "end_year": 1910,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Boston Rustlers",
+      "metro_id": "boston",
+      "league_id": "mlb",
+      "start_year": 1911,
+      "end_year": 1911,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Boston Braves",
+      "metro_id": "boston",
+      "league_id": "mlb",
+      "start_year": 1912,
+      "end_year": 1935,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Boston Bees",
+      "metro_id": "boston",
+      "league_id": "mlb",
+      "start_year": 1936,
+      "end_year": 1940,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Boston Braves",
+      "metro_id": "boston",
+      "league_id": "mlb",
+      "start_year": 1941,
+      "end_year": 1952,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Milwaukee Braves",
+      "metro_id": "milwaukee",
+      "league_id": "mlb",
+      "start_year": 1953,
+      "end_year": 1965,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Atlanta Braves",
+      "metro_id": "atlanta",
+      "league_id": "mlb",
+      "start_year": 1966,
+      "end_year": 1968,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Atlanta Braves",
+      "metro_id": "atlanta",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "end_year": 1993,
+      "conference_name": "NL",
+      "division_name": "NL West"
+    },
+    {
+      "team_name": "Atlanta Braves",
+      "metro_id": "atlanta",
+      "league_id": "mlb",
+      "start_year": 1994,
+      "conference_name": "NL",
+      "division_name": "NL East"
+    }
+  ]
+}

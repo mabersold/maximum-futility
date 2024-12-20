@@ -1,0 +1,49 @@
+{
+  "name": "Cincinnati Reds",
+  "label": "reds",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Cincinnati Reds",
+      "metro_id": "cincinnati",
+      "league_id": "mlb",
+      "start_year": 1903,
+      "end_year": 1952,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Cincinnati Redlegs",
+      "metro_id": "cincinnati",
+      "league_id": "mlb",
+      "start_year": 1953,
+      "end_year": 1958,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Cincinnati Reds",
+      "metro_id": "cincinnati",
+      "league_id": "mlb",
+      "start_year": 1959,
+      "end_year": 1968,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Cincinnati Reds",
+      "metro_id": "cincinnati",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "end_year": 1993,
+      "conference_name": "NL",
+      "division_name": "NL West"
+    },
+    {
+      "team_name": "Cincinnati Reds",
+      "metro_id": "cincinnati",
+      "league_id": "mlb",
+      "start_year": 1994,
+      "conference_name": "NL",
+      "division_name": "NL Central"
+    }
+  ]
+}

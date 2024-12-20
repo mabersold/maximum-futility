@@ -1,28 +1,28 @@
 {
-  "name": "Baltimore Orioles",
-  "label": "orioles",
+  "name": "Boston Red Sox",
+  "label": "red-sox",
   "is_defunct": false,
   "league_id": "mlb",
   "chapters": [
     {
-      "team_name": "St. Louis Browns",
-      "metro_id": "stl",
+      "team_name": "Boston Americans",
+      "metro_id": "boston",
       "league_id": "mlb",
       "start_year": 1903,
-      "end_year": 1953,
+      "end_year": 1907,
       "conference_name": "AL"
     },
     {
-      "team_name": "Baltimore Orioles",
-      "metro_id": "baltimore",
+      "team_name": "Boston Red Sox",
+      "metro_id": "boston",
       "league_id": "mlb",
-      "start_year": 1954,
+      "start_year": 1908,
       "end_year": 1968,
       "conference_name": "AL"
     },
     {
-      "team_name": "Baltimore Orioles",
-      "metro_id": "baltimore",
+      "team_name": "Boston Red Sox",
+      "metro_id": "boston",
       "league_id": "mlb",
       "start_year": 1969,
       "conference_name": "AL",

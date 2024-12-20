@@ -1,0 +1,25 @@
+{
+  "name": "Kansas City Royals",
+  "label": "royals",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Kansas City Royals",
+      "metro_id": "kansas-city",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "end_year": 1993,
+      "conference_name": "AL",
+      "division_name": "AL West"
+    },
+    {
+      "team_name": "Kansas City Royals",
+      "metro_id": "kansas-city",
+      "league_id": "mlb",
+      "start_year": 1994,
+      "conference_name": "AL",
+      "division_name": "AL Central"
+    }
+  ]
+}

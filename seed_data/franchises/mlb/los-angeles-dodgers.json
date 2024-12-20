@@ -1,0 +1,64 @@
+{
+  "name": "Los Angeles Dodgers",
+  "label": "dodgers",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Brooklyn Superbas",
+      "metro_id": "ny",
+      "league_id": "mlb",
+      "start_year": 1903,
+      "end_year": 1910,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Brooklyn Trolley Dodgers",
+      "metro_id": "ny",
+      "league_id": "mlb",
+      "start_year": 1911,
+      "end_year": 1912,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Brooklyn Dodgers",
+      "metro_id": "ny",
+      "league_id": "mlb",
+      "start_year": 1913,
+      "end_year": 1913,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Brooklyn Robins",
+      "metro_id": "ny",
+      "league_id": "mlb",
+      "start_year": 1914,
+      "end_year": 1931,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Brooklyn Dodgers",
+      "metro_id": "ny",
+      "league_id": "mlb",
+      "start_year": 1932,
+      "end_year": 1957,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Los Angeles Dodgers",
+      "metro_id": "la",
+      "league_id": "mlb",
+      "start_year": 1958,
+      "end_year": 1968,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Los Angeles Dodgers",
+      "metro_id": "la",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "conference_name": "NL",
+      "division_name": "NL West"
+    }
+  ]
+}

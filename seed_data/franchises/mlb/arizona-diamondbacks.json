@@ -1,0 +1,16 @@
+{
+  "name": "Arizona Diamondbacks",
+  "label": "diamondbacks",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Arizona Diamondbacks",
+      "metro_id": "phoenix",
+      "league_id": "mlb",
+      "start_year": 1998,
+      "conference_name": "NL",
+      "division_name": "NL West"
+    }
+  ]
+}

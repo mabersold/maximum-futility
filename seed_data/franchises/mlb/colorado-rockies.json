@@ -1,14 +1,14 @@
 {
-  "name": "Arizona Diamondbacks",
-  "label": "az-diamondbacks",
+  "name": "Colorado Rockies",
+  "label": "rockies",
   "is_defunct": false,
   "league_id": "mlb",
   "chapters": [
     {
-      "team_name": "Arizona Diamondbacks",
-      "metro_id": "phoenix",
+      "team_name": "Colorado Rockies",
+      "metro_id": "denver",
       "league_id": "mlb",
-      "start_year": 1998,
+      "start_year": 1993,
       "conference_name": "NL",
       "division_name": "NL West"
     }

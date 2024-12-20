@@ -1,0 +1,50 @@
+{
+  "name": "Cleveland Guardians",
+  "label": "guardians",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Cleveland Naps",
+      "metro_id": "cleveland",
+      "league_id": "mlb",
+      "start_year": 1903,
+      "end_year": 1914,
+      "conference_name": "AL"
+    },
+    {
+      "team_name": "Cleveland Indians",
+      "metro_id": "cleveland",
+      "league_id": "mlb",
+      "start_year": 1915,
+      "end_year": 1968,
+      "conference_name": "AL"
+    },
+    {
+      "team_name": "Cleveland Indians",
+      "metro_id": "cleveland",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "end_year": 1993,
+      "conference_name": "AL",
+      "division_name": "AL East"
+    },
+    {
+      "team_name": "Cleveland Indians",
+      "metro_id": "cleveland",
+      "league_id": "mlb",
+      "start_year": 1994,
+      "end_year": 2021,
+      "conference_name": "AL",
+      "division_name": "AL Central"
+    },
+    {
+      "team_name": "Cleveland Guardians",
+      "metro_id": "cleveland",
+      "league_id": "mlb",
+      "start_year": 2022,
+      "conference_name": "AL",
+      "division_name": "AL Central"
+    }
+  ]
+}

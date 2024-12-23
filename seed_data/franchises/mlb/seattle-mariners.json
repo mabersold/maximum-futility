@@ -1,0 +1,16 @@
+{
+  "name": "Seattle Mariners",
+  "label": "mariners",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Seattle Mariners",
+      "metro_id": "seattle",
+      "league_id": "mlb",
+      "start_year": 1977,
+      "conference_name": "AL",
+      "division_name": "AL West"
+    }
+  ]
+}

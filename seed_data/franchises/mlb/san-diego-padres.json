@@ -1,0 +1,16 @@
+{
+  "name": "San Diego Padres",
+  "label": "padres",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "San Diego Padres",
+      "metro_id": "san-diego",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "conference_name": "NL",
+      "division_name": "NL West"
+    }
+  ]
+}

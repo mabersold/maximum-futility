@@ -1,0 +1,25 @@
+{
+  "name": "Tampa Bay Rays",
+  "label": "rays",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Tampa Bay Devil Rays",
+      "metro_id": "tb",
+      "league_id": "mlb",
+      "start_year": 1998,
+      "end_year": 2007,
+      "conference_name": "AL",
+      "division_name": "AL East"
+    },
+    {
+      "team_name": "Tampa Bay Rays",
+      "metro_id": "tb",
+      "league_id": "mlb",
+      "start_year": 2008,
+      "conference_name": "AL",
+      "division_name": "AL East"
+    }
+  ]
+}

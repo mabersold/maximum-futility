@@ -1,0 +1,25 @@
+{
+  "name": "Washington Nationals",
+  "label": "nationals",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Montreal Expos",
+      "metro_id": "montreal",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "end_year": 2004,
+      "conference_name": "NL",
+      "division_name": "NL East"
+    },
+    {
+      "team_name": "Washington Nationals",
+      "metro_id": "dc",
+      "league_id": "mlb",
+      "start_year": 2005,
+      "conference_name": "NL",
+      "division_name": "NL East"
+    }
+  ]
+}

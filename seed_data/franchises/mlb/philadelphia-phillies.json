@@ -1,0 +1,24 @@
+{
+  "name": "Philadelphia Phillies",
+  "label": "phillies",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Philadelphia Phillies",
+      "metro_id": "philadelphia",
+      "league_id": "mlb",
+      "start_year": 1903,
+      "end_year": 1968,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "Philadelphia Phillies",
+      "metro_id": "philadelphia",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "conference_name": "NL",
+      "division_name": "NL East"
+    }
+  ]
+}

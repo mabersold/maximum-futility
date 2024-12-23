@@ -1,0 +1,25 @@
+{
+  "name": "Miami Marlins",
+  "label": "marlins",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Florida Marlins",
+      "metro_id": "miami",
+      "league_id": "mlb",
+      "start_year": 1993,
+      "end_year": 2011,
+      "conference_name": "NL",
+      "division_name": "NL East"
+    },
+    {
+      "team_name": "Miami Marlins",
+      "metro_id": "miami",
+      "league_id": "mlb",
+      "start_year": 2012,
+      "conference_name": "NL",
+      "division_name": "NL East"
+    }
+  ]
+}

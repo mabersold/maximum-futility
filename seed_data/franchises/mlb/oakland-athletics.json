@@ -1,0 +1,42 @@
+{
+  "name": "Oakland Athletics",
+  "label": "athletics",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "Philadelphia Athletics",
+      "metro_id": "philadelphia",
+      "league_id": "mlb",
+      "start_year": 1901,
+      "end_year": 1954,
+      "conference_name": "AL"
+    },
+    {
+      "team_name": "Kansas City Athletics",
+      "metro_id": "kansas-city",
+      "league_id": "mlb",
+      "start_year": 1955,
+      "end_year": 1967,
+      "conference_name": "AL"
+    },
+    {
+      "team_name": "Oakland Athletics",
+      "metro_id": "sf",
+      "league_id": "mlb",
+      "start_year": 1968,
+      "end_year": 1968,
+      "conference_name": "AL",
+      "division_name": "AL West"
+    },
+    {
+      "team_name": "Oakland Athletics",
+      "metro_id": "sf",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "end_year": 2024,
+      "conference_name": "AL",
+      "division_name": "AL West"
+    }
+  ]
+}

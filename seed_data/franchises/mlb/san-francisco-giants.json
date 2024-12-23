@@ -1,0 +1,32 @@
+{
+  "name": "San Francisco Giants",
+  "label": "giants-mlb",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "New York Giants",
+      "metro_id": "ny",
+      "league_id": "mlb",
+      "start_year": 1903,
+      "end_year": 1957,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "San Francisco Giants",
+      "metro_id": "sf",
+      "league_id": "mlb",
+      "start_year": 1958,
+      "end_year": 1968,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "San Francisco Giants",
+      "metro_id": "sf",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "conference_name": "NL",
+      "division_name": "NL West"
+    }
+  ]
+}

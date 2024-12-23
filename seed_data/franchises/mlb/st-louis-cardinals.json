@@ -1,0 +1,33 @@
+{
+  "name": "St. Louis Cardinals",
+  "label": "",
+  "is_defunct": false,
+  "league_id": "mlb",
+  "chapters": [
+    {
+      "team_name": "St. Louis Cardinals",
+      "metro_id": "stl",
+      "league_id": "mlb",
+      "start_year": 1903,
+      "end_year": 1968,
+      "conference_name": "NL"
+    },
+    {
+      "team_name": "St. Louis Cardinals",
+      "metro_id": "stl",
+      "league_id": "mlb",
+      "start_year": 1969,
+      "end_year": 1993,
+      "conference_name": "NL",
+      "division_name": "NL East"
+    },
+    {
+      "team_name": "St. Louis Cardinals",
+      "metro_id": "stl",
+      "league_id": "mlb",
+      "start_year": 1994,
+      "conference_name": "NL",
+      "division_name": "NL Central"
+    }
+  ]
+}

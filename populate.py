@@ -51,9 +51,9 @@ metros = [
     {"name": "Oklahoma City", "label": "okc"},
     {"name": "Orlando", "label": "orlando"},
     {"name": "Ottawa", "label": "ottawa"},
-    {"name": "Philadelphia", "label": "phil"},
+    {"name": "Philadelphia", "label": "philadelphia"},
     {"name": "Phoenix", "label": "phoenix"},
-    {"name": "Pittsburgh", "label": "pitt"},
+    {"name": "Pittsburgh", "label": "pittsburgh"},
     {"name": "Portland", "label": "pdx"},
     {"name": "Portsmouth", "label": "portsmouth"},
     {"name": "Providence", "label": "providence"},
@@ -93,7 +93,7 @@ for league in leagues:
     response = conn.getresponse()
 
     if response.status != 200:
-        print("Failed to create league, for reasons.")
+        print(f"Failed to create league {league['name']}")
         continue
 
     response_body = json.loads(response.read())
@@ -125,7 +125,7 @@ franchises_directory = "seed_data/franchises"
 for league in leagues:
     path = f"{franchises_directory}/{league['label']}"
 
-    print(f"Checking {path}")
+    print(f"Populating franchises from {path}")
 
     if not os.path.isdir(path):
         continue
@@ -150,7 +150,6 @@ for league in leagues:
             chapter['metro_id'] = metro_labels_to_ids[chapter['metro_id']]
 
         request_payload = json.dumps(request_dict)
-        print(f"Final request is {request_payload}")
 
         conn = http.client.HTTPConnection(BASE_URL)
         conn.request("POST", "/api/v1/franchises", body=request_payload, headers={'Content-Type': 'application/json'})

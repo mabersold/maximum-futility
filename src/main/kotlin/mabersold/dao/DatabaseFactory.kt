@@ -334,6 +334,7 @@ object DatabaseFactory {
         it[name] = csvRow["name"]!!
         it[isDefunct] = csvRow["is_defunct"]!!.toBoolean()
         it[leagueId] = leagues.first { league -> league.name == csvRow["league"]!! }.id
+        it[label] = csvRow["name"]!!.lowercase().replace(' ', '-').replace(".", "")
     }
 
     private fun insertSeason(csvRow: Map<String, String>, leagues: List<League>) = Seasons.insert {

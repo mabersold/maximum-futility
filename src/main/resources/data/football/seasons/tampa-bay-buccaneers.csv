@@ -47,3 +47,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Tampa Bay,Tampa Bay Buccaneers,NFL,NFC,NFC South,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
 2022,Tampa Bay,Tampa Bay Buccaneers,NFL,NFC,NFC South,,,FIRST,true,0,false,false
 2023,Tampa Bay,Tampa Bay Buccaneers,NFL,NFC,NFC South,,,FIRST_TIED,true,1,false,false
+2024,Tampa Bay,Tampa Bay Buccaneers,NFL,NFC,NFC South,,,FIRST,true,0,,

@@ -73,3 +73,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,San Francisco Bay,San Francisco 49ers,NFL,NFC,NFC West,,,,true,2,,
 2022,San Francisco Bay,San Francisco 49ers,NFL,NFC,NFC West,,,FIRST,true,2,,
 2023,San Francisco Bay,San Francisco 49ers,NFL,NFC,NFC West,,FIRST_TIED,FIRST,true,2,true,
+2024,San Francisco Bay,San Francisco 49ers,NFL,NFC,NFC West,,,LAST,false,,,

@@ -90,3 +90,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Green Bay,Green Bay Packers,NFL,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,0,,
 2022,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,false,,,
 2023,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,1,,
+2024,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,0,,

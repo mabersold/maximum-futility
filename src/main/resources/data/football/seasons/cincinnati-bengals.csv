@@ -55,3 +55,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Cincinnati,Cincinnati Bengals,NFL,AFC,AFC North,,,FIRST,true,3,true,
 2022,Cincinnati,Cincinnati Bengals,NFL,AFC,AFC North,,,FIRST,true,2,,
 2023,Cincinnati,Cincinnati Bengals,NFL,AFC,AFC North,,,LAST,false,,,
+2024,Cincinnati,Cincinnati Bengals,NFL,AFC,AFC North,,,,false,,,

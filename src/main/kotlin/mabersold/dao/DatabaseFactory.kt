@@ -11,6 +11,7 @@ import mabersold.models.db.Leagues
 import mabersold.models.db.Metros
 import mabersold.models.db.Seasons
 import mabersold.models.db.Standing
+import org.jetbrains.exposed.dao.id.EntityID
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
 import org.jetbrains.exposed.sql.exists
@@ -320,14 +321,16 @@ object DatabaseFactory {
     }
 
     private fun insertLeague(csvRow: Map<String, String>) = Leagues.insert {
+        it[id] = EntityID(csvRow["id"]!!.toInt(), Leagues)
         it[name] = csvRow["name"]!!
         it[sport] = csvRow["sport"]!!
-        it[label] = csvRow["name"]!!.lowercase()
+        it[label] = csvRow["label"]!!
     }
 
     private fun insertMetro(csvRow: Map<String, String>) = Metros.insert {
+        it[id] = EntityID(csvRow["id"]!!.toInt(), Metros)
         it[name] = csvRow["name"]!!
-        it[label] = csvRow["name"]!!.lowercase().replace(' ', '-').replace(".", "")
+        it[label] = csvRow["label"]!!
     }
 
     private fun insertFranchise(csvRow: Map<String, String>, leagues: List<League>) = Franchises.insert {

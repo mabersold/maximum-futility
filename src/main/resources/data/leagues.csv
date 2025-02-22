@@ -1,7 +1,7 @@
-name,sport
-MLB,Baseball
-NFL,Football
-NBA,Basketball
-NHL,Hockey
-WNBA,Basketball
-MLS,Soccer
+id,name,sport,label
+1,MLB,Baseball,mlb
+2,NFL,Football,nfl
+3,NBA,Basketball,nba
+4,NHL,Hockey,nhl
+5,WNBA,Basketball,wnba
+6,MLS,Soccer,mls

@@ -1,65 +1,65 @@
-name
-Anderson
-Atlanta
-Austin
-Baltimore
-Boston
-Buffalo
-Calgary
-Charlotte
-Chicago
-Cincinnati
-Cleveland
-Columbus
-Dallas
-Decatur
-Denver
-Detroit
-Edmonton
-Fort Wayne
-Grand Rapids
-Green Bay
-Hartford
-Houston
-Indianapolis
-Jacksonville
-Kansas City
-Las Vegas
-Los Angeles
-Memphis
-Miami
-Milwaukee
-Minneapolis
-Montreal
-Nashville
-New Orleans
-New York
-Oklahoma City
-Orlando
-Ottawa
-Philadelphia
-Phoenix
-Pittsburgh
-Portland
-Portsmouth
-Providence
-Quebec
-Raleigh
-Rochester
-Sacramento
-Salt Lake City
-San Antonio
-San Diego
-San Francisco Bay
-Seattle
-Sheboygan
-Sioux City
-St. Louis
-Syracuse
-Tampa Bay
-Toronto
-Tri-Cities
-Tulsa
-Vancouver
-Washington
-Winnipeg
+id,name,label
+1,Anderson,anderson
+2,Atlanta,atlanta
+3,Austin,austin
+4,Baltimore,baltimore
+5,Boston,boston
+6,Buffalo,buffalo
+7,Calgary,calgary
+8,Charlotte,charlotte
+9,Chicago,chicago
+10,Cincinnati,cincinnati
+11,Cleveland,cleveland
+12,Columbus,columbus
+13,Dallas,dallas
+14,Decatur,decatur
+15,Denver,denver
+16,Detroit,detroit
+17,Edmonton,edmonton
+18,Fort Wayne,fort-wayne
+19,Grand Rapids,grand-rapids
+20,Green Bay,green-bay
+21,Hartford,hartford
+22,Houston,houston
+23,Indianapolis,indianapolis
+24,Jacksonville,jacksonville
+25,Kansas City,kansas-city
+26,Las Vegas,las-vegas
+27,Los Angeles,los-angeles
+28,Memphis,memphis
+29,Miami,miami
+30,Milwaukee,milwaukee
+31,Minneapolis,minneapolis
+32,Montreal,montreal
+33,Nashville,nashville
+34,New Orleans,new-orleans
+35,New York,new-york
+36,Oklahoma City,oklahoma-city
+37,Orlando,orlando
+38,Ottawa,ottawa
+39,Philadelphia,philadelphia
+40,Phoenix,phoenix
+41,Pittsburgh,pittsburgh
+42,Portland,portland
+43,Portsmouth,portsmouth
+44,Providence,providence
+45,Quebec,quebec
+46,Raleigh,raleigh
+47,Rochester,rochester
+48,Sacramento,sacramento
+49,Salt Lake City,salt-lake-city
+50,San Antonio,san-antonio
+51,San Diego,san-diego
+52,San Francisco Bay,san-francisco-bay
+53,Seattle,seattle
+54,Sheboygan,sheboygan
+55,Sioux City,sioux-city
+56,St. Louis,st-louis
+57,Syracuse,syracuse
+58,Tampa Bay,tampa-bay
+59,Toronto,toronto
+60,Tri-Cities,tri-cities
+61,Tulsa,tulsa
+62,Vancouver,vancouver
+63,Washington,washington
+64,Winnipeg,winnipeg

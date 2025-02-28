@@ -1,7 +1,7 @@
 {
   "id": 16,
   "name": "Milwaukee Brewers",
-  "label": "",
+  "label": "brewers",
   "is_defunct": false,
   "league_id": "mlb",
   "chapters": [

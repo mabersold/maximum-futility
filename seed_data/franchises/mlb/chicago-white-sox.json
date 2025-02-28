@@ -10,33 +10,13 @@
       "metro_id": "chicago",
       "league_id": "mlb",
       "start_year": 1903,
-      "end_year": 1903,
-      "conference_name": "AL"
+      "end_year": 1903
     },
     {
       "team_name": "Chicago White Sox",
       "metro_id": "chicago",
       "league_id": "mlb",
-      "start_year": 1904,
-      "end_year": 1968,
-      "conference_name": "AL"
-    },
-    {
-      "team_name": "Chicago White Sox",
-      "metro_id": "chicago",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "end_year": 1993,
-      "conference_name": "AL",
-      "division_name": "AL West"
-    },
-    {
-      "team_name": "Chicago White Sox",
-      "metro_id": "chicago",
-      "league_id": "mlb",
-      "start_year": 1994,
-      "conference_name": "AL",
-      "division_name": "AL Central"
+      "start_year": 1904
     }
   ]
 }

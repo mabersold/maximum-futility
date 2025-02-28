@@ -7,27 +7,16 @@
   "chapters": [
     {
       "team_name": "St. Louis Browns",
-      "metro_id": "stl",
+      "metro_id": "st-louis",
       "league_id": "mlb",
       "start_year": 1903,
-      "end_year": 1953,
-      "conference_name": "AL"
+      "end_year": 1953
     },
     {
       "team_name": "Baltimore Orioles",
       "metro_id": "baltimore",
       "league_id": "mlb",
-      "start_year": 1954,
-      "end_year": 1968,
-      "conference_name": "AL"
-    },
-    {
-      "team_name": "Baltimore Orioles",
-      "metro_id": "baltimore",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "conference_name": "AL",
-      "division_name": "AL East"
+      "start_year": 1954
     }
   ]
 }

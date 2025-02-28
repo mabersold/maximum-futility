@@ -23,7 +23,7 @@
     },
     {
       "team_name": "Oakland Athletics",
-      "metro_id": "sf",
+      "metro_id": "san-francisco-bay",
       "league_id": "mlb",
       "start_year": 1968,
       "end_year": 1968,
@@ -32,7 +32,7 @@
     },
     {
       "team_name": "Oakland Athletics",
-      "metro_id": "sf",
+      "metro_id": "san-francisco-bay",
       "league_id": "mlb",
       "start_year": 1969,
       "end_year": 2024,

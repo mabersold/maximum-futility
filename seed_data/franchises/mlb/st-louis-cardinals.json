@@ -1,13 +1,13 @@
 {
   "id": 26,
   "name": "St. Louis Cardinals",
-  "label": "",
+  "label": "cardinals-mlb",
   "is_defunct": false,
   "league_id": "mlb",
   "chapters": [
     {
       "team_name": "St. Louis Cardinals",
-      "metro_id": "stl",
+      "metro_id": "st-louis",
       "league_id": "mlb",
       "start_year": 1903,
       "end_year": 1968,
@@ -15,7 +15,7 @@
     },
     {
       "team_name": "St. Louis Cardinals",
-      "metro_id": "stl",
+      "metro_id": "st-louis",
       "league_id": "mlb",
       "start_year": 1969,
       "end_year": 1993,
@@ -24,7 +24,7 @@
     },
     {
       "team_name": "St. Louis Cardinals",
-      "metro_id": "stl",
+      "metro_id": "st-louis",
       "league_id": "mlb",
       "start_year": 1994,
       "conference_name": "NL",

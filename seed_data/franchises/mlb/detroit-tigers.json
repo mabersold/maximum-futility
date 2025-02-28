@@ -9,26 +9,7 @@
       "team_name": "Detroit Tigers",
       "metro_id": "detroit",
       "league_id": "mlb",
-      "start_year": 1903,
-      "end_year": 1968,
-      "conference_name": "AL"
-    },
-    {
-      "team_name": "Detroit Tigers",
-      "metro_id": "detroit",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "end_year": 1993,
-      "conference_name": "AL",
-      "division_name": "AL East"
-    },
-    {
-      "team_name": "Detroit Tigers",
-      "metro_id": "detroit",
-      "league_id": "mlb",
-      "start_year": 1903,
-      "conference_name": "AL",
-      "division_name": "AL Central"
+      "start_year": 1903
     }
   ]
 }

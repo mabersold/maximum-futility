@@ -7,54 +7,37 @@
   "chapters": [
     {
       "team_name": "Los Angeles Angels",
-      "metro_id": "la",
+      "metro_id": "los-angeles",
       "league_id": "mlb",
       "start_year": 1961,
-      "end_year": 1964,
-      "conference_name": "AL"
+      "end_year": 1964
     },
     {
       "team_name": "California Angels",
-      "metro_id": "la",
+      "metro_id": "los-angeles",
       "league_id": "mlb",
       "start_year": 1965,
-      "end_year": 1968,
-      "conference_name": "AL"
-    },
-    {
-      "team_name": "California Angels",
-      "metro_id": "la",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "end_year": 1996,
-      "conference_name": "AL",
-      "division_name": "AL West"
+      "end_year": 1996
     },
     {
       "team_name": "Anaheim Angels",
-      "metro_id": "la",
+      "metro_id": "los-angeles",
       "league_id": "mlb",
       "start_year": 1997,
-      "end_year": 2004,
-      "conference_name": "AL",
-      "division_name": "AL West"
+      "end_year": 2004
     },
     {
       "team_name": "Los Angeles Angels of Anaheim",
-      "metro_id": "la",
+      "metro_id": "los-angeles",
       "league_id": "mlb",
       "start_year": 2005,
-      "end_year": 2015,
-      "conference_name": "AL",
-      "division_name": "AL West"
+      "end_year": 2015
     },
     {
       "team_name": "Los Angeles Angels",
-      "metro_id": "la",
+      "metro_id": "los-angeles",
       "league_id": "mlb",
-      "start_year": 2016,
-      "conference_name": "AL",
-      "division_name": "AL West"
+      "start_year": 2016
     }
   ]
 }

@@ -10,24 +10,13 @@
       "metro_id": "boston",
       "league_id": "mlb",
       "start_year": 1903,
-      "end_year": 1907,
-      "conference_name": "AL"
+      "end_year": 1907
     },
     {
       "team_name": "Boston Red Sox",
       "metro_id": "boston",
       "league_id": "mlb",
-      "start_year": 1908,
-      "end_year": 1968,
-      "conference_name": "AL"
-    },
-    {
-      "team_name": "Boston Red Sox",
-      "metro_id": "boston",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "conference_name": "AL",
-      "division_name": "AL East"
+      "start_year": 1908
     }
   ]
 }

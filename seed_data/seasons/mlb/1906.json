@@ -1,0 +1,57 @@
+{
+    "name": "1906 MLB Season",
+    "start_year": 1906,
+    "end_year": 1906,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [                    
+                    {"label": "white-sox", "wins": 93, "losses": 58},
+                    {"label": "yankees", "wins": 90, "losses": 61},
+                    {"label": "guardians", "wins": 89, "losses": 64},
+                    {"label": "athletics", "wins": 78, "losses": 67},
+                    {"label": "orioles", "wins": 76, "losses": 73},
+                    {"label": "tigers", "wins": 71, "losses": 78},
+                    {"label": "twins", "wins": 55, "losses": 95},
+                    {"label": "red-sox", "wins": 49, "losses": 105}
+                    
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "cubs", "wins": 116, "losses": 36},
+                    {"label": "giants-mlb", "wins": 96, "losses": 56},
+                    {"label": "pirates", "wins": 93, "losses": 60},
+                    {"label": "phillies", "wins": 71, "losses": 82},
+                    {"label": "dodgers", "wins": 66, "losses": 86},
+                    {"label": "reds", "wins": 64, "losses": 87},
+                    {"label": "cardinals-mlb", "wins": 52, "losses": 98},
+                    {"label": "braves", "wins": 49, "losses": 102}
+                    
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "white-sox",
+                        "loser_label": "cubs",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

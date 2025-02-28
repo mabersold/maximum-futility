@@ -10,42 +10,13 @@
       "metro_id": "houston",
       "league_id": "mlb",
       "start_year": 1962,
-      "end_year": 1964,
-      "conference_name": "NL"
+      "end_year": 1964
     },
     {
       "team_name": "Houston Astros",
       "metro_id": "houston",
       "league_id": "mlb",
-      "start_year": 1965,
-      "end_year": 1968,
-      "conference_name": "NL"
-    },
-    {
-      "team_name": "Houston Astros",
-      "metro_id": "houston",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "end_year": 1993,
-      "conference_name": "NL",
-      "division_name": "NL West"
-    },
-    {
-      "team_name": "Houston Astros",
-      "metro_id": "houston",
-      "league_id": "mlb",
-      "start_year": 1994,
-      "end_year": 2012,
-      "conference_name": "NL",
-      "division_name": "NL Central"
-    },
-    {
-      "team_name": "Houston Astros",
-      "metro_id": "houston",
-      "league_id": "mlb",
-      "start_year": 2013,
-      "conference_name": "AL",
-      "division_name": "AL West"
+      "start_year": 1965
     }
   ]
 }

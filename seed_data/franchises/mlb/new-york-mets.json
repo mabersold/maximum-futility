@@ -7,7 +7,7 @@
   "chapters": [
     {
       "team_name": "New York Mets",
-      "metro_id": "ny",
+      "metro_id": "new-york",
       "league_id": "mlb",
       "start_year": 1962,
       "end_year": 1968,
@@ -15,7 +15,7 @@
     },
     {
       "team_name": "New York Mets",
-      "metro_id": "ny",
+      "metro_id": "new-york",
       "league_id": "mlb",
       "start_year": 1969,
       "conference_name": "NL",

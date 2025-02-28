@@ -7,7 +7,7 @@
   "chapters": [
     {
       "team_name": "Washington Senators",
-      "metro_id": "dc",
+      "metro_id": "washington",
       "league_id": "mlb",
       "start_year": 1961,
       "end_year": 1968,
@@ -15,7 +15,7 @@
     },
     {
       "team_name": "Washington Senators",
-      "metro_id": "dc",
+      "metro_id": "washington",
       "league_id": "mlb",
       "start_year": 1969,
       "end_year": 1971,

@@ -1,0 +1,55 @@
+{
+    "name": "1908 MLB Season",
+    "start_year": 1908,
+    "end_year": 1908,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [ 
+                    {"label": "tigers", "wins": 90, "losses": 63},
+                    {"label": "guardians", "wins": 90, "losses": 64},
+                    {"label": "white-sox", "wins": 88, "losses": 64},
+                    {"label": "orioles", "wins": 83, "losses": 69},
+                    {"label": "red-sox", "wins": 75, "losses": 79},
+                    {"label": "athletics", "wins": 68, "losses": 85},
+                    {"label": "twins", "wins": 67, "losses": 85},
+                    {"label": "yankees", "wins": 51, "losses": 103}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "cubs", "wins": 99, "losses": 55},
+                    {"label": "giants-mlb", "wins": 98, "losses": 56},
+                    {"label": "pirates", "wins": 98, "losses": 56},
+                    {"label": "phillies", "wins": 83, "losses": 71},
+                    {"label": "reds", "wins": 73, "losses": 81},
+                    {"label": "braves", "wins": 63, "losses": 91},
+                    {"label": "dodgers", "wins": 53, "losses": 101},
+                    {"label": "cardinals-mlb", "wins": 49, "losses": 105}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "cubs",
+                        "loser_label": "tigers",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

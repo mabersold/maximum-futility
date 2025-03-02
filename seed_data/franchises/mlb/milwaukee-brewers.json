@@ -10,44 +10,13 @@
       "metro_id": "seattle",
       "league_id": "mlb",
       "start_year": 1969,
-      "end_year": 1969,
-      "conference_name": "AL",
-      "division_name": "AL West"
+      "end_year": 1969
     },
     {
       "team_name": "Milwaukee Brewers",
       "metro_id": "milwaukee",
       "league_id": "mlb",
-      "start_year": 1970,
-      "end_year": 1971,
-      "conference_name": "AL",
-      "division_name": "AL West"
-    },
-    {
-      "team_name": "Milwaukee Brewers",
-      "metro_id": "milwaukee",
-      "league_id": "mlb",
-      "start_year": 1972,
-      "end_year": 1993,
-      "conference_name": "AL",
-      "division_name": "AL East"
-    },
-    {
-      "team_name": "Milwaukee Brewers",
-      "metro_id": "milwaukee",
-      "league_id": "mlb",
-      "start_year": 1994,
-      "end_year": 1997,
-      "conference_name": "AL",
-      "division_name": "AL Central"
-    },
-    {
-      "team_name": "Milwaukee Brewers",
-      "metro_id": "milwaukee",
-      "league_id": "mlb",
-      "start_year": 1998,
-      "conference_name": "NL",
-      "division_name": "NL Central"
+      "start_year": 1970
     }
   ]
 }

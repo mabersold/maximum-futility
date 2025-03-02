@@ -9,9 +9,7 @@
       "team_name": "Toronto Blue Jays",
       "metro_id": "toronto",
       "league_id": "mlb",
-      "start_year": 1977,
-      "conference_name": "AL",
-      "division_name": "AL East"
+      "start_year": 1977
     }
   ]
 }

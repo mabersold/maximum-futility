@@ -1,0 +1,55 @@
+{
+    "name": "1921 MLB Season",
+    "start_year": 1921,
+    "end_year": 1921,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "yankees", "wins": 98, "losses": 55},
+                    {"label": "guardians", "wins": 94, "losses": 60},
+                    {"label": "orioles", "wins": 81, "losses": 73},
+                    {"label": "twins", "wins": 80, "losses": 73},
+                    {"label": "red-sox", "wins": 75, "losses": 79},
+                    {"label": "tigers", "wins": 71, "losses": 82},
+                    {"label": "white-sox", "wins": 62, "losses": 92},
+                    {"label": "athletics", "wins": 53, "losses": 100}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "giants-mlb", "wins": 94, "losses": 59},
+                    {"label": "pirates", "wins": 90, "losses": 63},
+                    {"label": "cardinals-mlb", "wins": 87, "losses": 66},
+                    {"label": "braves", "wins": 79, "losses": 74},
+                    {"label": "dodgers", "wins": 77, "losses": 75},
+                    {"label": "reds", "wins": 70, "losses": 83},
+                    {"label": "cubs", "wins": 64, "losses": 89},
+                    {"label": "phillies", "wins": 51, "losses": 103}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "giants-mlb",
+                        "loser_label": "yankees",
+                        "total_games": 8,
+                        "games_won": 5,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

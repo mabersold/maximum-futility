@@ -10,25 +10,13 @@
       "metro_id": "washington",
       "league_id": "mlb",
       "start_year": 1961,
-      "end_year": 1968,
-      "conference_name": "AL"
-    },
-    {
-      "team_name": "Washington Senators",
-      "metro_id": "washington",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "end_year": 1971,
-      "conference_name": "AL",
-      "division_name": "AL East"
+      "end_year": 1971
     },
     {
       "team_name": "Texas Rangers",
       "metro_id": "dallas",
       "league_id": "mlb",
-      "start_year": 1972,
-      "conference_name": "AL",
-      "division_name": "AL West"
+      "start_year": 1972
     }
   ]
 }

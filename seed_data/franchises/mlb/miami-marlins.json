@@ -10,17 +10,13 @@
       "metro_id": "miami",
       "league_id": "mlb",
       "start_year": 1993,
-      "end_year": 2011,
-      "conference_name": "NL",
-      "division_name": "NL East"
+      "end_year": 2011
     },
     {
       "team_name": "Miami Marlins",
       "metro_id": "miami",
       "league_id": "mlb",
-      "start_year": 2012,
-      "conference_name": "NL",
-      "division_name": "NL East"
+      "start_year": 2012
     }
   ]
 }

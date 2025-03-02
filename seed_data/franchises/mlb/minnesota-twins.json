@@ -10,33 +10,13 @@
       "metro_id": "washington",
       "league_id": "mlb",
       "start_year": 1901,
-      "end_year": 1960,
-      "conference_name": "AL"
+      "end_year": 1960
     },
     {
       "team_name": "Minnesota Twins",
       "metro_id": "minneapolis",
       "league_id": "mlb",
-      "start_year": 1961,
-      "end_year": 1968,
-      "conference_name": "AL"
-    },
-    {
-      "team_name": "Minnesota Twins",
-      "metro_id": "minneapolis",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "end_year": 1993,
-      "conference_name": "AL",
-      "division_name": "AL West"
-    },
-    {
-      "team_name": "Minnesota Twins",
-      "metro_id": "minneapolis",
-      "league_id": "mlb",
-      "start_year": 1994,
-      "conference_name": "AL",
-      "division_name": "AL Central"
+      "start_year": 1961
     }
   ]
 }

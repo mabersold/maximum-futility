@@ -9,26 +9,7 @@
       "team_name": "St. Louis Cardinals",
       "metro_id": "st-louis",
       "league_id": "mlb",
-      "start_year": 1903,
-      "end_year": 1968,
-      "conference_name": "NL"
-    },
-    {
-      "team_name": "St. Louis Cardinals",
-      "metro_id": "st-louis",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "end_year": 1993,
-      "conference_name": "NL",
-      "division_name": "NL East"
-    },
-    {
-      "team_name": "St. Louis Cardinals",
-      "metro_id": "st-louis",
-      "league_id": "mlb",
-      "start_year": 1994,
-      "conference_name": "NL",
-      "division_name": "NL Central"
+      "start_year": 1903
     }
   ]
 }

@@ -10,17 +10,13 @@
       "metro_id": "tampa-bay",
       "league_id": "mlb",
       "start_year": 1998,
-      "end_year": 2007,
-      "conference_name": "AL",
-      "division_name": "AL East"
+      "end_year": 2007
     },
     {
       "team_name": "Tampa Bay Rays",
       "metro_id": "tampa-bay",
       "league_id": "mlb",
-      "start_year": 2008,
-      "conference_name": "AL",
-      "division_name": "AL East"
+      "start_year": 2008
     }
   ]
 }

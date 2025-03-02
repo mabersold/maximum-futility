@@ -1,0 +1,55 @@
+{
+    "name": "1913 MLB Season",
+    "start_year": 1913,
+    "end_year": 1913,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "athletics", "wins": 96, "losses": 57},
+                    {"label": "twins", "wins": 90, "losses": 64},
+                    {"label": "guardians", "wins": 86, "losses": 66},
+                    {"label": "red-sox", "wins": 79, "losses": 71},
+                    {"label": "white-sox", "wins": 78, "losses": 74},
+                    {"label": "tigers", "wins": 66, "losses": 87},
+                    {"label": "yankees", "wins": 57, "losses": 94},
+                    {"label": "orioles", "wins": 57, "losses": 96}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "giants-mlb", "wins": 101, "losses": 51},
+                    {"label": "phillies", "wins": 88, "losses": 63},
+                    {"label": "cubs", "wins": 88, "losses": 65},
+                    {"label": "pirates", "wins": 78, "losses": 71},
+                    {"label": "braves", "wins": 69, "losses": 82},
+                    {"label": "dodgers", "wins": 65, "losses": 84},
+                    {"label": "reds", "wins": 64, "losses": 89},
+                    {"label": "cardinals-mlb", "wins": 51, "losses": 99}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "athletics",
+                        "loser_label": "giants-mlb",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

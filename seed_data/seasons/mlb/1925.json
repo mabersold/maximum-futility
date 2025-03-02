@@ -1,0 +1,55 @@
+{
+    "name": "1925 MLB Season",
+    "start_year": 1925,
+    "end_year": 1925,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "twins", "wins": 96, "losses": 55},
+                    {"label": "athletics", "wins": 88, "losses": 64},
+                    {"label": "orioles", "wins": 82, "losses": 71},
+                    {"label": "tigers", "wins": 81, "losses": 73},
+                    {"label": "white-sox", "wins": 79, "losses": 75},
+                    {"label": "guardians", "wins": 70, "losses": 84},
+                    {"label": "yankees", "wins": 69, "losses": 85},
+                    {"label": "red-sox", "wins": 47, "losses": 105}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "pirates", "wins": 95, "losses": 58},
+                    {"label": "giants-mlb", "wins": 86, "losses": 66},
+                    {"label": "reds", "wins": 80, "losses": 73},
+                    {"label": "cardinals-mlb", "wins": 77, "losses": 76},
+                    {"label": "braves", "wins": 70, "losses": 83},
+                    {"label": "dodgers", "wins": 68, "losses": 85},
+                    {"label": "phillies", "wins": 68, "losses": 85},
+                    {"label": "cubs", "wins": 68, "losses": 86}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "pirates",
+                        "loser_label": "twins",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

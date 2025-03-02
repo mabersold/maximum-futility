@@ -10,17 +10,13 @@
       "metro_id": "montreal",
       "league_id": "mlb",
       "start_year": 1969,
-      "end_year": 2004,
-      "conference_name": "NL",
-      "division_name": "NL East"
+      "end_year": 2004
     },
     {
       "team_name": "Washington Nationals",
       "metro_id": "washington",
       "league_id": "mlb",
-      "start_year": 2005,
-      "conference_name": "NL",
-      "division_name": "NL East"
+      "start_year": 2005
     }
   ]
 }

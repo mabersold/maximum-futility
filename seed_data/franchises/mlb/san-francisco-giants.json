@@ -10,24 +10,13 @@
       "metro_id": "new-york",
       "league_id": "mlb",
       "start_year": 1903,
-      "end_year": 1957,
-      "conference_name": "NL"
+      "end_year": 1957
     },
     {
       "team_name": "San Francisco Giants",
       "metro_id": "san-francisco-bay",
       "league_id": "mlb",
-      "start_year": 1958,
-      "end_year": 1968,
-      "conference_name": "NL"
-    },
-    {
-      "team_name": "San Francisco Giants",
-      "metro_id": "san-francisco-bay",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "conference_name": "NL",
-      "division_name": "NL West"
+      "start_year": 1958
     }
   ]
 }

@@ -1,0 +1,55 @@
+{
+    "name": "1923 MLB Season",
+    "start_year": 1923,
+    "end_year": 1923,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "yankees", "wins": 98, "losses": 54},
+                    {"label": "tigers", "wins": 83, "losses": 71},
+                    {"label": "guardians", "wins": 82, "losses": 71},
+                    {"label": "twins", "wins": 75, "losses": 78},
+                    {"label": "orioles", "wins": 74, "losses": 78},
+                    {"label": "athletics", "wins": 69, "losses": 83},
+                    {"label": "white-sox", "wins": 69, "losses": 85},
+                    {"label": "red-sox", "wins": 61, "losses": 91}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "giants-mlb", "wins": 95, "losses": 58},
+                    {"label": "reds", "wins": 91, "losses": 63},
+                    {"label": "pirates", "wins": 87, "losses": 67},
+                    {"label": "cubs", "wins": 83, "losses": 71},
+                    {"label": "cardinals-mlb", "wins": 79, "losses": 74},
+                    {"label": "dodgers", "wins": 76, "losses": 78},
+                    {"label": "braves", "wins": 54, "losses": 100},
+                    {"label": "phillies", "wins": 50, "losses": 104}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "giants-mlb",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

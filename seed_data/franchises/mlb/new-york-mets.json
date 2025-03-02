@@ -9,17 +9,7 @@
       "team_name": "New York Mets",
       "metro_id": "new-york",
       "league_id": "mlb",
-      "start_year": 1962,
-      "end_year": 1968,
-      "conference_name": "NL"
-    },
-    {
-      "team_name": "New York Mets",
-      "metro_id": "new-york",
-      "league_id": "mlb",
-      "start_year": 1969,
-      "conference_name": "NL",
-      "division_name": "NL East"
+      "start_year": 1962
     }
   ]
 }

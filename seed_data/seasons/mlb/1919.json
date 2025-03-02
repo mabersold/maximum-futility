@@ -1,0 +1,55 @@
+{
+    "name": "1919 MLB Season",
+    "start_year": 1919,
+    "end_year": 1919,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "white-sox", "wins": 88, "losses": 52},
+                    {"label": "guardians", "wins": 84, "losses": 55},
+                    {"label": "yankees", "wins": 80, "losses": 59},
+                    {"label": "tigers", "wins": 80, "losses": 60},
+                    {"label": "orioles", "wins": 67, "losses": 72},
+                    {"label": "red-sox", "wins": 66, "losses": 71},
+                    {"label": "twins", "wins": 56, "losses": 84},
+                    {"label": "athletics", "wins": 36, "losses": 104}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "reds", "wins": 96, "losses": 44},
+                    {"label": "giants-mlb", "wins": 87, "losses": 53},
+                    {"label": "cubs", "wins": 75, "losses": 65},
+                    {"label": "pirates", "wins": 71, "losses": 68},
+                    {"label": "dodgers", "wins": 69, "losses": 71},
+                    {"label": "braves", "wins": 57, "losses": 82},
+                    {"label": "cardinals-mlb", "wins": 54, "losses": 83},
+                    {"label": "phillies", "wins": 47, "losses": 90}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "reds",
+                        "loser_label": "white-sox",
+                        "total_games": 8,
+                        "games_won": 5,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

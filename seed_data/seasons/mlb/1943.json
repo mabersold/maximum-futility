@@ -1,0 +1,55 @@
+{
+    "name": "1943 MLB Season",
+    "start_year": 1943,
+    "end_year": 1943,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "yankees", "wins": 98, "losses": 56},
+                    {"label": "twins", "wins": 84, "losses": 69},
+                    {"label": "guardians", "wins": 82, "losses": 71},
+                    {"label": "white-sox", "wins": 82, "losses": 72},
+                    {"label": "tigers", "wins": 78, "losses": 76},
+                    {"label": "orioles", "wins": 72, "losses": 80},
+                    {"label": "red-sox", "wins": 68, "losses": 84},
+                    {"label": "athletics", "wins": 49, "losses": 105}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "cardinals-mlb", "wins": 105, "losses": 49},
+                    {"label": "reds", "wins": 87, "losses": 67},
+                    {"label": "dodgers", "wins": 81, "losses": 72},
+                    {"label": "pirates", "wins": 80, "losses": 74},
+                    {"label": "cubs", "wins": 74, "losses": 79},
+                    {"label": "braves", "wins": 68, "losses": 85},
+                    {"label": "phillies", "wins": 64, "losses": 90},
+                    {"label": "giants-mlb", "wins": 55, "losses": 98}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "cardinals-mlb",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

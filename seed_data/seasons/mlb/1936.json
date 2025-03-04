@@ -1,0 +1,55 @@
+{
+    "name": "1936 MLB Season",
+    "start_year": 1936,
+    "end_year": 1936,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "yankees", "wins": 102, "losses": 51},
+                    {"label": "tigers", "wins": 83, "losses": 71},
+                    {"label": "twins", "wins": 82, "losses": 71},
+                    {"label": "white-sox", "wins": 81, "losses": 70},
+                    {"label": "guardians", "wins": 80, "losses": 74},
+                    {"label": "red-sox", "wins": 74, "losses": 80},
+                    {"label": "orioles", "wins": 57, "losses": 95},
+                    {"label": "athletics", "wins": 53, "losses": 100}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "giants-mlb", "wins": 92, "losses": 62},
+                    {"label": "cardinals-mlb", "wins": 87, "losses": 67},
+                    {"label": "cubs", "wins": 87, "losses": 67},
+                    {"label": "pirates", "wins": 84, "losses": 70},
+                    {"label": "reds", "wins": 74, "losses": 80},
+                    {"label": "braves", "wins": 71, "losses": 83},
+                    {"label": "dodgers", "wins": 67, "losses": 87},
+                    {"label": "phillies", "wins": 54, "losses": 100}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "giants-mlb",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

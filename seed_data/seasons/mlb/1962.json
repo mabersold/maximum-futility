@@ -1,0 +1,59 @@
+{
+    "name": "1962 MLB Season",
+    "start_year": 1962,
+    "end_year": 1962,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "yankees", "wins": 96, "losses": 66},
+                    {"label": "twins", "wins": 91, "losses": 71},
+                    {"label": "angels", "wins": 86, "losses": 76},
+                    {"label": "tigers", "wins": 85, "losses": 76},
+                    {"label": "white-sox", "wins": 85, "losses": 77},
+                    {"label": "guardians", "wins": 80, "losses": 82},
+                    {"label": "orioles", "wins": 77, "losses": 85},
+                    {"label": "red-sox", "wins": 76, "losses": 84},
+                    {"label": "athletics", "wins": 72, "losses": 90},
+                    {"label": "rangers", "wins": 60, "losses": 101}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "giants-mlb", "wins": 103, "losses": 62},
+                    {"label": "dodgers", "wins": 102, "losses": 63},
+                    {"label": "reds", "wins": 98, "losses": 64},
+                    {"label": "pirates", "wins": 93, "losses": 68},
+                    {"label": "braves", "wins": 86, "losses": 76},
+                    {"label": "cardinals-mlb", "wins": 84, "losses": 78},
+                    {"label": "phillies", "wins": 81, "losses": 80},
+                    {"label": "astros", "wins": 64, "losses": 96},
+                    {"label": "cubs", "wins": 59, "losses": 103},
+                    {"label": "mets", "wins": 40, "losses": 120}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "giants-mlb",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

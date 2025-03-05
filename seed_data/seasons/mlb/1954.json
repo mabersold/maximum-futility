@@ -1,0 +1,55 @@
+{
+    "name": "1954 MLB Season",
+    "start_year": 1954,
+    "end_year": 1954,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "guardians", "wins": 111, "losses": 43},
+                    {"label": "yankees", "wins": 103, "losses": 51},
+                    {"label": "white-sox", "wins": 94, "losses": 60},
+                    {"label": "red-sox", "wins": 69, "losses": 85},
+                    {"label": "tigers", "wins": 68, "losses": 86},
+                    {"label": "twins", "wins": 66, "losses": 88},
+                    {"label": "orioles", "wins": 54, "losses": 100},
+                    {"label": "athletics", "wins": 51, "losses": 103}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "giants-mlb", "wins": 97, "losses": 57},
+                    {"label": "dodgers", "wins": 92, "losses": 62},
+                    {"label": "braves", "wins": 89, "losses": 65},
+                    {"label": "phillies", "wins": 75, "losses": 79},
+                    {"label": "reds", "wins": 74, "losses": 80},
+                    {"label": "cardinals-mlb", "wins": 72, "losses": 82},
+                    {"label": "cubs", "wins": 64, "losses": 90},
+                    {"label": "pirates", "wins": 53, "losses": 101}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "giants-mlb",
+                        "loser_label": "guardians",
+                        "total_games": 4,
+                        "games_won": 4,
+                        "games_lost": 0,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

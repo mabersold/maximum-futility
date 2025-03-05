@@ -1,0 +1,55 @@
+{
+    "name": "1959 MLB Season",
+    "start_year": 1959,
+    "end_year": 1959,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "white-sox", "wins": 94, "losses": 60},
+                    {"label": "guardians", "wins": 89, "losses": 65},
+                    {"label": "yankees", "wins": 79, "losses": 75},
+                    {"label": "tigers", "wins": 76, "losses": 78},
+                    {"label": "red-sox", "wins": 75, "losses": 79},
+                    {"label": "orioles", "wins": 74, "losses": 80},
+                    {"label": "athletics", "wins": 66, "losses": 88},
+                    {"label": "twins", "wins": 63, "losses": 91}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "dodgers", "wins": 88, "losses": 68},
+                    {"label": "braves", "wins": 86, "losses": 70},
+                    {"label": "giants-mlb", "wins": 83, "losses": 71},
+                    {"label": "pirates", "wins": 78, "losses": 76},
+                    {"label": "cubs", "wins": 74, "losses": 80},
+                    {"label": "reds", "wins": 74, "losses": 80},
+                    {"label": "cardinals-mlb", "wins": 71, "losses": 83},
+                    {"label": "phillies", "wins": 64, "losses": 90}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "dodgers",
+                        "loser_label": "white-sox",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

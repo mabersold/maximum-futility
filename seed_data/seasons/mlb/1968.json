@@ -1,0 +1,59 @@
+{
+    "name": "1968 MLB Season",
+    "start_year": 1968,
+    "end_year": 1968,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "tigers", "wins": 103, "losses": 59},
+                    {"label": "orioles", "wins": 91, "losses": 71},
+                    {"label": "guardians", "wins": 86, "losses": 75},
+                    {"label": "red-sox", "wins": 86, "losses": 76},
+                    {"label": "yankees", "wins": 83, "losses": 79},
+                    {"label": "athletics", "wins": 82, "losses": 80},
+                    {"label": "twins", "wins": 79, "losses": 83},
+                    {"label": "angels", "wins": 67, "losses": 95},
+                    {"label": "white-sox", "wins": 67, "losses": 95},
+                    {"label": "rangers", "wins": 65, "losses": 96}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "cardinals-mlb", "wins": 97, "losses": 65},
+                    {"label": "giants-mlb", "wins": 88, "losses": 74},
+                    {"label": "cubs", "wins": 84, "losses": 78},
+                    {"label": "reds", "wins": 83, "losses": 79},
+                    {"label": "braves", "wins": 81, "losses": 81},
+                    {"label": "pirates", "wins": 80, "losses": 82},
+                    {"label": "dodgers", "wins": 76, "losses": 86},
+                    {"label": "phillies", "wins": 76, "losses": 86},
+                    {"label": "mets", "wins": 73, "losses": 89},
+                    {"label": "astros", "wins": 72, "losses": 90}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "tigers",
+                        "loser_label": "cardinals-mlb",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "1953 MLB Season",
+    "start_year": 1953,
+    "end_year": 1953,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "yankees", "wins": 99, "losses": 52},
+                    {"label": "guardians", "wins": 92, "losses": 62},
+                    {"label": "white-sox", "wins": 89, "losses": 65},
+                    {"label": "red-sox", "wins": 84, "losses": 69},
+                    {"label": "twins", "wins": 76, "losses": 76},
+                    {"label": "tigers", "wins": 60, "losses": 94},
+                    {"label": "athletics", "wins": 59, "losses": 95},
+                    {"label": "orioles", "wins": 54, "losses": 100}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "dodgers", "wins": 105, "losses": 49},
+                    {"label": "braves", "wins": 92, "losses": 62},
+                    {"label": "phillies", "wins": 83, "losses": 71},
+                    {"label": "cardinals-mlb", "wins": 83, "losses": 71},
+                    {"label": "giants-mlb", "wins": 70, "losses": 84},
+                    {"label": "reds", "wins": 68, "losses": 86},
+                    {"label": "cubs", "wins": 65, "losses": 89},
+                    {"label": "pirates", "wins": 50, "losses": 104}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "dodgers",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

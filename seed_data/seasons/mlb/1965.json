@@ -1,0 +1,59 @@
+{
+    "name": "1965 MLB Season",
+    "start_year": 1965,
+    "end_year": 1965,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "twins", "wins": 102, "losses": 60},
+                    {"label": "white-sox", "wins": 95, "losses": 67},
+                    {"label": "orioles", "wins": 94, "losses": 68},
+                    {"label": "tigers", "wins": 89, "losses": 73},
+                    {"label": "guardians", "wins": 87, "losses": 75},
+                    {"label": "yankees", "wins": 77, "losses": 85},
+                    {"label": "angels", "wins": 75, "losses": 87},
+                    {"label": "rangers", "wins": 70, "losses": 92},
+                    {"label": "red-sox", "wins": 62, "losses": 100},
+                    {"label": "athletics", "wins": 59, "losses": 103}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "dodgers", "wins": 97, "losses": 65},
+                    {"label": "giants-mlb", "wins": 94, "losses": 67},
+                    {"label": "pirates", "wins": 90, "losses": 72},
+                    {"label": "reds", "wins": 89, "losses": 73},
+                    {"label": "braves", "wins": 86, "losses": 76},
+                    {"label": "phillies", "wins": 85, "losses": 76},
+                    {"label": "cardinals-mlb", "wins": 80, "losses": 81},
+                    {"label": "cubs", "wins": 72, "losses": 90},
+                    {"label": "astros", "wins": 65, "losses": 97},
+                    {"label": "mets", "wins": 50, "losses": 112}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "dodgers",
+                        "loser_label": "twins",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

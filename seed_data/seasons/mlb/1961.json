@@ -1,0 +1,57 @@
+{
+    "name": "1961 MLB Season",
+    "start_year": 1961,
+    "end_year": 1961,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "results": [
+                    {"label": "yankees", "wins": 109, "losses": 53},
+                    {"label": "tigers", "wins": 101, "losses": 61},
+                    {"label": "orioles", "wins": 95, "losses": 67},
+                    {"label": "white-sox", "wins": 86, "losses": 76},
+                    {"label": "guardians", "wins": 78, "losses": 83},
+                    {"label": "red-sox", "wins": 76, "losses": 86},
+                    {"label": "twins", "wins": 70, "losses": 90},
+                    {"label": "angels", "wins": 70, "losses": 91},
+                    {"label": "athletics", "wins": 61, "losses": 100},
+                    {"label": "rangers", "wins": 61, "losses": 100}
+                ]
+            },
+            {
+                "name": "NL",
+                "results": [
+                    {"label": "reds", "wins": 93, "losses": 61},
+                    {"label": "dodgers", "wins": 89, "losses": 65},
+                    {"label": "giants-mlb", "wins": 85, "losses": 69},
+                    {"label": "braves", "wins": 83, "losses": 71},
+                    {"label": "cardinals-mlb", "wins": 80, "losses": 74},
+                    {"label": "pirates", "wins": 75, "losses": 79},
+                    {"label": "cubs", "wins": 64, "losses": 90},
+                    {"label": "phillies", "wins": 47, "losses": 107}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "reds",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

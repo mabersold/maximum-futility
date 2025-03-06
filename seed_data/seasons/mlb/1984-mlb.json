@@ -1,0 +1,104 @@
+{
+    "name": "1984 MLB Season",
+    "start_year": 1984,
+    "end_year": 1984,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 4,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "sub_groups": [
+                    {
+                        "name": "AL East",
+                        "results": [
+                            {"label": "tigers", "wins": 104, "losses": 58},
+                            {"label": "blue-jays", "wins": 89, "losses": 73},
+                            {"label": "yankees", "wins": 87, "losses": 75},
+                            {"label": "red-sox", "wins": 86, "losses": 76},
+                            {"label": "orioles", "wins": 85, "losses": 77},
+                            {"label": "guardians", "wins": 75, "losses": 87},
+                            {"label": "brewers", "wins": 67, "losses": 94}
+                        ]
+                    },
+                    {
+                        "name": "AL West",
+                        "results": [
+                            {"label": "royals", "wins": 84, "losses": 78},
+                            {"label": "angels", "wins": 81, "losses": 81},
+                            {"label": "twins", "wins": 81, "losses": 81},
+                            {"label": "athletics", "wins": 77, "losses": 85},
+                            {"label": "white-sox", "wins": 74, "losses": 88},
+                            {"label": "mariners", "wins": 74, "losses": 88},
+                            {"label": "rangers", "wins": 69, "losses": 92}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NL",
+                "sub_groups": [
+                    {
+                        "name": "NL East",
+                        "results": [
+                            {"label": "cubs", "wins": 96, "losses": 65},
+                            {"label": "mets", "wins": 90, "losses": 72},
+                            {"label": "cardinals-mlb", "wins": 84, "losses": 78},
+                            {"label": "phillies", "wins": 81, "losses": 81},
+                            {"label": "nationals", "wins": 78, "losses": 83},
+                            {"label": "pirates", "wins": 75, "losses": 87}
+                        ]
+                    },
+                    {
+                        "name": "NL West",
+                        "results": [
+                            {"label": "padres", "wins": 92, "losses": 70},
+                            {"label": "braves", "wins": 80, "losses": 82},
+                            {"label": "astros", "wins": 80, "losses": 82},
+                            {"label": "dodgers", "wins": 79, "losses": 83},
+                            {"label": "reds", "wins": 70, "losses": 92},
+                            {"label": "giants-mlb", "wins": 66, "losses": 96}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "tigers",
+                        "loser_label": "royals",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "padres",
+                        "loser_label": "cubs",
+                        "total_games": 5,
+                        "games_won": 3,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "tigers",
+                        "loser_label": "padres",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

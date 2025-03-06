@@ -1,0 +1,102 @@
+{
+    "name": "1974 MLB Season",
+    "start_year": 1974,
+    "end_year": 1974,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 4,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "sub_groups": [
+                    {
+                        "name": "AL East",
+                        "results": [
+                            {"label": "orioles", "wins": 91, "losses": 71},
+                            {"label": "yankees", "wins": 89, "losses": 73},
+                            {"label": "red-sox", "wins": 84, "losses": 78},
+                            {"label": "guardians", "wins": 77, "losses": 85},
+                            {"label": "brewers", "wins": 76, "losses": 86},
+                            {"label": "tigers", "wins": 72, "losses": 90}
+                        ]
+                    },
+                    {
+                        "name": "AL West",
+                        "results": [
+                            {"label": "athletics", "wins": 90, "losses": 72},
+                            {"label": "rangers", "wins": 84, "losses": 76},
+                            {"label": "twins", "wins": 82, "losses": 80},
+                            {"label": "white-sox", "wins": 80, "losses": 80},
+                            {"label": "royals", "wins": 77, "losses": 85},
+                            {"label": "angels", "wins": 68, "losses": 94}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NL",
+                "sub_groups": [
+                    {
+                        "name": "NL East",
+                        "results": [
+                            {"label": "pirates", "wins": 88, "losses": 74},
+                            {"label": "cardinals-mlb", "wins": 86, "losses": 75},
+                            {"label": "phillies", "wins": 80, "losses": 82},
+                            {"label": "nationals", "wins": 79, "losses": 82},
+                            {"label": "mets", "wins": 71, "losses": 91},
+                            {"label": "cubs", "wins": 66, "losses": 96}
+                        ]
+                    },
+                    {
+                        "name": "NL West",
+                        "results": [
+                            {"label": "dodgers", "wins": 102, "losses": 60},
+                            {"label": "reds", "wins": 98, "losses": 64},
+                            {"label": "braves", "wins": 88, "losses": 74},
+                            {"label": "astros", "wins": 81, "losses": 81},
+                            {"label": "giants-mlb", "wins": 72, "losses": 90},
+                            {"label": "padres", "wins": 60, "losses": 102}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "athletics",
+                        "loser_label": "orioles",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "dodgers",
+                        "loser_label": "pirates",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "athletics",
+                        "loser_label": "dodgers",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

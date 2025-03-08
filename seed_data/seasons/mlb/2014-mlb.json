@@ -1,0 +1,170 @@
+{
+    "name": "2014 MLB Season",
+    "start_year": 2014,
+    "end_year": 2014,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 6,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "sub_groups": [
+                    {
+                        "name": "AL East",
+                        "results": [
+                            {"label": "orioles", "wins": 96, "losses": 66},
+                            {"label": "yankees", "wins": 84, "losses": 78},
+                            {"label": "blue-jays", "wins": 83, "losses": 79},
+                            {"label": "rays", "wins": 77, "losses": 85},
+                            {"label": "red-sox", "wins": 71, "losses": 91}
+                        ]
+                    },
+                    {
+                        "name": "AL Central",
+                        "results": [
+                            {"label": "tigers", "wins": 90, "losses": 72},
+                            {"label": "royals", "wins": 89, "losses": 73},
+                            {"label": "guardians", "wins": 85, "losses": 77},
+                            {"label": "white-sox", "wins": 73, "losses": 89},
+                            {"label": "twins", "wins": 70, "losses": 92}
+                        ]
+                    },
+                    {
+                        "name": "AL West",
+                        "results": [
+                            {"label": "angels", "wins": 98, "losses": 64},
+                            {"label": "athletics", "wins": 88, "losses": 74},
+                            {"label": "mariners", "wins": 87, "losses": 75},
+                            {"label": "astros", "wins": 70, "losses": 92},
+                            {"label": "rangers", "wins": 67, "losses": 95}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NL",
+                "sub_groups": [
+                    {
+                        "name": "NL East",
+                        "results": [
+                            {"label": "nationals", "wins": 96, "losses": 66},
+                            {"label": "braves", "wins": 79, "losses": 83},
+                            {"label": "mets", "wins": 79, "losses": 83},
+                            {"label": "marlins", "wins": 77, "losses": 85},
+                            {"label": "phillies", "wins": 73, "losses": 89}
+                        ]
+                    },
+                    {
+                        "name": "NL Central",
+                        "results": [
+                            {"label": "cardinals-mlb", "wins": 90, "losses": 72},
+                            {"label": "pirates", "wins": 88, "losses": 74},
+                            {"label": "brewers", "wins": 82, "losses": 80},
+                            {"label": "reds", "wins": 76, "losses": 86},
+                            {"label": "cubs", "wins": 73, "losses": 89}
+                        ]
+                    },
+                    {
+                        "name": "NL West",
+                        "results": [
+                            {"label": "dodgers", "wins": 94, "losses": 68},
+                            {"label": "giants-mlb", "wins": 88, "losses": 74},
+                            {"label": "padres", "wins": 77, "losses": 85},
+                            {"label": "rockies", "wins": 66, "losses": 96},
+                            {"label": "diamondbacks", "wins": 64, "losses": 98}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "royals",
+                        "loser_label": "athletics",
+                        "total_games": 1,
+                        "games_won": 1,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "giants-mlb",
+                        "loser_label": "pirates",
+                        "total_games": 1,
+                        "games_won": 1,
+                        "games_lost": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "royals",
+                        "loser_label": "angels",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "orioles",
+                        "loser_label": "tigers",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "giants-mlb",
+                        "loser_label": "nationals",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "cardinals-mlb",
+                        "loser_label": "dodgers",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "royals",
+                        "loser_label": "orioles",
+                        "total_games": 4,
+                        "games_won": 4,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "giants-mlb",
+                        "loser_label": "cardinals-mlb",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner_label": "giants-mlb",
+                        "loser_label": "royals",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

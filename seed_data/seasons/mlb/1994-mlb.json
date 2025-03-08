@@ -1,0 +1,83 @@
+{
+    "name": "1994 MLB Season",
+    "start_year": 1994,
+    "end_year": 1994,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 6,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "sub_groups": [
+                    {
+                        "name": "AL East",
+                        "results": [
+                            {"label": "yankees", "wins": 70, "losses": 43},
+                            {"label": "orioles", "wins": 63, "losses": 49},
+                            {"label": "blue-jays", "wins": 55, "losses": 60},
+                            {"label": "red-sox", "wins": 54, "losses": 61},
+                            {"label": "tigers", "wins": 53, "losses": 62}
+                        ]
+                    },
+                    {
+                        "name": "AL Central",
+                        "results": [
+                            {"label": "white-sox", "wins": 67, "losses": 46},
+                            {"label": "guardians", "wins": 66, "losses": 47},
+                            {"label": "royals", "wins": 64, "losses": 51},
+                            {"label": "twins", "wins": 53, "losses": 60},
+                            {"label": "brewers", "wins": 53, "losses": 62}
+                        ]
+                    },
+                    {
+                        "name": "AL West",
+                        "results": [
+                            {"label": "rangers", "wins": 52, "losses": 62},
+                            {"label": "athletics", "wins": 51, "losses": 63},
+                            {"label": "mariners", "wins": 49, "losses": 63},
+                            {"label": "angels", "wins": 47, "losses": 68}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NL",
+                "sub_groups": [
+                    {
+                        "name": "NL East",
+                        "results": [
+                            {"label": "nationals", "wins": 74, "losses": 40},
+                            {"label": "braves", "wins": 68, "losses": 46},
+                            {"label": "mets", "wins": 55, "losses": 58},
+                            {"label": "phillies", "wins": 54, "losses": 61},
+                            {"label": "marlins", "wins": 51, "losses": 64}
+                        ]
+                    },
+                    {
+                        "name": "NL Central",
+                        "results": [
+                            {"label": "reds", "wins": 66, "losses": 48},
+                            {"label": "astros", "wins": 66, "losses": 49},
+                            {"label": "pirates", "wins": 53, "losses": 61},
+                            {"label": "cardinals-mlb", "wins": 53, "losses": 61},
+                            {"label": "cubs", "wins": 49, "losses": 64}
+                        ]
+                    },
+                    {
+                        "name": "NL West",
+                        "results": [
+                            {"label": "dodgers", "wins": 58, "losses": 56},
+                            {"label": "giants-mlb", "wins": 55, "losses": 60},
+                            {"label": "rockies", "wins": 53, "losses": 64},
+                            {"label": "padres", "wins": 47, "losses": 70}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": []
+    }
+}

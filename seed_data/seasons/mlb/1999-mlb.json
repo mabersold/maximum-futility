@@ -1,0 +1,151 @@
+{
+    "name": "1999 MLB Season",
+    "start_year": 1999,
+    "end_year": 1999,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 6,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "sub_groups": [
+                    {
+                        "name": "AL East",
+                        "results": [
+                            {"label": "yankees", "wins": 98, "losses": 64},
+                            {"label": "red-sox", "wins": 94, "losses": 68},
+                            {"label": "blue-jays", "wins": 84, "losses": 78},
+                            {"label": "orioles", "wins": 78, "losses": 84},
+                            {"label": "rays", "wins": 69, "losses": 93}
+                        ]
+                    },
+                    {
+                        "name": "AL Central",
+                        "results": [
+                            {"label": "guardians", "wins": 97, "losses": 65},
+                            {"label": "white-sox", "wins": 75, "losses": 86},
+                            {"label": "tigers", "wins": 69, "losses": 92},
+                            {"label": "royals", "wins": 64, "losses": 97},
+                            {"label": "twins", "wins": 63, "losses": 97}
+                        ]
+                    },
+                    {
+                        "name": "AL West",
+                        "results": [
+                            {"label": "rangers", "wins": 95, "losses": 67},
+                            {"label": "athletics", "wins": 87, "losses": 75},
+                            {"label": "mariners", "wins": 79, "losses": 83},
+                            {"label": "angels", "wins": 70, "losses": 92}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NL",
+                "sub_groups": [
+                    {
+                        "name": "NL East",
+                        "results": [
+                            {"label": "braves", "wins": 103, "losses": 59},
+                            {"label": "mets", "wins": 97, "losses": 66},
+                            {"label": "phillies", "wins": 77, "losses": 85},
+                            {"label": "nationals", "wins": 68, "losses": 94},
+                            {"label": "marlins", "wins": 64, "losses": 98}
+                        ]
+                    },
+                    {
+                        "name": "NL Central",
+                        "results": [
+                            {"label": "astros", "wins": 97, "losses": 65},
+                            {"label": "reds", "wins": 96, "losses": 67},
+                            {"label": "pirates", "wins": 78, "losses": 83},
+                            {"label": "cardinals-mlb", "wins": 75, "losses": 86},
+                            {"label": "brewers", "wins": 74, "losses": 87},
+                            {"label": "cubs", "wins": 67, "losses": 95}
+                        ]
+                    },
+                    {
+                        "name": "NL West",
+                        "results": [
+                            {"label": "diamondbacks", "wins": 100, "losses": 62},
+                            {"label": "giants-mlb", "wins": 86, "losses": 76},
+                            {"label": "dodgers", "wins": 77, "losses": 85},
+                            {"label": "padres", "wins": 74, "losses": 88},
+                            {"label": "rockies", "wins": 72, "losses": 90}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "rangers",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "red-sox",
+                        "loser_label": "guardians",
+                        "total_games": 5,
+                        "games_won": 3,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "braves",
+                        "loser_label": "astros",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "mets",
+                        "loser_label": "diamondbacks",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "red-sox",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "braves",
+                        "loser_label": "mets",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "braves",
+                        "total_games": 4,
+                        "games_won": 4,
+                        "games_lost": 0,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

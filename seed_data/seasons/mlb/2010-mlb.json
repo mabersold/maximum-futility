@@ -1,0 +1,151 @@
+{
+    "name": "2010 MLB Season",
+    "start_year": 2010,
+    "end_year": 2010,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 6,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "sub_groups": [
+                    {
+                        "name": "AL East",
+                        "results": [
+                            {"label": "rays", "wins": 96, "losses": 66},
+                            {"label": "yankees", "wins": 95, "losses": 67},
+                            {"label": "red-sox", "wins": 89, "losses": 73},
+                            {"label": "blue-jays", "wins": 85, "losses": 77},
+                            {"label": "orioles", "wins": 66, "losses": 96}
+                        ]
+                    },
+                    {
+                        "name": "AL Central",
+                        "results": [
+                            {"label": "twins", "wins": 94, "losses": 68},
+                            {"label": "white-sox", "wins": 88, "losses": 74},
+                            {"label": "tigers", "wins": 81, "losses": 81},
+                            {"label": "guardians", "wins": 69, "losses": 93},
+                            {"label": "royals", "wins": 67, "losses": 95}
+                        ]
+                    },
+                    {
+                        "name": "AL West",
+                        "results": [
+                            {"label": "rangers", "wins": 90, "losses": 72},
+                            {"label": "athletics", "wins": 81, "losses": 81},
+                            {"label": "angels", "wins": 80, "losses": 82},
+                            {"label": "mariners", "wins": 61, "losses": 101}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NL",
+                "sub_groups": [
+                    {
+                        "name": "NL East",
+                        "results": [
+                            {"label": "phillies", "wins": 97, "losses": 65},
+                            {"label": "braves", "wins": 91, "losses": 71},
+                            {"label": "marlins", "wins": 80, "losses": 82},
+                            {"label": "mets", "wins": 79, "losses": 83},
+                            {"label": "nationals", "wins": 69, "losses": 93}
+                        ]
+                    },
+                    {
+                        "name": "NL Central",
+                        "results": [
+                            {"label": "reds", "wins": 91, "losses": 71},
+                            {"label": "cardinals-mlb", "wins": 86, "losses": 76},
+                            {"label": "brewers", "wins": 77, "losses": 85},
+                            {"label": "astros", "wins": 76, "losses": 86},
+                            {"label": "cubs", "wins": 75, "losses": 87},
+                            {"label": "pirates", "wins": 57, "losses": 105}
+                        ]
+                    },
+                    {
+                        "name": "NL West",
+                        "results": [
+                            {"label": "giants-mlb", "wins": 92, "losses": 70},
+                            {"label": "padres", "wins": 90, "losses": 72},
+                            {"label": "rockies", "wins": 83, "losses": 79},
+                            {"label": "dodgers", "wins": 80, "losses": 82},
+                            {"label": "diamondbacks", "wins": 65, "losses": 97}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "rays",
+                        "total_games": 5,
+                        "games_won": 3,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "yankees",
+                        "loser_label": "twins",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "phillies",
+                        "loser_label": "reds",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "giants-mlb",
+                        "loser_label": "braves",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "yankees",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "giants-mlb",
+                        "loser_label": "phillies",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "giants-mlb",
+                        "loser_label": "rangers",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "name": "2023 MLB Season",
+    "start_year": 2023,
+    "end_year": 2023,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 6,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "sub_groups": [
+                    {
+                        "name": "AL East",
+                        "results": [
+                            {"label": "orioles", "wins": 101, "losses": 61},
+                            {"label": "rays", "wins": 99, "losses": 63},
+                            {"label": "blue-jays", "wins": 89, "losses": 73},
+                            {"label": "yankees", "wins": 82, "losses": 80},
+                            {"label": "red-sox", "wins": 78, "losses": 84}
+                        ]
+                    },
+                    {
+                        "name": "AL Central",
+                        "results": [
+                            {"label": "twins", "wins": 87, "losses": 75},
+                            {"label": "tigers", "wins": 78, "losses": 84},
+                            {"label": "guardians", "wins": 76, "losses": 86},
+                            {"label": "white-sox", "wins": 61, "losses": 101},
+                            {"label": "royals", "wins": 56, "losses": 106}
+                        ]
+                    },
+                    {
+                        "name": "AL West",
+                        "results": [
+                            {"label": "astros", "wins": 90, "losses": 72},
+                            {"label": "rangers", "wins": 90, "losses": 72},
+                            {"label": "mariners", "wins": 88, "losses": 74},
+                            {"label": "angels", "wins": 73, "losses": 89},
+                            {"label": "athletics", "wins": 50, "losses": 112}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NL",
+                "sub_groups": [
+                    {
+                        "name": "NL East",
+                        "results": [
+                            {"label": "braves", "wins": 104, "losses": 58},
+                            {"label": "phillies", "wins": 90, "losses": 72},
+                            {"label": "marlins", "wins": 84, "losses": 78},
+                            {"label": "mets", "wins": 75, "losses": 87},
+                            {"label": "nationals", "wins": 71, "losses": 91}
+                        ]
+                    },
+                    {
+                        "name": "NL Central",
+                        "results": [
+                            {"label": "brewers", "wins": 92, "losses": 70},
+                            {"label": "cubs", "wins": 83, "losses": 79},
+                            {"label": "reds", "wins": 82, "losses": 80},
+                            {"label": "pirates", "wins": 76, "losses": 86},
+                            {"label": "cardinals-mlb", "wins": 71, "losses": 91}
+                        ]
+                    },
+                    {
+                        "name": "NL West",
+                        "results": [
+                            {"label": "dodgers", "wins": 100, "losses": 62},
+                            {"label": "diamondbacks", "wins": 84, "losses": 78},
+                            {"label": "padres", "wins": 82, "losses": 80},
+                            {"label": "giants-mlb", "wins": 79, "losses": 83},
+                            {"label": "rockies", "wins": 59, "losses": 103}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "rays",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "twins",
+                        "loser_label": "blue-jays",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "phillies",
+                        "loser_label": "marlins",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "diamondbacks",
+                        "loser_label": "brewers",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "orioles",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "astros",
+                        "loser_label": "twins",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "phillies",
+                        "loser_label": "braves",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "diamondbacks",
+                        "loser_label": "dodgers",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "astros",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    },
+                    {
+                        "winner_label": "diamondbacks",
+                        "loser_label": "phillies",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "diamondbacks",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

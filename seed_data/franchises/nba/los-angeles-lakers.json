@@ -1,0 +1,22 @@
+{
+  "id": 51,
+  "name": "Los Angeles Lakers",
+  "label": "lakers",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Minneapolis Lakers",
+      "metro_id": "minneapolis",
+      "league_id": "nba",
+      "start_year": 1948,
+      "end_year": 1959
+    },
+    {
+      "team_name": "Los Angeles Lakers",
+      "metro_id": "los-angeles",
+      "league_id": "nba",
+      "start_year": 1960
+    }
+  ]
+}

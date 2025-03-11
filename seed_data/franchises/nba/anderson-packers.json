@@ -1,0 +1,16 @@
+{
+  "id": 31,
+  "name": "Anderson Packers",
+  "label": "packers-nba",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Anderson Packers",
+      "metro_id": "anderson",
+      "league_id": "nba",
+      "start_year": 1949,
+      "end_year": 1949
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 67,
+  "name": "Sheboygan Red Skins",
+  "label": "redskins-nba",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Sheboygan Red Skins",
+      "metro_id": "sheboygan",
+      "league_id": "nba",
+      "start_year": 1949,
+      "end_year": 1949
+    }
+  ]
+}

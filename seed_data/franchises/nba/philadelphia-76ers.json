@@ -1,0 +1,22 @@
+{
+  "id": 60,
+  "name": "Philadelphia 76ers",
+  "label": "76ers",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Syracuse Nationals",
+      "metro_id": "syracuse",
+      "league_id": "nba",
+      "start_year": 1949,
+      "end_year": 1962
+    },
+    {
+      "team_name": "Philadelphia 76ers",
+      "metro_id": "philadelphia",
+      "league_id": "nba",
+      "start_year": 1963
+    }
+  ]
+}

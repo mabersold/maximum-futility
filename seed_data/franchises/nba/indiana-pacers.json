@@ -1,0 +1,15 @@
+{
+  "id": 47,
+  "name": "Indiana Pacers",
+  "label": "pacers",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Indiana Pacers",
+      "metro_id": "indianapolis",
+      "league_id": "nba",
+      "start_year": 1976
+    }
+  ]
+}

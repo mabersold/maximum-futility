@@ -1,0 +1,15 @@
+{
+  "id": 61,
+  "name": "Phoenix Suns",
+  "label": "suns",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Phoenix Suns",
+      "metro_id": "phoenix",
+      "league_id": "nba",
+      "start_year": 1968
+    }
+  ]
+}

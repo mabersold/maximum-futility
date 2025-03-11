@@ -1,0 +1,16 @@
+{
+  "id": 69,
+  "name": "Toronto Huskies",
+  "label": "huskies",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Toronto Huskies",
+      "metro_id": "toronto",
+      "league_id": "nba",
+      "start_year": 1946,
+      "end_year": 1946
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": 44,
+  "name": "Detroit Pistons",
+  "label": "pistons",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Fort Wayne Pistons",
+      "metro_id": "fort-wayne",
+      "league_id": "nba",
+      "start_year": 1948,
+      "end_year": 1956
+    },
+    {
+      "team_name": "Detroit Pistons",
+      "metro_id": "detroit",
+      "league_id": "nba",
+      "start_year": 1957
+    }
+  ]
+}

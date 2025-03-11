@@ -1,0 +1,29 @@
+{
+  "id": 35,
+  "name": "Brooklyn Nets",
+  "label": "nets",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "New York Nets",
+      "metro_id": "new-york",
+      "league_id": "nba",
+      "start_year": 1976,
+      "end_year": 1976
+    },
+    {
+      "team_name": "New Jersey Nets",
+      "metro_id": "new-york",
+      "league_id": "nba",
+      "start_year": 1977,
+      "end_year": 2011
+    },
+    {
+      "team_name": "Brooklyn Nets",
+      "metro_id": "new-york",
+      "league_id": "nba",
+      "start_year": 2012
+    }
+  ]
+}

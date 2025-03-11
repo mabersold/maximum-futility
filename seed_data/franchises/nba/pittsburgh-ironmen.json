@@ -1,0 +1,15 @@
+{
+  "id": 62,
+  "name": "Pittsburgh Ironmen",
+  "label": "ironmen",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Pittsburgh Ironmen",
+      "metro_id": "pittsburgh",
+      "league_id": "nba",
+      "start_year": 1946
+    }
+  ]
+}

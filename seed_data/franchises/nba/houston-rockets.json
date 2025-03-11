@@ -1,0 +1,22 @@
+{
+  "id": 46,
+  "name": "Houston Rockets",
+  "label": "rockets",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "San Diego Rockets",
+      "metro_id": "san-diego",
+      "league_id": "nba",
+      "start_year": 1967,
+      "end_year": 1970
+    },
+    {
+      "team_name": "Houston Rockets",
+      "metro_id": "houston",
+      "league_id": "nba",
+      "start_year": 1971
+    }
+  ]
+}

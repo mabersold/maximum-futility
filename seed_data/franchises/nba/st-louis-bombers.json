@@ -1,0 +1,16 @@
+{
+  "id": 68,
+  "name": "St. Louis Bombers",
+  "label": "bombers",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "St. Louis Bombers",
+      "metro_id": "st-louis",
+      "league_id": "nba",
+      "start_year": 1946,
+      "end_year": 1949
+    }
+  ]
+}

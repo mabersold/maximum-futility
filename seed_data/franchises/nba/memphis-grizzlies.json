@@ -1,0 +1,22 @@
+{
+  "id": 52,
+  "name": "Memphis Grizzlies",
+  "label": "grizzlies",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Vancouver Grizzlies",
+      "metro_id": "vancouver",
+      "league_id": "nba",
+      "start_year": 1995,
+      "end_year": 2000
+    },
+    {
+      "team_name": "Memphis Grizzlies",
+      "metro_id": "memphis",
+      "league_id": "nba",
+      "start_year": 2001
+    }
+  ]
+}

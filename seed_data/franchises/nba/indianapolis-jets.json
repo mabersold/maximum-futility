@@ -1,0 +1,16 @@
+{
+  "id": 48,
+  "name": "Indianapolis Jets",
+  "label": "jets-nba",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Indianapolis Jets",
+      "metro_id": "indianapolis",
+      "league_id": "nba",
+      "start_year": 1948,
+      "end_year": 1948
+    }
+  ]
+}

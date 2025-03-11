@@ -1,0 +1,22 @@
+{
+  "id": 58,
+  "name": "Oklahoma City Thunder",
+  "label": "thunder",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Seattle Supersonics",
+      "metro_id": "seattle",
+      "league_id": "nba",
+      "start_year": 1967,
+      "end_year": 2007
+    },
+    {
+      "team_name": "Oklahoma City Thunder",
+      "metro_id": "oklahoma-city",
+      "league_id": "nba",
+      "start_year": 2008
+    }
+  ]
+}

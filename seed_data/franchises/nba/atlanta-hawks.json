@@ -1,0 +1,36 @@
+{
+  "id": 32,
+  "name": "Atlanta Hawks",
+  "label": "hawks",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Tri-Cities Blackhawks",
+      "metro_id": "tri-cities",
+      "league_id": "nba",
+      "start_year": 1949,
+      "end_year": 1950
+    },
+    {
+      "team_name": "Milwaukee Hawks",
+      "metro_id": "milwaukee",
+      "league_id": "nba",
+      "start_year": 1951,
+      "end_year": 1954
+    },
+    {
+      "team_name": "St. Louis Hawks",
+      "metro_id": "st-louis",
+      "league_id": "nba",
+      "start_year": 1955,
+      "end_year": 1967
+    },
+    {
+      "team_name": "Atlanta Hawks",
+      "metro_id": "atlanta",
+      "league_id": "nba",
+      "start_year": 1968
+    }
+  ]
+}

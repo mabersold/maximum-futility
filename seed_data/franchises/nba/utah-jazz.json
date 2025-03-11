@@ -1,0 +1,22 @@
+{
+  "id": 71,
+  "name": "Utah Jazz",
+  "label": "jazz",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "New Orleans Jazz",
+      "metro_id": "new-orleans",
+      "league_id": "nba",
+      "start_year": 1974,
+      "end_year": 1978
+    },
+    {
+      "team_name": "Utah Jazz",
+      "metro_id": "salt-lake-city",
+      "league_id": "nba",
+      "start_year": 1979
+    }
+  ]
+}

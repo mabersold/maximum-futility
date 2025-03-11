@@ -1,0 +1,15 @@
+{
+  "id": 43,
+  "name": "Denver Nuggets",
+  "label": "nuggets",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Denver Nuggets",
+      "metro_id": "denver",
+      "league_id": "nba",
+      "start_year": 1976
+    }
+  ]
+}

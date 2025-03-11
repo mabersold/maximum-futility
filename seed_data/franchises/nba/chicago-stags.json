@@ -1,0 +1,16 @@
+{
+  "id": 38,
+  "name": "Chicago Stags",
+  "label": "stags",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Chicago Stags",
+      "metro_id": "chicago",
+      "league_id": "nba",
+      "start_year": 1946,
+      "end_year": 1949
+    }
+  ]
+}

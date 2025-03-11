@@ -1,0 +1,15 @@
+{
+  "id": 66,
+  "name": "San Antonio Spurs",
+  "label": "spurs",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "San Antonio Spurs",
+      "metro_id": "san-antonio",
+      "league_id": "nba",
+      "start_year": 1976
+    }
+  ]
+}

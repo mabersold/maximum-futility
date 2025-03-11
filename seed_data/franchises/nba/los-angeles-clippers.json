@@ -1,0 +1,29 @@
+{
+  "id": 50,
+  "name": "Los Angeles Clippers",
+  "label": "clippers",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Buffalo Braves",
+      "metro_id": "buffalo",
+      "league_id": "nba",
+      "start_year": 1970,
+      "end_year": 1977
+    },
+    {
+      "team_name": "San Diego Clippers",
+      "metro_id": "san-diego",
+      "league_id": "nba",
+      "start_year": 1978,
+      "end_year": 1983
+    },
+    {
+      "team_name": "Los Angeles Clippers",
+      "metro_id": "los-angeles",
+      "league_id": "nba",
+      "start_year": 1984
+    }
+  ]
+}

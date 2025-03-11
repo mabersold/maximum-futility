@@ -1,0 +1,15 @@
+{
+  "id": 70,
+  "name": "Toronto Raptors",
+  "label": "raptors",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Toronto Raptors",
+      "metro_id": "toronto",
+      "league_id": "nba",
+      "start_year": 1995
+    }
+  ]
+}

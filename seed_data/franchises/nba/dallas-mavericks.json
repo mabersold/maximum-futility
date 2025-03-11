@@ -1,0 +1,15 @@
+{
+  "id": 41,
+  "name": "Dallas Mavericks",
+  "label": "mavericks",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Dallas Mavericks",
+      "metro_id": "dallas",
+      "league_id": "nba",
+      "start_year": 1980
+    }
+  ]
+}

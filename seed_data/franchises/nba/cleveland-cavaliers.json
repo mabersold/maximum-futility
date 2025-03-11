@@ -1,0 +1,15 @@
+{
+  "id": 39,
+  "name": "Cleveland Cavaliers",
+  "label": "cavaliers",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Cleveland Cavaliers",
+      "metro_id": "cleveland",
+      "league_id": "nba",
+      "start_year": 1970
+    }
+  ]
+}

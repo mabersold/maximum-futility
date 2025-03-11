@@ -1,0 +1,16 @@
+{
+  "id": 33,
+  "name": "Baltimore Bullets",
+  "label": "bullets",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Baltimore Bullets",
+      "metro_id": "baltimore",
+      "league_id": "nba",
+      "start_year": 1947,
+      "end_year": 1954
+    }
+  ]
+}

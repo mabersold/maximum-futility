@@ -1,0 +1,15 @@
+{
+  "id": 57,
+  "name": "New York Knicks",
+  "label": "knicks",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "New York Knicks",
+      "metro_id": "new-york",
+      "league_id": "nba",
+      "start_year": 1946
+    }
+  ]
+}

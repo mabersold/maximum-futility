@@ -1,0 +1,15 @@
+{
+  "id": 37,
+  "name": "Chicago Bulls",
+  "label": "bulls",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Chicago Bulls",
+      "metro_id": "chicago",
+      "league_id": "nba",
+      "start_year": 1966
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 40,
+  "name": "Cleveland Rebels",
+  "label": "rebels",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Cleveland Rebels",
+      "metro_id": "cleveland",
+      "league_id": "nba",
+      "start_year": 1946,
+      "end_year": 1946
+    }
+  ]
+}

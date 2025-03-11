@@ -1,0 +1,15 @@
+{
+  "id": 63,
+  "name": "Portland Trail Blazers",
+  "label": "blazers",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Portland Trail Blazers",
+      "metro_id": "portland",
+      "league_id": "nba",
+      "start_year": 1970
+    }
+  ]
+}

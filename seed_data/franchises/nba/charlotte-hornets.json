@@ -1,0 +1,29 @@
+{
+  "id": 36,
+  "name": "Charlotte Hornets",
+  "label": "hornets",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Charlotte Hornets",
+      "metro_id": "charlotte",
+      "league_id": "nba",
+      "start_year": 1988,
+      "end_year": 2001
+    },
+    {
+      "team_name": "Charlotte Bobcats",
+      "metro_id": "charlotte",
+      "league_id": "nba",
+      "start_year": 2004,
+      "end_year": 2013
+    },
+    {
+      "team_name": "Charlotte Hornets",
+      "metro_id": "charlotte",
+      "league_id": "nba",
+      "start_year": 2014
+    }
+  ]
+}

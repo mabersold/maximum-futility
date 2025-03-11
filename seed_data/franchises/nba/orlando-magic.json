@@ -1,0 +1,15 @@
+{
+  "id": 59,
+  "name": "Orlando Magic",
+  "label": "magic",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Orlando Magic",
+      "metro_id": "orlando",
+      "league_id": "nba",
+      "start_year": 1989
+    }
+  ]
+}

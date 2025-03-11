@@ -1,0 +1,15 @@
+{
+  "id": 55,
+  "name": "Minnesota Timberwolves",
+  "label": "timberwolves",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Minnesota Timberwolves",
+      "metro_id": "minneapolis",
+      "league_id": "nba",
+      "start_year": 1989
+    }
+  ]
+}

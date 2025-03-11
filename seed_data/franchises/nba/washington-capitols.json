@@ -1,0 +1,16 @@
+{
+  "id": 72,
+  "name": "Washington Capitols",
+  "label": "capitols-nba",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Washington Capitols",
+      "metro_id": "washington",
+      "league_id": "nba",
+      "start_year": 1946,
+      "end_year": 1950
+    }
+  ]
+}

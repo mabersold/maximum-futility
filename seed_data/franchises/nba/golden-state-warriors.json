@@ -1,0 +1,29 @@
+{
+  "id": 45,
+  "name": "Golden State Warriors",
+  "label": "warriors",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Philadelphia Warriors",
+      "metro_id": "philadelphia",
+      "league_id": "nba",
+      "start_year": 1946,
+      "end_year": 1961
+    },
+    {
+      "team_name": "San Francisco Warriors",
+      "metro_id": "san-francisco-bay",
+      "league_id": "nba",
+      "start_year": 1962,
+      "end_year": 1970
+    },
+    {
+      "team_name": "Golden State Warriors",
+      "metro_id": "san-francisco-bay",
+      "league_id": "nba",
+      "start_year": 1971
+    }
+  ]
+}

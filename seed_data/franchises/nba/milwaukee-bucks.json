@@ -1,0 +1,15 @@
+{
+  "id": 54,
+  "name": "Milwaukee Bucks",
+  "label": "bucks",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Milwaukee Bucks",
+      "metro_id": "milwaukee",
+      "league_id": "nba",
+      "start_year": 1968
+    }
+  ]
+}

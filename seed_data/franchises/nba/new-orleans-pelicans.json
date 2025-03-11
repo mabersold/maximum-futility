@@ -1,0 +1,22 @@
+{
+  "id": 56,
+  "name": "New Orleans Pelicans",
+  "label": "pelicans",
+  "is_defunct": false,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "New Orleans Hornets",
+      "metro_id": "new-orleans",
+      "league_id": "nba",
+      "start_year": 2002,
+      "end_year": 2012
+    },
+    {
+      "team_name": "New Orleans Pelicans",
+      "metro_id": "new-orleans",
+      "league_id": "nba",
+      "start_year": 2013
+    }
+  ]
+}

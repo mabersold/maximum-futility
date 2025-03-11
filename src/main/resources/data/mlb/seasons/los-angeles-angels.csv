@@ -25,7 +25,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1984,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
 1985,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
 1986,Los Angeles,California Angels,MLB,AL,AL West,,,FIRST,true,0,false,false
-1987,Los Angeles,California Angels,MLB,AL,AL West,,,LAST,false,,,
+1987,Los Angeles,California Angels,MLB,AL,AL West,,,LAST_TIED,false,,,
 1988,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
 1989,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,
 1990,Los Angeles,California Angels,MLB,AL,AL West,,,,false,,,

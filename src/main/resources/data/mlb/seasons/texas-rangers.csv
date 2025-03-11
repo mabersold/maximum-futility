@@ -25,7 +25,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1984,Dallas,Texas Rangers,MLB,AL,AL West,,,LAST,false,,,
 1985,Dallas,Texas Rangers,MLB,AL,AL West,,,LAST,false,,,
 1986,Dallas,Texas Rangers,MLB,AL,AL West,,,,false,,,
-1987,Dallas,Texas Rangers,MLB,AL,AL West,,,,false,,,
+1987,Dallas,Texas Rangers,MLB,AL,AL West,,,LAST_TIED,false,,,
 1988,Dallas,Texas Rangers,MLB,AL,AL West,,,,false,,,
 1989,Dallas,Texas Rangers,MLB,AL,AL West,,,,false,,,
 1990,Dallas,Texas Rangers,MLB,AL,AL West,,,,false,,,

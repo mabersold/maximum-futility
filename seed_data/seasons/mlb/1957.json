@@ -29,7 +29,7 @@
                     {"label": "reds", "wins": 80, "losses": 74},
                     {"label": "phillies", "wins": 77, "losses": 77},
                     {"label": "giants-mlb", "wins": 69, "losses": 85},
-                    {"label": "pirates", "wins": 62, "losses": 92},                    
+                    {"label": "pirates", "wins": 62, "losses": 92},
                     {"label": "cubs", "wins": 62, "losses": 92}
                 ]
             }

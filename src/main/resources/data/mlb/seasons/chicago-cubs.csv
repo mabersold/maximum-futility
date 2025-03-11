@@ -53,7 +53,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1954,Chicago,Chicago Cubs,MLB,NL,,,,,false,,,
 1955,Chicago,Chicago Cubs,MLB,NL,,,,,false,,,
 1956,Chicago,Chicago Cubs,MLB,NL,,,LAST,,false,,,
-1957,Chicago,Chicago Cubs,MLB,NL,,,LAST,,false,,,
+1957,Chicago,Chicago Cubs,MLB,NL,,,LAST_TIED,,false,,,
 1958,Chicago,Chicago Cubs,MLB,NL,,,,,false,,,
 1959,Chicago,Chicago Cubs,MLB,NL,,,,,false,,,
 1960,Chicago,Chicago Cubs,MLB,NL,,,,,false,,,

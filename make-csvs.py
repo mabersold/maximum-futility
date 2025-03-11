@@ -25,7 +25,7 @@ def get_metros():
         next(csv_reader)
         for row in csv_reader:
             # metros.append({"name": row[1], "label": row[2]})
-            metros_reverse_lookup[row[2]] = row[0]
+            metros_reverse_lookup[row[2]] = {'id': row[0], 'name': row[1]}
     
     return metros_reverse_lookup
 
@@ -46,8 +46,12 @@ def get_franchises(leagues: dict, metros: dict):
             franchise_dict = json.loads(content)
             franchise_dict['league_id'] = int(leagues[league])
             for c in franchise_dict.get('chapters', []):
-                c['league_id'] = int(leagues.get(c['league_id']))
-                c['metro_id'] = int(metros.get(c['metro_id']))
+                league = c['league_id']
+                c['league_id'] = int(leagues.get(league))
+                c['league_name'] = league.upper()
+                metro = metros.get(c['metro_id'])
+                c['metro_id'] = int(metro['id'])
+                c['metro_name'] = metro['name']
             franchises.append(franchise_dict)
     
     return franchises
@@ -96,17 +100,17 @@ def get_franchise_seasons(seasons: list, franchise_label_map: dict, franchises: 
         get_flattened_franchise_list(season.get('standings'), max_depth, franchise_seasons, groupings)
         postseason_results = get_postseason_results(season.get('postseason', {}), franchise_label_map)
 
-        if has_conferences:
-            pass
-
         for fs in franchise_seasons:
             franchise_id = franchise_label_map.get(fs.get('label', ''), {})
             franchise = franchises[franchise_id - 1]
             chapter = find_chapter(franchise.get('chapters', []), season.get('start_year'))
             fs['season_id'] = season['id']
+            fs['start_year'] = season['start_year']
             fs['franchise_id'] = franchise_id
             fs['metro_id'] = chapter['metro_id']
+            fs['metro_name'] = chapter['metro_name']
             fs['league_id'] = chapter['league_id']
+            fs['league_name'] = chapter['league_name']
             fs['team_name'] = chapter['team_name']
             
             # Overall results
@@ -138,6 +142,8 @@ def get_franchise_seasons(seasons: list, franchise_label_map: dict, franchises: 
                 fs['rounds_won'] = ps_result.get('rounds_won', 0)
                 fs['appeared_in_championship'] = ps_result.get('appeared_in_championship', False)
                 fs['won_championship'] = ps_result.get('won_championship', False)
+            elif len(postseason_results) > 0:
+                fs['qualified_for_postseason'] = False
         
         total_franchise_seasons.extend(franchise_seasons)
     
@@ -285,6 +291,38 @@ def get_postseason_results(postseason: dict, franchise_label_map: dict):
 
     return results
 
+def write_individual_franchises(franchises: list, franchise_seasons: list):
+    # Temporary function, to be removed when I revamp which CSVs are used
+    for f in franchises:
+        seasons = [x for x in franchise_seasons if x['label'] == f['label']]
+        if len(seasons) == 0:
+            continue
+        identifier = f['name'].lower().replace(' ', '-').replace('.', '')
+        league = seasons[-1]['league_name'].lower()
+        with open(f'{csv_base_directory}/{league}/seasons/{identifier}.csv', 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(['season', 'metro', 'team_name', 'league', 'conference', 'division', 'league_position', 'conference_position', 'division_position', 'qualified_for_postseason', 'rounds_won', 'appeared_in_championship', 'won_championship'])
+            rows = [
+                [
+                    fs['start_year'],
+                    fs['metro_name'],
+                    fs['team_name'],
+                    fs['league_name'],
+                    fs.get('conference_name', ''),
+                    fs.get('division_name', ''),
+                    fs.get('league_position', ''),
+                    fs.get('conference_position', ''),
+                    fs.get('division_position', ''),
+                    str(fs.get('qualified_for_postseason', '')).lower(),
+                    str(fs.get('rounds_won', '')).lower(),
+                    str(fs.get('appeared_in_championship', '')).lower(),
+                    str(fs.get('won_championship', '')).lower()
+                ]
+                for fs in seasons    
+            ]
+    
+            writer.writerows(rows)
+
 leagues = get_leagues()
 metros = get_metros()
 franchises = get_franchises(leagues, metros)
@@ -297,5 +335,6 @@ franchise_seasons = get_franchise_seasons(seasons, franchise_label_map, franchis
 write_franchises(leagues)
 write_seasons(leagues)
 write_franchise_seasons(franchise_seasons)
+write_individual_franchises(franchises, franchise_seasons)
 
 print("Done.")

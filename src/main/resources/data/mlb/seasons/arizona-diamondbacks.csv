@@ -7,7 +7,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2003,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,,,false,,,
 2004,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,LAST,LAST,LAST,false,,,
 2005,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,,,false,,,
-2006,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,,,false,,,
+2006,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,,LAST_TIED,false,,,
 2007,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,FIRST,FIRST,true,1,false,false
 2008,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,,,false,,,
 2009,Phoenix,Arizona Diamondbacks,MLB,NL,NL West,,,LAST,false,,,

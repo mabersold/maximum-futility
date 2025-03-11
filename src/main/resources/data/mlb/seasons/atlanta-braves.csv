@@ -91,7 +91,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1992,Atlanta,Atlanta Braves,MLB,NL,NL West,FIRST,FIRST,FIRST,true,1,true,false
 1993,Atlanta,Atlanta Braves,MLB,NL,NL West,FIRST,FIRST,FIRST,true,0,false,false
 1994,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,,,,
-1995,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,2,true,true
+1995,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,3,true,true
 1996,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,2,true,false
 1997,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST,true,1,false,false
 1998,Atlanta,Atlanta Braves,MLB,NL,NL East,,FIRST,FIRST,true,1,false,false
@@ -118,6 +118,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2019,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
 2020,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,2,false,false
 2021,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,3,true,true
-2022,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST,true,0,false,false
+2022,Atlanta,Atlanta Braves,MLB,NL,NL East,,,FIRST_TIED,true,0,false,false
 2023,Atlanta,Atlanta Braves,MLB,NL,NL East,FIRST,FIRST,FIRST,true,0,false,false
 2024,Atlanta,Atlanta Braves,MLB,NL,NL East,,,,true,0,false,false

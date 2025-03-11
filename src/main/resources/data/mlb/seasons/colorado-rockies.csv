@@ -12,7 +12,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2003,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
 2004,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
 2005,Denver,Colorado Rockies,MLB,NL,NL West,,LAST_TIED,LAST,false,,,
-2006,Denver,Colorado Rockies,MLB,NL,NL West,,,LAST,false,,,
+2006,Denver,Colorado Rockies,MLB,NL,NL West,,,LAST_TIED,false,,,
 2007,Denver,Colorado Rockies,MLB,NL,NL West,,,,true,2,true,false
 2008,Denver,Colorado Rockies,MLB,NL,NL West,,,,false,,,
 2009,Denver,Colorado Rockies,MLB,NL,NL West,,,,true,0,false,false

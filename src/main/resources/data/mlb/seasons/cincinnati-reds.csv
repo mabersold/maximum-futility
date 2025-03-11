@@ -118,6 +118,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2019,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,,false,,,
 2020,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,,true,0,false,false
 2021,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,,false,,,
-2022,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,LAST,false,,,
+2022,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,LAST_TIED,false,,,
 2023,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,,false,,,
 2024,Cincinnati,Cincinnati Reds,MLB,NL,NL Central,,,,false,,,

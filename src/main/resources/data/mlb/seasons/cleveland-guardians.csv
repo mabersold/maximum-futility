@@ -105,7 +105,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2006,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
 2007,Cleveland,Cleveland Indians,MLB,AL,AL Central,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
 2008,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
-2009,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
+2009,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,LAST_TIED,false,,,
 2010,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
 2011,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
 2012,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
@@ -116,7 +116,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Cleveland,Cleveland Indians,MLB,AL,AL Central,,FIRST,FIRST,true,0,false,false
 2018,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,FIRST,true,0,false,false
 2019,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
-2020,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,true,,,
+2020,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,true,0,false,false
 2021,Cleveland,Cleveland Indians,MLB,AL,AL Central,,,,false,,,
 2022,Cleveland,Cleveland Guardians,MLB,AL,AL Central,,,FIRST,true,1,false,false
 2023,Cleveland,Cleveland Guardians,MLB,AL,AL Central,,,,false,,,

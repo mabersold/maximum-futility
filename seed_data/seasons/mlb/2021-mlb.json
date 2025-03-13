@@ -145,7 +145,7 @@
                     },
                     {
                         "winner_label": "braves",
-                        "loser_label": "dodgers-mlb",
+                        "loser_label": "dodgers",
                         "total_games": 6,
                         "games_won": 4,
                         "games_lost": 2

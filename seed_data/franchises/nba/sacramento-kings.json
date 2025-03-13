@@ -8,6 +8,7 @@
     {
       "team_name": "Rochester Royals",
       "metro_id": "rochester",
+      "label": "royals",
       "league_id": "nba",
       "start_year": 1948,
       "end_year": 1956
@@ -15,6 +16,7 @@
     {
       "team_name": "Cincinnati Royals",
       "metro_id": "cincinnati",
+      "label": "royals",
       "league_id": "nba",
       "start_year": 1957,
       "end_year": 1971

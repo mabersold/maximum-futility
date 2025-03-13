@@ -1,0 +1,17 @@
+{
+  "id": 74,
+  "name": "Detroit Falcons",
+  "label": "falcons-baa",
+  "is_defunct": true,
+  "league_id": "nba",
+  "chapters": [
+    {
+      "team_name": "Detroit Falcons",
+      "metro_id": "detroit",
+      "label": "falcons",
+      "league_id": "nba",
+      "start_year": 1946,
+      "end_year": 1946
+    }
+  ]
+}

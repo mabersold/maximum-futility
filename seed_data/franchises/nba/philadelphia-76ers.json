@@ -8,6 +8,7 @@
     {
       "team_name": "Syracuse Nationals",
       "metro_id": "syracuse",
+      "label": "nationals",
       "league_id": "nba",
       "start_year": 1949,
       "end_year": 1962

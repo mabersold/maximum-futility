@@ -6,8 +6,9 @@
   "league_id": "nba",
   "chapters": [
     {
-      "team_name": "Seattle Supersonics",
+      "team_name": "Seattle SuperSonics",
       "metro_id": "seattle",
+      "label": "sonics",
       "league_id": "nba",
       "start_year": 1967,
       "end_year": 2007

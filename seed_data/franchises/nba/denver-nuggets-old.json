@@ -8,6 +8,7 @@
     {
       "team_name": "Denver Nuggets",
       "metro_id": "denver",
+      "label": "nuggets",
       "league_id": "nba",
       "start_year": 1949,
       "end_year": 1949

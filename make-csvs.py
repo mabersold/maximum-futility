@@ -6,6 +6,9 @@ csv_base_directory = 'src/main/resources/data'
 franchises_directory = "seed_data/franchises"
 seasons_directory = "seed_data/seasons"
 
+franchise_label_map = {}
+franchise_lookups = []
+
 def get_leagues():
     leagues = []
     league_reverse_lookup = {}
@@ -98,12 +101,22 @@ def get_franchise_seasons(seasons: list, franchise_label_map: dict, franchises: 
 
         get_mins_and_maxes(season.get('standings'), min_values, max_values, max_depth)
         get_flattened_franchise_list(season.get('standings'), max_depth, franchise_seasons, groupings)
-        postseason_results = get_postseason_results(season.get('postseason', {}), franchise_label_map)
+        
+        league = season['league']
+        year = season['start_year']
+        postseason_results = get_postseason_results(season.get('postseason', {}), franchise_label_map, league, year)
 
         for fs in franchise_seasons:
             franchise_id = franchise_label_map.get(fs.get('label', ''), {})
+            label = fs.get('label', '')
+            
+            if franchise_id != get_franchise_id(label, league, year):
+                print(f"REGULAR SEASON WARNING: get_franchise_id returned incorrect result for {label} - {league} - {year}: Expected {franchise_id} but got {get_franchise_id(label, league, year)}")
+                franchise_id = get_franchise_id(label, league, year)
+            
             franchise = franchises[franchise_id - 1]
             chapter = find_chapter(franchise.get('chapters', []), season.get('start_year'))
+            fs['label'] = franchise['label']
             fs['season_id'] = season['id']
             fs['start_year'] = season['start_year']
             fs['franchise_id'] = franchise_id
@@ -148,6 +161,23 @@ def get_franchise_seasons(seasons: list, franchise_label_map: dict, franchises: 
         total_franchise_seasons.extend(franchise_seasons)
     
     return total_franchise_seasons
+
+def get_franchise_id(label: str, league: str, year: int):
+    label = label.lower()
+
+    matches = [team for team in franchise_lookups if team["name"].lower() == label and team["league"].lower() == league.lower()]
+
+    if len(matches) == 1:
+        # print(f"Found a match for {label} - {league} - {year}")
+        return matches[0]["id"]
+    
+    for team in matches:
+        if team["start_year"] <= year and (team["end_year"] is None or team["end_year"] >= year):
+            # print(f"Found a match for {label} - {league} - {year}")
+            return team["id"]
+
+    return franchise_label_map.get(label, {})
+    
 
 def write_franchises(leagues: dict):
     with open(f'{csv_base_directory}/franchises.csv', 'w', newline='') as file:
@@ -269,13 +299,19 @@ def get_flattened_franchise_list(standings: dict, max_depth: int, franchises: li
         for sub_group in standings.get('sub_groups', []):
             get_flattened_franchise_list(sub_group, max_depth, franchises, groupings, level + 1, name)
     
-def get_postseason_results(postseason: dict, franchise_label_map: dict):
+def get_postseason_results(postseason: dict, franchise_label_map: dict, league: str, year: int):
     results = {}
 
     for round in postseason.get('rounds', []):
         for matchup in round.get('matchups', []):
             winner_id = franchise_label_map.get(matchup.get('winner_label'))
+            if winner_id != get_franchise_id(matchup.get('winner_label'), league, year):
+                print(f"PLAYOFF WINNER WARNING: get_franchise_id returned incorrect result for {matchup.get('winner_label')} - {league} - {year}: Expected {winner_id} but got {get_franchise_id(matchup.get('winner_label'), league, year)}")
+                winner_id = get_franchise_id(matchup.get('winner_label'), league, year)
             loser_id = franchise_label_map.get(matchup.get('loser_label'))
+            if loser_id != get_franchise_id(matchup.get('loser_label'), league, year):
+                print(f"PLAYOFF LOSER WARNING: get_franchise_id returned incorrect result for {matchup.get('loser_label')} - {league} - {year}: Expected {loser_id} but got {get_franchise_id(matchup.get('loser_label'), league, year)}")
+                loser_id = get_franchise_id(matchup.get('loser_label'), league, year)
 
             winner_results = results.get(winner_id, {})
             winner_results['rounds_won'] = winner_results.get('rounds_won', 0) + 1
@@ -297,7 +333,7 @@ def write_individual_franchises(franchises: list, franchise_seasons: list):
         seasons = [x for x in franchise_seasons if x['label'] == f['label']]
         if len(seasons) == 0:
             continue
-        identifier = f['name'].lower().replace(' ', '-').replace('.', '')
+        identifier = f['name'].lower().replace(' ', '-').replace('.', '').replace('(', '').replace(')', '')
         league = seasons[-1]['league_name'].lower()
         with open(f'{csv_base_directory}/{league}/seasons/{identifier}.csv', 'w', newline='') as file:
             writer = csv.writer(file)
@@ -325,10 +361,12 @@ def write_individual_franchises(franchises: list, franchise_seasons: list):
 
 leagues = get_leagues()
 metros = get_metros()
-franchises = get_franchises(leagues, metros)
-franchise_label_map = {}
+franchises = sorted(get_franchises(leagues, metros), key=lambda d: d['id'])
+
 for f in franchises:
     franchise_label_map[f.get('label')] = f.get('id')
+    for c in f.get('chapters', []):
+        franchise_lookups.append({"name": c.get("label", f.get("label")), "league": c.get("league_name"), "start_year": c.get("start_year"), "end_year": c.get("end_year", None), "id": f["id"]})
 
 seasons = get_seasons(leagues)
 franchise_seasons = get_franchise_seasons(seasons, franchise_label_map, franchises)

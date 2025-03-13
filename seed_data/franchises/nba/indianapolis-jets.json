@@ -8,6 +8,7 @@
     {
       "team_name": "Indianapolis Jets",
       "metro_id": "indianapolis",
+      "label": "jets",
       "league_id": "nba",
       "start_year": 1948,
       "end_year": 1948

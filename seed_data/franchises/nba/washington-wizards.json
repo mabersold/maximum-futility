@@ -8,6 +8,7 @@
     {
       "team_name": "Chicago Packers",
       "metro_id": "chicago",
+      "label": "packers",
       "league_id": "nba",
       "start_year": 1961,
       "end_year": 1961
@@ -15,6 +16,7 @@
     {
       "team_name": "Chicago Zephyrs",
       "metro_id": "chicago",
+      "label": "zephyrs",
       "league_id": "nba",
       "start_year": 1962,
       "end_year": 1962
@@ -22,6 +24,7 @@
     {
       "team_name": "Baltimore Bullets",
       "metro_id": "baltimore",
+      "label": "bullets",
       "league_id": "nba",
       "start_year": 1963,
       "end_year": 1972
@@ -29,6 +32,7 @@
     {
       "team_name": "Capital Bullets",
       "metro_id": "washington",
+      "label": "bullets",
       "league_id": "nba",
       "start_year": 1973,
       "end_year": 1973
@@ -36,6 +40,7 @@
     {
       "team_name": "Washington Bullets",
       "metro_id": "washington",
+      "label": "bullets",
       "league_id": "nba",
       "start_year": 1974,
       "end_year": 1996

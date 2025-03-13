@@ -8,6 +8,7 @@
     {
       "team_name": "New Orleans Hornets",
       "metro_id": "new-orleans",
+      "label": "hornets",
       "league_id": "nba",
       "start_year": 2002,
       "end_year": 2012

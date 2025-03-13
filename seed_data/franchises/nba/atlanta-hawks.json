@@ -8,6 +8,7 @@
     {
       "team_name": "Tri-Cities Blackhawks",
       "metro_id": "tri-cities",
+      "label": "blackhawks",
       "league_id": "nba",
       "start_year": 1949,
       "end_year": 1950

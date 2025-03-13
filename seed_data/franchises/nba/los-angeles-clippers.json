@@ -8,6 +8,7 @@
     {
       "team_name": "Buffalo Braves",
       "metro_id": "buffalo",
+      "label": "braves",
       "league_id": "nba",
       "start_year": 1970,
       "end_year": 1977

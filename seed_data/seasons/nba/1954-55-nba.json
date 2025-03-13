@@ -1,0 +1,85 @@
+{
+    "name": "1954-55 NBA Season",
+    "start_year": 1954,
+    "end_year": 1955,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "results": [
+                    {"label": "nationals", "wins": 43, "losses": 29},
+                    {"label": "knicks", "wins": 38, "losses": 34},
+                    {"label": "celtics", "wins": 36, "losses": 36},
+                    {"label": "warriors", "wins": 33, "losses": 39}
+                ]
+            },
+            {
+                "name": "Western",
+                "results": [
+                    {"label": "pistons", "wins": 43, "losses": 29},
+                    {"label": "lakers", "wins": 40, "losses": 32},
+                    {"label": "royals", "wins": 29, "losses": 43},
+                    {"label": "hawks", "wins": 26, "losses": 46}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "knicks",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "royals",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "nationals",
+                        "loser_label": "celtics",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "pistons",
+                        "loser_label": "lakers",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "nationals",
+                        "loser_label": "pistons",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "name": "1949-50 NBA Season",
+    "start_year": 1949,
+    "end_year": 1950,
+    "league": "nba",
+    "total_major_divisions": 3,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "results": [
+                    {"label": "nationals", "wins": 51, "losses": 13},
+                    {"label": "knicks", "wins": 40, "losses": 28},
+                    {"label": "capitols", "wins": 32, "losses": 36},
+                    {"label": "warriors", "wins": 26, "losses": 42},
+                    {"label": "bullets", "wins": 25, "losses": 43},
+                    {"label": "celtics", "wins": 22, "losses": 46}
+                ]
+            },
+            {
+                "name": "Central",
+                "results": [
+                    {"label": "lakers", "wins": 51, "losses": 17},
+                    {"label": "royals", "wins": 51, "losses": 17},
+                    {"label": "pistons", "wins": 40, "losses": 28},
+                    {"label": "stags", "wins": 40, "losses": 28},
+                    {"label": "bombers", "wins": 26, "losses": 42}
+                ]
+            },
+            {
+                "name": "Western",
+                "results": [
+                    {"label": "olympians", "wins": 39, "losses": 25},
+                    {"label": "packers", "wins": 37, "losses": 27},
+                    {"label": "blackhawks", "wins": 29, "losses": 35},
+                    {"label": "redskins", "wins": 22, "losses": 40},
+                    {"label": "hawks", "wins": 19, "losses": 43},
+                    {"label": "nuggets", "wins": 11, "losses": 51}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "nationals",
+                        "loser_label": "warriors",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "knicks",
+                        "loser_label": "capitols",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "stags",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "pistons",
+                        "loser_label": "royals",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "olympians",
+                        "loser_label": "redskins",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "packers",
+                        "loser_label": "blackhawks",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "nationals",
+                        "loser_label": "knicks",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "pistons",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "packers",
+                        "loser_label": "olympians",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "packers",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "nationals",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "name": "1966-67 NBA Season",
+    "start_year": 1966,
+    "end_year": 1967,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "results": [
+                    {"label": "76ers", "wins": 68, "losses": 13},
+                    {"label": "celtics", "wins": 60, "losses": 21},
+                    {"label": "royals", "wins": 39, "losses": 42},
+                    {"label": "knicks", "wins": 36, "losses": 45},
+                    {"label": "bullets", "wins": 20, "losses": 61}
+                ]
+            },
+            {
+                "name": "Western",
+                "results": [
+                    {"label": "warriors", "wins": 44, "losses": 37},
+                    {"label": "hawks", "wins": 39, "losses": 42},
+                    {"label": "lakers", "wins": 36, "losses": 45},
+                    {"label": "bulls", "wins": 33, "losses": 48},
+                    {"label": "pistons", "wins": 30, "losses": 51}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "76ers",
+                        "loser_label": "royals",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "knicks",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "warriors",
+                        "loser_label": "lakers",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "hawks",
+                        "loser_label": "bulls",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "76ers",
+                        "loser_label": "celtics",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "warriors",
+                        "loser_label": "hawks",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "76ers",
+                        "loser_label": "warriors",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

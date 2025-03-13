@@ -1,0 +1,86 @@
+{
+    "name": "1961-62 NBA Season",
+    "start_year": 1961,
+    "end_year": 1962,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "results": [
+                    {"label": "celtics", "wins": 60, "losses": 20},
+                    {"label": "warriors", "wins": 49, "losses": 31},
+                    {"label": "nationals", "wins": 41, "losses": 39},
+                    {"label": "knicks", "wins": 29, "losses": 51}
+                ]
+            },
+            {
+                "name": "Western",
+                "results": [
+                    {"label": "lakers", "wins": 54, "losses": 26},
+                    {"label": "royals", "wins": 43, "losses": 37},
+                    {"label": "pistons", "wins": 37, "losses": 43},
+                    {"label": "hawks", "wins": 29, "losses": 51},
+                    {"label": "packers", "wins": 18, "losses": 62}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "warriors",
+                        "loser_label": "nationals",
+                        "total_games": 5,
+                        "games_won": 3,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "pistons",
+                        "loser_label": "royals",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "warriors",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "pistons",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "lakers",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

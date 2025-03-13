@@ -1,0 +1,85 @@
+{
+    "name": "1947-48 BAA Season",
+    "start_year": 1947,
+    "end_year": 1948,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "results": [
+                    {"label": "warriors", "wins": 27, "losses": 21},
+                    {"label": "knicks", "wins": 26, "losses": 22},
+                    {"label": "celtics", "wins": 20, "losses": 28},
+                    {"label": "steamrollers", "wins": 6, "losses": 42}
+                ]
+            },
+            {
+                "name": "Western",
+                "results": [
+                    {"label": "bombers", "wins": 29, "losses": 19},
+                    {"label": "bullets", "wins": 28, "losses": 20},
+                    {"label": "stags", "wins": 28, "losses": 20},
+                    {"label": "capitols-nba", "wins": 28, "losses": 20}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "bullets",
+                        "loser_label": "knicks",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "stags",
+                        "loser_label": "celtics",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "warriors",
+                        "loser_label": "bombers",
+                        "total_games": 4,
+                        "games_won": 4,
+                        "games_lost": 3
+                    },
+                    {
+                        "winner_label": "bullets",
+                        "loser_label": "stags",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "bullets",
+                        "loser_label": "warriors",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

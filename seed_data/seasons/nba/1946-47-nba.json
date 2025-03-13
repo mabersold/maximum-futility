@@ -1,0 +1,88 @@
+{
+    "name": "1946-47 BAA Season",
+    "start_year": 1946,
+    "end_year": 1947,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "results": [
+                    {"label": "capitols-nba", "wins": 49, "losses": 11},
+                    {"label": "warriors", "wins": 35, "losses": 25},
+                    {"label": "knicks", "wins": 33, "losses": 27},
+                    {"label": "steamrollers", "wins": 28, "losses": 32},
+                    {"label": "celtics", "wins": 22, "losses": 38},
+                    {"label": "huskies", "wins": 22, "losses": 38}
+                ]
+            },
+            {
+                "name": "Western",
+                "results": [
+                    {"label": "stags", "wins": 39, "losses": 22},
+                    {"label": "bombers", "wins": 38, "losses": 23},
+                    {"label": "rebels", "wins": 30, "losses": 30},
+                    {"label": "falcons-baa", "wins": 20, "losses": 40},
+                    {"label": "ironmen", "wins": 15, "losses": 45}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "knicks",
+                        "loser_label": "rebels",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "warriors",
+                        "loser_label": "bombers",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "stags",
+                        "loser_label": "capitols-nba",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "warriors",
+                        "loser_label": "knicks",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "warriors",
+                        "loser_label": "stags",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

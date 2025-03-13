@@ -1,0 +1,101 @@
+{
+    "name": "1952-53 NBA Season",
+    "start_year": 1952,
+    "end_year": 1953,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "results": [
+                    {"label": "knicks", "wins": 47, "losses": 23},
+                    {"label": "nationals", "wins": 47, "losses": 24},
+                    {"label": "celtics", "wins": 46, "losses": 25},
+                    {"label": "bullets", "wins": 16, "losses": 54},
+                    {"label": "warriors", "wins": 12, "losses": 57}
+                ]
+            },
+            {
+                "name": "Western",
+                "results": [
+                    {"label": "lakers", "wins": 48, "losses": 22},
+                    {"label": "royals", "wins": 44, "losses": 26},
+                    {"label": "pistons", "wins": 36, "losses": 33},
+                    {"label": "olympians", "wins": 28, "losses": 43},
+                    {"label": "hawks", "wins": 27, "losses": 44}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "knicks",
+                        "loser_label": "bullets",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "nationals",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "olympians",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "pistons",
+                        "loser_label": "royals",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "knicks",
+                        "loser_label": "celtics",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "pistons",
+                        "total_games": 5,
+                        "games_won": 3,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "knicks",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

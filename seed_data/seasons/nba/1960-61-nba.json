@@ -1,0 +1,85 @@
+{
+    "name": "1960-61 NBA Season",
+    "start_year": 1960,
+    "end_year": 1961,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "results": [
+                    {"label": "celtics", "wins": 57, "losses": 22},
+                    {"label": "warriors", "wins": 46, "losses": 33},
+                    {"label": "nationals", "wins": 38, "losses": 41},
+                    {"label": "knicks", "wins": 21, "losses": 58}
+                ]
+            },
+            {
+                "name": "Western",
+                "results": [
+                    {"label": "hawks", "wins": 51, "losses": 28},
+                    {"label": "lakers", "wins": 36, "losses": 43},
+                    {"label": "pistons", "wins": 34, "losses": 45},
+                    {"label": "royals", "wins": 33, "losses": 46}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "nationals",
+                        "loser_label": "warriors",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "pistons",
+                        "total_games": 5,
+                        "games_won": 3,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "nationals",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "hawks",
+                        "loser_label": "lakers",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "hawks",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

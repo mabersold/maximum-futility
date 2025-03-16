@@ -1,0 +1,148 @@
+{
+    "name": "1975-76 NBA Season",
+    "start_year": 1975,
+    "end_year": 1976,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 4,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "sub_groups": [
+                    {
+                        "name": "Atlantic",
+                        "results": [
+                            {"label": "celtics", "wins": 54, "losses": 28},
+                            {"label": "76ers", "wins": 46, "losses": 36},
+                            {"label": "braves", "wins": 46, "losses": 36},
+                            {"label": "knicks", "wins": 38, "losses": 44}
+                        ]
+                    },
+                    {
+                        "name": "Central",
+                        "results": [
+                            {"label": "cavaliers", "wins": 49, "losses": 33},
+                            {"label": "bullets", "wins": 48, "losses": 34},
+                            {"label": "rockets", "wins": 40, "losses": 42},
+                            {"label": "jazz", "wins": 38, "losses": 44},
+                            {"label": "hawks", "wins": 29, "losses": 53}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Western",
+                "sub_groups": [
+                    {
+                        "name": "Midwest",
+                        "results": [
+                            {"label": "bucks", "wins": 38, "losses": 44},
+                            {"label": "pistons", "wins": 36, "losses": 46},
+                            {"label": "kings", "wins": 31, "losses": 51},
+                            {"label": "bulls", "wins": 24, "losses": 58}
+                        ]
+                    },
+                    {
+                        "name": "Pacific",
+                        "results": [
+                            {"label": "warriors", "wins": 59, "losses": 23},
+                            {"label": "sonics", "wins": 43, "losses": 39},
+                            {"label": "suns", "wins": 42, "losses": 40},
+                            {"label": "lakers", "wins": 40, "losses": 42},
+                            {"label": "blazers", "wins": 37, "losses": 45}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "braves",
+                        "loser_label": "76ers",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "pistons",
+                        "loser_label": "bucks",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "braves",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "cavaliers",
+                        "loser_label": "bullets",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    },
+                    {
+                        "winner_label": "warriors",
+                        "loser_label": "pistons",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "suns",
+                        "loser_label": "sonics",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "cavaliers",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "suns",
+                        "loser_label": "warriors",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "suns",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

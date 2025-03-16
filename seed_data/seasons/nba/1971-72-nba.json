@@ -1,0 +1,128 @@
+{
+    "name": "1971-72 NBA Season",
+    "start_year": 1971,
+    "end_year": 1972,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 4,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "sub_groups": [
+                    {
+                        "name": "Atlantic",
+                        "results": [
+                            {"label": "celtics", "wins": 56, "losses": 26},
+                            {"label": "knicks", "wins": 48, "losses": 34},
+                            {"label": "76ers", "wins": 30, "losses": 52},
+                            {"label": "braves", "wins": 22, "losses": 60}
+                        ]
+                    },
+                    {
+                        "name": "Central",
+                        "results": [
+                            {"label": "bullets", "wins": 38, "losses": 44},
+                            {"label": "hawks", "wins": 36, "losses": 46},
+                            {"label": "royals", "wins": 30, "losses": 52},
+                            {"label": "cavaliers", "wins": 23, "losses": 59}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Western",
+                "sub_groups": [
+                    {
+                        "name": "Midwest",
+                        "results": [
+                            {"label": "bucks", "wins": 63, "losses": 19},
+                            {"label": "bulls", "wins": 57, "losses": 25},
+                            {"label": "suns", "wins": 49, "losses": 33},
+                            {"label": "pistons", "wins": 26, "losses": 56}
+                        ]
+                    },
+                    {
+                        "name": "Pacific",
+                        "results": [
+                            {"label": "lakers", "wins": 69, "losses": 13},
+                            {"label": "warriors", "wins": 51, "losses": 31},
+                            {"label": "sonics", "wins": 47, "losses": 35},
+                            {"label": "rockets", "wins": 34, "losses": 48},
+                            {"label": "blazers", "wins": 18, "losses": 64}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "hawks",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "knicks",
+                        "loser_label": "bullets",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "bucks",
+                        "loser_label": "warriors",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "bulls",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "knicks",
+                        "loser_label": "celtics",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "bucks",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "knicks",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -13,25 +13,25 @@
                     {
                         "name": "Atlantic",
                         "results": [
-                            {"label": "knicks", "wins": 51, "losses": 31},
-                            {"label": "celtics", "wins": 51, "losses": 31},
-                            {"label": "nets", "wins": 40, "losses": 42},
-                            {"label": "magic", "wins": 21, "losses": 61},
-                            {"label": "heat", "wins": 38, "losses": 44},
-                            {"label": "76ers", "wins": 35, "losses": 47},
-                            {"label": "bullets", "wins": 25, "losses": 57}
+                            {"label": "knicks", "wins": 60, "losses": 22},
+                            {"label": "celtics", "wins": 48, "losses": 34},
+                            {"label": "nets", "wins": 43, "losses": 39},
+                            {"label": "magic", "wins": 41, "losses": 41},
+                            {"label": "heat", "wins": 36, "losses": 46},
+                            {"label": "76ers", "wins": 26, "losses": 56},
+                            {"label": "bullets", "wins": 22, "losses": 60}
                         ]
                     },
                     {
                         "name": "Central",
                         "results": [
-                            {"label": "bulls", "wins": 67, "losses": 15},
-                            {"label": "cavaliers", "wins": 57, "losses": 25},
-                            {"label": "hornets", "wins": 31, "losses": 51},
-                            {"label": "hawks", "wins": 38, "losses": 44},
-                            {"label": "pacers", "wins": 40, "losses": 42},
-                            {"label": "pistons", "wins": 48, "losses": 34},
-                            {"label": "bucks", "wins": 31, "losses": 51}
+                            {"label": "bulls", "wins": 57, "losses": 25},
+                            {"label": "cavaliers", "wins": 54, "losses": 28},
+                            {"label": "hornets", "wins": 44, "losses": 38},
+                            {"label": "hawks", "wins": 43, "losses": 39},
+                            {"label": "pacers", "wins": 41, "losses": 41},
+                            {"label": "pistons", "wins": 40, "losses": 42},
+                            {"label": "bucks", "wins": 28, "losses": 54}
                         ]
                     }
                 ]
@@ -42,24 +42,24 @@
                     {
                         "name": "Midwest",
                         "results": [
-                            {"label": "rockets", "wins": 42, "losses": 40},
-                            {"label": "spurs", "wins": 47, "losses": 35},
-                            {"label": "jazz", "wins": 55, "losses": 27},
-                            {"label": "nuggets", "wins": 24, "losses": 58},
-                            {"label": "timberwolves", "wins": 15, "losses": 67},
-                            {"label": "mavericks", "wins": 22, "losses": 60}
+                            {"label": "rockets", "wins": 55, "losses": 27},
+                            {"label": "spurs", "wins": 49, "losses": 33},
+                            {"label": "jazz", "wins": 47, "losses": 35},
+                            {"label": "nuggets", "wins": 36, "losses": 46},
+                            {"label": "timberwolves", "wins": 19, "losses": 63},
+                            {"label": "mavericks", "wins": 11, "losses": 71}
                         ]
                     },
                     {
                         "name": "Pacific",
                         "results": [
-                            {"label": "suns", "wins": 53, "losses": 29},
-                            {"label": "sonics", "wins": 47, "losses": 35},
-                            {"label": "blazers", "wins": 57, "losses": 25},
-                            {"label": "clippers", "wins": 45, "losses": 37},
-                            {"label": "lakers", "wins": 43, "losses": 39},
-                            {"label": "warriors", "wins": 55, "losses": 27},
-                            {"label": "kings", "wins": 29, "losses": 52}
+                            {"label": "suns", "wins": 62, "losses": 20},
+                            {"label": "sonics", "wins": 55, "losses": 27},
+                            {"label": "blazers", "wins": 51, "losses": 31},
+                            {"label": "clippers", "wins": 41, "losses": 41},
+                            {"label": "lakers", "wins": 39, "losses": 43},
+                            {"label": "warriors", "wins": 34, "losses": 48},
+                            {"label": "kings", "wins": 25, "losses": 57}
                         ]
                     }
                 ]

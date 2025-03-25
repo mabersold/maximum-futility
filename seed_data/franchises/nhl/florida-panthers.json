@@ -1,0 +1,16 @@
+{
+    "id": 89,
+    "name": "Florida Panthers",
+    "label": "panthers-nhl",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Florida Panthers",
+            "label": "panthers",
+            "metro_id": "miami",
+            "league_id": "nhl",
+            "start_year": 1993
+        }
+    ]
+}

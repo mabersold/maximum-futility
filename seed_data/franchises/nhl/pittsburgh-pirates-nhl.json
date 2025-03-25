@@ -1,5 +1,5 @@
 {
-    "id": 102,
+    "id": 103,
     "name": "Pittsburgh Pirates (NHL)",
     "label": "pirates-nhl",
     "is_defunct": true,
@@ -15,6 +15,7 @@
         },
         {
             "team_name": "Philadelphia Quakers",
+            "label": "quakers",
             "metro_id": "philadelphia",
             "league_id": "nhl",
             "start_year": 1930,

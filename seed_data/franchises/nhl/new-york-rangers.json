@@ -1,5 +1,5 @@
 {
-    "id": 97,
+    "id": 98,
     "name": "New York Rangers",
     "label": "rangers-nhl",
     "is_defunct": false,
@@ -7,6 +7,7 @@
     "chapters": [
         {
             "team_name": "New York Rangers",
+            "label": "rangers",
             "metro_id": "new-york",
             "league_id": "nhl",
             "start_year": 1926

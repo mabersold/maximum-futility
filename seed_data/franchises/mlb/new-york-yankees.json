@@ -7,6 +7,7 @@
   "chapters": [
     {
       "team_name": "New York Highlanders",
+      "label": "highlanders",
       "metro_id": "new-york",
       "league_id": "mlb",
       "start_year": 1903,

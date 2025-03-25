@@ -14,6 +14,7 @@
     },
     {
       "team_name": "Cincinnati Redlegs",
+      "label": "redlegs",
       "metro_id": "cincinnati",
       "league_id": "mlb",
       "start_year": 1953,

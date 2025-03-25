@@ -7,6 +7,7 @@
   "chapters": [
     {
       "team_name": "Brooklyn Superbas",
+      "label": "superbas",
       "metro_id": "new-york",
       "league_id": "mlb",
       "start_year": 1903,
@@ -28,6 +29,7 @@
     },
     {
       "team_name": "Brooklyn Robins",
+      "label": "robins",
       "metro_id": "new-york",
       "league_id": "mlb",
       "start_year": 1914,

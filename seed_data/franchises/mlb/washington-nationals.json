@@ -7,6 +7,7 @@
   "chapters": [
     {
       "team_name": "Montreal Expos",
+      "label": "expos",
       "metro_id": "montreal",
       "league_id": "mlb",
       "start_year": 1969,

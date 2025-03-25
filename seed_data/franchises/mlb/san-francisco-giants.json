@@ -7,6 +7,7 @@
   "chapters": [
     {
       "team_name": "New York Giants",
+      "label": "giants",
       "metro_id": "new-york",
       "league_id": "mlb",
       "start_year": 1903,
@@ -14,6 +15,7 @@
     },
     {
       "team_name": "San Francisco Giants",
+      "label": "giants",
       "metro_id": "san-francisco-bay",
       "league_id": "mlb",
       "start_year": 1958

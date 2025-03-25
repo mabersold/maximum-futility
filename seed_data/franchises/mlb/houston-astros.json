@@ -7,6 +7,7 @@
   "chapters": [
     {
       "team_name": "Houston Colt .45s",
+      "label": "colt-45s",
       "metro_id": "houston",
       "league_id": "mlb",
       "start_year": 1962,

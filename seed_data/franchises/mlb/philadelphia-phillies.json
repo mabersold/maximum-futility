@@ -14,6 +14,7 @@
     },
     {
       "team_name": "Philadelphia Phils",
+      "label": "phils",
       "metro_id": "philadelphia",
       "league_id": "mlb",
       "start_year": 1942,

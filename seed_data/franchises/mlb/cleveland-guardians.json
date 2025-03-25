@@ -7,6 +7,7 @@
   "chapters": [
     {
       "team_name": "Cleveland Naps",
+      "label": "naps",
       "metro_id": "cleveland",
       "league_id": "mlb",
       "start_year": 1903,
@@ -14,6 +15,7 @@
     },
     {
       "team_name": "Cleveland Indians",
+      "label": "indians",
       "metro_id": "cleveland",
       "league_id": "mlb",
       "start_year": 1915,

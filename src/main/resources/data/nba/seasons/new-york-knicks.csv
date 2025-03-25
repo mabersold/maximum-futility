@@ -8,7 +8,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1952,New York,New York Knicks,NBA,Eastern,,,FIRST,,true,2,true,false
 1953,New York,New York Knicks,NBA,Eastern,,,FIRST,,true,0,false,false
 1954,New York,New York Knicks,NBA,Eastern,,,,,true,0,false,false
-1955,New York,New York Knicks,NBA,Eastern,,,LAST_TIED,,false,,false,false
+1955,New York,New York Knicks,NBA,Eastern,,,LAST_TIED,,false,,,
 1956,New York,New York Knicks,NBA,Eastern,,,LAST,,false,,,
 1957,New York,New York Knicks,NBA,Eastern,,,LAST,,false,,,
 1958,New York,New York Knicks,NBA,Eastern,,,,,true,0,false,false
@@ -44,7 +44,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1988,New York,New York Knicks,NBA,Eastern,Atlantic,,,FIRST,true,1,false,false
 1989,New York,New York Knicks,NBA,Eastern,Atlantic,,,,true,1,false,false
 1990,New York,New York Knicks,NBA,Eastern,Atlantic,,,,true,0,false,false
-1991,New York,New York Knicks,NBA,Eastern,Atlantic,,,,true,1,false,false
+1991,New York,New York Knicks,NBA,Eastern,Atlantic,,,FIRST_TIED,true,1,false,false
 1992,New York,New York Knicks,NBA,Eastern,Atlantic,,FIRST,FIRST,true,2,false,false
 1993,New York,New York Knicks,NBA,Eastern,Atlantic,,FIRST_TIED,FIRST,true,3,true,false
 1994,New York,New York Knicks,NBA,Eastern,Atlantic,,,,true,1,false,false

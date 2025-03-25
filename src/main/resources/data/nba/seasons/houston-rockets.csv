@@ -4,14 +4,14 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1969,San Diego,San Diego Rockets,NBA,Western,,LAST,LAST,,false,,,
 1970,San Diego,San Diego Rockets,NBA,Western,Pacific,,,,false,,,
 1971,Houston,Houston Rockets,NBA,Western,Pacific,,,,false,,,
-1972,Houston,Houston Rockets,NBA,Western,Central,,,,false,,,
-1973,Houston,Houston Rockets,NBA,Western,Central,,,,false,,,
-1974,Houston,Houston Rockets,NBA,Western,Central,,,,true,1,false,false
-1975,Houston,Houston Rockets,NBA,Western,Central,,,,false,,,
-1976,Houston,Houston Rockets,NBA,Western,Central,,,FIRST,true,1,false,false
-1977,Houston,Houston Rockets,NBA,Western,Central,,,LAST,false,,,
-1978,Houston,Houston Rockets,NBA,Western,Central,,,,true,0,false,false
-1979,Houston,Houston Rockets,NBA,Western,Central,,,,true,1,false,false
+1972,Houston,Houston Rockets,NBA,Eastern,Central,,,,false,,,
+1973,Houston,Houston Rockets,NBA,Eastern,Central,,,,false,,,
+1974,Houston,Houston Rockets,NBA,Eastern,Central,,,,true,1,false,false
+1975,Houston,Houston Rockets,NBA,Eastern,Central,,,,false,,,
+1976,Houston,Houston Rockets,NBA,Eastern,Central,,,FIRST,true,1,false,false
+1977,Houston,Houston Rockets,NBA,Eastern,Central,,,LAST,false,,,
+1978,Houston,Houston Rockets,NBA,Eastern,Central,,,,true,0,false,false
+1979,Houston,Houston Rockets,NBA,Eastern,Central,,,,true,1,false,false
 1980,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,3,true,false
 1981,Houston,Houston Rockets,NBA,Western,Midwest,,,,true,0,false,false
 1982,Houston,Houston Rockets,NBA,Western,Midwest,LAST,LAST,LAST,false,,,

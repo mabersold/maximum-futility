@@ -10,7 +10,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1975,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,0,false,false
 1976,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,false,,,
 1977,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,3,true,false
-1978,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,FIRST,FIRST,true,4,true,true
+1978,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,FIRST,FIRST,true,3,true,true
 1979,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,2,false,false
 1980,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,LAST,false,,,
 1981,Seattle,Seattle SuperSonics,NBA,Western,Pacific,,,,true,1,false,false

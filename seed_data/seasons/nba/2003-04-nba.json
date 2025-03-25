@@ -56,7 +56,7 @@
                         "name": "Pacific",
                         "results": [
                             {"label": "lakers", "wins": 56, "losses": 26},
-                            {"label": "kings", "wins": 57, "losses": 25},
+                            {"label": "kings", "wins": 55, "losses": 27},
                             {"label": "blazers", "wins": 41, "losses": 41},
                             {"label": "sonics", "wins": 37, "losses": 45},
                             {"label": "warriors", "wins": 37, "losses": 45},

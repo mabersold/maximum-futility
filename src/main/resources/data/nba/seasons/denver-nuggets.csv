@@ -31,7 +31,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2005,Denver,Denver Nuggets,NBA,Western,Northwest,,,FIRST,true,0,false,false
 2006,Denver,Denver Nuggets,NBA,Western,Northwest,,,,true,0,false,false
 2007,Denver,Denver Nuggets,NBA,Western,Northwest,,,,true,0,false,false
-2008,Denver,Denver Nuggets,NBA,Western,Northwest,,,FIRST,true,2,false,false
+2008,Denver,Denver Nuggets,NBA,Western,Northwest,,,FIRST_TIED,true,2,false,false
 2009,Denver,Denver Nuggets,NBA,Western,Northwest,,,FIRST_TIED,true,0,false,false
 2010,Denver,Denver Nuggets,NBA,Western,Northwest,,,,true,0,false,false
 2011,Denver,Denver Nuggets,NBA,Western,Northwest,,,,true,0,false,false

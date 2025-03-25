@@ -1,0 +1,212 @@
+{
+    "name": "2019-20 NBA Season",
+    "start_year": 2019,
+    "end_year": 2020,
+    "league": "nba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 6,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "sub_groups": [
+                    {
+                        "name": "Atlantic",
+                        "results": [
+                            {"label": "raptors", "wins": 53, "losses": 19},
+                            {"label": "celtics", "wins": 48, "losses": 24},
+                            {"label": "76ers", "wins": 43, "losses": 30},
+                            {"label": "nets", "wins": 35, "losses": 37},
+                            {"label": "knicks", "wins": 21, "losses": 45}
+                        ]
+                    },
+                    {
+                        "name": "Central",
+                        "results": [
+                            {"label": "bucks", "wins": 56, "losses": 17},
+                            {"label": "pacers", "wins": 45, "losses": 28},
+                            {"label": "bulls", "wins": 22, "losses": 43},
+                            {"label": "pistons", "wins": 20, "losses": 46},
+                            {"label": "cavaliers", "wins": 19, "losses": 46}
+                        ]
+                    },
+                    {
+                        "name": "Southeast",
+                        "results": [
+                            {"label": "heat", "wins": 44, "losses": 29},
+                            {"label": "magic", "wins": 33, "losses": 40},
+                            {"label": "wizards", "wins": 25, "losses": 47},
+                            {"label": "hornets", "wins": 23, "losses": 42},
+                            {"label": "hawks", "wins": 20, "losses": 47}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Western",
+                "sub_groups": [
+                    {
+                        "name": "Northwest",
+                        "results": [
+                            {"label": "nuggets", "wins": 46, "losses": 27},
+                            {"label": "thunder", "wins": 44, "losses": 28},
+                            {"label": "jazz", "wins": 44, "losses": 28},
+                            {"label": "blazers", "wins": 35, "losses": 39},
+                            {"label": "timberwolves", "wins": 19, "losses": 45}
+                        ]
+                    },
+                    {
+                        "name": "Pacific",
+                        "results": [
+                            {"label": "lakers", "wins": 52, "losses": 19},
+                            {"label": "clippers", "wins": 49, "losses": 23},
+                            {"label": "suns", "wins": 34, "losses": 39},
+                            {"label": "kings", "wins": 31, "losses": 41},
+                            {"label": "warriors", "wins": 15, "losses": 50}
+                        ]
+                    },
+                    {
+                        "name": "Southwest",
+                        "results": [
+                            {"label": "rockets", "wins": 44, "losses": 28},
+                            {"label": "mavericks", "wins": 43, "losses": 32},
+                            {"label": "grizzlies", "wins": 34, "losses": 39},
+                            {"label": "spurs", "wins": 32, "losses": 39},
+                            {"label": "pelicans", "wins": 30, "losses": 42}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "bucks",
+                        "loser_label": "magic",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "heat",
+                        "loser_label": "pacers",
+                        "total_games": 4,
+                        "games_won": 4,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "76ers",
+                        "total_games": 4,
+                        "games_won": 4,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "raptors",
+                        "loser_label": "nets",
+                        "total_games": 4,
+                        "games_won": 4,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "blazers",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "rockets",
+                        "loser_label": "thunder",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    },
+                    {
+                        "winner_label": "nuggets",
+                        "loser_label": "jazz",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    },
+                    {
+                        "winner_label": "clippers",
+                        "loser_label": "mavericks",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "heat",
+                        "loser_label": "bucks",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "celtics",
+                        "loser_label": "raptors",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "rockets",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "nuggets",
+                        "loser_label": "clippers",
+                        "total_games": 7,
+                        "games_won": 4,
+                        "games_lost": 3
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "heat",
+                        "loser_label": "celtics",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2
+                    },
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "nuggets",
+                        "total_games": 5,
+                        "games_won": 4,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner_label": "lakers",
+                        "loser_label": "heat",
+                        "total_games": 6,
+                        "games_won": 4,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

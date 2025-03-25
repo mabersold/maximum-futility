@@ -22,7 +22,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1988,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,true,1,false,false
 1989,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,true,0,false,false
 1990,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,true,0,false,false
-1991,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,false,,,
+1991,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,LAST_TIED,false,,,
 1992,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,LAST,false,,,
 1993,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,LAST_TIED,LAST_TIED,false,,,
 1994,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,false,,,

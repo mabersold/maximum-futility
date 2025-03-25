@@ -2,7 +2,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1988,Charlotte,Charlotte Hornets,NBA,Eastern,Atlantic,,LAST,LAST,false,,,
 1989,Charlotte,Charlotte Hornets,NBA,Western,Midwest,,LAST,LAST,false,,,
 1990,Charlotte,Charlotte Hornets,NBA,Eastern,Central,,,LAST,false,,,
-1991,Charlotte,Charlotte Hornets,NBA,Eastern,Central,,,LAST,false,,,
+1991,Charlotte,Charlotte Hornets,NBA,Eastern,Central,,,LAST_TIED,false,,,
 1992,Charlotte,Charlotte Hornets,NBA,Eastern,Central,,,,true,1,false,false
 1993,Charlotte,Charlotte Hornets,NBA,Eastern,Central,,,,false,,,
 1994,Charlotte,Charlotte Hornets,NBA,Eastern,Central,,,,true,0,false,false
@@ -14,7 +14,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2000,Charlotte,Charlotte Hornets,NBA,Eastern,Central,,,,true,1,false,false
 2001,Charlotte,Charlotte Hornets,NBA,Eastern,Central,,,,true,1,false,false
 2004,Charlotte,Charlotte Bobcats,NBA,Eastern,Southeast,,,,false,,,
-2005,Charlotte,Charlotte Bobcats,NBA,Eastern,Southeast,,,,false,,,
+2005,Charlotte,Charlotte Bobcats,NBA,Eastern,Southeast,,,LAST_TIED,false,,,
 2006,Charlotte,Charlotte Bobcats,NBA,Eastern,Southeast,,,,false,,,
 2007,Charlotte,Charlotte Bobcats,NBA,Eastern,Southeast,,,,false,,,
 2008,Charlotte,Charlotte Bobcats,NBA,Eastern,Southeast,,,,false,,,

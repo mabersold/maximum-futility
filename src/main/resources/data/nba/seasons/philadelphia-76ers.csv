@@ -5,7 +5,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1952,Syracuse,Syracuse Nationals,NBA,Eastern,,,,,true,0,false,false
 1953,Syracuse,Syracuse Nationals,NBA,Eastern,,,,,true,2,true,false
 1954,Syracuse,Syracuse Nationals,NBA,Eastern,,FIRST_TIED,FIRST,,true,2,true,true
-1955,Syracuse,Syracuse Nationals,NBA,Eastern,,,LAST_TIED,,true,2,false,false
+1955,Syracuse,Syracuse Nationals,NBA,Eastern,,,LAST_TIED,,true,1,false,false
 1956,Syracuse,Syracuse Nationals,NBA,Eastern,,,,,true,1,false,false
 1957,Syracuse,Syracuse Nationals,NBA,Eastern,,,,,true,0,false,false
 1958,Syracuse,Syracuse Nationals,NBA,Eastern,,,,,true,1,false,false
@@ -30,7 +30,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1977,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,FIRST,FIRST,true,1,false,false
 1978,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,,,true,1,false,false
 1979,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,,,true,3,true,false
-1980,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,,,true,2,false,false
+1980,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,2,false,false
 1981,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,,,true,3,true,false
 1982,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,FIRST,FIRST,FIRST,true,3,true,true
 1983,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,,,true,0,false,false

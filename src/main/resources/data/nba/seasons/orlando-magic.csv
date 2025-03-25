@@ -1,6 +1,6 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1989,Orlando,Orlando Magic,NBA,Eastern,Central,,,LAST,false,,,
-1990,Orlando,Orlando Magic,NBA,Eastern,Midwest,,,,false,,,
+1990,Orlando,Orlando Magic,NBA,Western,Midwest,,,,false,,,
 1991,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,LAST,LAST,false,,,
 1992,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,,,false,,,
 1993,Orlando,Orlando Magic,NBA,Eastern,Atlantic,,,,true,0,false,false

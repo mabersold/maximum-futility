@@ -1,5 +1,5 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1946,Boston,Boston Celtics,NBA,Eastern,,,,,false,,,
+1946,Boston,Boston Celtics,NBA,Eastern,,,LAST_TIED,,false,,,
 1947,Boston,Boston Celtics,NBA,Eastern,,,,,true,0,false,false
 1948,Boston,Boston Celtics,NBA,Eastern,,,,,false,,,
 1949,Boston,Boston Celtics,NBA,Eastern,,,LAST,,false,,,
@@ -33,7 +33,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1977,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,false,,,
 1978,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,LAST,false,,,
 1979,Boston,Boston Celtics,NBA,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
-1980,Boston,Boston Celtics,NBA,Eastern,Atlantic,FIRST,FIRST,FIRST,true,3,true,true
+1980,Boston,Boston Celtics,NBA,Eastern,Atlantic,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,3,true,true
 1981,Boston,Boston Celtics,NBA,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
 1982,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,true,1,false,false
 1983,Boston,Boston Celtics,NBA,Eastern,Atlantic,FIRST,FIRST,FIRST,true,4,true,true
@@ -44,7 +44,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1988,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,true,0,false,false
 1989,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,true,0,false,false
 1990,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,FIRST,true,1,false,false
-1991,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,FIRST,true,1,false,false
+1991,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,FIRST_TIED,true,1,false,false
 1992,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,true,0,false,false
 1993,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,false,,,
 1994,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,,true,0,false,false

@@ -1,97 +1,97 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1926,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,1,,
-1927,Montreal,Montreal Canadiens,NHL,Canadian,,FIRST,FIRST,,true,0,,
-1928,Montreal,Montreal Canadiens,NHL,Canadian,,FIRST,FIRST,,true,0,,
+1926,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,1,false,false
+1927,Montreal,Montreal Canadiens,NHL,Canadian,,FIRST,FIRST,,true,0,false,false
+1928,Montreal,Montreal Canadiens,NHL,Canadian,,FIRST,FIRST,,true,0,false,false
 1929,Montreal,Montreal Canadiens,NHL,Canadian,,,FIRST_TIED,,true,3,true,true
 1930,Montreal,Montreal Canadiens,NHL,Canadian,,,FIRST,,true,2,true,true
-1931,Montreal,Montreal Canadiens,NHL,Canadian,,FIRST,FIRST,,true,0,,
-1932,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,0,,
-1933,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,0,,
-1934,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,0,,
+1931,Montreal,Montreal Canadiens,NHL,Canadian,,FIRST,FIRST,,true,0,false,false
+1932,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,0,false,false
+1933,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,0,false,false
+1934,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,0,false,false
 1935,Montreal,Montreal Canadiens,NHL,Canadian,,LAST,LAST,,false,,,
-1936,Montreal,Montreal Canadiens,NHL,Canadian,,,FIRST,,true,0,,
-1937,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,0,,
-1938,Montreal,Montreal Canadiens,NHL,,,,,,true,0,,
+1936,Montreal,Montreal Canadiens,NHL,Canadian,,,FIRST,,true,0,false,false
+1937,Montreal,Montreal Canadiens,NHL,Canadian,,,,,true,0,false,false
+1938,Montreal,Montreal Canadiens,NHL,,,,,,true,0,false,false
 1939,Montreal,Montreal Canadiens,NHL,,,LAST,,,false,,,
-1940,Montreal,Montreal Canadiens,NHL,,,,,,true,0,,
-1941,Montreal,Montreal Canadiens,NHL,,,,,,true,0,,
-1942,Montreal,Montreal Canadiens,NHL,,,,,,true,0,,
+1940,Montreal,Montreal Canadiens,NHL,,,,,,true,0,false,false
+1941,Montreal,Montreal Canadiens,NHL,,,,,,true,0,false,false
+1942,Montreal,Montreal Canadiens,NHL,,,,,,true,0,false,false
 1943,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,2,true,true
-1944,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,0,,
+1944,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,0,false,false
 1945,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,2,true,true
-1946,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,1,true,
+1946,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,1,true,false
 1947,Montreal,Montreal Canadiens,NHL,,,,,,false,,,
-1948,Montreal,Montreal Canadiens,NHL,,,,,,true,0,,
-1949,Montreal,Montreal Canadiens,NHL,,,,,,true,0,,
-1950,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,
-1951,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,
+1948,Montreal,Montreal Canadiens,NHL,,,,,,true,0,false,false
+1949,Montreal,Montreal Canadiens,NHL,,,,,,true,0,false,false
+1950,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,false
+1951,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,false
 1952,Montreal,Montreal Canadiens,NHL,,,,,,true,2,true,true
-1953,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,
-1954,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,
+1953,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,false
+1954,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,false
 1955,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,2,true,true
 1956,Montreal,Montreal Canadiens,NHL,,,,,,true,2,true,true
 1957,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,2,true,true
 1958,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,2,true,true
 1959,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,2,true,true
-1960,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,0,,
-1961,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,0,,
-1962,Montreal,Montreal Canadiens,NHL,,,,,,true,0,,
-1963,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,0,,
+1960,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,0,false,false
+1961,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,0,false,false
+1962,Montreal,Montreal Canadiens,NHL,,,,,,true,0,false,false
+1963,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,0,false,false
 1964,Montreal,Montreal Canadiens,NHL,,,,,,true,2,true,true
 1965,Montreal,Montreal Canadiens,NHL,,,FIRST,,,true,2,true,true
-1966,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,
+1966,Montreal,Montreal Canadiens,NHL,,,,,,true,1,true,false
 1967,Montreal,Montreal Canadiens,NHL,East,,FIRST,FIRST,,true,3,true,true
 1968,Montreal,Montreal Canadiens,NHL,East,,FIRST,FIRST,,true,3,true,true
 1969,Montreal,Montreal Canadiens,NHL,East,,,,,false,,,
 1970,Montreal,Montreal Canadiens,NHL,East,,,,,true,3,true,true
-1971,Montreal,Montreal Canadiens,NHL,East,,,,,true,0,,
+1971,Montreal,Montreal Canadiens,NHL,East,,,,,true,0,false,false
 1972,Montreal,Montreal Canadiens,NHL,East,,FIRST,FIRST,,true,3,true,true
-1973,Montreal,Montreal Canadiens,NHL,East,,,,,true,0,,
-1974,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST_TIED,FIRST_TIED,FIRST,true,1,,
+1973,Montreal,Montreal Canadiens,NHL,East,,,,,true,0,false,false
+1974,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
 1975,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,3,true,true
 1976,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,3,true,true
 1977,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,3,true,true
 1978,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,,FIRST,FIRST,true,3,true,true
-1979,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,,,FIRST,true,1,,
-1980,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,,FIRST,FIRST,true,0,,
-1981,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,FIRST,true,0,,
-1982,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,0,,
-1983,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,2,,
-1984,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,FIRST,true,1,,
+1979,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,,,FIRST,true,1,false,false
+1980,Montreal,Montreal Canadiens,NHL,Prince of Wales,Norris,,FIRST,FIRST,true,0,false,false
+1981,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,FIRST,true,0,false,false
+1982,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1983,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,2,false,false
+1984,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,FIRST,true,1,false,false
 1985,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,4,true,true
-1986,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,2,,
-1987,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,FIRST,FIRST,true,1,,
-1988,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,FIRST,FIRST,true,3,true,
-1989,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,1,,
-1990,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,1,,
-1991,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,FIRST,true,1,,
+1986,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,2,false,false
+1987,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,FIRST,FIRST,true,1,false,false
+1988,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,FIRST,FIRST,true,3,true,false
+1989,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1990,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1991,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,FIRST,true,1,false,false
 1992,Montreal,Montreal Canadiens,NHL,Prince of Wales,Adams,,,,true,4,true,true
-1993,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,,
+1993,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,false,false
 1994,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,false,,,
-1995,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,,
-1996,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,,
-1997,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,1,,
+1995,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,false,false
+1996,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,false,false
+1997,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,1,false,false
 1998,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,LAST,false,,,
 1999,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,false,,,
 2000,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,LAST,false,,,
-2001,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,1,,
+2001,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,1,false,false
 2002,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,false,,,
-2003,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,1,,
-2005,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,,
+2003,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,1,false,false
+2005,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,false,false
 2006,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,false,,,
-2007,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,FIRST,FIRST,true,1,,
-2008,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,,
-2009,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,2,,
-2010,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,,
+2007,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,FIRST,FIRST,true,1,false,false
+2008,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,false,false
+2009,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,2,false,false
+2010,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,,true,0,false,false
 2011,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,LAST,LAST,false,,,
-2012,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,FIRST,true,0,,
-2013,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,true,2,,
-2014,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,FIRST,true,1,,
+2012,Montreal,Montreal Canadiens,NHL,Eastern,Northeast,,,FIRST,true,0,false,false
+2013,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,true,2,false,false
+2014,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,FIRST,true,1,false,false
 2015,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,false,,,
-2016,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,FIRST,true,0,,
+2016,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,FIRST,true,0,false,false
 2017,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,false,,,
 2018,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,false,,,
-2019,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,true,1,,
+2019,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,,true,1,false,false
 2020,Montreal,Montreal Canadiens,NHL,North,,,,,true,3,true,false
 2021,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,LAST,LAST,LAST,false,,,
 2022,Montreal,Montreal Canadiens,NHL,Eastern,Atlantic,,,LAST,false,,,

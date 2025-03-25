@@ -1,17 +1,17 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1926,New York,New York Americans,NHL,Canadian,,,,,false,,,
 1927,New York,New York Americans,NHL,Canadian,,,LAST,,false,,,
-1928,New York,New York Americans,NHL,Canadian,,,,,true,0,,
+1928,New York,New York Americans,NHL,Canadian,,,,,true,0,false,false
 1929,New York,New York Americans,NHL,Canadian,,,LAST,,false,,,
 1930,New York,New York Americans,NHL,Canadian,,,,,false,,,
 1931,New York,New York Americans,NHL,Canadian,,LAST,LAST,,false,,,
 1932,New York,New York Americans,NHL,Canadian,,,,,false,,,
 1933,New York,New York Americans,NHL,Canadian,,,,,false,,,
 1934,New York,New York Americans,NHL,Canadian,,,,,false,,,
-1935,New York,New York Americans,NHL,Canadian,,,,,true,1,,
+1935,New York,New York Americans,NHL,Canadian,,,,,true,1,false,false
 1936,New York,New York Americans,NHL,Canadian,,LAST,LAST,,false,,,
-1937,New York,New York Americans,NHL,Canadian,,,,,true,1,,
-1938,New York,New York Americans,NHL,,,,,,true,0,,
-1939,New York,New York Americans,NHL,,,,,,true,0,,
+1937,New York,New York Americans,NHL,Canadian,,,,,true,1,false,false
+1938,New York,New York Americans,NHL,,,,,,true,0,false,false
+1939,New York,New York Americans,NHL,,,,,,true,0,false,false
 1940,New York,New York Americans,NHL,,,LAST,,,false,,,
 1941,New York,Brooklyn Americans,NHL,,,LAST,,,false,,,

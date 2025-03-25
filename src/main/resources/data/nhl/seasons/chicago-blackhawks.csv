@@ -1,97 +1,97 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1926,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,,
+1926,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,false,false
 1927,Chicago,Chicago Black Hawks,NHL,American,,LAST,LAST,,false,,,
 1928,Chicago,Chicago Black Hawks,NHL,American,,LAST,LAST,,false,,,
-1929,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,,
-1930,Chicago,Chicago Black Hawks,NHL,American,,,,,true,2,true,
-1931,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,,
+1929,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,false,false
+1930,Chicago,Chicago Black Hawks,NHL,American,,,,,true,2,true,false
+1931,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,false,false
 1932,Chicago,Chicago Black Hawks,NHL,American,,,LAST,,false,,,
 1933,Chicago,Chicago Black Hawks,NHL,American,,,,,true,3,true,true
-1934,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,,
-1935,Chicago,Chicago Black Hawks,NHL,American,,,LAST_TIED,,true,0,,
+1934,Chicago,Chicago Black Hawks,NHL,American,,,,,true,0,false,false
+1935,Chicago,Chicago Black Hawks,NHL,American,,,LAST_TIED,,true,0,false,false
 1936,Chicago,Chicago Black Hawks,NHL,American,,,LAST,,false,,,
 1937,Chicago,Chicago Black Hawks,NHL,American,,,,,true,3,true,true
 1938,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
-1939,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
-1940,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,,
-1941,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
+1939,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
+1940,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,false,false
+1941,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
 1942,Chicago,Chicago Black Hawks,NHL,,,,,,false,,,
-1943,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,true,
+1943,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,true,false
 1944,Chicago,Chicago Black Hawks,NHL,,,,,,false,,,
-1945,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
+1945,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
 1946,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
 1947,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
 1948,Chicago,Chicago Black Hawks,NHL,,,,,,false,,,
 1949,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
 1950,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
 1951,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
-1952,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
+1952,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
 1953,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
 1954,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
 1955,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
 1956,Chicago,Chicago Black Hawks,NHL,,,LAST,,,false,,,
 1957,Chicago,Chicago Black Hawks,NHL,,,,,,false,,,
-1958,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
-1959,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
+1958,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
+1959,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
 1960,Chicago,Chicago Black Hawks,NHL,,,,,,true,2,true,true
-1961,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,true,
+1961,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,true,false
 1962,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
 1963,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
-1964,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,true,
-1965,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
-1966,Chicago,Chicago Black Hawks,NHL,,,FIRST,,,true,0,,
-1967,Chicago,Chicago Black Hawks,NHL,East,,,,,true,1,,
+1964,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,true,false
+1965,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
+1966,Chicago,Chicago Black Hawks,NHL,,,FIRST,,,true,0,false,false
+1967,Chicago,Chicago Black Hawks,NHL,East,,,,,true,1,false,false
 1968,Chicago,Chicago Black Hawks,NHL,East,,,LAST,,false,,,
-1969,Chicago,Chicago Black Hawks,NHL,East,,FIRST_TIED,FIRST_TIED,,true,1,,
-1970,Chicago,Chicago Black Hawks,NHL,West,,,FIRST,,true,2,true,
-1971,Chicago,Chicago Black Hawks,NHL,West,,,FIRST,,true,1,,
-1972,Chicago,Chicago Black Hawks,NHL,West,,,FIRST,,true,2,true,
-1973,Chicago,Chicago Black Hawks,NHL,West,,,,,true,1,,
-1974,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,,true,1,,
-1975,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,FIRST,true,0,,
-1976,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,,true,0,,
-1977,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,FIRST,true,0,,
-1978,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,FIRST,true,0,,
-1979,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,FIRST,true,1,,
-1980,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,,true,0,,
-1981,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,,true,2,,
-1982,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,FIRST,true,2,,
-1983,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,,true,0,,
-1984,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,,true,2,,
-1985,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,FIRST,true,0,,
-1986,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,,true,0,,
-1987,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,,true,0,,
-1988,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,,true,2,,
-1989,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,FIRST,true,2,,
-1990,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,FIRST,FIRST,FIRST,true,0,,
-1991,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,,true,3,true,
-1992,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,FIRST,FIRST,true,0,,
-1993,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,,
-1994,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,2,,
-1995,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,1,,
-1996,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,,
+1969,Chicago,Chicago Black Hawks,NHL,East,,FIRST_TIED,FIRST_TIED,,true,1,false,false
+1970,Chicago,Chicago Black Hawks,NHL,West,,,FIRST,,true,2,true,false
+1971,Chicago,Chicago Black Hawks,NHL,West,,,FIRST,,true,1,false,false
+1972,Chicago,Chicago Black Hawks,NHL,West,,,FIRST,,true,2,true,false
+1973,Chicago,Chicago Black Hawks,NHL,West,,,,,true,1,false,false
+1974,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,,true,1,false,false
+1975,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,FIRST,true,0,false,false
+1976,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,,true,0,false,false
+1977,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,FIRST,true,0,false,false
+1978,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,FIRST,true,0,false,false
+1979,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,FIRST,true,1,false,false
+1980,Chicago,Chicago Black Hawks,NHL,Campbell,Smythe,,,,true,0,false,false
+1981,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,,true,2,false,false
+1982,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,FIRST,true,2,false,false
+1983,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,,true,0,false,false
+1984,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,,true,2,false,false
+1985,Chicago,Chicago Black Hawks,NHL,Campbell,Norris,,,FIRST,true,0,false,false
+1986,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,,true,0,false,false
+1987,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,,true,0,false,false
+1988,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,,true,2,false,false
+1989,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,FIRST,true,2,false,false
+1990,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,FIRST,FIRST,FIRST,true,0,false,false
+1991,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,,,true,3,true,false
+1992,Chicago,Chicago Blackhawks,NHL,Campbell,Norris,,FIRST,FIRST,true,0,false,false
+1993,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,false,false
+1994,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,2,false,false
+1995,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,1,false,false
+1996,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,false,false
 1997,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 1998,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 1999,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 2000,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST_TIED,false,,,
-2001,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,,
+2001,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,false,false
 2002,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 2003,Chicago,Chicago Blackhawks,NHL,Western,Central,,LAST,LAST,false,,,
 2005,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 2006,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST,false,,,
 2007,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
-2008,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,2,,
+2008,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,2,false,false
 2009,Chicago,Chicago Blackhawks,NHL,Western,Central,,,FIRST,true,4,true,true
-2010,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,,
-2011,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,,
+2010,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,false,false
+2011,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,false,false
 2012,Chicago,Chicago Blackhawks,NHL,Western,Central,FIRST,FIRST,FIRST,true,4,true,true
-2013,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,2,,
+2013,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,2,false,false
 2014,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,4,true,true
-2015,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,,
-2016,Chicago,Chicago Blackhawks,NHL,Western,Central,,FIRST,FIRST,true,0,,
+2015,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,true,0,false,false
+2016,Chicago,Chicago Blackhawks,NHL,Western,Central,,FIRST,FIRST,true,0,false,false
 2017,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST,false,,,
 2018,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
-2019,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST,true,1,,
+2019,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST,true,1,false,false
 2020,Chicago,Chicago Blackhawks,NHL,Central,,,,,false,,,
 2021,Chicago,Chicago Blackhawks,NHL,Western,Central,,,,false,,,
 2022,Chicago,Chicago Blackhawks,NHL,Western,Central,,,LAST,false,,,

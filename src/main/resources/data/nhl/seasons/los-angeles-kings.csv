@@ -1,57 +1,57 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1967,Los Angeles,Los Angeles Kings,NHL,West,,,,,true,0,,
-1968,Los Angeles,Los Angeles Kings,NHL,West,,,,,true,1,,
+1967,Los Angeles,Los Angeles Kings,NHL,West,,,,,true,0,false,false
+1968,Los Angeles,Los Angeles Kings,NHL,West,,,,,true,1,false,false
 1969,Los Angeles,Los Angeles Kings,NHL,West,,LAST,LAST,,false,,,
 1970,Los Angeles,Los Angeles Kings,NHL,West,,,,,false,,,
 1971,Los Angeles,Los Angeles Kings,NHL,West,,,LAST,,false,,,
 1972,Los Angeles,Los Angeles Kings,NHL,West,,,,,false,,,
-1973,Los Angeles,Los Angeles Kings,NHL,West,,,,,true,0,,
-1974,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,,
-1975,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,1,,
-1976,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,1,,
-1977,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,,
-1978,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,,
-1979,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,,
-1980,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,,
-1981,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,1,,
+1973,Los Angeles,Los Angeles Kings,NHL,West,,,,,true,0,false,false
+1974,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,false,false
+1975,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,1,false,false
+1976,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,1,false,false
+1977,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,false,false
+1978,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,false,false
+1979,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,false,false
+1980,Los Angeles,Los Angeles Kings,NHL,Prince of Wales,Norris,,,,true,0,false,false
+1981,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,1,false,false
 1982,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,LAST,false,,,
 1983,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,LAST,LAST,false,,,
-1984,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,0,,
+1984,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,0,false,false
 1985,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,LAST,false,,,
-1986,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,0,,
-1987,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,0,,
-1988,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,1,,
-1989,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,1,,
-1990,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,FIRST,true,1,,
-1991,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,0,,
-1992,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,3,true,
+1986,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,0,false,false
+1987,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,0,false,false
+1988,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,1,false,false
+1989,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,1,false,false
+1990,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,FIRST,true,1,false,false
+1991,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,0,false,false
+1992,Los Angeles,Los Angeles Kings,NHL,Campbell,Smythe,,,,true,3,true,false
 1993,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 1994,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 1995,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 1996,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
-1997,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
+1997,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false
 1998,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,LAST,false,,,
-1999,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
-2000,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,1,,
-2001,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
+1999,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false
+2000,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,1,false,false
+2001,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false
 2002,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 2003,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 2005,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 2006,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 2007,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,LAST_TIED,LAST,LAST,false,,,
 2008,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,LAST_TIED,false,,,
-2009,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
-2010,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
+2009,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false
+2010,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false
 2011,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,4,true,true
-2012,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,2,,
+2012,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,2,false,false
 2013,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,4,true,true
 2014,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
-2015,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
+2015,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false
 2016,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
-2017,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
+2017,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false
 2018,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,LAST,LAST,false,,,
 2019,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,false,,,
 2020,Los Angeles,Los Angeles Kings,NHL,West,,,,,false,,,
-2021,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
-2022,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
-2023,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,,
+2021,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false
+2022,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false
+2023,Los Angeles,Los Angeles Kings,NHL,Western,Pacific,,,,true,0,false,false

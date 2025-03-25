@@ -1,33 +1,33 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1979,Hartford,Hartford Whalers,NHL,Prince of Wales,Norris,,,,true,0,,
+1979,Hartford,Hartford Whalers,NHL,Prince of Wales,Norris,,,,true,0,false,false
 1980,Hartford,Hartford Whalers,NHL,Prince of Wales,Norris,,,,false,,,
 1981,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,LAST,LAST,false,,,
 1982,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,LAST_TIED,LAST_TIED,LAST,false,,,
 1983,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,LAST,false,,,
 1984,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,LAST,false,,,
-1985,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,1,,
-1986,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,FIRST,true,0,,
-1987,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,,
-1988,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,,
-1989,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,,
-1990,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,,
-1991,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,,
+1985,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1986,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,FIRST,true,0,false,false
+1987,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1988,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1989,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1990,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1991,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,true,0,false,false
 1992,Hartford,Hartford Whalers,NHL,Prince of Wales,Adams,,,,false,,,
 1993,Hartford,Hartford Whalers,NHL,Eastern,Northeast,,,,false,,,
 1994,Hartford,Hartford Whalers,NHL,Eastern,Northeast,,,,false,,,
 1995,Hartford,Hartford Whalers,NHL,Eastern,Northeast,,,,false,,,
 1996,Hartford,Hartford Whalers,NHL,Eastern,Northeast,,,,false,,,
 1997,Raleigh,Carolina Hurricanes,NHL,Eastern,Northeast,,,LAST,false,,,
-1998,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,FIRST,true,0,,
+1998,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,FIRST,true,0,false,false
 1999,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,false,,,
-2000,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,true,0,,
-2001,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,FIRST,true,3,true,
+2000,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,true,0,false,false
+2001,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,FIRST,true,3,true,false
 2002,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,LAST,LAST,LAST,false,,,
 2003,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,false,,,
 2005,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,FIRST,true,4,true,true
 2006,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,false,,,
 2007,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,false,,,
-2008,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,true,2,,
+2008,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,true,2,false,false
 2009,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,false,,,
 2010,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,,false,,,
 2011,Raleigh,Carolina Hurricanes,NHL,Eastern,Southeast,,,LAST,false,,,
@@ -37,9 +37,9 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2015,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,,false,,,
 2016,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,,false,,,
 2017,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,,false,,,
-2018,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,,true,2,,
-2019,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,,true,1,,
-2020,Raleigh,Carolina Hurricanes,NHL,Central,,,FIRST,,true,1,,
-2021,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,FIRST,true,1,,
-2022,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,FIRST,true,2,,
-2023,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,,true,1,,
+2018,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,,true,2,false,false
+2019,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,,true,1,false,false
+2020,Raleigh,Carolina Hurricanes,NHL,Central,,,FIRST,,true,1,false,false
+2021,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,FIRST,true,1,false,false
+2022,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,FIRST,true,2,false,false
+2023,Raleigh,Carolina Hurricanes,NHL,Eastern,Metropolitan,,,,true,1,false,false

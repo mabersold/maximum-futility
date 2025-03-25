@@ -2,27 +2,27 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1993,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,false,,,
 1994,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,LAST,LAST,false,,,
 1995,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,false,,,
-1996,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,true,1,,
+1996,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,true,1,false,false
 1997,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,false,,,
-1998,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,true,0,,
+1998,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,true,0,false,false
 1999,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,LAST,false,,,
 2000,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,LAST,LAST,false,,,
 2001,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,LAST,false,,,
-2002,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,true,3,true,
+2002,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,true,3,true,false
 2003,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,false,,,
-2005,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,true,2,,
+2005,Los Angeles,Mighty Ducks of Anaheim,NHL,Western,Pacific,,,,true,2,false,false
 2006,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,4,true,true
-2007,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,0,,
-2008,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,1,,
+2007,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,0,false,false
+2008,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,1,false,false
 2009,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,false,,,
-2010,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,0,,
+2010,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,0,false,false
 2011,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,LAST,false,,,
-2012,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,0,,
-2013,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,FIRST,FIRST,true,1,,
-2014,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,FIRST_TIED,FIRST,true,2,,
-2015,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,0,,
-2016,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,1,,
-2017,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,0,,
+2012,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,0,false,false
+2013,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,FIRST,FIRST,true,1,false,false
+2014,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,FIRST_TIED,FIRST,true,2,false,false
+2015,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,0,false,false
+2016,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,1,false,false
+2017,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,0,false,false
 2018,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,false,,,
 2019,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,false,,,
 2020,Los Angeles,Anaheim Ducks,NHL,West,,,LAST,,false,,,

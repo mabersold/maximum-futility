@@ -1,13 +1,13 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1926,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,0,,
-1927,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,2,true,
+1926,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,0,false,false
+1927,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,2,true,false
 1928,Montreal,Montreal Maroons,NHL,Canadian,,,LAST,,false,,,
-1929,Montreal,Montreal Maroons,NHL,Canadian,,,FIRST_TIED,,true,0,,
-1930,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,0,,
-1931,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,1,,
-1932,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,0,,
-1933,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,1,,
+1929,Montreal,Montreal Maroons,NHL,Canadian,,,FIRST_TIED,,true,0,false,false
+1930,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,0,false,false
+1931,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,1,false,false
+1932,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,0,false,false
+1933,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,1,false,false
 1934,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,3,true,true
-1935,Montreal,Montreal Maroons,NHL,Canadian,,,FIRST,,true,0,,
-1936,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,1,,
-1937,Montreal,Montreal Maroons,NHL,Canadian,,LAST,LAST,,true,,,
+1935,Montreal,Montreal Maroons,NHL,Canadian,,,FIRST,,true,0,false,false
+1936,Montreal,Montreal Maroons,NHL,Canadian,,,,,true,1,false,false
+1937,Montreal,Montreal Maroons,NHL,Canadian,,LAST,LAST,,false,,,

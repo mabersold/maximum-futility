@@ -1,82 +1,82 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1926,Toronto,Toronto St. Patricks,NHL,Canadian,,,LAST,,false,,,
 1927,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,false,,,
-1928,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,true,1,,
+1928,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,true,1,false,false
 1929,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,false,,,
-1930,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,true,0,,
+1930,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,true,0,false,false
 1931,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,true,3,true,true
-1932,Toronto,Toronto Maple Leafs,NHL,Canadian,,,FIRST,,true,1,true,
-1933,Toronto,Toronto Maple Leafs,NHL,Canadian,,FIRST,FIRST,,true,0,,
-1934,Toronto,Toronto Maple Leafs,NHL,Canadian,,FIRST,FIRST,,true,1,true,
-1935,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,true,2,true,
-1936,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,true,0,,
-1937,Toronto,Toronto Maple Leafs,NHL,Canadian,,,FIRST,,true,1,true,
-1938,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,
-1939,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,
-1940,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
+1932,Toronto,Toronto Maple Leafs,NHL,Canadian,,,FIRST,,true,1,true,false
+1933,Toronto,Toronto Maple Leafs,NHL,Canadian,,FIRST,FIRST,,true,0,false,false
+1934,Toronto,Toronto Maple Leafs,NHL,Canadian,,FIRST,FIRST,,true,1,true,false
+1935,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,true,2,true,false
+1936,Toronto,Toronto Maple Leafs,NHL,Canadian,,,,,true,0,false,false
+1937,Toronto,Toronto Maple Leafs,NHL,Canadian,,,FIRST,,true,1,true,false
+1938,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,false
+1939,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,false
+1940,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
 1941,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
-1942,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
-1943,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
+1942,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
+1943,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
 1944,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
 1945,Toronto,Toronto Maple Leafs,NHL,,,,,,false,,,
 1946,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
 1947,Toronto,Toronto Maple Leafs,NHL,,,FIRST,,,true,2,true,true
 1948,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
-1949,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
+1949,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
 1950,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
-1951,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
+1951,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
 1952,Toronto,Toronto Maple Leafs,NHL,,,,,,false,,,
-1953,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
-1954,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
-1955,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
+1953,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
+1954,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
+1955,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
 1956,Toronto,Toronto Maple Leafs,NHL,,,,,,false,,,
 1957,Toronto,Toronto Maple Leafs,NHL,,,LAST,,,false,,,
-1958,Toronto,Toronto Maple Leafs,NHL,,,,,,true,1,true,
-1959,Toronto,Toronto Maple Leafs,NHL,,,,,,true,1,true,
-1960,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
+1958,Toronto,Toronto Maple Leafs,NHL,,,,,,true,1,true,false
+1959,Toronto,Toronto Maple Leafs,NHL,,,,,,true,1,true,false
+1960,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
 1961,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
 1962,Toronto,Toronto Maple Leafs,NHL,,,FIRST,,,true,2,true,true
 1963,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
-1964,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
-1965,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,,
+1964,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
+1965,Toronto,Toronto Maple Leafs,NHL,,,,,,true,0,false,false
 1966,Toronto,Toronto Maple Leafs,NHL,,,,,,true,2,true,true
 1967,Toronto,Toronto Maple Leafs,NHL,East,,,,,false,,,
-1968,Toronto,Toronto Maple Leafs,NHL,East,,,,,true,0,,
+1968,Toronto,Toronto Maple Leafs,NHL,East,,,,,true,0,false,false
 1969,Toronto,Toronto Maple Leafs,NHL,East,,,LAST,,false,,,
-1970,Toronto,Toronto Maple Leafs,NHL,East,,,,,true,0,,
-1971,Toronto,Toronto Maple Leafs,NHL,East,,,,,true,0,,
+1970,Toronto,Toronto Maple Leafs,NHL,East,,,,,true,0,false,false
+1971,Toronto,Toronto Maple Leafs,NHL,East,,,,,true,0,false,false
 1972,Toronto,Toronto Maple Leafs,NHL,East,,,,,false,,,
-1973,Toronto,Toronto Maple Leafs,NHL,East,,,,,true,0,,
-1974,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,1,,
-1975,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,1,,
-1976,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,1,,
-1977,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,2,,
-1978,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,1,,
-1979,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,0,,
-1980,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,LAST,true,0,,
+1973,Toronto,Toronto Maple Leafs,NHL,East,,,,,true,0,false,false
+1974,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1975,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1976,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1977,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,2,false,false
+1978,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1979,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1980,Toronto,Toronto Maple Leafs,NHL,Prince of Wales,Adams,,,LAST,true,0,false,false
 1981,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,false,,,
-1982,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,0,,
+1982,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,0,false,false
 1983,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,LAST,false,,,
 1984,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,LAST,LAST,LAST,false,,,
-1985,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,1,,
-1986,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,LAST_TIED,true,1,,
-1987,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,0,,
+1985,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,1,false,false
+1986,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,LAST_TIED,true,1,false,false
+1987,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,0,false,false
 1988,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,LAST,LAST,false,,,
-1989,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,0,,
+1989,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,0,false,false
 1990,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,LAST,LAST,false,,,
 1991,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,LAST,false,,,
-1992,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,2,,
-1993,Toronto,Toronto Maple Leafs,NHL,Western,Central,,,,true,2,,
-1994,Toronto,Toronto Maple Leafs,NHL,Western,Central,,,,true,0,,
-1995,Toronto,Toronto Maple Leafs,NHL,Western,Central,,,,true,0,,
+1992,Toronto,Toronto Maple Leafs,NHL,Campbell,Norris,,,,true,2,false,false
+1993,Toronto,Toronto Maple Leafs,NHL,Western,Central,,,,true,2,false,false
+1994,Toronto,Toronto Maple Leafs,NHL,Western,Central,,,,true,0,false,false
+1995,Toronto,Toronto Maple Leafs,NHL,Western,Central,,,,true,0,false,false
 1996,Toronto,Toronto Maple Leafs,NHL,Western,Central,,,LAST,false,,,
 1997,Toronto,Toronto Maple Leafs,NHL,Western,Central,,,LAST,false,,,
-1998,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,2,,
-1999,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,FIRST,true,1,,
-2000,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,1,,
-2001,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,2,,
-2002,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,0,,
-2003,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,1,,
+1998,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,2,false,false
+1999,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,FIRST,true,1,false,false
+2000,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,1,false,false
+2001,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,2,false,false
+2002,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,0,false,false
+2003,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,1,false,false
 2005,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,false,,,
 2006,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,false,,,
 2007,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,LAST,false,,,
@@ -84,15 +84,15 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2009,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,LAST,LAST,false,,,
 2010,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,false,,,
 2011,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,false,,,
-2012,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,0,,
+2012,Toronto,Toronto Maple Leafs,NHL,Eastern,Northeast,,,,true,0,false,false
 2013,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,false,,,
 2014,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,false,,,
 2015,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,LAST,LAST,LAST,false,,,
-2016,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,,
-2017,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,,
-2018,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,,
-2019,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,,
-2020,Toronto,Toronto Maple Leafs,NHL,North,,,FIRST,,true,0,,
-2021,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,,
-2022,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,1,,
-2023,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,,
+2016,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,false,false
+2017,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,false,false
+2018,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,false,false
+2019,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,false,false
+2020,Toronto,Toronto Maple Leafs,NHL,North,,,FIRST,,true,0,false,false
+2021,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,false,false
+2022,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,1,false,false
+2023,Toronto,Toronto Maple Leafs,NHL,Eastern,Atlantic,,,,true,0,false,false

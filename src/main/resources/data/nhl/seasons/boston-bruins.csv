@@ -1,37 +1,37 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1926,Boston,Boston Bruins,NHL,American,,,,,true,2,true,
-1927,Boston,Boston Bruins,NHL,American,,,FIRST,,true,0,,
+1926,Boston,Boston Bruins,NHL,American,,,,,true,2,true,false
+1927,Boston,Boston Bruins,NHL,American,,,FIRST,,true,0,false,false
 1928,Boston,Boston Bruins,NHL,American,,,FIRST,,true,2,true,true
-1929,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,1,true,
-1930,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,0,,
+1929,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,1,true,false
+1930,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,0,false,false
 1931,Boston,Boston Bruins,NHL,American,,,LAST,,false,,,
-1932,Boston,Boston Bruins,NHL,American,,FIRST_TIED,FIRST_TIED,,true,0,,
+1932,Boston,Boston Bruins,NHL,American,,FIRST_TIED,FIRST_TIED,,true,0,false,false
 1933,Boston,Boston Bruins,NHL,American,,,LAST,,false,,,
-1934,Boston,Boston Bruins,NHL,American,,,FIRST,,true,0,,
-1935,Boston,Boston Bruins,NHL,American,,,LAST_TIED,,true,0,,
-1936,Boston,Boston Bruins,NHL,American,,,,,true,0,,
-1937,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,0,,
+1934,Boston,Boston Bruins,NHL,American,,,FIRST,,true,0,false,false
+1935,Boston,Boston Bruins,NHL,American,,,LAST_TIED,,true,0,false,false
+1936,Boston,Boston Bruins,NHL,American,,,,,true,0,false,false
+1937,Boston,Boston Bruins,NHL,American,,FIRST,FIRST,,true,0,false,false
 1938,Boston,Boston Bruins,NHL,,,FIRST,,,true,2,true,true
-1939,Boston,Boston Bruins,NHL,,,FIRST,,,true,0,,
+1939,Boston,Boston Bruins,NHL,,,FIRST,,,true,0,false,false
 1940,Boston,Boston Bruins,NHL,,,FIRST,,,true,2,true,true
-1941,Boston,Boston Bruins,NHL,,,,,,true,1,,
-1942,Boston,Boston Bruins,NHL,,,,,,true,1,true,
+1941,Boston,Boston Bruins,NHL,,,,,,true,1,false,false
+1942,Boston,Boston Bruins,NHL,,,,,,true,1,true,false
 1943,Boston,Boston Bruins,NHL,,,,,,false,,,
-1944,Boston,Boston Bruins,NHL,,,,,,true,0,,
-1945,Boston,Boston Bruins,NHL,,,,,,true,1,true,
-1946,Boston,Boston Bruins,NHL,,,,,,true,0,,
-1947,Boston,Boston Bruins,NHL,,,,,,true,0,,
-1948,Boston,Boston Bruins,NHL,,,,,,true,0,,
+1944,Boston,Boston Bruins,NHL,,,,,,true,0,false,false
+1945,Boston,Boston Bruins,NHL,,,,,,true,1,true,false
+1946,Boston,Boston Bruins,NHL,,,,,,true,0,false,false
+1947,Boston,Boston Bruins,NHL,,,,,,true,0,false,false
+1948,Boston,Boston Bruins,NHL,,,,,,true,0,false,false
 1949,Boston,Boston Bruins,NHL,,,,,,false,,,
-1950,Boston,Boston Bruins,NHL,,,,,,true,0,,
-1951,Boston,Boston Bruins,NHL,,,,,,true,0,,
-1952,Boston,Boston Bruins,NHL,,,,,,true,1,true,
-1953,Boston,Boston Bruins,NHL,,,,,,true,0,,
-1954,Boston,Boston Bruins,NHL,,,,,,true,0,,
+1950,Boston,Boston Bruins,NHL,,,,,,true,0,false,false
+1951,Boston,Boston Bruins,NHL,,,,,,true,0,false,false
+1952,Boston,Boston Bruins,NHL,,,,,,true,1,true,false
+1953,Boston,Boston Bruins,NHL,,,,,,true,0,false,false
+1954,Boston,Boston Bruins,NHL,,,,,,true,0,false,false
 1955,Boston,Boston Bruins,NHL,,,,,,false,,,
-1956,Boston,Boston Bruins,NHL,,,,,,true,1,true,
-1957,Boston,Boston Bruins,NHL,,,,,,true,1,true,
-1958,Boston,Boston Bruins,NHL,,,,,,true,0,,
+1956,Boston,Boston Bruins,NHL,,,,,,true,1,true,false
+1957,Boston,Boston Bruins,NHL,,,,,,true,1,true,false
+1958,Boston,Boston Bruins,NHL,,,,,,true,0,false,false
 1959,Boston,Boston Bruins,NHL,,,,,,false,,,
 1960,Boston,Boston Bruins,NHL,,,LAST,,,false,,,
 1961,Boston,Boston Bruins,NHL,,,LAST,,,false,,,
@@ -40,59 +40,59 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1964,Boston,Boston Bruins,NHL,,,LAST,,,false,,,
 1965,Boston,Boston Bruins,NHL,,,,,,false,,,
 1966,Boston,Boston Bruins,NHL,,,LAST,,,false,,,
-1967,Boston,Boston Bruins,NHL,East,,,,,true,0,,
-1968,Boston,Boston Bruins,NHL,East,,,,,true,1,,
+1967,Boston,Boston Bruins,NHL,East,,,,,true,0,false,false
+1968,Boston,Boston Bruins,NHL,East,,,,,true,1,false,false
 1969,Boston,Boston Bruins,NHL,East,,FIRST_TIED,FIRST_TIED,,true,3,true,true
-1970,Boston,Boston Bruins,NHL,East,,FIRST,FIRST,,true,0,,
+1970,Boston,Boston Bruins,NHL,East,,FIRST,FIRST,,true,0,false,false
 1971,Boston,Boston Bruins,NHL,East,,FIRST,FIRST,,true,3,true,true
-1972,Boston,Boston Bruins,NHL,East,,,,,true,0,,
-1973,Boston,Boston Bruins,NHL,East,,FIRST,FIRST,,true,2,true,
-1974,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,,
-1975,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,1,,
-1976,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,2,true,
-1977,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,2,true,
-1978,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,1,,
-1979,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,1,,
-1980,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,,
-1981,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,1,,
-1982,Boston,Boston Bruins,NHL,Prince of Wales,Adams,FIRST,FIRST,FIRST,true,2,,
-1983,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,FIRST_TIED,FIRST,true,0,,
-1984,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,,
-1985,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,,
-1986,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,,
-1987,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,3,true,
-1988,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,1,,
-1989,Boston,Boston Bruins,NHL,Prince of Wales,Adams,FIRST,FIRST,FIRST,true,3,true,
-1990,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,FIRST,FIRST,true,2,,
-1991,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,2,,
-1992,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,0,,
-1993,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,1,,
-1994,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,,
-1995,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,,
+1972,Boston,Boston Bruins,NHL,East,,,,,true,0,false,false
+1973,Boston,Boston Bruins,NHL,East,,FIRST,FIRST,,true,2,true,false
+1974,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1975,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,1,false,false
+1976,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,2,true,false
+1977,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,2,true,false
+1978,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,1,false,false
+1979,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1980,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1981,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1982,Boston,Boston Bruins,NHL,Prince of Wales,Adams,FIRST,FIRST,FIRST,true,2,false,false
+1983,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,FIRST_TIED,FIRST,true,0,false,false
+1984,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1985,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1986,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,0,false,false
+1987,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,3,true,false
+1988,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,1,false,false
+1989,Boston,Boston Bruins,NHL,Prince of Wales,Adams,FIRST,FIRST,FIRST,true,3,true,false
+1990,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,FIRST,FIRST,true,2,false,false
+1991,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,,true,2,false,false
+1992,Boston,Boston Bruins,NHL,Prince of Wales,Adams,,,FIRST,true,0,false,false
+1993,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,1,false,false
+1994,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,false,false
+1995,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,false,false
 1996,Boston,Boston Bruins,NHL,Eastern,Northeast,LAST,LAST,LAST,false,,,
-1997,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,,
-1998,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,1,,
+1997,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,false,false
+1998,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,1,false,false
 1999,Boston,Boston Bruins,NHL,Eastern,Northeast,,,LAST,false,,,
 2000,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,false,,,
-2001,Boston,Boston Bruins,NHL,Eastern,Northeast,,FIRST,FIRST,true,0,,
-2002,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,,
-2003,Boston,Boston Bruins,NHL,Eastern,Northeast,,,FIRST,true,0,,
+2001,Boston,Boston Bruins,NHL,Eastern,Northeast,,FIRST,FIRST,true,0,false,false
+2002,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,false,false
+2003,Boston,Boston Bruins,NHL,Eastern,Northeast,,,FIRST,true,0,false,false
 2005,Boston,Boston Bruins,NHL,Eastern,Northeast,,,LAST,false,,,
 2006,Boston,Boston Bruins,NHL,Eastern,Northeast,,,LAST,false,,,
-2007,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,,
-2008,Boston,Boston Bruins,NHL,Eastern,Northeast,,FIRST,FIRST,true,1,,
-2009,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,1,,
+2007,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,0,false,false
+2008,Boston,Boston Bruins,NHL,Eastern,Northeast,,FIRST,FIRST,true,1,false,false
+2009,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,1,false,false
 2010,Boston,Boston Bruins,NHL,Eastern,Northeast,,,FIRST,true,4,true,true
-2011,Boston,Boston Bruins,NHL,Eastern,Northeast,,,FIRST,true,0,,
-2012,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,3,true,
-2013,Boston,Boston Bruins,NHL,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,,
+2011,Boston,Boston Bruins,NHL,Eastern,Northeast,,,FIRST,true,0,false,false
+2012,Boston,Boston Bruins,NHL,Eastern,Northeast,,,,true,3,true,false
+2013,Boston,Boston Bruins,NHL,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
 2014,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,false,,,
 2015,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,false,,,
-2016,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,0,,
-2017,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,1,,
-2018,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,3,true,
-2019,Boston,Boston Bruins,NHL,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,,
-2020,Boston,Boston Bruins,NHL,East,,,,,true,1,,
-2021,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,0,,
-2022,Boston,Boston Bruins,NHL,Eastern,Atlantic,FIRST,FIRST,FIRST,true,0,,
-2023,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,1,,
+2016,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,0,false,false
+2017,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,1,false,false
+2018,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,3,true,false
+2019,Boston,Boston Bruins,NHL,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
+2020,Boston,Boston Bruins,NHL,East,,,,,true,1,false,false
+2021,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,0,false,false
+2022,Boston,Boston Bruins,NHL,Eastern,Atlantic,FIRST,FIRST,FIRST,true,0,false,false
+2023,Boston,Boston Bruins,NHL,Eastern,Atlantic,,,,true,1,false,false

@@ -1,0 +1,23 @@
+{
+    "id": 107,
+    "name": "Toronto Maple Leafs",
+    "label": "maple-leafs",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Toronto St. Patricks",
+            "label": "st-patricks",
+            "metro_id": "toronto",
+            "league_id": "nhl",
+            "start_year": 1926,
+            "end_year": 1926
+        },
+        {
+            "team_name": "Toronto Maple Leafs",
+            "metro_id": "toronto",
+            "league_id": "nhl",
+            "start_year": 1927
+        }
+    ]
+}

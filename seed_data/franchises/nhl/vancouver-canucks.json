@@ -1,0 +1,15 @@
+{
+    "id": 108,
+    "name": "Vancouver Canucks",
+    "label": "canucks",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Vancouver Canucks",
+            "metro_id": "vancouver",
+            "league_id": "nhl",
+            "start_year": 1970
+        }
+    ]
+}

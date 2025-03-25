@@ -1,0 +1,25 @@
+{
+    "id": 98,
+    "name": "Ottawa Senators (Original)",
+    "label": "senators-original",
+    "is_defunct": true,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Ottawa Senators",
+            "label": "senators",
+            "metro_id": "ottawa",
+            "league_id": "nhl",
+            "start_year": 1926,
+            "end-year": 1933
+        },
+        {
+            "team_name": "St. Louis Eagles",
+            "label": "eagles",
+            "metro_id": "st-louis",
+            "league_id": "nhl",
+            "start_year": 1934,
+            "end-year": 1934
+        }
+    ]
+}

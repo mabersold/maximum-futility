@@ -1,0 +1,31 @@
+{
+    "id": 77,
+    "name": "Arizona Coyotes",
+    "label": "coyotes",
+    "is_defunct": true,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Winnipeg Jets",
+            "label": "jets",
+            "metro_id": "winnipeg",
+            "league_id": "nhl",
+            "start_year": 1979,
+            "end_year": 1995
+        },
+        {
+            "team_name": "Phoenix Coyotes",
+            "metro_id": "phoenix",
+            "league_id": "nhl",
+            "start_year": 1996,
+            "end_year": 2013
+        },
+        {
+            "team_name": "Arizona Coyotes",
+            "metro_id": "phoenix",
+            "league_id": "nhl",
+            "start_year": 2014,
+            "end_year": 2023
+        }
+    ]
+}

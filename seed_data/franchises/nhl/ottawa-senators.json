@@ -1,0 +1,15 @@
+{
+    "id": 99,
+    "name": "Ottawa Senators",
+    "label": "senators",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Ottawa Senators",
+            "metro_id": "ottawa",
+            "league_id": "nhl",
+            "start_year": 1992
+        }
+    ]
+}

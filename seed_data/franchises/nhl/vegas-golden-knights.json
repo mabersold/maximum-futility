@@ -1,0 +1,15 @@
+{
+    "id": 109,
+    "name": "Vegas Golden Knights",
+    "label": "golden-knights",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Vegas Golden Knights",
+            "metro_id": "las-vegas",
+            "league_id": "nhl",
+            "start_year": 2017
+        }
+    ]
+}

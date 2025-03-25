@@ -1,0 +1,15 @@
+{
+    "id": 96,
+    "name": "New York Islanders",
+    "label": "islanders",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "New York Islanders",
+            "metro_id": "new-york",
+            "league_id": "nhl",
+            "start_year": 1972
+        }
+    ]
+}

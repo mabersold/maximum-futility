@@ -1,0 +1,15 @@
+{
+    "id": 79,
+    "name": "Buffalo Sabres",
+    "label": "sabres",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Buffalo Sabres",
+            "metro_id": "buffalo",
+            "league_id": "nhl",
+            "start_year": 1970
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": 83,
+    "name": "Chicago Blackhawks",
+    "label": "blackhawks",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Chicago Black Hawks",
+            "metro_id": "chicago",
+            "league_id": "nhl",
+            "start_year": 1926,
+            "end_year": 1985
+        },
+        {
+            "team_name": "Chicago Blackhawks",
+            "metro_id": "chicago",
+            "league_id": "nhl",
+            "start_year": 1986
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": 100,
+    "name": "Philadelphia Flyers",
+    "label": "flyers",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Philadelphia Flyers",
+            "metro_id": "philadelphia",
+            "league_id": "nhl",
+            "start_year": 1967
+        }
+    ]
+}

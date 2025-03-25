@@ -1,0 +1,23 @@
+{
+    "id": 86,
+    "name": "Dallas Stars",
+    "label": "stars",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Minnesota North Stars",
+            "label": "north-stars",
+            "metro_id": "minneapolis",
+            "league_id": "nhl",
+            "start_year": 1967,
+            "end_year": 1992
+        },
+        {
+            "team_name": "Dallas Stars",
+            "metro_id": "dallas",
+            "league_id": "nhl",
+            "start_year": 1993
+        }
+    ]
+}

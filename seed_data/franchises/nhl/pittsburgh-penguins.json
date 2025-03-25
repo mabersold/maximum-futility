@@ -1,0 +1,15 @@
+{
+    "id": 101,
+    "name": "Pittsburgh Penguins",
+    "label": "penguins",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Pittsburgh Penguins",
+            "metro_id": "pittsburgh",
+            "league_id": "nhl",
+            "start_year": 1967
+        }
+    ]
+}

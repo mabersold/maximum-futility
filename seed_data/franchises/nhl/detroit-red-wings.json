@@ -1,0 +1,31 @@
+{
+    "id": 87,
+    "name": "Detroit Red Wings",
+    "label": "red-wings",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Detroit Cougars",
+            "label": "cougars",
+            "metro_id": "detroit",
+            "league_id": "nhl",
+            "start_year": 1926,
+            "end_year": 1929
+        },
+        {
+            "team_name": "Detroit Falcons",
+            "label": "falcons",
+            "metro_id": "detroit",
+            "league_id": "nhl",
+            "start_year": 1930,
+            "end_year": 1931
+        },
+        {
+            "team_name": "Detroit Red Wings",
+            "metro_id": "detroit",
+            "league_id": "nhl",
+            "start_year": 1932
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 95,
+    "name": "New York Americans",
+    "label": "americans",
+    "is_defunct": true,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "New York Americans",
+            "metro_id": "new-york",
+            "league_id": "nhl",
+            "start_year": 1926,
+            "end_year": 1940
+        },
+        {
+            "team_name": "Brooklyn Americans",
+            "metro_id": "new-york",
+            "league_id": "nhl",
+            "start_year": 1941,
+            "end_year": 1941
+        }
+    ]
+}

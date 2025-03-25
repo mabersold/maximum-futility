@@ -1,0 +1,15 @@
+{
+    "id": 105,
+    "name": "St. Louis Blues",
+    "label": "blues",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "St. Louis Blues",
+            "metro_id": "st-louis",
+            "league_id": "nhl",
+            "start_year": 1967
+        }
+    ]
+}

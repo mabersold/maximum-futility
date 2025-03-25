@@ -1,0 +1,15 @@
+{
+    "id": 104,
+    "name": "Seattle Kraken",
+    "label": "kraken",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Seattle Kraken",
+            "metro_id": "seattle",
+            "league_id": "nhl",
+            "start_year": 2021
+        }
+    ]
+}

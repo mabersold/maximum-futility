@@ -1,0 +1,15 @@
+{
+    "id": 110,
+    "name": "Washington Capitals",
+    "label": "capitals",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Washington Capitals",
+            "metro_id": "washington",
+            "league_id": "nhl",
+            "start_year": 1974
+        }
+    ]
+}

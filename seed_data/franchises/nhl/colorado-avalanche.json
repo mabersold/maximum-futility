@@ -1,0 +1,23 @@
+{
+    "id": 84,
+    "name": "Colorado Avalanche",
+    "label": "avalanche",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Quebec Nordiques",
+            "label": "nordiques",
+            "metro_id": "quebec",
+            "league_id": "nhl",
+            "start_year": 1979,
+            "end_year": 1994
+        },
+        {
+            "team_name": "Colorado Avalanche",
+            "metro_id": "denver",
+            "league_id": "nhl",
+            "start_year": 1995
+        }
+    ]
+}

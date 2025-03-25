@@ -1,0 +1,31 @@
+{
+    "id": 94,
+    "name": "New Jersey Devils",
+    "label": "devils",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Kansas City Scouts",
+            "label": "scouts",
+            "metro_id": "kansas-city",
+            "league_id": "nhl",
+            "start_year": 1974,
+            "end_year": 1975
+        },
+        {
+            "team_name": "Colorado Rockies",
+            "label": "rockies",
+            "metro_id": "denver",
+            "league_id": "nhl",
+            "start_year": 1976,
+            "end_year": 1981
+        },
+        {
+            "team_name": "New Jersey Devils",
+            "metro_id": "new-york",
+            "league_id": "nhl",
+            "start_year": 1982
+        }
+    ]
+}

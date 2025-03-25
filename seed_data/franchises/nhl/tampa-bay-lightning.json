@@ -1,0 +1,15 @@
+{
+    "id": 106,
+    "name": "Tampa Bay Lightning",
+    "label": "lightning",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Tampa Bay Lightning",
+            "metro_id": "tampa-bay",
+            "league_id": "nhl",
+            "start_year": 1992
+        }
+    ]
+}

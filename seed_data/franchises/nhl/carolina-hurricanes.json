@@ -1,0 +1,23 @@
+{
+    "id": 82,
+    "name": "Carolina Hurricanes",
+    "label": "hurricanes",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Hartford Whalers",
+            "label": "whalers",
+            "metro_id": "hartford",
+            "league_id": "nhl",
+            "start_year": 1979,
+            "end_year": 1996
+        },
+        {
+            "team_name": "Carolina Hurricanes",
+            "metro_id": "raleigh",
+            "league_id": "nhl",
+            "start_year": 1997
+        }
+    ]
+}

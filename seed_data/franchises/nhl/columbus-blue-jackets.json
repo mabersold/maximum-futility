@@ -1,0 +1,15 @@
+{
+    "id": 85,
+    "name": "Columbus Blue Jackets",
+    "label": "blue-jackets",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Columbus Blue Jackets",
+            "metro_id": "columbus",
+            "league_id": "nhl",
+            "start_year": 2000
+        }
+    ]
+}

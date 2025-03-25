@@ -1,0 +1,15 @@
+{
+    "id": 103,
+    "name": "San Jose Sharks",
+    "label": "sharks",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "San Jose Sharks",
+            "metro_id": "san-francisco-bay",
+            "league_id": "nhl",
+            "start_year": 1991
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": 80,
+    "name": "Calgary Flames",
+    "label": "flames",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Atlanta Flames",
+            "metro_id": "atlanta",
+            "league_id": "nhl",
+            "start_year": 1972,
+            "end_year": 1979
+        },
+        {
+            "team_name": "Calgary Flames",
+            "metro_id": "calgary",
+            "league_id": "nhl",
+            "start_year": 1980
+        }
+    ]
+}

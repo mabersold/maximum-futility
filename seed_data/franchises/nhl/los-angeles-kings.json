@@ -1,0 +1,15 @@
+{
+    "id": 90,
+    "name": "Los Angeles Kings",
+    "label": "kings-nhl",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Los Angeles Kings",
+            "metro_id": "los-angeles",
+            "league_id": "nhl",
+            "start_year": 1967
+        }
+    ]
+}

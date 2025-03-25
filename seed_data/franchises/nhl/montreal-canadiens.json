@@ -1,0 +1,15 @@
+{
+    "id": 91,
+    "name": "Montreal Canadiens",
+    "label": "canadiens",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Montreal Canadiens",
+            "metro_id": "montreal",
+            "league_id": "nhl",
+            "start_year": 1926
+        }
+    ]
+}

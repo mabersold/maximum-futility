@@ -1,0 +1,31 @@
+{
+    "id": 81,
+    "name": "California Golden Seals",
+    "label": "seals",
+    "is_defunct": true,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Oakland Seals",
+            "metro_id": "san-francisco-bay",
+            "league_id": "nhl",
+            "start_year": 1967,
+            "end_year": 1969
+        },
+        {
+            "team_name": "California Golden Seals",
+            "metro_id": "san-francisco-bay",
+            "league_id": "nhl",
+            "start_year": 1970,
+            "end_year": 1975
+        },
+        {
+            "team_name": "Cleveland Barons",
+            "label": "barons",
+            "metro_id": "cleveland",
+            "league_id": "nhl",
+            "start_year": 1976,
+            "end_year": 1977
+        }
+    ]
+}

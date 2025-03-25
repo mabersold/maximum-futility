@@ -1,0 +1,15 @@
+{
+    "id": 88,
+    "name": "Edmonton Oilers",
+    "label": "oilers",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Edmonton Oilers",
+            "metro_id": "edmonton",
+            "league_id": "nhl",
+            "start_year": 1979
+        }
+    ]
+}

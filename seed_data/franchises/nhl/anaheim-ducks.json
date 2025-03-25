@@ -1,0 +1,22 @@
+{
+    "id": 76,
+    "name": "Anaheim Ducks",
+    "label": "ducks",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Mighty Ducks of Anaheim",
+            "metro_id": "los-angeles",
+            "league_id": "nhl",
+            "start_year": 1993,
+            "end_year": 2005
+        },
+        {
+            "team_name": "Anaheim Ducks",
+            "metro_id": "los-angeles",
+            "league_id": "nhl",
+            "start_year": 2006
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": 111,
+    "name": "Winnipeg Jets",
+    "label": "jets-nhl",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Atlanta Thrashers",
+            "label": "thrashers",
+            "metro_id": "atlanta",
+            "league_id": "nhl",
+            "start_year": 1999,
+            "end_year": 2010
+        },
+        {
+            "team_name": "Winnipeg Jets",
+            "label": "jets",
+            "metro_id": "winnipeg",
+            "league_id": "nhl",
+            "start_year": 2011
+        }
+    ]
+}

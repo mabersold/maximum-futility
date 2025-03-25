@@ -1,0 +1,24 @@
+{
+    "id": 102,
+    "name": "Pittsburgh Pirates (NHL)",
+    "label": "pirates-nhl",
+    "is_defunct": true,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Pittsburgh Pirates",
+            "label": "pirates",
+            "metro_id": "pittsburgh",
+            "league_id": "nhl",
+            "start_year": 1926,
+            "end_year": 1929
+        },
+        {
+            "team_name": "Philadelphia Quakers",
+            "metro_id": "philadelphia",
+            "league_id": "nhl",
+            "start_year": 1930,
+            "end_year": 1930
+        }
+    ]
+}

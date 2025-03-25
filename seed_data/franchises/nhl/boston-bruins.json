@@ -1,0 +1,15 @@
+{
+    "id": 78,
+    "name": "Boston Bruins",
+    "label": "bruins",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Boston Bruins",
+            "metro_id": "boston",
+            "league_id": "nhl",
+            "start_year": 1926
+        }
+    ]
+}

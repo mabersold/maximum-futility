@@ -1,0 +1,15 @@
+{
+    "id": 93,
+    "name": "Nashville Predators",
+    "label": "predators",
+    "is_defunct": false,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Nashville Predators",
+            "metro_id": "nashville",
+            "league_id": "nhl",
+            "start_year": 1998
+        }
+    ]
+}

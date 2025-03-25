@@ -1,0 +1,16 @@
+{
+    "id": 92,
+    "name": "Montreal Maroons",
+    "label": "maroons",
+    "is_defunct": true,
+    "league_id": "nhl",
+    "chapters": [
+        {
+            "team_name": "Montreal Maroons",
+            "metro_id": "montreal",
+            "league_id": "nhl",
+            "start_year": 1926,
+            "end_year": 1937
+        }
+    ]
+}

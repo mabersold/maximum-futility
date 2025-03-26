@@ -1,0 +1,91 @@
+{
+    "name": "1930-31 NHL Season",
+    "start_year": 1930,
+    "end_year": 1931,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "American",
+                "results": [
+                    {"label": "bruins", "wins": 28, "losses": 10, "ties": 6, "points": 62},
+                    {"label": "blackhawks", "wins": 24, "losses": 17, "ties": 3, "points": 51},
+                    {"label": "rangers", "wins": 19, "losses": 16, "ties": 9, "points": 47},
+                    {"label": "falcons", "wins": 16, "losses": 21, "ties": 7, "points": 39},
+                    {"label": "quakers", "wins": 4, "losses": 36, "ties": 4, "points": 12}
+                ]
+            },
+            {
+                "name": "Canadian",
+                "results": [
+                    {"label": "canadiens", "wins": 26, "losses": 10, "ties": 8, "points": 60},
+                    {"label": "maple-leafs", "wins": 22, "losses": 13, "ties": 9, "points": 53},
+                    {"label": "maroons", "wins": 20, "losses": 18, "ties": 6, "points": 46},
+                    {"label": "americans", "wins": 18, "losses": 16, "ties": 10, "points": 46},
+                    {"label": "senators", "wins": 10, "losses": 30, "ties": 4, "points": 24}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "maroons",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0,
+                        "games_tied": 0
+                    },
+                    {
+                        "winner_label": "blackhawks",
+                        "loser_label": "maple-leafs",
+                        "total_games": 2,
+                        "games_won": 1,
+                        "games_lost": 0,
+                        "games_tied": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "blackhawks",
+                        "loser_label": "rangers",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0,
+                        "games_tied": 0
+                    },
+                    {
+                        "winner_label": "canadiens",
+                        "loser_label": "bruins",
+                        "total_games": 5,
+                        "games_won": 3,
+                        "games_lost": 2,
+                        "games_tied": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "canadiens",
+                        "loser_label": "blackhawks",
+                        "total_games": 5,
+                        "games_won": 3,
+                        "games_lost": 2,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

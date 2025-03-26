@@ -1,0 +1,89 @@
+{
+    "name": "1938-39 NHL Season",
+    "start_year": 1938,
+    "end_year": 1939,
+    "league": "nhl",
+    "total_major_divisions": 0,
+    "total_minor_divisions": 0,
+    "standings": {
+        "results": [
+            {"label": "bruins", "wins": 36, "losses": 10, "ties": 2, "points": 74},
+            {"label": "rangers", "wins": 26, "losses": 16, "ties": 6, "points": 58},
+            {"label": "maple-leafs", "wins": 19, "losses": 20, "ties": 9, "points": 47},
+            {"label": "americans", "wins": 17, "losses": 21, "ties": 10, "points": 44},
+            {"label": "red-wings", "wins": 18, "losses": 24, "ties": 6, "points": 42},
+            {"label": "canadiens", "wins": 15, "losses": 24, "ties": 9, "points": 39},
+            {"label": "blackhawks", "wins": 12, "losses": 28, "ties": 8, "points": 32}
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "red-wings",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "canadiens",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "maple-leafs",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "americans",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "maple-leafs",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "red-wings",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 1
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

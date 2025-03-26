@@ -1,0 +1,90 @@
+{
+    "name": "1934-35 NHL Season",
+    "start_year": 1934,
+    "end_year": 1935,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "American",
+                "results": [
+                    {"label": "bruins", "wins": 26, "losses": 16, "ties": 6, "points": 58},
+                    {"label": "blackhawks", "wins": 26, "losses": 17, "ties": 5, "points": 57},
+                    {"label": "rangers", "wins": 22, "losses": 20, "ties": 6, "points": 50},
+                    {"label": "red-wings", "wins": 19, "losses": 22, "ties": 7, "points": 45}
+                ]
+            },
+            {
+                "name": "Canadian",
+                "results": [
+                    {"label": "maple-leafs", "wins": 30, "losses": 14, "ties": 4, "points": 64},
+                    {"label": "maroons", "wins": 24, "losses": 19, "ties": 5, "points": 53},
+                    {"label": "canadiens", "wins": 19, "losses": 23, "ties": 6, "points": 44},
+                    {"label": "americans", "wins": 12, "losses": 27, "ties": 9, "points": 33},
+                    {"label": "eagles", "wins": 11, "losses": 31, "ties": 6, "points": 28}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "canadiens",
+                        "total_games": 2,
+                        "games_won": 1,
+                        "games_lost": 0,
+                        "games_tied": 1
+                    },
+                    {
+                        "winner_label": "maroons",
+                        "loser_label": "blackhawks",
+                        "total_games": 2,
+                        "games_won": 1,
+                        "games_lost": 0,
+                        "games_tied": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "maroons",
+                        "loser_label": "rangers",
+                        "total_games": 2,
+                        "games_won": 1,
+                        "games_lost": 0,
+                        "games_tied": 1
+                    },
+                    {
+                        "winner_label": "maple-leafs",
+                        "loser_label": "bruins",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1,
+                        "games_tied": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "maroons",
+                        "loser_label": "maple-leafs",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

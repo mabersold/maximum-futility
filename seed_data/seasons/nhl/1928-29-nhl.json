@@ -1,0 +1,90 @@
+{
+    "name": "1928-29 NHL Season",
+    "start_year": 1928,
+    "end_year": 1929,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "American",
+                "results": [
+                    {"label": "bruins", "wins": 26, "losses": 13, "ties": 5, "points": 57},
+                    {"label": "rangers", "wins": 21, "losses": 13, "ties": 10, "points": 52},
+                    {"label": "cougars", "wins": 19, "losses": 16, "ties": 9, "points": 47},
+                    {"label": "pirates", "wins": 9, "losses": 27, "ties": 8, "points": 26},
+                    {"label": "blackhawks", "wins": 7, "losses": 29, "ties": 8, "points": 22}
+                ]
+            },
+            {
+                "name": "Canadian",
+                "results": [
+                    {"label": "canadiens", "wins": 22, "losses": 7, "ties": 15, "points": 59},
+                    {"label": "americans", "wins": 19, "losses": 13, "ties": 12, "points": 50},
+                    {"label": "maple-leafs", "wins": 21, "losses": 18, "ties": 5, "points": 47},
+                    {"label": "senators", "wins": 14, "losses": 17, "ties": 13, "points": 41},
+                    {"label": "maroons", "wins": 15, "losses": 20, "ties": 9, "points": 39}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "maple-leafs",
+                        "loser_label": "cougars",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0
+                    },
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "americans",
+                        "total_games": 2,
+                        "games_won": 1,
+                        "games_lost": 0,
+                        "games_tied": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "rangers",
+                        "loser_label": "maple-leafs",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0,
+                        "games_tied": 0
+                    },
+                    {
+                        "winner_label": "bruins",
+                        "loser_label": "canadiens",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0,
+                        "games_tied": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "bruins",
+                        "loser_label": "rangers",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

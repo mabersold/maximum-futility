@@ -11,7 +11,7 @@
             "metro_id": "ottawa",
             "league_id": "nhl",
             "start_year": 1926,
-            "end-year": 1933
+            "end_year": 1933
         },
         {
             "team_name": "St. Louis Eagles",
@@ -19,7 +19,7 @@
             "metro_id": "st-louis",
             "league_id": "nhl",
             "start_year": 1934,
-            "end-year": 1934
+            "end_year": 1934
         }
     ]
 }

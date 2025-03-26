@@ -1,0 +1,85 @@
+{
+    "name": "1937-38 NHL Season",
+    "start_year": 1937,
+    "end_year": 1938,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "American",
+                "results": [
+                    {"label": "bruins", "wins": 30, "losses": 11, "ties": 7, "points": 67},
+                    {"label": "rangers", "wins": 27, "losses": 15, "ties": 6, "points": 60},
+                    {"label": "blackhawks", "wins": 14, "losses": 25, "ties": 9, "points": 37},
+                    {"label": "red-wings", "wins": 12, "losses": 25, "ties": 11, "points": 35}
+                ]
+            },
+            {
+                "name": "Canadian",
+                "results": [
+                    {"label": "maple-leafs", "wins": 24, "losses": 15, "ties": 9, "points": 57},
+                    {"label": "americans", "wins": 19, "losses": 18, "ties": 11, "points": 49},
+                    {"label": "canadiens", "wins": 18, "losses": 17, "ties": 13, "points": 49},
+                    {"label": "maroons", "wins": 12, "losses": 30, "ties": 6, "points": 30}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "blackhawks",
+                        "loser_label": "canadiens",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "americans",
+                        "loser_label": "rangers",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "blackhawks",
+                        "loser_label": "americans",
+                        "total_games": 3,
+                        "games_won": 2,
+                        "games_lost": 1
+                    },
+                    {
+                        "winner_label": "maple-leafs",
+                        "loser_label": "bruins",
+                        "total_games": 3,
+                        "games_won": 3,
+                        "games_lost": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "blackhawks",
+                        "loser_label": "maple-leafs",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

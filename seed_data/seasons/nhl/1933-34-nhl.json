@@ -1,0 +1,90 @@
+{
+    "name": "1933-34 NHL Season",
+    "start_year": 1933,
+    "end_year": 1934,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "American",
+                "results": [
+                    {"label": "red-wings", "wins": 24, "losses": 14, "ties": 10, "points": 58},
+                    {"label": "blackhawks", "wins": 20, "losses": 17, "ties": 11, "points": 51},
+                    {"label": "rangers", "wins": 21, "losses": 19, "ties": 8, "points": 50},
+                    {"label": "bruins", "wins": 18, "losses": 25, "ties": 5, "points": 41}
+                ]
+            },
+            {
+                "name": "Canadian",
+                "results": [
+                    {"label": "maple-leafs", "wins": 26, "losses": 13, "ties": 9, "points": 61},
+                    {"label": "canadiens", "wins": 22, "losses": 20, "ties": 6, "points": 50},
+                    {"label": "maroons", "wins": 19, "losses": 18, "ties": 11, "points": 49},
+                    {"label": "americans", "wins": 15, "losses": 23, "ties": 10, "points": 40},
+                    {"label": "senators", "wins": 13, "losses": 29, "ties": 6, "points": 32}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner_label": "maroons",
+                        "loser_label": "rangers",
+                        "total_games": 2,
+                        "games_won": 1,
+                        "games_lost": 0,
+                        "games_tied": 1
+                    },
+                    {
+                        "winner_label": "blackhawks",
+                        "loser_label": "canadiens",
+                        "total_games": 2,
+                        "games_won": 1,
+                        "games_lost": 0,
+                        "games_tied": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner_label": "blackhawks",
+                        "loser_label": "maroons",
+                        "total_games": 2,
+                        "games_won": 2,
+                        "games_lost": 0,
+                        "games_tied": 0
+                    },
+                    {
+                        "winner_label": "red-wings",
+                        "loser_label": "maple-leafs",
+                        "total_games": 5,
+                        "games_won": 3,
+                        "games_lost": 2,
+                        "games_tied": 0
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner_label": "blackhawks",
+                        "loser_label": "red-wings",
+                        "total_games": 4,
+                        "games_won": 3,
+                        "games_lost": 1,
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

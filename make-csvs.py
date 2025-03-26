@@ -127,24 +127,24 @@ def get_franchise_seasons(seasons: list, franchise_label_map: dict, franchises: 
             fs['team_name'] = chapter['team_name']
             
             # Overall results
-            has_tie = True if sum(1 for r in franchise_seasons if r['percentage'] == fs['percentage']) > 1 else 0
-            if fs['percentage'] == max_values['Overall']:
+            has_tie = True if sum(1 for r in franchise_seasons if r['metric'] == fs['metric']) > 1 else 0
+            if fs['metric'] == max_values['Overall']:
                 fs['league_position'] = 'FIRST_TIED' if has_tie else 'FIRST'
-            elif fs['percentage'] == min_values['Overall']:
+            elif fs['metric'] == min_values['Overall']:
                 fs['league_position'] = 'LAST_TIED' if has_tie else 'LAST'
 
             # Conference results
-            has_tie = True if has_conferences and sum(1 for r in groupings[fs['conference_name']] if r['percentage'] == fs['percentage']) > 1 else 0
-            if has_conferences and fs['percentage'] == max_values[fs['conference_name']]:
+            has_tie = True if has_conferences and sum(1 for r in groupings[fs['conference_name']] if r['metric'] == fs['metric']) > 1 else 0
+            if has_conferences and fs['metric'] == max_values[fs['conference_name']]:
                 fs['conference_position'] = 'FIRST_TIED' if has_tie else 'FIRST'
-            elif has_conferences and fs['percentage'] == min_values[fs['conference_name']]:
+            elif has_conferences and fs['metric'] == min_values[fs['conference_name']]:
                 fs['conference_position'] = 'LAST_TIED' if has_tie else 'LAST'
 
             # Division results
-            has_tie = True if has_divisions and sum(1 for r in groupings[fs['division_name']] if r['percentage'] == fs['percentage']) > 1 else 0
-            if has_divisions and fs['percentage'] == max_values[fs['division_name']]:
+            has_tie = True if has_divisions and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1 else 0
+            if has_divisions and fs['metric'] == max_values[fs['division_name']]:
                 fs['division_position'] = 'FIRST_TIED' if has_tie else 'FIRST'
-            elif has_divisions and fs['percentage'] == min_values[fs['division_name']]:
+            elif has_divisions and fs['metric'] == min_values[fs['division_name']]:
                 fs['division_position'] = 'LAST_TIED' if has_tie else 'LAST'
 
             # Postseason results
@@ -237,22 +237,22 @@ def get_mins_and_maxes(standings: dict, mins: dict, maxes: dict, max_depth: int,
     
     if level == max_depth:
         for r in standings.get('results', []):
-            # TODO: skip this for standings that are ranked by points
-            total_wins = r['wins'] + r['losses']
-            percentage = r['wins'] / total_wins
-            # percent_string = f"{percentage:.3f}".lstrip('0')
-            # if f"{percent_string}" != r['percentage']:
-            #     print(f"Values not equal! {percent_string} is not {r['percentage']}")
-            r['percentage'] = percentage
+            if 'points' in r:
+                r['metric'] = r['points']
+            else:
+                total_wins = r['wins'] + r['losses']
+                r['metric'] = r['wins'] / total_wins if total_wins > 0 else 0.0
+            # percentage = r['wins'] / total_wins
+            # r['percentage'] = percentage
 
-        highest = max(standings.get('results'), key=lambda x: x['percentage']).get('percentage')
-        lowest = min(standings.get('results'), key=lambda x: x['percentage']).get('percentage')
+        highest = max(standings.get('results'), key=lambda x: x['metric']).get('metric')
+        lowest = min(standings.get('results'), key=lambda x: x['metric']).get('metric')
         mins[name] = lowest
         maxes[name] = highest
         return highest, lowest
     
-    highest = 0.0
-    lowest = 1.0
+    highest = float('-inf')
+    lowest = float('inf')
 
     for sub_group in standings.get('sub_groups', []):
         r_highest, r_lowest = get_mins_and_maxes(sub_group, mins, maxes, max_depth, level + 1)
@@ -271,7 +271,7 @@ def get_flattened_franchise_list(standings: dict, max_depth: int, franchises: li
     if standings.get('results'):
         for f in standings.get('results'):
             extended_f = f.copy()
-            extended_f['percentage'] = float(extended_f['percentage'])
+            extended_f['metric'] = float(extended_f['metric'])
             if level == 2:
                 extended_f['conference_name'] = prev_name
                 division_name = standings.get('name', 'None')
@@ -304,14 +304,16 @@ def get_postseason_results(postseason: dict, franchise_label_map: dict, league: 
 
     for round in postseason.get('rounds', []):
         for matchup in round.get('matchups', []):
-            winner_id = franchise_label_map.get(matchup.get('winner_label'))
-            if winner_id != get_franchise_id(matchup.get('winner_label'), league, year):
-                print(f"PLAYOFF WINNER WARNING: get_franchise_id returned incorrect result for {matchup.get('winner_label')} - {league} - {year}: Expected {winner_id} but got {get_franchise_id(matchup.get('winner_label'), league, year)}")
-                winner_id = get_franchise_id(matchup.get('winner_label'), league, year)
-            loser_id = franchise_label_map.get(matchup.get('loser_label'))
-            if loser_id != get_franchise_id(matchup.get('loser_label'), league, year):
-                print(f"PLAYOFF LOSER WARNING: get_franchise_id returned incorrect result for {matchup.get('loser_label')} - {league} - {year}: Expected {loser_id} but got {get_franchise_id(matchup.get('loser_label'), league, year)}")
-                loser_id = get_franchise_id(matchup.get('loser_label'), league, year)
+            winner_label = matchup.get('winner', {}).get('label') or matchup.get('winner_label')
+            winner_id = franchise_label_map.get(winner_label)
+            if winner_id != get_franchise_id(winner_label, league, year):
+                print(f"PLAYOFF WINNER WARNING: get_franchise_id returned incorrect result for {winner_label} - {league} - {year}: Expected {winner_id} but got {get_franchise_id(winner_label, league, year)}")
+                winner_id = get_franchise_id(winner_label, league, year)
+            loser_label = matchup.get('loser', {}).get('label') or matchup.get('loser_label')
+            loser_id = franchise_label_map.get(loser_label)
+            if loser_id != get_franchise_id(loser_label, league, year):
+                print(f"PLAYOFF LOSER WARNING: get_franchise_id returned incorrect result for {loser_label} - {league} - {year}: Expected {loser_id} but got {get_franchise_id(loser_label, league, year)}")
+                loser_id = get_franchise_id(loser_label, league, year)
 
             winner_results = results.get(winner_id, {})
             winner_results['rounds_won'] = winner_results.get('rounds_won', 0) + 1

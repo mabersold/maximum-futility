@@ -1,18 +1,19 @@
 {
-    "name": "1942-43 NHL Season",
-    "start_year": 1942,
-    "end_year": 1943,
+    "name": "1949-50 NHL Season",
+    "start_year": 1949,
+    "end_year": 1950,
     "league": "nhl",
     "total_major_divisions": 0,
     "total_minor_divisions": 0,
     "standings": {
         "results": [
-            {"label": "red-wings", "wins": 25, "losses": 14, "ties": 11, "points": 61},
-            {"label": "bruins", "wins": 24, "losses": 17, "ties": 9, "points": 57},
-            {"label": "maple-leafs", "wins": 22, "losses": 19, "ties": 9, "points": 53},
-            {"label": "canadiens", "wins": 19, "losses": 19, "ties": 12, "points": 50},
-            {"label": "blackhawks", "wins": 17, "losses": 18, "ties": 15, "points": 49},
-            {"label": "rangers", "wins": 11, "losses": 31, "ties": 8, "points": 30}
+            {"label": "red-wings", "wins": 37, "losses": 19, "ties": 14, "points": 88},
+            {"label": "canadiens", "wins": 29, "losses": 22, "ties": 19, "points": 77},
+            {"label": "maple-leafs", "wins": 31, "losses": 27, "ties": 12, "points": 74},
+            {"label": "rangers", "wins": 28, "losses": 31, "ties": 11, "points": 67},
+            {"label": "bruins", "wins": 22, "losses": 32, "ties": 16, "points": 60},
+            {"label": "blackhawks", "wins": 22, "losses": 38, "ties": 10, "points": 54}
+            
         ]
     },
     "postseason": {
@@ -22,7 +23,7 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "bruins",
+                            "label": "rangers",
                             "games_won": 4
                         },
                         "loser": {
@@ -37,7 +38,7 @@
                         },
                         "loser": {
                             "label": "maple-leafs",
-                            "games_won": 2
+                            "games_won": 3
                         }
                     }
                 ]
@@ -51,8 +52,8 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "bruins",
-                            "games_won": 0
+                            "label": "rangers",
+                            "games_won": 3
                         },
                         "is_championship_round": true
                     }

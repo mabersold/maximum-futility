@@ -1,18 +1,18 @@
 {
-    "name": "1942-43 NHL Season",
-    "start_year": 1942,
-    "end_year": 1943,
+    "name": "1948-49 NHL Season",
+    "start_year": 1948,
+    "end_year": 1949,
     "league": "nhl",
     "total_major_divisions": 0,
     "total_minor_divisions": 0,
     "standings": {
         "results": [
-            {"label": "red-wings", "wins": 25, "losses": 14, "ties": 11, "points": 61},
-            {"label": "bruins", "wins": 24, "losses": 17, "ties": 9, "points": 57},
-            {"label": "maple-leafs", "wins": 22, "losses": 19, "ties": 9, "points": 53},
-            {"label": "canadiens", "wins": 19, "losses": 19, "ties": 12, "points": 50},
-            {"label": "blackhawks", "wins": 17, "losses": 18, "ties": 15, "points": 49},
-            {"label": "rangers", "wins": 11, "losses": 31, "ties": 8, "points": 30}
+            {"label": "red-wings", "wins": 34, "losses": 19, "ties": 7, "points": 75},
+            {"label": "bruins", "wins": 29, "losses": 23, "ties": 8, "points": 66},
+            {"label": "canadiens", "wins": 28, "losses": 23, "ties": 9, "points": 65},
+            {"label": "maple-leafs", "wins": 22, "losses": 25, "ties": 13, "points": 57},
+            {"label": "blackhawks", "wins": 21, "losses": 31, "ties": 8, "points": 50},
+            {"label": "rangers", "wins": 18, "losses": 31, "ties": 11, "points": 47}
         ]
     },
     "postseason": {
@@ -22,11 +22,11 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "bruins",
+                            "label": "maple-leafs",
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "canadiens",
+                            "label": "bruins",
                             "games_won": 1
                         }
                     },
@@ -36,8 +36,8 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "maple-leafs",
-                            "games_won": 2
+                            "label": "canadiens",
+                            "games_won": 3
                         }
                     }
                 ]
@@ -47,11 +47,11 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "red-wings",
+                            "label": "maple-leafs",
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "bruins",
+                            "label": "red-wings",
                             "games_won": 0
                         },
                         "is_championship_round": true

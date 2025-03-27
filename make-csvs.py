@@ -107,12 +107,8 @@ def get_franchise_seasons(seasons: list, franchise_label_map: dict, franchises: 
         postseason_results = get_postseason_results(season.get('postseason', {}), franchise_label_map, league, year)
 
         for fs in franchise_seasons:
-            franchise_id = franchise_label_map.get(fs.get('label', ''), {})
             label = fs.get('label', '')
-            
-            if franchise_id != get_franchise_id(label, league, year):
-                print(f"REGULAR SEASON WARNING: get_franchise_id returned incorrect result for {label} - {league} - {year}: Expected {franchise_id} but got {get_franchise_id(label, league, year)}")
-                franchise_id = get_franchise_id(label, league, year)
+            franchise_id = get_franchise_id(label, league, year)
             
             franchise = franchises[franchise_id - 1]
             chapter = find_chapter(franchise.get('chapters', []), season.get('start_year'))
@@ -305,15 +301,10 @@ def get_postseason_results(postseason: dict, franchise_label_map: dict, league: 
     for round in postseason.get('rounds', []):
         for matchup in round.get('matchups', []):
             winner_label = matchup.get('winner', {}).get('label') or matchup.get('winner_label')
-            winner_id = franchise_label_map.get(winner_label)
-            if winner_id != get_franchise_id(winner_label, league, year):
-                print(f"PLAYOFF WINNER WARNING: get_franchise_id returned incorrect result for {winner_label} - {league} - {year}: Expected {winner_id} but got {get_franchise_id(winner_label, league, year)}")
-                winner_id = get_franchise_id(winner_label, league, year)
+            winner_id = get_franchise_id(winner_label, league, year)
+            
             loser_label = matchup.get('loser', {}).get('label') or matchup.get('loser_label')
-            loser_id = franchise_label_map.get(loser_label)
-            if loser_id != get_franchise_id(loser_label, league, year):
-                print(f"PLAYOFF LOSER WARNING: get_franchise_id returned incorrect result for {loser_label} - {league} - {year}: Expected {loser_id} but got {get_franchise_id(loser_label, league, year)}")
-                loser_id = get_franchise_id(loser_label, league, year)
+            loser_id = get_franchise_id(loser_label, league, year)
 
             winner_results = results.get(winner_id, {})
             winner_results['rounds_won'] = winner_results.get('rounds_won', 0) + 1

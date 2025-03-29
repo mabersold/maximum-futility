@@ -1,0 +1,63 @@
+{
+    "name": "1966-67 NHL Season",
+    "start_year": 1966,
+    "end_year": 1967,
+    "league": "nhl",
+    "total_major_divisions": 0,
+    "total_minor_divisions": 0,
+    "standings": {
+        "results": [
+            {"label": "blackhawks", "wins": 41, "losses": 17, "ties": 12, "points": 94},
+            {"label": "canadiens", "wins": 32, "losses": 25, "ties": 13, "points": 77},
+            {"label": "maple-leafs", "wins": 32, "losses": 27, "ties": 11, "points": 75},
+            {"label": "rangers", "wins": 30, "losses": 28, "ties": 12, "points": 72},
+            {"label": "red-wings", "wins": 27, "losses": 39, "ties": 4, "points": 58},
+            {"label": "bruins", "wins": 17, "losses": 43, "ties": 10, "points": 44}
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "maple-leafs",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blackhawks",
+                            "games_won": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "maple-leafs",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "canadiens",
+                            "games_won": 2
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

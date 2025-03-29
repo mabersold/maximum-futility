@@ -1,0 +1,128 @@
+{
+    "name": "1973-74 NHL Season",
+    "start_year": 1973,
+    "end_year": 1974,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "bruins", "wins": 52, "losses": 17, "ties": 9, "points": 113},
+                    {"label": "canadiens", "wins": 45, "losses": 24, "ties": 9, "points": 99},
+                    {"label": "rangers", "wins": 40, "losses": 24, "ties": 14, "points": 94},
+                    {"label": "maple-leafs", "wins": 35, "losses": 27, "ties": 16, "points": 86},
+                    {"label": "sabres", "wins": 32, "losses": 34, "ties": 12, "points": 76},
+                    {"label": "red-wings", "wins": 29, "losses": 39, "ties": 10, "points": 68},
+                    {"label": "canucks", "wins": 24, "losses": 43, "ties": 11, "points": 59},
+                    {"label": "islanders", "wins": 19, "losses": 41, "ties": 18, "points": 56}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "flyers", "wins": 50, "losses": 16, "ties": 12, "points": 112},
+                    {"label": "blackhawks", "wins": 41, "losses": 14, "ties": 23, "points": 105},
+                    {"label": "kings", "wins": 33, "losses": 33, "ties": 12, "points": 78},
+                    {"label": "flames", "wins": 30, "losses": 34, "ties": 14, "points": 74},
+                    {"label": "penguins", "wins": 28, "losses": 41, "ties": 9, "points": 65},
+                    {"label": "blues", "wins": 26, "losses": 40, "ties": 12, "points": 64},
+                    {"label": "north-stars", "wins": 23, "losses": 38, "ties": 17, "points": 63},
+                    {"label": "seals", "wins": 13, "losses": 55, "ties": 10, "points": 36}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "blackhawks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "kings",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "flyers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "flames",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "canadiens",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "flyers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blackhawks",
+                            "games_won": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "flyers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "bruins",
+                            "games_won": 2
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

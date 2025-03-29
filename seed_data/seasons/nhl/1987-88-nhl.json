@@ -1,0 +1,238 @@
+{
+    "name": "1987-88 NHL Season",
+    "start_year": 1987,
+    "end_year": 1988,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 4,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Campbell",
+                "sub_groups": [
+                    {
+                        "name": "Norris",
+                        "results": [
+                            {"label": "red-wings", "wins": 41, "losses": 28, "ties": 11, "points": 93},
+                            {"label": "blues", "wins": 34, "losses": 38, "ties": 8, "points": 76},
+                            {"label": "blackhawks", "wins": 30, "losses": 41, "ties": 9, "points": 69},
+                            {"label": "maple-leafs", "wins": 21, "losses": 49, "ties": 10, "points": 52},
+                            {"label": "north-stars", "wins": 19, "losses": 48, "ties": 13, "points": 51}
+                        ]
+                    },
+                    {
+                        "name": "Smythe",
+                        "results": [
+                            {"label": "flames", "wins": 48, "losses": 23, "ties": 9, "points": 105},
+                            {"label": "oilers", "wins": 44, "losses": 25, "ties": 11, "points": 99},
+                            {"label": "jets", "wins": 33, "losses": 36, "ties": 11, "points": 77},
+                            {"label": "kings", "wins": 30, "losses": 42, "ties": 8, "points": 68},
+                            {"label": "canucks", "wins": 25, "losses": 46, "ties": 9, "points": 59}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Prince of Wales",
+                "sub_groups": [
+                    {
+                        "name": "Adams",
+                        "results": [
+                            {"label": "canadiens", "wins": 45, "losses": 22, "ties": 13, "points": 103},
+                            {"label": "bruins", "wins": 44, "losses": 30, "ties": 6, "points": 94},
+                            {"label": "sabres", "wins": 37, "losses": 32, "ties": 11, "points": 85},
+                            {"label": "whalers", "wins": 35, "losses": 38, "ties": 7, "points": 77},
+                            {"label": "nordiques", "wins": 32, "losses": 43, "ties": 5, "points": 69}
+                        ]
+                    },
+                    {
+                        "name": "Patrick",
+                        "results": [
+                            {"label": "islanders", "wins": 39, "losses": 31, "ties": 10, "points": 88},
+                            {"label": "capitals", "wins": 38, "losses": 33, "ties": 9, "points": 85},
+                            {"label": "flyers", "wins": 38, "losses": 33, "ties": 9, "points": 85},
+                            {"label": "devils", "wins": 38, "losses": 36, "ties": 6, "points": 82},
+                            {"label": "rangers", "wins": 36, "losses": 34, "ties": 10, "points": 82},
+                            {"label": "penguins", "wins": 36, "losses": 35, "ties": 9, "points": 81}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "oilers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "jets",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "flames",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "kings",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "blues",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blackhawks",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "red-wings",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "capitals",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "flyers",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "devils",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "islanders",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "sabres",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "whalers",
+                            "games_won": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "oilers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "flames",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "red-wings",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blues",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "devils",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "capitals",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "canadiens",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "oilers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "red-wings",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "devils",
+                            "games_won": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "oilers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "bruins",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

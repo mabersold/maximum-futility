@@ -1,0 +1,63 @@
+{
+    "name": "1960-61 NHL Season",
+    "start_year": 1960,
+    "end_year": 1961,
+    "league": "nhl",
+    "total_major_divisions": 0,
+    "total_minor_divisions": 0,
+    "standings": {
+        "results": [
+            {"label": "canadiens", "wins": 41, "losses": 19, "ties": 10, "points": 92},
+            {"label": "maple-leafs", "wins": 39, "losses": 19, "ties": 12, "points": 90},
+            {"label": "blackhawks", "wins": 29, "losses": 24, "ties": 17, "points": 75},
+            {"label": "red-wings", "wins": 25, "losses": 29, "ties": 16, "points": 66},
+            {"label": "rangers", "wins": 22, "losses": 38, "ties": 10, "points": 54},
+            {"label": "bruins", "wins": 15, "losses": 42, "ties": 13, "points": 43}
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "red-wings",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "blackhawks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "canadiens",
+                            "games_won": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "blackhawks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "red-wings",
+                            "games_won": 2
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

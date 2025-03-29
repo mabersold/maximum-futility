@@ -1,0 +1,63 @@
+{
+    "name": "1955-56 NHL Season",
+    "start_year": 1955,
+    "end_year": 1956,
+    "league": "nhl",
+    "total_major_divisions": 0,
+    "total_minor_divisions": 0,
+    "standings": {
+        "results": [
+            {"label": "canadiens", "wins": 45, "losses": 15, "ties": 10, "points": 100},
+            {"label": "red-wings", "wins": 30, "losses": 24, "ties": 16, "points": 76},
+            {"label": "rangers", "wins": 32, "losses": 28, "ties": 10, "points": 74},
+            {"label": "maple-leafs", "wins": 24, "losses": 33, "ties": 13, "points": 61},
+            {"label": "bruins", "wins": 23, "losses": 34, "ties": 13, "points": 59},
+            {"label": "blackhawks", "wins": 19, "losses": 39, "ties": 12, "points": 50}
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "red-wings",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "red-wings",
+                            "games_won": 1
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

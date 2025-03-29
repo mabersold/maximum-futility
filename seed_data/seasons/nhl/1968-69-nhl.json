@@ -1,0 +1,124 @@
+{
+    "name": "1968-69 NHL Season",
+    "start_year": 1968,
+    "end_year": 1969,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "canadiens", "wins": 46, "losses": 19, "ties": 11, "points": 103},
+                    {"label": "bruins", "wins": 42, "losses": 18, "ties": 16, "points": 100},
+                    {"label": "rangers", "wins": 41, "losses": 26, "ties": 9, "points": 91},
+                    {"label": "maple-leafs", "wins": 35, "losses": 26, "ties": 15, "points": 85},
+                    {"label": "red-wings", "wins": 33, "losses": 31, "ties": 12, "points": 78},
+                    {"label": "blackhawks", "wins": 34, "losses": 33, "ties": 9, "points": 77}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "blues", "wins": 37, "losses": 25, "ties": 14, "points": 88},
+                    {"label": "seals", "wins": 29, "losses": 36, "ties": 11, "points": 69},
+                    {"label": "flyers", "wins": 20, "losses": 35, "ties": 21, "points": 61},
+                    {"label": "kings", "wins": 24, "losses": 42, "ties": 10, "points": 58},
+                    {"label": "penguins", "wins": 20, "losses": 45, "ties": 11, "points": 51},
+                    {"label": "north-stars", "wins": 18, "losses": 43, "ties": 15, "points": 51}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "kings",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "seals",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "blues",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "flyers",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "blues",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "kings",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "bruins",
+                            "games_won": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blues",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

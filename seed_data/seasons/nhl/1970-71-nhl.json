@@ -1,0 +1,126 @@
+{
+    "name": "1970-71 NHL Season",
+    "start_year": 1970,
+    "end_year": 1971,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "bruins", "wins": 57, "losses": 14, "ties": 7, "points": 121},
+                    {"label": "rangers", "wins": 49, "losses": 18, "ties": 11, "points": 109},
+                    {"label": "canadiens", "wins": 42, "losses": 23, "ties": 13, "points": 97},
+                    {"label": "maple-leafs", "wins": 37, "losses": 33, "ties": 8, "points": 82},
+                    {"label": "sabres", "wins": 24, "losses": 39, "ties": 15, "points": 63},
+                    {"label": "canucks", "wins": 24, "losses": 46, "ties": 8, "points": 56},
+                    {"label": "red-wings", "wins": 22, "losses": 45, "ties": 11, "points": 55}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "blackhawks", "wins": 49, "losses": 20, "ties": 9, "points": 107},
+                    {"label": "blues", "wins": 34, "losses": 25, "ties": 19, "points": 87},
+                    {"label": "flyers", "wins": 28, "losses": 33, "ties": 17, "points": 73},
+                    {"label": "north-stars", "wins": 28, "losses": 34, "ties": 16, "points": 72},
+                    {"label": "kings", "wins": 25, "losses": 40, "ties": 13, "points": 63},
+                    {"label": "penguins", "wins": 21, "losses": 37, "ties": 20, "points": 62},
+                    {"label": "seals", "wins": 20, "losses": 53, "ties": 5, "points": 45}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "north-stars",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blues",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "blackhawks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "flyers",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "bruins",
+                            "games_won": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "blackhawks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "north-stars",
+                            "games_won": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blackhawks",
+                            "games_won": 3
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

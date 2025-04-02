@@ -1,0 +1,257 @@
+{
+    "name": "2003-04 NHL Season",
+    "start_year": 2003,
+    "end_year": 2004,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 6,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "sub_groups": [
+                    {
+                        "name": "Atlantic",
+                        "results": [
+                            {"label": "flyers", "wins": 40, "losses": 21, "ties": 15, "otls": 6, "points": 101},
+                            {"label": "devils", "wins": 43, "losses": 25, "ties": 12, "otls": 2, "points": 100},
+                            {"label": "islanders", "wins": 38, "losses": 29, "ties": 11, "otls": 4, "points": 91},
+                            {"label": "rangers", "wins": 27, "losses": 40, "ties": 7, "otls": 8, "points": 69},
+                            {"label": "penguins", "wins": 23, "losses": 47, "ties": 8, "otls": 4, "points": 58}
+                        ]
+                    },
+                    {
+                        "name": "Northeast",
+                        "results": [
+                            {"label": "bruins", "wins": 41, "losses": 19, "ties": 15, "otls": 7, "points": 104},
+                            {"label": "maple-leafs", "wins": 45, "losses": 24, "ties": 10, "otls": 3, "points": 103},
+                            {"label": "senators", "wins": 43, "losses": 23, "ties": 10, "otls": 6, "points": 102},
+                            {"label": "canadiens", "wins": 41, "losses": 30, "ties": 7, "otls": 4, "points": 93},
+                            {"label": "sabres", "wins": 37, "losses": 34, "ties": 7, "otls": 4, "points": 85}
+                        ]
+                    },
+                    {
+                        "name": "Southeast",
+                        "results": [
+                            {"label": "lightning", "wins": 46, "losses": 22, "ties": 8, "otls": 6, "points": 106},
+                            {"label": "thrashers", "wins": 33, "losses": 37, "ties": 8, "otls": 4, "points": 78},
+                            {"label": "hurricanes", "wins": 28, "losses": 34, "ties": 14, "otls": 6, "points": 76},
+                            {"label": "panthers", "wins": 28, "losses": 35, "ties": 15, "otls": 4, "points": 75},
+                            {"label": "capitals", "wins": 23, "losses": 46, "ties": 10, "otls": 3, "points": 59}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Western",
+                "sub_groups": [
+                    {
+                        "name": "Central",
+                        "results": [
+                            {"label": "red-wings", "wins": 48, "losses": 21, "ties": 11, "otls": 2, "points": 109},
+                            {"label": "blues", "wins": 39, "losses": 30, "ties": 11, "otls": 2, "points": 91},
+                            {"label": "predators", "wins": 38, "losses": 29, "ties": 11, "otls": 4, "points": 91},
+                            {"label": "blue-jackets", "wins": 25, "losses": 45, "ties": 8, "otls": 4, "points": 62},
+                            {"label": "blackhawks", "wins": 20, "losses": 43, "ties": 11, "otls": 8, "points": 59}
+                        ]
+                    },
+                    {
+                        "name": "Northwest",
+                        "results": [
+                            {"label": "canucks", "wins": 43, "losses": 24, "ties": 10, "otls": 5, "points": 101},
+                            {"label": "avalanche", "wins": 40, "losses": 22, "ties": 13, "otls": 7, "points": 100},
+                            {"label": "flames", "wins": 42, "losses": 30, "ties": 7, "otls": 3, "points": 94},
+                            {"label": "oilers", "wins": 36, "losses": 29, "ties": 12, "otls": 5, "points": 89},
+                            {"label": "wild", "wins": 30, "losses": 29, "ties": 20, "otls": 3, "points": 83}
+                        ]
+                    },
+                    {
+                        "name": "Pacific",
+                        "results": [
+                            {"label": "sharks", "wins": 43, "losses": 21, "ties": 12, "otls": 6, "points": 104},
+                            {"label": "stars", "wins": 41, "losses": 26, "ties": 13, "otls": 2, "points": 97},
+                            {"label": "kings", "wins": 28, "losses": 29, "ties": 16, "otls": 9, "points": 81},
+                            {"label": "ducks", "wins": 29, "losses": 35, "ties": 10, "otls": 8, "points": 76},
+                            {"label": "coyotes", "wins": 22, "losses": 36, "ties": 18, "otls": 6, "points": 68}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "avalanche",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "stars",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "flames",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "canucks",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sharks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blues",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "red-wings",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "predators",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "maple-leafs",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "senators",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "flyers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "devils",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "canadiens",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "bruins",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lightning",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "islanders",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sharks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "avalanche",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "flames",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "red-wings",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "flyers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lightning",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "canadiens",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "flames",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "sharks",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lightning",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "flyers",
+                            "games_won": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "lightning",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "flames",
+                            "games_won": 3
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

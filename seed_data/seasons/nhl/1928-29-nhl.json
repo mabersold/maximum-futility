@@ -35,18 +35,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "maple-leafs",
-                        "loser_label": "cougars",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "maple-leafs",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "cougars",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "rangers",
-                        "loser_label": "americans",
-                        "total_games": 2,
-                        "games_won": 1,
-                        "games_lost": 0,
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "americans",
+                            "games_won": 0
+                        },
                         "games_tied": 1
                     }
                 ]
@@ -55,20 +61,24 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "rangers",
-                        "loser_label": "maple-leafs",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0,
-                        "games_tied": 0
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "bruins",
-                        "loser_label": "canadiens",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0,
-                        "games_tied": 0
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "canadiens",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -76,11 +86,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "bruins",
-                        "loser_label": "rangers",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0,
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 0
+                        },
                         "is_championship_round": true
                     }
                 ]

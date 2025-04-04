@@ -39,7 +39,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2005,St. Louis,St. Louis Blues,NHL,Western,Central,LAST,LAST,LAST,false,,,
 2006,St. Louis,St. Louis Blues,NHL,Western,Central,,,,false,,,
 2007,St. Louis,St. Louis Blues,NHL,Western,Central,,,LAST,false,,,
-2008,St. Louis,St. Louis Blues,NHL,Western,Central,,,,true,1,false,false
+2008,St. Louis,St. Louis Blues,NHL,Western,Central,,,,true,0,false,false
 2009,St. Louis,St. Louis Blues,NHL,Western,Central,,,,false,,,
 2010,St. Louis,St. Louis Blues,NHL,Western,Central,,,,false,,,
 2011,St. Louis,St. Louis Blues,NHL,Western,Central,,,FIRST,true,1,false,false

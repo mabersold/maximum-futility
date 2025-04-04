@@ -25,7 +25,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Miami,Florida Panthers,NHL,Eastern,Atlantic,,,,false,,,
 2018,Miami,Florida Panthers,NHL,Eastern,Atlantic,,,,false,,,
 2019,Miami,Florida Panthers,NHL,Eastern,Atlantic,,,,true,0,false,false
-2020,Miami,Florida Panthers,NHL,Central,,,,,true,0,,
+2020,Miami,Florida Panthers,NHL,Central,,,,,true,0,false,false
 2021,Miami,Florida Panthers,NHL,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
 2022,Miami,Florida Panthers,NHL,Eastern,Atlantic,,,,true,3,true,false
 2023,Miami,Florida Panthers,NHL,Eastern,Atlantic,,,FIRST,true,4,true,true

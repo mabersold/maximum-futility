@@ -34,19 +34,25 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "maroons",
-                        "loser_label": "rangers",
-                        "total_games": 2,
-                        "games_won": 1,
-                        "games_lost": 0,
+                        "winner": {
+                            "label": "maroons",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 0
+                        },
                         "games_tied": 1
                     },
                     {
-                        "winner_label": "blackhawks",
-                        "loser_label": "canadiens",
-                        "total_games": 2,
-                        "games_won": 1,
-                        "games_lost": 0,
+                        "winner": {
+                            "label": "blackhawks",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "canadiens",
+                            "games_won": 0
+                        },
                         "games_tied": 1
                     }
                 ]
@@ -55,20 +61,24 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "blackhawks",
-                        "loser_label": "maroons",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0,
-                        "games_tied": 0
+                        "winner": {
+                            "label": "blackhawks",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "maroons",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "red-wings",
-                        "loser_label": "maple-leafs",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2,
-                        "games_tied": 0
+                        "winner": {
+                            "label": "red-wings",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -76,11 +86,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "blackhawks",
-                        "loser_label": "red-wings",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1,
+                        "winner": {
+                            "label": "blackhawks",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "red-wings",
+                            "games_won": 1
+                        },
                         "is_championship_round": true
                     }
                 ]

@@ -21,7 +21,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2013,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,FIRST,FIRST,true,1,false,false
 2014,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,FIRST_TIED,FIRST,true,2,false,false
 2015,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,0,false,false
-2016,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,1,false,false
+2016,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,FIRST,true,2,false,false
 2017,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,true,0,false,false
 2018,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,false,,,
 2019,Los Angeles,Anaheim Ducks,NHL,Western,Pacific,,,,false,,,

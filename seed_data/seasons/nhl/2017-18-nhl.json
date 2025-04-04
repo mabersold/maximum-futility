@@ -1,0 +1,248 @@
+{
+    "name": "2017-18 NHL Season",
+    "start_year": 2017,
+    "end_year": 2018,
+    "league": "nhl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 4,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "Eastern",
+                "sub_groups": [
+                    {
+                        "name": "Atlantic",
+                        "results": [
+                            {"label": "lightning", "wins": 54, "losses": 23, "otls": 5, "points": 113},
+                            {"label": "bruins", "wins": 50, "losses": 20, "otls": 12, "points": 112},
+                            {"label": "maple-leafs", "wins": 49, "losses": 26, "otls": 7, "points": 105},
+                            {"label": "panthers", "wins": 44, "losses": 30, "otls": 8, "points": 96},
+                            {"label": "red-wings", "wins": 30, "losses": 39, "otls": 13, "points": 73},
+                            {"label": "canadiens", "wins": 29, "losses": 40, "otls": 13, "points": 71},
+                            {"label": "senators", "wins": 28, "losses": 43, "otls": 11, "points": 67},
+                            {"label": "sabres", "wins": 25, "losses": 45, "otls": 12, "points": 62}
+                        ]
+                    },
+                    {
+                        "name": "Metropolitan",
+                        "results": [
+                            {"label": "capitals", "wins": 49, "losses": 26, "otls": 7, "points": 105},
+                            {"label": "penguins", "wins": 47, "losses": 29, "otls": 6, "points": 100},
+                            {"label": "flyers", "wins": 42, "losses": 26, "otls": 14, "points": 98},
+                            {"label": "blue-jackets", "wins": 45, "losses": 30, "otls": 7, "points": 97},
+                            {"label": "devils", "wins": 44, "losses": 29, "otls": 9, "points": 97},
+                            {"label": "hurricanes", "wins": 36, "losses": 35, "otls": 11, "points": 83},
+                            {"label": "islanders", "wins": 35, "losses": 37, "otls": 10, "points": 80},
+                            {"label": "rangers", "wins": 34, "losses": 39, "otls": 9, "points": 77}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Western",
+                "sub_groups": [
+                    {
+                        "name": "Central",
+                        "results": [
+                            {"label": "predators", "wins": 53, "losses": 18, "otls": 11, "points": 117},
+                            {"label": "jets", "wins": 52, "losses": 20, "otls": 10, "points": 114},
+                            {"label": "wild", "wins": 45, "losses": 26, "otls": 11, "points": 101},
+                            {"label": "avalanche", "wins": 43, "losses": 30, "otls": 9, "points": 95},
+                            {"label": "blues", "wins": 44, "losses": 32, "otls": 6, "points": 94},
+                            {"label": "stars", "wins": 42, "losses": 32, "otls": 8, "points": 92},
+                            {"label": "blackhawks", "wins": 33, "losses": 39, "otls": 10, "points": 76}
+                        ]
+                    },
+                    {
+                        "name": "Pacific",
+                        "results": [
+                            {"label": "golden-knights", "wins": 51, "losses": 24, "otls": 7, "points": 109},
+                            {"label": "ducks", "wins": 44, "losses": 25, "otls": 13, "points": 101},
+                            {"label": "sharks", "wins": 45, "losses": 27, "otls": 10, "points": 100},
+                            {"label": "kings", "wins": 45, "losses": 29, "otls": 8, "points": 98},
+                            {"label": "flames", "wins": 37, "losses": 35, "otls": 10, "points": 84},
+                            {"label": "oilers", "wins": 36, "losses": 40, "otls": 6, "points": 78},
+                            {"label": "canucks", "wins": 31, "losses": 40, "otls": 11, "points": 73},
+                            {"label": "coyotes", "wins": 29, "losses": 41, "otls": 12, "points": 70}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "penguins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "flyers",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "bruins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "maple-leafs",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "capitals",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blue-jackets",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lightning",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "devils",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sharks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "ducks",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "jets",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "wild",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "golden-knights",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "kings",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "predators",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "avalanche",
+                            "games_won": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "jets",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "predators",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "golden-knights",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "sharks",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lightning",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "bruins",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "capitals",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "penguins",
+                            "games_won": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "golden-knights",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "jets",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "capitals",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "lightning",
+                            "games_won": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "capitals",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "golden-knights",
+                            "games_won": 1
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

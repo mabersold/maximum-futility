@@ -35,8 +35,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1959,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
 1960,Chicago,Chicago Black Hawks,NHL,,,,,,true,2,true,true
 1961,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,true,false
-1962,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
-1963,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,,
+1962,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
+1963,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
 1964,Chicago,Chicago Black Hawks,NHL,,,,,,true,1,true,false
 1965,Chicago,Chicago Black Hawks,NHL,,,,,,true,0,false,false
 1966,Chicago,Chicago Black Hawks,NHL,,,FIRST,,,true,0,false,false

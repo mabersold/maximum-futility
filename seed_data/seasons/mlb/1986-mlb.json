@@ -71,18 +71,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "red-sox",
-                        "loser_label": "angels",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "red-sox",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "angels",
+                            "games_won": 3
+                        }
                     },
                     {
-                        "winner_label": "mets",
-                        "loser_label": "astros",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "mets",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "astros",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -90,11 +96,14 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "mets",
-                        "loser_label": "red-sox",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "mets",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "red-sox",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

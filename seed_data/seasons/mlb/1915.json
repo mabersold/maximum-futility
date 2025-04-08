@@ -41,11 +41,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "red-sox",
-                        "loser_label": "phillies",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1,
+                        "winner": {
+                            "label": "red-sox",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "phillies",
+                            "games_won": 1
+                        },
                         "is_championship_round": true
                     }
                 ]

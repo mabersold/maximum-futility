@@ -85,32 +85,44 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "rangers",
-                        "loser_label": "rays",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "rays",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "twins",
-                        "loser_label": "blue-jays",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "twins",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "blue-jays",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "phillies",
-                        "loser_label": "marlins",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "phillies",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "marlins",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "diamondbacks",
-                        "loser_label": "brewers",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "diamondbacks",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "brewers",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -118,32 +130,44 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "rangers",
-                        "loser_label": "orioles",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "orioles",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "astros",
-                        "loser_label": "twins",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "astros",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "twins",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "phillies",
-                        "loser_label": "braves",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "phillies",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "braves",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "diamondbacks",
-                        "loser_label": "dodgers",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "diamondbacks",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "dodgers",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -151,18 +175,24 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "rangers",
-                        "loser_label": "astros",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "astros",
+                            "games_won": 3
+                        }
                     },
                     {
-                        "winner_label": "diamondbacks",
-                        "loser_label": "phillies",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "diamondbacks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "phillies",
+                            "games_won": 3
+                        }
                     }
                 ]
             },
@@ -170,11 +200,14 @@
                 "round_number": 4,
                 "matchups": [
                     {
-                        "winner_label": "rangers",
-                        "loser_label": "diamondbacks",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1,
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "diamondbacks",
+                            "games_won": 1
+                        },
                         "is_championship_round": true
                     }
                 ]

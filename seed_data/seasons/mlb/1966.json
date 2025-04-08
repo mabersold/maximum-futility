@@ -45,11 +45,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "orioles",
-                        "loser_label": "dodgers",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0,
+                        "winner": {
+                            "label": "orioles",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "dodgers",
+                            "games_won": 0
+                        },
                         "is_championship_round": true
                     }
                 ]

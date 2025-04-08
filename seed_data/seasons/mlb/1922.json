@@ -41,11 +41,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "yankees",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0,
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 0
+                        },
                         "is_championship_round": true
                     }
                 ]

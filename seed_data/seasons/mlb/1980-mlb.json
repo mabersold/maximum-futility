@@ -71,18 +71,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "royals",
-                        "loser_label": "yankees",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "royals",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "phillies",
-                        "loser_label": "astros",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "phillies",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "astros",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -90,11 +96,14 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "phillies",
-                        "loser_label": "royals",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2,
+                        "winner": {
+                            "label": "phillies",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "royals",
+                            "games_won": 2
+                        },
                         "is_championship_round": true
                     }
                 ]

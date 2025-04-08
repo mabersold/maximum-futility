@@ -69,18 +69,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "orioles",
-                        "loser_label": "twins",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "orioles",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "twins",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "reds",
-                        "loser_label": "pirates",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "reds",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "pirates",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -88,11 +94,14 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "orioles",
-                        "loser_label": "reds",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1,
+                        "winner": {
+                            "label": "orioles",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "reds",
+                            "games_won": 1
+                        },
                         "is_championship_round": true
                     }
                 ]

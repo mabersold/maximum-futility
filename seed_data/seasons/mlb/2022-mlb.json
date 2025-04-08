@@ -85,32 +85,44 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "mariners",
-                        "loser_label": "blue-jays",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "mariners",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "blue-jays",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "guardians",
-                        "loser_label": "rays",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "guardians",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "rays",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "padres",
-                        "loser_label": "mets",
-                        "total_games": 3,
-                        "games_won": 2,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "padres",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mets",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "phillies",
-                        "loser_label": "cardinals-mlb",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "phillies",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "cardinals-mlb",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -118,32 +130,44 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "astros",
-                        "loser_label": "mariners",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "astros",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "mariners",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "guardians",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "guardians",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "padres",
-                        "loser_label": "dodgers",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "padres",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "dodgers",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "phillies",
-                        "loser_label": "braves",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "phillies",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "braves",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -151,18 +175,24 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "astros",
-                        "loser_label": "yankees",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "astros",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "phillies",
-                        "loser_label": "padres",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "phillies",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "padres",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -170,11 +200,14 @@
                 "round_number": 4,
                 "matchups": [
                     {
-                        "winner_label": "astros",
-                        "loser_label": "phillies",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2,
+                        "winner": {
+                            "label": "astros",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "phillies",
+                            "games_won": 2
+                        },
                         "is_championship_round": true
                     }
                 ]

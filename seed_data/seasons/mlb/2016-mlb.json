@@ -85,18 +85,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "blue-jays",
-                        "loser_label": "orioles",
-                        "total_games": 1,
-                        "games_won": 1,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "blue-jays",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "orioles",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "mets",
-                        "total_games": 1,
-                        "games_won": 1,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "mets",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -104,32 +110,44 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "blue-jays",
-                        "loser_label": "rangers",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "blue-jays",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "guardians",
-                        "loser_label": "red-sox",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "guardians",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "red-sox",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "cubs",
-                        "loser_label": "giants-mlb",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "cubs",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "giants-mlb",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "dodgers",
-                        "loser_label": "nationals",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "dodgers",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "nationals",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -137,18 +155,24 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "guardians",
-                        "loser_label": "blue-jays",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "guardians",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blue-jays",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "cubs",
-                        "loser_label": "dodgers",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "cubs",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "dodgers",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -156,11 +180,14 @@
                 "round_number": 4,
                 "matchups": [
                     {
-                        "winner_label": "cubs",
-                        "loser_label": "guardians",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "cubs",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "guardians",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

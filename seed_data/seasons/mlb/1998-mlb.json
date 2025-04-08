@@ -85,32 +85,44 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "rangers",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "guardians",
-                        "loser_label": "red-sox",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "guardians",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "red-sox",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "braves",
-                        "loser_label": "cubs",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "braves",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "cubs",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "padres",
-                        "loser_label": "astros",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "padres",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "astros",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -118,18 +130,24 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "guardians",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "guardians",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "padres",
-                        "loser_label": "braves",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "padres",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "braves",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -137,11 +155,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "padres",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0,
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "padres",
+                            "games_won": 0
+                        },
                         "is_championship_round": true
                     }
                 ]

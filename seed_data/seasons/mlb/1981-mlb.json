@@ -71,32 +71,44 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "brewers",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "brewers",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "athletics",
-                        "loser_label": "royals",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "athletics",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "royals",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "nationals",
-                        "loser_label": "phillies",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "nationals",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "phillies",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "dodgers",
-                        "loser_label": "astros",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "dodgers",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "astros",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -104,18 +116,24 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "athletics",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "athletics",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "dodgers",
-                        "loser_label": "nationals",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "dodgers",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "nationals",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -123,11 +141,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "dodgers",
-                        "loser_label": "yankees",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2,
+                        "winner": {
+                            "label": "dodgers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 2
+                        },
                         "is_championship_round": true
                     }
                 ]

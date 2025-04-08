@@ -71,18 +71,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "royals",
-                        "loser_label": "blue-jays",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "royals",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blue-jays",
+                            "games_won": 3
+                        }
                     },
                     {
-                        "winner_label": "cardinals-mlb",
-                        "loser_label": "dodgers",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "cardinals-mlb",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "dodgers",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -90,11 +96,14 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "royals",
-                        "loser_label": "cardinals-mlb",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "royals",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "cardinals-mlb",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

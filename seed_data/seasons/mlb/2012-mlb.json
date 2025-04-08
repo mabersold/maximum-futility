@@ -85,18 +85,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "orioles",
-                        "loser_label": "rangers",
-                        "total_games": 1,
-                        "games_won": 1,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "orioles",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "cardinals-mlb",
-                        "loser_label": "braves",
-                        "total_games": 1,
-                        "games_won": 1,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "cardinals-mlb",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "braves",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -104,32 +110,44 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "orioles",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "orioles",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "tigers",
-                        "loser_label": "athletics",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "tigers",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "athletics",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "cardinals-mlb",
-                        "loser_label": "nationals",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "cardinals-mlb",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "nationals",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "reds",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "reds",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -137,18 +155,24 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "tigers",
-                        "loser_label": "yankees",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "tigers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "cardinals-mlb",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "cardinals-mlb",
+                            "games_won": 3
+                        }
                     }
                 ]
             },
@@ -156,11 +180,14 @@
                 "round_number": 4,
                 "matchups": [
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "tigers",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0,
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "tigers",
+                            "games_won": 0
+                        },
                         "is_championship_round": true
                     }
                 ]

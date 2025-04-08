@@ -41,11 +41,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "dodgers",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "dodgers",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

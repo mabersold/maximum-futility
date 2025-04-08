@@ -71,18 +71,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "twins",
-                        "loser_label": "blue-jays",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "twins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blue-jays",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "braves",
-                        "loser_label": "pirates",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "braves",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "pirates",
+                            "games_won": 3
+                        }
                     }
                 ]
             },
@@ -90,11 +96,14 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "twins",
-                        "loser_label": "braves",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "twins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "braves",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

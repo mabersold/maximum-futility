@@ -85,18 +85,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "astros",
-                        "loser_label": "yankees",
-                        "total_games": 1,
-                        "games_won": 1,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "astros",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "cubs",
-                        "loser_label": "pirates",
-                        "total_games": 1,
-                        "games_won": 1,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "cubs",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "pirates",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -104,32 +110,44 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "royals",
-                        "loser_label": "astros",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "royals",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "astros",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "blue-jays",
-                        "loser_label": "rangers",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "blue-jays",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "cubs",
-                        "loser_label": "cardinals-mlb",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "cubs",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "cardinals-mlb",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "mets",
-                        "loser_label": "dodgers",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "mets",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "dodgers",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -137,18 +155,24 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "royals",
-                        "loser_label": "blue-jays",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "royals",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blue-jays",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "mets",
-                        "loser_label": "cubs",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "mets",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "cubs",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -156,11 +180,14 @@
                 "round_number": 4,
                 "matchups": [
                     {
-                        "winner_label": "royals",
-                        "loser_label": "mets",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1,
+                        "winner": {
+                            "label": "royals",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "mets",
+                            "games_won": 1
+                        },
                         "is_championship_round": true
                     }
                 ]

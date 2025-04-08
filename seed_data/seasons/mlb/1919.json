@@ -41,11 +41,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "reds",
-                        "loser_label": "white-sox",
-                        "total_games": 8,
-                        "games_won": 5,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "reds",
+                            "games_won": 5
+                        },
+                        "loser": {
+                            "label": "white-sox",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

@@ -45,11 +45,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "dodgers",
-                        "loser_label": "twins",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "dodgers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "twins",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

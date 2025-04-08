@@ -41,11 +41,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "cubs",
-                        "loser_label": "tigers",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1,
+                        "winner": {
+                            "label": "cubs",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "tigers",
+                            "games_won": 1
+                        },
                         "is_championship_round": true
                     }
                 ]

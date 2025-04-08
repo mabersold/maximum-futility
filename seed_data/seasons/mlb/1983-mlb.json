@@ -71,18 +71,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "orioles",
-                        "loser_label": "white-sox",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "orioles",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "white-sox",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "phillies",
-                        "loser_label": "dodgers",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "phillies",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "dodgers",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -90,11 +96,14 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "orioles",
-                        "loser_label": "phillies",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1,
+                        "winner": {
+                            "label": "orioles",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "phillies",
+                            "games_won": 1
+                        },
                         "is_championship_round": true
                     }
                 ]

@@ -85,32 +85,44 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "angels",
-                        "loser_label": "yankees",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "angels",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "twins",
-                        "loser_label": "athletics",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "twins",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "athletics",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "braves",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "braves",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "cardinals-mlb",
-                        "loser_label": "diamondbacks",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "cardinals-mlb",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "diamondbacks",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -118,18 +130,24 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "angels",
-                        "loser_label": "twins",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "angels",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "twins",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "cardinals-mlb",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "cardinals-mlb",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -137,11 +155,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "angels",
-                        "loser_label": "giants-mlb",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "angels",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "giants-mlb",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

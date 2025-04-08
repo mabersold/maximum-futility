@@ -85,32 +85,44 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "rangers",
-                        "loser_label": "rays",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "rays",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "twins",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "twins",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "phillies",
-                        "loser_label": "reds",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "phillies",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "reds",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "braves",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "braves",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -118,18 +130,24 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "rangers",
-                        "loser_label": "yankees",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "rangers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "phillies",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "phillies",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -137,11 +155,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "rangers",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1,
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "rangers",
+                            "games_won": 1
+                        },
                         "is_championship_round": true
                     }
                 ]

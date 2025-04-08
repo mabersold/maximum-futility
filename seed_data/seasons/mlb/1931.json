@@ -41,11 +41,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "cardinals-mlb",
-                        "loser_label": "athletics",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "cardinals-mlb",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "athletics",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

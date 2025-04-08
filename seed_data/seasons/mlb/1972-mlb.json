@@ -69,18 +69,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "athletics",
-                        "loser_label": "tigers",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "athletics",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "tigers",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "reds",
-                        "loser_label": "pirates",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "reds",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "pirates",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -88,11 +94,14 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "athletics",
-                        "loser_label": "reds",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "athletics",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "reds",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

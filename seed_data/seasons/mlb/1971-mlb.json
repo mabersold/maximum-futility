@@ -69,18 +69,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "orioles",
-                        "loser_label": "athletics",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "orioles",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "athletics",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "pirates",
-                        "loser_label": "giants-mlb",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "pirates",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "giants-mlb",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -88,11 +94,14 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "pirates",
-                        "loser_label": "orioles",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "pirates",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "orioles",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

@@ -85,32 +85,44 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "mariners",
-                        "loser_label": "guardians",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "mariners",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "guardians",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "athletics",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "athletics",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "braves",
-                        "loser_label": "astros",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "braves",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "astros",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "diamondbacks",
-                        "loser_label": "cardinals-mlb",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "diamondbacks",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "cardinals-mlb",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -118,18 +130,24 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "mariners",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "mariners",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "diamondbacks",
-                        "loser_label": "braves",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "diamondbacks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "braves",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -137,11 +155,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "diamondbacks",
-                        "loser_label": "yankees",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "diamondbacks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

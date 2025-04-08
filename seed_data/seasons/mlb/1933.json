@@ -41,11 +41,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "giants-mlb",
-                        "loser_label": "twins",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1,
+                        "winner": {
+                            "label": "giants-mlb",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "twins",
+                            "games_won": 1
+                        },
                         "is_championship_round": true
                     }
                 ]

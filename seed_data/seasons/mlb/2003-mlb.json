@@ -85,32 +85,44 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "twins",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "twins",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "red-sox",
-                        "loser_label": "athletics",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "red-sox",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "athletics",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "cubs",
-                        "loser_label": "braves",
-                        "total_games": 5,
-                        "games_won": 3,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "cubs",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "braves",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "marlins",
-                        "loser_label": "giants-mlb",
-                        "total_games": 4,
-                        "games_won": 3,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "marlins",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "giants-mlb",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -118,18 +130,24 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "yankees",
-                        "loser_label": "red-sox",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "red-sox",
+                            "games_won": 3
+                        }
                     },
                     {
-                        "winner_label": "marlins",
-                        "loser_label": "cubs",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "marlins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "cubs",
+                            "games_won": 3
+                        }
                     }
                 ]
             },
@@ -137,11 +155,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "marlins",
-                        "loser_label": "yankees",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2,
+                        "winner": {
+                            "label": "marlins",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 2
+                        },
                         "is_championship_round": true
                     }
                 ]

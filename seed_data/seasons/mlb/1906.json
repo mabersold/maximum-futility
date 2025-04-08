@@ -43,11 +43,14 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "white-sox",
-                        "loser_label": "cubs",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2,
+                        "winner": {
+                            "label": "white-sox",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "cubs",
+                            "games_won": 2
+                        },
                         "is_championship_round": true
                     }
                 ]

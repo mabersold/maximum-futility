@@ -10,7 +10,7 @@
             {
                 "name": "Eastern",
                 "results": [
-                    {"label": "capitols-nba", "wins": 49, "losses": 11},
+                    {"label": "capitols", "wins": 49, "losses": 11},
                     {"label": "warriors", "wins": 35, "losses": 25},
                     {"label": "knicks", "wins": 33, "losses": 27},
                     {"label": "steamrollers", "wins": 28, "losses": 32},
@@ -24,7 +24,7 @@
                     {"label": "stags", "wins": 39, "losses": 22},
                     {"label": "bombers", "wins": 38, "losses": 23},
                     {"label": "rebels", "wins": 30, "losses": 30},
-                    {"label": "falcons-baa", "wins": 20, "losses": 40},
+                    {"label": "falcons", "wins": 20, "losses": 40},
                     {"label": "ironmen", "wins": 15, "losses": 45}
                 ]
             }
@@ -66,7 +66,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "capitols-nba",
+                            "label": "capitols",
                             "games_won": 2
                         }
                     },

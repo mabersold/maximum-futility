@@ -1,7 +1,7 @@
 {
   "id": 65,
   "name": "Sacramento Kings",
-  "label": "kings",
+  "label": "kings-nba",
   "is_defunct": false,
   "league_id": "nba",
   "chapters": [
@@ -24,6 +24,7 @@
     {
       "team_name": "Kansas City-Omaha Kings",
       "metro_id": "kansas-city",
+      "label": "kings",
       "league_id": "nba",
       "start_year": 1972,
       "end_year": 1974
@@ -31,6 +32,7 @@
     {
       "team_name": "Kansas City Kings",
       "metro_id": "kansas-city",
+      "label": "kings",
       "league_id": "nba",
       "start_year": 1975,
       "end_year": 1984
@@ -38,6 +40,7 @@
     {
       "team_name": "Sacramento Kings",
       "metro_id": "sacramento",
+      "label": "kings",
       "league_id": "nba",
       "start_year": 1985
     }

@@ -6,7 +6,6 @@ csv_base_directory = 'src/main/resources/data'
 franchises_directory = "seed_data/franchises"
 seasons_directory = "seed_data/seasons"
 
-franchise_label_map = {}
 franchise_lookups = []
 
 def get_leagues():
@@ -81,7 +80,7 @@ def get_seasons(leagues: dict):
 
     return seasons
 
-def get_franchise_seasons(seasons: list, franchise_label_map: dict, franchises: list):
+def get_franchise_seasons(seasons: list, franchises: list):
     total_franchise_seasons = []
 
     for season in seasons:
@@ -104,7 +103,7 @@ def get_franchise_seasons(seasons: list, franchise_label_map: dict, franchises: 
         
         league = season['league']
         year = season['start_year']
-        postseason_results = get_postseason_results(season.get('postseason', {}), franchise_label_map, league, year)
+        postseason_results = get_postseason_results(season.get('postseason', {}), league, year)
 
         for fs in franchise_seasons:
             label = fs.get('label', '')
@@ -164,15 +163,13 @@ def get_franchise_id(label: str, league: str, year: int):
     matches = [team for team in franchise_lookups if team["name"].lower() == label and team["league"].lower() == league.lower()]
 
     if len(matches) == 1:
-        # print(f"Found a match for {label} - {league} - {year}")
         return matches[0]["id"]
     
     for team in matches:
         if team["start_year"] <= year and (team["end_year"] is None or team["end_year"] >= year):
-            # print(f"Found a match for {label} - {league} - {year}")
             return team["id"]
 
-    return franchise_label_map.get(label, {})
+    return None
     
 
 def write_franchises(leagues: dict):
@@ -238,8 +235,6 @@ def get_mins_and_maxes(standings: dict, mins: dict, maxes: dict, max_depth: int,
             else:
                 total_wins = r['wins'] + r['losses']
                 r['metric'] = r['wins'] / total_wins if total_wins > 0 else 0.0
-            # percentage = r['wins'] / total_wins
-            # r['percentage'] = percentage
 
         highest = max(standings.get('results'), key=lambda x: x['metric']).get('metric')
         lowest = min(standings.get('results'), key=lambda x: x['metric']).get('metric')
@@ -295,7 +290,7 @@ def get_flattened_franchise_list(standings: dict, max_depth: int, franchises: li
         for sub_group in standings.get('sub_groups', []):
             get_flattened_franchise_list(sub_group, max_depth, franchises, groupings, level + 1, name)
     
-def get_postseason_results(postseason: dict, franchise_label_map: dict, league: str, year: int):
+def get_postseason_results(postseason: dict, league: str, year: int):
     results = {}
 
     for round in postseason.get('rounds', []):
@@ -357,12 +352,11 @@ metros = get_metros()
 franchises = sorted(get_franchises(leagues, metros), key=lambda d: d['id'])
 
 for f in franchises:
-    franchise_label_map[f.get('label')] = f.get('id')
     for c in f.get('chapters', []):
         franchise_lookups.append({"name": c.get("label", f.get("label")), "league": c.get("league_name"), "start_year": c.get("start_year"), "end_year": c.get("end_year", None), "id": f["id"]})
 
 seasons = get_seasons(leagues)
-franchise_seasons = get_franchise_seasons(seasons, franchise_label_map, franchises)
+franchise_seasons = get_franchise_seasons(seasons, franchises)
 write_franchises(leagues)
 write_seasons(leagues)
 write_franchise_seasons(franchise_seasons)

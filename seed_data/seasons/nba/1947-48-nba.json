@@ -22,7 +22,7 @@
                     {"label": "bombers", "wins": 29, "losses": 19},
                     {"label": "bullets", "wins": 28, "losses": 20},
                     {"label": "stags", "wins": 28, "losses": 20},
-                    {"label": "capitols-nba", "wins": 28, "losses": 20}
+                    {"label": "capitols", "wins": 28, "losses": 20}
                 ]
             }
         ]

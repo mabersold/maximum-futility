@@ -16,9 +16,9 @@
                             {"label": "orioles", "wins": 109, "losses": 53},
                             {"label": "tigers", "wins": 90, "losses": 72},
                             {"label": "red-sox", "wins": 87, "losses": 75},
-                            {"label": "rangers", "wins": 86, "losses": 76},
+                            {"label": "senators", "wins": 86, "losses": 76},
                             {"label": "yankees", "wins": 80, "losses": 81},
-                            {"label": "guardians", "wins": 62, "losses": 99}
+                            {"label": "indians", "wins": 62, "losses": 99}
                         ]
                     },
                     {
@@ -29,7 +29,7 @@
                             {"label": "angels", "wins": 71, "losses": 91},
                             {"label": "royals", "wins": 69, "losses": 93},
                             {"label": "white-sox", "wins": 68, "losses": 94},
-                            {"label": "brewers", "wins": 64, "losses": 98}
+                            {"label": "pilots", "wins": 64, "losses": 98}
                         ]
                     }
                 ]
@@ -43,16 +43,16 @@
                             {"label": "mets", "wins": 100, "losses": 62},
                             {"label": "cubs", "wins": 92, "losses": 70},
                             {"label": "pirates", "wins": 88, "losses": 74},
-                            {"label": "cardinals-mlb", "wins": 87, "losses": 75},
+                            {"label": "cardinals", "wins": 87, "losses": 75},
                             {"label": "phillies", "wins": 63, "losses": 99},
-                            {"label": "nationals", "wins": 52, "losses": 110}
+                            {"label": "expos", "wins": 52, "losses": 110}
                         ]
                     },
                     {
                         "name": "NL West",
                         "results": [
                             {"label": "braves", "wins": 93, "losses": 69},
-                            {"label": "giants-mlb", "wins": 90, "losses": 72},
+                            {"label": "giants", "wins": 90, "losses": 72},
                             {"label": "reds", "wins": 89, "losses": 73},
                             {"label": "dodgers", "wins": 85, "losses": 77},
                             {"label": "astros", "wins": 81, "losses": 81},

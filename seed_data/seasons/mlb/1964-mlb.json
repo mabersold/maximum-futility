@@ -15,25 +15,25 @@
                     {"label": "orioles", "wins": 97, "losses": 65},
                     {"label": "tigers", "wins": 85, "losses": 77},
                     {"label": "angels", "wins": 82, "losses": 80},
-                    {"label": "guardians", "wins": 79, "losses": 83},
+                    {"label": "indians", "wins": 79, "losses": 83},
                     {"label": "twins", "wins": 79, "losses": 83},
                     {"label": "red-sox", "wins": 72, "losses": 90},
-                    {"label": "rangers", "wins": 62, "losses": 100},
+                    {"label": "senators", "wins": 62, "losses": 100},
                     {"label": "athletics", "wins": 57, "losses": 105}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
-                    {"label": "cardinals-mlb", "wins": 93, "losses": 69},
+                    {"label": "cardinals", "wins": 93, "losses": 69},
                     {"label": "phillies", "wins": 92, "losses": 70},
                     {"label": "reds", "wins": 92, "losses": 70},
-                    {"label": "giants-mlb", "wins": 90, "losses": 72},
+                    {"label": "giants", "wins": 90, "losses": 72},
                     {"label": "braves", "wins": 88, "losses": 74},
                     {"label": "pirates", "wins": 80, "losses": 82},
                     {"label": "dodgers", "wins": 80, "losses": 82},
                     {"label": "cubs", "wins": 76, "losses": 86},
-                    {"label": "astros", "wins": 66, "losses": 96},
+                    {"label": "colt-45s", "wins": 66, "losses": 96},
                     {"label": "mets", "wins": 53, "losses": 109}
                 ]
             }
@@ -46,7 +46,7 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 4
                         },
                         "loser": {

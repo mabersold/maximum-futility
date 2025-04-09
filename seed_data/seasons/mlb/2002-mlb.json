@@ -17,7 +17,7 @@
                             {"label": "red-sox", "wins": 93, "losses": 69},
                             {"label": "blue-jays", "wins": 78, "losses": 84},
                             {"label": "orioles", "wins": 67, "losses": 95},
-                            {"label": "rays", "wins": 55, "losses": 106}
+                            {"label": "devil-rays", "wins": 55, "losses": 106}
                         ]
                     },
                     {
@@ -25,7 +25,7 @@
                         "results": [
                             {"label": "twins", "wins": 94, "losses": 67},
                             {"label": "white-sox", "wins": 81, "losses": 81},
-                            {"label": "guardians", "wins": 74, "losses": 88},
+                            {"label": "indians", "wins": 74, "losses": 88},
                             {"label": "royals", "wins": 62, "losses": 100},
                             {"label": "tigers", "wins": 55, "losses": 106}
                         ]
@@ -48,7 +48,7 @@
                         "name": "NL East",
                         "results": [
                             {"label": "braves", "wins": 101, "losses": 59},
-                            {"label": "nationals", "wins": 83, "losses": 79},
+                            {"label": "expos", "wins": 83, "losses": 79},
                             {"label": "phillies", "wins": 80, "losses": 81},
                             {"label": "marlins", "wins": 79, "losses": 83},
                             {"label": "mets", "wins": 75, "losses": 86}
@@ -57,7 +57,7 @@
                     {
                         "name": "NL Central",
                         "results": [
-                            {"label": "cardinals-mlb", "wins": 97, "losses": 65},
+                            {"label": "cardinals", "wins": 97, "losses": 65},
                             {"label": "astros", "wins": 84, "losses": 78},
                             {"label": "reds", "wins": 78, "losses": 84},
                             {"label": "pirates", "wins": 72, "losses": 89},
@@ -69,7 +69,7 @@
                         "name": "NL West",
                         "results": [
                             {"label": "diamondbacks", "wins": 98, "losses": 64},
-                            {"label": "giants-mlb", "wins": 95, "losses": 66},
+                            {"label": "giants", "wins": 95, "losses": 66},
                             {"label": "dodgers", "wins": 92, "losses": 70},
                             {"label": "rockies", "wins": 73, "losses": 89},
                             {"label": "padres", "wins": 66, "losses": 96}
@@ -106,7 +106,7 @@
                     },
                     {
                         "winner": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 3
                         },
                         "loser": {
@@ -116,7 +116,7 @@
                     },
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 3
                         },
                         "loser": {
@@ -141,11 +141,11 @@
                     },
                     {
                         "winner": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 1
                         }
                     }
@@ -160,7 +160,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 3
                         },
                         "is_championship_round": true

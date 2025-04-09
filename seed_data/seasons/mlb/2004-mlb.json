@@ -16,7 +16,7 @@
                             {"label": "yankees", "wins": 101, "losses": 61},
                             {"label": "red-sox", "wins": 98, "losses": 64},
                             {"label": "orioles", "wins": 78, "losses": 84},
-                            {"label": "rays", "wins": 70, "losses": 91},
+                            {"label": "devil-rays", "wins": 70, "losses": 91},
                             {"label": "blue-jays", "wins": 67, "losses": 94}
                         ]
                     },
@@ -25,7 +25,7 @@
                         "results": [
                             {"label": "twins", "wins": 92, "losses": 70},
                             {"label": "white-sox", "wins": 83, "losses": 79},
-                            {"label": "guardians", "wins": 80, "losses": 82},
+                            {"label": "indians", "wins": 80, "losses": 82},
                             {"label": "tigers", "wins": 72, "losses": 90},
                             {"label": "royals", "wins": 58, "losses": 104}
                         ]
@@ -51,13 +51,13 @@
                             {"label": "phillies", "wins": 86, "losses": 76},
                             {"label": "marlins", "wins": 83, "losses": 79},
                             {"label": "mets", "wins": 71, "losses": 91},
-                            {"label": "nationals", "wins": 67, "losses": 95}
+                            {"label": "expos", "wins": 67, "losses": 95}
                         ]
                     },
                     {
                         "name": "NL Central",
                         "results": [
-                            {"label": "cardinals-mlb", "wins": 105, "losses": 57},
+                            {"label": "cardinals", "wins": 105, "losses": 57},
                             {"label": "astros", "wins": 92, "losses": 70},
                             {"label": "cubs", "wins": 89, "losses": 73},
                             {"label": "reds", "wins": 76, "losses": 86},
@@ -69,7 +69,7 @@
                         "name": "NL West",
                         "results": [
                             {"label": "dodgers", "wins": 93, "losses": 69},
-                            {"label": "giants-mlb", "wins": 91, "losses": 71},
+                            {"label": "giants", "wins": 91, "losses": 71},
                             {"label": "padres", "wins": 87, "losses": 75},
                             {"label": "rockies", "wins": 68, "losses": 94},
                             {"label": "diamondbacks", "wins": 51, "losses": 111}
@@ -106,7 +106,7 @@
                     },
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 3
                         },
                         "loser": {
@@ -141,7 +141,7 @@
                     },
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 4
                         },
                         "loser": {
@@ -160,7 +160,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 0
                         },
                         "is_championship_round": true

@@ -11,11 +11,11 @@
                 "name": "AL",
                 "results": [
                     {"label": "yankees", "wins": 98, "losses": 56},
-                    {"label": "twins", "wins": 84, "losses": 69},
-                    {"label": "guardians", "wins": 82, "losses": 71},
+                    {"label": "senators", "wins": 84, "losses": 69},
+                    {"label": "indians", "wins": 82, "losses": 71},
                     {"label": "white-sox", "wins": 82, "losses": 72},
                     {"label": "tigers", "wins": 78, "losses": 76},
-                    {"label": "orioles", "wins": 72, "losses": 80},
+                    {"label": "browns", "wins": 72, "losses": 80},
                     {"label": "red-sox", "wins": 68, "losses": 84},
                     {"label": "athletics", "wins": 49, "losses": 105}
                 ]
@@ -23,14 +23,14 @@
             {
                 "name": "NL",
                 "results": [
-                    {"label": "cardinals-mlb", "wins": 105, "losses": 49},
+                    {"label": "cardinals", "wins": 105, "losses": 49},
                     {"label": "reds", "wins": 87, "losses": 67},
                     {"label": "dodgers", "wins": 81, "losses": 72},
                     {"label": "pirates", "wins": 80, "losses": 74},
                     {"label": "cubs", "wins": 74, "losses": 79},
                     {"label": "braves", "wins": 68, "losses": 85},
                     {"label": "phillies", "wins": 64, "losses": 90},
-                    {"label": "giants-mlb", "wins": 55, "losses": 98}
+                    {"label": "giants", "wins": 55, "losses": 98}
                 ]
             }
         ]
@@ -46,7 +46,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 1
                         },
                         "is_championship_round": true

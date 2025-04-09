@@ -10,27 +10,27 @@
             {
                 "name": "AL",
                 "results": [
-                    {"label": "red-sox", "wins": 91, "losses": 47},
+                    {"label": "americans", "wins": 91, "losses": 47},
                     {"label": "athletics", "wins": 75, "losses": 60},
-                    {"label": "guardians", "wins": 77, "losses": 63},
-                    {"label": "yankees", "wins": 72, "losses": 62},
+                    {"label": "naps", "wins": 77, "losses": 63},
+                    {"label": "highlanders", "wins": 72, "losses": 62},
                     {"label": "tigers", "wins": 65, "losses": 71},
-                    {"label": "orioles", "wins": 65, "losses": 74},
-                    {"label": "white-sox", "wins": 60, "losses": 77},
-                    {"label": "twins", "wins": 43, "losses": 94}
+                    {"label": "browns", "wins": 65, "losses": 74},
+                    {"label": "white-stockings", "wins": 60, "losses": 77},
+                    {"label": "senators", "wins": 43, "losses": 94}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
                     {"label": "pirates", "wins": 91, "losses": 49},
-                    {"label": "giants-mlb", "wins": 84, "losses": 55},
+                    {"label": "giants", "wins": 84, "losses": 55},
                     {"label": "cubs", "wins": 82, "losses": 56},
                     {"label": "reds", "wins": 74, "losses": 65},
-                    {"label": "dodgers", "wins": 70, "losses": 66},
-                    {"label": "braves", "wins": 58, "losses": 80},
+                    {"label": "superbas", "wins": 70, "losses": 66},
+                    {"label": "beaneaters", "wins": 58, "losses": 80},
                     {"label": "phillies", "wins": 49, "losses": 86},
-                    {"label": "cardinals-mlb", "wins": 43, "losses": 94}
+                    {"label": "cardinals", "wins": 43, "losses": 94}
                 ]
             }
         ]
@@ -42,7 +42,7 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "red-sox",
+                            "label": "americans",
                             "games_won": 5
                         },
                         "loser": {

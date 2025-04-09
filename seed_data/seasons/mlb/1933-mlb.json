@@ -10,24 +10,24 @@
             {
                 "name": "AL",
                 "results": [
-                    {"label": "twins", "wins": 99, "losses": 53},
+                    {"label": "senators", "wins": 99, "losses": 53},
                     {"label": "yankees", "wins": 91, "losses": 59},
                     {"label": "athletics", "wins": 79, "losses": 72},
-                    {"label": "guardians", "wins": 75, "losses": 76},
+                    {"label": "indians", "wins": 75, "losses": 76},
                     {"label": "tigers", "wins": 75, "losses": 79},
                     {"label": "white-sox", "wins": 67, "losses": 83},
                     {"label": "red-sox", "wins": 63, "losses": 86},
-                    {"label": "orioles", "wins": 55, "losses": 96}
+                    {"label": "browns", "wins": 55, "losses": 96}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
-                    {"label": "giants-mlb", "wins": 91, "losses": 61},
+                    {"label": "giants", "wins": 91, "losses": 61},
                     {"label": "pirates", "wins": 87, "losses": 67},
                     {"label": "cubs", "wins": 86, "losses": 68},
                     {"label": "braves", "wins": 83, "losses": 71},
-                    {"label": "cardinals-mlb", "wins": 82, "losses": 71},
+                    {"label": "cardinals", "wins": 82, "losses": 71},
                     {"label": "dodgers", "wins": 65, "losses": 88},
                     {"label": "phillies", "wins": 60, "losses": 92},
                     {"label": "reds", "wins": 58, "losses": 94}
@@ -42,11 +42,11 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "twins",
+                            "label": "senators",
                             "games_won": 1
                         },
                         "is_championship_round": true

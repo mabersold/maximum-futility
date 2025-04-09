@@ -10,12 +10,12 @@
             {
                 "name": "AL",
                 "results": [
-                    {"label": "twins", "wins": 92, "losses": 62},
+                    {"label": "senators", "wins": 92, "losses": 62},
                     {"label": "yankees", "wins": 89, "losses": 63},
                     {"label": "tigers", "wins": 86, "losses": 68},
-                    {"label": "orioles", "wins": 74, "losses": 78},
+                    {"label": "browns", "wins": 74, "losses": 78},
                     {"label": "athletics", "wins": 71, "losses": 81},
-                    {"label": "guardians", "wins": 67, "losses": 86},
+                    {"label": "indians", "wins": 67, "losses": 86},
                     {"label": "red-sox", "wins": 67, "losses": 87},
                     {"label": "white-sox", "wins": 66, "losses": 87}
                 ]
@@ -23,12 +23,12 @@
             {
                 "name": "NL",
                 "results": [
-                    {"label": "giants-mlb", "wins": 93, "losses": 60},
-                    {"label": "dodgers", "wins": 93, "losses": 62},
+                    {"label": "giants", "wins": 93, "losses": 60},
+                    {"label": "robins", "wins": 93, "losses": 62},
                     {"label": "pirates", "wins": 90, "losses": 63},
                     {"label": "reds", "wins": 83, "losses": 70},
                     {"label": "cubs", "wins": 81, "losses": 72},
-                    {"label": "cardinals-mlb", "wins": 65, "losses": 89},
+                    {"label": "cardinals", "wins": 65, "losses": 89},
                     {"label": "phillies", "wins": 55, "losses": 96},
                     {"label": "braves", "wins": 53, "losses": 100}
                 ]
@@ -42,11 +42,11 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "twins",
+                            "label": "senators",
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 3
                         },
                         "is_championship_round": true

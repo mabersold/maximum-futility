@@ -62,7 +62,7 @@
                             {"label": "cubs", "wins": 83, "losses": 79},
                             {"label": "reds", "wins": 82, "losses": 80},
                             {"label": "pirates", "wins": 76, "losses": 86},
-                            {"label": "cardinals-mlb", "wins": 71, "losses": 91}
+                            {"label": "cardinals", "wins": 71, "losses": 91}
                         ]
                     },
                     {
@@ -71,7 +71,7 @@
                             {"label": "dodgers", "wins": 100, "losses": 62},
                             {"label": "diamondbacks", "wins": 84, "losses": 78},
                             {"label": "padres", "wins": 82, "losses": 80},
-                            {"label": "giants-mlb", "wins": 79, "losses": 83},
+                            {"label": "giants", "wins": 79, "losses": 83},
                             {"label": "rockies", "wins": 59, "losses": 103}
                         ]
                     }

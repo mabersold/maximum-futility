@@ -19,7 +19,7 @@
                             {"label": "brewers", "wins": 83, "losses": 79},
                             {"label": "yankees", "wins": 71, "losses": 91},
                             {"label": "orioles", "wins": 67, "losses": 95},
-                            {"label": "guardians", "wins": 57, "losses": 105}
+                            {"label": "indians", "wins": 57, "losses": 105}
                         ]
                     },
                     {
@@ -43,11 +43,11 @@
                         "name": "NL East",
                         "results": [
                             {"label": "pirates", "wins": 98, "losses": 64},
-                            {"label": "cardinals-mlb", "wins": 84, "losses": 78},
+                            {"label": "cardinals", "wins": 84, "losses": 78},
                             {"label": "phillies", "wins": 78, "losses": 84},
                             {"label": "cubs", "wins": 77, "losses": 83},
                             {"label": "mets", "wins": 77, "losses": 84},
-                            {"label": "nationals", "wins": 71, "losses": 90}
+                            {"label": "expos", "wins": 71, "losses": 90}
                         ]
                     },
                     {
@@ -56,7 +56,7 @@
                             {"label": "braves", "wins": 94, "losses": 68},
                             {"label": "dodgers", "wins": 93, "losses": 69},
                             {"label": "padres", "wins": 84, "losses": 78},
-                            {"label": "giants-mlb", "wins": 75, "losses": 87},
+                            {"label": "giants", "wins": 75, "losses": 87},
                             {"label": "reds", "wins": 74, "losses": 88},
                             {"label": "astros", "wins": 65, "losses": 97}
                         ]

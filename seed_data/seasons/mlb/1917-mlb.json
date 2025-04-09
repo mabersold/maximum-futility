@@ -12,24 +12,24 @@
                 "results": [
                     {"label": "white-sox", "wins": 100, "losses": 54},
                     {"label": "red-sox", "wins": 90, "losses": 62},
-                    {"label": "guardians", "wins": 88, "losses": 66},
+                    {"label": "indians", "wins": 88, "losses": 66},
                     {"label": "tigers", "wins": 78, "losses": 75},
-                    {"label": "twins", "wins": 74, "losses": 79},
+                    {"label": "senators", "wins": 74, "losses": 79},
                     {"label": "yankees", "wins": 71, "losses": 82},
-                    {"label": "orioles", "wins": 57, "losses": 97},
+                    {"label": "browns", "wins": 57, "losses": 97},
                     {"label": "athletics", "wins": 55, "losses": 98}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
-                    {"label": "giants-mlb", "wins": 98, "losses": 56},
+                    {"label": "giants", "wins": 98, "losses": 56},
                     {"label": "phillies", "wins": 87, "losses": 65},
-                    {"label": "cardinals-mlb", "wins": 82, "losses": 70},
+                    {"label": "cardinals", "wins": 82, "losses": 70},
                     {"label": "reds", "wins": 78, "losses": 76},
                     {"label": "cubs", "wins": 74, "losses": 80},
                     {"label": "braves", "wins": 72, "losses": 81},
-                    {"label": "dodgers", "wins": 70, "losses": 81},
+                    {"label": "robins", "wins": 70, "losses": 81},
                     {"label": "pirates", "wins": 51, "losses": 103}
                 ]
             }
@@ -46,7 +46,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 2
                         },
                         "is_championship_round": true

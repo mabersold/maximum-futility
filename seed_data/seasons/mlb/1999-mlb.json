@@ -17,13 +17,13 @@
                             {"label": "red-sox", "wins": 94, "losses": 68},
                             {"label": "blue-jays", "wins": 84, "losses": 78},
                             {"label": "orioles", "wins": 78, "losses": 84},
-                            {"label": "rays", "wins": 69, "losses": 93}
+                            {"label": "devil-rays", "wins": 69, "losses": 93}
                         ]
                     },
                     {
                         "name": "AL Central",
                         "results": [
-                            {"label": "guardians", "wins": 97, "losses": 65},
+                            {"label": "indians", "wins": 97, "losses": 65},
                             {"label": "white-sox", "wins": 75, "losses": 86},
                             {"label": "tigers", "wins": 69, "losses": 92},
                             {"label": "royals", "wins": 64, "losses": 97},
@@ -50,7 +50,7 @@
                             {"label": "braves", "wins": 103, "losses": 59},
                             {"label": "mets", "wins": 97, "losses": 66},
                             {"label": "phillies", "wins": 77, "losses": 85},
-                            {"label": "nationals", "wins": 68, "losses": 94},
+                            {"label": "expos", "wins": 68, "losses": 94},
                             {"label": "marlins", "wins": 64, "losses": 98}
                         ]
                     },
@@ -60,7 +60,7 @@
                             {"label": "astros", "wins": 97, "losses": 65},
                             {"label": "reds", "wins": 96, "losses": 67},
                             {"label": "pirates", "wins": 78, "losses": 83},
-                            {"label": "cardinals-mlb", "wins": 75, "losses": 86},
+                            {"label": "cardinals", "wins": 75, "losses": 86},
                             {"label": "brewers", "wins": 74, "losses": 87},
                             {"label": "cubs", "wins": 67, "losses": 95}
                         ]
@@ -69,7 +69,7 @@
                         "name": "NL West",
                         "results": [
                             {"label": "diamondbacks", "wins": 100, "losses": 62},
-                            {"label": "giants-mlb", "wins": 86, "losses": 76},
+                            {"label": "giants", "wins": 86, "losses": 76},
                             {"label": "dodgers", "wins": 77, "losses": 85},
                             {"label": "padres", "wins": 74, "losses": 88},
                             {"label": "rockies", "wins": 72, "losses": 90}
@@ -100,7 +100,7 @@
                             "games_won": 3
                         },
                         "loser": {
-                            "label": "guardians",
+                            "label": "indians",
                             "games_won": 2
                         }
                     },

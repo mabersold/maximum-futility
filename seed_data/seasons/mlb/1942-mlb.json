@@ -12,25 +12,25 @@
                 "results": [
                     {"label": "yankees", "wins": 103, "losses": 51},
                     {"label": "red-sox", "wins": 93, "losses": 59},
-                    {"label": "orioles", "wins": 82, "losses": 69},
-                    {"label": "guardians", "wins": 75, "losses": 79},
+                    {"label": "browns", "wins": 82, "losses": 69},
+                    {"label": "indians", "wins": 75, "losses": 79},
                     {"label": "tigers", "wins": 73, "losses": 81},
                     {"label": "white-sox", "wins": 66, "losses": 82},
-                    {"label": "twins", "wins": 62, "losses": 89},
+                    {"label": "senators", "wins": 62, "losses": 89},
                     {"label": "athletics", "wins": 55, "losses": 99}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
-                    {"label": "cardinals-mlb", "wins": 106, "losses": 48},
+                    {"label": "cardinals", "wins": 106, "losses": 48},
                     {"label": "dodgers", "wins": 104, "losses": 50},
-                    {"label": "giants-mlb", "wins": 85, "losses": 67},
+                    {"label": "giants", "wins": 85, "losses": 67},
                     {"label": "reds", "wins": 76, "losses": 76},
                     {"label": "pirates", "wins": 66, "losses": 81},
                     {"label": "cubs", "wins": 68, "losses": 86},
                     {"label": "braves", "wins": 59, "losses": 89},
-                    {"label": "phillies", "wins": 42, "losses": 109}
+                    {"label": "phils", "wins": 42, "losses": 109}
                 ]
             }
         ]
@@ -42,7 +42,7 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 4
                         },
                         "loser": {

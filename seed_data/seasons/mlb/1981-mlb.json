@@ -18,7 +18,7 @@
                             {"label": "yankees", "wins": 59, "losses": 48},
                             {"label": "tigers", "wins": 60, "losses": 49},
                             {"label": "red-sox", "wins": 59, "losses": 49},
-                            {"label": "guardians", "wins": 52, "losses": 51},
+                            {"label": "indians", "wins": 52, "losses": 51},
                             {"label": "blue-jays", "wins": 37, "losses": 69}
                         ]
                     },
@@ -42,8 +42,8 @@
                     {
                         "name": "NL East",
                         "results": [
-                            {"label": "cardinals-mlb", "wins": 59, "losses": 43},
-                            {"label": "nationals", "wins": 60, "losses": 48},
+                            {"label": "cardinals", "wins": 59, "losses": 43},
+                            {"label": "expos", "wins": 60, "losses": 48},
                             {"label": "phillies", "wins": 59, "losses": 48},
                             {"label": "pirates", "wins": 46, "losses": 56},
                             {"label": "mets", "wins": 41, "losses": 62},
@@ -56,7 +56,7 @@
                             {"label": "reds", "wins": 66, "losses": 42},
                             {"label": "dodgers", "wins": 63, "losses": 47},
                             {"label": "astros", "wins": 61, "losses": 49},
-                            {"label": "giants-mlb", "wins": 56, "losses": 55},
+                            {"label": "giants", "wins": 56, "losses": 55},
                             {"label": "braves", "wins": 50, "losses": 56},
                             {"label": "padres", "wins": 41, "losses": 69}
                         ]
@@ -92,7 +92,7 @@
                     },
                     {
                         "winner": {
-                            "label": "nationals",
+                            "label": "expos",
                             "games_won": 3
                         },
                         "loser": {
@@ -131,7 +131,7 @@
                             "games_won": 3
                         },
                         "loser": {
-                            "label": "nationals",
+                            "label": "expos",
                             "games_won": 2
                         }
                     }

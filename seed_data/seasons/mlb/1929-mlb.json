@@ -12,9 +12,9 @@
                 "results": [
                     {"label": "athletics", "wins": 104, "losses": 46},
                     {"label": "yankees", "wins": 88, "losses": 66},
-                    {"label": "guardians", "wins": 81, "losses": 71},
-                    {"label": "orioles", "wins": 79, "losses": 73},
-                    {"label": "twins", "wins": 71, "losses": 81},
+                    {"label": "indians", "wins": 81, "losses": 71},
+                    {"label": "browns", "wins": 79, "losses": 73},
+                    {"label": "senators", "wins": 71, "losses": 81},
                     {"label": "tigers", "wins": 70, "losses": 84},
                     {"label": "white-sox", "wins": 59, "losses": 93},
                     {"label": "red-sox", "wins": 58, "losses": 96}
@@ -25,10 +25,10 @@
                 "results": [
                     {"label": "cubs", "wins": 98, "losses": 54},
                     {"label": "pirates", "wins": 88, "losses": 65},
-                    {"label": "giants-mlb", "wins": 84, "losses": 67},
-                    {"label": "cardinals-mlb", "wins": 78, "losses": 74},
+                    {"label": "giants", "wins": 84, "losses": 67},
+                    {"label": "cardinals", "wins": 78, "losses": 74},
                     {"label": "phillies", "wins": 71, "losses": 82},
-                    {"label": "dodgers", "wins": 70, "losses": 83},
+                    {"label": "robins", "wins": 70, "losses": 83},
                     {"label": "reds", "wins": 66, "losses": 88},
                     {"label": "braves", "wins": 56, "losses": 98}
                 ]

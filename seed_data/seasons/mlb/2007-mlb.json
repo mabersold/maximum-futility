@@ -17,13 +17,13 @@
                             {"label": "yankees", "wins": 94, "losses": 68},
                             {"label": "blue-jays", "wins": 83, "losses": 79},
                             {"label": "orioles", "wins": 69, "losses": 93},
-                            {"label": "rays", "wins": 66, "losses": 96}
+                            {"label": "devil-rays", "wins": 66, "losses": 96}
                         ]
                     },
                     {
                         "name": "AL Central",
                         "results": [
-                            {"label": "guardians", "wins": 96, "losses": 66},
+                            {"label": "indians", "wins": 96, "losses": 66},
                             {"label": "tigers", "wins": 88, "losses": 74},
                             {"label": "twins", "wins": 79, "losses": 83},
                             {"label": "white-sox", "wins": 72, "losses": 90},
@@ -59,7 +59,7 @@
                         "results": [
                             {"label": "cubs", "wins": 85, "losses": 77},
                             {"label": "brewers", "wins": 83, "losses": 79},
-                            {"label": "cardinals-mlb", "wins": 78, "losses": 84},
+                            {"label": "cardinals", "wins": 78, "losses": 84},
                             {"label": "astros", "wins": 73, "losses": 89},
                             {"label": "reds", "wins": 72, "losses": 90},
                             {"label": "pirates", "wins": 68, "losses": 94}
@@ -72,7 +72,7 @@
                             {"label": "rockies", "wins": 90, "losses": 73},
                             {"label": "padres", "wins": 89, "losses": 74},
                             {"label": "dodgers", "wins": 82, "losses": 80},
-                            {"label": "giants-mlb", "wins": 71, "losses": 91}
+                            {"label": "giants", "wins": 71, "losses": 91}
                         ]
                     }
                 ]
@@ -96,7 +96,7 @@
                     },
                     {
                         "winner": {
-                            "label": "guardians",
+                            "label": "indians",
                             "games_won": 3
                         },
                         "loser": {
@@ -135,7 +135,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "guardians",
+                            "label": "indians",
                             "games_won": 3
                         }
                     },

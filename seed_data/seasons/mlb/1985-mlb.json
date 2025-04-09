@@ -19,7 +19,7 @@
                             {"label": "orioles", "wins": 83, "losses": 78},
                             {"label": "red-sox", "wins": 81, "losses": 81},
                             {"label": "brewers", "wins": 71, "losses": 90},
-                            {"label": "guardians", "wins": 60, "losses": 102}
+                            {"label": "indians", "wins": 60, "losses": 102}
                         ]
                     },
                     {
@@ -42,9 +42,9 @@
                     {
                         "name": "NL East",
                         "results": [
-                            {"label": "cardinals-mlb", "wins": 101, "losses": 61},
+                            {"label": "cardinals", "wins": 101, "losses": 61},
                             {"label": "mets", "wins": 98, "losses": 64},
-                            {"label": "nationals", "wins": 84, "losses": 77},
+                            {"label": "expos", "wins": 84, "losses": 77},
                             {"label": "cubs", "wins": 77, "losses": 84},
                             {"label": "phillies", "wins": 75, "losses": 87},
                             {"label": "pirates", "wins": 57, "losses": 104}
@@ -58,7 +58,7 @@
                             {"label": "astros", "wins": 83, "losses": 79},
                             {"label": "padres", "wins": 83, "losses": 79},
                             {"label": "braves", "wins": 66, "losses": 96},
-                            {"label": "giants-mlb", "wins": 62, "losses": 100}
+                            {"label": "giants", "wins": 62, "losses": 100}
                         ]
                     }
                 ]
@@ -82,7 +82,7 @@
                     },
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 4
                         },
                         "loser": {
@@ -101,7 +101,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 3
                         },
                         "is_championship_round": true

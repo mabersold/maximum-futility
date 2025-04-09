@@ -24,7 +24,7 @@
                         "name": "AL Central",
                         "results": [
                             {"label": "twins", "wins": 101, "losses": 61},
-                            {"label": "guardians", "wins": 93, "losses": 69},
+                            {"label": "indians", "wins": 93, "losses": 69},
                             {"label": "white-sox", "wins": 72, "losses": 89},
                             {"label": "royals", "wins": 59, "losses": 103},
                             {"label": "tigers", "wins": 47, "losses": 114}
@@ -58,7 +58,7 @@
                     {
                         "name": "NL Central",
                         "results": [
-                            {"label": "cardinals-mlb", "wins": 91, "losses": 71},
+                            {"label": "cardinals", "wins": 91, "losses": 71},
                             {"label": "brewers", "wins": 89, "losses": 73},
                             {"label": "cubs", "wins": 84, "losses": 78},
                             {"label": "reds", "wins": 75, "losses": 87},
@@ -70,7 +70,7 @@
                         "results": [
                             {"label": "dodgers", "wins": 106, "losses": 56},
                             {"label": "diamondbacks", "wins": 85, "losses": 77},
-                            {"label": "giants-mlb", "wins": 77, "losses": 85},
+                            {"label": "giants", "wins": 77, "losses": 85},
                             {"label": "rockies", "wins": 71, "losses": 91},
                             {"label": "padres", "wins": 70, "losses": 92}
                         ]
@@ -141,7 +141,7 @@
                     },
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 3
                         },
                         "loser": {
@@ -170,7 +170,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 0
                         }
                     }

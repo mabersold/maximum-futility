@@ -10,24 +10,24 @@
             {
                 "name": "AL",
                 "results": [
-                    {"label": "orioles", "wins": 89, "losses": 65},
+                    {"label": "browns", "wins": 89, "losses": 65},
                     {"label": "tigers", "wins": 88, "losses": 66},
                     {"label": "yankees", "wins": 83, "losses": 71},
                     {"label": "red-sox", "wins": 77, "losses": 77},
-                    {"label": "guardians", "wins": 72, "losses": 82},
+                    {"label": "indians", "wins": 72, "losses": 82},
                     {"label": "athletics", "wins": 72, "losses": 82},
                     {"label": "white-sox", "wins": 71, "losses": 83},
-                    {"label": "twins", "wins": 64, "losses": 90}
+                    {"label": "senators", "wins": 64, "losses": 90}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
-                    {"label": "cardinals-mlb", "wins": 105, "losses": 49},
+                    {"label": "cardinals", "wins": 105, "losses": 49},
                     {"label": "pirates", "wins": 90, "losses": 63},
                     {"label": "reds", "wins": 89, "losses": 65},
                     {"label": "cubs", "wins": 75, "losses": 79},
-                    {"label": "giants-mlb", "wins": 67, "losses": 87},
+                    {"label": "giants", "wins": 67, "losses": 87},
                     {"label": "braves", "wins": 65, "losses": 89},
                     {"label": "dodgers", "wins": 63, "losses": 91},
                     {"label": "phillies", "wins": 61, "losses": 92}
@@ -42,11 +42,11 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "orioles",
+                            "label": "browns",
                             "games_won": 2
                         },
                         "is_championship_round": true

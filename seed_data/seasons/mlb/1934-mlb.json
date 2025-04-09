@@ -12,19 +12,19 @@
                 "results": [
                     {"label": "tigers", "wins": 101, "losses": 53},
                     {"label": "yankees", "wins": 94, "losses": 60},
-                    {"label": "guardians", "wins": 85, "losses": 69},
+                    {"label": "indians", "wins": 85, "losses": 69},
                     {"label": "red-sox", "wins": 76, "losses": 76},
                     {"label": "athletics", "wins": 68, "losses": 82},
-                    {"label": "orioles", "wins": 67, "losses": 85},
-                    {"label": "twins", "wins": 66, "losses": 86},
+                    {"label": "browns", "wins": 67, "losses": 85},
+                    {"label": "senators", "wins": 66, "losses": 86},
                     {"label": "white-sox", "wins": 53, "losses": 99}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
-                    {"label": "cardinals-mlb", "wins": 95, "losses": 58},
-                    {"label": "giants-mlb", "wins": 93, "losses": 60},
+                    {"label": "cardinals", "wins": 95, "losses": 58},
+                    {"label": "giants", "wins": 93, "losses": 60},
                     {"label": "cubs", "wins": 86, "losses": 65},
                     {"label": "braves", "wins": 78, "losses": 73},
                     {"label": "pirates", "wins": 74, "losses": 76},
@@ -42,7 +42,7 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 4
                         },
                         "loser": {

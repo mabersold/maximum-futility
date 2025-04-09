@@ -23,7 +23,7 @@
                     {
                         "name": "AL Central",
                         "results": [
-                            {"label": "guardians", "wins": 94, "losses": 67},
+                            {"label": "indians", "wins": 94, "losses": 67},
                             {"label": "tigers", "wins": 86, "losses": 75},
                             {"label": "royals", "wins": 81, "losses": 81},
                             {"label": "white-sox", "wins": 78, "losses": 84},
@@ -59,7 +59,7 @@
                         "name": "NL Central",
                         "results": [
                             {"label": "cubs", "wins": 103, "losses": 58},
-                            {"label": "cardinals-mlb", "wins": 86, "losses": 76},
+                            {"label": "cardinals", "wins": 86, "losses": 76},
                             {"label": "pirates", "wins": 78, "losses": 83},
                             {"label": "brewers", "wins": 73, "losses": 89},
                             {"label": "reds", "wins": 68, "losses": 94}
@@ -69,7 +69,7 @@
                         "name": "NL West",
                         "results": [
                             {"label": "dodgers", "wins": 91, "losses": 71},
-                            {"label": "giants-mlb", "wins": 87, "losses": 75},
+                            {"label": "giants", "wins": 87, "losses": 75},
                             {"label": "rockies", "wins": 75, "losses": 87},
                             {"label": "diamondbacks", "wins": 69, "losses": 93},
                             {"label": "padres", "wins": 68, "losses": 94}
@@ -96,7 +96,7 @@
                     },
                     {
                         "winner": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 1
                         },
                         "loser": {
@@ -121,7 +121,7 @@
                     },
                     {
                         "winner": {
-                            "label": "guardians",
+                            "label": "indians",
                             "games_won": 3
                         },
                         "loser": {
@@ -135,7 +135,7 @@
                             "games_won": 3
                         },
                         "loser": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 1
                         }
                     },
@@ -156,7 +156,7 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "guardians",
+                            "label": "indians",
                             "games_won": 4
                         },
                         "loser": {
@@ -185,7 +185,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "guardians",
+                            "label": "indians",
                             "games_won": 3
                         },
                         "is_championship_round": true

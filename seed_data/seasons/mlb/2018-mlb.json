@@ -23,7 +23,7 @@
                     {
                         "name": "AL Central",
                         "results": [
-                            {"label": "guardians", "wins": 91, "losses": 71},
+                            {"label": "indians", "wins": 91, "losses": 71},
                             {"label": "twins", "wins": 78, "losses": 84},
                             {"label": "tigers", "wins": 64, "losses": 98},
                             {"label": "white-sox", "wins": 62, "losses": 100},
@@ -60,7 +60,7 @@
                         "results": [
                             {"label": "brewers", "wins": 96, "losses": 67},
                             {"label": "cubs", "wins": 95, "losses": 68},
-                            {"label": "cardinals-mlb", "wins": 88, "losses": 74},
+                            {"label": "cardinals", "wins": 88, "losses": 74},
                             {"label": "pirates", "wins": 82, "losses": 79},
                             {"label": "reds", "wins": 67, "losses": 95}
                         ]
@@ -71,7 +71,7 @@
                             {"label": "dodgers", "wins": 92, "losses": 71},
                             {"label": "rockies", "wins": 91, "losses": 72},
                             {"label": "diamondbacks", "wins": 82, "losses": 80},
-                            {"label": "giants-mlb", "wins": 73, "losses": 89},
+                            {"label": "giants", "wins": 73, "losses": 89},
                             {"label": "padres", "wins": 66, "losses": 96}
                         ]
                     }
@@ -125,7 +125,7 @@
                             "games_won": 3
                         },
                         "loser": {
-                            "label": "guardians",
+                            "label": "indians",
                             "games_won": 0
                         }
                     },

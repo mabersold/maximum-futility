@@ -26,7 +26,7 @@
                             {"label": "tigers", "wins": 88, "losses": 74},
                             {"label": "white-sox", "wins": 85, "losses": 77},
                             {"label": "royals", "wins": 72, "losses": 90},
-                            {"label": "guardians", "wins": 68, "losses": 94},
+                            {"label": "indians", "wins": 68, "losses": 94},
                             {"label": "twins", "wins": 66, "losses": 96}
                         ]
                     },
@@ -58,7 +58,7 @@
                         "name": "NL Central",
                         "results": [
                             {"label": "reds", "wins": 97, "losses": 65},
-                            {"label": "cardinals-mlb", "wins": 88, "losses": 74},
+                            {"label": "cardinals", "wins": 88, "losses": 74},
                             {"label": "brewers", "wins": 83, "losses": 79},
                             {"label": "pirates", "wins": 79, "losses": 83},
                             {"label": "cubs", "wins": 61, "losses": 101},
@@ -68,7 +68,7 @@
                     {
                         "name": "NL West",
                         "results": [
-                            {"label": "giants-mlb", "wins": 94, "losses": 68},
+                            {"label": "giants", "wins": 94, "losses": 68},
                             {"label": "dodgers", "wins": 86, "losses": 76},
                             {"label": "diamondbacks", "wins": 81, "losses": 81},
                             {"label": "padres", "wins": 76, "losses": 86},
@@ -96,7 +96,7 @@
                     },
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 1
                         },
                         "loser": {
@@ -131,7 +131,7 @@
                     },
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 3
                         },
                         "loser": {
@@ -141,7 +141,7 @@
                     },
                     {
                         "winner": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 3
                         },
                         "loser": {
@@ -166,11 +166,11 @@
                     },
                     {
                         "winner": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 3
                         }
                     }
@@ -181,7 +181,7 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 4
                         },
                         "loser": {

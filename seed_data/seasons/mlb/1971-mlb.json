@@ -17,8 +17,8 @@
                             {"label": "tigers", "wins": 91, "losses": 71},
                             {"label": "red-sox", "wins": 85, "losses": 77},
                             {"label": "yankees", "wins": 82, "losses": 80},
-                            {"label": "rangers", "wins": 63, "losses": 96},
-                            {"label": "guardians", "wins": 60, "losses": 102}
+                            {"label": "senators", "wins": 63, "losses": 96},
+                            {"label": "indians", "wins": 60, "losses": 102}
                         ]
                     },
                     {
@@ -41,17 +41,17 @@
                         "name": "NL East",
                         "results": [
                             {"label": "pirates", "wins": 97, "losses": 65},
-                            {"label": "cardinals-mlb", "wins": 90, "losses": 72},
+                            {"label": "cardinals", "wins": 90, "losses": 72},
                             {"label": "cubs", "wins": 83, "losses": 79},
                             {"label": "mets", "wins": 83, "losses": 79},
-                            {"label": "nationals", "wins": 71, "losses": 90},
+                            {"label": "expos", "wins": 71, "losses": 90},
                             {"label": "phillies", "wins": 67, "losses": 95}
                         ]
                     },
                     {
                         "name": "NL West",
                         "results": [
-                            {"label": "giants-mlb", "wins": 90, "losses": 72},
+                            {"label": "giants", "wins": 90, "losses": 72},
                             {"label": "dodgers", "wins": 89, "losses": 73},
                             {"label": "braves", "wins": 82, "losses": 80},
                             {"label": "reds", "wins": 79, "losses": 83},
@@ -84,7 +84,7 @@
                             "games_won": 3
                         },
                         "loser": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 1
                         }
                     }

@@ -11,24 +11,24 @@
                 "name": "AL",
                 "results": [
                     {"label": "yankees", "wins": 91, "losses": 63},
-                    {"label": "guardians", "wins": 88, "losses": 66},
+                    {"label": "indians", "wins": 88, "losses": 66},
                     {"label": "athletics", "wins": 83, "losses": 67},
-                    {"label": "twins", "wins": 81, "losses": 69},
+                    {"label": "senators", "wins": 81, "losses": 69},
                     {"label": "white-sox", "wins": 81, "losses": 72},
                     {"label": "tigers", "wins": 79, "losses": 75},
-                    {"label": "orioles", "wins": 62, "losses": 92},
+                    {"label": "browns", "wins": 62, "losses": 92},
                     {"label": "red-sox", "wins": 46, "losses": 107}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
-                    {"label": "cardinals-mlb", "wins": 89, "losses": 65},
+                    {"label": "cardinals", "wins": 89, "losses": 65},
                     {"label": "reds", "wins": 87, "losses": 67},
                     {"label": "pirates", "wins": 84, "losses": 69},
                     {"label": "cubs", "wins": 82, "losses": 72},
-                    {"label": "giants-mlb", "wins": 74, "losses": 77},
-                    {"label": "dodgers", "wins": 71, "losses": 82},
+                    {"label": "giants", "wins": 74, "losses": 77},
+                    {"label": "robins", "wins": 71, "losses": 82},
                     {"label": "braves", "wins": 66, "losses": 86},
                     {"label": "phillies", "wins": 58, "losses": 93}
                 ]
@@ -42,7 +42,7 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 4
                         },
                         "loser": {

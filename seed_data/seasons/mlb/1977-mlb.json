@@ -17,7 +17,7 @@
                             {"label": "orioles", "wins": 97, "losses": 64},
                             {"label": "red-sox", "wins": 97, "losses": 64},
                             {"label": "tigers", "wins": 74, "losses": 88},
-                            {"label": "guardians", "wins": 71, "losses": 90},
+                            {"label": "indians", "wins": 71, "losses": 90},
                             {"label": "brewers", "wins": 67, "losses": 95},
                             {"label": "blue-jays", "wins": 54, "losses": 107}
                         ]
@@ -44,9 +44,9 @@
                         "results": [
                             {"label": "phillies", "wins": 101, "losses": 61},
                             {"label": "pirates", "wins": 96, "losses": 66},
-                            {"label": "cardinals-mlb", "wins": 83, "losses": 79},
+                            {"label": "cardinals", "wins": 83, "losses": 79},
                             {"label": "cubs", "wins": 81, "losses": 81},
-                            {"label": "nationals", "wins": 75, "losses": 87},
+                            {"label": "expos", "wins": 75, "losses": 87},
                             {"label": "mets", "wins": 64, "losses": 98}
                         ]
                     },
@@ -56,7 +56,7 @@
                             {"label": "dodgers", "wins": 98, "losses": 64},
                             {"label": "reds", "wins": 88, "losses": 74},
                             {"label": "astros", "wins": 81, "losses": 81},
-                            {"label": "giants-mlb", "wins": 75, "losses": 87},
+                            {"label": "giants", "wins": 75, "losses": 87},
                             {"label": "padres", "wins": 69, "losses": 93},
                             {"label": "braves", "wins": 61, "losses": 101}
                         ]

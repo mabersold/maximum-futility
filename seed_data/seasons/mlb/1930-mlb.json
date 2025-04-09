@@ -11,11 +11,11 @@
                 "name": "AL",
                 "results": [
                     {"label": "athletics", "wins": 105, "losses": 52},
-                    {"label": "twins", "wins": 94, "losses": 60},
+                    {"label": "senators", "wins": 94, "losses": 60},
                     {"label": "yankees", "wins": 86, "losses": 68},
-                    {"label": "guardians", "wins": 81, "losses": 73},
+                    {"label": "indians", "wins": 81, "losses": 73},
                     {"label": "tigers", "wins": 75, "losses": 79},
-                    {"label": "orioles", "wins": 64, "losses": 90},
+                    {"label": "browns", "wins": 64, "losses": 90},
                     {"label": "white-sox", "wins": 62, "losses": 92},
                     {"label": "red-sox", "wins": 52, "losses": 102}
                 ]
@@ -23,10 +23,10 @@
             {
                 "name": "NL",
                 "results": [
-                    {"label": "cardinals-mlb", "wins": 92, "losses": 62},
+                    {"label": "cardinals", "wins": 92, "losses": 62},
                     {"label": "cubs", "wins": 90, "losses": 64},
-                    {"label": "giants-mlb", "wins": 87, "losses": 67},
-                    {"label": "dodgers", "wins": 86, "losses": 68},
+                    {"label": "giants", "wins": 87, "losses": 67},
+                    {"label": "robins", "wins": 86, "losses": 68},
                     {"label": "pirates", "wins": 80, "losses": 74},
                     {"label": "braves", "wins": 70, "losses": 84},
                     {"label": "reds", "wins": 59, "losses": 95},
@@ -46,7 +46,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 2
                         },
                         "is_championship_round": true

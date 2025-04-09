@@ -12,25 +12,25 @@
                 "results": [
                     {"label": "athletics", "wins": 101, "losses": 50},
                     {"label": "tigers", "wins": 89, "losses": 65},
-                    {"label": "guardians", "wins": 80, "losses": 73},
+                    {"label": "naps", "wins": 80, "losses": 73},
                     {"label": "red-sox", "wins": 78, "losses": 75},
                     {"label": "white-sox", "wins": 77, "losses": 74},
-                    {"label": "yankees", "wins": 76, "losses": 76},
-                    {"label": "twins", "wins": 64, "losses": 90},
-                    {"label": "orioles", "wins": 45, "losses": 107}
+                    {"label": "highlanders", "wins": 76, "losses": 76},
+                    {"label": "senators", "wins": 64, "losses": 90},
+                    {"label": "browns", "wins": 45, "losses": 107}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
-                    {"label": "giants-mlb", "wins": 99, "losses": 54},
+                    {"label": "giants", "wins": 99, "losses": 54},
                     {"label": "cubs", "wins": 92, "losses": 62},
                     {"label": "pirates", "wins": 85, "losses": 69},
                     {"label": "phillies", "wins": 79, "losses": 73},
-                    {"label": "cardinals-mlb", "wins": 75, "losses": 74},
+                    {"label": "cardinals", "wins": 75, "losses": 74},
                     {"label": "reds", "wins": 70, "losses": 83},
                     {"label": "dodgers", "wins": 64, "losses": 86},
-                    {"label": "braves", "wins": 44, "losses": 107}
+                    {"label": "rustlers", "wins": 44, "losses": 107}
                 ]
             }
         ]
@@ -46,7 +46,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "giants-mlb",
+                            "label": "giants",
                             "games_won": 2
                         },
                         "is_championship_round": true

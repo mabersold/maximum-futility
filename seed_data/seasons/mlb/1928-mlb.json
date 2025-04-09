@@ -12,23 +12,23 @@
                 "results": [
                     {"label": "yankees", "wins": 101, "losses": 53},
                     {"label": "athletics", "wins": 98, "losses": 55},
-                    {"label": "orioles", "wins": 82, "losses": 72},
-                    {"label": "twins", "wins": 75, "losses": 79},
+                    {"label": "browns", "wins": 82, "losses": 72},
+                    {"label": "senators", "wins": 75, "losses": 79},
                     {"label": "white-sox", "wins": 72, "losses": 82},
                     {"label": "tigers", "wins": 68, "losses": 86},
-                    {"label": "guardians", "wins": 62, "losses": 92},
+                    {"label": "indians", "wins": 62, "losses": 92},
                     {"label": "red-sox", "wins": 57, "losses": 96}
                 ]
             },
             {
                 "name": "NL",
                 "results": [
-                    {"label": "cardinals-mlb", "wins": 95, "losses": 59},
-                    {"label": "giants-mlb", "wins": 93, "losses": 61},
+                    {"label": "cardinals", "wins": 95, "losses": 59},
+                    {"label": "giants", "wins": 93, "losses": 61},
                     {"label": "cubs", "wins": 91, "losses": 63},
                     {"label": "pirates", "wins": 85, "losses": 67},
                     {"label": "reds", "wins": 78, "losses": 84},
-                    {"label": "dodgers", "wins": 77, "losses": 76},
+                    {"label": "robins", "wins": 77, "losses": 76},
                     {"label": "braves", "wins": 50, "losses": 103},
                     {"label": "phillies", "wins": 43, "losses": 109}
                 ]
@@ -46,7 +46,7 @@
                             "games_won": 4
                         },
                         "loser": {
-                            "label": "cardinals-mlb",
+                            "label": "cardinals",
                             "games_won": 0
                         },
                         "is_championship_round": true

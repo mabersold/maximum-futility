@@ -10,12 +10,12 @@
             {
                 "name": "AL",
                 "results": [
-                    {"label": "guardians", "wins": 98, "losses": 56},
+                    {"label": "indians", "wins": 98, "losses": 56},
                     {"label": "white-sox", "wins": 96, "losses": 58},
                     {"label": "yankees", "wins": 95, "losses": 59},
-                    {"label": "orioles", "wins": 76, "losses": 77},
+                    {"label": "browns", "wins": 76, "losses": 77},
                     {"label": "red-sox", "wins": 72, "losses": 81},
-                    {"label": "twins", "wins": 68, "losses": 84},
+                    {"label": "senators", "wins": 68, "losses": 84},
                     {"label": "tigers", "wins": 61, "losses": 93},
                     {"label": "athletics", "wins": 48, "losses": 106}
                 ]
@@ -23,11 +23,11 @@
             {
                 "name": "NL",
                 "results": [
-                    {"label": "dodgers", "wins": 93, "losses": 61},
-                    {"label": "giants-mlb", "wins": 86, "losses": 68},
+                    {"label": "robins", "wins": 93, "losses": 61},
+                    {"label": "giants", "wins": 86, "losses": 68},
                     {"label": "reds", "wins": 82, "losses": 71},
                     {"label": "pirates", "wins": 79, "losses": 75},
-                    {"label": "cardinals-mlb", "wins": 75, "losses": 79},
+                    {"label": "cardinals", "wins": 75, "losses": 79},
                     {"label": "cubs", "wins": 75, "losses": 79},
                     {"label": "braves", "wins": 62, "losses": 90},
                     {"label": "phillies", "wins": 62, "losses": 91}
@@ -42,11 +42,11 @@
                 "matchups": [
                     {
                         "winner": {
-                            "label": "guardians",
+                            "label": "indians",
                             "games_won": 5
                         },
                         "loser": {
-                            "label": "dodgers",
+                            "label": "robins",
                             "games_won": 2
                         },
                         "is_championship_round": true

@@ -33,18 +33,24 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "nationals",
-                        "loser_label": "warriors",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "nationals",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "warriors",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "lakers",
-                        "loser_label": "pistons",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "lakers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "pistons",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -52,18 +58,24 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "celtics",
-                        "loser_label": "nationals",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "celtics",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "nationals",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "hawks",
-                        "loser_label": "lakers",
-                        "total_games": 3,
-                        "games_won": 3,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "hawks",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "lakers",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -71,11 +83,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "celtics",
-                        "loser_label": "hawks",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3,
+                        "winner": {
+                            "label": "celtics",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "hawks",
+                            "games_won": 3
+                        },
                         "is_championship_round": true
                     }
                 ]

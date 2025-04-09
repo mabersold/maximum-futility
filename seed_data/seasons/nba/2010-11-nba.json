@@ -85,60 +85,84 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "bulls",
-                        "loser_label": "pacers",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "bulls",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "pacers",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "hawks",
-                        "loser_label": "magic",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "hawks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "magic",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "celtics",
-                        "loser_label": "knicks",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "celtics",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "knicks",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "heat",
-                        "loser_label": "76ers",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "heat",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "76ers",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "grizzlies",
-                        "loser_label": "spurs",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "grizzlies",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "spurs",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "thunder",
-                        "loser_label": "nuggets",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "thunder",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "nuggets",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "mavericks",
-                        "loser_label": "blazers",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "mavericks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blazers",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "lakers",
-                        "loser_label": "hornets",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "lakers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "hornets",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -146,32 +170,44 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "bulls",
-                        "loser_label": "hawks",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "bulls",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "hawks",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "heat",
-                        "loser_label": "celtics",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "heat",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "celtics",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "thunder",
-                        "loser_label": "grizzlies",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "thunder",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "grizzlies",
+                            "games_won": 3
+                        }
                     },
                     {
-                        "winner_label": "mavericks",
-                        "loser_label": "lakers",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "mavericks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "lakers",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -179,18 +215,24 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "heat",
-                        "loser_label": "bulls",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "heat",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "bulls",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "mavericks",
-                        "loser_label": "thunder",
-                        "total_games": 5,
-                        "games_won": 4,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "mavericks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "thunder",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -198,11 +240,14 @@
                 "round_number": 4,
                 "matchups": [
                     {
-                        "winner_label": "mavericks",
-                        "loser_label": "heat",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2,
+                        "winner": {
+                            "label": "mavericks",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "heat",
+                            "games_won": 2
+                        },
                         "is_championship_round": true
                     }
                 ]

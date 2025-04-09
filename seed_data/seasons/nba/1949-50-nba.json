@@ -47,46 +47,64 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "nationals",
-                        "loser_label": "warriors",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "nationals",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "warriors",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "knicks",
-                        "loser_label": "capitols",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "knicks",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "capitols",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "lakers",
-                        "loser_label": "stags",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "lakers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "stags",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "pistons",
-                        "loser_label": "royals",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "pistons",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "royals",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "olympians",
-                        "loser_label": "redskins",
-                        "total_games": 3,
-                        "games_won": 2,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "olympians",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "redskins",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "packers",
-                        "loser_label": "blackhawks",
-                        "total_games": 3,
-                        "games_won": 2,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "packers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "blackhawks",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -94,25 +112,34 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "nationals",
-                        "loser_label": "knicks",
-                        "total_games": 3,
-                        "games_won": 2,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "nationals",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "knicks",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "lakers",
-                        "loser_label": "pistons",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "lakers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "pistons",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "packers",
-                        "loser_label": "olympians",
-                        "total_games": 3,
-                        "games_won": 2,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "packers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "olympians",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -120,11 +147,14 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "lakers",
-                        "loser_label": "packers",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "lakers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "packers",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -132,11 +162,14 @@
                 "round_number": 4,
                 "matchups": [
                     {
-                        "winner_label": "lakers",
-                        "loser_label": "nationals",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2,
+                        "winner": {
+                            "label": "lakers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "nationals",
+                            "games_won": 2
+                        },
                         "is_championship_round": true
                     }
                 ]

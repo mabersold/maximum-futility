@@ -67,32 +67,44 @@
                 "round_number": 1,
                 "matchups": [
                     {
-                        "winner_label": "celtics",
-                        "loser_label": "spurs",
-                        "total_games": 2,
-                        "games_won": 2,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "celtics",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "spurs",
+                            "games_won": 0
+                        }
                     },
                     {
-                        "winner_label": "bullets",
-                        "loser_label": "cavaliers",
-                        "total_games": 3,
-                        "games_won": 2,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "bullets",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "cavaliers",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "warriors",
-                        "loser_label": "pistons",
-                        "total_games": 3,
-                        "games_won": 2,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "warriors",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "pistons",
+                            "games_won": 1
+                        }
                     },
                     {
-                        "winner_label": "blazers",
-                        "loser_label": "bulls",
-                        "total_games": 3,
-                        "games_won": 2,
-                        "games_lost": 1
+                        "winner": {
+                            "label": "blazers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "bulls",
+                            "games_won": 1
+                        }
                     }
                 ]
             },
@@ -100,32 +112,44 @@
                 "round_number": 2,
                 "matchups": [
                     {
-                        "winner_label": "76ers",
-                        "loser_label": "celtics",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "76ers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "celtics",
+                            "games_won": 3
+                        }
                     },
                     {
-                        "winner_label": "rockets",
-                        "loser_label": "bullets",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "rockets",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "bullets",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "lakers",
-                        "loser_label": "warriors",
-                        "total_games": 7,
-                        "games_won": 4,
-                        "games_lost": 3
+                        "winner": {
+                            "label": "lakers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "warriors",
+                            "games_won": 3
+                        }
                     },
                     {
-                        "winner_label": "blazers",
-                        "loser_label": "nuggets",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "blazers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "nuggets",
+                            "games_won": 2
+                        }
                     }
                 ]
             },
@@ -133,18 +157,24 @@
                 "round_number": 3,
                 "matchups": [
                     {
-                        "winner_label": "76ers",
-                        "loser_label": "rockets",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2
+                        "winner": {
+                            "label": "76ers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "rockets",
+                            "games_won": 2
+                        }
                     },
                     {
-                        "winner_label": "blazers",
-                        "loser_label": "lakers",
-                        "total_games": 4,
-                        "games_won": 4,
-                        "games_lost": 0
+                        "winner": {
+                            "label": "blazers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "lakers",
+                            "games_won": 0
+                        }
                     }
                 ]
             },
@@ -152,11 +182,14 @@
                 "round_number": 4,
                 "matchups": [
                     {
-                        "winner_label": "blazers",
-                        "loser_label": "76ers",
-                        "total_games": 6,
-                        "games_won": 4,
-                        "games_lost": 2,
+                        "winner": {
+                            "label": "blazers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "76ers",
+                            "games_won": 2
+                        },
                         "is_championship_round": true
                     }
                 ]

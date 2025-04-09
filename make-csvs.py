@@ -300,10 +300,10 @@ def get_postseason_results(postseason: dict, franchise_label_map: dict, league: 
 
     for round in postseason.get('rounds', []):
         for matchup in round.get('matchups', []):
-            winner_label = matchup.get('winner', {}).get('label') or matchup.get('winner_label')
+            winner_label = matchup.get('winner', {}).get('label')
             winner_id = get_franchise_id(winner_label, league, year)
             
-            loser_label = matchup.get('loser', {}).get('label') or matchup.get('loser_label')
+            loser_label = matchup.get('loser', {}).get('label')
             loser_id = get_franchise_id(loser_label, league, year)
 
             winner_results = results.get(winner_id, {})

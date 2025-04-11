@@ -1,14 +1,14 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1997,Sacramento,Sacramento Monarchs,WNBA,West,,,,,,,,
-1998,Sacramento,Sacramento Monarchs,WNBA,West,,,LAST_TIED,,,,,
-1999,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,0,,
-2000,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,0,,
-2001,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,1,,
-2002,Sacramento,Sacramento Monarchs,WNBA,West,,,,,,,,
-2003,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,1,,
-2004,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,1,,
+1997,Sacramento,Sacramento Monarchs,WNBA,West,,,,,false,,,
+1998,Sacramento,Sacramento Monarchs,WNBA,West,,,LAST_TIED,,false,,,
+1999,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,0,false,false
+2000,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,0,false,false
+2001,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,1,false,false
+2002,Sacramento,Sacramento Monarchs,WNBA,West,,,,,false,,,
+2003,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,1,false,false
+2004,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,1,false,false
 2005,Sacramento,Sacramento Monarchs,WNBA,West,,,FIRST,,true,3,true,true
-2006,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,2,true,
-2007,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,0,,
-2008,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,0,,
-2009,Sacramento,Sacramento Monarchs,WNBA,West,,LAST,LAST,,,,,
+2006,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,2,true,false
+2007,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,0,false,false
+2008,Sacramento,Sacramento Monarchs,WNBA,West,,,,,true,0,false,false
+2009,Sacramento,Sacramento Monarchs,WNBA,West,,LAST,LAST,,false,,,

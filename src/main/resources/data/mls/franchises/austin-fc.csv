@@ -1,5 +1,5 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-2021,Austin,Austin FC,MLS,West,,,,,,,,
-2022,Austin,Austin FC,MLS,West,,,,,true,2,,
-2023,Austin,Austin FC,MLS,West,,,,,,,,
-2024,Austin,Austin FC,MLS,West,,,,,,,,
+2021,Austin,Austin FC,MLS,West,,,,,false,,,
+2022,Austin,Austin FC,MLS,West,,,,,true,2,false,false
+2023,Austin,Austin FC,MLS,West,,,,,false,,,
+2024,Austin,Austin FC,MLS,West,,,,,false,,,

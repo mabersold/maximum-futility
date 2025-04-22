@@ -1,7 +1,7 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1996,Tampa Bay,Tampa Bay Mutiny,MLS,East,,FIRST,FIRST,,true,1,,
-1997,Tampa Bay,Tampa Bay Mutiny,MLS,East,,,,,true,0,,
-1998,Tampa Bay,Tampa Bay Mutiny,MLS,East,,,,,,,,
-1999,Tampa Bay,Tampa Bay Mutiny,MLS,East,,,,,true,0,,
-2000,Tampa Bay,Tampa Bay Mutiny,MLS,Central,,,,,true,0,,
-2001,Tampa Bay,Tampa Bay Mutiny,MLS,Central,,LAST,LAST,,,,,
+1996,Tampa Bay,Tampa Bay Mutiny,MLS,East,,FIRST,FIRST,,true,1,false,false
+1997,Tampa Bay,Tampa Bay Mutiny,MLS,East,,,,,true,0,false,false
+1998,Tampa Bay,Tampa Bay Mutiny,MLS,East,,,,,false,,,
+1999,Tampa Bay,Tampa Bay Mutiny,MLS,East,,,,,true,0,false,false
+2000,Tampa Bay,Tampa Bay Mutiny,MLS,Central,,,,,true,0,false,false
+2001,Tampa Bay,Tampa Bay Mutiny,MLS,Central,,LAST,LAST,,false,,,

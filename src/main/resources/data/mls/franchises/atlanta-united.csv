@@ -1,9 +1,9 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-2017,Atlanta,Atlanta United,MLS,East,,,,,true,0,,
+2017,Atlanta,Atlanta United,MLS,East,,,,,true,0,false,false
 2018,Atlanta,Atlanta United,MLS,East,,,,,true,3,true,true
-2019,Atlanta,Atlanta United,MLS,East,,,,,true,2,,
-2020,Atlanta,Atlanta United,MLS,East,,,,,,,,
-2021,Atlanta,Atlanta United,MLS,East,,,,,true,0,,
-2022,Atlanta,Atlanta United,MLS,East,,,,,,,,
-2023,Atlanta,Atlanta United,MLS,East,,,,,true,0,,
-2024,Atlanta,Atlanta United,MLS,East,,,,,true,2,,
+2019,Atlanta,Atlanta United,MLS,East,,,,,true,2,false,false
+2020,Atlanta,Atlanta United,MLS,East,,,,,false,,,
+2021,Atlanta,Atlanta United,MLS,East,,,,,true,0,false,false
+2022,Atlanta,Atlanta United,MLS,East,,,,,false,,,
+2023,Atlanta,Atlanta United,MLS,East,,,,,true,0,false,false
+2024,Atlanta,Atlanta United,MLS,East,,,,,true,2,false,false

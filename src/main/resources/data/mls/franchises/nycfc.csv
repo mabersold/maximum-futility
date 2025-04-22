@@ -1,11 +1,11 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-2015,New York,NYCFC,MLS,East,,,,,,,,
-2016,New York,NYCFC,MLS,East,,,,,true,0,,
-2017,New York,NYCFC,MLS,East,,,,,true,0,,
-2018,New York,NYCFC,MLS,East,,,,,true,1,,
-2019,New York,NYCFC,MLS,East,,,FIRST,,true,0,,
-2020,New York,NYCFC,MLS,East,,,,,true,0,,
+2015,New York,NYCFC,MLS,East,,,,,false,,,
+2016,New York,NYCFC,MLS,East,,,,,true,0,false,false
+2017,New York,NYCFC,MLS,East,,,,,true,0,false,false
+2018,New York,NYCFC,MLS,East,,,,,true,1,false,false
+2019,New York,NYCFC,MLS,East,,,FIRST,,true,0,false,false
+2020,New York,NYCFC,MLS,East,,,,,true,0,false,false
 2021,New York,NYCFC,MLS,East,,,,,true,4,true,true
-2022,New York,NYCFC,MLS,East,,,,,true,2,,
-2023,New York,NYCFC,MLS,East,,,,,,,,
-2024,New York,NYCFC,MLS,East,,,,,true,1,,
+2022,New York,NYCFC,MLS,East,,,,,true,2,false,false
+2023,New York,NYCFC,MLS,East,,,,,false,,,
+2024,New York,NYCFC,MLS,East,,,,,true,1,false,false

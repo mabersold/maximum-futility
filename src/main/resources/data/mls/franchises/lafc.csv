@@ -1,8 +1,8 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-2018,Los Angeles,LAFC,MLS,West,,,,,true,0,,
-2019,Los Angeles,LAFC,MLS,West,,FIRST,FIRST,,true,1,,
-2020,Los Angeles,LAFC,MLS,West,,,,,true,0,,
-2021,Los Angeles,LAFC,MLS,West,,,,,,,,
+2018,Los Angeles,LAFC,MLS,West,,,,,true,0,false,false
+2019,Los Angeles,LAFC,MLS,West,,FIRST,FIRST,,true,1,false,false
+2020,Los Angeles,LAFC,MLS,West,,,,,true,0,false,false
+2021,Los Angeles,LAFC,MLS,West,,,,,false,,,
 2022,Los Angeles,LAFC,MLS,West,,FIRST_TIED,FIRST,,true,3,true,true
-2023,Los Angeles,LAFC,MLS,West,,,,,true,3,true,
-2024,Los Angeles,LAFC,MLS,West,,,FIRST_TIED,,true,1,,
+2023,Los Angeles,LAFC,MLS,West,,,,,true,3,true,false
+2024,Los Angeles,LAFC,MLS,West,,,FIRST_TIED,,true,1,false,false

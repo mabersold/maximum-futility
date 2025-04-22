@@ -1,11 +1,11 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-2015,Orlando,Orlando City SC,MLS,East,,,,,,,,
-2016,Orlando,Orlando City SC,MLS,East,,,,,,,,
-2017,Orlando,Orlando City SC,MLS,East,,,,,,,,
-2018,Orlando,Orlando City SC,MLS,East,,,LAST,,,,,
-2019,Orlando,Orlando City SC,MLS,East,,,,,,,,
-2020,Orlando,Orlando City SC,MLS,East,,,,,true,1,,
-2021,Orlando,Orlando City SC,MLS,East,,,,,true,0,,
-2022,Orlando,Orlando City SC,MLS,East,,,,,true,0,,
-2023,Orlando,Orlando City SC,MLS,East,,,,,true,1,,
-2024,Orlando,Orlando City SC,MLS,East,,,,,true,2,,
+2015,Orlando,Orlando City SC,MLS,East,,,,,false,,,
+2016,Orlando,Orlando City SC,MLS,East,,,,,false,,,
+2017,Orlando,Orlando City SC,MLS,East,,,,,false,,,
+2018,Orlando,Orlando City SC,MLS,East,,,LAST,,false,,,
+2019,Orlando,Orlando City SC,MLS,East,,,,,false,,,
+2020,Orlando,Orlando City SC,MLS,East,,,,,true,1,false,false
+2021,Orlando,Orlando City SC,MLS,East,,,,,true,0,false,false
+2022,Orlando,Orlando City SC,MLS,East,,,,,true,0,false,false
+2023,Orlando,Orlando City SC,MLS,East,,,,,true,1,false,false
+2024,Orlando,Orlando City SC,MLS,East,,,,,true,2,false,false

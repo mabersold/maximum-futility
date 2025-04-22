@@ -1,0 +1,39 @@
+{
+    "id": 122,
+    "name": "Las Vegas Aces",
+    "label": "aces",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Utah Starzz",
+            "metro_id": "salt-lake-city",
+            "label": "starzz",
+            "league_id": "wnba",
+            "start_year": 1997,
+            "end_year": 2002
+        },
+        {
+            "team_name": "San Antonio Silver Stars",
+            "metro_id": "san-antonio",
+            "label": "silver-stars",
+            "league_id": "wnba",
+            "start_year": 2003,
+            "end_year": 2013
+        },
+        {
+            "team_name": "San Antonio Stars",
+            "metro_id": "san-antonio",
+            "label": "stars",
+            "league_id": "wnba",
+            "start_year": 2014,
+            "end_year": 2017
+        },
+        {
+            "team_name": "Las Vegas Aces",
+            "metro_id": "las-vegas",
+            "league_id": "wnba",
+            "start_year": 2018
+        }
+    ]
+}

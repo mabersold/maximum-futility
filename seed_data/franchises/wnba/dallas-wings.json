@@ -1,0 +1,31 @@
+{
+    "id": 118,
+    "name": "Dallas Wings",
+    "label": "wings",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Detroit Shock",
+            "metro_id": "detroit",
+            "label": "shock",
+            "league_id": "wnba",
+            "start_year": 1998,
+            "end_year": 2009
+        },
+        {
+            "team_name": "Tulsa Shock",
+            "metro_id": "tulsa",
+            "label": "shock",
+            "league_id": "wnba",
+            "start_year": 2010,
+            "end_year": 2015
+        },
+        {
+            "team_name": "Dallas Wings",
+            "metro_id": "dallas",
+            "league_id": "wnba",
+            "start_year": 2016
+        }
+    ]
+}

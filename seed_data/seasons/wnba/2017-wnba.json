@@ -1,0 +1,129 @@
+{
+    "name": "2017 WNBA Season",
+    "start_year": 2017,
+    "end_year": 2017,
+    "league": "wnba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "liberty", "wins": 22, "losses": 12},
+                    {"label": "sun", "wins": 21, "losses": 13},
+                    {"label": "mystics", "wins": 18, "losses": 16},
+                    {"label": "dream", "wins": 12, "losses": 22},
+                    {"label": "sky", "wins": 12, "losses": 22},
+                    {"label": "fever", "wins": 9, "losses": 25}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "lynx", "wins": 27, "losses": 7},
+                    {"label": "sparks", "wins": 26, "losses": 8},
+                    {"label": "mercury", "wins": 18, "losses": 16},
+                    {"label": "wings", "wins": 16, "losses": 18},
+                    {"label": "storm", "wins": 15, "losses": 19},
+                    {"label": "stars", "wins": 8, "losses": 26}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "storm",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mystics",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "wings",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "sun",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mystics",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "liberty",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sparks",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "mercury",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lynx",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "mystics",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "lynx",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "sparks",
+                            "games_won": 2
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

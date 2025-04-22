@@ -1,0 +1,15 @@
+{
+    "id": 119,
+    "name": "Golden State Valkyries",
+    "label": "valkyries",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Golden State Valkyries",
+            "metro_id": "san-francisco-bay",
+            "league_id": "wnba",
+            "start_year": 2025
+        }
+    ]
+}

@@ -13,7 +13,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2010,Hartford,Connecticut Sun,WNBA,East,,,,,false,,,
 2011,Hartford,Connecticut Sun,WNBA,East,,,FIRST_TIED,,true,0,false,false
 2012,Hartford,Connecticut Sun,WNBA,East,,,FIRST,,true,1,false,false
-2013,Hartford,Connecticut Sun,WNBA,East,,LAST,LAST_TIED,,false,,,
+2013,Hartford,Connecticut Sun,WNBA,East,,LAST,LAST,,false,,,
 2014,Hartford,Connecticut Sun,WNBA,East,,,LAST,,false,,,
 2015,Hartford,Connecticut Sun,WNBA,East,,,LAST_TIED,,false,,,
 2016,Hartford,Connecticut Sun,WNBA,East,,,,,false,,,

@@ -1,0 +1,16 @@
+{
+    "id": 120,
+    "name": "Houston Comets",
+    "label": "comets",
+    "is_defunct": true,
+    "league_id": "wnba",
+    "chapters": [
+      {
+        "team_name": "Houston Comets",
+        "metro_id": "houston",
+        "league_id": "wnba",
+        "start_year": 1997,
+        "end_year": 2008
+      }
+    ]
+  }

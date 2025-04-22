@@ -1,0 +1,75 @@
+{
+    "name": "1997 WNBA Season",
+    "start_year": 1997,
+    "end_year": 1997,
+    "league": "wnba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "comets", "wins": 18, "losses": 10},
+                    {"label": "liberty", "wins": 17, "losses": 11},
+                    {"label": "sting", "wins": 15, "losses": 13},
+                    {"label": "rockers", "wins": 15, "losses": 13}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "mercury", "wins": 16, "losses": 12},
+                    {"label": "sparks", "wins": 14, "losses": 14},
+                    {"label": "monarchs", "wins": 10, "losses": 18},
+                    {"label": "starzz", "wins": 7, "losses": 21}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "comets",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "sting",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "liberty",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "mercury",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "comets",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "liberty",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

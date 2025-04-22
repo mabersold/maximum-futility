@@ -1,0 +1,125 @@
+{
+    "name": "2009 WNBA Season",
+    "start_year": 2009,
+    "end_year": 2009,
+    "league": "wnba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "fever", "wins": 22, "losses": 12},
+                    {"label": "dream", "wins": 18, "losses": 16},
+                    {"label": "shock", "wins": 18, "losses": 16},
+                    {"label": "mystics", "wins": 16, "losses": 18},
+                    {"label": "sky", "wins": 16, "losses": 18},
+                    {"label": "sun", "wins": 16, "losses": 18},
+                    {"label": "liberty", "wins": 13, "losses": 21}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "mercury", "wins": 23, "losses": 11},
+                    {"label": "storm", "wins": 20, "losses": 14},
+                    {"label": "sparks", "wins": 18, "losses": 16},
+                    {"label": "silver-stars", "wins": 15, "losses": 19},
+                    {"label": "lynx", "wins": 14, "losses": 20},
+                    {"label": "monarchs", "wins": 12, "losses": 22}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "shock",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "dream",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "fever",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mystics",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sparks",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "storm",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "silver-stars",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "fever",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "shock",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "sparks",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "fever",
+                            "games_won": 2
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

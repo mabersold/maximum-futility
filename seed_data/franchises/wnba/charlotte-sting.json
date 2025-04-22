@@ -1,0 +1,16 @@
+{
+    "id": 114,
+    "name": "Charlotte Sting",
+    "label": "sting",
+    "is_defunct": true,
+    "league_id": "wnba",
+    "chapters": [
+      {
+        "team_name": "Charlotte Sting",
+        "metro_id": "charlotte",
+        "league_id": "wnba",
+        "start_year": 1997,
+        "end_year": 2006
+      }
+    ]
+  }

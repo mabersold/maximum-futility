@@ -1,0 +1,77 @@
+{
+    "name": "1998 WNBA Season",
+    "start_year": 1998,
+    "end_year": 1998,
+    "league": "wnba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "rockers", "wins": 20, "losses": 10},
+                    {"label": "sting", "wins": 18, "losses": 12},
+                    {"label": "liberty", "wins": 18, "losses": 12},
+                    {"label": "shock", "wins": 17, "losses": 13},
+                    {"label": "mystics", "wins": 3, "losses": 27}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "comets", "wins": 27, "losses": 3},
+                    {"label": "mercury", "wins": 19, "losses": 11},
+                    {"label": "sparks", "wins": 12, "losses": 18},
+                    {"label": "monarchs", "wins": 8, "losses": 22},
+                    {"label": "starzz", "wins": 8, "losses": 22}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "comets",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "sting",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "rockers",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "comets",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mercury",
+                            "games_won": 1
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

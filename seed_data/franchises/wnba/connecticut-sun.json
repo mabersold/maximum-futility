@@ -1,0 +1,23 @@
+{
+    "id": 117,
+    "name": "Connecticut Sun",
+    "label": "sun",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Orlando Miracle",
+            "metro_id": "orlando",
+            "label": "miracle",
+            "league_id": "wnba",
+            "start_year": 1999,
+            "end_year": 2002
+        },
+        {
+            "team_name": "Connecticut Sun",
+            "metro_id": "hartford",
+            "league_id": "wnba",
+            "start_year": 2003
+        }
+    ]
+}

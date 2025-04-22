@@ -1,0 +1,15 @@
+{
+    "id": 113,
+    "name": "Atlanta Dream",
+    "label": "dream",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+      {
+        "team_name": "Atlanta Dream",
+        "metro_id": "atlanta",
+        "league_id": "wnba",
+        "start_year": 2008
+      }
+    ]
+  }

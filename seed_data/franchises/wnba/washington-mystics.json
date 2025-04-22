@@ -1,0 +1,15 @@
+{
+    "id": 131,
+    "name": "Washington Mystics",
+    "label": "mystics",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Washington Mystics",
+            "metro_id": "washington",
+            "league_id": "wnba",
+            "start_year": 1998
+        }
+    ]
+}

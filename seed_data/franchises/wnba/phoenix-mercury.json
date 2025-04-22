@@ -1,0 +1,15 @@
+{
+    "id": 127,
+    "name": "Phoenix Mercury",
+    "label": "mercury",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Phoenix Mercury",
+            "metro_id": "phoenix",
+            "league_id": "wnba",
+            "start_year": 1997
+        }
+    ]
+}

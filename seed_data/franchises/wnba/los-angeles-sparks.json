@@ -1,0 +1,15 @@
+{
+    "id": 123,
+    "name": "Los Angeles Sparks",
+    "label": "sparks",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Los Angeles Sparks",
+            "metro_id": "los-angeles",
+            "league_id": "wnba",
+            "start_year": 1997
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": 130,
+    "name": "Seattle Storm",
+    "label": "storm",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Seattle Storm",
+            "metro_id": "seattle",
+            "league_id": "wnba",
+            "start_year": 2000
+        }
+    ]
+}

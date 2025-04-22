@@ -5,7 +5,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2000,Los Angeles,Los Angeles Sparks,WNBA,West,,FIRST,FIRST,,true,1,false,false
 2001,Los Angeles,Los Angeles Sparks,WNBA,West,,FIRST,FIRST,,true,3,true,true
 2002,Los Angeles,Los Angeles Sparks,WNBA,West,,FIRST,FIRST,,true,3,true,true
-2003,Los Angeles,Los Angeles Sparks,WNBA,West,,,FIRST,,true,2,true,
+2003,Los Angeles,Los Angeles Sparks,WNBA,West,,,FIRST,,true,2,true,false
 2004,Los Angeles,Los Angeles Sparks,WNBA,West,,FIRST,FIRST,,true,0,false,false
 2005,Los Angeles,Los Angeles Sparks,WNBA,West,,,,,true,0,false,false
 2006,Los Angeles,Los Angeles Sparks,WNBA,West,,,FIRST,,true,1,false,false

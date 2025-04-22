@@ -1,0 +1,16 @@
+{
+    "id": 124,
+    "name": "Miami Sol",
+    "label": "sol",
+    "is_defunct": true,
+    "league_id": "wnba",
+    "chapters": [
+      {
+        "team_name": "Miami Sol",
+        "metro_id": "miami",
+        "league_id": "wnba",
+        "start_year": 2000,
+        "end_year": 2002
+      }
+    ]
+  }

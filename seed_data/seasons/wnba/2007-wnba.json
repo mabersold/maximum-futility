@@ -1,0 +1,125 @@
+{
+    "name": "2007 WNBA Season",
+    "start_year": 2007,
+    "end_year": 2007,
+    "league": "wnba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "shock", "wins": 24, "losses": 10},
+                    {"label": "fever", "wins": 21, "losses": 13},
+                    {"label": "sun", "wins": 18, "losses": 16},
+                    {"label": "liberty", "wins": 16, "losses": 18},
+                    {"label": "mystics", "wins": 16, "losses": 18},
+                    {"label": "sky", "wins": 14, "losses": 20}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "mercury", "wins": 23, "losses": 11},
+                    {"label": "silver-stars", "wins": 20, "losses": 14},
+                    {"label": "monarchs", "wins": 19, "losses": 15},
+                    {"label": "storm", "wins": 17, "losses": 17},
+                    {"label": "comets", "wins": 13, "losses": 21},
+                    {"label": "sparks", "wins": 10, "losses": 24},
+                    {"label": "lynx", "wins": 10, "losses": 24}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "shock",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "liberty",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "fever",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "sun",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "storm",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "silver-stars",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "monarchs",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "shock",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "fever",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "silver-stars",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "shock",
+                            "games_won": 2
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

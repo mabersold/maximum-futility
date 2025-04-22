@@ -1,0 +1,15 @@
+{
+    "id": 121,
+    "name": "Indiana Fever",
+    "label": "fever",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Indiana Fever",
+            "metro_id": "indianapolis",
+            "league_id": "wnba",
+            "start_year": 2000
+        }
+    ]
+}

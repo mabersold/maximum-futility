@@ -1,0 +1,15 @@
+{
+    "id": 125,
+    "name": "Minnesota Lynx",
+    "label": "lynx",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+        {
+            "team_name": "Minnesota Lynx",
+            "metro_id": "minneapolis",
+            "league_id": "wnba",
+            "start_year": 1999
+        }
+    ]
+}

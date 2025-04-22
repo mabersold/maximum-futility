@@ -1,0 +1,16 @@
+{
+    "id": 129,
+    "name": "Sacramento Monarchs",
+    "label": "monarchs",
+    "is_defunct": true,
+    "league_id": "wnba",
+    "chapters": [
+      {
+        "team_name": "Sacramento Monarchs",
+        "metro_id": "sacramento",
+        "league_id": "wnba",
+        "start_year": 1997,
+        "end_year": 2009
+      }
+    ]
+  }

@@ -111,6 +111,10 @@ def get_franchise_seasons(seasons: list, franchises: list):
             
             franchise = franchises[franchise_id - 1]
             chapter = find_chapter(franchise.get('chapters', []), season.get('start_year'))
+            
+            if chapter == None:
+                print(f"Could not find a chapter for franchise {franchise['name']}")
+            
             fs['label'] = franchise['label']
             fs['season_id'] = season['id']
             fs['start_year'] = season['start_year']
@@ -323,7 +327,9 @@ def write_individual_franchises(franchises: list, franchise_seasons: list):
             continue
         identifier = f['name'].lower().replace(' ', '-').replace('.', '').replace('(', '').replace(')', '')
         league = seasons[-1]['league_name'].lower()
-        with open(f'{csv_base_directory}/{league}/seasons/{identifier}.csv', 'w', newline='') as file:
+
+        seasons_directory = 'franchises' if league in ['wnba', 'mls'] else 'seasons'
+        with open(f'{csv_base_directory}/{league}/{seasons_directory}/{identifier}.csv', 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(['season', 'metro', 'team_name', 'league', 'conference', 'division', 'league_position', 'conference_position', 'division_position', 'qualified_for_postseason', 'rounds_won', 'appeared_in_championship', 'won_championship'])
             rows = [

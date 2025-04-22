@@ -1,0 +1,128 @@
+{
+    "name": "2002 WNBA Season",
+    "start_year": 2002,
+    "end_year": 2002,
+    "league": "wnba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "sting", "wins": 18, "losses": 14},
+                    {"label": "liberty", "wins": 18, "losses": 14},
+                    {"label": "mystics", "wins": 17, "losses": 15},
+                    {"label": "fever", "wins": 16, "losses": 16},
+                    {"label": "miracle", "wins": 16, "losses": 16},
+                    {"label": "sol", "wins": 15, "losses": 17},
+                    {"label": "rockers", "wins": 10, "losses": 22},
+                    {"label": "shock", "wins": 9, "losses": 23}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "sparks", "wins": 25, "losses": 7},
+                    {"label": "comets", "wins": 24, "losses": 8},
+                    {"label": "starzz", "wins": 20, "losses": 12},
+                    {"label": "storm", "wins": 17, "losses": 15},
+                    {"label": "fire", "wins": 16, "losses": 16},
+                    {"label": "monarchs", "wins": 14, "losses": 18},
+                    {"label": "mercury", "wins": 11, "losses": 21},
+                    {"label": "lynx", "wins": 10, "losses": 22}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "liberty",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "fever",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mystics",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "sting",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sparks",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "storm",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "starzz",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "comets",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "liberty",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mystics",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sparks",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "starzz",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sparks",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "liberty",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

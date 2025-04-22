@@ -1,0 +1,126 @@
+{
+    "name": "2006 WNBA Season",
+    "start_year": 2006,
+    "end_year": 2006,
+    "league": "wnba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "sun", "wins": 26, "losses": 8},
+                    {"label": "shock", "wins": 23, "losses": 11},
+                    {"label": "fever", "wins": 21, "losses": 13},
+                    {"label": "mystics", "wins": 18, "losses": 16},
+                    {"label": "sting", "wins": 11, "losses": 23},
+                    {"label": "liberty", "wins": 11, "losses": 23},
+                    {"label": "sky", "wins": 5, "losses": 29}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "sparks", "wins": 25, "losses": 9},
+                    {"label": "monarchs", "wins": 21, "losses": 13},
+                    {"label": "comets", "wins": 18, "losses": 16},
+                    {"label": "storm", "wins": 18, "losses": 16},
+                    {"label": "mercury", "wins": 18, "losses": 16},
+                    {"label": "silver-stars", "wins": 13, "losses": 21},
+                    {"label": "lynx", "wins": 10, "losses": 24}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sun",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mystics",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "shock",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "fever",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sparks",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "storm",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "monarchs",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "comets",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "shock",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "sun",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "monarchs",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "sparks",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "shock",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "monarchs",
+                            "games_won": 2
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

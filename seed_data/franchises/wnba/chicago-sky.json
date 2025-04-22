@@ -1,0 +1,15 @@
+{
+    "id": 115,
+    "name": "Chicago Sky",
+    "label": "sky",
+    "is_defunct": false,
+    "league_id": "wnba",
+    "chapters": [
+      {
+        "team_name": "Chicago Sky",
+        "metro_id": "chicago",
+        "league_id": "wnba",
+        "start_year": 2006
+      }
+    ]
+  }

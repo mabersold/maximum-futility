@@ -1,0 +1,124 @@
+{
+    "name": "2013 WNBA Season",
+    "start_year": 2013,
+    "end_year": 2013,
+    "league": "wnba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "sky", "wins": 24, "losses": 10},
+                    {"label": "dream", "wins": 17, "losses": 17},
+                    {"label": "mystics", "wins": 17, "losses": 17},
+                    {"label": "fever", "wins": 16, "losses": 18},
+                    {"label": "liberty", "wins": 11, "losses": 23},
+                    {"label": "sun", "wins": 10, "losses": 24}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "lynx", "wins": 26, "losses": 8},
+                    {"label": "sparks", "wins": 24, "losses": 10},
+                    {"label": "mercury", "wins": 19, "losses": 15},
+                    {"label": "storm", "wins": 17, "losses": 17},
+                    {"label": "silver-stars", "wins": 12, "losses": 22},
+                    {"label": "shock", "wins": 11, "losses": 23}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dream",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mystics",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "fever",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "sky",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lynx",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "storm",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "sparks",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dream",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "fever",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lynx",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mercury",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "lynx",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "dream",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

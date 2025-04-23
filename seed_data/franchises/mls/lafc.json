@@ -1,0 +1,15 @@
+{
+    "id": 146,
+    "name": "LAFC",
+    "label": "lafc",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "LAFC",
+            "metro_id": "los-angeles",
+            "league_id": "mls",
+            "start_year": 2018
+        }
+    ]
+}

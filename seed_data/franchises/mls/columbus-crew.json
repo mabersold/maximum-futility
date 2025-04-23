@@ -1,0 +1,15 @@
+{
+    "id": 139,
+    "name": "Columbus Crew",
+    "label": "crew",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Columbus Crew",
+            "metro_id": "columbus",
+            "league_id": "mls",
+            "start_year": 1996
+        }
+    ]
+}

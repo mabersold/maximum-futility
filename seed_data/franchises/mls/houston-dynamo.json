@@ -1,0 +1,15 @@
+{
+    "id": 143,
+    "name": "Houston Dynamo",
+    "label": "dynamo",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Houston Dynamo",
+            "metro_id": "houston",
+            "league_id": "mls",
+            "start_year": 2006
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 134,
+    "name": "CF Montreal",
+    "label": "cfmontreal",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Montreal Impact",
+            "label": "impact",
+            "metro_id": "montreal",
+            "league_id": "mls",
+            "start_year": 2012,
+            "end_year": 2019
+        },
+        {
+            "team_name": "CF Montreal",
+            "metro_id": "montreal",
+            "league_id": "mls",
+            "start_year": 2020
+        }
+    ]
+}

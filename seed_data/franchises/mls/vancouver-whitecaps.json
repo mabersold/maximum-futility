@@ -1,0 +1,15 @@
+{
+    "id": 164,
+    "name": "Vancouver Whitecaps",
+    "label": "whitecaps",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Vancouver Whitecaps",
+            "metro_id": "vancouver",
+            "league_id": "mls",
+            "start_year": 2011
+        }
+    ]
+}

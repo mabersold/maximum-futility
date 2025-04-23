@@ -1,0 +1,16 @@
+{
+    "id": 137,
+    "name": "Chivas USA",
+    "label": "chivas-usa",
+    "is_defunct": true,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Chivas USA",
+            "metro_id": "los-angeles",
+            "league_id": "mls",
+            "start_year": 2005,
+            "end_year": 2014
+        }
+    ]
+}

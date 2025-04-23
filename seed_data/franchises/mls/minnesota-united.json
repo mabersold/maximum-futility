@@ -1,0 +1,15 @@
+{
+    "id": 148,
+    "name": "Minnesota United",
+    "label": "minnesotaunited",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Minnesota United",
+            "metro_id": "minneapolis",
+            "league_id": "mls",
+            "start_year": 2017
+        }
+    ]
+}

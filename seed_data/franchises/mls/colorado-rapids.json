@@ -1,0 +1,15 @@
+{
+    "id": 138,
+    "name": "Colorado Rapids",
+    "label": "rapids",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Colorado Rapids",
+            "metro_id": "denver",
+            "league_id": "mls",
+            "start_year": 1996
+        }
+    ]
+}

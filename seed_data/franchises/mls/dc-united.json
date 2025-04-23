@@ -1,0 +1,15 @@
+{
+    "id": 140,
+    "name": "DC United",
+    "label": "dcunited",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "DC United",
+            "metro_id": "washington",
+            "league_id": "mls",
+            "start_year": 1996
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": 154,
+    "name": "Portland Timbers",
+    "label": "timbers",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Portland Timbers",
+            "metro_id": "portland",
+            "league_id": "mls",
+            "start_year": 2011
+        }
+    ]
+}

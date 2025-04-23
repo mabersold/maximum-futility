@@ -1,0 +1,15 @@
+{
+    "id": 145,
+    "name": "LA Galaxy",
+    "label": "galaxy",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "LA Galaxy",
+            "metro_id": "los-angeles",
+            "league_id": "mls",
+            "start_year": 1996
+        }
+    ]
+}

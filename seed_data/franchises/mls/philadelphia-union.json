@@ -1,0 +1,15 @@
+{
+    "id": 153,
+    "name": "Philadelphia Union",
+    "label": "union",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Philadelphia Union",
+            "metro_id": "philadelphia",
+            "league_id": "mls",
+            "start_year": 2010
+        }
+    ]
+}

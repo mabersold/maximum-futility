@@ -1,0 +1,15 @@
+{
+    "id": 150,
+    "name": "New England Revolution",
+    "label": "revolution",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "New England Revolution",
+            "metro_id": "boston",
+            "league_id": "mls",
+            "start_year": 1996
+        }
+    ]
+}

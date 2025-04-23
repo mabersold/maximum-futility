@@ -1,0 +1,15 @@
+{
+    "id": 144,
+    "name": "Inter Miami",
+    "label": "intermiami",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Inter Miami",
+            "metro_id": "miami",
+            "league_id": "mls",
+            "start_year": 2020
+        }
+    ]
+}

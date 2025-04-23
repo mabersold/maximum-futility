@@ -1,0 +1,15 @@
+{
+    "id": 163,
+    "name": "Toronto FC",
+    "label": "torontofc",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Toronto FC",
+            "metro_id": "toronto",
+            "league_id": "mls",
+            "start_year": 2007
+        }
+    ]
+}

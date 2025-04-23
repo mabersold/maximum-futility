@@ -1,0 +1,31 @@
+{
+    "id": 156,
+    "name": "Red Bull New York",
+    "label": "rbny",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "New York/New Jersey MetroStars",
+            "metro_id": "new-york",
+            "label": "metrostars",
+            "league_id": "mls",
+            "start_year": 1996,
+            "end_year": 1997
+        },
+        {
+            "team_name": "MetroStars",
+            "metro_id": "new-york",
+            "label": "metrostars",
+            "league_id": "mls",
+            "start_year": 1998,
+            "end_year": 2005
+        },
+        {
+            "team_name": "New York Red Bulls",
+            "metro_id": "new-york",
+            "league_id": "mls",
+            "start_year": 2006
+        }
+    ]
+}

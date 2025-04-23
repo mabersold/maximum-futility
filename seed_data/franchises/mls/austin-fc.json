@@ -1,0 +1,15 @@
+{
+    "id": 133,
+    "name": "Austin FC",
+    "label": "austin-fc",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Austin FC",
+            "metro_id": "austin",
+            "league_id": "mls",
+            "start_year": 2021
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": 159,
+    "name": "Seattle Sounders",
+    "label": "sounders",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Seattle Sounders",
+            "metro_id": "seattle",
+            "league_id": "mls",
+            "start_year": 2009
+        }
+    ]
+}

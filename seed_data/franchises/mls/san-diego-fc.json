@@ -1,0 +1,15 @@
+{
+    "id": 157,
+    "name": "San Diego FC",
+    "label": "sandiegofc",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "San Diego FC",
+            "metro_id": "san-diego",
+            "league_id": "mls",
+            "start_year": 2025
+        }
+    ]
+}

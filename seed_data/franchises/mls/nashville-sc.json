@@ -1,0 +1,15 @@
+{
+    "id": 149,
+    "name": "Nashville SC",
+    "label": "nashvillesc",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Nashville SC",
+            "metro_id": "nashville",
+            "league_id": "mls",
+            "start_year": 2020
+        }
+    ]
+}

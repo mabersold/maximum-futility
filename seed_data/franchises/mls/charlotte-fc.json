@@ -1,0 +1,15 @@
+{
+    "id": 135,
+    "name": "Charlotte FC",
+    "label": "charlotte-fc",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Charlotte FC",
+            "metro_id": "charlotte",
+            "league_id": "mls",
+            "start_year": 2022
+        }
+    ]
+}

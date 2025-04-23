@@ -1,0 +1,15 @@
+{
+    "id": 155,
+    "name": "Real Salt Lake",
+    "label": "rsl",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Real Salt Lake",
+            "metro_id": "salt-lake-city",
+            "league_id": "mls",
+            "start_year": 2005
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": 151,
+    "name": "NYCFC",
+    "label": "nycfc",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "NYCFC",
+            "metro_id": "new-york",
+            "league_id": "mls",
+            "start_year": 2015
+        }
+    ]
+}

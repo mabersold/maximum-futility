@@ -1,0 +1,15 @@
+{
+    "id": 152,
+    "name": "Orlando City SC",
+    "label": "orlandocity",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Orlando City SC",
+            "metro_id": "orlando",
+            "league_id": "mls",
+            "start_year": 2015
+        }
+    ]
+}

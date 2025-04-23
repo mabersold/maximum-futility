@@ -1,0 +1,23 @@
+{
+    "id": 158,
+    "name": "San Jose Earthquakes",
+    "label": "earthquakes",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "San Jose Clash",
+            "metro_id": "san-francisco-bay",
+            "label": "clash",
+            "league_id": "mls",
+            "start_year": 1996,
+            "end_year": 1999
+        },
+        {
+            "team_name": "San Jose Earthquakes",
+            "metro_id": "san-francisco-bay",
+            "league_id": "mls",
+            "start_year": 2000
+        }
+    ]
+}

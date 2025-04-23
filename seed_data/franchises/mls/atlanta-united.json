@@ -1,0 +1,15 @@
+{
+    "id": 132,
+    "name": "Atlanta United",
+    "label": "atlanta-united",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "Atlanta United",
+            "metro_id": "atlanta",
+            "league_id": "mls",
+            "start_year": 2017
+        }
+    ]
+}

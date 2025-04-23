@@ -1,0 +1,15 @@
+{
+    "id": 141,
+    "name": "FC Cincinnati",
+    "label": "fccincinnati",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "FC Cincinnati",
+            "metro_id": "cincinnati",
+            "league_id": "mls",
+            "start_year": 2019
+        }
+    ]
+}

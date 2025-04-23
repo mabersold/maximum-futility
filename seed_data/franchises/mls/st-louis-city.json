@@ -1,0 +1,15 @@
+{
+    "id": 161,
+    "name": "St. Louis City SC",
+    "label": "stlcity",
+    "is_defunct": false,
+    "league_id": "mls",
+    "chapters": [
+        {
+            "team_name": "St. Louis City SC",
+            "metro_id": "st-louis",
+            "league_id": "mls",
+            "start_year": 2023
+        }
+    ]
+}

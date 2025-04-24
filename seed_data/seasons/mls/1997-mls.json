@@ -1,0 +1,122 @@
+{
+    "name": "1997 MLS Season",
+    "start_year": 1997,
+    "end_year": 1997,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "dcunited", "points": 55},
+                    {"label": "mutiny", "points": 45},
+                    {"label": "crew", "points": 39},
+                    {"label": "revolution", "points": 37},
+                    {"label": "metrostars", "points": 35}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "wizards", "points": 49},
+                    {"label": "galaxy", "points": 44},
+                    {"label": "burn", "points": 42},
+                    {"label": "rapids", "points": 38},
+                    {"label": "clash", "points": 30}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "revolution",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "crew",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mutiny",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rapids",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "wizards",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "burn",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "galaxy",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "crew",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rapids",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "burn",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rapids",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

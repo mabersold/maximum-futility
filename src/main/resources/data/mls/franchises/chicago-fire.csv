@@ -1,8 +1,8 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1998,Chicago,Chicago Fire,MLS,West,,,,,true,3,true,true
 1999,Chicago,Chicago Fire,MLS,West,,,,,true,0,false,false
-2000,Chicago,Chicago Fire,MLS,Central,,FIRST_TIED,FIRST_TIED,,true,2,true,false
-2001,Chicago,Chicago Fire,MLS,Central,,FIRST_TIED,FIRST_TIED,,true,1,false,false
+2000,Chicago,Chicago Fire,MLS,Central,,FIRST_TIED,FIRST,,true,2,true,false
+2001,Chicago,Chicago Fire,MLS,Central,,FIRST_TIED,FIRST,,true,1,false,false
 2002,Chicago,Chicago Fire,MLS,East,,,,,true,0,false,false
 2003,Chicago,Chicago Fire,MLS,East,,FIRST,FIRST,,true,2,true,false
 2004,Chicago,Chicago Fire,MLS,East,,LAST_TIED,LAST_TIED,,false,,,

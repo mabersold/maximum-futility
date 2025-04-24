@@ -1,0 +1,123 @@
+{
+    "name": "2004 MLS Season",
+    "start_year": 2004,
+    "end_year": 2004,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "crew", "points": 49},
+                    {"label": "dcunited", "points": 42},
+                    {"label": "metrostars", "points": 40},
+                    {"label": "revolution", "points": 33},
+                    {"label": "fire", "points": 33}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "wizards", "points": 49},
+                    {"label": "galaxy", "points": 43},
+                    {"label": "rapids", "points": 41},
+                    {"label": "earthquakes", "points": 38},
+                    {"label": "burn", "points": 36}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rapids",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "revolution",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "crew",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    },
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "metrostars",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "wizards",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "earthquakes",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "wizards",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "galaxy",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "revolution",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "wizards",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "name": "2005 MLS Season",
+    "start_year": 2005,
+    "end_year": 2005,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "revolution", "points": 59},
+                    {"label": "dcunited", "points": 54},
+                    {"label": "fire", "points": 49},
+                    {"label": "metrostars", "points": 47},
+                    {"label": "wizards", "points": 45},
+                    {"label": "crew", "points": 38}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "earthquakes", "points": 64},
+                    {"label": "fcdallas", "points": 48},
+                    {"label": "rapids", "points": 45},
+                    {"label": "galaxy", "points": 45},
+                    {"label": "rsl", "points": 20},
+                    {"label": "chivasusa", "points": 18}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "rapids",
+                            "games_won": 0
+                        },
+                        "loser": {
+                            "label": "fcdallas",
+                            "games_won": 0
+                        },
+                        "games_tied": 2
+                    },
+                    {
+                        "winner": {
+                            "label": "fire",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "dcunited",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    },
+                    {
+                        "winner": {
+                            "label": "revolution",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "metrostars",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "earthquakes",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rapids",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "revolution",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "fire",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "revolution",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

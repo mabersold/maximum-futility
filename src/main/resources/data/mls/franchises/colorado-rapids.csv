@@ -1,6 +1,6 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1996,Denver,Colorado Rapids,MLS,West,,LAST,LAST,,false,,,
-1997,Denver,Colorado Rapids,MLS,West,,,,,true,2,true,
+1997,Denver,Colorado Rapids,MLS,West,,,,,true,2,true,false
 1998,Denver,Colorado Rapids,MLS,West,,,,,true,0,false,false
 1999,Denver,Colorado Rapids,MLS,West,,,,,true,0,false,false
 2000,Denver,Colorado Rapids,MLS,West,,,,,true,0,false,false

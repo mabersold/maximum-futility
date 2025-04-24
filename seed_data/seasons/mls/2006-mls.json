@@ -1,0 +1,126 @@
+{
+    "name": "2006 MLS Season",
+    "start_year": 2006,
+    "end_year": 2006,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "dcunited", "points": 55},
+                    {"label": "revolution", "points": 48},
+                    {"label": "fire", "points": 47},
+                    {"label": "rbny", "points": 39},
+                    {"label": "wizards", "points": 38},
+                    {"label": "crew", "points": 33}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "fcdallas", "points": 52},
+                    {"label": "dynamo", "points": 46},
+                    {"label": "chivasusa", "points": 43},
+                    {"label": "rapids", "points": 41},
+                    {"label": "galaxy", "points": 39},
+                    {"label": "rsl", "points": 39}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "rapids",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "fcdallas",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rbny",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    },
+                    {
+                        "winner": {
+                            "label": "dynamo",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "chivasusa",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "revolution",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "fire",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "revolution",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "dcunited",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dynamo",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rapids",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dynamo",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "revolution",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

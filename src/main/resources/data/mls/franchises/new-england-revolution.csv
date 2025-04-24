@@ -8,7 +8,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2002,Boston,New England Revolution,MLS,East,,,FIRST_TIED,,true,2,true,false
 2003,Boston,New England Revolution,MLS,East,,,,,true,1,false,false
 2004,Boston,New England Revolution,MLS,East,,LAST_TIED,LAST_TIED,,true,1,false,false
-2005,Boston,New England Revolution,MLS,East,,,FIRST,,true,2,true,
+2005,Boston,New England Revolution,MLS,East,,,FIRST,,true,2,true,false
 2006,Boston,New England Revolution,MLS,East,,,,,true,2,true,false
 2007,Boston,New England Revolution,MLS,East,,,,,true,2,true,false
 2008,Boston,New England Revolution,MLS,East,,,,,true,0,false,false
@@ -23,7 +23,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2017,Boston,New England Revolution,MLS,East,,,,,false,,,
 2018,Boston,New England Revolution,MLS,East,,,,,false,,,
 2019,Boston,New England Revolution,MLS,East,,,,,true,0,false,false
-2020,Boston,New England Revolution,MLS,East,,,,,true,2,false,false
+2020,Boston,New England Revolution,MLS,East,,,,,true,3,false,false
 2021,Boston,New England Revolution,MLS,East,,FIRST,FIRST,,true,0,false,false
 2022,Boston,New England Revolution,MLS,East,,,,,false,,,
 2023,Boston,New England Revolution,MLS,East,,,,,true,0,false,false

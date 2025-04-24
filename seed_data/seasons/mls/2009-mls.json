@@ -1,0 +1,127 @@
+{
+    "name": "2009 MLS Season",
+    "start_year": 2009,
+    "end_year": 2009,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "crew", "points": 49},
+                    {"label": "fire", "points": 45},
+                    {"label": "revolution", "points": 42},
+                    {"label": "dcunited", "points": 40},
+                    {"label": "torontofc", "points": 39},
+                    {"label": "wizards", "points": 33},
+                    {"label": "rbny", "points": 21}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "galaxy", "points": 48},
+                    {"label": "dynamo", "points": 48},
+                    {"label": "sounders", "points": 47},
+                    {"label": "chivasusa", "points": 45},
+                    {"label": "rsl", "points": 40},
+                    {"label": "rapids", "points": 40},
+                    {"label": "fcdallas", "points": 39},
+                    {"label": "earthquakes", "points": 30}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "fire",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "revolution",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rsl",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "crew",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dynamo",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "sounders",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "chivasusa",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "dynamo",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rsl",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "fire",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "rsl"
+                        },
+                        "loser": {
+                            "label": "galaxy"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

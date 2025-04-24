@@ -1,0 +1,167 @@
+{
+    "name": "2016 MLS Season",
+    "start_year": 2016,
+    "end_year": 2016,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "rbny", "points": 57},
+                    {"label": "nycfc", "points": 54},
+                    {"label": "torontofc", "points": 53},
+                    {"label": "dcunited", "points": 46},
+                    {"label": "impact", "points": 45},
+                    {"label": "union", "points": 42},
+                    {"label": "revolution", "points": 42},
+                    {"label": "orlandocity", "points": 41},
+                    {"label": "crew", "points": 36},
+                    {"label": "fire", "points": 31}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "fcdallas", "points": 60},
+                    {"label": "rapids", "points": 58},
+                    {"label": "galaxy", "points": 52},
+                    {"label": "sounders", "points": 48},
+                    {"label": "skc", "points": 47},
+                    {"label": "rsl", "points": 46},
+                    {"label": "timbers", "points": 44},
+                    {"label": "whitecaps", "points": 39},
+                    {"label": "earthquakes", "points": 38},
+                    {"label": "dynamo", "points": 34}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "torontofc"
+                        },
+                        "loser": {
+                            "label": "union"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy"
+                        },
+                        "loser": {
+                            "label": "rsl"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sounders"
+                        },
+                        "loser": {
+                            "label": "skc"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "impact"
+                        },
+                        "loser": {
+                            "label": "dcunited"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sounders",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "fcdallas",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "torontofc",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "nycfc",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "impact",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "rbny",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rapids",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sounders",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "rapids",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "torontofc",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "impact",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sounders"
+                        },
+                        "loser": {
+                            "label": "torontofc"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

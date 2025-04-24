@@ -1,0 +1,153 @@
+{
+    "name": "2012 MLS Season",
+    "start_year": 2012,
+    "end_year": 2012,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "skc", "points": 63},
+                    {"label": "dcunited", "points": 58},
+                    {"label": "rbny", "points": 57},
+                    {"label": "fire", "points": 57},
+                    {"label": "dynamo", "points": 53},
+                    {"label": "crew", "points": 52},
+                    {"label": "impact", "points": 42},
+                    {"label": "union", "points": 36},
+                    {"label": "revolution", "points": 35},
+                    {"label": "torontofc", "points": 23}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "earthquakes", "points": 66},
+                    {"label": "rsl", "points": 57},
+                    {"label": "sounders", "points": 56},
+                    {"label": "galaxy", "points": 54},
+                    {"label": "whitecaps", "points": 43},
+                    {"label": "fcdallas", "points": 39},
+                    {"label": "rapids", "points": 37},
+                    {"label": "timbers", "points": 34},
+                    {"label": "chivasusa", "points": 30}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dynamo"
+                        },
+                        "loser": {
+                            "label": "fire"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy"
+                        },
+                        "loser": {
+                            "label": "whitecaps"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dynamo",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "skc",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rbny",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "earthquakes",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sounders",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rsl",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dynamo",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "dcunited",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rsl",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "galaxy"
+                        },
+                        "loser": {
+                            "label": "dynamo"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

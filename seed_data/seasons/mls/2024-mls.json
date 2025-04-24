@@ -1,0 +1,233 @@
+{
+    "name": "2024 MLS Season",
+    "start_year": 2024,
+    "end_year": 2024,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "intermiami", "points": 74},
+                    {"label": "crew", "points": 66},
+                    {"label": "fccincinnati", "points": 59},
+                    {"label": "orlandocity", "points": 52},
+                    {"label": "charlotte-fc", "points": 51},
+                    {"label": "nycfc", "points": 50},
+                    {"label": "rbny", "points": 47},
+                    {"label": "cfmontreal", "points": 43},
+                    {"label": "atlantaunited", "points": 40},
+                    {"label": "dcunited", "points": 40},
+                    {"label": "torontofc", "points": 37},
+                    {"label": "union", "points": 37},
+                    {"label": "nashvillesc", "points": 36},
+                    {"label": "revolution", "points": 31},
+                    {"label": "fire", "points": 30}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "lafc", "points": 64},
+                    {"label": "galaxy", "points": 64},
+                    {"label": "rsl", "points": 59},
+                    {"label": "sounders", "points": 57},
+                    {"label": "dynamo", "points": 54},
+                    {"label": "minnesotaunited", "points": 52},
+                    {"label": "rapids", "points": 50},
+                    {"label": "whitecaps", "points": 47},
+                    {"label": "timbers", "points": 47},
+                    {"label": "austinfc", "points": 42},
+                    {"label": "fcdallas", "points": 41},
+                    {"label": "stlcity", "points": 37},
+                    {"label": "skc", "points": 31},
+                    {"label": "earthquakes", "points": 21}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "atlantaunited"
+                        },
+                        "loser": {
+                            "label": "cfmontreal"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "whitecaps"
+                        },
+                        "loser": {
+                            "label": "timbers"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "atlantaunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "intermiami",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rbny",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "crew",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "nycfc",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "fccincinnati",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "orlandocity",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "charlotte-fc",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lafc",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "whitecaps",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "rapids",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "minnesotaunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "rsl",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sounders",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "dynamo",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "rbny"
+                        },
+                        "loser": {
+                            "label": "nycfc"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sounders"
+                        },
+                        "loser": {
+                            "label": "lafc"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy"
+                        },
+                        "loser": {
+                            "label": "minnesotaunited"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "orlandocity"
+                        },
+                        "loser": {
+                            "label": "atlantaunited"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "galaxy"
+                        },
+                        "loser": {
+                            "label": "sounders"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rbny"
+                        },
+                        "loser": {
+                            "label": "orlandocity"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 5,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "galaxy"
+                        },
+                        "loser": {
+                            "label": "rbny"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

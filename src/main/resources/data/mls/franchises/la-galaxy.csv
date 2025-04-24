@@ -9,9 +9,9 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2003,Los Angeles,LA Galaxy,MLS,West,,,,,true,0,false,false
 2004,Los Angeles,LA Galaxy,MLS,West,,,,,true,1,false,false
 2005,Los Angeles,LA Galaxy,MLS,West,,,,,true,3,true,true
-2006,Los Angeles,LA Galaxy,MLS,West,,,,,false,,,
+2006,Los Angeles,LA Galaxy,MLS,West,,,LAST_TIED,,false,,,
 2007,Los Angeles,LA Galaxy,MLS,West,,,,,false,,,
-2008,Los Angeles,LA Galaxy,MLS,West,,LAST_TIED,LAST_TIED,,false,,
+2008,Los Angeles,LA Galaxy,MLS,West,,LAST_TIED,LAST_TIED,,false,,,
 2009,Los Angeles,LA Galaxy,MLS,West,,,FIRST_TIED,,true,2,true,false
 2010,Los Angeles,LA Galaxy,MLS,West,,FIRST,FIRST,,true,1,false,false
 2011,Los Angeles,LA Galaxy,MLS,West,,FIRST,FIRST,,true,3,true,true

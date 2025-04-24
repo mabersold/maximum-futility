@@ -1,0 +1,124 @@
+{
+    "name": "1999 MLS Season",
+    "start_year": 1999,
+    "end_year": 1999,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "dcunited", "points": 57},
+                    {"label": "crew", "points": 45},
+                    {"label": "mutiny", "points": 32},
+                    {"label": "fusion", "points": 29},
+                    {"label": "revolution", "points": 26},
+                    {"label": "metrostars", "points": 15}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "galaxy", "points": 54},
+                    {"label": "burn", "points": 51},
+                    {"label": "fire", "points": 48},
+                    {"label": "rapids", "points": 48},
+                    {"label": "clash", "points": 37},
+                    {"label": "wizards", "points": 20}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "fusion",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "crew",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mutiny",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "rapids",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "burn",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "fire",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "crew",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "burn",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "galaxy",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

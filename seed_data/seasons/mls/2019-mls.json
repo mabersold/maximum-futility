@@ -1,0 +1,175 @@
+{
+    "name": "2019 MLS Season",
+    "start_year": 2019,
+    "end_year": 2019,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "nycfc", "points": 64},
+                    {"label": "atlantaunited", "points": 58},
+                    {"label": "union", "points": 55},
+                    {"label": "torontofc", "points": 50},
+                    {"label": "dcunited", "points": 50},
+                    {"label": "rbny", "points": 48},
+                    {"label": "revolution", "points": 45},
+                    {"label": "fire", "points": 42},
+                    {"label": "impact", "points": 41},
+                    {"label": "crew", "points": 38},
+                    {"label": "orlandocity", "points": 37},
+                    {"label": "fccincinnati", "points": 24}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "lafc", "points": 72},
+                    {"label": "sounders", "points": 56},
+                    {"label": "rsl", "points": 53},
+                    {"label": "minnesotaunited", "points": 53},
+                    {"label": "galaxy", "points": 51},
+                    {"label": "timbers", "points": 49},
+                    {"label": "fcdallas", "points": 48},
+                    {"label": "earthquakes", "points": 44},
+                    {"label": "rapids", "points": 42},
+                    {"label": "dynamo", "points": 40},
+                    {"label": "skc", "points": 38},
+                    {"label": "whitecaps", "points": 34}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sounders"
+                        },
+                        "loser": {
+                            "label": "fcdallas"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "atlantaunited"
+                        },
+                        "loser": {
+                            "label": "revolution"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "torontofc"
+                        },
+                        "loser": {
+                            "label": "dcunited"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rsl"
+                        },
+                        "loser": {
+                            "label": "timbers"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "union"
+                        },
+                        "loser": {
+                            "label": "rbny"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy"
+                        },
+                        "loser": {
+                            "label": "minnesotaunited"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "torontofc"
+                        },
+                        "loser": {
+                            "label": "nycfc"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sounders"
+                        },
+                        "loser": {
+                            "label": "rsl"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lafc"
+                        },
+                        "loser": {
+                            "label": "galaxy"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "atlantaunited"
+                        },
+                        "loser": {
+                            "label": "union"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sounders"
+                        },
+                        "loser": {
+                            "label": "lafc"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "torontofc"
+                        },
+                        "loser": {
+                            "label": "atlantaunited"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "sounders"
+                        },
+                        "loser": {
+                            "label": "torontofc"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

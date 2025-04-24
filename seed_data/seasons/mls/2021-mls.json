@@ -1,0 +1,178 @@
+{
+    "name": "2021 MLS Season",
+    "start_year": 2021,
+    "end_year": 2021,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "revolution", "points": 73},
+                    {"label": "union", "points": 54},
+                    {"label": "nashvillesc", "points": 54},
+                    {"label": "nycfc", "points": 51},
+                    {"label": "atlantaunited", "points": 51},
+                    {"label": "orlandocity", "points": 51},
+                    {"label": "rbny", "points": 48},
+                    {"label": "dcunited", "points": 47},
+                    {"label": "crew", "points": 47},
+                    {"label": "cfmontreal", "points": 46},
+                    {"label": "intermiami", "points": 41},
+                    {"label": "fire", "points": 34},
+                    {"label": "torontofc", "points": 28},
+                    {"label": "fccincinnati", "points": 20}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "rapids", "points": 61},
+                    {"label": "sounders", "points": 60},
+                    {"label": "skc", "points": 58},
+                    {"label": "timbers", "points": 55},
+                    {"label": "minnesotaunited", "points": 49},
+                    {"label": "whitecaps", "points": 49},
+                    {"label": "rsl", "points": 48},
+                    {"label": "galaxy", "points": 48},
+                    {"label": "lafc", "points": 45},
+                    {"label": "earthquakes", "points": 41},
+                    {"label": "fcdallas", "points": 33},
+                    {"label": "austinfc", "points": 31},
+                    {"label": "dynamo", "points": 30}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "union"
+                        },
+                        "loser": {
+                            "label": "rbny"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "skc"
+                        },
+                        "loser": {
+                            "label": "whitecaps"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "timbers"
+                        },
+                        "loser": {
+                            "label": "minnesotaunited"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "nycfc"
+                        },
+                        "loser": {
+                            "label": "atlantaunited"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "nashvillesc"
+                        },
+                        "loser": {
+                            "label": "orlandocity"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rsl"
+                        },
+                        "loser": {
+                            "label": "sounders"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "timbers"
+                        },
+                        "loser": {
+                            "label": "rapids"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rsl"
+                        },
+                        "loser": {
+                            "label": "skc"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "union"
+                        },
+                        "loser": {
+                            "label": "nashvillesc"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "nycfc"
+                        },
+                        "loser": {
+                            "label": "revolution"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "timbers"
+                        },
+                        "loser": {
+                            "label": "rsl"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "nycfc"
+                        },
+                        "loser": {
+                            "label": "union"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "nycfc"
+                        },
+                        "loser": {
+                            "label": "timbers"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -3,7 +3,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1997,Kansas City,Kansas City Wizards,MLS,West,,,FIRST,,true,0,false,false
 1998,Kansas City,Kansas City Wizards,MLS,West,,,LAST,,false,,,
 1999,Kansas City,Kansas City Wizards,MLS,West,,,LAST,,false,,,
-2000,Kansas City,Kansas City Wizards,MLS,West,,FIRST_TIED,FIRST_TIED,,true,3,true,true
+2000,Kansas City,Kansas City Wizards,MLS,West,,FIRST_TIED,FIRST,,true,3,true,true
 2001,Kansas City,Kansas City Wizards,MLS,West,,,,,true,0,false,false
 2002,Kansas City,Kansas City Wizards,MLS,West,,,LAST,,true,0,false,false
 2003,Kansas City,Kansas City Wizards,MLS,West,,,,,true,1,false,false

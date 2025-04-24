@@ -6,7 +6,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2000,Columbus,Columbus Crew,MLS,Central,,,LAST,,false,,,
 2001,Columbus,Columbus Crew,MLS,Central,,,,,true,0,false,false
 2002,Columbus,Columbus Crew,MLS,East,,,FIRST_TIED,,true,1,false,false
-2003,Columbus,Columbus Crew,MLS,East,,,LAST,,false,,
+2003,Columbus,Columbus Crew,MLS,East,,,LAST,,false,,,
 2004,Columbus,Columbus Crew,MLS,East,,FIRST_TIED,FIRST,,true,0,false,false
 2005,Columbus,Columbus Crew,MLS,East,,,LAST,,false,,,
 2006,Columbus,Columbus Crew,MLS,East,,LAST,LAST,,false,,,

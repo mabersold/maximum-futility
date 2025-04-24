@@ -1,0 +1,122 @@
+{
+    "name": "1996 MLS Season",
+    "start_year": 1996,
+    "end_year": 1996,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "mutiny", "points": 58},
+                    {"label": "dcunited", "points": 46},
+                    {"label": "metrostars", "points": 39},
+                    {"label": "crew", "points": 37},
+                    {"label": "revolution", "points": 33}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "galaxy", "points": 49},
+                    {"label": "burn", "points": 41},
+                    {"label": "wiz", "points": 41},
+                    {"label": "clash", "points": 39},
+                    {"label": "rapids", "points": 29}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "mutiny",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "crew",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "metrostars",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "clash",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "wiz",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "burn",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "mutiny",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "galaxy",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "wiz",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dcunited",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "galaxy",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

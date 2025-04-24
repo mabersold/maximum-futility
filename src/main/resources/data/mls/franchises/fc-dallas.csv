@@ -19,7 +19,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2013,Dallas,FC Dallas,MLS,West,,,,,false,,,
 2014,Dallas,FC Dallas,MLS,West,,,,,true,1,false,false
 2015,Dallas,FC Dallas,MLS,West,,FIRST_TIED,FIRST,,true,1,false,false
-2016,Dallas,FC Dallas,MLS,West,,FIRST,FIRST,,true,1,false,false
+2016,Dallas,FC Dallas,MLS,West,,FIRST,FIRST,,true,0,false,false
 2017,Dallas,FC Dallas,MLS,West,,,,,false,,,
 2018,Dallas,FC Dallas,MLS,West,,,,,true,0,false,false
 2019,Dallas,FC Dallas,MLS,West,,,,,true,0,false,false

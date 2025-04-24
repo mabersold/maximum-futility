@@ -1,0 +1,124 @@
+{
+    "name": "2003 MLS Season",
+    "start_year": 2003,
+    "end_year": 2003,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "fire", "points": 53},
+                    {"label": "revolution", "points": 45},
+                    {"label": "metrostars", "points": 42},
+                    {"label": "dcunited", "points": 39},
+                    {"label": "crew", "points": 38}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "earthquakes", "points": 51},
+                    {"label": "wizards", "points": 42},
+                    {"label": "rapids", "points": 40},
+                    {"label": "galaxy", "points": 36},
+                    {"label": "burn", "points": 23}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "wizards",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "rapids",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    },
+                    {
+                        "winner": {
+                            "label": "fire",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "dcunited",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "revolution",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "metrostars",
+                            "games_won": 0
+                        },
+                        "games_tied": 1
+                    },
+                    {
+                        "winner": {
+                            "label": "earthquakes",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "galaxy",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "fire",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "revolution",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "earthquakes",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "wizards",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "earthquakes",
+                            "games_won": 1
+                        },
+                        "loser": {
+                            "label": "fire",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

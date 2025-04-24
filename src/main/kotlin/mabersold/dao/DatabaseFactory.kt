@@ -71,7 +71,7 @@ object DatabaseFactory {
             populate("data/mlb/mlb-franchises.csv", leagues, ::insertFranchise)
             populate("data/nba/nba-franchises.csv", leagues, ::insertFranchise)
             populate("data/nhl/nhl-franchises.csv", leagues, ::insertFranchise)
-            populate("data/football/nfl-franchises.csv", leagues, ::insertFranchise)
+            populate("data/nfl/nfl-franchises.csv", leagues, ::insertFranchise)
             populate("data/wnba/wnba-franchises.csv", leagues, ::insertFranchise)
             populate("data/mls/mls-franchises.csv", leagues, ::insertFranchise)
 
@@ -83,7 +83,7 @@ object DatabaseFactory {
             populate("data/mlb/mlb-seasons.csv", leagues, ::insertSeason)
             populate("data/nba/nba-seasons.csv", leagues, ::insertSeason)
             populate("data/nhl/nhl-seasons.csv", leagues, ::insertSeason)
-            populate("data/football/nfl-seasons.csv", leagues, ::insertSeason)
+            populate("data/nfl/nfl-seasons.csv", leagues, ::insertSeason)
             populate("data/wnba/wnba-seasons.csv", leagues, ::insertSeason)
             populate("data/mls/mls-seasons.csv", leagues, ::insertSeason)
 
@@ -166,42 +166,42 @@ object DatabaseFactory {
                 "data/nba/seasons/utah-jazz.csv" to "Utah Jazz",
                 "data/nba/seasons/washington-capitols.csv" to "Washington Capitols",
                 "data/nba/seasons/washington-wizards.csv" to "Washington Wizards",
-                "data/football/seasons/arizona-cardinals.csv" to "Arizona Cardinals",
-                "data/football/seasons/atlanta-falcons.csv" to "Atlanta Falcons",
-                "data/football/seasons/baltimore-colts.csv" to "Baltimore Colts",
-                "data/football/seasons/baltimore-ravens.csv" to "Baltimore Ravens",
-                "data/football/seasons/buffalo-bills.csv" to "Buffalo Bills",
-                "data/football/seasons/carolina-panthers.csv" to "Carolina Panthers",
-                "data/football/seasons/chicago-bears.csv" to "Chicago Bears",
-                "data/football/seasons/cincinnati-bengals.csv" to "Cincinnati Bengals",
-                "data/football/seasons/cleveland-browns.csv" to "Cleveland Browns",
-                "data/football/seasons/dallas-cowboys.csv" to "Dallas Cowboys",
-                "data/football/seasons/denver-broncos.csv" to "Denver Broncos",
-                "data/football/seasons/detroit-lions.csv" to "Detroit Lions",
-                "data/football/seasons/green-bay-packers.csv" to "Green Bay Packers",
-                "data/football/seasons/houston-texans.csv" to "Houston Texans",
-                "data/football/seasons/indianapolis-colts.csv" to "Indianapolis Colts",
-                "data/football/seasons/jacksonville-jaguars.csv" to "Jacksonville Jaguars",
-                "data/football/seasons/kansas-city-chiefs.csv" to "Kansas City Chiefs",
-                "data/football/seasons/las-vegas-raiders.csv" to "Las Vegas Raiders",
-                "data/football/seasons/los-angeles-chargers.csv" to "Los Angeles Chargers",
-                "data/football/seasons/los-angeles-rams.csv" to "Los Angeles Rams",
-                "data/football/seasons/miami-dolphins.csv" to "Miami Dolphins",
-                "data/football/seasons/minnesota-vikings.csv" to "Minnesota Vikings",
-                "data/football/seasons/new-england-patriots.csv" to "New England Patriots",
-                "data/football/seasons/new-orleans-saints.csv" to "New Orleans Saints",
-                "data/football/seasons/new-york-giants.csv" to "New York Giants",
-                "data/football/seasons/new-york-jets.csv" to "New York Jets",
-                "data/football/seasons/philadelphia-eagles.csv" to "Philadelphia Eagles",
-                "data/football/seasons/pittsburgh-steelers.csv" to "Pittsburgh Steelers",
-                "data/football/seasons/san-francisco-49ers.csv" to "San Francisco 49ers",
-                "data/football/seasons/seattle-seahawks.csv" to "Seattle Seahawks",
-                "data/football/seasons/tampa-bay-buccaneers.csv" to "Tampa Bay Buccaneers",
-                "data/football/seasons/tennessee-titans.csv" to "Tennessee Titans",
-                "data/football/seasons/washington-commanders.csv" to "Washington Commanders",
-                "data/football/seasons/boston-yanks.csv" to "Boston Yanks",
-                "data/football/seasons/brooklyn-dodgers.csv" to "Brooklyn Dodgers",
-                "data/football/seasons/cincinnati-reds-nfl.csv" to "Cincinnati Reds (NFL)",
+                "data/nfl/seasons/arizona-cardinals.csv" to "Arizona Cardinals",
+                "data/nfl/seasons/atlanta-falcons.csv" to "Atlanta Falcons",
+                "data/nfl/seasons/baltimore-colts.csv" to "Baltimore Colts",
+                "data/nfl/seasons/baltimore-ravens.csv" to "Baltimore Ravens",
+                "data/nfl/seasons/buffalo-bills.csv" to "Buffalo Bills",
+                "data/nfl/seasons/carolina-panthers.csv" to "Carolina Panthers",
+                "data/nfl/seasons/chicago-bears.csv" to "Chicago Bears",
+                "data/nfl/seasons/cincinnati-bengals.csv" to "Cincinnati Bengals",
+                "data/nfl/seasons/cleveland-browns.csv" to "Cleveland Browns",
+                "data/nfl/seasons/dallas-cowboys.csv" to "Dallas Cowboys",
+                "data/nfl/seasons/denver-broncos.csv" to "Denver Broncos",
+                "data/nfl/seasons/detroit-lions.csv" to "Detroit Lions",
+                "data/nfl/seasons/green-bay-packers.csv" to "Green Bay Packers",
+                "data/nfl/seasons/houston-texans.csv" to "Houston Texans",
+                "data/nfl/seasons/indianapolis-colts.csv" to "Indianapolis Colts",
+                "data/nfl/seasons/jacksonville-jaguars.csv" to "Jacksonville Jaguars",
+                "data/nfl/seasons/kansas-city-chiefs.csv" to "Kansas City Chiefs",
+                "data/nfl/seasons/las-vegas-raiders.csv" to "Las Vegas Raiders",
+                "data/nfl/seasons/los-angeles-chargers.csv" to "Los Angeles Chargers",
+                "data/nfl/seasons/los-angeles-rams.csv" to "Los Angeles Rams",
+                "data/nfl/seasons/miami-dolphins.csv" to "Miami Dolphins",
+                "data/nfl/seasons/minnesota-vikings.csv" to "Minnesota Vikings",
+                "data/nfl/seasons/new-england-patriots.csv" to "New England Patriots",
+                "data/nfl/seasons/new-orleans-saints.csv" to "New Orleans Saints",
+                "data/nfl/seasons/new-york-giants.csv" to "New York Giants",
+                "data/nfl/seasons/new-york-jets.csv" to "New York Jets",
+                "data/nfl/seasons/philadelphia-eagles.csv" to "Philadelphia Eagles",
+                "data/nfl/seasons/pittsburgh-steelers.csv" to "Pittsburgh Steelers",
+                "data/nfl/seasons/san-francisco-49ers.csv" to "San Francisco 49ers",
+                "data/nfl/seasons/seattle-seahawks.csv" to "Seattle Seahawks",
+                "data/nfl/seasons/tampa-bay-buccaneers.csv" to "Tampa Bay Buccaneers",
+                "data/nfl/seasons/tennessee-titans.csv" to "Tennessee Titans",
+                "data/nfl/seasons/washington-commanders.csv" to "Washington Commanders",
+                "data/nfl/seasons/boston-yanks.csv" to "Boston Yanks",
+                "data/nfl/seasons/brooklyn-dodgers.csv" to "Brooklyn Dodgers",
+                "data/nfl/seasons/cincinnati-reds-nfl.csv" to "Cincinnati Reds (NFL)",
                 "data/nhl/seasons/anaheim-ducks.csv" to "Anaheim Ducks",
                 "data/nhl/seasons/arizona-coyotes.csv" to "Arizona Coyotes",
                 "data/nhl/seasons/boston-bruins.csv" to "Boston Bruins",

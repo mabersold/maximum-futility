@@ -1,18 +1,18 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
-1933,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,
+1933,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,false
 1934,New York,New York Giants,NFL,East,,,FIRST,,true,1,true,true
-1935,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,0,true,
+1935,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,0,true,false
 1936,New York,New York Giants,NFL,East,,,,,false,,,
 1937,New York,New York Giants,NFL,East,,,,,false,,,
 1938,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,1,true,true
-1939,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,0,true,
+1939,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,0,true,false
 1940,New York,New York Giants,NFL,East,,,,,false,,,
-1941,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,
+1941,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,false
 1942,New York,New York Giants,NFL,East,,,,,false,,,
 1943,New York,New York Giants,NFL,East,,,FIRST_TIED,,true,0,false,false
-1944,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,0,true,
+1944,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,0,true,false
 1945,New York,New York Giants,NFL,East,,,,,false,,,
-1946,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,
+1946,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,false
 1947,New York,New York Giants,NFL,East,,LAST,LAST,,false,,,
 1948,New York,New York Giants,NFL,East,,,,,false,,,
 1949,New York,New York Giants,NFL,East,,,,,false,,,
@@ -24,12 +24,12 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1955,New York,New York Giants,NFL,East,,,,,false,,,
 1956,New York,New York Giants,NFL,East,,,FIRST,,true,1,true,true
 1957,New York,New York Giants,NFL,East,,,,,false,,,
-1958,New York,New York Giants,NFL,East,,FIRST_TIED,FIRST_TIED,,true,1,true,
-1959,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,0,true,
+1958,New York,New York Giants,NFL,East,,FIRST_TIED,FIRST_TIED,,true,1,true,false
+1959,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,0,true,false
 1960,New York,New York Giants,NFL,East,,,,,false,,,
-1961,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,
-1962,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,
-1963,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,
+1961,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,false
+1962,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,false
+1963,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,false
 1964,New York,New York Giants,NFL,East,,LAST,LAST,,false,,,
 1965,New York,New York Giants,NFL,East,,,,,false,,,
 1966,New York,New York Giants,NFL,NFL East,,LAST,LAST,,false,,,
@@ -66,7 +66,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1997,New York,New York Giants,NFL,NFC,NFC East,,,FIRST,true,0,false,false
 1998,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 1999,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
-2000,New York,New York Giants,NFL,NFC,NFC East,,FIRST,FIRST,true,2,true,
+2000,New York,New York Giants,NFL,NFC,NFC East,,FIRST,FIRST,true,2,true,false
 2001,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 2002,New York,New York Giants,NFL,NFC,NFC East,,,,true,0,false,false
 2003,New York,New York Giants,NFL,NFC,NFC East,LAST_TIED,LAST_TIED,LAST,false,,,

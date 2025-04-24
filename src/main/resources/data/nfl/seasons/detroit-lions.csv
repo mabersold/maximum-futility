@@ -20,7 +20,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1951,Detroit,Detroit Lions,NFL,National,,,,,false,,,
 1952,Detroit,Detroit Lions,NFL,National,,FIRST_TIED,FIRST_TIED,,true,2,true,true
 1953,Detroit,Detroit Lions,NFL,West,,,FIRST,,true,1,true,true
-1954,Detroit,Detroit Lions,NFL,West,,FIRST,FIRST,,true,0,true,
+1954,Detroit,Detroit Lions,NFL,West,,FIRST,FIRST,,true,0,true,false
 1955,Detroit,Detroit Lions,NFL,West,,LAST,LAST,,false,,,
 1956,Detroit,Detroit Lions,NFL,West,,,,,false,,,
 1957,Detroit,Detroit Lions,NFL,West,,,FIRST_TIED,,true,2,true,true

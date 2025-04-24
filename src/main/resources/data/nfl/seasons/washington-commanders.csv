@@ -2,16 +2,16 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1933,Boston,Boston Redskins,NFL,East,,,,,false,,,
 1934,Boston,Boston Redskins,NFL,East,,,,,false,,,
 1935,Boston,Boston Redskins,NFL,East,,,,,false,,,
-1936,Boston,Boston Redskins,NFL,East,,,FIRST,,true,0,true,
+1936,Boston,Boston Redskins,NFL,East,,,FIRST,,true,0,true,false
 1937,Washington,Washington Redskins,NFL,East,,,FIRST,,true,1,true,true
 1938,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1939,Washington,Washington Redskins,NFL,East,,,,,false,,,
-1940,Washington,Washington Redskins,NFL,East,,FIRST,FIRST,,true,0,true,
+1940,Washington,Washington Redskins,NFL,East,,FIRST,FIRST,,true,0,true,false
 1941,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1942,Washington,Washington Redskins,NFL,East,,,FIRST,,true,1,true,true
-1943,Washington,Washington Redskins,NFL,East,,,FIRST_TIED,,true,1,true,
+1943,Washington,Washington Redskins,NFL,East,,,FIRST_TIED,,true,1,true,false
 1944,Washington,Washington Redskins,NFL,East,,,,,false,,,
-1945,Washington,Washington Redskins,NFL,East,,,FIRST,,true,0,true,
+1945,Washington,Washington Redskins,NFL,East,,,FIRST,,true,0,true,false
 1946,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1947,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1948,Washington,Washington Redskins,NFL,East,,,,,false,,,
@@ -38,7 +38,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1969,Washington,Washington Redskins,NFL,NFL East,Capitol,,,,false,,,
 1970,Washington,Washington Redskins,NFL,NFC,NFC East,,,,false,,,
 1971,Washington,Washington Redskins,NFL,NFC,NFC East,,,,true,0,false,false
-1972,Washington,Washington Redskins,NFL,NFC,NFC East,,FIRST,FIRST,true,2,true,
+1972,Washington,Washington Redskins,NFL,NFC,NFC East,,FIRST,FIRST,true,2,true,false
 1973,Washington,Washington Redskins,NFL,NFC,NFC East,,,FIRST_TIED,true,0,false,false
 1974,Washington,Washington Redskins,NFL,NFC,NFC East,,FIRST_TIED,FIRST_TIED,true,0,false,false
 1975,Washington,Washington Redskins,NFL,NFC,NFC East,,,,false,,,
@@ -49,7 +49,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1980,Washington,Washington Redskins,NFL,NFC,NFC East,,,,false,,,
 1981,Washington,Washington Redskins,NFL,NFC,NFC East,,,,false,,,
 1982,Washington,Washington Redskins,NFL,NFC,,FIRST_TIED,FIRST,,true,3,true,true
-1983,Washington,Washington Redskins,NFL,NFC,NFC East,FIRST,FIRST,FIRST,true,2,true,
+1983,Washington,Washington Redskins,NFL,NFC,NFC East,FIRST,FIRST,FIRST,true,2,true,false
 1984,Washington,Washington Redskins,NFL,NFC,NFC East,,,FIRST,true,0,false,false
 1985,Washington,Washington Redskins,NFL,NFC,NFC East,,,FIRST_TIED,false,,,
 1986,Washington,Washington Redskins,NFL,NFC,NFC East,,,,true,2,false,false

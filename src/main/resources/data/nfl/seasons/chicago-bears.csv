@@ -1,14 +1,14 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1933,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,1,true,true
-1934,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,0,true,
+1934,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,0,true,false
 1935,Chicago,Chicago Bears,NFL,West,,,LAST_TIED,,false,,,
 1936,Chicago,Chicago Bears,NFL,West,,,,,false,,,
-1937,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,0,true,
+1937,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,0,true,false
 1938,Chicago,Chicago Bears,NFL,West,,,,,false,,,
 1939,Chicago,Chicago Bears,NFL,West,,,,,false,,,
 1940,Chicago,Chicago Bears,NFL,West,,,FIRST,,true,1,true,true
 1941,Chicago,Chicago Bears,NFL,West,,FIRST_TIED,FIRST_TIED,,true,1,true,true
-1942,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,0,true,
+1942,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,0,true,false
 1943,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,1,true,true
 1944,Chicago,Chicago Bears,NFL,West,,,,,false,,,
 1945,Chicago,Chicago Bears,NFL,West,,,,,false,,,
@@ -22,7 +22,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1953,Chicago,Chicago Bears,NFL,West,,,,,false,,,
 1954,Chicago,Chicago Bears,NFL,West,,,,,false,,,
 1955,Chicago,Chicago Bears,NFL,West,,,,,false,,,
-1956,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,0,true,
+1956,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,0,true,false
 1957,Chicago,Chicago Bears,NFL,West,,,,,false,,,
 1958,Chicago,Chicago Bears,NFL,West,,,,,false,,,
 1959,Chicago,Chicago Bears,NFL,West,,,,,false,,,
@@ -72,7 +72,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2003,Chicago,Chicago Bears,NFL,NFC,NFC North,,,,false,,,
 2004,Chicago,Chicago Bears,NFL,NFC,NFC North,,,LAST,false,,,
 2005,Chicago,Chicago Bears,NFL,NFC,NFC North,,,FIRST,true,0,false,false
-2006,Chicago,Chicago Bears,NFL,NFC,NFC North,,FIRST,FIRST,true,2,true,
+2006,Chicago,Chicago Bears,NFL,NFC,NFC North,,FIRST,FIRST,true,2,true,false
 2007,Chicago,Chicago Bears,NFL,NFC,NFC North,,,LAST_TIED,false,,,
 2008,Chicago,Chicago Bears,NFL,NFC,NFC North,,,,false,,,
 2009,Chicago,Chicago Bears,NFL,NFC,NFC North,,,,false,,,

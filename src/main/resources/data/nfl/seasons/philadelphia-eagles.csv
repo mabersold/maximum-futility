@@ -13,7 +13,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1944,Philadelphia,Philadelphia Eagles,NFL,East,,,,,false,,,
 1945,Philadelphia,Philadelphia Eagles,NFL,East,,,,,false,,,
 1946,Philadelphia,Philadelphia Eagles,NFL,East,,,,,false,,,
-1947,Philadelphia,Philadelphia Eagles,NFL,East,,,FIRST_TIED,,true,1,true,
+1947,Philadelphia,Philadelphia Eagles,NFL,East,,,FIRST_TIED,,true,1,true,false
 1948,Philadelphia,Philadelphia Eagles,NFL,East,,,FIRST,,true,1,true,true
 1949,Philadelphia,Philadelphia Eagles,NFL,East,,FIRST,FIRST,,true,1,true,true
 1950,Philadelphia,Philadelphia Eagles,NFL,American,,,,,false,,,
@@ -46,7 +46,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1977,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,LAST_TIED,false,,,
 1978,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,true,0,false,false
 1979,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,FIRST_TIED,FIRST_TIED,true,1,false,false
-1980,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,2,true,
+1980,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,2,true,false
 1981,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,true,0,false,false
 1982,Philadelphia,Philadelphia Eagles,NFL,NFC,,,,,false,,,
 1983,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,false,,,
@@ -70,7 +70,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2001,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,FIRST,true,2,false,false
 2002,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
 2003,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,FIRST_TIED,FIRST,true,1,false,false
-2004,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,FIRST,FIRST,true,2,true,
+2004,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,FIRST,FIRST,true,2,true,false
 2005,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,LAST,false,,,
 2006,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,FIRST,true,1,false,false
 2007,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,LAST,false,,,
@@ -88,6 +88,6 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2019,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,FIRST,true,0,false,false
 2020,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,LAST,false,,,
 2021,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,true,0,false,false
-2022,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,FIRST_TIED,FIRST,FIRST,true,2,true,
+2022,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,FIRST_TIED,FIRST,FIRST,true,2,true,false
 2023,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,true,0,false,false
 2024,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,FIRST,true,4,true,true

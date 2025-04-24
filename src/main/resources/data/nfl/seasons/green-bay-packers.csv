@@ -4,7 +4,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1935,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
 1936,Green Bay,Green Bay Packers,NFL,West,,FIRST,FIRST,,true,1,true,true
 1937,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
-1938,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,0,true,
+1938,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,0,true,false
 1939,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,1,true,true
 1940,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
 1941,Green Bay,Green Bay Packers,NFL,West,,FIRST_TIED,FIRST_TIED,,true,0,false,false
@@ -26,7 +26,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1957,Green Bay,Green Bay Packers,NFL,West,,LAST_TIED,LAST,,false,,,
 1958,Green Bay,Green Bay Packers,NFL,West,,LAST,LAST,,false,,,
 1959,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
-1960,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,0,true,
+1960,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,0,true,false
 1961,Green Bay,Green Bay Packers,NFL,West,,FIRST,FIRST,,true,1,true,true
 1962,Green Bay,Green Bay Packers,NFL,West,,FIRST,FIRST,,true,1,true,true
 1963,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
@@ -63,7 +63,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1994,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,1,false,false
 1995,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,FIRST,true,2,false,false
 1996,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,FIRST_TIED,FIRST,FIRST,true,3,true,true
-1997,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,
+1997,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
 1998,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,0,false,false
 1999,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
 2000,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,

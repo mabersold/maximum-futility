@@ -9,14 +9,14 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1940,New York,New York Giants,NFL,East,,,,,false,,,
 1941,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,
 1942,New York,New York Giants,NFL,East,,,,,false,,,
-1943,New York,New York Giants,NFL,East,,,FIRST_TIED,,true,0,,
+1943,New York,New York Giants,NFL,East,,,FIRST_TIED,,true,0,false,false
 1944,New York,New York Giants,NFL,East,,FIRST,FIRST,,true,0,true,
 1945,New York,New York Giants,NFL,East,,,,,false,,,
 1946,New York,New York Giants,NFL,East,,,FIRST,,true,0,true,
 1947,New York,New York Giants,NFL,East,,LAST,LAST,,false,,,
 1948,New York,New York Giants,NFL,East,,,,,false,,,
 1949,New York,New York Giants,NFL,East,,,,,false,,,
-1950,New York,New York Giants,NFL,American,,FIRST_TIED,FIRST_TIED,,true,0,,
+1950,New York,New York Giants,NFL,American,,FIRST_TIED,FIRST_TIED,,true,0,false,false
 1951,New York,New York Giants,NFL,American,,,,,false,,,
 1952,New York,New York Giants,NFL,American,,,,,false,,,
 1953,New York,New York Giants,NFL,East,,,,,false,,,
@@ -47,34 +47,34 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1978,New York,New York Giants,NFL,NFC,NFC East,,,LAST_TIED,false,,,
 1979,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 1980,New York,New York Giants,NFL,NFC,NFC East,,,LAST,false,,,
-1981,New York,New York Giants,NFL,NFC,NFC East,,,,true,1,,
+1981,New York,New York Giants,NFL,NFC,NFC East,,,,true,1,false,false
 1982,New York,New York Giants,NFL,NFC,,,,,false,,,
 1983,New York,New York Giants,NFL,NFC,NFC East,,,LAST,false,,,
-1984,New York,New York Giants,NFL,NFC,NFC East,,,,true,1,,
-1985,New York,New York Giants,NFL,NFC,NFC East,,,FIRST_TIED,true,1,,
+1984,New York,New York Giants,NFL,NFC,NFC East,,,,true,1,false,false
+1985,New York,New York Giants,NFL,NFC,NFC East,,,FIRST_TIED,true,1,false,false
 1986,New York,New York Giants,NFL,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST,true,3,true,true
 1987,New York,New York Giants,NFL,NFC,NFC East,,,LAST,false,,,
 1988,New York,New York Giants,NFL,NFC,NFC East,,,FIRST_TIED,false,,,
-1989,New York,New York Giants,NFL,NFC,NFC East,,,FIRST,true,0,,
+1989,New York,New York Giants,NFL,NFC,NFC East,,,FIRST,true,0,false,false
 1990,New York,New York Giants,NFL,NFC,NFC East,,,FIRST,true,3,true,true
 1991,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 1992,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
-1993,New York,New York Giants,NFL,NFC,NFC East,,,,true,1,,
+1993,New York,New York Giants,NFL,NFC,NFC East,,,,true,1,false,false
 1994,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 1995,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 1996,New York,New York Giants,NFL,NFC,NFC East,,,LAST,false,,,
-1997,New York,New York Giants,NFL,NFC,NFC East,,,FIRST,true,0,,
+1997,New York,New York Giants,NFL,NFC,NFC East,,,FIRST,true,0,false,false
 1998,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 1999,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 2000,New York,New York Giants,NFL,NFC,NFC East,,FIRST,FIRST,true,2,true,
 2001,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
-2002,New York,New York Giants,NFL,NFC,NFC East,,,,true,0,,
+2002,New York,New York Giants,NFL,NFC,NFC East,,,,true,0,false,false
 2003,New York,New York Giants,NFL,NFC,NFC East,LAST_TIED,LAST_TIED,LAST,false,,,
 2004,New York,New York Giants,NFL,NFC,NFC East,,,LAST_TIED,false,,,
-2005,New York,New York Giants,NFL,NFC,NFC East,,,FIRST,true,0,,
-2006,New York,New York Giants,NFL,NFC,NFC East,,,,true,0,,
+2005,New York,New York Giants,NFL,NFC,NFC East,,,FIRST,true,0,false,false
+2006,New York,New York Giants,NFL,NFC,NFC East,,,,true,0,false,false
 2007,New York,New York Giants,NFL,NFC,NFC East,,,,true,4,true,true
-2008,New York,New York Giants,NFL,NFC,NFC East,,FIRST_TIED,FIRST,true,0,,
+2008,New York,New York Giants,NFL,NFC,NFC East,,FIRST_TIED,FIRST,true,0,false,false
 2009,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 2010,New York,New York Giants,NFL,NFC,NFC East,,,FIRST_TIED,false,,,
 2011,New York,New York Giants,NFL,NFC,NFC East,,,FIRST,true,4,true,true
@@ -82,12 +82,12 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2013,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 2014,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 2015,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
-2016,New York,New York Giants,NFL,NFC,NFC East,,,,true,0,,
+2016,New York,New York Giants,NFL,NFC,NFC East,,,,true,0,false,false
 2017,New York,New York Giants,NFL,NFC,NFC East,,LAST,LAST,false,,,
 2018,New York,New York Giants,NFL,NFC,NFC East,,,LAST,false,,,
 2019,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 2020,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 2021,New York,New York Giants,NFL,NFC,NFC East,,,LAST,false,,,
-2022,New York,New York Giants,NFL,NFC,NFC East,,,,true,1,,
+2022,New York,New York Giants,NFL,NFC,NFC East,,,,true,1,false,false
 2023,New York,New York Giants,NFL,NFC,NFC East,,,,false,,,
 2024,New York,New York Giants,NFL,NFC,NFC East,LAST_TIED,LAST,LAST,false,,,

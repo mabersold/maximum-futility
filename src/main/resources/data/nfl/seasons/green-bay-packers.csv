@@ -7,7 +7,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1938,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,0,true,
 1939,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,1,true,true
 1940,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
-1941,Green Bay,Green Bay Packers,NFL,West,,FIRST_TIED,FIRST_TIED,,true,0,,
+1941,Green Bay,Green Bay Packers,NFL,West,,FIRST_TIED,FIRST_TIED,,true,0,false,false
 1942,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
 1943,Green Bay,Green Bay Packers,NFL,West,,,,,false,,,
 1944,Green Bay,Green Bay Packers,NFL,West,,,FIRST,,true,1,true,true
@@ -38,7 +38,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1969,Green Bay,Green Bay Packers,NFL,NFL West,Central,,,,false,,,
 1970,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,LAST_TIED,false,,,
 1971,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,LAST,false,,,
-1972,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,FIRST,true,0,,
+1972,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,FIRST,true,0,false,false
 1973,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
 1974,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
 1975,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,LAST_TIED,false,,,
@@ -48,7 +48,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1979,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
 1980,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,LAST_TIED,false,,,
 1981,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
-1982,Green Bay,Green Bay Packers,NFL,NFC,,,,,true,1,,
+1982,Green Bay,Green Bay Packers,NFL,NFC,,,,,true,1,false,false
 1983,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
 1984,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
 1985,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
@@ -59,35 +59,35 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1990,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,LAST_TIED,false,,,
 1991,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
 1992,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
-1993,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,1,,
-1994,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,1,,
-1995,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,FIRST,true,2,,
+1993,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,1,false,false
+1994,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,1,false,false
+1995,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,FIRST,true,2,false,false
 1996,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,FIRST_TIED,FIRST,FIRST,true,3,true,true
 1997,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,
-1998,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,0,,
+1998,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,0,false,false
 1999,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
 2000,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,false,,,
-2001,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,1,,
-2002,Green Bay,Green Bay Packers,NFL,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,0,,
-2003,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,1,,
-2004,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,0,,
+2001,Green Bay,Green Bay Packers,NFL,NFC,NFC Central,,,,true,1,false,false
+2002,Green Bay,Green Bay Packers,NFL,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+2003,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,1,false,false
+2004,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,0,false,false
 2005,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,LAST,false,,,
 2006,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,false,,,
-2007,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,FIRST_TIED,FIRST,true,1,,
+2007,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,FIRST_TIED,FIRST,true,1,false,false
 2008,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,false,,,
-2009,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,0,,
+2009,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,0,false,false
 2010,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,4,true,true
-2011,Green Bay,Green Bay Packers,NFL,NFC,NFC North,FIRST,FIRST,FIRST,true,0,,
-2012,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,1,,
-2013,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,0,,
-2014,Green Bay,Green Bay Packers,NFL,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,1,,
-2015,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,1,,
-2016,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,2,,
+2011,Green Bay,Green Bay Packers,NFL,NFC,NFC North,FIRST,FIRST,FIRST,true,0,false,false
+2012,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,1,false,false
+2013,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,0,false,false
+2014,Green Bay,Green Bay Packers,NFL,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+2015,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,1,false,false
+2016,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,FIRST,true,2,false,false
 2017,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,false,,,
 2018,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,false,,,
-2019,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,FIRST_TIED,FIRST,true,1,,
-2020,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,FIRST,FIRST,true,1,,
-2021,Green Bay,Green Bay Packers,NFL,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,0,,
+2019,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,FIRST_TIED,FIRST,true,1,false,false
+2020,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,FIRST,FIRST,true,1,false,false
+2021,Green Bay,Green Bay Packers,NFL,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
 2022,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,false,,,
-2023,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,1,,
+2023,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,1,false,false
 2024,Green Bay,Green Bay Packers,NFL,NFC,NFC North,,,,true,0,,

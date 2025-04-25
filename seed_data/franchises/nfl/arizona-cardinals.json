@@ -1,0 +1,56 @@
+{
+    "id": 165,
+    "name": "Arizona Cardinals",
+    "label": "cardinals-nfl",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Chicago Cardinals",
+            "metro_id": "chicago",
+            "label": "cardinals",
+            "league_id": "nfl",
+            "start_year": 1933,
+            "end_year": 1943
+        },
+        {
+            "team_name": "Card-Pitt",
+            "metro_id": "chicago",
+            "label": "card-pitt",
+            "league_id": "nfl",
+            "start_year": 1944,
+            "end_year": 1944
+        },
+        {
+            "team_name": "Chicago Cardinals",
+            "metro_id": "chicago",
+            "label": "cardinals",
+            "league_id": "nfl",
+            "start_year": 1945,
+            "end_year": 1959
+        },
+        {
+            "team_name": "St. Louis Cardinals",
+            "metro_id": "st-louis",
+            "label": "cardinals",
+            "league_id": "nfl",
+            "start_year": 1960,
+            "end_year": 1987
+        },
+        {
+            "team_name": "Phoenix Cardinals",
+            "metro_id": "phoenix",
+            "label": "cardinals",
+            "league_id": "nfl",
+            "start_year": 1988,
+            "end_year": 1993
+        },
+        {
+            "team_name": "Arizona Cardinals",
+            "metro_id": "phoenix",
+            "label": "cardinals",
+            "league_id": "nfl",
+            "start_year": 1994
+        }
+    ]
+}

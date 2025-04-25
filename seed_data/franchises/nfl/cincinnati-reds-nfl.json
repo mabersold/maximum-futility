@@ -1,0 +1,17 @@
+{
+    "id": 168,
+    "name": "Cincinnati Reds (NFL)",
+    "label": "reds-nfl",
+    "is_defunct": true,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Cincinnati Reds",
+            "metro_id": "cincinnati",
+            "label": "reds",
+            "league_id": "nfl",
+            "start_year": 1933,
+            "end_year": 1934
+        }
+    ]
+}

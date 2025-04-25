@@ -1,0 +1,51 @@
+{
+    "name": "1934 NFL Season",
+    "start_year": 1934,
+    "end_year": 1934,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "giants", "wins": 8, "losses": 5, "ties": 0},
+                    {"label": "redskins", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "dodgers", "wins": 4, "losses": 7, "ties": 0},
+                    {"label": "eagles", "wins": 4, "losses": 7, "ties": 0},
+                    {"label": "pirates", "wins": 2, "losses": 10, "ties": 0}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "bears", "wins": 13, "losses": 0, "ties": 0},
+                    {"label": "lions", "wins": 10, "losses": 3, "ties": 0},
+                    {"label": "packers", "wins": 7, "losses": 6, "ties": 0},
+                    {"label": "cardinals", "wins": 5, "losses": 6, "ties": 0},
+                    {"label": "gunners", "wins": 1, "losses": 2, "ties": 0},
+                    {"label": "reds", "wins": 0, "losses": 8, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "giants"
+                        },
+                        "loser": {
+                            "label": "bears"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

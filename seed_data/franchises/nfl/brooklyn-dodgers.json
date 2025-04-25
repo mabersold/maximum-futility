@@ -1,0 +1,25 @@
+{
+    "id": 166,
+    "name": "Brooklyn Dodgers",
+    "label": "dodgers-nfl",
+    "is_defunct": true,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Brooklyn Dodgers",
+            "metro_id": "new-york",
+            "label": "dodgers",
+            "league_id": "nfl",
+            "start_year": 1933,
+            "end_year": 1944
+        },
+        {
+            "team_name": "Yanks",
+            "metro_id": "new-york",
+            "label": "yanks",
+            "league_id": "nfl",
+            "start_year": 1945,
+            "end_year": 1945
+        }
+    ]
+}

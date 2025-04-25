@@ -1,0 +1,16 @@
+{
+    "id": 175,
+    "name": "St. Louis Gunners",
+    "label": "gunners",
+    "is_defunct": true,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "St. Louis Gunners",
+            "metro_id": "st-louis",
+            "league_id": "nfl",
+            "start_year": 1934,
+            "end_year": 1934
+        }
+    ]
+}

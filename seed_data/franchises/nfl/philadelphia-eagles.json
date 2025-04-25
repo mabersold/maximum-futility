@@ -1,0 +1,30 @@
+{
+    "id": 172,
+    "name": "Philadelphia Eagles",
+    "label": "eagles",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Philadelphia Eagles",
+            "metro_id": "philadelphia",
+            "league_id": "nfl",
+            "start_year": 1933,
+            "end_year": 1942
+        },
+        {
+            "team_name": "Steagles",
+            "metro_id": "philadelphia",
+            "label": "steagles",
+            "league_id": "nfl",
+            "start_year": 1943,
+            "end_year": 1943
+        },
+        {
+            "team_name": "Philadelphia Eagles",
+            "metro_id": "philadelphia",
+            "league_id": "nfl",
+            "start_year": 1944
+        }
+    ]
+}

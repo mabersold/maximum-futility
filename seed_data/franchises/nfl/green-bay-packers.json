@@ -1,0 +1,15 @@
+{
+    "id": 170,
+    "name": "Green Bay Packers",
+    "label": "packers",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Green Bay Packers",
+            "metro_id": "green-bay",
+            "league_id": "nfl",
+            "start_year": 1933
+        }
+    ]
+}

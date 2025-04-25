@@ -1,0 +1,38 @@
+{
+    "id": 174,
+    "name": "Washington Commanders",
+    "label": "commanders",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Boston Redskins",
+            "metro_id": "boston",
+            "label": "redskins",
+            "league_id": "nfl",
+            "start_year": 1933,
+            "end_year": 1936
+        },
+        {
+            "team_name": "Washington Redskins",
+            "metro_id": "washington",
+            "label": "redskins",
+            "league_id": "nfl",
+            "start_year": 1937,
+            "end_year": 2019
+        },
+        {
+            "team_name": "Washington Football Team",
+            "metro_id": "washington",
+            "league_id": "nfl",
+            "start_year": 2020,
+            "end_year": 2021
+        },
+        {
+            "team_name": "Washington Commanders",
+            "metro_id": "washington",
+            "league_id": "nfl",
+            "start_year": 2022
+        }
+    ]
+}

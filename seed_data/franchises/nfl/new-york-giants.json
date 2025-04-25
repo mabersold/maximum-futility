@@ -1,0 +1,16 @@
+{
+    "id": 171,
+    "name": "New York Giants",
+    "label": "giants-nfl",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "New York Giants",
+            "metro_id": "new-york",
+            "label": "giants",
+            "league_id": "nfl",
+            "start_year": 1933
+        }
+    ]
+}

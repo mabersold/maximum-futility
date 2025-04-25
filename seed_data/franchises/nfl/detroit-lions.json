@@ -1,0 +1,23 @@
+{
+    "id": 169,
+    "name": "Detroit Lions",
+    "label": "lions",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Portsmouth Spartans",
+            "metro_id": "portsmouth",
+            "label": "spartans",
+            "league_id": "nfl",
+            "start_year": 1933,
+            "end_year": 1933
+        },
+        {
+            "team_name": "Detroit Lions",
+            "metro_id": "detroit",
+            "league_id": "nfl",
+            "start_year": 1934
+        }
+    ]
+}

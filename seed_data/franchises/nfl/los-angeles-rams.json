@@ -1,0 +1,36 @@
+{
+    "id": 176,
+    "name": "Los Angeles Rams",
+    "label": "rams",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Cleveland Rams",
+            "metro_id": "cleveland",
+            "league_id": "nfl",
+            "start_year": 1937,
+            "end_year": 1945
+        },
+        {
+            "team_name": "Los Angeles Rams",
+            "metro_id": "los-angeles",
+            "league_id": "nfl",
+            "start_year": 1946,
+            "end_year": 1994
+        },
+        {
+            "team_name": "St. Louis Rams",
+            "metro_id": "st-louis",
+            "league_id": "nfl",
+            "start_year": 1995,
+            "end_year": 2015
+        },
+        {
+            "team_name": "Los Angeles Rams",
+            "metro_id": "los-angeles",
+            "league_id": "nfl",
+            "start_year": 2016
+        }
+    ]
+}

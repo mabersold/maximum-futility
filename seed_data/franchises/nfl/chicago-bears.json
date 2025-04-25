@@ -1,0 +1,15 @@
+{
+    "id": 167,
+    "name": "Chicago Bears",
+    "label": "bears",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Chicago Bears",
+            "metro_id": "chicago",
+            "league_id": "nfl",
+            "start_year": 1933
+        }
+    ]
+}

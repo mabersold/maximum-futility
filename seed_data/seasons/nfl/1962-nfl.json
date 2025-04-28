@@ -1,0 +1,54 @@
+{
+    "name": "1962 NFL Season",
+    "start_year": 1962,
+    "end_year": 1962,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "giants", "wins": 12, "losses": 2, "ties": 0},
+                    {"label": "steelers", "wins": 9, "losses": 5, "ties": 0},
+                    {"label": "browns", "wins": 7, "losses": 6, "ties": 1},
+                    {"label": "redskins", "wins": 5, "losses": 7, "ties": 2},
+                    {"label": "cowboys", "wins": 5, "losses": 8, "ties": 1},
+                    {"label": "cardinals", "wins": 4, "losses": 9, "ties": 1},
+                    {"label": "eagles", "wins": 3, "losses": 10, "ties": 1}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "packers", "wins": 13, "losses": 1, "ties": 0},
+                    {"label": "lions", "wins": 11, "losses": 3, "ties": 0},
+                    {"label": "bears", "wins": 9, "losses": 5, "ties": 0},
+                    {"label": "colts", "wins": 7, "losses": 7, "ties": 0},
+                    {"label": "49ers", "wins": 6, "losses": 8, "ties": 0},
+                    {"label": "vikings", "wins": 2, "losses": 11, "ties": 1},
+                    {"label": "rams", "wins": 1, "losses": 12, "ties": 1}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "giants"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

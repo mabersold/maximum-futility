@@ -1,0 +1,15 @@
+{
+    "id": 183,
+    "name": "Minnesota Vikings",
+    "label": "vikings",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Minnesota Vikings",
+            "metro_id": "minneapolis",
+            "league_id": "nfl",
+            "start_year": 1961
+        }
+    ]
+}

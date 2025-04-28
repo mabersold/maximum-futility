@@ -11,12 +11,20 @@
             "label": "dodgers",
             "league_id": "nfl",
             "start_year": 1933,
+            "end_year": 1943
+        },
+        {
+            "team_name": "Brooklyn Tigers",
+            "metro_id": "new-york",
+            "label": "tigers",
+            "league_id": "nfl",
+            "start_year": 1944,
             "end_year": 1944
         },
         {
             "team_name": "Yanks",
             "metro_id": "new-york",
-            "label": "yanks",
+            "label": "tigers",
             "league_id": "nfl",
             "start_year": 1945,
             "end_year": 1945

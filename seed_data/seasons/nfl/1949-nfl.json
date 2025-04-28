@@ -1,0 +1,50 @@
+{
+    "name": "1949 NFL Season",
+    "start_year": 1949,
+    "end_year": 1949,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "eagles", "wins": 11, "losses": 1, "ties": 0},
+                    {"label": "steelers", "wins": 6, "losses": 5, "ties": 1},
+                    {"label": "giants", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "redskins", "wins": 4, "losses": 7, "ties": 1},
+                    {"label": "bulldogs", "wins": 1, "losses": 10, "ties": 1}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "rams", "wins": 8, "losses": 2, "ties": 2},
+                    {"label": "bears", "wins": 9, "losses": 3, "ties": 0},
+                    {"label": "cardinals", "wins": 6, "losses": 5, "ties": 1},
+                    {"label": "lions", "wins": 4, "losses": 8, "ties": 0},
+                    {"label": "packers", "wins": 2, "losses": 10, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "eagles"
+                        },
+                        "loser": {
+                            "label": "rams"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

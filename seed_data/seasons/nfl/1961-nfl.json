@@ -1,0 +1,54 @@
+{
+    "name": "1961 NFL Season",
+    "start_year": 1961,
+    "end_year": 1961,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "giants", "wins": 10, "losses": 3, "ties": 1},
+                    {"label": "eagles", "wins": 10, "losses": 4, "ties": 0},
+                    {"label": "browns", "wins": 8, "losses": 5, "ties": 1},
+                    {"label": "cardinals", "wins": 7, "losses": 7, "ties": 0},
+                    {"label": "steelers", "wins": 6, "losses": 8, "ties": 0},
+                    {"label": "cowboys", "wins": 4, "losses": 9, "ties": 1},
+                    {"label": "redskins", "wins": 1, "losses": 12, "ties": 1}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "packers", "wins": 11, "losses": 3, "ties": 0},
+                    {"label": "lions", "wins": 8, "losses": 5, "ties": 1},
+                    {"label": "bears", "wins": 8, "losses": 6, "ties": 0},
+                    {"label": "colts", "wins": 8, "losses": 6, "ties": 0},
+                    {"label": "49ers", "wins": 7, "losses": 6, "ties": 1},
+                    {"label": "rams", "wins": 4, "losses": 10, "ties": 0},
+                    {"label": "vikings", "wins": 3, "losses": 11, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "giants"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

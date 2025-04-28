@@ -1,0 +1,39 @@
+{
+    "id": 177,
+    "name": "Boston Yanks",
+    "label": "yanks",
+    "is_defunct": true,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Boston Yanks",
+            "metro_id": "boston",
+            "league_id": "nfl",
+            "start_year": 1944,
+            "end_year": 1948
+        },
+        {
+            "team_name": "New York Bulldogs",
+            "metro_id": "new-york",
+            "label": "bulldogs",
+            "league_id": "nfl",
+            "start_year": 1949,
+            "end_year": 1949
+        },
+        {
+            "team_name": "New York Yanks",
+            "metro_id": "new-york",
+            "league_id": "nfl",
+            "start_year": 1950,
+            "end_year": 1951
+        },
+        {
+            "team_name": "Dallas Texans",
+            "metro_id": "dallas",
+            "label": "texans",
+            "league_id": "nfl",
+            "start_year": 1952,
+            "end_year": 1952
+        }
+    ]
+}

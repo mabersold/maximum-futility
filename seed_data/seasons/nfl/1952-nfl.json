@@ -1,0 +1,65 @@
+{
+    "name": "1952 NFL Season",
+    "start_year": 1952,
+    "end_year": 1952,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "American",
+                "results": [
+                    {"label": "browns", "wins": 8, "losses": 4, "ties": 0},
+                    {"label": "giants", "wins": 7, "losses": 5, "ties": 0},
+                    {"label": "eagles", "wins": 7, "losses": 5, "ties": 0},
+                    {"label": "steelers", "wins": 5, "losses": 7, "ties": 0},
+                    {"label": "cardinals", "wins": 4, "losses": 8, "ties": 0},
+                    {"label": "redskins", "wins": 4, "losses": 8, "ties": 0}
+                ]
+            },
+            {
+                "name": "National",
+                "results": [
+                    {"label": "lions", "wins": 9, "losses": 3, "ties": 0},
+                    {"label": "rams", "wins": 9, "losses": 3, "ties": 0},
+                    {"label": "49ers", "wins": 7, "losses": 5, "ties": 0},
+                    {"label": "packers", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "bears", "wins": 5, "losses": 7, "ties": 0},
+                    {"label": "texans", "wins": 1, "losses": 11, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "lions"
+                        },
+                        "loser": {
+                            "label": "rams"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "lions"
+                        },
+                        "loser": {
+                            "label": "browns"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

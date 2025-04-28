@@ -1,0 +1,22 @@
+{
+    "id": 181,
+    "name": "Indianapolis Colts",
+    "label": "colts",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Baltimore Colts",
+            "metro_id": "baltimore",
+            "league_id": "nfl",
+            "start_year": 1953,
+            "end_year": 1983
+        },
+        {
+            "team_name": "Indianapolis Colts",
+            "metro_id": "indianapolis",
+            "league_id": "nfl",
+            "start_year": 1984
+        }
+    ]
+}

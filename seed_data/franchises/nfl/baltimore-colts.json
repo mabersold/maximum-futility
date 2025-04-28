@@ -1,0 +1,17 @@
+{
+    "id": 180,
+    "name": "Baltimore Colts",
+    "label": "colts-original",
+    "is_defunct": true,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Baltimore Colts",
+            "metro_id": "baltimore",
+            "label": "colts",
+            "league_id": "nfl",
+            "start_year": 1950,
+            "end_year": 1950
+        }
+    ]
+}

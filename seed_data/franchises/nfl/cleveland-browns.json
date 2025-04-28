@@ -1,0 +1,22 @@
+{
+    "id": 178,
+    "name": "Cleveland Browns",
+    "label": "browns",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Cleveland Browns",
+            "metro_id": "cleveland",
+            "league_id": "nfl",
+            "start_year": 1950,
+            "end_year": 1995
+        },
+        {
+            "team_name": "Cleveland Browns",
+            "metro_id": "cleveland",
+            "league_id": "nfl",
+            "start_year": 2000
+        }
+    ]
+}

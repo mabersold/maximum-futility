@@ -1,0 +1,50 @@
+{
+    "name": "1944 NFL Season",
+    "start_year": 1944,
+    "end_year": 1944,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "giants", "wins": 8, "losses": 1, "ties": 1},
+                    {"label": "eagles", "wins": 7, "losses": 1, "ties": 2},
+                    {"label": "redskins", "wins": 6, "losses": 3, "ties": 1},
+                    {"label": "yanks", "wins": 2, "losses": 8, "ties": 0},
+                    {"label": "tigers", "wins": 0, "losses": 10, "ties": 0}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "packers", "wins": 8, "losses": 2, "ties": 0},
+                    {"label": "bears", "wins": 6, "losses": 3, "ties": 1},
+                    {"label": "lions", "wins": 6, "losses": 3, "ties": 1},
+                    {"label": "rams", "wins": 4, "losses": 6, "ties": 0},
+                    {"label": "card-pitt", "wins": 0, "losses": 10, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "giants"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

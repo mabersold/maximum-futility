@@ -1,0 +1,74 @@
+{
+    "name": "1950 NFL Season",
+    "start_year": 1950,
+    "end_year": 1950,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "American",
+                "results": [
+                    {"label": "browns", "wins": 10, "losses": 2, "ties": 0},
+                    {"label": "giants", "wins": 10, "losses": 2, "ties": 0},
+                    {"label": "eagles", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "steelers", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "cardinals", "wins": 5, "losses": 7, "ties": 0},
+                    {"label": "redskins", "wins": 3, "losses": 9, "ties": 0}
+                ]
+            },
+            {
+                "name": "National",
+                "results": [
+                    {"label": "rams", "wins": 9, "losses": 3, "ties": 0},
+                    {"label": "bears", "wins": 9, "losses": 3, "ties": 0},
+                    {"label": "yanks", "wins": 7, "losses": 5, "ties": 0},
+                    {"label": "lions", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "packers", "wins": 3, "losses": 9, "ties": 0},
+                    {"label": "49ers", "wins": 3, "losses": 9, "ties": 0},
+                    {"label": "colts", "wins": 1, "losses": 11, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "browns"
+                        },
+                        "loser": {
+                            "label": "giants"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "rams"
+                        },
+                        "loser": {
+                            "label": "bears"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "browns"
+                        },
+                        "loser": {
+                            "label": "rams"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "name": "1965 NFL Season",
+    "start_year": 1965,
+    "end_year": 1965,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "browns", "wins": 11, "losses": 3, "ties": 0},
+                    {"label": "cowboys", "wins": 7, "losses": 7, "ties": 0},
+                    {"label": "giants", "wins": 7, "losses": 7, "ties": 0},
+                    {"label": "redskins", "wins": 6, "losses": 8, "ties": 0},
+                    {"label": "cardinals", "wins": 5, "losses": 9, "ties": 0},
+                    {"label": "eagles", "wins": 5, "losses": 9, "ties": 0},
+                    {"label": "steelers", "wins": 2, "losses": 12, "ties": 0}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "packers", "wins": 10, "losses": 3, "ties": 1},
+                    {"label": "colts", "wins": 10, "losses": 3, "ties": 1},
+                    {"label": "bears", "wins": 9, "losses": 5, "ties": 0},
+                    {"label": "49ers", "wins": 7, "losses": 6, "ties": 1},
+                    {"label": "vikings", "wins": 7, "losses": 7, "ties": 0},
+                    {"label": "lions", "wins": 6, "losses": 7, "ties": 1},
+                    {"label": "rams", "wins": 4, "losses": 10, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "colts"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "browns"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

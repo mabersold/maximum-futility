@@ -1,0 +1,50 @@
+{
+    "name": "1948 NFL Season",
+    "start_year": 1948,
+    "end_year": 1948,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "eagles", "wins": 9, "losses": 2, "ties": 1},
+                    {"label": "redskins", "wins": 7, "losses": 5, "ties": 0},
+                    {"label": "giants", "wins": 4, "losses": 8, "ties": 0},
+                    {"label": "steelers", "wins": 4, "losses": 8, "ties": 0},
+                    {"label": "yanks", "wins": 3, "losses": 9, "ties": 0}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "cardinals", "wins": 11, "losses": 1, "ties": 0},
+                    {"label": "bears", "wins": 10, "losses": 2, "ties": 0},
+                    {"label": "rams", "wins": 6, "losses": 5, "ties": 1},
+                    {"label": "packers", "wins": 3, "losses": 9, "ties": 0},
+                    {"label": "lions", "wins": 2, "losses": 10, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "eagles"
+                        },
+                        "loser": {
+                            "label": "cardinals"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

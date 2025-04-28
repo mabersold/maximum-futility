@@ -100,7 +100,28 @@ def get_franchise_seasons(seasons: list, franchises: list):
 
         get_mins_and_maxes(season.get('standings'), min_values, max_values, max_depth)
         get_flattened_franchise_list(season.get('standings'), max_depth, franchise_seasons, groupings)
-        
+
+        # Special cases for three NFL seasons where teams merged
+        if season['start_year'] == 1943 and season['league'] == 'nfl':
+            steagles = [fs for fs in franchise_seasons if fs.get('label') == 'steagles'][0]
+            eagles = steagles.copy()
+            eagles['label'] = 'eagles'
+            steagles['label'] = 'steelers'
+            franchise_seasons.append(eagles)
+
+        if season['start_year'] == 1944 and season['league'] == 'nfl':
+            cardpitt = [fs for fs in franchise_seasons if fs.get('label') == 'card-pitt'][0]
+            cards = cardpitt.copy()
+            cards['label'] = 'cardinals'
+            cardpitt['label'] = 'steelers'
+            franchise_seasons.append(cards)
+
+        if season['start_year'] == 1945 and season['league'] == 'nfl':
+            yankstigers = [fs for fs in franchise_seasons if fs.get('label') == 'yanks'][0]
+            tigers = yankstigers.copy()
+            tigers['label'] = 'tigers'
+            franchise_seasons.append(tigers)
+
         league = season['league']
         year = season['start_year']
         postseason_results = get_postseason_results(season.get('postseason', {}), league, year)

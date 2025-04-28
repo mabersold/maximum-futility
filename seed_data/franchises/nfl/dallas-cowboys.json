@@ -1,0 +1,15 @@
+{
+    "id": 182,
+    "name": "Dallas Cowboys",
+    "label": "cowboys",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Dallas Cowboys",
+            "metro_id": "dallas",
+            "league_id": "nfl",
+            "start_year": 1960
+        }
+    ]
+}

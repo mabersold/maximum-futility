@@ -1,0 +1,63 @@
+{
+    "name": "1947 NFL Season",
+    "start_year": 1947,
+    "end_year": 1947,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "eagles", "wins": 8, "losses": 4, "ties": 0},
+                    {"label": "steelers", "wins": 8, "losses": 4, "ties": 0},
+                    {"label": "yanks", "wins": 4, "losses": 7, "ties": 1},
+                    {"label": "redskins", "wins": 4, "losses": 8, "ties": 0},
+                    {"label": "giants", "wins": 2, "losses": 8, "ties": 2}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "cardinals", "wins": 9, "losses": 3, "ties": 0},
+                    {"label": "bears", "wins": 8, "losses": 4, "ties": 0},
+                    {"label": "packers", "wins": 6, "losses": 5, "ties": 1},
+                    {"label": "rams", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "lions", "wins": 3, "losses": 9, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "eagles"
+                        },
+                        "loser": {
+                            "label": "steelers"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "cardinals"
+                        },
+                        "loser": {
+                            "label": "eagles"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

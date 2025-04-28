@@ -1,0 +1,52 @@
+{
+    "name": "1956 NFL Season",
+    "start_year": 1956,
+    "end_year": 1956,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "giants", "wins": 8, "losses": 3, "ties": 1},
+                    {"label": "cardinals", "wins": 7, "losses": 5, "ties": 0},
+                    {"label": "redskins", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "browns", "wins": 5, "losses": 7, "ties": 0},
+                    {"label": "steelers", "wins": 5, "losses": 7, "ties": 0},
+                    {"label": "eagles", "wins": 3, "losses": 8, "ties": 1}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "bears", "wins": 9, "losses": 2, "ties": 1},
+                    {"label": "lions", "wins": 9, "losses": 3, "ties": 0},
+                    {"label": "49ers", "wins": 5, "losses": 6, "ties": 1},
+                    {"label": "colts", "wins": 5, "losses": 7, "ties": 0},
+                    {"label": "packers", "wins": 4, "losses": 8, "ties": 0},
+                    {"label": "rams", "wins": 4, "losses": 8, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "giants"
+                        },
+                        "loser": {
+                            "label": "bears"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

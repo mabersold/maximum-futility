@@ -14,7 +14,7 @@
             "end_year": 1939
         },
         {
-            "team_name": "Pittsburgh Stelers",
+            "team_name": "Pittsburgh Steelers",
             "metro_id": "pittsburgh",
             "league_id": "nfl",
             "start_year": 1940,
@@ -23,7 +23,6 @@
         {
             "team_name": "Steagles",
             "metro_id": "pittsburgh",
-            "label": "steagles",
             "league_id": "nfl",
             "start_year": 1943,
             "end_year": 1943
@@ -31,7 +30,6 @@
         {
             "team_name": "Card-Pitt",
             "metro_id": "pittsburgh",
-            "label": "card-pitt",
             "league_id": "nfl",
             "start_year": 1944,
             "end_year": 1944

@@ -1,0 +1,65 @@
+{
+    "name": "1957 NFL Season",
+    "start_year": 1957,
+    "end_year": 1957,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "browns", "wins": 9, "losses": 2, "ties": 1},
+                    {"label": "giants", "wins": 7, "losses": 5, "ties": 0},
+                    {"label": "steelers", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "redskins", "wins": 5, "losses": 6, "ties": 1},
+                    {"label": "eagles", "wins": 4, "losses": 8, "ties": 0},
+                    {"label": "cardinals", "wins": 3, "losses": 9, "ties": 0}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "lions", "wins": 8, "losses": 4, "ties": 0},
+                    {"label": "49ers", "wins": 8, "losses": 4, "ties": 0},
+                    {"label": "colts", "wins": 7, "losses": 5, "ties": 0},
+                    {"label": "rams", "wins": 6, "losses": 6, "ties": 0},
+                    {"label": "bears", "wins": 5, "losses": 8, "ties": 0},
+                    {"label": "packers", "wins": 3, "losses": 9, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "lions"
+                        },
+                        "loser": {
+                            "label": "49ers"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "lions"
+                        },
+                        "loser": {
+                            "label": "browns"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

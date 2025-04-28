@@ -1,0 +1,15 @@
+{
+    "id": 179,
+    "name": "San Francisco 49ers",
+    "label": "49ers",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "San Francisco 49ers",
+            "metro_id": "san-francisco-bay",
+            "league_id": "nfl",
+            "start_year": 1950
+        }
+    ]
+}

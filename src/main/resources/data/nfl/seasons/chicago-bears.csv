@@ -7,7 +7,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1938,Chicago,Chicago Bears,NFL,West,,,,,false,,,
 1939,Chicago,Chicago Bears,NFL,West,,,,,false,,,
 1940,Chicago,Chicago Bears,NFL,West,,,FIRST,,true,1,true,true
-1941,Chicago,Chicago Bears,NFL,West,,FIRST_TIED,FIRST_TIED,,true,1,true,true
+1941,Chicago,Chicago Bears,NFL,West,,FIRST_TIED,FIRST_TIED,,true,2,true,true
 1942,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,0,true,false
 1943,Chicago,Chicago Bears,NFL,West,,FIRST,FIRST,,true,1,true,true
 1944,Chicago,Chicago Bears,NFL,West,,,,,false,,,

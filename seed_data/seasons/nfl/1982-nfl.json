@@ -1,0 +1,195 @@
+{
+    "name": "1982 NFL Season",
+    "start_year": 1982,
+    "end_year": 1982,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AFC",
+                "results": [
+                    {"label": "raiders", "wins": 8, "losses": 1, "ties": 0},
+                    {"label": "dolphins", "wins": 7, "losses": 2, "ties": 0},
+                    {"label": "bengals", "wins": 7, "losses": 2, "ties": 0},
+                    {"label": "steelers", "wins": 6, "losses": 3, "ties": 0},
+                    {"label": "chargers", "wins": 6, "losses": 3, "ties": 0},
+                    {"label": "jets", "wins": 6, "losses": 3, "ties": 0},
+                    {"label": "patriots", "wins": 5, "losses": 4, "ties": 0},
+                    {"label": "browns", "wins": 4, "losses": 5, "ties": 0},
+                    {"label": "bills", "wins": 4, "losses": 5, "ties": 0},
+                    {"label": "seahawks", "wins": 4, "losses": 5, "ties": 0},
+                    {"label": "chiefs", "wins": 3, "losses": 6, "ties": 0},
+                    {"label": "broncos", "wins": 2, "losses": 7, "ties": 0},
+                    {"label": "oilers", "wins": 1, "losses": 8, "ties": 0},
+                    {"label": "colts", "wins": 0, "losses": 8, "ties": 1}
+                ]
+            },
+            {
+                "name": "NFC",
+                "results": [
+                    {"label": "redskins", "wins": 8, "losses": 1, "ties": 0},
+                    {"label": "cowboys", "wins": 6, "losses": 3, "ties": 0},
+                    {"label": "packers", "wins": 5, "losses": 3, "ties": 1},
+                    {"label": "vikings", "wins": 5, "losses": 4, "ties": 0},
+                    {"label": "falcons", "wins": 5, "losses": 4, "ties": 0},
+                    {"label": "cardinals", "wins": 5, "losses": 4, "ties": 0},
+                    {"label": "buccaneers", "wins": 5, "losses": 4, "ties": 0},
+                    {"label": "lions", "wins": 4, "losses": 5, "ties": 0},
+                    {"label": "saints", "wins": 4, "losses": 5, "ties": 0},
+                    {"label": "giants", "wins": 4, "losses": 5, "ties": 0},
+                    {"label": "49ers", "wins": 3, "losses": 6, "ties": 0},
+                    {"label": "bears", "wins": 3, "losses": 6, "ties": 0},
+                    {"label": "eagles", "wins": 3, "losses": 6, "ties": 0},
+                    {"label": "rams", "wins": 2, "losses": 7, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "cardinals"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dolphins"
+                        },
+                        "loser": {
+                            "label": "patriots"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "raiders"
+                        },
+                        "loser": {
+                            "label": "browns"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "redskins"
+                        },
+                        "loser": {
+                            "label": "lions"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "cowboys"
+                        },
+                        "loser": {
+                            "label": "buccaneers"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "vikings"
+                        },
+                        "loser": {
+                            "label": "falcons"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "jets"
+                        },
+                        "loser": {
+                            "label": "bengals"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "chargers"
+                        },
+                        "loser": {
+                            "label": "steelers"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "jets"
+                        },
+                        "loser": {
+                            "label": "raiders"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "redskins"
+                        },
+                        "loser": {
+                            "label": "vikings"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "cowboys"
+                        },
+                        "loser": {
+                            "label": "packers"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dolphins"
+                        },
+                        "loser": {
+                            "label": "chargers"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "redskins"
+                        },
+                        "loser": {
+                            "label": "cowboys"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dolphins"
+                        },
+                        "loser": {
+                            "label": "jets"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "redskins"
+                        },
+                        "loser": {
+                            "label": "dolphins"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

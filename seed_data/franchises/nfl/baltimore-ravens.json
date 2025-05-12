@@ -1,0 +1,15 @@
+{
+    "id": 200,
+    "name": "Baltimore Ravens",
+    "label": "ravens",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Baltimore Ravens",
+            "metro_id": "baltimore",
+            "league_id": "nfl",
+            "start_year": 1996
+        }
+    ]
+}

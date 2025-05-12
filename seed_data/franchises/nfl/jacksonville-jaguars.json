@@ -1,0 +1,15 @@
+{
+    "id": 198,
+    "name": "Jacksonville Jaguars",
+    "label": "jaguars",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Jacksonville Jaguars",
+            "metro_id": "jacksonville",
+            "league_id": "nfl",
+            "start_year": 1995
+        }
+    ]
+}

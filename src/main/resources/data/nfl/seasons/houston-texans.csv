@@ -21,4 +21,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Houston,Houston Texans,NFL,AFC,AFC South,,,,false,,,
 2022,Houston,Houston Texans,NFL,AFC,AFC South,,LAST,LAST,false,,,
 2023,Houston,Houston Texans,NFL,AFC,AFC South,,,FIRST,true,1,false,false
-2024,Houston,Houston Texans,NFL,AFC,AFC South,,,FIRST,true,1,,
+2024,Houston,Houston Texans,NFL,AFC,AFC South,,,FIRST,true,1,false,false

@@ -1,0 +1,154 @@
+{
+    "name": "1970 NFL Season",
+    "start_year": 1970,
+    "end_year": 1970,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 6,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AFC",
+                "sub_groups": [
+                    {
+                        "name": "AFC East",
+                        "results": [
+                            {"label": "colts", "wins": 11, "losses": 2, "ties": 1},
+                            {"label": "dolphins", "wins": 10, "losses": 4, "ties": 0},
+                            {"label": "jets", "wins": 4, "losses": 10, "ties": 0},
+                            {"label": "bills", "wins": 3, "losses": 10, "ties": 1},
+                            {"label": "patriots", "wins": 2, "losses": 12, "ties": 0}
+                        ]
+                    },
+                    {
+                        "name": "AFC Central",
+                        "results": [
+                            {"label": "bengals", "wins": 8, "losses": 6, "ties": 0},
+                            {"label": "browns", "wins": 7, "losses": 7, "ties": 0},
+                            {"label": "steelers", "wins": 5, "losses": 9, "ties": 0},
+                            {"label": "oilers", "wins": 5, "losses": 10, "ties": 1}
+                        ]
+                    },
+                    {
+                        "name": "AFC West",
+                        "results": [
+                            {"label": "raiders", "wins": 8, "losses": 4, "ties": 2},
+                            {"label": "chiefs", "wins": 7, "losses": 5, "ties": 2},
+                            {"label": "chargers", "wins": 5, "losses": 6, "ties": 3},
+                            {"label": "broncos", "wins": 5, "losses": 8, "ties": 1}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NFC",
+                "sub_groups": [
+                    {
+                        "name": "NFC East",
+                        "results": [
+                            {"label": "cowboys", "wins": 10, "losses": 4, "ties": 0},
+                            {"label": "giants", "wins": 9, "losses": 5, "ties": 0},
+                            {"label": "cardinals", "wins": 8, "losses": 5, "ties": 1},
+                            {"label": "redskins", "wins": 6, "losses": 8, "ties": 0},
+                            {"label": "eagles", "wins": 3, "losses": 10, "ties": 1}
+                        ]
+                    },
+                    {
+                        "name": "NFC Central",
+                        "results": [
+                            {"label": "vikings", "wins": 12, "losses": 2, "ties": 0},
+                            {"label": "lions", "wins": 10, "losses": 4, "ties": 0},
+                            {"label": "packers", "wins": 6, "losses": 8, "ties": 0},
+                            {"label": "bears", "wins": 6, "losses": 8, "ties": 0}
+                        ]
+                    },
+                    {
+                        "name": "NFC West",
+                        "results": [
+                            {"label": "49ers", "wins": 10, "losses": 3, "ties": 1},
+                            {"label": "rams", "wins": 9, "losses": 4, "ties": 1},
+                            {"label": "falcons", "wins": 4, "losses": 8, "ties": 2},
+                            {"label": "saints", "wins": 2, "losses": 11, "ties": 1}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "colts"
+                        },
+                        "loser": {
+                            "label": "bengals"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "cowboys"
+                        },
+                        "loser": {
+                            "label": "lions"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "raiders"
+                        },
+                        "loser": {
+                            "label": "dolphins"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "49ers"
+                        },
+                        "loser": {
+                            "label": "vikings"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "colts"
+                        },
+                        "loser": {
+                            "label": "raiders"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "cowboys"
+                        },
+                        "loser": {
+                            "label": "49ers"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "colts"
+                        },
+                        "loser": {
+                            "label": "cowboys"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

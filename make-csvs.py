@@ -161,10 +161,10 @@ def get_franchise_seasons(seasons: list, franchises: list):
                 fs['conference_position'] = 'LAST_TIED' if has_tie else 'LAST'
 
             # Division results
-            has_tie = True if has_divisions and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1 else 0
-            if has_divisions and fs['metric'] == max_values[fs['division_name']]:
+            has_tie = True if has_divisions and fs.get('division_name') and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1 else 0
+            if has_divisions and fs.get('division_name') and fs['metric'] == max_values[fs['division_name']]:
                 fs['division_position'] = 'FIRST_TIED' if has_tie else 'FIRST'
-            elif has_divisions and fs['metric'] == min_values[fs['division_name']]:
+            elif has_divisions and fs.get('division_name') and fs['metric'] == min_values[fs['division_name']]:
                 fs['division_position'] = 'LAST_TIED' if has_tie else 'LAST'
 
             # Postseason results
@@ -253,7 +253,8 @@ def find_chapter(chapters, year):
 def get_mins_and_maxes(standings: dict, mins: dict, maxes: dict, max_depth: int, level=0):
     name = standings.get('name', 'Overall')
     
-    if level == max_depth:
+    # if level == max_depth:
+    if standings.get('sub_groups', None) == None:
         for r in standings.get('results', []):
             if 'points' in r:
                 r['metric'] = r['points']
@@ -287,7 +288,8 @@ def get_flattened_franchise_list(standings: dict, max_depth: int, franchises: li
     if standings.get('results'):
         for f in standings.get('results'):
             extended_f = f.copy()
-            extended_f['metric'] = float(extended_f['metric'])
+            if extended_f.get('metric'):
+                extended_f['metric'] = float(extended_f.get('metric', None))
             if level == 2:
                 extended_f['conference_name'] = prev_name
                 division_name = standings.get('name', 'None')

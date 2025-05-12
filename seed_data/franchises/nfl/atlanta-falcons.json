@@ -1,0 +1,15 @@
+{
+    "id": 184,
+    "name": "Atlanta Falcons",
+    "label": "falcons",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Atlanta Falcons",
+            "metro_id": "atlanta",
+            "league_id": "nfl",
+            "start_year": 1966
+        }
+    ]
+}

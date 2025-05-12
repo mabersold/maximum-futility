@@ -1,0 +1,39 @@
+{
+    "id": 189,
+    "name": "Tennessee Titans",
+    "label": "titans",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Houston Oilers",
+            "metro_id": "houston",
+            "label": "oilers",
+            "league_id": "nfl",
+            "start_year": 1966,
+            "end_year": 1996
+        },
+        {
+            "team_name": "Tennessee Oilers",
+            "metro_id": "memphis",
+            "label": "oilers",
+            "league_id": "nfl",
+            "start_year": 1997,
+            "end_year": 1997
+        },
+        {
+            "team_name": "Tennessee Oilers",
+            "metro_id": "nashville",
+            "label": "oilers",
+            "league_id": "nfl",
+            "start_year": 1998,
+            "end_year": 1998
+        },
+        {
+            "team_name": "Tennessee Titans",
+            "metro_id": "nashville",
+            "league_id": "nfl",
+            "start_year": 1999
+        }
+    ]
+}

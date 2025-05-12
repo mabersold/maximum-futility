@@ -1,7 +1,7 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1966,Buffalo,Buffalo Bills,NFL,AFL East,,,FIRST,,true,0,false,false
 1967,Buffalo,Buffalo Bills,NFL,AFL East,,,,,false,,,
-1968,Buffalo,Buffalo Bills,NFL,AFL East,,LAST,LAST,LAST,false,,,
+1968,Buffalo,Buffalo Bills,NFL,AFL East,,LAST,LAST,,false,,,
 1969,Buffalo,Buffalo Bills,NFL,AFL East,,,,,false,,,
 1970,Buffalo,Buffalo Bills,NFL,AFC,AFC East,,,,false,,,
 1971,Buffalo,Buffalo Bills,NFL,AFC,AFC East,LAST,LAST,LAST,false,,,
@@ -57,4 +57,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Buffalo,Buffalo Bills,NFL,AFC,AFC East,,,FIRST,true,1,false,false
 2022,Buffalo,Buffalo Bills,NFL,AFC,AFC East,,,FIRST,true,1,false,false
 2023,Buffalo,Buffalo Bills,NFL,AFC,AFC East,,,FIRST_TIED,true,1,false,false
-2024,Buffalo,Buffalo Bills,NFL,AFC,AFC East,,,FIRST,true,2,,
+2024,Buffalo,Buffalo Bills,NFL,AFC,AFC East,,,FIRST,true,2,false,false

@@ -24,7 +24,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1955,Philadelphia,Philadelphia Eagles,NFL,East,,,,,false,,,
 1956,Philadelphia,Philadelphia Eagles,NFL,East,,LAST,LAST,,false,,,
 1957,Philadelphia,Philadelphia Eagles,NFL,East,,,,,false,,,
-1958,Philadelphia,Philadelphia Eagles,NFL,East,,,LAST,,false,,,
+1958,Philadelphia,Philadelphia Eagles,NFL,East,,,LAST_TIED,,false,,,
 1959,Philadelphia,Philadelphia Eagles,NFL,East,,,,,false,,,
 1960,Philadelphia,Philadelphia Eagles,NFL,East,,FIRST,FIRST,,true,1,true,true
 1961,Philadelphia,Philadelphia Eagles,NFL,East,,,,,false,,,
@@ -34,7 +34,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1965,Philadelphia,Philadelphia Eagles,NFL,East,,,,,false,,,
 1966,Philadelphia,Philadelphia Eagles,NFL,NFL East,,,,,false,,,
 1967,Philadelphia,Philadelphia Eagles,NFL,NFL East,Capitol,,,,false,,,
-1968,Philadelphia,Philadelphia Eagles,NFL,NFL East,Capitol,,LAST,LAST,false,,,
+1968,Philadelphia,Philadelphia Eagles,NFL,NFL East,Capitol,,,,false,,,
 1969,Philadelphia,Philadelphia Eagles,NFL,NFL East,Capitol,,,LAST,false,,,
 1970,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,LAST,false,,,
 1971,Philadelphia,Philadelphia Eagles,NFL,NFC,NFC East,,,,false,,,

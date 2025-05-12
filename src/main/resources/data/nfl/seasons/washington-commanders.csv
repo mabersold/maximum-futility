@@ -18,7 +18,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1949,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1950,Washington,Washington Redskins,NFL,American,,,LAST,,false,,,
 1951,Washington,Washington Redskins,NFL,American,,,,,false,,,
-1952,Washington,Washington Redskins,NFL,American,,,LAST,,false,,,
+1952,Washington,Washington Redskins,NFL,American,,,LAST_TIED,,false,,,
 1953,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1954,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1955,Washington,Washington Redskins,NFL,East,,,,,false,,,
@@ -34,7 +34,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1965,Washington,Washington Redskins,NFL,East,,,,,false,,,
 1966,Washington,Washington Redskins,NFL,NFL East,,,,,false,,,
 1967,Washington,Washington Redskins,NFL,NFL East,Capitol,,,,false,,,
-1968,Washington,Washington Redskins,NFL,NFL East,Capitol,,,,false,,,
+1968,Washington,Washington Redskins,NFL,NFL East,Capitol,,LAST,LAST,false,,,
 1969,Washington,Washington Redskins,NFL,NFL East,Capitol,,,,false,,,
 1970,Washington,Washington Redskins,NFL,NFC,NFC East,,,,false,,,
 1971,Washington,Washington Redskins,NFL,NFC,NFC East,,,,true,0,false,false
@@ -48,7 +48,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1979,Washington,Washington Redskins,NFL,NFC,NFC East,,,,false,,,
 1980,Washington,Washington Redskins,NFL,NFC,NFC East,,,,false,,,
 1981,Washington,Washington Redskins,NFL,NFC,NFC East,,,,false,,,
-1982,Washington,Washington Redskins,NFL,NFC,,FIRST_TIED,FIRST,,true,3,true,true
+1982,Washington,Washington Redskins,NFL,NFC,,FIRST_TIED,FIRST,,true,4,true,true
 1983,Washington,Washington Redskins,NFL,NFC,NFC East,FIRST,FIRST,FIRST,true,2,true,false
 1984,Washington,Washington Redskins,NFL,NFC,NFC East,,,FIRST,true,0,false,false
 1985,Washington,Washington Redskins,NFL,NFC,NFC East,,,FIRST_TIED,false,,,
@@ -90,4 +90,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Washington,Washington Football Team,NFL,NFC,NFC East,,,,false,,,
 2022,Washington,Washington Commanders,NFL,NFC,NFC East,,,LAST,false,,,
 2023,Washington,Washington Commanders,NFL,NFC,NFC East,,,LAST,false,,,
-2024,Washington,Washington Commanders,NFL,NFC,NFC East,,,,true,2,,
+2024,Washington,Washington Commanders,NFL,NFC,NFC East,,,,true,2,false,false

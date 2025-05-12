@@ -53,7 +53,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1984,Detroit,Detroit Lions,NFL,NFC,NFC Central,,,,false,,,
 1985,Detroit,Detroit Lions,NFL,NFC,NFC Central,,,,false,,,
 1986,Detroit,Detroit Lions,NFL,NFC,NFC Central,,,,false,,,
-1987,Detroit,Detroit Lions,NFL,NFC,NFC Central,,,LAST,false,,,
+1987,Detroit,Detroit Lions,NFL,NFC,NFC Central,,,LAST_TIED,false,,,
 1988,Detroit,Detroit Lions,NFL,NFC,NFC Central,,,LAST_TIED,false,,,
 1989,Detroit,Detroit Lions,NFL,NFC,NFC Central,,,,false,,,
 1990,Detroit,Detroit Lions,NFL,NFC,NFC Central,,,LAST_TIED,false,,,
@@ -90,4 +90,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Detroit,Detroit Lions,NFL,NFC,NFC North,,LAST,LAST,false,,,
 2022,Detroit,Detroit Lions,NFL,NFC,NFC North,,,,false,,,
 2023,Detroit,Detroit Lions,NFL,NFC,NFC North,,FIRST_TIED,FIRST,true,2,false,false
-2024,Detroit,Detroit Lions,NFL,NFC,NFC North,FIRST_TIED,FIRST,FIRST,true,0,,
+2024,Detroit,Detroit Lions,NFL,NFC,NFC North,FIRST_TIED,FIRST,FIRST,true,0,false,false

@@ -1,0 +1,15 @@
+{
+    "id": 185,
+    "name": "Buffalo Bills",
+    "label": "bills",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Buffalo Bills",
+            "metro_id": "buffalo",
+            "league_id": "nfl",
+            "start_year": 1966
+        }
+    ]
+}

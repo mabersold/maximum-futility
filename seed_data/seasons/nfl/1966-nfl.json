@@ -1,0 +1,95 @@
+{
+    "name": "1966 NFL Season",
+    "start_year": 1966,
+    "end_year": 1966,
+    "league": "nfl",
+    "total_major_divisions": 4,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "NFL East",
+                "results": [
+                    {"label": "cowboys", "wins": 10, "losses": 3, "ties": 1},
+                    {"label": "browns", "wins": 9, "losses": 5, "ties": 0},
+                    {"label": "eagles", "wins": 9, "losses": 5, "ties": 0},
+                    {"label": "cardinals", "wins": 8, "losses": 5, "ties": 1},
+                    {"label": "redskins", "wins": 7, "losses": 7, "ties": 0},
+                    {"label": "steelers", "wins": 5, "losses": 8, "ties": 1},
+                    {"label": "falcons", "wins": 3, "losses": 11, "ties": 0},
+                    {"label": "giants", "wins": 1, "losses": 12, "ties": 1}
+                ]
+            },
+            {
+                "name": "NFL West",
+                "results": [
+                    {"label": "packers", "wins": 12, "losses": 2, "ties": 0},
+                    {"label": "colts", "wins": 9, "losses": 5, "ties": 0},
+                    {"label": "rams", "wins": 8, "losses": 6, "ties": 0},
+                    {"label": "49ers", "wins": 6, "losses": 6, "ties": 2},
+                    {"label": "bears", "wins": 5, "losses": 7, "ties": 2},
+                    {"label": "lions", "wins": 4, "losses": 9, "ties": 1},
+                    {"label": "vikings", "wins": 4, "losses": 9, "ties": 1}
+                ]
+            },
+            {
+                "name": "AFL East",
+                "results": [
+                    {"label": "bills", "wins": 9, "losses": 4, "ties": 1},
+                    {"label": "patriots", "wins": 8, "losses": 4, "ties": 2},
+                    {"label": "jets", "wins": 6, "losses": 6, "ties": 2},
+                    {"label": "dolphins", "wins": 3, "losses": 11, "ties": 0},
+                    {"label": "oilers", "wins": 3, "losses": 11, "ties": 0}
+                ]
+            },
+            {
+                "name": "AFL West",
+                "results": [
+                    {"label": "chiefs", "wins": 11, "losses": 2, "ties": 1},
+                    {"label": "raiders", "wins": 8, "losses": 5, "ties": 1},
+                    {"label": "chargers", "wins": 7, "losses": 6, "ties": 1},
+                    {"label": "broncos", "wins": 4, "losses": 10, "ties": 0}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "cowboys"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "chiefs"
+                        },
+                        "loser": {
+                            "label": "bills"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "chiefs"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

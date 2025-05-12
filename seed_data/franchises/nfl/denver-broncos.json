@@ -1,0 +1,15 @@
+{
+    "id": 193,
+    "name": "Denver Broncos",
+    "label": "broncos",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Denver Broncos",
+            "metro_id": "denver",
+            "league_id": "nfl",
+            "start_year": 1966
+        }
+    ]
+}

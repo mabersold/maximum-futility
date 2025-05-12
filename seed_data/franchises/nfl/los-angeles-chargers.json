@@ -1,0 +1,22 @@
+{
+    "id": 192,
+    "name": "Los Angeles Chargers",
+    "label": "chargers",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "San Diego Chargers",
+            "metro_id": "san-diego",
+            "league_id": "nfl",
+            "start_year": 1966,
+            "end_year": 2016
+        },
+        {
+            "team_name": "Los Angeles Chargers",
+            "metro_id": "los-angeles",
+            "league_id": "nfl",
+            "start_year": 2017
+        }
+    ]
+}

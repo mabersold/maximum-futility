@@ -10,7 +10,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1941,Pittsburgh,Pittsburgh Steelers,NFL,East,,LAST,LAST,,false,,,
 1942,Pittsburgh,Pittsburgh Steelers,NFL,East,,,,,false,,,
 1943,Pittsburgh,Steagles,NFL,East,,,,,false,,,
-1944,Pittsburgh,Card-Pitt,NFL,West,,LAST,LAST,,false,,,
+1944,Pittsburgh,Card-Pitt,NFL,West,,LAST_TIED,LAST,,false,,,
 1945,Pittsburgh,Pittsburgh Steelers,NFL,East,,,LAST,,false,,,
 1946,Pittsburgh,Pittsburgh Steelers,NFL,East,,,,,false,,,
 1947,Pittsburgh,Pittsburgh Steelers,NFL,East,,,FIRST_TIED,,true,0,false,false
@@ -90,4 +90,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Pittsburgh,Pittsburgh Steelers,NFL,AFC,AFC North,,,,true,0,false,false
 2022,Pittsburgh,Pittsburgh Steelers,NFL,AFC,AFC North,,,,false,,,
 2023,Pittsburgh,Pittsburgh Steelers,NFL,AFC,AFC North,,,,true,0,false,false
-2024,Pittsburgh,Pittsburgh Steelers,NFL,AFC,AFC North,,,,true,0,,
+2024,Pittsburgh,Pittsburgh Steelers,NFL,AFC,AFC North,,,,true,0,false,false

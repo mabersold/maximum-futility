@@ -1,0 +1,15 @@
+{
+    "id": 197,
+    "name": "Tampa Bay Buccaneers",
+    "label": "buccaneers",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Tampa Bay Buccaneers",
+            "metro_id": "tampa-bay",
+            "league_id": "nfl",
+            "start_year": 1976
+        }
+    ]
+}

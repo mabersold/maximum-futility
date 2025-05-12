@@ -1,7 +1,7 @@
 season,metro,team_name,league,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
 1966,San Francisco Bay,Oakland Raiders,NFL,AFL West,,,,,false,,,
 1967,San Francisco Bay,Oakland Raiders,NFL,AFL West,,FIRST,FIRST,,true,1,true,false
-1968,San Francisco Bay,Oakland Raiders,NFL,AFL West,,,FIRST_TIED,,true,1,false,false
+1968,San Francisco Bay,Oakland Raiders,NFL,AFL West,,FIRST_TIED,FIRST_TIED,,true,1,false,false
 1969,San Francisco Bay,Oakland Raiders,NFL,AFL West,,FIRST,FIRST,,true,1,false,false
 1970,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,,,FIRST,true,1,false,false
 1971,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,,,,false,,,
@@ -36,7 +36,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2000,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,,,FIRST,true,1,false,false
 2001,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,,,FIRST,true,1,false,false
 2002,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,,FIRST_TIED,FIRST,true,2,true,false
-2003,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,LAST_TIED,LAST_TIED,,false,,,
+2003,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,LAST_TIED,LAST_TIED,LAST_TIED,false,,,
 2004,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,,,LAST,false,,,
 2005,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,,,LAST,false,,,
 2006,San Francisco Bay,Oakland Raiders,NFL,AFC,AFC West,LAST,LAST,LAST,false,,,

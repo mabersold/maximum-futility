@@ -1,0 +1,16 @@
+{
+    "id": 187,
+    "name": "New York Jets",
+    "label": "jets-nfl",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "New York Jets",
+            "metro_id": "new-york",
+            "label": "jets",
+            "league_id": "nfl",
+            "start_year": 1966
+        }
+    ]
+}

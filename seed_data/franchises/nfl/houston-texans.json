@@ -1,0 +1,15 @@
+{
+    "id": 201,
+    "name": "Houston Texans",
+    "label": "texans",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Houston Texans",
+            "metro_id": "houston",
+            "league_id": "nfl",
+            "start_year": 2002
+        }
+    ]
+}

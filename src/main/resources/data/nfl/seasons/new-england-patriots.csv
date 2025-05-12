@@ -49,7 +49,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2013,Boston,New England Patriots,NFL,AFC,AFC East,,,FIRST,true,1,false,false
 2014,Boston,New England Patriots,NFL,AFC,AFC East,FIRST_TIED,FIRST_TIED,FIRST,true,3,true,true
 2015,Boston,New England Patriots,NFL,AFC,AFC East,,FIRST_TIED,FIRST,true,1,false,false
-2016,Boston,New England Patriots,NFL,AFC,AFC East,FIRST_TIED,FIRST,FIRST,true,3,true,true
+2016,Boston,New England Patriots,NFL,AFC,AFC East,FIRST,FIRST,FIRST,true,3,true,true
 2017,Boston,New England Patriots,NFL,AFC,AFC East,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
 2018,Boston,New England Patriots,NFL,AFC,AFC East,,,FIRST,true,3,true,true
 2019,Boston,New England Patriots,NFL,AFC,AFC East,,,FIRST,true,0,false,false

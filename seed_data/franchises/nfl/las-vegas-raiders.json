@@ -1,0 +1,36 @@
+{
+    "id": 191,
+    "name": "Las Vegas Raiders",
+    "label": "raiders",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Oakland Raiders",
+            "metro_id": "san-francisco-bay",
+            "league_id": "nfl",
+            "start_year": 1966,
+            "end_year": 1981
+        },
+        {
+            "team_name": "Los Angeles Raiders",
+            "metro_id": "los-angeles",
+            "league_id": "nfl",
+            "start_year": 1982,
+            "end_year": 1994
+        },
+        {
+            "team_name": "Oakland Raiders",
+            "metro_id": "san-francisco-bay",
+            "league_id": "nfl",
+            "start_year": 1995,
+            "end_year": 2019
+        },
+        {
+            "team_name": "Las Vegas Raiders",
+            "metro_id": "las-vegas",
+            "league_id": "nfl",
+            "start_year": 2020
+        }
+    ]
+}

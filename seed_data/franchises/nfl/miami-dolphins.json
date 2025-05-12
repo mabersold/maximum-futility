@@ -1,0 +1,15 @@
+{
+    "id": 188,
+    "name": "Miami Dolphins",
+    "label": "dolphins",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Miami Dolphins",
+            "metro_id": "miami",
+            "league_id": "nfl",
+            "start_year": 1966
+        }
+    ]
+}

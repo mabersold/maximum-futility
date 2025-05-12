@@ -1,0 +1,22 @@
+{
+    "id": 186,
+    "name": "New England Patriots",
+    "label": "patriots",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Boston Patriots",
+            "metro_id": "boston",
+            "league_id": "nfl",
+            "start_year": 1966,
+            "end_year": 1970
+        },
+        {
+            "team_name": "New England Patriots",
+            "metro_id": "boston",
+            "league_id": "nfl",
+            "start_year": 1971
+        }
+    ]
+}

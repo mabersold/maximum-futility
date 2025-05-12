@@ -1,0 +1,15 @@
+{
+    "id": 196,
+    "name": "Seattle Seahawks",
+    "label": "seahawks",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Seattle Seahawks",
+            "metro_id": "seattle",
+            "league_id": "nfl",
+            "start_year": 1976
+        }
+    ]
+}

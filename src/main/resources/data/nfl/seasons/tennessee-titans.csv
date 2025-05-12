@@ -36,7 +36,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2000,Nashville,Tennessee Titans,NFL,AFC,AFC Central,FIRST,FIRST,FIRST,true,0,false,false
 2001,Nashville,Tennessee Titans,NFL,AFC,AFC Central,,,,false,,,
 2002,Nashville,Tennessee Titans,NFL,AFC,AFC South,,FIRST_TIED,FIRST,true,1,false,false
-2003,Nashville,Tennessee Titans,NFL,AFC,AFC South,,,,true,1,false,false
+2003,Nashville,Tennessee Titans,NFL,AFC,AFC South,,,FIRST_TIED,true,1,false,false
 2004,Nashville,Tennessee Titans,NFL,AFC,AFC South,,,LAST,false,,,
 2005,Nashville,Tennessee Titans,NFL,AFC,AFC South,,,,false,,,
 2006,Nashville,Tennessee Titans,NFL,AFC,AFC South,,,,false,,,

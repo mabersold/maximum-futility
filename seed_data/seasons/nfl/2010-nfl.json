@@ -1,0 +1,207 @@
+{
+    "name": "2010 NFL Season",
+    "start_year": 2010,
+    "end_year": 2010,
+    "league": "nfl",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 8,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AFC",
+                "sub_groups": [
+                    {
+                        "name": "AFC East",
+                        "results": [
+                            {"label": "patriots", "wins": 14, "losses": 2, "ties": 0},
+                            {"label": "jets", "wins": 11, "losses": 5, "ties": 0},
+                            {"label": "dolphins", "wins": 7, "losses": 9, "ties": 0},
+                            {"label": "bills", "wins": 4, "losses": 12, "ties": 0}
+                        ]
+                    },
+                    {
+                        "name": "AFC North",
+                        "results": [
+                            {"label": "steelers", "wins": 12, "losses": 4, "ties": 0},
+                            {"label": "ravens", "wins": 12, "losses": 4, "ties": 0},
+                            {"label": "browns", "wins": 5, "losses": 11, "ties": 0},
+                            {"label": "bengals", "wins": 4, "losses": 12, "ties": 0}
+                        ]
+                    },
+                    {
+                        "name": "AFC South",
+                        "results": [
+                            {"label": "colts", "wins": 10, "losses": 6, "ties": 0},
+                            {"label": "jaguars", "wins": 8, "losses": 8, "ties": 0},
+                            {"label": "texans", "wins": 6, "losses": 10, "ties": 0},
+                            {"label": "titans", "wins": 6, "losses": 10, "ties": 0}
+                        ]
+                    },
+                    {
+                        "name": "AFC West",
+                        "results": [
+                            {"label": "chiefs", "wins": 10, "losses": 6, "ties": 0},
+                            {"label": "chargers", "wins": 9, "losses": 7, "ties": 0},
+                            {"label": "raiders", "wins": 8, "losses": 8, "ties": 0},
+                            {"label": "broncos", "wins": 4, "losses": 12, "ties": 0}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NFC",
+                "sub_groups": [
+                    {
+                        "name": "NFC East",
+                        "results": [
+                            {"label": "eagles", "wins": 10, "losses": 6, "ties": 0},
+                            {"label": "giants", "wins": 10, "losses": 6, "ties": 0},
+                            {"label": "cowboys", "wins": 6, "losses": 10, "ties": 0},
+                            {"label": "redskins", "wins": 6, "losses": 10, "ties": 0}
+                        ]
+                    },
+                    {
+                        "name": "NFC North",
+                        "results": [
+                            {"label": "bears", "wins": 11, "losses": 5, "ties": 0},
+                            {"label": "packers", "wins": 10, "losses": 6, "ties": 0},
+                            {"label": "lions", "wins": 6, "losses": 10, "ties": 0},
+                            {"label": "vikings", "wins": 6, "losses": 10, "ties": 0}
+                        ]
+                    },
+                    {
+                        "name": "NFC South",
+                        "results": [
+                            {"label": "falcons", "wins": 13, "losses": 3, "ties": 0},
+                            {"label": "saints", "wins": 11, "losses": 5, "ties": 0},
+                            {"label": "buccaneers", "wins": 10, "losses": 6, "ties": 0},
+                            {"label": "panthers", "wins": 2, "losses": 14, "ties": 0}
+                        ]
+                    },
+                    {
+                        "name": "NFC West",
+                        "results": [
+                            {"label": "seahawks", "wins": 7, "losses": 9, "ties": 0},
+                            {"label": "rams", "wins": 7, "losses": 9, "ties": 0},
+                            {"label": "49ers", "wins": 6, "losses": 10, "ties": 0},
+                            {"label": "cardinals", "wins": 5, "losses": 11, "ties": 0}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "jets"
+                        },
+                        "loser": {
+                            "label": "colts"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "seahawks"
+                        },
+                        "loser": {
+                            "label": "saints"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "eagles"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "ravens"
+                        },
+                        "loser": {
+                            "label": "chiefs"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "steelers"
+                        },
+                        "loser": {
+                            "label": "ravens"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "falcons"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "bears"
+                        },
+                        "loser": {
+                            "label": "seahawks"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "jets"
+                        },
+                        "loser": {
+                            "label": "patriots"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "steelers"
+                        },
+                        "loser": {
+                            "label": "jets"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "bears"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "packers"
+                        },
+                        "loser": {
+                            "label": "steelers"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

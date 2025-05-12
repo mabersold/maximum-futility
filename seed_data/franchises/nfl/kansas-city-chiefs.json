@@ -1,0 +1,15 @@
+{
+    "id": 190,
+    "name": "Kansas City Chiefs",
+    "label": "chiefs",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Kansas City Chiefs",
+            "metro_id": "kansas-city",
+            "league_id": "nfl",
+            "start_year": 1966
+        }
+    ]
+}

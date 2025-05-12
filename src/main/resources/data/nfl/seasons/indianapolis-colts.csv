@@ -13,8 +13,8 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 1964,Baltimore,Baltimore Colts,NFL,West,,FIRST,FIRST,,true,0,true,false
 1965,Baltimore,Baltimore Colts,NFL,West,,,FIRST_TIED,,true,0,false,false
 1966,Baltimore,Baltimore Colts,NFL,NFL West,,,,,false,,,
-1967,Baltimore,Baltimore Colts,NFL,NFL West,Coastal,,,,false,,,
-1968,Baltimore,Baltimore Colts,NFL,NFL West,Coastal,FIRST,FIRST,FIRST,true,2,true,false
+1967,Baltimore,Baltimore Colts,NFL,NFL West,Coastal,,FIRST_TIED,FIRST_TIED,false,,,
+1968,Baltimore,Baltimore Colts,NFL,NFL West,Coastal,,FIRST,FIRST,true,2,true,false
 1969,Baltimore,Baltimore Colts,NFL,NFL West,Coastal,,,,false,,,
 1970,Baltimore,Baltimore Colts,NFL,AFC,AFC East,,FIRST,FIRST,true,3,true,true
 1971,Baltimore,Baltimore Colts,NFL,AFC,AFC East,,,,true,1,false,false
@@ -49,7 +49,7 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2000,Indianapolis,Indianapolis Colts,NFL,AFC,AFC East,,,,true,0,false,false
 2001,Indianapolis,Indianapolis Colts,NFL,AFC,AFC East,,,,false,,,
 2002,Indianapolis,Indianapolis Colts,NFL,AFC,AFC South,,,,true,0,false,false
-2003,Indianapolis,Indianapolis Colts,NFL,AFC,AFC South,,,FIRST,true,2,false,false
+2003,Indianapolis,Indianapolis Colts,NFL,AFC,AFC South,,,FIRST_TIED,true,2,false,false
 2004,Indianapolis,Indianapolis Colts,NFL,AFC,AFC South,,,FIRST,true,1,false,false
 2005,Indianapolis,Indianapolis Colts,NFL,AFC,AFC South,FIRST,FIRST,FIRST,true,0,false,false
 2006,Indianapolis,Indianapolis Colts,NFL,AFC,AFC South,,,FIRST,true,4,true,true

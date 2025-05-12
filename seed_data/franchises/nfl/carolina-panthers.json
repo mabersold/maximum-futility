@@ -1,0 +1,16 @@
+{
+    "id": 199,
+    "name": "Carolina Panthers",
+    "label": "panthers-nfl",
+    "is_defunct": false,
+    "league_id": "nfl",
+    "chapters": [
+        {
+            "team_name": "Carolina Panthers",
+            "metro_id": "charlotte",
+            "label": "panthers",
+            "league_id": "nfl",
+            "start_year": 1995
+        }
+    ]
+}

@@ -47,3 +47,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,false,,,
 2022,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,false,,,
 2023,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,true,2,false,false
+2024,Indianapolis,Indiana Pacers,NBA,Eastern,Central,,,,true,3,true,false

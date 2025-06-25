@@ -74,3 +74,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,,FIRST_TIED,true,1,false,false
 2022,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,,,true,1,false,false
 2023,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,,,true,0,false,false
+2024,Philadelphia,Philadelphia 76ers,NBA,Eastern,Atlantic,,,LAST,false,,,

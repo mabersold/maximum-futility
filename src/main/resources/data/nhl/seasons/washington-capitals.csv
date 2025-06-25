@@ -48,3 +48,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Washington,Washington Capitals,NHL,Eastern,Metropolitan,,,,true,0,false,false
 2022,Washington,Washington Capitals,NHL,Eastern,Metropolitan,,,,false,,,
 2023,Washington,Washington Capitals,NHL,Eastern,Metropolitan,,,,true,0,false,false
+2024,Washington,Washington Capitals,NHL,Eastern,Metropolitan,,FIRST,FIRST,true,1,false,false

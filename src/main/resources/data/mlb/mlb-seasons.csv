@@ -1,6 +1,6 @@
 name,start_year,end_year,league,total_major_divisions,total_minor_divisions,postseason_rounds
 1903 MLB Season,1903,1903,MLB,2,0,1
-1904 MLB Season,1904,1904,MLB,2,0,
+1904 MLB Season,1904,1904,MLB,2,0,0
 1905 MLB Season,1905,1905,MLB,2,0,1
 1906 MLB Season,1906,1906,MLB,2,0,1
 1907 MLB Season,1907,1907,MLB,2,0,1
@@ -90,7 +90,7 @@ name,start_year,end_year,league,total_major_divisions,total_minor_divisions,post
 1991 MLB Season,1991,1991,MLB,2,4,2
 1992 MLB Season,1992,1992,MLB,2,4,2
 1993 MLB Season,1993,1993,MLB,2,4,2
-1994 MLB Season,1994,1994,MLB,2,6,
+1994 MLB Season,1994,1994,MLB,2,6,0
 1995 MLB Season,1995,1995,MLB,2,6,3
 1996 MLB Season,1996,1996,MLB,2,6,3
 1997 MLB Season,1997,1997,MLB,2,6,3

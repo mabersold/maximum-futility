@@ -55,3 +55,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,FIRST,true,1,false,false
 2022,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,FIRST,FIRST,FIRST,true,0,false,false
 2023,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,FIRST,true,0,false,false
+2024,Milwaukee,Milwaukee Bucks,NBA,Eastern,Central,,,,true,0,false,false

@@ -47,3 +47,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Denver,Denver Nuggets,NBA,Western,Northwest,,,,true,0,false,false
 2022,Denver,Denver Nuggets,NBA,Western,Northwest,,FIRST,FIRST,true,4,true,true
 2023,Denver,Denver Nuggets,NBA,Western,Northwest,,FIRST_TIED,FIRST_TIED,true,1,false,false
+2024,Denver,Denver Nuggets,NBA,Western,Northwest,,,,true,1,false,false

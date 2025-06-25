@@ -75,3 +75,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Sacramento,Sacramento Kings,NBA,Western,Pacific,,,LAST,false,,,
 2022,Sacramento,Sacramento Kings,NBA,Western,Pacific,,,FIRST,true,0,false,false
 2023,Sacramento,Sacramento Kings,NBA,Western,Pacific,,,LAST_TIED,false,,,
+2024,Sacramento,Sacramento Kings,NBA,Western,Pacific,,,,false,,,

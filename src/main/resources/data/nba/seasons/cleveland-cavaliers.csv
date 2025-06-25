@@ -53,3 +53,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Cleveland,Cleveland Cavaliers,NBA,Eastern,Central,,,,false,,,
 2022,Cleveland,Cleveland Cavaliers,NBA,Eastern,Central,,,,true,0,false,false
 2023,Cleveland,Cleveland Cavaliers,NBA,Eastern,Central,,,,true,1,false,false
+2024,Cleveland,Cleveland Cavaliers,NBA,Eastern,Central,,FIRST,FIRST,true,1,false,false

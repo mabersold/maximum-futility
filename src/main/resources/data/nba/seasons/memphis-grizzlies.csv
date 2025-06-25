@@ -28,3 +28,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,FIRST,true,1,false,false
 2022,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,FIRST,true,0,false,false
 2023,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,,false,,,
+2024,Memphis,Memphis Grizzlies,NBA,Western,Southwest,,,,true,0,false,false

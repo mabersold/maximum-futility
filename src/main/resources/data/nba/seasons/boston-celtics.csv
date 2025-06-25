@@ -77,3 +77,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,FIRST_TIED,true,3,true,false
 2022,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,FIRST,true,2,false,false
 2023,Boston,Boston Celtics,NBA,Eastern,Atlantic,FIRST,FIRST,FIRST,true,4,true,true
+2024,Boston,Boston Celtics,NBA,Eastern,Atlantic,,,FIRST,true,1,false,false

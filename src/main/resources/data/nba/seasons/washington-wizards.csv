@@ -62,3 +62,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Washington,Washington Wizards,NBA,Eastern,Southeast,,,,false,,,
 2022,Washington,Washington Wizards,NBA,Eastern,Southeast,,,,false,,,
 2023,Washington,Washington Wizards,NBA,Eastern,Southeast,,,LAST,false,,,
+2024,Washington,Washington Wizards,NBA,Eastern,Southeast,,LAST,LAST,false,,,

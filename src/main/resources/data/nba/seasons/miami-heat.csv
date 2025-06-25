@@ -35,3 +35,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Miami,Miami Heat,NBA,Eastern,Southeast,,FIRST,FIRST,true,2,false,false
 2022,Miami,Miami Heat,NBA,Eastern,Southeast,,,FIRST,true,3,true,false
 2023,Miami,Miami Heat,NBA,Eastern,Southeast,,,,true,0,false,false
+2024,Miami,Miami Heat,NBA,Eastern,Southeast,,,,true,0,false,false

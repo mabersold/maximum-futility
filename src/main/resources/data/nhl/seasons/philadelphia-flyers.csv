@@ -55,3 +55,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,,LAST,false,,,
 2022,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,,,false,,,
 2023,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,,,false,,,
+2024,Philadelphia,Philadelphia Flyers,NHL,Eastern,Metropolitan,,LAST_TIED,LAST,false,,,

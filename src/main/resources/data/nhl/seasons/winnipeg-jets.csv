@@ -23,3 +23,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Winnipeg,Winnipeg Jets,NHL,Western,Central,,,,false,,,
 2022,Winnipeg,Winnipeg Jets,NHL,Western,Central,,,,true,0,false,false
 2023,Winnipeg,Winnipeg Jets,NHL,Western,Central,,,,true,0,false,false
+2024,Winnipeg,Winnipeg Jets,NHL,Western,Central,FIRST,FIRST,FIRST,true,1,false,false

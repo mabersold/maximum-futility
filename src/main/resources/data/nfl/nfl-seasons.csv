@@ -7,13 +7,13 @@ name,start_year,end_year,league,total_major_divisions,total_minor_divisions,post
 1938 NFL Season,1938,1938,NFL,2,0,1
 1939 NFL Season,1939,1939,NFL,2,0,1
 1940 NFL Season,1940,1940,NFL,2,0,1
-1941 NFL Season,1941,1941,NFL,2,0,1
+1941 NFL Season,1941,1941,NFL,2,0,2
 1942 NFL Season,1942,1942,NFL,2,0,1
-1943 NFL Season,1943,1943,NFL,2,0,1
+1943 NFL Season,1943,1943,NFL,2,0,2
 1944 NFL Season,1944,1944,NFL,2,0,1
 1945 NFL Season,1945,1945,NFL,2,0,1
 1946 NFL Season,1946,1946,NFL,2,0,1
-1947 NFL Season,1947,1947,NFL,2,0,1
+1947 NFL Season,1947,1947,NFL,2,0,2
 1948 NFL Season,1948,1948,NFL,2,0,1
 1949 NFL Season,1949,1949,NFL,2,0,1
 1950 NFL Season,1950,1950,NFL,2,0,2
@@ -24,7 +24,7 @@ name,start_year,end_year,league,total_major_divisions,total_minor_divisions,post
 1955 NFL Season,1955,1955,NFL,2,0,1
 1956 NFL Season,1956,1956,NFL,2,0,1
 1957 NFL Season,1957,1957,NFL,2,0,2
-1958 NFL Season,1958,1958,NFL,2,0,1
+1958 NFL Season,1958,1958,NFL,2,0,2
 1959 NFL Season,1959,1959,NFL,2,0,1
 1960 NFL Season,1960,1960,NFL,2,0,1
 1961 NFL Season,1961,1961,NFL,2,0,1
@@ -32,7 +32,7 @@ name,start_year,end_year,league,total_major_divisions,total_minor_divisions,post
 1963 NFL Season,1963,1963,NFL,2,0,1
 1964 NFL Season,1964,1964,NFL,2,0,1
 1965 NFL Season,1965,1965,NFL,2,0,2
-1966 NFL Season,1966,1966,NFL,4,0,3
+1966 NFL Season,1966,1966,NFL,4,0,2
 1967 NFL Season,1967,1967,NFL,4,4,3
 1968 NFL Season,1968,1968,NFL,4,4,3
 1969 NFL Season,1969,1969,NFL,4,4,3

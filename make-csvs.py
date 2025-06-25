@@ -16,7 +16,7 @@ def get_leagues():
         next(csv_reader)
         for row in csv_reader:
             leagues.append({"name": row[1], "sport": row[2], "label": row[3]})
-            league_reverse_lookup[row[3]] = row[0]
+            league_reverse_lookup[row[3]] = int(row[0])
     
     return league_reverse_lookup
 
@@ -27,7 +27,7 @@ def get_metros():
         next(csv_reader)
         for row in csv_reader:
             # metros.append({"name": row[1], "label": row[2]})
-            metros_reverse_lookup[row[2]] = {'id': row[0], 'name': row[1]}
+            metros_reverse_lookup[row[2]] = {'id': int(row[0]), 'name': row[1]}
     
     return metros_reverse_lookup
 
@@ -46,13 +46,13 @@ def get_franchises(leagues: dict, metros: dict):
                 content = f.read()
 
             franchise_dict = json.loads(content)
-            franchise_dict['league_id'] = int(leagues[league])
+            franchise_dict['league_id'] = leagues[league]
             for c in franchise_dict.get('chapters', []):
                 league = c['league_id']
-                c['league_id'] = int(leagues.get(league))
+                c['league_id'] = leagues.get(league)
                 c['league_name'] = league.upper()
                 metro = metros.get(c['metro_id'])
-                c['metro_id'] = int(metro['id'])
+                c['metro_id'] = metro['id']
                 c['metro_name'] = metro['name']
             franchises.append(franchise_dict)
     
@@ -342,6 +342,29 @@ def get_postseason_results(postseason: dict, league: str, year: int):
 
     return results
 
+def write_individual_seasons(leagues: dict, seasons: list):
+    # Temporary function, to be removed when I revamp which CSVs are used
+    for league in leagues:
+        league_id = leagues.get(league)
+        filtered_seasons = [s for s in seasons if s['league_id'] == league_id]
+
+        with open(f'{csv_base_directory}/{league}/{league}-seasons.csv', 'w', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file, lineterminator='\n')
+            writer.writerow(['name', 'start_year', 'end_year', 'league', 'total_major_divisions', 'total_minor_divisions', 'postseason_rounds'])
+            rows = [
+                [
+                    s['name'],
+                    s['start_year'],
+                    s['end_year'],
+                    str(s.get('league', '')).upper(),
+                    s['total_major_divisions'],
+                    s['total_minor_divisions'],
+                    s['postseason_rounds']
+                ]
+                for s in filtered_seasons
+            ]
+            writer.writerows(rows)
+
 def write_individual_franchises(franchises: list, franchise_seasons: list):
     # Temporary function, to be removed when I revamp which CSVs are used
     for f in franchises:
@@ -388,6 +411,7 @@ seasons = get_seasons(leagues)
 franchise_seasons = get_franchise_seasons(seasons, franchises)
 write_franchises(leagues)
 write_seasons(leagues)
+write_individual_seasons(leagues, seasons)
 write_franchise_seasons(franchise_seasons)
 write_individual_franchises(franchises, franchise_seasons)
 

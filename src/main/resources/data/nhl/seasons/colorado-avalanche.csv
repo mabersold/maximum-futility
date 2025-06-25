@@ -43,3 +43,4 @@ season,metro,team_name,league,conference,division,league_position,conference_pos
 2021,Denver,Colorado Avalanche,NHL,Western,Central,,FIRST,FIRST,true,4,true,true
 2022,Denver,Colorado Avalanche,NHL,Western,Central,,,FIRST,true,0,false,false
 2023,Denver,Colorado Avalanche,NHL,Western,Central,,,,true,1,false,false
+2024,Denver,Colorado Avalanche,NHL,Western,Central,,,,true,0,false,false

@@ -1,0 +1,93 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Maximum Futility</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.2/dist/bootstrap-table.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <!-- noUiSlider -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.8.1/nouislider.css" integrity="sha512-MKxcSu/LDtbIYHBNAWUQwfB3iVoG9xeMCm32QV5hZ/9lFaQZJVaXfz9aFa0IZExWzCpm7OWvp9zq9gVip/nLMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.8.1/nouislider.js" integrity="sha512-vUe4qCEuRXudyXW8rfBk5jEB/j27B5g8N9Wa1WuzpQ6fF/9O2Ucn8cKOS4Q5/kO2Peewbmqj1ePNJmufnLNFTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- My own static assets -->
+        <link rel="stylesheet" href="css/base.css">
+        <script src="javascript/metro_report.js"></script>
+
+        <!-- Datatables -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.bootstrap5.min.css" />
+        <script src="https://cdn.datatables.net/2.3.2/js/dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/2.3.2/css/dataTables.bootstrap5.min.css"></script>
+
+        <script>
+            window.yearRange = {
+              startYear: {{options.yearRange.startYear}},
+              endYear: {{options.yearRange.endYear}}
+            };
+        </script>
+    </head>
+
+    <body>
+        <div class="container-fluid margin-container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 main-container">
+                    <h1>Maximum Futility</h1>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="metric-type">Select Metric</label>
+                            <select class="form-control" id="metric-type" onchange="fetchMetroReport()">
+                                {{#options}}
+                                    {{#metrics}}
+                                        <option value="{{name}}">{{display_name}}</option>
+                                    {{/metrics}}
+                                {{/options}}
+                            </select>
+                        </div>
+                        <div>
+                            {{#options}}
+                                {{#leagues}}
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="league-{{label}}" value="{{id}}" checked onchange="fetchMetroReport()">
+                                        <label class="form-check-label" for="league-{{label}}">{{name}}</label>
+                                    </div>
+                                {{/leagues}}
+                            {{/options}}
+                        </div>
+                        <div>
+                            <div id="year-picker"></div>
+                            <span id="year-picker-value"></span>
+                        </div>
+                    </form>
+
+                    <div class="row">
+                        <table id="results" class="table table-striped text-left">
+                            <thead class="text-left">
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Name</th>
+                                    <th>Total</th>
+                                    <th>Opportunities</th>
+                                    <th>Rate</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Name</th>
+                                    <th>Total</th>
+                                    <th>Opportunities</th>
+                                    <th>Rate</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

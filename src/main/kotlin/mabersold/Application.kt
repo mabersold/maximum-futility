@@ -1,9 +1,11 @@
 package mabersold
 
+import com.github.mustachejava.DefaultMustacheFactory
 import io.ktor.serialization.kotlinx.json.json
 import io.ktor.server.application.Application
 import io.ktor.server.application.install
 import io.ktor.server.engine.embeddedServer
+import io.ktor.server.mustache.Mustache
 import io.ktor.server.netty.Netty
 import io.ktor.server.plugins.callloging.CallLogging
 import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
@@ -22,6 +24,7 @@ import mabersold.dao.MetroDAOImpl
 import mabersold.dao.SeasonDAO
 import mabersold.dao.SeasonDAOImpl
 import mabersold.plugins.configureRouting
+import mabersold.plugins.configureTemplating
 import mabersold.services.FranchiseDataService
 import mabersold.services.LeagueDataService
 import mabersold.services.MetroDataService
@@ -35,6 +38,9 @@ import org.koin.logger.slf4jLogger
 
 fun main(args: Array<String>) {
     embeddedServer(Netty, port = 8080, host = "0.0.0.0") {
+        install(Mustache) {
+            mustacheFactory = DefaultMustacheFactory("templates")
+        }
         main(args)
     }.start(wait = true)
 }
@@ -55,6 +61,7 @@ fun Application.main(args: Array<String>) {
     val createSchema = args.isNotEmpty() && args.contains("--createSchema")
     DatabaseFactory.init(createSchema)
     configureRouting()
+    configureTemplating()
 }
 
 val appModule = module {

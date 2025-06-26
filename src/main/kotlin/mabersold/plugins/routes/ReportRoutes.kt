@@ -52,7 +52,13 @@ fun Route.reportRoutes() {
             leagues,
             reportingDataService.getMetroReportByMetric(metricType, startYear, endYear, leagues)
                 .filter { minLastActiveYear == null || it.lastActiveYear >= minLastActiveYear}
-                .sortedWith(compareBy<MetroData>{ it.rate }.thenByDescending { it.opportunities })
+                .sortedWith(
+                    if (listOf(MetricType.WORST_OVERALL, MetricType.WORST_DIVISION, MetricType.WORST_CONFERENCE).contains(metricType)) {
+                        compareByDescending<MetroData>{ it.rate }.thenBy { it.opportunities }
+                    } else {
+                        compareBy<MetroData>{ it.rate }.thenByDescending { it.opportunities }
+                    }
+                )
         )
     }
 

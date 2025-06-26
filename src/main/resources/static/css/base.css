@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: navy;
+}
+.main-container {
+  background-color: white;
+  padding: 20px;
+}
+.margin-container {
+  background-color: navy;
+  padding: 20px;
+  height: 100%;
+}
+select.custom-select {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 4px;
+}

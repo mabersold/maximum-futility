@@ -51,6 +51,7 @@ dependencies {
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
     implementation("io.ktor:ktor-server-cors:$ktorVersion")
     implementation("io.ktor:ktor-server-call-logging:$ktorVersion")
+    implementation("io.ktor:ktor-server-mustache:$ktorVersion")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.9.25")
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktorVersion")
     testImplementation("io.mockk:mockk:1.13.12")

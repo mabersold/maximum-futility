@@ -26,7 +26,7 @@ fun Route.franchiseRoutes() {
 
     route("/franchises") {
         get {
-            val leagueId = call.request.queryParameters["leagueId"]?.toIntOrNull()
+            val leagueId = call.request.queryParameters["league_id"]?.toIntOrNull()
             if (leagueId == null) {
                 call.respond(HttpStatusCode.UnprocessableEntity, "League ID is required")
                 return@get
@@ -37,7 +37,7 @@ fun Route.franchiseRoutes() {
             call.respond(franchises)
         }
         get("/csv") {
-            val leagueId = call.request.queryParameters["leagueId"]?.toIntOrNull()
+            val leagueId = call.request.queryParameters["league_id"]?.toIntOrNull()
             if (leagueId == null) {
                 call.respond(HttpStatusCode.UnprocessableEntity, "League ID is required")
                 return@get

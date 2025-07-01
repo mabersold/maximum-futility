@@ -2,8 +2,6 @@ package mabersold.plugins
 
 import io.ktor.server.application.Application
 import io.ktor.server.application.call
-import io.ktor.server.http.content.static
-import io.ktor.server.http.content.staticFiles
 import io.ktor.server.http.content.staticResources
 import io.ktor.server.mustache.MustacheContent
 import io.ktor.server.response.respond

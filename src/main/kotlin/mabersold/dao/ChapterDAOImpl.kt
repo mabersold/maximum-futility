@@ -4,7 +4,9 @@ import mabersold.dao.DatabaseFactory.dbQuery
 import mabersold.models.db.Chapter
 import mabersold.models.db.Chapters
 import org.jetbrains.exposed.sql.ResultRow
+import org.jetbrains.exposed.sql.SqlExpressionBuilder.inList
 import org.jetbrains.exposed.sql.insert
+import org.jetbrains.exposed.sql.selectAll
 
 class ChapterDAOImpl : ChapterDAO {
     private fun resultRowToChapter(row: ResultRow) = Chapter(
@@ -41,5 +43,12 @@ class ChapterDAOImpl : ChapterDAO {
         }
 
         insertStatement.resultedValues?.singleOrNull()?.let(::resultRowToChapter)
+    }
+
+    override suspend fun findByFranchiseIds(franchiseIds: List<Int>): List<Chapter> = dbQuery {
+        if (franchiseIds.isEmpty()) return@dbQuery emptyList()
+
+        Chapters.selectAll().where { Chapters.franchiseId inList franchiseIds }
+            .map(::resultRowToChapter)
     }
 }

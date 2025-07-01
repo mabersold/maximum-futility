@@ -25,6 +25,7 @@ class FranchiseDAOImpl : FranchiseDAO {
         (Franchises innerJoin Leagues).select(
             Franchises.id,
             Franchises.name,
+            Franchises.label,
             Franchises.isDefunct,
             Franchises.leagueId,
             Leagues.name

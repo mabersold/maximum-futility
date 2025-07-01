@@ -3,6 +3,7 @@ package mabersold.services
 import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.test.runTest
+import mabersold.dao.ChapterDAO
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.LeagueDAO
 import mabersold.dao.SeasonDAO
@@ -40,7 +41,8 @@ class SeasonDataServiceTest {
     private val seasonDao = mockk<SeasonDAO>()
     private val franchiseSeasonDAO = mockk<FranchiseSeasonDAO>()
     private val leagueDao = mockk<LeagueDAO>()
-    private val seasonDataService = SeasonDataService(seasonDao, franchiseSeasonDAO, leagueDao)
+    private val chapterDAO = mockk<ChapterDAO>()
+    private val seasonDataService = SeasonDataService(seasonDao, franchiseSeasonDAO, leagueDao, chapterDAO)
 
     companion object {
         private const val SEASON_ID = 1

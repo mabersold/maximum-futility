@@ -13,4 +13,6 @@ interface ChapterDAO {
         conference: String?,
         division: String?
     ): Chapter?
+
+    suspend fun findByFranchiseIds(franchiseIds: List<Int>): List<Chapter>
 }

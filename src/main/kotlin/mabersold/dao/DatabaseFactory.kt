@@ -21,12 +21,15 @@ import org.jetbrains.exposed.sql.transactions.experimental.newSuspendedTransacti
 import org.jetbrains.exposed.sql.transactions.transaction
 
 object DatabaseFactory {
-    fun init(createSchema: Boolean = false) {
+    fun init(createSchema: Boolean = false, populate: Boolean = false) {
         val driverClassName = "org.h2.Driver"
         val jdbcURL = "jdbc:h2:file:./build/db"
         val database = Database.connect(jdbcURL, driverClassName)
         if (createSchema) {
             createSchema(database)
+        }
+        if (populate) {
+            populateDB(database)
         }
     }
 
@@ -36,7 +39,7 @@ object DatabaseFactory {
 
             // Drop all tables, if they exist
             tables.forEach { table ->
-                if(table.exists()) {
+                if (table.exists()) {
                     SchemaUtils.drop(table)
                 }
             }
@@ -45,7 +48,11 @@ object DatabaseFactory {
             tables.forEach { table ->
                 SchemaUtils.create(table)
             }
+        }
+    }
 
+    private fun populateDB(database: Database) {
+        transaction(database) {
             // Populate leagues and metro areas
             populate("data/leagues.csv", ::insertLeague)
             populate("data/metros.csv", ::insertMetro)

@@ -8,13 +8,9 @@ This is the result of a question I asked myself one day: "What is the most hopel
 
 Java 17 - if you are using IntelliJ, check under Settings -> Build, Execution & Deployment -> Build Tools -> Gradle. Check Gradle JVM to make sure you have a compatible Java SDK selected.  
 
-## Setup Instructions
+## Running the Application
 
-There are two components that need to run: the API and UI. The API is a KTOR-based application written in Kotlin and running on the Java virtual machine. The UI is a React-based application using Material UI.
-
-## Run the API
-
-Please note, the first time you run the API, you will need to generate and seed the database.
+Please note, the first time you run the application, you will need to generate and seed the database.
 
 ### From IntelliJ IDEA
 
@@ -37,17 +33,15 @@ Once built, direct your browser to http://localhost:8080 to see the output.
 
 You will need to generate the database schema with a command line argument. You only need to use this the first time you run the application, or if you ever want to reset the database.
 
-Run with the command line argument `--createSchema` to create the database schema. This will create an H2 database file called `maximum_futility.db` in the build directory.
+Run with the command line argument `--populate` to create the database schema and seed it with data. This will create an H2 database file called `maximum_futility.db` in the build directory.
 
-    gradle run --args="--createSchema"
+    gradle run --args="--populate"
 
-If you are running in IntelliJ IDEA, edit your run configuration and add `--createSchema` to your program arguments.
+If you are running in IntelliJ IDEA, edit your run configuration and add `--populate` to your program arguments.
 
-In addition to creating the database, this will also seed the database with the actual sports result data.
+This will create the schema and seed it with data. If you want, you can create the schema without seeding it by using the `--createDB` option instead.
 
-## Run the UI
-
-You will need node and npm to run the UI. Navigate to the directory `mf-web-ui` and run `npm install` to install dependencies. Then, to run the UI, just run `npm start`.
+After creating the schema, you can omit the command line argument in future runs.
 
 ## How Maximum Futility Works
 

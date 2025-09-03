@@ -183,6 +183,6 @@ class CreateSeasonRequestValidatorTest {
     }
 
     private fun readResource(): String {
-        return this::class.java.classLoader.getResource("CreateSeasonRequests.json")?.readText() ?: error ("Resource not found")
+        return this::class.java.classLoader.getResource("CreateSeasonValidationRequests.json")?.readText() ?: error ("Resource not found")
     }
 }

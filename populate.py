@@ -86,6 +86,7 @@ BASE_URL = 'localhost:8080'
 league_labels_to_ids = {}
 metro_labels_to_ids = {}
 franchise_labels_to_ids = {}
+franchise_lookups = []
 
 conn = http.client.HTTPConnection(BASE_URL)
 
@@ -96,12 +97,49 @@ def populate_dict_with_existing(object: str, dictionary_to_update: dict, query_p
         print(f"Failed to load {object} from API")
         return
 
-    response_body = json.loads(response.read())    
+    response_body = json.loads(response.read())
 
     for item in response_body:
         id = item['id']
         label = item['label']
         dictionary_to_update[label] = id
+
+def lookup_franchise_id(label: str, league: str, year: int):
+    label = label.lower()
+
+    matches = [team for team in franchise_lookups if team["name"].lower() == label and team["league"].lower() == league.lower()]
+
+    if len(matches) == 1:
+        return matches[0]["id"]
+    
+    for team in matches:
+        if team["start_year"] <= year and (team["end_year"] is None or team["end_year"] >= year):
+            return team["id"]
+
+    return None
+
+def replace_labels_in_standings(group: dict, league: str, year: int):
+    if group.get('sub_groups'):
+        for sub_group in group.get('sub_groups'):
+            replace_labels_in_standings(sub_group, league, year)
+    if group.get('results'):
+        for result in group.get('results'):
+            franchise_id = lookup_franchise_id(result.get('label'), league, year)
+            result['franchise_id'] = franchise_id
+            result.pop('label')
+
+def replace_labels_in_postseason(postseason: dict, league: str, year: int):
+    if not postseason:
+        return
+
+    for round in postseason.get('rounds'):
+        for matchup in round.get('matchups'):
+            winner_id = lookup_franchise_id(matchup.get('winner').get('label'), league, year)
+            loser_id = lookup_franchise_id(matchup.get('loser').get('label'), league, year)
+            matchup.get('winner')['franchise_id'] = winner_id
+            matchup.get('winner').pop('label')
+            matchup.get('loser')['franchise_id'] = loser_id
+            matchup.get('loser').pop('label')
 
 def populate_leagues():
     print("Populating Leagues...")
@@ -184,6 +222,16 @@ def populate_franchises():
 
             request_dict = json.loads(content)
 
+            # Store in franchise_lookups so we can convert labels to ids in seasons later on
+            for c in request_dict.get('chapters'):
+                franchise_lookups.append({
+                    "name": c.get("label", request_dict.get("label")),
+                    "league": c.get("league_id"),
+                    "start_year": c.get("start_year"),
+                    "end_year": c.get("end_year", None),
+                    "id": request_dict["id"]
+                })
+
             if franchise_labels_to_ids.get(request_dict.get('label')):
                 skipped += 1
                 continue
@@ -226,9 +274,84 @@ def populate_franchises():
             print(f'Skipped creating {skipped} franchises in league {league.get("name")} that already existed')
 
 def populate_seasons():
-    pass
+    print("Populating seasons")
+
+    seasons_directory = "seed_data/seasons"
+    season_lookups = {}
+
+    for league in leagues:
+        skipped = 0
+        
+        # Get existing seasons for this league
+        league_id = league_labels_to_ids.get(league.get('label'))
+        conn.request("GET", f"/api/v1/seasons?league_id={league_id}")
+        response = conn.getresponse()
+        if response.status != 200:
+            print(f"Failed to load {object} from API")
+            return
+
+        seasons_response = json.loads(response.read())
+        
+        # Populate season_lookups so we can quickly validate whether a season already exists
+        for season in seasons_response:
+            season_lookups[f"{season['league_id']}-{season['start_year']}"] = season['name']
+            pass
+
+        path = f"{seasons_directory}/{league['label']}"
+        print(f"Populating seasons from {path}")
+        if not os.path.isdir(path):
+            continue
+
+        files = os.listdir(path)
+
+        # Iterate through all files in this league's directory
+        for file in files:
+            with open(f"{path}/{file}", 'r') as f:
+                # TODO: Temporarily merged franchises need a special case
+                # TODO: Find a solution for AFL/NFL seasons
+                
+                content = f.read()
+                request_dict = json.loads(content)
+                
+                # Iterate through the standings, replace labels with a franchise ID
+                league = request_dict.get('league')
+                league_id = league_labels_to_ids.get(league)
+                start_year = request_dict.get('start_year')
+
+                # Skip if the season has already been created
+                key = f"{league_id}-{request_dict['start_year']}"
+                if season_lookups.get(key):
+                    skipped += 1
+                    continue
+
+                # Prepare request by replacing labels with their proper ids
+                request_dict["league_id"] = league_id
+                request_dict.pop("league")
+                replace_labels_in_standings(request_dict.get('standings'), league, start_year)
+                replace_labels_in_postseason(request_dict.get('play_in'), league, start_year)
+                replace_labels_in_postseason(request_dict.get('postseason'), league, start_year)
+                
+                # Make the actual request
+                request_payload = json.dumps(request_dict)
+                conn.request('POST', '/api/v1/seasons', body=request_payload, headers={'Content-Type': 'application/json'})
+                
+                response = conn.getresponse()
+
+                if response.status != 200:
+                    response.read()
+                    print(f"Failed to create season {request_dict['name']}")
+                    continue
+                else:
+                    print(f"Successfully created seasons {request_dict['name']}")
+
+                response.read()
+                pass
+        
+        if skipped > 0:
+            print(f'Skipped creating {skipped} seasons in league {league} that already existed')
 
 populate_leagues()
 populate_metros()
 populate_franchises()
+populate_seasons()
 print("Done!")

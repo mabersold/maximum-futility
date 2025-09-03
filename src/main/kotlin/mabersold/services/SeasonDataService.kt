@@ -1,5 +1,6 @@
 package mabersold.services
 
+import mabersold.dao.ChapterDAO
 import mabersold.dao.FranchiseSeasonDAO
 import mabersold.dao.LeagueDAO
 import mabersold.dao.SeasonDAO
@@ -20,8 +21,10 @@ class SeasonDataService(
     companion object {
         const val WARN_MULTIPLE_FIRST_IN_LEAGUE = "More than one first in league"
         const val WARN_MULTIPLE_LAST_IN_LEAGUE = "More than one last in league"
-        const val WARN_MULTIPLE_FIRST_IN_CONFERENCE = "The following conferences have more than one team in first place: %s"
-        const val WARN_MULTIPLE_LAST_IN_CONFERENCE = "The following conferences have more than one team in last place: %s"
+        const val WARN_MULTIPLE_FIRST_IN_CONFERENCE =
+            "The following conferences have more than one team in first place: %s"
+        const val WARN_MULTIPLE_LAST_IN_CONFERENCE =
+            "The following conferences have more than one team in last place: %s"
         const val WARN_MULTIPLE_FIRST_IN_DIVISION = "The following divisions have more than one team in first place: %s"
         const val WARN_MULTIPLE_LAST_IN_DIVISION = "The following divisions have more than one team in last place: %s"
         const val WARN_CONFERENCES_DO_NOT_MATCH = "Conferences do not match"
@@ -35,7 +38,8 @@ class SeasonDataService(
         const val WARN_NOT_ENOUGH_BEST_IN_DIVISION = "Not enough best in division"
         const val WARN_NOT_ENOUGH_WORST_IN_DIVISION = "Not enough worst in division"
         const val WARN_TOO_MANY_ROUNDS_WON = "The following teams won more postseason rounds than are possible: %s"
-        const val WARN_SHOULD_NOT_HAVE_POSTSEASON_DATA = "The following teams did not qualify for playoffs, but have postseason data: %s"
+        const val WARN_SHOULD_NOT_HAVE_POSTSEASON_DATA =
+            "The following teams did not qualify for playoffs, but have postseason data: %s"
     }
 
     suspend fun getSeasonReport(seasonId: Int): SeasonReport {
@@ -71,6 +75,7 @@ class SeasonDataService(
         return seasonDAO.allByLeagueId(leagueId).map {
             ApiSeason(
                 it.id,
+                it.leagueId,
                 it.name,
                 it.startYear,
                 it.endYear
@@ -110,7 +115,10 @@ class SeasonDataService(
     private val List<FranchiseSeason>.hasInvalidPostSeasonData: Boolean
         get() = this.any { it.hasInvalidPostSeasonData }
 
-    private fun String.teamsWithExcessivePostseasonWins(season: Season, franchiseSeasons: List<FranchiseSeason>): String =
+    private fun String.teamsWithExcessivePostseasonWins(
+        season: Season,
+        franchiseSeasons: List<FranchiseSeason>
+    ): String =
         this.format(franchiseSeasons.filter { (it.roundsWon ?: 0) > (season.postSeasonRounds ?: 0) }
             .joinToString { it.teamName })
 
@@ -131,10 +139,15 @@ class SeasonDataService(
 
     private fun List<FranchiseSeason>.unitHasExcessive(leagueDivider: LeagueDivider, position: Standing) =
         this.filter { it.getResultBy(leagueDivider) == position }.size > 1 ||
-                (this.filter { it.getResultBy(leagueDivider) == position }.size == 1 && this.any { it.getResultBy(leagueDivider) == position.tiedEquivalent })
+                (this.filter { it.getResultBy(leagueDivider) == position }.size == 1 && this.any {
+                    it.getResultBy(
+                        leagueDivider
+                    ) == position.tiedEquivalent
+                })
 
     private fun List<FranchiseSeason>.getExcessive(leagueDivider: LeagueDivider, position: Standing) =
-        this.groupBy { it.getUnit(leagueDivider) ?: "None" }.filterValues { it.unitHasExcessive(leagueDivider, position) }.keys.joinToString()
+        this.groupBy { it.getUnit(leagueDivider) ?: "None" }
+            .filterValues { it.unitHasExcessive(leagueDivider, position) }.keys.joinToString()
 
     enum class LeagueDivider {
         LEAGUE,
@@ -142,20 +155,21 @@ class SeasonDataService(
         DIVISION
     }
 
-    private val Standing.tiedEquivalent get() = when(this) {
-        Standing.FIRST -> Standing.FIRST_TIED
-        Standing.LAST -> Standing.LAST_TIED
-        else -> this
-    }
+    private val Standing.tiedEquivalent
+        get() = when (this) {
+            Standing.FIRST -> Standing.FIRST_TIED
+            Standing.LAST -> Standing.LAST_TIED
+            else -> this
+        }
 
-    private fun FranchiseSeason.getUnit(divider: LeagueDivider) = when(divider) {
+    private fun FranchiseSeason.getUnit(divider: LeagueDivider) = when (divider) {
         LeagueDivider.CONFERENCE -> this.conference
         LeagueDivider.DIVISION -> this.division
         else -> this.leagueId.toString()
     }
 
     private fun FranchiseSeason.getResultBy(leagueDivider: LeagueDivider) =
-        when(leagueDivider) {
+        when (leagueDivider) {
             LeagueDivider.CONFERENCE -> this.conferencePosition
             LeagueDivider.DIVISION -> this.divisionPosition
             LeagueDivider.LEAGUE -> this.leaguePosition
@@ -197,17 +211,47 @@ class SeasonDataService(
                     franchises.filter { it.bestInDivision }.map { it.teamName },
                     franchises.filter { it.worstInDivision }.map { it.teamName }
                 )
-        }.toList()
+            }.toList()
     }
 
     private fun getWarnings(season: Season, franchiseSeasons: List<FranchiseSeason>): List<Warning> {
         return listOfNotNull(
-            franchiseSeasons.hasExcessive(LeagueDivider.LEAGUE, Standing.FIRST).withWarning(WARN_MULTIPLE_FIRST_IN_LEAGUE),
-            franchiseSeasons.hasExcessive(LeagueDivider.LEAGUE, Standing.LAST).withWarning(WARN_MULTIPLE_LAST_IN_LEAGUE),
-            franchiseSeasons.hasExcessive(LeagueDivider.CONFERENCE, Standing.FIRST).withWarning(WARN_MULTIPLE_FIRST_IN_CONFERENCE.format(franchiseSeasons.getExcessive(LeagueDivider.CONFERENCE, Standing.FIRST))),
-            franchiseSeasons.hasExcessive(LeagueDivider.CONFERENCE, Standing.LAST).withWarning(WARN_MULTIPLE_LAST_IN_CONFERENCE.format(franchiseSeasons.getExcessive(LeagueDivider.CONFERENCE, Standing.LAST))),
-            franchiseSeasons.hasExcessive(LeagueDivider.DIVISION, Standing.FIRST).withWarning(WARN_MULTIPLE_FIRST_IN_DIVISION.format(franchiseSeasons.getExcessive(LeagueDivider.DIVISION, Standing.FIRST))),
-            franchiseSeasons.hasExcessive(LeagueDivider.DIVISION, Standing.LAST).withWarning(WARN_MULTIPLE_LAST_IN_DIVISION.format(franchiseSeasons.getExcessive(LeagueDivider.DIVISION, Standing.LAST))),
+            franchiseSeasons.hasExcessive(LeagueDivider.LEAGUE, Standing.FIRST)
+                .withWarning(WARN_MULTIPLE_FIRST_IN_LEAGUE),
+            franchiseSeasons.hasExcessive(LeagueDivider.LEAGUE, Standing.LAST)
+                .withWarning(WARN_MULTIPLE_LAST_IN_LEAGUE),
+            franchiseSeasons.hasExcessive(LeagueDivider.CONFERENCE, Standing.FIRST).withWarning(
+                WARN_MULTIPLE_FIRST_IN_CONFERENCE.format(
+                    franchiseSeasons.getExcessive(
+                        LeagueDivider.CONFERENCE,
+                        Standing.FIRST
+                    )
+                )
+            ),
+            franchiseSeasons.hasExcessive(LeagueDivider.CONFERENCE, Standing.LAST).withWarning(
+                WARN_MULTIPLE_LAST_IN_CONFERENCE.format(
+                    franchiseSeasons.getExcessive(
+                        LeagueDivider.CONFERENCE,
+                        Standing.LAST
+                    )
+                )
+            ),
+            franchiseSeasons.hasExcessive(LeagueDivider.DIVISION, Standing.FIRST).withWarning(
+                WARN_MULTIPLE_FIRST_IN_DIVISION.format(
+                    franchiseSeasons.getExcessive(
+                        LeagueDivider.DIVISION,
+                        Standing.FIRST
+                    )
+                )
+            ),
+            franchiseSeasons.hasExcessive(LeagueDivider.DIVISION, Standing.LAST).withWarning(
+                WARN_MULTIPLE_LAST_IN_DIVISION.format(
+                    franchiseSeasons.getExcessive(
+                        LeagueDivider.DIVISION,
+                        Standing.LAST
+                    )
+                )
+            ),
             franchiseSeasons.conferencesDoNotMatch(season).withWarning(WARN_CONFERENCES_DO_NOT_MATCH),
             franchiseSeasons.divisionsDoNotMatch(season).withWarning(WARN_DIVISIONS_DO_NOT_MATCH),
             franchiseSeasons.tooManyChampions(season).withWarning(WARN_TOO_MANY_CHAMPIONS),
@@ -218,8 +262,13 @@ class SeasonDataService(
             franchiseSeasons.notEnoughWorstInConference(season).withWarning(WARN_NOT_ENOUGH_WORST_IN_CONFERENCE),
             franchiseSeasons.notEnoughBestInDivision(season).withWarning(WARN_NOT_ENOUGH_BEST_IN_DIVISION),
             franchiseSeasons.notEnoughWorstInDivision(season).withWarning(WARN_NOT_ENOUGH_WORST_IN_DIVISION),
-            franchiseSeasons.tooManyPostSeasonWins(season).withWarning(WARN_TOO_MANY_ROUNDS_WON.teamsWithExcessivePostseasonWins(season, franchiseSeasons)),
-            franchiseSeasons.hasInvalidPostSeasonData.withWarning(WARN_SHOULD_NOT_HAVE_POSTSEASON_DATA.teamsWithInvalidPostSeasonData(franchiseSeasons))
+            franchiseSeasons.tooManyPostSeasonWins(season)
+                .withWarning(WARN_TOO_MANY_ROUNDS_WON.teamsWithExcessivePostseasonWins(season, franchiseSeasons)),
+            franchiseSeasons.hasInvalidPostSeasonData.withWarning(
+                WARN_SHOULD_NOT_HAVE_POSTSEASON_DATA.teamsWithInvalidPostSeasonData(
+                    franchiseSeasons
+                )
+            )
         )
     }
 }

@@ -40,7 +40,9 @@ data class Result(
     @SerialName("overtime_losses")
     val overtimeLosses: Int? = null,
     val points: Int? = null
-)
+) {
+    val winningRate = wins.toDouble() / (wins + losses)
+}
 
 @Serializable
 data class Postseason(

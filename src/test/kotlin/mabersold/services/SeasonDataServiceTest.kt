@@ -41,8 +41,7 @@ class SeasonDataServiceTest {
     private val seasonDao = mockk<SeasonDAO>()
     private val franchiseSeasonDAO = mockk<FranchiseSeasonDAO>()
     private val leagueDao = mockk<LeagueDAO>()
-    private val chapterDAO = mockk<ChapterDAO>()
-    private val seasonDataService = SeasonDataService(seasonDao, franchiseSeasonDAO, leagueDao, chapterDAO)
+    private val seasonDataService = SeasonDataService(seasonDao, franchiseSeasonDAO, leagueDao)
 
     companion object {
         private const val SEASON_ID = 1

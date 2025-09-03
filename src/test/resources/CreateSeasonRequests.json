@@ -1,287 +1,179 @@
 {
-  "valid_single_table_no_playoffs": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
+  "basic-season": {
+    "name": "Basic Season",
+    "start_year": 2000,
+    "end_year": 2000,
     "league_id": 1,
     "total_major_divisions": 0,
     "total_minor_divisions": 0,
     "standings": {
       "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 }
+        { "franchise_id": 1, "wins": 50, "losses": 20},
+        { "franchise_id": 2, "wins": 40, "losses": 30},
+        { "franchise_id": 3, "wins": 30, "losses": 40},
+        { "franchise_id": 4, "wins": 20, "losses": 50}
       ]
     }
   },
-  "no_major_divisions": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 2,
-    "total_minor_divisions": 0,
-    "standings": {
-      "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 }
-      ]
-    }
-  },
-  "mismatched_major_divisions": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 2,
-    "total_minor_divisions": 0,
-    "standings": {
-      "sub_groups": [
-        {
-          "name": "East",
-          "results": [
-            { "franchise_id": 1, "wins": 10, "losses": 6 },
-            { "franchise_id": 2, "wins": 10, "losses": 6 },
-            { "franchise_id": 3, "wins": 10, "losses": 6 }
-          ]
-        }
-      ]
-    }
-  },
-  "mismatched_minor_divisions": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 2,
-    "total_minor_divisions": 6,
-    "standings": {
-      "sub_groups": [
-        {
-          "name": "East",
-          "sub_groups": [
-            {
-              "name": "Northeast",
-              "results": [
-                { "franchise_id": 1, "wins": 10, "losses": 6 },
-                { "franchise_id": 2, "wins": 10, "losses": 6 },
-                { "franchise_id": 3, "wins": 10, "losses": 6 }
-              ]
-            },
-            {
-              "name": "Southeast",
-              "results": [
-                { "franchise_id": 4, "wins": 10, "losses": 6 },
-                { "franchise_id": 5, "wins": 10, "losses": 6 },
-                { "franchise_id": 6, "wins": 10, "losses": 6 }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "West",
-          "sub_groups": [
-            {
-              "name": "Northwest",
-              "results": [
-                { "franchise_id": 7, "wins": 10, "losses": 6 },
-                { "franchise_id": 8, "wins": 10, "losses": 6 },
-                { "franchise_id": 9, "wins": 10, "losses": 6 }
-              ]
-            },
-            {
-              "name": "Southwest",
-              "results": [
-                { "franchise_id": 10, "wins": 10, "losses": 6 },
-                { "franchise_id": 11, "wins": 10, "losses": 6 },
-                { "franchise_id": 12, "wins": 10, "losses": 6 }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "end_date_too_early": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2004,
+  "basic-season-tied-best": {
+    "name": "Basic Season with Tie for Best Overall",
+    "start_year": 2000,
+    "end_year": 2000,
     "league_id": 1,
     "total_major_divisions": 0,
     "total_minor_divisions": 0,
     "standings": {
       "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 }
+        { "franchise_id": 1, "wins": 50, "losses": 20},
+        { "franchise_id": 2, "wins": 50, "losses": 20},
+        { "franchise_id": 3, "wins": 30, "losses": 40},
+        { "franchise_id": 4, "wins": 20, "losses": 50}
       ]
     }
   },
-  "end_date_too_far_ahead": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2007,
+  "basic-season-tied-worst": {
+    "name": "Basic Season with Tie for Worst Overall",
+    "start_year": 2000,
+    "end_year": 2000,
     "league_id": 1,
     "total_major_divisions": 0,
     "total_minor_divisions": 0,
     "standings": {
       "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 }
+        { "franchise_id": 1, "wins": 50, "losses": 20},
+        { "franchise_id": 2, "wins": 40, "losses": 40},
+        { "franchise_id": 3, "wins": 20, "losses": 50},
+        { "franchise_id": 4, "wins": 20, "losses": 50}
       ]
     }
   },
-  "subgroups_too_deep": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 2,
-    "total_minor_divisions": 4,
-    "standings": {
-      "sub_groups": [
-        {
-          "name": "East",
-          "sub_groups": [
-            {
-              "name": "Northeast",
-              "sub_groups": [
-                {
-                  "name": "Northeast 1",
-                  "results": [
-                    { "franchise_id": 1, "wins": 10, "losses": 6 },
-                    { "franchise_id": 2, "wins": 10, "losses": 6 },
-                    { "franchise_id": 3, "wins": 10, "losses": 6 }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Southeast",
-              "results": [
-                { "franchise_id": 4, "wins": 10, "losses": 6 },
-                { "franchise_id": 5, "wins": 10, "losses": 6 },
-                { "franchise_id": 6, "wins": 10, "losses": 6 }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "West",
-          "sub_groups": [
-            {
-              "name": "Northwest",
-              "results": [
-                { "franchise_id": 7, "wins": 10, "losses": 6 },
-                { "franchise_id": 8, "wins": 10, "losses": 6 },
-                { "franchise_id": 9, "wins": 10, "losses": 6 }
-              ]
-            },
-            {
-              "name": "Southwest",
-              "results": [
-                { "franchise_id": 10, "wins": 10, "losses": 6 },
-                { "franchise_id": 11, "wins": 10, "losses": 6 },
-                { "franchise_id": 12, "wins": 10, "losses": 6 }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "duplicate_franchise_single_table": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
+  "basic-season-tied-both-ways": {
+    "name": "Basic Season with Ties at the top and bottom",
+    "start_year": 2000,
+    "end_year": 2000,
     "league_id": 1,
     "total_major_divisions": 0,
     "total_minor_divisions": 0,
     "standings": {
       "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 1, "wins": 10, "losses": 6 }
+        { "franchise_id": 1, "wins": 50, "losses": 20},
+        { "franchise_id": 2, "wins": 50, "losses": 20},
+        { "franchise_id": 3, "wins": 20, "losses": 50},
+        { "franchise_id": 4, "wins": 20, "losses": 50}
       ]
     }
   },
-  "duplicate_franchise_conferences": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
+  "basic-season-with-conferences": {
+    "name": "Basic Season with conferences",
+    "start_year": 2000,
+    "end_year": 2000,
     "league_id": 1,
-    "total_major_divisions": 2,
+    "total_major_divisions": 0,
     "total_minor_divisions": 0,
     "standings": {
       "sub_groups": [
         {
-          "name": "East",
+          "name": "Conference 1",
           "results": [
-            { "franchise_id": 4, "wins": 10, "losses": 6 },
-            { "franchise_id": 5, "wins": 10, "losses": 6 },
-            { "franchise_id": 6, "wins": 10, "losses": 6 }
+            { "franchise_id": 1, "wins": 50, "losses": 20},
+            { "franchise_id": 2, "wins": 40, "losses": 30},
+            { "franchise_id": 3, "wins": 30, "losses": 40},
+            { "franchise_id": 4, "wins": 20, "losses": 50}
           ]
         },
         {
-          "name": "West",
+          "name": "Conference 2",
           "results": [
-            { "franchise_id": 1, "wins": 10, "losses": 6 },
-            { "franchise_id": 2, "wins": 10, "losses": 6 },
-            { "franchise_id": 6, "wins": 10, "losses": 6 }
+            { "franchise_id": 5, "wins": 50, "losses": 20},
+            { "franchise_id": 6, "wins": 40, "losses": 30},
+            { "franchise_id": 7, "wins": 30, "losses": 40},
+            { "franchise_id": 8, "wins": 20, "losses": 50}
           ]
         }
       ]
     }
   },
-  "duplicate_franchise_divisions": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
+  "basic-season-with-conferences-and-ties": {
+    "name": "Basic Season with conferences and some ties",
+    "start_year": 2000,
+    "end_year": 2000,
     "league_id": 1,
-    "total_major_divisions": 2,
-    "total_minor_divisions": 4,
+    "total_major_divisions": 0,
+    "total_minor_divisions": 0,
     "standings": {
       "sub_groups": [
         {
-          "name": "East",
+          "name": "Conference 1",
+          "results": [
+            { "franchise_id": 1, "wins": 45, "losses": 25},
+            { "franchise_id": 2, "wins": 45, "losses": 25},
+            { "franchise_id": 3, "wins": 30, "losses": 40},
+            { "franchise_id": 4, "wins": 20, "losses": 50}
+          ]
+        },
+        {
+          "name": "Conference 2",
+          "results": [
+            { "franchise_id": 5, "wins": 50, "losses": 20},
+            { "franchise_id": 6, "wins": 40, "losses": 30},
+            { "franchise_id": 7, "wins": 25, "losses": 35},
+            { "franchise_id": 8, "wins": 25, "losses": 35}
+          ]
+        }
+      ]
+    }
+  },
+  "basic-season-with-divisions": {
+    "name": "Basic Season with divisions",
+    "start_year": 2000,
+    "end_year": 2000,
+    "league_id": 1,
+    "total_major_divisions": 0,
+    "total_minor_divisions": 0,
+    "standings": {
+      "sub_groups": [
+        {
+          "name": "Conference 1",
           "sub_groups": [
             {
-              "name": "Northeast",
+              "name": "Division 1",
               "results": [
-                { "franchise_id": 1, "wins": 10, "losses": 6 },
-                { "franchise_id": 2, "wins": 10, "losses": 6 },
-                { "franchise_id": 3, "wins": 10, "losses": 6 }
+                { "franchise_id": 1, "wins": 48, "losses": 22},
+                { "franchise_id": 2, "wins": 45, "losses": 25},
+                { "franchise_id": 3, "wins": 30, "losses": 40},
+                { "franchise_id": 4, "wins": 15, "losses": 55}
               ]
             },
             {
-              "name": "Southeast",
+              "name": "Division 2",
               "results": [
-                { "franchise_id": 4, "wins": 10, "losses": 6 },
-                { "franchise_id": 5, "wins": 10, "losses": 6 },
-                { "franchise_id": 6, "wins": 10, "losses": 6 }
+                { "franchise_id": 5, "wins": 48, "losses": 22},
+                { "franchise_id": 6, "wins": 40, "losses": 30},
+                { "franchise_id": 7, "wins": 30, "losses": 40},
+                { "franchise_id": 8, "wins": 15, "losses": 55}
               ]
             }
           ]
         },
         {
-          "name": "West",
+          "name": "Conference 2",
           "sub_groups": [
             {
-              "name": "Northwest",
+              "name": "Division 3",
               "results": [
-                { "franchise_id": 7, "wins": 10, "losses": 6 },
-                { "franchise_id": 8, "wins": 10, "losses": 6 },
-                { "franchise_id": 9, "wins": 10, "losses": 6 }
+                { "franchise_id": 9, "wins": 50, "losses": 20},
+                { "franchise_id": 10, "wins": 50, "losses": 20},
+                { "franchise_id": 11, "wins": 20, "losses": 50},
+                { "franchise_id": 12, "wins": 20, "losses": 50}
               ]
             },
             {
-              "name": "Southwest",
+              "name": "Division 4",
               "results": [
-                { "franchise_id": 1, "wins": 10, "losses": 6 },
-                { "franchise_id": 11, "wins": 10, "losses": 6 },
-                { "franchise_id": 12, "wins": 10, "losses": 6 }
+                { "franchise_id": 13, "wins": 55, "losses": 15},
+                { "franchise_id": 14, "wins": 40, "losses": 30},
+                { "franchise_id": 15, "wins": 15, "losses": 55},
+                { "franchise_id": 16, "wins": 10, "losses": 60}
               ]
             }
           ]
@@ -289,74 +181,19 @@
       ]
     }
   },
-  "overloaded_standings": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 2,
-    "total_minor_divisions": 0,
-    "standings": {
-      "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 }
-      ],
-      "sub_groups": [
-        {
-          "name": "East",
-          "results": [
-            { "franchise_id": 4, "wins": 10, "losses": 6 },
-            { "franchise_id": 5, "wins": 10, "losses": 6 },
-            { "franchise_id": 6, "wins": 10, "losses": 6 }
-          ]
-        },
-        {
-          "name": "West",
-          "results": [
-            { "franchise_id": 7, "wins": 10, "losses": 6 },
-            { "franchise_id": 8, "wins": 10, "losses": 6 },
-            { "franchise_id": 9, "wins": 10, "losses": 6 }
-          ]
-        }
-      ]
-    }
-  },
-  "underloaded_standings": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 2,
-    "total_minor_divisions": 0,
-    "standings": {
-      "sub_groups": [
-        {
-          "name": "East"
-        },
-        {
-          "name": "West",
-          "results": [
-            { "franchise_id": 7, "wins": 10, "losses": 6 },
-            { "franchise_id": 8, "wins": 10, "losses": 6 },
-            { "franchise_id": 9, "wins": 10, "losses": 6 }
-          ]
-        }
-      ]
-    }
-  },
-  "playoff_interloper": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
+  "basic-season-simple-playoff": {
+    "name": "Basic Season with a simple playoff",
+    "start_year": 2000,
+    "end_year": 2000,
     "league_id": 1,
     "total_major_divisions": 0,
     "total_minor_divisions": 0,
     "standings": {
       "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 }
+        { "franchise_id": 1, "wins": 50, "losses": 20},
+        { "franchise_id": 2, "wins": 40, "losses": 30},
+        { "franchise_id": 3, "wins": 30, "losses": 40},
+        { "franchise_id": 4, "wins": 20, "losses": 50}
       ]
     },
     "postseason": {
@@ -367,11 +204,69 @@
             {
               "winner": {
                 "franchise_id": 1,
-                "games_won": 3
+                "games_won": 4
               },
               "loser": {
+                "franchise_id": 2,
+                "games_won": 3
+              },
+              "is_championship_round": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "1903-mlb": {
+    "name": "1903 MLB Season",
+    "start_year": 1903,
+    "end_year": 1903,
+    "league_id": 1,
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+      "sub_groups": [
+        {
+          "name": "AL",
+          "results": [
+            { "franchise_id": 4, "wins": 91, "losses": 47},
+            { "franchise_id": 20, "wins": 75, "losses": 60},
+            { "franchise_id": 8, "wins": 77, "losses": 63},
+            { "franchise_id": 19, "wins": 72, "losses": 62},
+            { "franchise_id": 10, "wins": 65, "losses": 71},
+            { "franchise_id": 3, "wins": 65, "losses": 74},
+            { "franchise_id": 6, "wins": 60, "losses": 77},
+            { "franchise_id": 17, "wins": 43, "losses": 94}
+          ]
+        },
+        {
+          "name": "NL",
+          "results": [
+            { "franchise_id": 22, "wins": 91, "losses": 49},
+            { "franchise_id": 24, "wins": 84, "losses": 55},
+            { "franchise_id": 5, "wins": 82, "losses": 56},
+            { "franchise_id": 7, "wins": 74, "losses": 65},
+            { "franchise_id": 14, "wins": 70, "losses": 66},
+            { "franchise_id": 2, "wins": 58, "losses": 80},
+            { "franchise_id": 21, "wins": 49, "losses": 86},
+            { "franchise_id": 26, "wins": 43, "losses": 94}
+          ]
+        }
+      ]
+    },
+    "postseason": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "matchups": [
+            {
+              "winner": {
                 "franchise_id": 4,
-                "games_won": 1
+                "games_won": 5
+              },
+              "loser": {
+                "franchise_id": 22,
+                "games_won": 3
               },
               "is_championship_round": true
             }
@@ -380,246 +275,39 @@
       ]
     }
   },
-  "winner_does_not_advance": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
+  "1904-mlb": {
+    "name": "1904 MLB Season",
+    "start_year": 1904,
+    "end_year": 1904,
     "league_id": 1,
-    "total_major_divisions": 0,
+    "total_major_divisions": 2,
     "total_minor_divisions": 0,
     "standings": {
-      "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 },
-        { "franchise_id": 4, "wins": 10, "losses": 6 },
-        { "franchise_id": 5, "wins": 10, "losses": 6 },
-        { "franchise_id": 6, "wins": 10, "losses": 6 }
-      ]
-    },
-    "postseason": {
-      "rounds": [
+      "sub_groups": [
         {
-          "round_number": 1,
-          "matchups": [
-            {
-              "winner": {
-                "franchise_id": 1,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 4,
-                "games_won": 1
-              }
-            },
-            {
-              "winner": {
-                "franchise_id": 2,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 3,
-                "games_won": 1
-              }
-            }
+          "name": "AL",
+          "results": [
+            {"franchise_id": 4, "wins": 95, "losses": 59},
+            {"franchise_id": 19, "wins": 92, "losses": 59},
+            {"franchise_id": 6, "wins": 89, "losses": 65},
+            {"franchise_id": 8, "wins": 86, "losses": 65},
+            {"franchise_id": 20, "wins": 81, "losses": 70},
+            {"franchise_id": 3, "wins": 65, "losses": 87},
+            {"franchise_id": 10, "wins": 62, "losses": 90},
+            {"franchise_id": 17, "wins": 38, "losses": 113}
           ]
         },
         {
-          "round_number": 2,
-          "matchups": [
-            {
-              "winner": {
-                "franchise_id": 1,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 3,
-                "games_won": 1
-              },
-              "is_championship_round": true
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "congratulation_you_played_yourself": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 0,
-    "total_minor_divisions": 0,
-    "standings": {
-      "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 }
-      ]
-    },
-    "postseason": {
-      "rounds": [
-        {
-          "round_number": 1,
-          "matchups": [
-            {
-              "winner": {
-                "franchise_id": 1,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 1,
-                "games_won": 1
-              },
-              "is_championship_round": true
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "too_many_championships": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 0,
-    "total_minor_divisions": 0,
-    "standings": {
-      "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 },
-        { "franchise_id": 4, "wins": 10, "losses": 6 },
-        { "franchise_id": 5, "wins": 10, "losses": 6 },
-        { "franchise_id": 6, "wins": 10, "losses": 6 }
-      ]
-    },
-    "postseason": {
-      "rounds": [
-        {
-          "round_number": 1,
-          "matchups": [
-            {
-              "winner": {
-                "franchise_id": 1,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 4,
-                "games_won": 1
-              }
-            },
-            {
-              "winner": {
-                "franchise_id": 2,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 3,
-                "games_won": 1
-              },
-              "is_championship_round": true
-            }
-          ]
-        },
-        {
-          "round_number": 2,
-          "matchups": [
-            {
-              "winner": {
-                "franchise_id": 1,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 2,
-                "games_won": 1
-              },
-              "is_championship_round": true
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "you_know_those_championships_that_are_like_double_championships": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 0,
-    "total_minor_divisions": 0,
-    "standings": {
-      "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 },
-        { "franchise_id": 4, "wins": 10, "losses": 6 },
-        { "franchise_id": 5, "wins": 10, "losses": 6 },
-        { "franchise_id": 6, "wins": 10, "losses": 6 }
-      ]
-    },
-    "postseason": {
-      "rounds": [
-        {
-          "round_number": 1,
-          "matchups": [
-            {
-              "winner": {
-                "franchise_id": 1,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 4,
-                "games_won": 1
-              },
-              "is_championship_round": true
-            },
-            {
-              "winner": {
-                "franchise_id": 2,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 3,
-                "games_won": 1
-              },
-              "is_championship_round": true
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "no_championship": {
-    "name": "My Season",
-    "start_year": 2005,
-    "end_year": 2006,
-    "league_id": 1,
-    "total_major_divisions": 0,
-    "total_minor_divisions": 0,
-    "standings": {
-      "results": [
-        { "franchise_id": 1, "wins": 10, "losses": 6 },
-        { "franchise_id": 2, "wins": 10, "losses": 6 },
-        { "franchise_id": 3, "wins": 10, "losses": 6 }
-      ]
-    },
-    "postseason": {
-      "rounds": [
-        {
-          "round_number": 1,
-          "matchups": [
-            {
-              "winner": {
-                "franchise_id": 1,
-                "games_won": 3
-              },
-              "loser": {
-                "franchise_id": 2,
-                "games_won": 1
-              }
-            }
+          "name": "NL",
+          "results": [
+            {"franchise_id": 24, "wins": 106, "losses": 47},
+            {"franchise_id": 5, "wins": 93, "losses": 60},
+            {"franchise_id": 7, "wins": 88, "losses": 65},
+            {"franchise_id": 22, "wins": 87, "losses": 66},
+            {"franchise_id": 26, "wins": 75, "losses": 79},
+            {"franchise_id": 14, "wins": 56, "losses": 97},
+            {"franchise_id": 2, "wins": 55, "losses": 98},
+            {"franchise_id": 21, "wins": 52, "losses": 100}
           ]
         }
       ]

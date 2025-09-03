@@ -1,12 +1,17 @@
 package mabersold.dao
 
+import io.ktor.server.html.insert
 import mabersold.dao.DatabaseFactory.dbQuery
 import mabersold.models.FranchiseSeasonInfo
 import mabersold.models.db.FranchiseSeason
 import mabersold.models.db.FranchiseSeasons
 import mabersold.models.db.Metros
 import mabersold.models.db.Seasons
+import mabersold.models.db.Standing
+import mabersold.models.intermediary.ProtoFranchiseSeason
 import org.jetbrains.exposed.sql.ResultRow
+import org.jetbrains.exposed.sql.batchInsert
+import org.jetbrains.exposed.sql.insert
 import org.jetbrains.exposed.sql.selectAll
 import org.jetbrains.exposed.sql.transactions.TransactionManager
 
@@ -92,6 +97,46 @@ class FranchiseSeasonDAOImpl : FranchiseSeasonDAO {
     override suspend fun getBySeason(seasonId: Int) = dbQuery {
         FranchiseSeasons.selectAll().where { FranchiseSeasons.seasonId eq seasonId }
             .map(::resultRowToFranchiseSeason)
+    }
+
+    override suspend fun create(protoFranchiseSeason: ProtoFranchiseSeason): FranchiseSeason? = dbQuery {
+        val insertStatement = FranchiseSeasons.insert {
+            it[FranchiseSeasons.seasonId] = protoFranchiseSeason.seasonId
+            it[FranchiseSeasons.franchiseId] = protoFranchiseSeason.franchiseId
+            it[FranchiseSeasons.metroId] = protoFranchiseSeason.metroId
+            it[FranchiseSeasons.teamName] = protoFranchiseSeason.teamName
+            it[FranchiseSeasons.leagueId] = protoFranchiseSeason.leagueId
+            it[FranchiseSeasons.conference] = protoFranchiseSeason.conferenceName
+            it[FranchiseSeasons.division] = protoFranchiseSeason.divisionName
+            it[FranchiseSeasons.leaguePosition] = protoFranchiseSeason.leaguePosition
+            it[FranchiseSeasons.conferencePosition] = protoFranchiseSeason.conferencePosition
+            it[FranchiseSeasons.divisionPosition] = protoFranchiseSeason.divisionPosition
+            it[FranchiseSeasons.qualifiedForPostseason] = protoFranchiseSeason.qualifiedForPostseason
+            it[FranchiseSeasons.roundsWon] = protoFranchiseSeason.roundsWon
+            it[FranchiseSeasons.appearedInChampionship] = protoFranchiseSeason.appearedInChampionship
+            it[FranchiseSeasons.wonChampionship] = protoFranchiseSeason.wonChampionship
+        }
+
+        insertStatement.resultedValues?.singleOrNull()?.let(::resultRowToFranchiseSeason)
+    }
+
+    override suspend fun createAll(protoFranchiseSeasons: List<ProtoFranchiseSeason>): List<FranchiseSeason> = dbQuery {
+        FranchiseSeasons.batchInsert(protoFranchiseSeasons) { proto ->
+            this[FranchiseSeasons.seasonId] = proto.seasonId
+            this[FranchiseSeasons.franchiseId] = proto.franchiseId
+            this[FranchiseSeasons.metroId] = proto.metroId
+            this[FranchiseSeasons.teamName] = proto.teamName
+            this[FranchiseSeasons.leagueId] = proto.leagueId
+            this[FranchiseSeasons.conference] = proto.conferenceName
+            this[FranchiseSeasons.division] = proto.divisionName
+            this[FranchiseSeasons.leaguePosition] = proto.leaguePosition
+            this[FranchiseSeasons.conferencePosition] = proto.conferencePosition
+            this[FranchiseSeasons.divisionPosition] = proto.divisionPosition
+            this[FranchiseSeasons.qualifiedForPostseason] = proto.qualifiedForPostseason
+            this[FranchiseSeasons.roundsWon] = proto.roundsWon
+            this[FranchiseSeasons.appearedInChampionship] = proto.appearedInChampionship
+            this[FranchiseSeasons.wonChampionship] = proto.wonChampionship
+        }.map(::resultRowToFranchiseSeason)
     }
 
     companion object {

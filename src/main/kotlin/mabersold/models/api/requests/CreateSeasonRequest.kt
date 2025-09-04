@@ -34,6 +34,8 @@ data class ResultGroup(
 data class Result(
     @SerialName("franchise_id")
     val franchiseId: Int,
+    @SerialName("merged_franchise_id")
+    val mergedFranchiseId: Int? = null,
     val wins: Int,
     val losses: Int,
     val ties: Int? = null,

@@ -124,8 +124,21 @@ def replace_labels_in_standings(group: dict, league: str, year: int):
             replace_labels_in_standings(sub_group, league, year)
     if group.get('results'):
         for result in group.get('results'):
-            franchise_id = lookup_franchise_id(result.get('label'), league, year)
-            result['franchise_id'] = franchise_id
+            # Special cases: temporarily merged franchises in the NFL
+            if league == 'nfl' and year == 1943 and result['label'] == 'steagles':
+                result['franchise_id'] = franchise_labels_to_ids['eagles']
+                result['merged_franchise_id'] = franchise_labels_to_ids['steelers']
+            elif league == 'nfl' and year == 1944 and result['label'] == 'card-pitt':
+                result['franchise_id'] = franchise_labels_to_ids['cardinals-nfl']
+                result['merged_franchise_id'] = franchise_labels_to_ids['steelers']
+            elif league == 'nfl' and result['label'] == 'yanks' and year == 1945:
+                result['franchise_id'] = franchise_labels_to_ids['yanks']
+                result['merged_franchise_id'] = franchise_labels_to_ids['dodgers-nfl']
+            else:
+                # Almost all results will go here
+                franchise_id = lookup_franchise_id(result.get('label'), league, year)
+                result['franchise_id'] = franchise_id
+
             result.pop('label')
 
 def replace_labels_in_postseason(postseason: dict, league: str, year: int):
@@ -222,17 +235,19 @@ def populate_franchises():
 
             request_dict = json.loads(content)
 
-            # Store in franchise_lookups so we can convert labels to ids in seasons later on
-            for c in request_dict.get('chapters'):
-                franchise_lookups.append({
-                    "name": c.get("label", request_dict.get("label")),
-                    "league": c.get("league_id"),
-                    "start_year": c.get("start_year"),
-                    "end_year": c.get("end_year", None),
-                    "id": request_dict["id"]
-                })
+            chapter_labels = []
 
             if franchise_labels_to_ids.get(request_dict.get('label')):
+                # Store in franchise_lookups so we can convert labels to ids in seasons later on
+                for c in request_dict.get('chapters'):
+                    franchise_lookups.append({
+                        "name": c.get("label", request_dict.get("label")),
+                        "league": c.get("league_id"),
+                        "start_year": c.get("start_year"),
+                        "end_year": c.get("end_year", None),
+                        "id": franchise_labels_to_ids[request_dict.get('label')]
+                    })
+
                 skipped += 1
                 continue
 
@@ -251,6 +266,7 @@ def populate_franchises():
                     chapter['team_name'] = request_dict['name']
                 chapter['metro_id'] = metro_labels_to_ids[chapter['metro_id']]
                 # Some chapters have labels in them, remove them for now
+                chapter_labels.append(chapter.get("label", request_dict.get("label")))
                 if chapter.get('label'):
                     chapter.pop('label')
 
@@ -270,6 +286,15 @@ def populate_franchises():
             franchise_id = response_body['id']
             label = response_body['label']
             franchise_labels_to_ids[label] = franchise_id
+            for c in request_dict.get('chapters'):
+                franchise_lookups.append({
+                    "name": chapter_labels.pop(0),
+                    "league": league_label,
+                    "start_year": c.get("start_year"),
+                    "end_year": c.get("end_year", None),
+                    "id": franchise_labels_to_ids[request_dict.get('label')]
+                })
+
         if skipped > 0:
             print(f'Skipped creating {skipped} franchises in league {league.get("name")} that already existed')
 

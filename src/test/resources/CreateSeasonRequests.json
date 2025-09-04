@@ -63,6 +63,21 @@
       ]
     }
   },
+  "basic-season-merged-franchise": {
+    "name": "Basic Season with Ties at the top and bottom",
+    "start_year": 2000,
+    "end_year": 2000,
+    "league_id": 1,
+    "total_major_divisions": 0,
+    "total_minor_divisions": 0,
+    "standings": {
+      "results": [
+        { "franchise_id": 1, "wins": 50, "losses": 20 },
+        { "franchise_id": 2, "wins": 50, "losses": 20 },
+        { "franchise_id": 17, "wins": 20, "losses": 50, "merged_franchise_id": 18}
+      ]
+    }
+  },
   "basic-season-with-conferences": {
     "name": "Basic Season with conferences",
     "start_year": 2000,

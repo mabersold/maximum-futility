@@ -27,7 +27,9 @@ class PrepareFranchiseSeasonsTest {
         Chapter(13, "Team 13", 13, 18, 6, 1900, null, null, null),
         Chapter(14, "Team 14", 14, 19, 6, 1900, null, null, null),
         Chapter(15, "Team 15", 15, 20, 6, 1900, null, null, null),
-        Chapter(16, "Team 16", 16, 7, 6, 1900, null, null, null)
+        Chapter(16, "Team 16", 16, 7, 6, 1900, null, null, null),
+        Chapter(17, "Team 17-18", 17, 25, 6, 2000, null, null, null),
+        Chapter(18, "Team 17-18", 18, 26, 6, 2000, null, null, null)
     )
     @Test
     fun `throws an error if chapters list is empty`() {
@@ -105,6 +107,22 @@ class PrepareFranchiseSeasonsTest {
         result[1].assertMatches("Team 2", 8, 33, 2, Standing.FIRST_TIED)
         result[2].assertMatches("Team 3", 9, 33, 3, Standing.LAST_TIED)
         result[3].assertMatches("Team 4", 10, 33, 4, Standing.LAST_TIED)
+    }
+
+    @Test
+    fun `returns a valid list for a simple season with a merged franchise`() {
+        // Arrange
+        val request = getRequest("basic-season-merged-franchise")
+
+        // Act
+        val result = prepareFranchiseSeasons(33, request, chapters)
+
+        // Assert
+        assertEquals(4, result.size)
+        result[0].assertMatches("Team 1", 7, 33, 1, Standing.FIRST_TIED)
+        result[1].assertMatches("Team 2", 8, 33, 2, Standing.FIRST_TIED)
+        result[2].assertMatches("Team 17-18", 25, 33, 17, Standing.LAST)
+        result[3].assertMatches("Team 17-18", 26, 33, 18, Standing.LAST)
     }
 
     @Test

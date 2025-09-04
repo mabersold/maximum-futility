@@ -74,6 +74,29 @@ fun prepareFranchiseSeasons(seasonId: Int, request: CreateSeasonRequest, chapter
                 request.postseason?.wonChampionship(result.franchiseId)
             )
         )
+
+        result.mergedFranchiseId?.let {
+            val mergedChapter = chapters.getChapter(it, request.startYear)!!
+
+            returnList.add(
+                ProtoFranchiseSeason(
+                    mergedChapter.teamName,
+                    mergedChapter.metroId,
+                    seasonId,
+                    it,
+                    mergedChapter.leagueId,
+                    overallPosition,
+                    confPosition,
+                    divPosition,
+                    confName,
+                    divName,
+                    request.postseason?.isInPostseason(result.franchiseId),
+                    request.postseason?.roundsWon(result.franchiseId),
+                    request.postseason?.reachedChampionship(result.franchiseId),
+                    request.postseason?.wonChampionship(result.franchiseId)
+                )
+            )
+        }
     }
 
     return returnList

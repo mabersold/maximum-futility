@@ -1,4 +1,5 @@
 {
+    "id": 63,
     "name": "1941 NFL Season",
     "start_year": 1941,
     "end_year": 1941,
@@ -29,7 +30,7 @@
             }
         ]
     },
-    "postseason": {
+    "play_in": {
         "rounds": [
             {
                 "round_number": 1,
@@ -43,9 +44,13 @@
                         }
                     }
                 ]
-            },
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
             {
-                "round_number": 2,
+                "round_number": 1,
                 "matchups": [
                     {
                         "winner": {

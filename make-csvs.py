@@ -1,6 +1,6 @@
 import csv
 import json
-import os
+from pathlib import Path
 
 csv_base_directory = 'src/main/resources/data'
 franchises_directory = "seed_data/franchises"
@@ -26,119 +26,141 @@ def get_metros():
         csv_reader = csv.reader(file)
         next(csv_reader)
         for row in csv_reader:
-            # metros.append({"name": row[1], "label": row[2]})
             metros_reverse_lookup[row[2]] = {'id': int(row[0]), 'name': row[1]}
     
     return metros_reverse_lookup
 
 def get_franchises(leagues: dict, metros: dict):
-    franchises = []
+    all_files = [p for p in Path(franchises_directory).glob('**/*') if p.is_file()]
+
+    highest_id = 0
+
+    franchises_by_league = {key: [] for key in leagues}
+    chapters_by_league = {key: [] for key in leagues}
+
+    for file in all_files:
+        with open(file, 'r') as f:
+            content = f.read()
+        
+        franchise_dict = json.loads(content)
+        
+        # Replace league_id (but store the value)
+        league = franchise_dict['league_id']
+        franchise_dict['league_id'] = leagues[league]
+
+        highest_id = max(highest_id, franchise_dict['id'])
+
+        # Replace league and metro info in chapters
+        for c in franchise_dict.get('chapters', []):
+            c_league = c['league_id']
+            c['league_id'] = leagues.get(c_league)
+            c['league_name'] = c_league.upper()
+            metro = metros.get(c['metro_id'])
+            c['metro_id'] = metro['id']
+            c['metro_name'] = metro['name']
+            chapters_by_league[league].append(c)
+        
+        franchises_by_league[league].append(franchise_dict)
+
+    # Store CSVs for franchises
     for league in leagues:
-        franchises_path = f"{franchises_directory}/{league}"
+        sorted_franchises = sorted(franchises_by_league[league], key=lambda d: d['id'])
+        with open(f'{csv_base_directory}/{league}/{league}-franchises.csv', 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(['id', 'name', 'label', 'is_defunct', 'league_id'])
+            for franchise in sorted_franchises:
+                writer.writerow([franchise['id'], franchise['name'], franchise['label'], str(franchise['is_defunct']).lower(), franchise['league_id']])
 
-        if not os.path.isdir(franchises_path):
-            continue
-
-        files = os.listdir(franchises_path)
-
-        for file in files:
-            with open(f"{franchises_path}/{file}", 'r') as f:
-                content = f.read()
-
-            franchise_dict = json.loads(content)
-            franchise_dict['league_id'] = leagues[league]
-            for c in franchise_dict.get('chapters', []):
-                league = c['league_id']
-                c['league_id'] = leagues.get(league)
-                c['league_name'] = league.upper()
-                metro = metros.get(c['metro_id'])
-                c['metro_id'] = metro['id']
-                c['metro_name'] = metro['name']
-            franchises.append(franchise_dict)
-    
-    return franchises
+    print(f"Highest franchise id is {highest_id}")
+    return franchises_by_league
 
 def get_seasons(leagues: dict):
-    seasons = []
-    season_id = 1
-    for league in leagues:
-        seasons_path = f"{seasons_directory}/{league}"
-        if not os.path.isdir(seasons_path):
-            continue
+    # Get files
+    all_files = [p for p in Path(seasons_directory).glob('**/*') if p.is_file()]
+    season_ids = {0}
 
-        season_files = os.listdir(seasons_path)
+    seasons_by_league = {key: [] for key in leagues}
+    franchise_season_by_league = {key: [] for key in leagues}
 
-        for file in season_files:
-            with open(f"{seasons_path}/{file}", 'r') as f:
-                content = f.read()
-                season = json.loads(content)
-                season['postseason_rounds'] = len(season.get('postseason', {}).get('rounds', []))
-                season['id'] = season_id
-                season['league_id'] = leagues[season.get('league')]
-                seasons.append(season)
-                season_id += 1
+    highest_id = 0
 
-    return seasons
+    # Load and annotate seasons
+    for file in all_files:
+        with open(file, 'r') as f:
+            content = f.read()
+        
+        season_dict = json.loads(content)
 
-def get_franchise_seasons(seasons: list, franchises: list):
-    total_franchise_seasons = []
+        # Make sure ID is unique
+        if not season_dict.get('id'):
+            print(f"ERROR: {season_dict['name']} does not have an ID")
+        else:
+            id = season_dict.get('id')
+            if id in season_ids:
+                print(f"ERROR: {id} is a repeated season id")
+            else:
+                season_ids.add(id)
+                highest_id = max(highest_id, id)
+        
+        # Add correct annotations for the season
+        league_label = season_dict.get('league')
+        season_dict['league_id'] = leagues[league_label]
 
-    for season in seasons:
+        season_dict['total_postseason_rounds'] = len(season_dict.get('postseason', {}).get('rounds', []))
+
+        seasons_by_league[league_label].append(season_dict)
+
         franchise_seasons = []
         max_values = {}
         min_values = {}
         groupings = {}
-
         max_depth = 0
         
-        has_divisions = season.get('total_minor_divisions', 0) > 0
-        has_conferences = season.get('total_major_divisions', 0) > 0
+        has_divisions = season_dict.get('total_minor_divisions', 0) > 0
+        has_conferences = season_dict.get('total_major_divisions', 0) > 0
         if has_divisions:
             max_depth = 2
         elif has_conferences:
             max_depth = 1
-
-        get_mins_and_maxes(season.get('standings'), min_values, max_values, max_depth)
-        get_flattened_franchise_list(season.get('standings'), max_depth, franchise_seasons, groupings)
+        
+        get_mins_and_maxes(season_dict.get('standings'), min_values, max_values, max_depth)
+        get_flattened_franchise_list(season_dict.get('standings'), max_depth, franchise_seasons, groupings)
+        postseason_results = get_postseason_results(season_dict.get('postseason', {}), league_label, season_dict.get('start_year'))
 
         # Special cases for three NFL seasons where teams merged
-        if season['start_year'] == 1943 and season['league'] == 'nfl':
+        if season_dict['start_year'] == 1943 and season_dict['league'] == 'nfl':
             steagles = [fs for fs in franchise_seasons if fs.get('label') == 'steagles'][0]
             eagles = steagles.copy()
             eagles['label'] = 'eagles'
             steagles['label'] = 'steelers'
             franchise_seasons.append(eagles)
 
-        if season['start_year'] == 1944 and season['league'] == 'nfl':
+        if season_dict['start_year'] == 1944 and season_dict['league'] == 'nfl':
             cardpitt = [fs for fs in franchise_seasons if fs.get('label') == 'card-pitt'][0]
             cards = cardpitt.copy()
             cards['label'] = 'cardinals'
             cardpitt['label'] = 'steelers'
             franchise_seasons.append(cards)
 
-        if season['start_year'] == 1945 and season['league'] == 'nfl':
+        if season_dict['start_year'] == 1945 and season_dict['league'] == 'nfl':
             yankstigers = [fs for fs in franchise_seasons if fs.get('label') == 'yanks'][0]
             tigers = yankstigers.copy()
             tigers['label'] = 'tigers'
             franchise_seasons.append(tigers)
 
-        league = season['league']
-        year = season['start_year']
-        postseason_results = get_postseason_results(season.get('postseason', {}), league, year)
-
         for fs in franchise_seasons:
             label = fs.get('label', '')
-            franchise_id = get_franchise_id(label, league, year)
+            franchise_id = get_franchise_id(label, league_label, season_dict.get('start_year'))
             
             franchise = franchises[franchise_id - 1]
-            chapter = find_chapter(franchise.get('chapters', []), season.get('start_year'))
+            chapter = find_chapter(franchise.get('chapters', []), season_dict.get('start_year'))
             
             if chapter == None:
                 print(f"Could not find a chapter for franchise {franchise['name']}")
             
             fs['label'] = franchise['label']
-            fs['season_id'] = season['id']
-            fs['start_year'] = season['start_year']
+            fs['season_id'] = season_dict['id']
+            fs['start_year'] = season_dict['start_year']
             fs['franchise_id'] = franchise_id
             fs['metro_id'] = chapter['metro_id']
             fs['metro_name'] = chapter['metro_name']
@@ -177,10 +199,41 @@ def get_franchise_seasons(seasons: list, franchises: list):
                 fs['won_championship'] = ps_result.get('won_championship', False)
             elif len(postseason_results) > 0:
                 fs['qualified_for_postseason'] = False
+
+            franchise_season_by_league.get(league_label).append(fs)
+
+    # Store CSVs for seasons
+    for league in leagues:
+        sorted_seasons = sorted(seasons_by_league[league], key=lambda d: d['id'])
+        with open(f'{csv_base_directory}/{league}/{league}-seasons.csv', 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(['id', 'name', 'start_year', 'end_year', 'league_id', 'total_major_divisions', 'total_minor_divisions', 'postseason_rounds'])
+            for season in sorted_seasons:
+                writer.writerow([season['id'], season['name'], season['start_year'], season['end_year'], season['league_id'], season['total_major_divisions'], season['total_minor_divisions'], season['total_postseason_rounds']])
         
-        total_franchise_seasons.extend(franchise_seasons)
-    
-    return total_franchise_seasons
+        sorted_franchise_seasons = sorted(franchise_season_by_league[league], key=lambda d: d['season_id'])
+        with open(f'{csv_base_directory}/{league}/{league}-franchise-seasons.csv', 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(['franchise_id', 'season_id', 'metro_id', 'team_name', 'league_id', 'conference', 'division', 'league_position', 'conference_position', 'division_position', 'qualified_for_postseason', 'rounds_won', 'appeared_in_championship', 'won_championship'])
+
+            for fs in sorted_franchise_seasons:
+                writer.writerow([
+                    fs['franchise_id'],
+                    fs['season_id'],
+                    fs['metro_id'],
+                    fs['team_name'],
+                    fs['league_id'],
+                    fs.get('conference_name', None),
+                    fs.get('division_name', None),
+                    fs.get('league_position', None),
+                    fs.get('conference_position', None),
+                    fs.get('division_position', None),
+                    str(fs.get('qualified_for_postseason', '')).lower(),
+                    fs.get('rounds_won', None),
+                    str(fs.get('appeared_in_championship', '')).lower(),
+                    str(fs.get('won_championship', '')).lower()
+                ])
+    print(f"Highest season id is {highest_id}")
 
 def get_franchise_id(label: str, league: str, year: int):
     label = label.lower()
@@ -195,48 +248,6 @@ def get_franchise_id(label: str, league: str, year: int):
             return team["id"]
 
     return None
-    
-
-def write_franchises(leagues: dict):
-    with open(f'{csv_base_directory}/franchises.csv', 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(['id', 'name', 'label', 'is_defunct', 'league_id'])
-        for franchise in franchises:
-            writer.writerow([franchise['id'], franchise['name'], franchise['label'], franchise['is_defunct'], franchise['league_id']])
-
-def write_seasons(leagues: dict):
-    with open(f'{csv_base_directory}/seasons.csv', 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(['id', 'name', 'start_year', 'end_year', 'league_id', 'total_major_divisions', 'total_minor_divisions', 'postseason_rounds'])
-
-        for season in seasons:
-            total_major_divisions = season.get('total_major_divisions', 0)
-            total_minor_divisions = season.get('total_minor_divisions', 0)
-            postseason_rounds = season.get('postseason_rounds', 0)
-
-            writer.writerow([season['id'], season['name'], season['start_year'], season['end_year'], season['league_id'], total_major_divisions, total_minor_divisions, postseason_rounds])
-
-def write_franchise_seasons(franchise_seasons: list):
-    with open(f'{csv_base_directory}/franchise_seasons.csv', 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(['season_id', 'metro_id', 'team_name', 'league_id', 'conference', 'division', 'league_position', 'conference_position', 'division_position', 'qualified_for_postseason', 'rounds_won', 'appeared_in_championship', 'won_championship'])
-
-        for fs in franchise_seasons:
-            writer.writerow([
-                fs['season_id'],
-                fs['metro_id'],
-                fs['team_name'],
-                fs['league_id'],
-                fs.get('conference_name', None),
-                fs.get('division_name', None),
-                fs.get('league_position', None),
-                fs.get('conference_position', None),
-                fs.get('division_position', None),
-                fs.get('qualified_for_postseason', None),
-                fs.get('rounds_won', None),
-                fs.get('appeared_in_championship', None),
-                fs.get('won_championship', None)
-            ])
 
 def find_chapter(chapters, year):
     for i, chapter in enumerate(chapters):
@@ -342,77 +353,14 @@ def get_postseason_results(postseason: dict, league: str, year: int):
 
     return results
 
-def write_individual_seasons(leagues: dict, seasons: list):
-    # Temporary function, to be removed when I revamp which CSVs are used
-    for league in leagues:
-        league_id = leagues.get(league)
-        filtered_seasons = [s for s in seasons if s['league_id'] == league_id]
-
-        with open(f'{csv_base_directory}/{league}/{league}-seasons.csv', 'w', newline='', encoding='utf-8') as file:
-            writer = csv.writer(file, lineterminator='\n')
-            writer.writerow(['name', 'start_year', 'end_year', 'league', 'total_major_divisions', 'total_minor_divisions', 'postseason_rounds'])
-            rows = [
-                [
-                    s['name'],
-                    s['start_year'],
-                    s['end_year'],
-                    str(s.get('league', '')).upper(),
-                    s['total_major_divisions'],
-                    s['total_minor_divisions'],
-                    s['postseason_rounds']
-                ]
-                for s in filtered_seasons
-            ]
-            writer.writerows(rows)
-
-def write_individual_franchises(franchises: list, franchise_seasons: list):
-    # Temporary function, to be removed when I revamp which CSVs are used
-    for f in franchises:
-        seasons = [x for x in franchise_seasons if x['label'] == f['label']]
-        if len(seasons) == 0:
-            continue
-        identifier = f['name'].lower().replace(' ', '-').replace('.', '').replace('(', '').replace(')', '')
-        league = seasons[-1]['league_name'].lower()
-
-        seasons_directory = 'franchises' if league in ['wnba', 'mls'] else 'seasons'
-        with open(f'{csv_base_directory}/{league}/{seasons_directory}/{identifier}.csv', 'w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow(['season', 'metro', 'team_name', 'league', 'conference', 'division', 'league_position', 'conference_position', 'division_position', 'qualified_for_postseason', 'rounds_won', 'appeared_in_championship', 'won_championship'])
-            rows = [
-                [
-                    fs['start_year'],
-                    fs['metro_name'],
-                    fs['team_name'],
-                    fs['league_name'],
-                    fs.get('conference_name', ''),
-                    fs.get('division_name', ''),
-                    fs.get('league_position', ''),
-                    fs.get('conference_position', ''),
-                    fs.get('division_position', ''),
-                    str(fs.get('qualified_for_postseason', '')).lower(),
-                    str(fs.get('rounds_won', '')).lower(),
-                    str(fs.get('appeared_in_championship', '')).lower(),
-                    str(fs.get('won_championship', '')).lower()
-                ]
-                for fs in seasons    
-            ]
-    
-            writer.writerows(rows)
-
 leagues = get_leagues()
 metros = get_metros()
-franchises = sorted(get_franchises(leagues, metros), key=lambda d: d['id'])
+franchises_by_league = get_franchises(leagues, metros)
+franchises = sorted([f for franchises in franchises_by_league.values() for f in franchises], key=lambda d: d['id'])
 
 for f in franchises:
     for c in f.get('chapters', []):
         franchise_lookups.append({"name": c.get("label", f.get("label")), "league": c.get("league_name"), "start_year": c.get("start_year"), "end_year": c.get("end_year", None), "id": f["id"]})
 
-seasons = get_seasons(leagues)
-franchise_seasons = get_franchise_seasons(seasons, franchises)
-write_franchises(leagues)
-write_seasons(leagues)
-write_individual_seasons(leagues, seasons)
-write_franchise_seasons(franchise_seasons)
-write_individual_franchises(franchises, franchise_seasons)
-
+get_seasons(leagues)
 print("Done.")

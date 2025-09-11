@@ -1,0 +1,353 @@
+franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+120,282,22,Houston Comets,5,East,,FIRST,FIRST,,true,2,true,true
+126,282,35,New York Liberty,5,East,,,,,true,1,true,false
+114,282,8,Charlotte Sting,5,East,,,LAST_TIED,,true,0,false,false
+116,282,11,Cleveland Rockers,5,East,,,LAST_TIED,,false,,,
+127,282,40,Phoenix Mercury,5,West,,,FIRST,,true,0,false,false
+123,282,27,Los Angeles Sparks,5,West,,,,,false,,,
+129,282,48,Sacramento Monarchs,5,West,,,,,false,,,
+122,282,49,Utah Starzz,5,West,,LAST,LAST,,false,,,
+116,288,11,Cleveland Rockers,5,East,,,FIRST,,true,0,false,false
+114,288,8,Charlotte Sting,5,East,,,,,true,0,false,false
+126,288,35,New York Liberty,5,East,,,,,false,,,
+118,288,16,Detroit Shock,5,East,,,,,false,,,
+131,288,63,Washington Mystics,5,East,,LAST,LAST,,false,,,
+120,288,22,Houston Comets,5,West,,FIRST,FIRST,,true,2,true,true
+127,288,40,Phoenix Mercury,5,West,,,,,true,1,true,false
+123,288,27,Los Angeles Sparks,5,West,,,,,false,,,
+129,288,48,Sacramento Monarchs,5,West,,,LAST_TIED,,false,,,
+122,288,49,Utah Starzz,5,West,,,LAST_TIED,,false,,,
+126,294,35,New York Liberty,5,East,,,FIRST,,true,1,true,false
+114,294,8,Charlotte Sting,5,East,,,,,true,1,false,false
+118,294,16,Detroit Shock,5,East,,,,,true,0,false,false
+117,294,37,Orlando Miracle,5,East,,,,,false,,,
+131,294,63,Washington Mystics,5,East,,,,,false,,,
+116,294,11,Cleveland Rockers,5,East,,LAST,LAST,,false,,,
+120,294,22,Houston Comets,5,West,,FIRST,FIRST,,true,2,true,true
+123,294,27,Los Angeles Sparks,5,West,,,,,true,1,false,false
+129,294,48,Sacramento Monarchs,5,West,,,,,true,0,false,false
+125,294,31,Minnesota Lynx,5,West,,,LAST_TIED,,false,,,
+127,294,40,Phoenix Mercury,5,West,,,LAST_TIED,,false,,,
+122,294,49,Utah Starzz,5,West,,,LAST_TIED,,false,,,
+126,300,35,New York Liberty,5,East,,,FIRST,,true,2,true,false
+116,300,11,Cleveland Rockers,5,East,,,,,true,1,false,false
+117,300,37,Orlando Miracle,5,East,,,,,true,0,false,false
+131,300,63,Washington Mystics,5,East,,,,,true,0,false,false
+118,300,16,Detroit Shock,5,East,,,,,false,,,
+124,300,29,Miami Sol,5,East,,,,,false,,,
+121,300,23,Indiana Fever,5,East,,,,,false,,,
+114,300,8,Charlotte Sting,5,East,,,LAST,,false,,,
+123,300,27,Los Angeles Sparks,5,West,,FIRST,FIRST,,true,1,false,false
+120,300,22,Houston Comets,5,West,,,,,true,3,true,true
+129,300,48,Sacramento Monarchs,5,West,,,,,true,0,false,false
+127,300,40,Phoenix Mercury,5,West,,,,,true,0,false,false
+122,300,49,Utah Starzz,5,West,,,,,false,,,
+125,300,31,Minnesota Lynx,5,West,,,,,false,,,
+128,300,42,Portland Fire,5,West,,,,,false,,,
+130,300,53,Seattle Storm,5,West,,LAST,LAST,,false,,,
+116,306,11,Cleveland Rockers,5,East,,,FIRST,,true,0,false,false
+126,306,35,New York Liberty,5,East,,,,,true,1,false,false
+124,306,29,Miami Sol,5,East,,,,,true,0,false,false
+114,306,8,Charlotte Sting,5,East,,,,,true,2,true,false
+117,306,37,Orlando Miracle,5,East,,,,,false,,,
+118,306,16,Detroit Shock,5,East,,LAST_TIED,LAST_TIED,,false,,,
+121,306,23,Indiana Fever,5,East,,LAST_TIED,LAST_TIED,,false,,,
+131,306,63,Washington Mystics,5,East,,LAST_TIED,LAST_TIED,,false,,,
+123,306,27,Los Angeles Sparks,5,West,,FIRST,FIRST,,true,3,true,true
+129,306,48,Sacramento Monarchs,5,West,,,,,true,1,false,false
+120,306,22,Houston Comets,5,West,,,,,true,0,false,false
+122,306,49,Utah Starzz,5,West,,,,,true,0,false,false
+127,306,40,Phoenix Mercury,5,West,,,,,false,,,
+125,306,31,Minnesota Lynx,5,West,,,,,false,,,
+128,306,42,Portland Fire,5,West,,,,,false,,,
+130,306,53,Seattle Storm,5,West,,LAST_TIED,LAST,,false,,,
+114,312,8,Charlotte Sting,5,East,,,FIRST_TIED,,true,0,false,false
+126,312,35,New York Liberty,5,East,,,FIRST_TIED,,true,2,true,false
+131,312,63,Washington Mystics,5,East,,,,,true,1,false,false
+121,312,23,Indiana Fever,5,East,,,,,true,0,false,false
+117,312,37,Orlando Miracle,5,East,,,,,false,,,
+124,312,29,Miami Sol,5,East,,,,,false,,,
+116,312,11,Cleveland Rockers,5,East,,,,,false,,,
+118,312,16,Detroit Shock,5,East,,LAST,LAST,,false,,,
+123,312,27,Los Angeles Sparks,5,West,,FIRST,FIRST,,true,3,true,true
+120,312,22,Houston Comets,5,West,,,,,true,0,false,false
+122,312,49,Utah Starzz,5,West,,,,,true,1,false,false
+130,312,53,Seattle Storm,5,West,,,,,true,0,false,false
+128,312,42,Portland Fire,5,West,,,,,false,,,
+129,312,48,Sacramento Monarchs,5,West,,,,,false,,,
+127,312,40,Phoenix Mercury,5,West,,,,,false,,,
+125,312,31,Minnesota Lynx,5,West,,,LAST,,false,,,
+118,318,16,Detroit Shock,5,East,,FIRST,FIRST,,true,3,true,true
+114,318,8,Charlotte Sting,5,East,,,,,true,0,false,false
+117,318,21,Connecticut Sun,5,East,,,,,true,1,false,false
+116,318,11,Cleveland Rockers,5,East,,,,,true,0,false,false
+121,318,23,Indiana Fever,5,East,,,,,false,,,
+126,318,35,New York Liberty,5,East,,,,,false,,,
+131,318,63,Washington Mystics,5,East,,,LAST,,false,,,
+123,318,27,Los Angeles Sparks,5,West,,,FIRST,,true,2,true,false
+120,318,22,Houston Comets,5,West,,,,,true,0,false,false
+129,318,48,Sacramento Monarchs,5,West,,,,,true,1,false,false
+125,318,31,Minnesota Lynx,5,West,,,,,true,0,false,false
+130,318,53,Seattle Storm,5,West,,,,,false,,,
+122,318,50,San Antonio Silver Stars,5,West,,,,,false,,,
+127,318,40,Phoenix Mercury,5,West,,LAST,LAST,,false,,,
+117,324,21,Connecticut Sun,5,East,,,FIRST_TIED,,true,2,true,false
+126,324,35,New York Liberty,5,East,,,FIRST_TIED,,true,1,false,false
+118,324,16,Detroit Shock,5,East,,,,,true,0,false,false
+131,324,63,Washington Mystics,5,East,,,,,true,0,false,false
+114,324,8,Charlotte Sting,5,East,,,,,false,,,
+121,324,23,Indiana Fever,5,East,,,LAST,,false,,,
+123,324,27,Los Angeles Sparks,5,West,,FIRST,FIRST,,true,0,false,false
+130,324,53,Seattle Storm,5,West,,,,,true,3,true,true
+125,324,31,Minnesota Lynx,5,West,,,,,true,0,false,false
+129,324,48,Sacramento Monarchs,5,West,,,,,true,1,false,false
+127,324,40,Phoenix Mercury,5,West,,,,,false,,,
+120,324,22,Houston Comets,5,West,,,,,false,,,
+122,324,50,San Antonio Silver Stars,5,West,,LAST,LAST,,false,,,
+117,329,21,Connecticut Sun,5,East,,FIRST,FIRST,,true,2,true,false
+121,329,23,Indiana Fever,5,East,,,,,true,1,false,false
+126,329,35,New York Liberty,5,East,,,,,true,0,false,false
+118,329,16,Detroit Shock,5,East,,,,,true,0,false,false
+131,329,63,Washington Mystics,5,East,,,,,false,,,
+114,329,8,Charlotte Sting,5,East,,LAST,LAST,,false,,,
+129,329,48,Sacramento Monarchs,5,West,,,FIRST,,true,3,true,true
+130,329,53,Seattle Storm,5,West,,,,,true,0,false,false
+120,329,22,Houston Comets,5,West,,,,,true,1,false,false
+123,329,27,Los Angeles Sparks,5,West,,,,,true,0,false,false
+127,329,40,Phoenix Mercury,5,West,,,,,false,,,
+125,329,31,Minnesota Lynx,5,West,,,,,false,,,
+122,329,50,San Antonio Silver Stars,5,West,,,LAST,,false,,,
+117,335,21,Connecticut Sun,5,East,,FIRST,FIRST,,true,1,false,false
+118,335,16,Detroit Shock,5,East,,,,,true,3,true,true
+121,335,23,Indiana Fever,5,East,,,,,true,0,false,false
+131,335,63,Washington Mystics,5,East,,,,,true,0,false,false
+114,335,8,Charlotte Sting,5,East,,,,,false,,,
+126,335,35,New York Liberty,5,East,,,,,false,,,
+115,335,9,Chicago Sky,5,East,,LAST,LAST,,false,,,
+123,335,27,Los Angeles Sparks,5,West,,,FIRST,,true,1,false,false
+129,335,48,Sacramento Monarchs,5,West,,,,,true,2,true,false
+120,335,22,Houston Comets,5,West,,,,,true,0,false,false
+130,335,53,Seattle Storm,5,West,,,,,true,0,false,false
+127,335,40,Phoenix Mercury,5,West,,,,,false,,,
+122,335,50,San Antonio Silver Stars,5,West,,,,,false,,,
+125,335,31,Minnesota Lynx,5,West,,,LAST,,false,,,
+118,341,16,Detroit Shock,5,East,,FIRST,FIRST,,true,2,true,false
+121,341,23,Indiana Fever,5,East,,,,,true,1,false,false
+117,341,21,Connecticut Sun,5,East,,,,,true,0,false,false
+126,341,35,New York Liberty,5,East,,,,,true,0,false,false
+131,341,63,Washington Mystics,5,East,,,,,false,,,
+115,341,9,Chicago Sky,5,East,,,LAST,,false,,,
+127,341,40,Phoenix Mercury,5,West,,,FIRST,,true,3,true,true
+122,341,50,San Antonio Silver Stars,5,West,,,,,true,1,false,false
+129,341,48,Sacramento Monarchs,5,West,,,,,true,0,false,false
+130,341,53,Seattle Storm,5,West,,,,,true,0,false,false
+120,341,22,Houston Comets,5,West,,,,,false,,,
+123,341,27,Los Angeles Sparks,5,West,,LAST_TIED,LAST_TIED,,false,,,
+125,341,31,Minnesota Lynx,5,West,,LAST_TIED,LAST_TIED,,false,,,
+118,347,16,Detroit Shock,5,East,,,FIRST,,true,3,true,true
+117,347,21,Connecticut Sun,5,East,,,,,true,0,false,false
+126,347,35,New York Liberty,5,East,,,,,true,1,false,false
+121,347,23,Indiana Fever,5,East,,,,,true,0,false,false
+115,347,9,Chicago Sky,5,East,,,,,false,,,
+131,347,63,Washington Mystics,5,East,,,,,false,,,
+113,347,2,Atlanta Dream,5,East,,LAST,LAST,,false,,,
+122,347,50,San Antonio Silver Stars,5,West,,FIRST,FIRST,,true,2,true,false
+130,347,53,Seattle Storm,5,West,,,,,true,0,false,false
+123,347,27,Los Angeles Sparks,5,West,,,,,true,1,false,false
+129,347,48,Sacramento Monarchs,5,West,,,,,true,0,false,false
+120,347,22,Houston Comets,5,West,,,,,false,,,
+125,347,31,Minnesota Lynx,5,West,,,LAST_TIED,,false,,,
+127,347,40,Phoenix Mercury,5,West,,,LAST_TIED,,false,,,
+121,353,23,Indiana Fever,5,East,,,FIRST,,true,2,true,false
+113,353,2,Atlanta Dream,5,East,,,,,true,0,false,false
+118,353,16,Detroit Shock,5,East,,,,,true,1,false,false
+131,353,63,Washington Mystics,5,East,,,,,true,0,false,false
+115,353,9,Chicago Sky,5,East,,,,,false,,,
+117,353,21,Connecticut Sun,5,East,,,,,false,,,
+126,353,35,New York Liberty,5,East,,,LAST,,false,,,
+127,353,40,Phoenix Mercury,5,West,,FIRST,FIRST,,true,3,true,true
+130,353,53,Seattle Storm,5,West,,,,,true,0,false,false
+123,353,27,Los Angeles Sparks,5,West,,,,,true,1,false,false
+122,353,50,San Antonio Silver Stars,5,West,,,,,true,0,false,false
+125,353,31,Minnesota Lynx,5,West,,,,,false,,,
+129,353,48,Sacramento Monarchs,5,West,,LAST,LAST,,false,,,
+126,359,35,New York Liberty,5,East,,,FIRST_TIED,,true,1,false,false
+131,359,63,Washington Mystics,5,East,,,FIRST_TIED,,true,0,false,false
+121,359,23,Indiana Fever,5,East,,,,,true,0,false,false
+113,359,2,Atlanta Dream,5,East,,,,,true,2,true,false
+117,359,21,Connecticut Sun,5,East,,,,,false,,,
+115,359,9,Chicago Sky,5,East,,,LAST,,false,,,
+130,359,53,Seattle Storm,5,West,,FIRST,FIRST,,true,3,true,true
+127,359,40,Phoenix Mercury,5,West,,,,,true,1,false,false
+122,359,50,San Antonio Silver Stars,5,West,,,,,true,0,false,false
+123,359,27,Los Angeles Sparks,5,West,,,,,true,0,false,false
+125,359,31,Minnesota Lynx,5,West,,,,,false,,,
+118,359,61,Tulsa Shock,5,West,,LAST,LAST,,false,,,
+117,365,21,Connecticut Sun,5,East,,,FIRST_TIED,,true,0,false,false
+121,365,23,Indiana Fever,5,East,,,FIRST_TIED,,true,1,false,false
+113,365,2,Atlanta Dream,5,East,,,,,true,2,true,false
+126,365,35,New York Liberty,5,East,,,,,true,0,false,false
+115,365,9,Chicago Sky,5,East,,,,,false,,,
+131,365,63,Washington Mystics,5,East,,,LAST,,false,,,
+125,365,31,Minnesota Lynx,5,West,,FIRST,FIRST,,true,3,true,true
+130,365,53,Seattle Storm,5,West,,,,,true,0,false,false
+127,365,40,Phoenix Mercury,5,West,,,,,true,1,false,false
+122,365,50,San Antonio Silver Stars,5,West,,,,,true,0,false,false
+123,365,27,Los Angeles Sparks,5,West,,,,,false,,,
+118,365,61,Tulsa Shock,5,West,,LAST,LAST,,false,,,
+117,371,21,Connecticut Sun,5,East,,,FIRST,,true,1,false,false
+121,371,23,Indiana Fever,5,East,,,,,true,3,true,true
+113,371,2,Atlanta Dream,5,East,,,,,true,0,false,false
+126,371,35,New York Liberty,5,East,,,,,true,0,false,false
+115,371,9,Chicago Sky,5,East,,,,,false,,,
+131,371,63,Washington Mystics,5,East,,LAST,LAST,,false,,,
+125,371,31,Minnesota Lynx,5,West,,FIRST,FIRST,,true,2,true,false
+123,371,27,Los Angeles Sparks,5,West,,,,,true,1,false,false
+122,371,50,San Antonio Silver Stars,5,West,,,,,true,0,false,false
+130,371,53,Seattle Storm,5,West,,,,,true,0,false,false
+118,371,61,Tulsa Shock,5,West,,,,,false,,,
+127,371,40,Phoenix Mercury,5,West,,,LAST,,false,,,
+115,377,9,Chicago Sky,5,East,,,FIRST,,true,0,false,false
+113,377,2,Atlanta Dream,5,East,,,,,true,2,true,false
+131,377,63,Washington Mystics,5,East,,,,,true,0,false,false
+121,377,23,Indiana Fever,5,East,,,,,true,1,false,false
+126,377,35,New York Liberty,5,East,,,,,false,,,
+117,377,21,Connecticut Sun,5,East,,LAST,LAST,,false,,,
+125,377,31,Minnesota Lynx,5,West,,FIRST,FIRST,,true,3,true,true
+123,377,27,Los Angeles Sparks,5,West,,,,,true,0,false,false
+127,377,40,Phoenix Mercury,5,West,,,,,true,1,false,false
+130,377,53,Seattle Storm,5,West,,,,,true,0,false,false
+122,377,50,San Antonio Silver Stars,5,West,,,,,false,,,
+118,377,61,Tulsa Shock,5,West,,,LAST,,false,,,
+113,383,2,Atlanta Dream,5,East,,,FIRST,,true,0,false,false
+121,383,23,Indiana Fever,5,East,,,,,true,1,false,false
+131,383,63,Washington Mystics,5,East,,,,,true,0,false,false
+115,383,9,Chicago Sky,5,East,,,,,true,2,true,false
+126,383,35,New York Liberty,5,East,,,,,false,,,
+117,383,21,Connecticut Sun,5,East,,,LAST,,false,,,
+127,383,40,Phoenix Mercury,5,West,,FIRST,FIRST,,true,3,true,true
+125,383,31,Minnesota Lynx,5,West,,,,,true,1,false,false
+123,383,27,Los Angeles Sparks,5,West,,,,,true,0,false,false
+122,383,50,San Antonio Stars,5,West,,,,,true,0,false,false
+130,383,53,Seattle Storm,5,West,,LAST_TIED,LAST_TIED,,false,,,
+118,383,61,Tulsa Shock,5,West,,LAST_TIED,LAST_TIED,,false,,,
+126,389,35,New York Liberty,5,East,,FIRST,FIRST,,true,1,false,false
+115,389,9,Chicago Sky,5,East,,,,,true,0,false,false
+121,389,23,Indiana Fever,5,East,,,,,true,2,true,false
+131,389,63,Washington Mystics,5,East,,,,,true,0,false,false
+113,389,2,Atlanta Dream,5,East,,,LAST_TIED,,false,,,
+117,389,21,Connecticut Sun,5,East,,,LAST_TIED,,false,,,
+125,389,31,Minnesota Lynx,5,West,,,FIRST,,true,3,true,true
+127,389,40,Phoenix Mercury,5,West,,,,,true,1,false,false
+118,389,61,Tulsa Shock,5,West,,,,,true,0,false,false
+123,389,27,Los Angeles Sparks,5,West,,,,,true,0,false,false
+130,389,53,Seattle Storm,5,West,,,,,false,,,
+122,389,50,San Antonio Stars,5,West,,LAST,LAST,,false,,,
+126,395,35,New York Liberty,5,East,,,FIRST,,true,0,false,false
+115,395,9,Chicago Sky,5,East,,,,,true,1,false,false
+113,395,2,Atlanta Dream,5,East,,,,,true,1,false,false
+121,395,23,Indiana Fever,5,East,,,,,true,0,false,false
+117,395,21,Connecticut Sun,5,East,,,,,false,,,
+131,395,63,Washington Mystics,5,East,,,LAST,,false,,,
+125,395,31,Minnesota Lynx,5,West,,FIRST,FIRST,,true,1,true,false
+123,395,27,Los Angeles Sparks,5,West,,,,,true,2,true,true
+127,395,40,Phoenix Mercury,5,West,,,,,true,2,false,false
+130,395,53,Seattle Storm,5,West,,,,,true,0,false,false
+118,395,13,Dallas Wings,5,West,,,,,false,,,
+122,395,50,San Antonio Stars,5,West,,LAST,LAST,,false,,,
+126,401,35,New York Liberty,5,East,,,FIRST,,true,0,false,false
+117,401,21,Connecticut Sun,5,East,,,,,true,0,false,false
+131,401,63,Washington Mystics,5,East,,,,,true,2,false,false
+113,401,2,Atlanta Dream,5,East,,,,,false,,,
+115,401,9,Chicago Sky,5,East,,,,,false,,,
+121,401,23,Indiana Fever,5,East,,,LAST,,false,,,
+125,401,31,Minnesota Lynx,5,West,,FIRST,FIRST,,true,2,true,true
+123,401,27,Los Angeles Sparks,5,West,,,,,true,1,true,false
+127,401,40,Phoenix Mercury,5,West,,,,,true,2,false,false
+118,401,13,Dallas Wings,5,West,,,,,true,0,false,false
+130,401,53,Seattle Storm,5,West,,,,,true,0,false,false
+122,401,50,San Antonio Stars,5,West,,LAST,LAST,,false,,,
+113,407,2,Atlanta Dream,5,East,,,FIRST,,true,0,false,false
+131,407,63,Washington Mystics,5,East,,,,,true,2,true,false
+117,407,21,Connecticut Sun,5,East,,,,,true,0,false,false
+115,407,9,Chicago Sky,5,East,,,,,false,,,
+126,407,35,New York Liberty,5,East,,,,,false,,,
+121,407,23,Indiana Fever,5,East,,LAST,LAST,,false,,,
+130,407,53,Seattle Storm,5,West,,FIRST,FIRST,,true,2,true,true
+127,407,40,Phoenix Mercury,5,West,,,,,true,2,false,false
+123,407,27,Los Angeles Sparks,5,West,,,,,true,1,false,false
+125,407,31,Minnesota Lynx,5,West,,,,,true,0,false,false
+118,407,13,Dallas Wings,5,West,,,,,true,0,false,false
+122,407,26,Las Vegas Aces,5,West,,,LAST,,false,,,
+131,413,63,Washington Mystics,5,East,,FIRST,FIRST,,true,2,true,true
+117,413,21,Connecticut Sun,5,East,,,,,true,1,true,false
+115,413,9,Chicago Sky,5,East,,,,,true,1,false,false
+121,413,23,Indiana Fever,5,East,,,,,false,,,
+126,413,35,New York Liberty,5,East,,,,,false,,,
+113,413,2,Atlanta Dream,5,East,,LAST,LAST,,false,,,
+123,413,27,Los Angeles Sparks,5,West,,,FIRST,,true,1,false,false
+122,413,26,Las Vegas Aces,5,West,,,,,true,1,false,false
+125,413,31,Minnesota Lynx,5,West,,,,,true,0,false,false
+130,413,53,Seattle Storm,5,West,,,,,true,1,false,false
+127,413,40,Phoenix Mercury,5,West,,,,,true,0,false,false
+118,413,13,Dallas Wings,5,West,,,LAST,,false,,,
+115,419,9,Chicago Sky,5,East,,,FIRST,,true,0,false,false
+117,419,21,Connecticut Sun,5,East,,,,,true,2,false,false
+131,419,63,Washington Mystics,5,East,,,,,true,0,false,false
+113,419,2,Atlanta Dream,5,East,,,,,false,,,
+121,419,23,Indiana Fever,5,East,,,,,false,,,
+126,419,35,New York Liberty,5,East,,LAST,LAST,,false,,,
+122,419,26,Las Vegas Aces,5,West,,FIRST_TIED,FIRST_TIED,,true,1,true,false
+130,419,53,Seattle Storm,5,West,,FIRST_TIED,FIRST_TIED,,true,2,true,true
+123,419,27,Los Angeles Sparks,5,West,,,,,true,0,false,false
+125,419,31,Minnesota Lynx,5,West,,,,,true,1,false,false
+127,419,40,Phoenix Mercury,5,West,,,,,true,1,false,false
+118,419,13,Dallas Wings,5,West,,,LAST,,false,,,
+117,425,21,Connecticut Sun,5,East,,FIRST,FIRST,,true,0,false,false
+115,425,9,Chicago Sky,5,East,,,,,true,4,true,true
+126,425,35,New York Liberty,5,East,,,,,true,0,false,false
+131,425,63,Washington Mystics,5,East,,,,,false,,,
+113,425,2,Atlanta Dream,5,East,,,,,false,,,
+121,425,23,Indiana Fever,5,East,,LAST,LAST,,false,,,
+122,425,26,Las Vegas Aces,5,West,,,FIRST,,true,0,false,false
+125,425,31,Minnesota Lynx,5,West,,,,,true,0,false,false
+130,425,53,Seattle Storm,5,West,,,,,true,0,false,false
+127,425,40,Phoenix Mercury,5,West,,,,,true,3,true,false
+118,425,13,Dallas Wings,5,West,,,,,true,0,false,false
+123,425,27,Los Angeles Sparks,5,West,,,LAST,,false,,,
+115,431,9,Chicago Sky,5,East,,FIRST_TIED,FIRST,,true,1,false,false
+117,431,21,Connecticut Sun,5,East,,,,,true,2,true,false
+131,431,63,Washington Mystics,5,East,,,,,true,0,false,false
+126,431,35,New York Liberty,5,East,,,,,true,0,false,false
+113,431,2,Atlanta Dream,5,East,,,,,false,,,
+121,431,23,Indiana Fever,5,East,,LAST,LAST,,false,,,
+122,431,26,Las Vegas Aces,5,West,,FIRST_TIED,FIRST,,true,3,true,true
+130,431,53,Seattle Storm,5,West,,,,,true,1,false,false
+118,431,13,Dallas Wings,5,West,,,,,true,0,false,false
+127,431,40,Phoenix Mercury,5,West,,,,,true,0,false,false
+125,431,31,Minnesota Lynx,5,West,,,,,false,,,
+123,431,27,Los Angeles Sparks,5,West,,,LAST,,false,,,
+126,437,35,New York Liberty,5,East,,,FIRST,,true,2,true,false
+117,437,21,Connecticut Sun,5,East,,,,,true,1,false,false
+113,437,2,Atlanta Dream,5,East,,,,,true,0,false,false
+131,437,63,Washington Mystics,5,East,,,,,true,0,false,false
+115,437,9,Chicago Sky,5,East,,,,,true,0,false,false
+121,437,23,Indiana Fever,5,East,,,LAST,,false,,,
+122,437,26,Las Vegas Aces,5,West,,FIRST,FIRST,,true,3,true,true
+118,437,13,Dallas Wings,5,West,,,,,true,1,false,false
+125,437,31,Minnesota Lynx,5,West,,,,,true,0,false,false
+123,437,27,Los Angeles Sparks,5,West,,,,,false,,,
+130,437,53,Seattle Storm,5,West,,,,,false,,,
+127,437,40,Phoenix Mercury,5,West,,LAST,LAST,,false,,,
+126,443,35,New York Liberty,5,East,,FIRST,FIRST,,true,3,true,true
+117,443,21,Connecticut Sun,5,East,,,,,true,1,false,false
+121,443,23,Indiana Fever,5,East,,,,,true,0,false,false
+113,443,2,Atlanta Dream,5,East,,,,,true,0,false,false
+131,443,63,Washington Mystics,5,East,,,,,false,,,
+115,443,9,Chicago Sky,5,East,,,LAST,,false,,,
+125,443,31,Minnesota Lynx,5,West,,,FIRST,,true,2,true,false
+122,443,26,Las Vegas Aces,5,West,,,,,true,1,false,false
+130,443,53,Seattle Storm,5,West,,,,,true,0,false,false
+127,443,40,Phoenix Mercury,5,West,,,,,true,0,false,false
+118,443,13,Dallas Wings,5,West,,,,,false,,,
+123,443,27,Los Angeles Sparks,5,West,,LAST,LAST,,false,,,

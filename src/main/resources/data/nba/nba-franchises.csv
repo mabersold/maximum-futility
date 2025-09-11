@@ -1,44 +1,46 @@
-name,is_defunct,league
-Anderson Packers,true,NBA
-Atlanta Hawks,false,NBA
-Baltimore Bullets (original),true,NBA
-Boston Celtics,false,NBA
-Brooklyn Nets,false,NBA
-Charlotte Hornets,false,NBA
-Chicago Bulls,false,NBA
-Chicago Stags,true,NBA
-Cleveland Cavaliers,false,NBA
-Cleveland Rebels,true,NBA
-Dallas Mavericks,false,NBA
-Denver Nuggets,false,NBA
-Denver Nuggets (original),true,NBA
-Detroit Pistons,false,NBA
-Golden State Warriors,false,NBA
-Houston Rockets,false,NBA
-Indiana Pacers,false,NBA
-Indianapolis Jets,true,NBA
-Indianapolis Olympians,true,NBA
-Los Angeles Clippers,false,NBA
-Los Angeles Lakers,false,NBA
-Memphis Grizzlies,false,NBA
-Miami Heat,false,NBA
-Milwaukee Bucks,false,NBA
-Minnesota Timberwolves,false,NBA
-New Orleans Pelicans,false,NBA
-New York Knicks,false,NBA
-Oklahoma City Thunder,false,NBA
-Orlando Magic,false,NBA
-Philadelphia 76ers,false,NBA
-Phoenix Suns,false,NBA
-Pittsburgh Ironmen,true,NBA
-Portland Trail Blazers,false,NBA
-Providence Steamrollers,true,NBA
-Sacramento Kings,false,NBA
-San Antonio Spurs,false,NBA
-Sheboygan Red Skins,true,NBA
-St. Louis Bombers,true,NBA
-Toronto Huskies,true,NBA
-Toronto Raptors,false,NBA
-Utah Jazz,false,NBA
-Washington Capitols,true,NBA
-Washington Wizards,false,NBA
+id,name,label,is_defunct,league_id
+31,Anderson Packers,packers-nba,true,3
+32,Atlanta Hawks,hawks,false,3
+33,Baltimore Bullets,bullets,true,3
+34,Boston Celtics,celtics,false,3
+35,Brooklyn Nets,nets,false,3
+36,Charlotte Hornets,hornets,false,3
+37,Chicago Bulls,bulls,false,3
+38,Chicago Stags,stags,true,3
+39,Cleveland Cavaliers,cavaliers,false,3
+40,Cleveland Rebels,rebels,true,3
+41,Dallas Mavericks,mavericks,false,3
+42,Denver Nuggets (original),nuggets-old,true,3
+43,Denver Nuggets,nuggets,false,3
+44,Detroit Pistons,pistons,false,3
+45,Golden State Warriors,warriors,false,3
+46,Houston Rockets,rockets,false,3
+47,Indiana Pacers,pacers,false,3
+48,Indianapolis Jets,jets-nba,true,3
+49,Indianapolis Olympians,olympians,true,3
+50,Los Angeles Clippers,clippers,false,3
+51,Los Angeles Lakers,lakers,false,3
+52,Memphis Grizzlies,grizzlies,false,3
+53,Miami Heat,heat,false,3
+54,Milwaukee Bucks,bucks,false,3
+55,Minnesota Timberwolves,timberwolves,false,3
+56,New Orleans Pelicans,pelicans,false,3
+57,New York Knicks,knicks,false,3
+58,Oklahoma City Thunder,thunder,false,3
+59,Orlando Magic,magic,false,3
+60,Philadelphia 76ers,76ers,false,3
+61,Phoenix Suns,suns,false,3
+62,Pittsburgh Ironmen,ironmen,true,3
+63,Portland Trail Blazers,blazers,false,3
+64,Providence Steamrollers,steamrollers,true,3
+65,Sacramento Kings,kings-nba,false,3
+66,San Antonio Spurs,spurs,false,3
+67,Sheboygan Red Skins,redskins-nba,true,3
+68,St. Louis Bombers,bombers,true,3
+69,Toronto Huskies,huskies,true,3
+70,Toronto Raptors,raptors,false,3
+71,Utah Jazz,jazz,false,3
+72,Washington Capitols,capitols-nba,true,3
+73,Washington Wizards,wizards,false,3
+74,Detroit Falcons,falcons-baa,true,3
+75,Waterloo Hawks,waterloo-hawks,true,3

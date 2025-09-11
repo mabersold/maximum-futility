@@ -1,0 +1,1694 @@
+franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+72,80,63,Washington Capitols,3,Eastern,,FIRST,FIRST,,true,0,false,false
+45,80,39,Philadelphia Warriors,3,Eastern,,,,,true,3,true,true
+57,80,35,New York Knicks,3,Eastern,,,,,true,1,false,false
+64,80,44,Providence Steamrollers,3,Eastern,,,,,false,,,
+34,80,5,Boston Celtics,3,Eastern,,,LAST_TIED,,false,,,
+69,80,59,Toronto Huskies,3,Eastern,,,LAST_TIED,,false,,,
+38,80,9,Chicago Stags,3,Western,,,FIRST,,true,1,true,false
+68,80,56,St. Louis Bombers,3,Western,,,,,true,0,false,false
+40,80,11,Cleveland Rebels,3,Western,,,,,true,0,false,false
+74,80,16,Detroit Falcons,3,Western,,,,,false,,,
+62,80,41,Pittsburgh Ironmen,3,Western,,LAST,LAST,,false,,,
+45,84,39,Philadelphia Warriors,3,Eastern,,,FIRST,,true,1,true,false
+57,84,35,New York Knicks,3,Eastern,,,,,true,0,false,false
+34,84,5,Boston Celtics,3,Eastern,,,,,true,0,false,false
+64,84,44,Providence Steamrollers,3,Eastern,,LAST,LAST,,false,,,
+68,84,56,St. Louis Bombers,3,Western,,FIRST,FIRST,,true,0,false,false
+33,84,4,Baltimore Bullets,3,Western,,,LAST_TIED,,true,3,true,true
+38,84,9,Chicago Stags,3,Western,,,LAST_TIED,,true,1,false,false
+72,84,63,Washington Capitols,3,Western,,,LAST_TIED,,false,,,
+72,88,63,Washington Capitols,3,Eastern,,,FIRST,,true,2,true,false
+57,88,35,New York Knicks,3,Eastern,,,,,true,1,false,false
+33,88,4,Baltimore Bullets,3,Eastern,,,,,true,0,false,false
+45,88,39,Philadelphia Warriors,3,Eastern,,,,,true,0,false,false
+34,88,5,Boston Celtics,3,Eastern,,,,,false,,,
+64,88,44,Providence Steamrollers,3,Eastern,,LAST,LAST,,false,,,
+65,88,47,Rochester Royals,3,Western,,FIRST,FIRST,,true,1,false,false
+51,88,31,Minneapolis Lakers,3,Western,,,,,true,3,true,true
+38,88,9,Chicago Stags,3,Western,,,,,true,0,false,false
+68,88,56,St. Louis Bombers,3,Western,,,,,true,0,false,false
+44,88,18,Fort Wayne Pistons,3,Western,,,,,false,,,
+48,88,23,Indianapolis Jets,3,Western,,,LAST,,false,,,
+60,92,57,Syracuse Nationals,3,Eastern,,FIRST,FIRST,,true,2,true,false
+57,92,35,New York Knicks,3,Eastern,,,,,true,1,false,false
+72,92,63,Washington Capitols,3,Eastern,,,,,true,0,false,false
+45,92,39,Philadelphia Warriors,3,Eastern,,,,,true,0,false,false
+33,92,4,Baltimore Bullets,3,Eastern,,,,,false,,,
+34,92,5,Boston Celtics,3,Eastern,,,LAST,,false,,,
+51,92,31,Minneapolis Lakers,3,Central,,,FIRST_TIED,,true,4,true,true
+65,92,47,Rochester Royals,3,Central,,,FIRST_TIED,,true,0,false,false
+44,92,18,Fort Wayne Pistons,3,Central,,,,,true,1,false,false
+38,92,9,Chicago Stags,3,Central,,,,,true,0,false,false
+68,92,56,St. Louis Bombers,3,Central,,,LAST,,false,,,
+49,92,23,Indianapolis Olympians,3,Western,,,FIRST,,true,1,false,false
+31,92,1,Anderson Packers,3,Western,,,,,true,2,false,false
+32,92,60,Tri-Cities Blackhawks,3,Western,,,,,true,0,false,false
+67,92,54,Sheboygan Red Skins,3,Western,,,,,true,0,false,false
+75,92,65,Waterloo Hawks,3,Western,,,,,false,,,
+42,92,15,Denver Nuggets,3,Western,,LAST,LAST,,false,,,
+45,96,39,Philadelphia Warriors,3,Eastern,,,FIRST,,true,0,false,false
+34,96,5,Boston Celtics,3,Eastern,,,,,true,0,false,false
+57,96,35,New York Knicks,3,Eastern,,,,,true,2,true,false
+60,96,57,Syracuse Nationals,3,Eastern,,,,,true,1,false,false
+33,96,4,Baltimore Bullets,3,Eastern,,,,,false,,,
+72,96,63,Washington Capitols,3,Eastern,,LAST,LAST,,false,,,
+51,96,31,Minneapolis Lakers,3,Western,,FIRST,FIRST,,true,1,false,false
+65,96,47,Rochester Royals,3,Western,,,,,true,3,true,true
+44,96,18,Fort Wayne Pistons,3,Western,,,,,true,0,false,false
+49,96,23,Indianapolis Olympians,3,Western,,,,,true,0,false,false
+32,96,60,Tri-Cities Blackhawks,3,Western,,,LAST,,false,,,
+60,100,57,Syracuse Nationals,3,Eastern,,,FIRST,,true,1,false,false
+34,100,5,Boston Celtics,3,Eastern,,,,,true,0,false,false
+57,100,35,New York Knicks,3,Eastern,,,,,true,2,true,false
+45,100,39,Philadelphia Warriors,3,Eastern,,,,,true,0,false,false
+33,100,4,Baltimore Bullets,3,Eastern,,,LAST,,false,,,
+65,100,47,Rochester Royals,3,Western,,FIRST,FIRST,,true,1,false,false
+51,100,31,Minneapolis Lakers,3,Western,,,,,true,3,true,true
+49,100,23,Indianapolis Olympians,3,Western,,,,,true,0,false,false
+44,100,18,Fort Wayne Pistons,3,Western,,,,,true,0,false,false
+32,100,30,Milwaukee Hawks,3,Western,,LAST,LAST,,false,,,
+57,104,35,New York Knicks,3,Eastern,,,FIRST,,true,2,true,false
+60,104,57,Syracuse Nationals,3,Eastern,,,,,true,0,false,false
+34,104,5,Boston Celtics,3,Eastern,,,,,true,1,false,false
+33,104,4,Baltimore Bullets,3,Eastern,,,,,true,0,false,false
+45,104,39,Philadelphia Warriors,3,Eastern,,LAST,LAST,,false,,,
+51,104,31,Minneapolis Lakers,3,Western,,FIRST,FIRST,,true,3,true,true
+65,104,47,Rochester Royals,3,Western,,,,,true,0,false,false
+44,104,18,Fort Wayne Pistons,3,Western,,,,,true,1,false,false
+49,104,23,Indianapolis Olympians,3,Western,,,,,true,0,false,false
+32,104,30,Milwaukee Hawks,3,Western,,,LAST,,false,,,
+57,108,35,New York Knicks,3,Eastern,,,FIRST,,true,0,false,false
+34,108,5,Boston Celtics,3,Eastern,,,,,true,1,false,false
+60,108,57,Syracuse Nationals,3,Eastern,,,,,true,2,true,false
+45,108,39,Philadelphia Warriors,3,Eastern,,,,,false,,,
+33,108,4,Baltimore Bullets,3,Eastern,,LAST,LAST,,false,,,
+51,108,31,Minneapolis Lakers,3,Western,,FIRST,FIRST,,true,3,true,true
+65,108,47,Rochester Royals,3,Western,,,,,true,1,false,false
+44,108,18,Fort Wayne Pistons,3,Western,,,,,true,0,false,false
+32,108,30,Milwaukee Hawks,3,Western,,,LAST,,false,,,
+60,112,57,Syracuse Nationals,3,Eastern,,FIRST_TIED,FIRST,,true,2,true,true
+57,112,35,New York Knicks,3,Eastern,,,,,true,0,false,false
+34,112,5,Boston Celtics,3,Eastern,,,,,true,1,false,false
+45,112,39,Philadelphia Warriors,3,Eastern,,,LAST,,false,,,
+44,112,18,Fort Wayne Pistons,3,Western,,FIRST_TIED,FIRST,,true,1,true,false
+51,112,31,Minneapolis Lakers,3,Western,,,,,true,1,false,false
+65,112,47,Rochester Royals,3,Western,,,,,true,0,false,false
+32,112,30,Milwaukee Hawks,3,Western,,LAST,LAST,,false,,,
+45,116,39,Philadelphia Warriors,3,Eastern,,FIRST,FIRST,,true,2,true,true
+34,116,5,Boston Celtics,3,Eastern,,,,,true,0,false,false
+60,116,57,Syracuse Nationals,3,Eastern,,,LAST_TIED,,true,1,false,false
+57,116,35,New York Knicks,3,Eastern,,,LAST_TIED,,false,,,
+44,116,18,Fort Wayne Pistons,3,Western,,,FIRST,,true,1,true,false
+51,116,31,Minneapolis Lakers,3,Western,,,,,true,0,false,false
+32,116,56,St. Louis Hawks,3,Western,,,,,true,1,false,false
+65,116,47,Rochester Royals,3,Western,,LAST,LAST,,false,,,
+34,120,5,Boston Celtics,3,Eastern,,FIRST,FIRST,,true,2,true,true
+60,120,57,Syracuse Nationals,3,Eastern,,,,,true,1,false,false
+45,120,39,Philadelphia Warriors,3,Eastern,,,,,true,0,false,false
+57,120,35,New York Knicks,3,Eastern,,,LAST,,false,,,
+32,120,56,St. Louis Hawks,3,Western,,,FIRST_TIED,,true,1,true,false
+51,120,31,Minneapolis Lakers,3,Western,,,FIRST_TIED,,true,1,false,false
+44,120,18,Fort Wayne Pistons,3,Western,,,FIRST_TIED,,true,0,false,false
+65,120,47,Rochester Royals,3,Western,,LAST,LAST,,false,,,
+34,124,5,Boston Celtics,3,Eastern,,FIRST,FIRST,,true,1,true,false
+60,124,57,Syracuse Nationals,3,Eastern,,,,,true,0,false,false
+45,124,39,Philadelphia Warriors,3,Eastern,,,,,true,1,false,false
+57,124,35,New York Knicks,3,Eastern,,,LAST,,false,,,
+32,124,56,St. Louis Hawks,3,Western,,,FIRST,,true,2,true,true
+44,124,16,Detroit Pistons,3,Western,,,,,true,1,false,false
+65,124,10,Cincinnati Royals,3,Western,,,,,true,0,false,false
+51,124,31,Minneapolis Lakers,3,Western,,LAST,LAST,,false,,,
+34,128,5,Boston Celtics,3,Eastern,,FIRST,FIRST,,true,2,true,true
+57,128,35,New York Knicks,3,Eastern,,,,,true,0,false,false
+60,128,57,Syracuse Nationals,3,Eastern,,,,,true,1,false,false
+45,128,39,Philadelphia Warriors,3,Eastern,,,LAST,,false,,,
+32,128,56,St. Louis Hawks,3,Western,,,FIRST,,true,0,false,false
+51,128,31,Minneapolis Lakers,3,Western,,,,,true,2,true,false
+44,128,16,Detroit Pistons,3,Western,,,,,true,0,false,false
+65,128,10,Cincinnati Royals,3,Western,,LAST,LAST,,false,,,
+34,132,5,Boston Celtics,3,Eastern,,FIRST,FIRST,,true,2,true,true
+45,132,39,Philadelphia Warriors,3,Eastern,,,,,true,1,false,false
+60,132,57,Syracuse Nationals,3,Eastern,,,,,true,0,false,false
+57,132,35,New York Knicks,3,Eastern,,,LAST,,false,,,
+32,132,56,St. Louis Hawks,3,Western,,,FIRST,,true,1,true,false
+44,132,16,Detroit Pistons,3,Western,,,,,true,0,false,false
+51,132,31,Minneapolis Lakers,3,Western,,,,,true,1,false,false
+65,132,10,Cincinnati Royals,3,Western,,LAST,LAST,,false,,,
+34,136,5,Boston Celtics,3,Eastern,,FIRST,FIRST,,true,2,true,true
+45,136,39,Philadelphia Warriors,3,Eastern,,,,,true,0,false,false
+60,136,57,Syracuse Nationals,3,Eastern,,,,,true,1,false,false
+57,136,35,New York Knicks,3,Eastern,,LAST,LAST,,false,,,
+32,136,56,St. Louis Hawks,3,Western,,,FIRST,,true,1,true,false
+51,136,27,Los Angeles Lakers,3,Western,,,,,true,1,false,false
+44,136,16,Detroit Pistons,3,Western,,,,,true,0,false,false
+65,136,10,Cincinnati Royals,3,Western,,,LAST,,false,,,
+34,140,5,Boston Celtics,3,Eastern,,FIRST,FIRST,,true,2,true,true
+45,140,39,Philadelphia Warriors,3,Eastern,,,,,true,1,false,false
+60,140,57,Syracuse Nationals,3,Eastern,,,,,true,0,false,false
+57,140,35,New York Knicks,3,Eastern,,,LAST,,false,,,
+51,140,27,Los Angeles Lakers,3,Western,,,FIRST,,true,1,true,false
+65,140,10,Cincinnati Royals,3,Western,,,,,true,0,false,false
+44,140,16,Detroit Pistons,3,Western,,,,,true,1,false,false
+32,140,56,St. Louis Hawks,3,Western,,,,,false,,,
+73,140,9,Chicago Packers,3,Western,,LAST,LAST,,false,,,
+34,144,5,Boston Celtics,3,Eastern,,FIRST,FIRST,,true,2,true,true
+60,144,57,Syracuse Nationals,3,Eastern,,,,,true,0,false,false
+65,144,10,Cincinnati Royals,3,Eastern,,,,,true,1,false,false
+57,144,35,New York Knicks,3,Eastern,,LAST,LAST,,false,,,
+51,144,27,Los Angeles Lakers,3,Western,,,FIRST,,true,1,true,false
+32,144,56,St. Louis Hawks,3,Western,,,,,true,1,false,false
+44,144,16,Detroit Pistons,3,Western,,,,,true,0,false,false
+45,144,52,San Francisco Warriors,3,Western,,,,,false,,,
+73,144,9,Chicago Zephyrs,3,Western,,,LAST,,false,,,
+34,148,5,Boston Celtics,3,Eastern,,FIRST,FIRST,,true,2,true,true
+65,148,10,Cincinnati Royals,3,Eastern,,,,,true,1,false,false
+60,148,39,Philadelphia 76ers,3,Eastern,,,,,true,0,false,false
+57,148,35,New York Knicks,3,Eastern,,LAST,LAST,,false,,,
+45,148,52,San Francisco Warriors,3,Western,,,FIRST,,true,1,true,false
+32,148,56,St. Louis Hawks,3,Western,,,,,true,1,false,false
+51,148,27,Los Angeles Lakers,3,Western,,,,,true,0,false,false
+73,148,4,Baltimore Bullets,3,Western,,,,,false,,,
+44,148,16,Detroit Pistons,3,Western,,,LAST,,false,,,
+34,152,5,Boston Celtics,3,Eastern,,FIRST,FIRST,,true,2,true,true
+65,152,10,Cincinnati Royals,3,Eastern,,,,,true,0,false,false
+60,152,39,Philadelphia 76ers,3,Eastern,,,,,true,1,false,false
+57,152,35,New York Knicks,3,Eastern,,,LAST,,false,,,
+51,152,27,Los Angeles Lakers,3,Western,,,FIRST,,true,1,true,false
+32,152,56,St. Louis Hawks,3,Western,,,,,true,0,false,false
+73,152,4,Baltimore Bullets,3,Western,,,,,true,1,false,false
+44,152,16,Detroit Pistons,3,Western,,,,,false,,,
+45,152,52,San Francisco Warriors,3,Western,,LAST,LAST,,false,,,
+60,156,39,Philadelphia 76ers,3,Eastern,,FIRST,FIRST,,true,0,false,false
+34,156,5,Boston Celtics,3,Eastern,,,,,true,3,true,true
+65,156,10,Cincinnati Royals,3,Eastern,,,,,true,0,false,false
+57,156,35,New York Knicks,3,Eastern,,,LAST,,false,,,
+51,156,27,Los Angeles Lakers,3,Western,,,FIRST,,true,1,true,false
+73,156,4,Baltimore Bullets,3,Western,,,,,true,0,false,false
+32,156,56,St. Louis Hawks,3,Western,,,,,true,1,false,false
+45,156,52,San Francisco Warriors,3,Western,,,,,false,,,
+44,156,16,Detroit Pistons,3,Western,,LAST,LAST,,false,,,
+60,160,39,Philadelphia 76ers,3,Eastern,,FIRST,FIRST,,true,3,true,true
+34,160,5,Boston Celtics,3,Eastern,,,,,true,1,false,false
+65,160,10,Cincinnati Royals,3,Eastern,,,,,true,0,false,false
+57,160,35,New York Knicks,3,Eastern,,,,,true,0,false,false
+73,160,4,Baltimore Bullets,3,Eastern,,LAST,LAST,,false,,,
+45,160,52,San Francisco Warriors,3,Western,,,FIRST,,true,2,true,false
+32,160,56,St. Louis Hawks,3,Western,,,,,true,1,false,false
+51,160,27,Los Angeles Lakers,3,Western,,,,,true,0,false,false
+37,160,9,Chicago Bulls,3,Western,,,,,true,0,false,false
+44,160,16,Detroit Pistons,3,Western,,,LAST,,false,,,
+60,164,39,Philadelphia 76ers,3,Eastern,,FIRST,FIRST,,true,1,false,false
+34,164,5,Boston Celtics,3,Eastern,,,,,true,3,true,true
+57,164,35,New York Knicks,3,Eastern,,,,,true,0,false,false
+44,164,16,Detroit Pistons,3,Eastern,,,,,true,0,false,false
+65,164,10,Cincinnati Royals,3,Eastern,,,,,false,,,
+73,164,4,Baltimore Bullets,3,Eastern,,,LAST,,false,,,
+32,164,56,St. Louis Hawks,3,Western,,,FIRST,,true,0,false,false
+51,164,27,Los Angeles Lakers,3,Western,,,,,true,2,true,false
+45,164,52,San Francisco Warriors,3,Western,,,,,true,1,false,false
+37,164,9,Chicago Bulls,3,Western,,,,,true,0,false,false
+58,164,53,Seattle SuperSonics,3,Western,,,,,false,,,
+46,164,51,San Diego Rockets,3,Western,,LAST,LAST,,false,,,
+73,168,4,Baltimore Bullets,3,Eastern,,FIRST,FIRST,,true,0,false,false
+60,168,39,Philadelphia 76ers,3,Eastern,,,,,true,0,false,false
+57,168,35,New York Knicks,3,Eastern,,,,,true,1,false,false
+34,168,5,Boston Celtics,3,Eastern,,,,,true,3,true,true
+65,168,10,Cincinnati Royals,3,Eastern,,,,,false,,,
+44,168,16,Detroit Pistons,3,Eastern,,,,,false,,,
+54,168,30,Milwaukee Bucks,3,Eastern,,,LAST,,false,,,
+51,168,27,Los Angeles Lakers,3,Western,,,FIRST,,true,2,true,false
+32,168,2,Atlanta Hawks,3,Western,,,,,true,1,false,false
+45,168,52,San Francisco Warriors,3,Western,,,,,true,0,false,false
+46,168,51,San Diego Rockets,3,Western,,,,,true,0,false,false
+37,168,9,Chicago Bulls,3,Western,,,,,false,,,
+58,168,53,Seattle SuperSonics,3,Western,,,,,false,,,
+61,168,40,Phoenix Suns,3,Western,,LAST,LAST,,false,,,
+57,172,35,New York Knicks,3,Eastern,,FIRST,FIRST,,true,3,true,true
+54,172,30,Milwaukee Bucks,3,Eastern,,,,,true,1,false,false
+73,172,4,Baltimore Bullets,3,Eastern,,,,,true,0,false,false
+60,172,39,Philadelphia 76ers,3,Eastern,,,,,true,0,false,false
+65,172,10,Cincinnati Royals,3,Eastern,,,,,false,,,
+34,172,5,Boston Celtics,3,Eastern,,,,,false,,,
+44,172,16,Detroit Pistons,3,Eastern,,,LAST,,false,,,
+32,172,2,Atlanta Hawks,3,Western,,,FIRST,,true,1,false,false
+51,172,27,Los Angeles Lakers,3,Western,,,,,true,2,true,false
+37,172,9,Chicago Bulls,3,Western,,,,,true,0,false,false
+61,172,40,Phoenix Suns,3,Western,,,,,true,0,false,false
+58,172,53,Seattle SuperSonics,3,Western,,,,,false,,,
+45,172,52,San Francisco Warriors,3,Western,,,,,false,,,
+46,172,51,San Diego Rockets,3,Western,,LAST,LAST,,false,,,
+57,176,35,New York Knicks,3,Eastern,Atlantic,,FIRST,FIRST,true,1,false,false
+60,176,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+34,176,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+50,176,6,Buffalo Braves,3,Eastern,Atlantic,,,LAST,false,,,
+73,176,4,Baltimore Bullets,3,Eastern,Central,,,FIRST,true,2,true,false
+32,176,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+65,176,10,Cincinnati Royals,3,Eastern,Central,,,,false,,,
+39,176,11,Cleveland Cavaliers,3,Eastern,Central,LAST,LAST,LAST,false,,,
+54,176,30,Milwaukee Bucks,3,Western,Midwest,FIRST,FIRST,FIRST,true,3,true,true
+37,176,9,Chicago Bulls,3,Western,Midwest,,,,true,0,false,false
+61,176,40,Phoenix Suns,3,Western,Midwest,,,,false,,,
+44,176,16,Detroit Pistons,3,Western,Midwest,,,LAST,false,,,
+51,176,27,Los Angeles Lakers,3,Western,Pacific,,,FIRST,true,1,false,false
+45,176,52,San Francisco Warriors,3,Western,Pacific,,,,true,0,false,false
+46,176,51,San Diego Rockets,3,Western,Pacific,,,,false,,,
+58,176,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+63,176,42,Portland Trail Blazers,3,Western,Pacific,,LAST,LAST,false,,,
+34,180,5,Boston Celtics,3,Eastern,Atlantic,,FIRST,FIRST,true,1,false,false
+57,180,35,New York Knicks,3,Eastern,Atlantic,,,,true,2,true,false
+60,180,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+50,180,6,Buffalo Braves,3,Eastern,Atlantic,,LAST,LAST,false,,,
+73,180,4,Baltimore Bullets,3,Eastern,Central,,,FIRST,true,0,false,false
+32,180,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+65,180,10,Cincinnati Royals,3,Eastern,Central,,,,false,,,
+39,180,11,Cleveland Cavaliers,3,Eastern,Central,,,LAST,false,,,
+54,180,30,Milwaukee Bucks,3,Western,Midwest,,,FIRST,true,1,false,false
+37,180,9,Chicago Bulls,3,Western,Midwest,,,,true,0,false,false
+61,180,40,Phoenix Suns,3,Western,Midwest,,,,false,,,
+44,180,16,Detroit Pistons,3,Western,Midwest,,,LAST,false,,,
+51,180,27,Los Angeles Lakers,3,Western,Pacific,FIRST,FIRST,FIRST,true,3,true,true
+45,180,52,Golden State Warriors,3,Western,Pacific,,,,true,0,false,false
+58,180,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+46,180,22,Houston Rockets,3,Western,Pacific,,,,false,,,
+63,180,42,Portland Trail Blazers,3,Western,Pacific,LAST,LAST,LAST,false,,,
+34,184,5,Boston Celtics,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
+57,184,35,New York Knicks,3,Eastern,Atlantic,,,,true,3,true,true
+50,184,6,Buffalo Braves,3,Eastern,Atlantic,,,,false,,,
+60,184,39,Philadelphia 76ers,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+73,184,4,Baltimore Bullets,3,Eastern,Central,,,FIRST,true,0,false,false
+32,184,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+46,184,22,Houston Rockets,3,Eastern,Central,,,,false,,,
+39,184,11,Cleveland Cavaliers,3,Eastern,Central,,,LAST,false,,,
+54,184,30,Milwaukee Bucks,3,Western,Midwest,,FIRST_TIED,FIRST,true,0,false,false
+37,184,9,Chicago Bulls,3,Western,Midwest,,,,true,0,false,false
+44,184,16,Detroit Pistons,3,Western,Midwest,,,,false,,,
+65,184,25,Kansas City-Omaha Kings,3,Western,Midwest,,,LAST,false,,,
+51,184,27,Los Angeles Lakers,3,Western,Pacific,,FIRST_TIED,FIRST,true,2,true,false
+45,184,52,Golden State Warriors,3,Western,Pacific,,,,true,1,false,false
+61,184,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+58,184,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+63,184,42,Portland Trail Blazers,3,Western,Pacific,,LAST,LAST,false,,,
+34,188,5,Boston Celtics,3,Eastern,Atlantic,,FIRST,FIRST,true,3,true,true
+57,188,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+50,188,6,Buffalo Braves,3,Eastern,Atlantic,,,,true,0,false,false
+60,188,39,Philadelphia 76ers,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+73,188,63,Capital Bullets,3,Eastern,Central,,,FIRST,true,0,false,false
+32,188,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+46,188,22,Houston Rockets,3,Eastern,Central,,,,false,,,
+39,188,11,Cleveland Cavaliers,3,Eastern,Central,,,LAST,false,,,
+54,188,30,Milwaukee Bucks,3,Western,Midwest,FIRST,FIRST,FIRST,true,2,true,false
+37,188,9,Chicago Bulls,3,Western,Midwest,,,,true,1,false,false
+44,188,16,Detroit Pistons,3,Western,Midwest,,,,true,0,false,false
+65,188,25,Kansas City-Omaha Kings,3,Western,Midwest,,,LAST,false,,,
+51,188,27,Los Angeles Lakers,3,Western,Pacific,,,FIRST,true,0,false,false
+45,188,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+58,188,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+61,188,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+63,188,42,Portland Trail Blazers,3,Western,Pacific,,LAST,LAST,false,,,
+34,192,5,Boston Celtics,3,Eastern,Atlantic,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+50,192,6,Buffalo Braves,3,Eastern,Atlantic,,,,true,0,false,false
+57,192,35,New York Knicks,3,Eastern,Atlantic,,,,true,0,false,false
+60,192,39,Philadelphia 76ers,3,Eastern,Atlantic,,,LAST,false,,,
+73,192,63,Washington Bullets,3,Eastern,Central,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
+46,192,22,Houston Rockets,3,Eastern,Central,,,,true,1,false,false
+39,192,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+32,192,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+71,192,34,New Orleans Jazz,3,Eastern,Central,LAST,LAST,LAST,false,,,
+37,192,9,Chicago Bulls,3,Western,Midwest,,,FIRST,true,1,false,false
+65,192,25,Kansas City-Omaha Kings,3,Western,Midwest,,,,true,0,false,false
+44,192,16,Detroit Pistons,3,Western,Midwest,,,,true,0,false,false
+54,192,30,Milwaukee Bucks,3,Western,Midwest,,,LAST,false,,,
+45,192,52,Golden State Warriors,3,Western,Pacific,,FIRST,FIRST,true,3,true,true
+58,192,53,Seattle SuperSonics,3,Western,Pacific,,,,true,1,false,false
+63,192,42,Portland Trail Blazers,3,Western,Pacific,,,,false,,,
+61,192,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+51,192,27,Los Angeles Lakers,3,Western,Pacific,,LAST,LAST,false,,,
+34,196,5,Boston Celtics,3,Eastern,Atlantic,,FIRST,FIRST,true,3,true,true
+60,196,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+50,196,6,Buffalo Braves,3,Eastern,Atlantic,,,,true,1,false,false
+57,196,35,New York Knicks,3,Eastern,Atlantic,,,LAST,false,,,
+39,196,11,Cleveland Cavaliers,3,Eastern,Central,,,FIRST,true,1,false,false
+73,196,63,Washington Bullets,3,Eastern,Central,,,,true,0,false,false
+46,196,22,Houston Rockets,3,Eastern,Central,,,,false,,,
+71,196,34,New Orleans Jazz,3,Eastern,Central,,,,false,,,
+32,196,2,Atlanta Hawks,3,Eastern,Central,,LAST,LAST,false,,,
+54,196,30,Milwaukee Bucks,3,Western,Midwest,,,FIRST,true,0,false,false
+44,196,16,Detroit Pistons,3,Western,Midwest,,,,true,1,false,false
+65,196,25,Kansas City Kings,3,Western,Midwest,,,,false,,,
+37,196,9,Chicago Bulls,3,Western,Midwest,LAST,LAST,LAST,false,,,
+45,196,52,Golden State Warriors,3,Western,Pacific,FIRST,FIRST,FIRST,true,1,false,false
+58,196,53,Seattle SuperSonics,3,Western,Pacific,,,,true,0,false,false
+61,196,40,Phoenix Suns,3,Western,Pacific,,,,true,2,true,false
+51,196,27,Los Angeles Lakers,3,Western,Pacific,,,,false,,,
+63,196,42,Portland Trail Blazers,3,Western,Pacific,,,LAST,false,,,
+60,200,39,Philadelphia 76ers,3,Eastern,Atlantic,,FIRST,FIRST,true,2,true,false
+34,200,5,Boston Celtics,3,Eastern,Atlantic,,,,true,1,false,false
+57,200,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+50,200,6,Buffalo Braves,3,Eastern,Atlantic,,,,false,,,
+35,200,35,New York Nets,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+46,200,22,Houston Rockets,3,Eastern,Central,,,FIRST,true,1,false,false
+73,200,63,Washington Bullets,3,Eastern,Central,,,,true,1,false,false
+66,200,50,San Antonio Spurs,3,Eastern,Central,,,,true,0,false,false
+39,200,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+71,200,34,New Orleans Jazz,3,Eastern,Central,,,,false,,,
+32,200,2,Atlanta Hawks,3,Eastern,Central,,,LAST,false,,,
+43,200,15,Denver Nuggets,3,Western,Midwest,,,FIRST,true,0,false,false
+44,200,16,Detroit Pistons,3,Western,Midwest,,,,true,0,false,false
+37,200,9,Chicago Bulls,3,Western,Midwest,,,,true,0,false,false
+65,200,25,Kansas City Kings,3,Western,Midwest,,,,false,,,
+47,200,23,Indiana Pacers,3,Western,Midwest,,,,false,,,
+54,200,30,Milwaukee Bucks,3,Western,Midwest,,LAST,LAST,false,,,
+51,200,27,Los Angeles Lakers,3,Western,Pacific,FIRST,FIRST,FIRST,true,1,false,false
+63,200,42,Portland Trail Blazers,3,Western,Pacific,,,,true,4,true,true
+45,200,52,Golden State Warriors,3,Western,Pacific,,,,true,1,false,false
+58,200,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+61,200,40,Phoenix Suns,3,Western,Pacific,,,LAST,false,,,
+60,204,39,Philadelphia 76ers,3,Eastern,Atlantic,,FIRST,FIRST,true,1,false,false
+57,204,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+34,204,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+50,204,6,Buffalo Braves,3,Eastern,Atlantic,,,,false,,,
+35,204,35,New Jersey Nets,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+66,204,50,San Antonio Spurs,3,Eastern,Central,,,FIRST,true,0,false,false
+73,204,63,Washington Bullets,3,Eastern,Central,,,,true,4,true,true
+39,204,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+32,204,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+71,204,34,New Orleans Jazz,3,Eastern,Central,,,,false,,,
+46,204,22,Houston Rockets,3,Eastern,Central,,,LAST,false,,,
+43,204,15,Denver Nuggets,3,Western,Midwest,,,FIRST,true,1,false,false
+54,204,30,Milwaukee Bucks,3,Western,Midwest,,,,true,1,false,false
+37,204,9,Chicago Bulls,3,Western,Midwest,,,,false,,,
+44,204,16,Detroit Pistons,3,Western,Midwest,,,,false,,,
+47,204,23,Indiana Pacers,3,Western,Midwest,,LAST_TIED,LAST_TIED,false,,,
+65,204,25,Kansas City Kings,3,Western,Midwest,,LAST_TIED,LAST_TIED,false,,,
+63,204,42,Portland Trail Blazers,3,Western,Pacific,FIRST,FIRST,FIRST,true,0,false,false
+61,204,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+58,204,53,Seattle SuperSonics,3,Western,Pacific,,,,true,3,true,false
+51,204,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+45,204,52,Golden State Warriors,3,Western,Pacific,,,LAST,false,,,
+73,208,63,Washington Bullets,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,2,true,false
+60,208,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+35,208,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+57,208,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+34,208,5,Boston Celtics,3,Eastern,Atlantic,,,LAST,false,,,
+66,208,50,San Antonio Spurs,3,Eastern,Central,,,FIRST,true,1,false,false
+46,208,22,Houston Rockets,3,Eastern,Central,,,,true,0,false,false
+32,208,2,Atlanta Hawks,3,Eastern,Central,,,,true,1,false,false
+39,208,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+44,208,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+71,208,34,New Orleans Jazz,3,Eastern,Central,LAST,LAST,LAST,false,,,
+65,208,25,Kansas City Kings,3,Western,Midwest,,,FIRST,true,0,false,false
+43,208,15,Denver Nuggets,3,Western,Midwest,,,,true,0,false,false
+47,208,23,Indiana Pacers,3,Western,Midwest,,,,false,,,
+54,208,30,Milwaukee Bucks,3,Western,Midwest,,,,false,,,
+37,208,9,Chicago Bulls,3,Western,Midwest,,LAST,LAST,false,,,
+58,208,53,Seattle SuperSonics,3,Western,Pacific,,FIRST,FIRST,true,3,true,true
+61,208,40,Phoenix Suns,3,Western,Pacific,,,,true,2,false,false
+51,208,27,Los Angeles Lakers,3,Western,Pacific,,,,true,1,false,false
+63,208,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+50,208,51,San Diego Clippers,3,Western,Pacific,,,,false,,,
+45,208,52,Golden State Warriors,3,Western,Pacific,,,LAST,false,,,
+34,212,5,Boston Celtics,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
+60,212,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,3,true,false
+73,212,63,Washington Bullets,3,Eastern,Atlantic,,,,true,0,false,false
+57,212,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+35,212,35,New Jersey Nets,3,Eastern,Atlantic,,,LAST,false,,,
+32,212,2,Atlanta Hawks,3,Eastern,Central,,,FIRST,true,0,false,false
+46,212,22,Houston Rockets,3,Eastern,Central,,,,true,1,false,false
+66,212,50,San Antonio Spurs,3,Eastern,Central,,,,true,0,false,false
+39,212,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+47,212,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+44,212,16,Detroit Pistons,3,Eastern,Central,LAST,LAST,LAST,false,,,
+54,212,30,Milwaukee Bucks,3,Western,Midwest,,,FIRST,true,0,false,false
+65,212,25,Kansas City Kings,3,Western,Midwest,,,,true,0,false,false
+37,212,9,Chicago Bulls,3,Western,Midwest,,,,false,,,
+43,212,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+71,212,49,Utah Jazz,3,Western,Midwest,,LAST_TIED,LAST,false,,,
+51,212,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,3,true,true
+58,212,53,Seattle SuperSonics,3,Western,Pacific,,,,true,2,false,false
+61,212,40,Phoenix Suns,3,Western,Pacific,,,,true,1,false,false
+63,212,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+50,212,51,San Diego Clippers,3,Western,Pacific,,,,false,,,
+45,212,52,Golden State Warriors,3,Western,Pacific,,LAST_TIED,LAST,false,,,
+34,216,5,Boston Celtics,3,Eastern,Atlantic,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,3,true,true
+60,216,39,Philadelphia 76ers,3,Eastern,Atlantic,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,2,false,false
+57,216,35,New York Knicks,3,Eastern,Atlantic,,,,true,0,false,false
+73,216,63,Washington Bullets,3,Eastern,Atlantic,,,,false,,,
+35,216,35,New Jersey Nets,3,Eastern,Atlantic,,,LAST,false,,,
+54,216,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,0,false,false
+37,216,9,Chicago Bulls,3,Eastern,Central,,,,true,1,false,false
+47,216,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+32,216,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+39,216,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+44,216,16,Detroit Pistons,3,Eastern,Central,,LAST,LAST,false,,,
+66,216,50,San Antonio Spurs,3,Western,Midwest,,,FIRST,true,0,false,false
+65,216,25,Kansas City Kings,3,Western,Midwest,,,,true,2,false,false
+46,216,22,Houston Rockets,3,Western,Midwest,,,,true,3,true,false
+43,216,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+71,216,49,Utah Jazz,3,Western,Midwest,,,,false,,,
+41,216,13,Dallas Mavericks,3,Western,Midwest,LAST,LAST,LAST,false,,,
+61,216,40,Phoenix Suns,3,Western,Pacific,,FIRST,FIRST,true,0,false,false
+51,216,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+63,216,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+45,216,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,216,51,San Diego Clippers,3,Western,Pacific,,,,false,,,
+58,216,53,Seattle SuperSonics,3,Western,Pacific,,,LAST,false,,,
+34,220,5,Boston Celtics,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
+60,220,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,3,true,false
+35,220,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+73,220,63,Washington Bullets,3,Eastern,Atlantic,,,,true,1,false,false
+57,220,35,New York Knicks,3,Eastern,Atlantic,,,LAST,false,,,
+54,220,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,0,false,false
+32,220,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+44,220,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+47,220,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+37,220,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+39,220,11,Cleveland Cavaliers,3,Eastern,Central,LAST,LAST,LAST,false,,,
+66,220,50,San Antonio Spurs,3,Western,Midwest,,,FIRST,true,1,false,false
+43,220,15,Denver Nuggets,3,Western,Midwest,,,,true,0,false,false
+46,220,22,Houston Rockets,3,Western,Midwest,,,,true,0,false,false
+65,220,25,Kansas City Kings,3,Western,Midwest,,,,false,,,
+41,220,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+71,220,49,Utah Jazz,3,Western,Midwest,,,LAST,false,,,
+51,220,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,3,true,true
+58,220,53,Seattle SuperSonics,3,Western,Pacific,,,,true,1,false,false
+61,220,40,Phoenix Suns,3,Western,Pacific,,,,true,1,false,false
+45,220,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+63,220,42,Portland Trail Blazers,3,Western,Pacific,,,,false,,,
+50,220,51,San Diego Clippers,3,Western,Pacific,,LAST,LAST,false,,,
+60,224,39,Philadelphia 76ers,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,3,true,true
+34,224,5,Boston Celtics,3,Eastern,Atlantic,,,,true,1,false,false
+35,224,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+57,224,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+73,224,63,Washington Bullets,3,Eastern,Atlantic,,,LAST,false,,,
+54,224,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,1,false,false
+32,224,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+44,224,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+37,224,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+39,224,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+47,224,23,Indiana Pacers,3,Eastern,Central,,LAST,LAST,false,,,
+66,224,50,San Antonio Spurs,3,Western,Midwest,,,FIRST,true,1,false,false
+43,224,15,Denver Nuggets,3,Western,Midwest,,,,true,1,false,false
+65,224,25,Kansas City Kings,3,Western,Midwest,,,,false,,,
+41,224,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+71,224,49,Utah Jazz,3,Western,Midwest,,,,false,,,
+46,224,22,Houston Rockets,3,Western,Midwest,LAST,LAST,LAST,false,,,
+51,224,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,2,true,false
+61,224,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+58,224,53,Seattle SuperSonics,3,Western,Pacific,,,,true,0,false,false
+63,224,42,Portland Trail Blazers,3,Western,Pacific,,,,true,1,false,false
+45,224,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,224,51,San Diego Clippers,3,Western,Pacific,,,LAST,false,,,
+34,228,5,Boston Celtics,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,4,true,true
+60,228,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+57,228,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+35,228,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,1,false,false
+73,228,63,Washington Bullets,3,Eastern,Atlantic,,,LAST,true,0,false,false
+54,228,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,2,false,false
+44,228,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+32,228,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+39,228,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+37,228,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+47,228,23,Indiana Pacers,3,Eastern,Central,LAST,LAST,LAST,false,,,
+71,228,49,Utah Jazz,3,Western,Midwest,,,FIRST,true,1,false,false
+41,228,13,Dallas Mavericks,3,Western,Midwest,,,,true,1,false,false
+43,228,15,Denver Nuggets,3,Western,Midwest,,,,true,0,false,false
+65,228,25,Kansas City Kings,3,Western,Midwest,,,,true,0,false,false
+66,228,50,San Antonio Spurs,3,Western,Midwest,,,,false,,,
+46,228,22,Houston Rockets,3,Western,Midwest,,LAST,LAST,false,,,
+51,228,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,3,true,false
+63,228,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+58,228,53,Seattle SuperSonics,3,Western,Pacific,,,,true,0,false,false
+61,228,40,Phoenix Suns,3,Western,Pacific,,,,true,2,false,false
+45,228,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,228,51,San Diego Clippers,3,Western,Pacific,,,LAST,false,,,
+34,232,5,Boston Celtics,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,3,true,false
+60,232,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,2,false,false
+35,232,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+73,232,63,Washington Bullets,3,Eastern,Atlantic,,,,true,0,false,false
+57,232,35,New York Knicks,3,Eastern,Atlantic,,,LAST,false,,,
+54,232,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,1,false,false
+44,232,16,Detroit Pistons,3,Eastern,Central,,,,true,1,false,false
+37,232,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+39,232,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+32,232,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+47,232,23,Indiana Pacers,3,Eastern,Central,LAST_TIED,LAST,LAST,false,,,
+43,232,15,Denver Nuggets,3,Western,Midwest,,,FIRST,true,2,false,false
+46,232,22,Houston Rockets,3,Western,Midwest,,,,true,0,false,false
+41,232,13,Dallas Mavericks,3,Western,Midwest,,,,true,0,false,false
+71,232,49,Utah Jazz,3,Western,Midwest,,,,true,1,false,false
+66,232,50,San Antonio Spurs,3,Western,Midwest,,,,true,0,false,false
+65,232,25,Kansas City Kings,3,Western,Midwest,,,LAST,false,,,
+51,232,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,4,true,true
+63,232,42,Portland Trail Blazers,3,Western,Pacific,,,,true,1,false,false
+61,232,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+58,232,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+50,232,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+45,232,52,Golden State Warriors,3,Western,Pacific,LAST_TIED,LAST,LAST,false,,,
+34,236,5,Boston Celtics,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,4,true,true
+60,236,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+73,236,63,Washington Bullets,3,Eastern,Atlantic,,,,true,0,false,false
+35,236,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+57,236,35,New York Knicks,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+54,236,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,2,false,false
+32,236,2,Atlanta Hawks,3,Eastern,Central,,,,true,1,false,false
+44,236,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+37,236,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+39,236,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+47,236,23,Indiana Pacers,3,Eastern,Central,,,LAST,false,,,
+46,236,22,Houston Rockets,3,Western,Midwest,,,FIRST,true,3,true,false
+43,236,15,Denver Nuggets,3,Western,Midwest,,,,true,1,false,false
+41,236,13,Dallas Mavericks,3,Western,Midwest,,,,true,1,false,false
+71,236,49,Utah Jazz,3,Western,Midwest,,,,true,0,false,false
+65,236,48,Sacramento Kings,3,Western,Midwest,,,,true,0,false,false
+66,236,50,San Antonio Spurs,3,Western,Midwest,,,LAST,true,0,false,false
+51,236,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,2,false,false
+63,236,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+61,236,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+50,236,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+58,236,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+45,236,52,Golden State Warriors,3,Western,Pacific,,LAST,LAST,false,,,
+34,240,5,Boston Celtics,3,Eastern,Atlantic,,FIRST,FIRST,true,3,true,false
+60,240,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+73,240,63,Washington Bullets,3,Eastern,Atlantic,,,,true,0,false,false
+35,240,35,New Jersey Nets,3,Eastern,Atlantic,,LAST_TIED,LAST_TIED,false,,,
+57,240,35,New York Knicks,3,Eastern,Atlantic,,LAST_TIED,LAST_TIED,false,,,
+32,240,2,Atlanta Hawks,3,Eastern,Central,,,FIRST,true,1,false,false
+44,240,16,Detroit Pistons,3,Eastern,Central,,,,true,2,false,false
+54,240,30,Milwaukee Bucks,3,Eastern,Central,,,,true,1,false,false
+47,240,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+37,240,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+39,240,11,Cleveland Cavaliers,3,Eastern,Central,,,LAST,false,,,
+41,240,13,Dallas Mavericks,3,Western,Midwest,,,FIRST,true,0,false,false
+71,240,49,Utah Jazz,3,Western,Midwest,,,,true,0,false,false
+46,240,22,Houston Rockets,3,Western,Midwest,,,,true,1,false,false
+43,240,15,Denver Nuggets,3,Western,Midwest,,,,true,0,false,false
+65,240,48,Sacramento Kings,3,Western,Midwest,,,,false,,,
+66,240,50,San Antonio Spurs,3,Western,Midwest,,,LAST,false,,,
+51,240,27,Los Angeles Lakers,3,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+63,240,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+45,240,52,Golden State Warriors,3,Western,Pacific,,,,true,1,false,false
+58,240,53,Seattle SuperSonics,3,Western,Pacific,,,,true,2,false,false
+61,240,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+50,240,27,Los Angeles Clippers,3,Western,Pacific,LAST,LAST,LAST,false,,,
+34,244,5,Boston Celtics,3,Eastern,Atlantic,,FIRST,FIRST,true,2,false,false
+73,244,63,Washington Bullets,3,Eastern,Atlantic,,,,true,0,false,false
+57,244,35,New York Knicks,3,Eastern,Atlantic,,,,true,0,false,false
+60,244,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+35,244,35,New Jersey Nets,3,Eastern,Atlantic,,LAST,LAST,false,,,
+44,244,16,Detroit Pistons,3,Eastern,Central,,,FIRST,true,3,true,false
+37,244,9,Chicago Bulls,3,Eastern,Central,,,,true,1,false,false
+32,244,2,Atlanta Hawks,3,Eastern,Central,,,,true,1,false,false
+54,244,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+39,244,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+47,244,23,Indiana Pacers,3,Eastern,Central,,,LAST,false,,,
+43,244,15,Denver Nuggets,3,Western,Midwest,,,FIRST,true,1,false,false
+41,244,13,Dallas Mavericks,3,Western,Midwest,,,,true,2,false,false
+71,244,49,Utah Jazz,3,Western,Midwest,,,,true,1,false,false
+46,244,22,Houston Rockets,3,Western,Midwest,,,,true,0,false,false
+66,244,50,San Antonio Spurs,3,Western,Midwest,,,,true,0,false,false
+65,244,48,Sacramento Kings,3,Western,Midwest,,,LAST,false,,,
+51,244,27,Los Angeles Lakers,3,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+63,244,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+58,244,53,Seattle SuperSonics,3,Western,Pacific,,,,true,0,false,false
+61,244,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+45,244,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,244,27,Los Angeles Clippers,3,Western,Pacific,LAST,LAST,LAST,false,,,
+57,248,35,New York Knicks,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+60,248,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+34,248,5,Boston Celtics,3,Eastern,Atlantic,,,,true,0,false,false
+73,248,63,Washington Bullets,3,Eastern,Atlantic,,,,false,,,
+35,248,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+36,248,8,Charlotte Hornets,3,Eastern,Atlantic,,LAST,LAST,false,,,
+44,248,16,Detroit Pistons,3,Eastern,Central,FIRST,FIRST,FIRST,true,4,true,true
+39,248,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+32,248,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+54,248,30,Milwaukee Bucks,3,Eastern,Central,,,,true,1,false,false
+37,248,9,Chicago Bulls,3,Eastern,Central,,,,true,2,false,false
+47,248,23,Indiana Pacers,3,Eastern,Central,,,LAST,false,,,
+71,248,49,Utah Jazz,3,Western,Midwest,,,FIRST,true,0,false,false
+46,248,22,Houston Rockets,3,Western,Midwest,,,,true,0,false,false
+43,248,15,Denver Nuggets,3,Western,Midwest,,,,true,0,false,false
+41,248,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+66,248,50,San Antonio Spurs,3,Western,Midwest,,,,false,,,
+53,248,29,Miami Heat,3,Western,Midwest,LAST,LAST,LAST,false,,,
+51,248,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,3,true,false
+61,248,40,Phoenix Suns,3,Western,Pacific,,,,true,2,false,false
+58,248,53,Seattle SuperSonics,3,Western,Pacific,,,,true,1,false,false
+45,248,52,Golden State Warriors,3,Western,Pacific,,,,true,1,false,false
+63,248,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+65,248,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+50,248,27,Los Angeles Clippers,3,Western,Pacific,,,LAST,false,,,
+60,252,39,Philadelphia 76ers,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+34,252,5,Boston Celtics,3,Eastern,Atlantic,,,,true,0,false,false
+57,252,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+73,252,63,Washington Bullets,3,Eastern,Atlantic,,,,false,,,
+53,252,29,Miami Heat,3,Eastern,Atlantic,,,,false,,,
+35,252,35,New Jersey Nets,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+44,252,16,Detroit Pistons,3,Eastern,Central,,FIRST,FIRST,true,4,true,true
+37,252,9,Chicago Bulls,3,Eastern,Central,,,,true,2,false,false
+54,252,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+39,252,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+47,252,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+32,252,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+59,252,37,Orlando Magic,3,Eastern,Central,,,LAST,false,,,
+66,252,50,San Antonio Spurs,3,Western,Midwest,,,FIRST,true,1,false,false
+71,252,49,Utah Jazz,3,Western,Midwest,,,,true,0,false,false
+41,252,13,Dallas Mavericks,3,Western,Midwest,,,,true,0,false,false
+43,252,15,Denver Nuggets,3,Western,Midwest,,,,true,0,false,false
+46,252,22,Houston Rockets,3,Western,Midwest,,,,true,0,false,false
+55,252,31,Minnesota Timberwolves,3,Western,Midwest,,,,false,,,
+36,252,8,Charlotte Hornets,3,Western,Midwest,,LAST,LAST,false,,,
+51,252,27,Los Angeles Lakers,3,Western,Pacific,FIRST,FIRST,FIRST,true,1,false,false
+63,252,42,Portland Trail Blazers,3,Western,Pacific,,,,true,3,true,false
+61,252,40,Phoenix Suns,3,Western,Pacific,,,,true,2,false,false
+58,252,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+45,252,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,252,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+65,252,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+34,256,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+60,256,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+57,256,35,New York Knicks,3,Eastern,Atlantic,,,,true,0,false,false
+73,256,63,Washington Bullets,3,Eastern,Atlantic,,,,false,,,
+35,256,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+53,256,29,Miami Heat,3,Eastern,Atlantic,,LAST,LAST,false,,,
+37,256,9,Chicago Bulls,3,Eastern,Central,,FIRST,FIRST,true,4,true,true
+44,256,16,Detroit Pistons,3,Eastern,Central,,,,true,2,false,false
+54,256,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+32,256,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+47,256,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+39,256,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+36,256,8,Charlotte Hornets,3,Eastern,Central,,,LAST,false,,,
+66,256,50,San Antonio Spurs,3,Western,Midwest,,,FIRST,true,0,false,false
+71,256,49,Utah Jazz,3,Western,Midwest,,,,true,1,false,false
+46,256,22,Houston Rockets,3,Western,Midwest,,,,true,0,false,false
+59,256,37,Orlando Magic,3,Western,Midwest,,,,false,,,
+55,256,31,Minnesota Timberwolves,3,Western,Midwest,,,,false,,,
+41,256,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+43,256,15,Denver Nuggets,3,Western,Midwest,LAST,LAST,LAST,false,,,
+63,256,42,Portland Trail Blazers,3,Western,Pacific,FIRST,FIRST,FIRST,true,2,false,false
+51,256,27,Los Angeles Lakers,3,Western,Pacific,,,,true,3,true,false
+61,256,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+45,256,52,Golden State Warriors,3,Western,Pacific,,,,true,1,false,false
+58,256,53,Seattle SuperSonics,3,Western,Pacific,,,,true,0,false,false
+50,256,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+65,256,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+34,260,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST_TIED,true,1,false,false
+57,260,35,New York Knicks,3,Eastern,Atlantic,,,FIRST_TIED,true,1,false,false
+35,260,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+53,260,29,Miami Heat,3,Eastern,Atlantic,,,,true,0,false,false
+60,260,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+73,260,63,Washington Bullets,3,Eastern,Atlantic,,,,false,,,
+59,260,37,Orlando Magic,3,Eastern,Atlantic,,LAST,LAST,false,,,
+37,260,9,Chicago Bulls,3,Eastern,Central,FIRST,FIRST,FIRST,true,4,true,true
+39,260,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,2,false,false
+44,260,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+47,260,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+32,260,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+54,260,30,Milwaukee Bucks,3,Eastern,Central,,,LAST_TIED,false,,,
+36,260,8,Charlotte Hornets,3,Eastern,Central,,,LAST_TIED,false,,,
+71,260,49,Utah Jazz,3,Western,Midwest,,,FIRST,true,2,false,false
+66,260,50,San Antonio Spurs,3,Western,Midwest,,,,true,0,false,false
+46,260,22,Houston Rockets,3,Western,Midwest,,,,false,,,
+43,260,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+41,260,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+55,260,31,Minnesota Timberwolves,3,Western,Midwest,LAST,LAST,LAST,false,,,
+63,260,42,Portland Trail Blazers,3,Western,Pacific,,FIRST,FIRST,true,3,true,false
+45,260,52,Golden State Warriors,3,Western,Pacific,,,,true,0,false,false
+61,260,40,Phoenix Suns,3,Western,Pacific,,,,true,1,false,false
+58,260,53,Seattle SuperSonics,3,Western,Pacific,,,,true,1,false,false
+50,260,27,Los Angeles Clippers,3,Western,Pacific,,,,true,0,false,false
+51,260,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+65,260,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+57,264,35,New York Knicks,3,Eastern,Atlantic,,FIRST,FIRST,true,2,false,false
+34,264,5,Boston Celtics,3,Eastern,Atlantic,,,,true,0,false,false
+35,264,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+59,264,37,Orlando Magic,3,Eastern,Atlantic,,,,false,,,
+53,264,29,Miami Heat,3,Eastern,Atlantic,,,,false,,,
+60,264,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+73,264,63,Washington Bullets,3,Eastern,Atlantic,,LAST,LAST,false,,,
+37,264,9,Chicago Bulls,3,Eastern,Central,,,FIRST,true,4,true,true
+39,264,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,1,false,false
+36,264,8,Charlotte Hornets,3,Eastern,Central,,,,true,1,false,false
+32,264,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+47,264,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+44,264,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+54,264,30,Milwaukee Bucks,3,Eastern,Central,,,LAST,false,,,
+46,264,22,Houston Rockets,3,Western,Midwest,,,FIRST,true,1,false,false
+66,264,50,San Antonio Spurs,3,Western,Midwest,,,,true,1,false,false
+71,264,49,Utah Jazz,3,Western,Midwest,,,,true,0,false,false
+43,264,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+55,264,31,Minnesota Timberwolves,3,Western,Midwest,,,,false,,,
+41,264,13,Dallas Mavericks,3,Western,Midwest,LAST,LAST,LAST,false,,,
+61,264,40,Phoenix Suns,3,Western,Pacific,FIRST,FIRST,FIRST,true,3,true,false
+58,264,53,Seattle SuperSonics,3,Western,Pacific,,,,true,2,false,false
+63,264,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+50,264,27,Los Angeles Clippers,3,Western,Pacific,,,,true,0,false,false
+51,264,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+45,264,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+65,264,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+57,268,35,New York Knicks,3,Eastern,Atlantic,,FIRST_TIED,FIRST,true,3,true,false
+59,268,37,Orlando Magic,3,Eastern,Atlantic,,,,true,0,false,false
+35,268,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+53,268,29,Miami Heat,3,Eastern,Atlantic,,,,true,0,false,false
+34,268,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+60,268,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+73,268,63,Washington Bullets,3,Eastern,Atlantic,,,LAST,false,,,
+32,268,2,Atlanta Hawks,3,Eastern,Central,,FIRST_TIED,FIRST,true,1,false,false
+37,268,9,Chicago Bulls,3,Eastern,Central,,,,true,1,false,false
+47,268,23,Indiana Pacers,3,Eastern,Central,,,,true,2,false,false
+39,268,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+36,268,8,Charlotte Hornets,3,Eastern,Central,,,,false,,,
+44,268,16,Detroit Pistons,3,Eastern,Central,,LAST_TIED,LAST_TIED,false,,,
+54,268,30,Milwaukee Bucks,3,Eastern,Central,,LAST_TIED,LAST_TIED,false,,,
+46,268,22,Houston Rockets,3,Western,Midwest,,,FIRST,true,4,true,true
+66,268,50,San Antonio Spurs,3,Western,Midwest,,,,true,0,false,false
+71,268,49,Utah Jazz,3,Western,Midwest,,,,true,2,false,false
+43,268,15,Denver Nuggets,3,Western,Midwest,,,,true,1,false,false
+55,268,31,Minnesota Timberwolves,3,Western,Midwest,,,,false,,,
+41,268,13,Dallas Mavericks,3,Western,Midwest,LAST,LAST,LAST,false,,,
+58,268,53,Seattle SuperSonics,3,Western,Pacific,FIRST,FIRST,FIRST,true,0,false,false
+61,268,40,Phoenix Suns,3,Western,Pacific,,,,true,1,false,false
+45,268,52,Golden State Warriors,3,Western,Pacific,,,,true,0,false,false
+63,268,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+51,268,27,Los Angeles Lakers,3,Western,Pacific,,,,false,,,
+65,268,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+50,268,27,Los Angeles Clippers,3,Western,Pacific,,,LAST,false,,,
+59,272,37,Orlando Magic,3,Eastern,Atlantic,,FIRST,FIRST,true,3,true,false
+57,272,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+34,272,5,Boston Celtics,3,Eastern,Atlantic,,,,true,0,false,false
+53,272,29,Miami Heat,3,Eastern,Atlantic,,,,false,,,
+35,272,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+60,272,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+73,272,63,Washington Bullets,3,Eastern,Atlantic,,LAST,LAST,false,,,
+47,272,23,Indiana Pacers,3,Eastern,Central,,,FIRST,true,2,false,false
+36,272,8,Charlotte Hornets,3,Eastern,Central,,,,true,0,false,false
+37,272,9,Chicago Bulls,3,Eastern,Central,,,,true,1,false,false
+39,272,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+32,272,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+54,272,30,Milwaukee Bucks,3,Eastern,Central,,,,false,,,
+44,272,16,Detroit Pistons,3,Eastern,Central,,,LAST,false,,,
+66,272,50,San Antonio Spurs,3,Western,Midwest,FIRST,FIRST,FIRST,true,2,false,false
+71,272,49,Utah Jazz,3,Western,Midwest,,,,true,0,false,false
+46,272,22,Houston Rockets,3,Western,Midwest,,,,true,4,true,true
+43,272,15,Denver Nuggets,3,Western,Midwest,,,,true,0,false,false
+41,272,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+55,272,31,Minnesota Timberwolves,3,Western,Midwest,,,LAST,false,,,
+61,272,40,Phoenix Suns,3,Western,Pacific,,,FIRST,true,1,false,false
+58,272,53,Seattle SuperSonics,3,Western,Pacific,,,,true,0,false,false
+51,272,27,Los Angeles Lakers,3,Western,Pacific,,,,true,1,false,false
+63,272,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+65,272,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+45,272,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,272,27,Los Angeles Clippers,3,Western,Pacific,LAST,LAST,LAST,false,,,
+59,276,37,Orlando Magic,3,Eastern,Atlantic,,,FIRST,true,2,false,false
+57,276,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+53,276,29,Miami Heat,3,Eastern,Atlantic,,,,true,0,false,false
+73,276,63,Washington Bullets,3,Eastern,Atlantic,,,,false,,,
+34,276,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+35,276,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+60,276,39,Philadelphia 76ers,3,Eastern,Atlantic,,LAST,LAST,false,,,
+37,276,9,Chicago Bulls,3,Eastern,Central,FIRST,FIRST,FIRST,true,4,true,true
+47,276,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+39,276,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+32,276,2,Atlanta Hawks,3,Eastern,Central,,,,true,1,false,false
+44,276,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+36,276,8,Charlotte Hornets,3,Eastern,Central,,,,false,,,
+54,276,30,Milwaukee Bucks,3,Eastern,Central,,,,false,,,
+70,276,59,Toronto Raptors,3,Eastern,Central,,,LAST,false,,,
+66,276,50,San Antonio Spurs,3,Western,Midwest,,,FIRST,true,1,false,false
+71,276,49,Utah Jazz,3,Western,Midwest,,,,true,2,false,false
+46,276,22,Houston Rockets,3,Western,Midwest,,,,true,1,false,false
+43,276,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+55,276,31,Minnesota Timberwolves,3,Western,Midwest,,,,false,,,
+41,276,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+52,276,62,Vancouver Grizzlies,3,Western,Midwest,LAST,LAST,LAST,false,,,
+58,276,53,Seattle SuperSonics,3,Western,Pacific,,FIRST,FIRST,true,3,true,false
+51,276,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+63,276,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+61,276,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+65,276,48,Sacramento Kings,3,Western,Pacific,,,,true,0,false,false
+45,276,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,276,27,Los Angeles Clippers,3,Western,Pacific,,,LAST,false,,,
+53,281,29,Miami Heat,3,Eastern,Atlantic,,,FIRST,true,2,false,false
+57,281,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+59,281,37,Orlando Magic,3,Eastern,Atlantic,,,,true,0,false,false
+73,281,63,Washington Bullets,3,Eastern,Atlantic,,,,true,0,false,false
+35,281,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+60,281,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+34,281,5,Boston Celtics,3,Eastern,Atlantic,,LAST,LAST,false,,,
+37,281,9,Chicago Bulls,3,Eastern,Central,FIRST,FIRST,FIRST,true,4,true,true
+32,281,2,Atlanta Hawks,3,Eastern,Central,,,,true,1,false,false
+44,281,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+36,281,8,Charlotte Hornets,3,Eastern,Central,,,,true,0,false,false
+39,281,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+47,281,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+54,281,30,Milwaukee Bucks,3,Eastern,Central,,,,false,,,
+70,281,59,Toronto Raptors,3,Eastern,Central,,,LAST,false,,,
+71,281,49,Utah Jazz,3,Western,Midwest,,FIRST,FIRST,true,3,true,false
+46,281,22,Houston Rockets,3,Western,Midwest,,,,true,2,false,false
+55,281,31,Minnesota Timberwolves,3,Western,Midwest,,,,true,0,false,false
+41,281,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+43,281,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+66,281,50,San Antonio Spurs,3,Western,Midwest,,,,false,,,
+52,281,62,Vancouver Grizzlies,3,Western,Midwest,LAST,LAST,LAST,false,,,
+58,281,53,Seattle SuperSonics,3,Western,Pacific,,,FIRST,true,1,false,false
+51,281,27,Los Angeles Lakers,3,Western,Pacific,,,,true,1,false,false
+63,281,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+61,281,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+50,281,27,Los Angeles Clippers,3,Western,Pacific,,,,true,0,false,false
+65,281,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+45,281,52,Golden State Warriors,3,Western,Pacific,,,LAST,false,,,
+53,287,29,Miami Heat,3,Eastern,Atlantic,,,FIRST,true,0,false,false
+57,287,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+35,287,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+73,287,63,Washington Wizards,3,Eastern,Atlantic,,,,false,,,
+59,287,37,Orlando Magic,3,Eastern,Atlantic,,,,false,,,
+34,287,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+60,287,39,Philadelphia 76ers,3,Eastern,Atlantic,,,LAST,false,,,
+37,287,9,Chicago Bulls,3,Eastern,Central,FIRST_TIED,FIRST,FIRST,true,4,true,true
+47,287,23,Indiana Pacers,3,Eastern,Central,,,,true,2,false,false
+36,287,8,Charlotte Hornets,3,Eastern,Central,,,,true,1,false,false
+32,287,2,Atlanta Hawks,3,Eastern,Central,,,,true,0,false,false
+39,287,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+44,287,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+54,287,30,Milwaukee Bucks,3,Eastern,Central,,,,false,,,
+70,287,59,Toronto Raptors,3,Eastern,Central,,LAST,LAST,false,,,
+71,287,49,Utah Jazz,3,Western,Midwest,FIRST_TIED,FIRST,FIRST,true,3,true,false
+66,287,50,San Antonio Spurs,3,Western,Midwest,,,,true,1,false,false
+55,287,31,Minnesota Timberwolves,3,Western,Midwest,,,,true,0,false,false
+46,287,22,Houston Rockets,3,Western,Midwest,,,,true,0,false,false
+41,287,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+52,287,62,Vancouver Grizzlies,3,Western,Midwest,,,,false,,,
+43,287,15,Denver Nuggets,3,Western,Midwest,LAST,LAST,LAST,false,,,
+58,287,53,Seattle SuperSonics,3,Western,Pacific,,,FIRST_TIED,true,1,false,false
+51,287,27,Los Angeles Lakers,3,Western,Pacific,,,FIRST_TIED,true,2,false,false
+61,287,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+63,287,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+65,287,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+45,287,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,287,27,Los Angeles Clippers,3,Western,Pacific,,,LAST,false,,,
+53,293,29,Miami Heat,3,Eastern,Atlantic,,FIRST_TIED,FIRST_TIED,true,0,false,false
+59,293,37,Orlando Magic,3,Eastern,Atlantic,,FIRST_TIED,FIRST_TIED,true,0,false,false
+60,293,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+57,293,35,New York Knicks,3,Eastern,Atlantic,,,,true,3,true,false
+34,293,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+73,293,63,Washington Wizards,3,Eastern,Atlantic,,,,false,,,
+35,293,35,New Jersey Nets,3,Eastern,Atlantic,,,LAST,false,,,
+47,293,23,Indiana Pacers,3,Eastern,Central,,FIRST_TIED,FIRST,true,2,false,false
+32,293,2,Atlanta Hawks,3,Eastern,Central,,,,true,1,false,false
+44,293,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+54,293,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+36,293,8,Charlotte Hornets,3,Eastern,Central,,,,false,,,
+70,293,59,Toronto Raptors,3,Eastern,Central,,,,false,,,
+39,293,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+37,293,9,Chicago Bulls,3,Eastern,Central,,LAST,LAST,false,,,
+66,293,50,San Antonio Spurs,3,Western,Midwest,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,4,true,true
+71,293,49,Utah Jazz,3,Western,Midwest,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,1,false,false
+46,293,22,Houston Rockets,3,Western,Midwest,,,,true,0,false,false
+55,293,31,Minnesota Timberwolves,3,Western,Midwest,,,,true,0,false,false
+41,293,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+43,293,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+52,293,62,Vancouver Grizzlies,3,Western,Midwest,LAST,LAST,LAST,false,,,
+63,293,42,Portland Trail Blazers,3,Western,Pacific,,,FIRST,true,2,false,false
+51,293,27,Los Angeles Lakers,3,Western,Pacific,,,,true,1,false,false
+65,293,48,Sacramento Kings,3,Western,Pacific,,,,true,0,false,false
+61,293,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+58,293,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+45,293,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,293,27,Los Angeles Clippers,3,Western,Pacific,,,LAST,false,,,
+53,299,29,Miami Heat,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+57,299,35,New York Knicks,3,Eastern,Atlantic,,,,true,2,false,false
+60,299,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+59,299,37,Orlando Magic,3,Eastern,Atlantic,,,,false,,,
+34,299,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+35,299,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+73,299,63,Washington Wizards,3,Eastern,Atlantic,,,LAST,false,,,
+47,299,23,Indiana Pacers,3,Eastern,Central,,FIRST,FIRST,true,3,true,false
+36,299,8,Charlotte Hornets,3,Eastern,Central,,,,true,0,false,false
+70,299,59,Toronto Raptors,3,Eastern,Central,,,,true,0,false,false
+44,299,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+54,299,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+39,299,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+32,299,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+37,299,9,Chicago Bulls,3,Eastern,Central,,LAST,LAST,false,,,
+71,299,49,Utah Jazz,3,Western,Midwest,,,FIRST,true,1,false,false
+66,299,50,San Antonio Spurs,3,Western,Midwest,,,,true,0,false,false
+55,299,31,Minnesota Timberwolves,3,Western,Midwest,,,,true,0,false,false
+41,299,13,Dallas Mavericks,3,Western,Midwest,,,,false,,,
+43,299,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+46,299,22,Houston Rockets,3,Western,Midwest,,,,false,,,
+52,299,62,Vancouver Grizzlies,3,Western,Midwest,,,LAST,false,,,
+51,299,27,Los Angeles Lakers,3,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+63,299,42,Portland Trail Blazers,3,Western,Pacific,,,,true,2,false,false
+61,299,40,Phoenix Suns,3,Western,Pacific,,,,true,1,false,false
+58,299,53,Seattle SuperSonics,3,Western,Pacific,,,,true,0,false,false
+65,299,48,Sacramento Kings,3,Western,Pacific,,,,true,0,false,false
+45,299,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,299,27,Los Angeles Clippers,3,Western,Pacific,LAST,LAST,LAST,false,,,
+60,305,39,Philadelphia 76ers,3,Eastern,Atlantic,,FIRST,FIRST,true,3,true,false
+53,305,29,Miami Heat,3,Eastern,Atlantic,,,,true,0,false,false
+57,305,35,New York Knicks,3,Eastern,Atlantic,,,,true,0,false,false
+59,305,37,Orlando Magic,3,Eastern,Atlantic,,,,true,0,false,false
+34,305,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+35,305,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+73,305,63,Washington Wizards,3,Eastern,Atlantic,,,LAST,false,,,
+54,305,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,2,false,false
+70,305,59,Toronto Raptors,3,Eastern,Central,,,,true,1,false,false
+36,305,8,Charlotte Hornets,3,Eastern,Central,,,,true,1,false,false
+47,305,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+44,305,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+39,305,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+32,305,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+37,305,9,Chicago Bulls,3,Eastern,Central,LAST,LAST,LAST,false,,,
+66,305,50,San Antonio Spurs,3,Western,Midwest,FIRST,FIRST,FIRST,true,2,false,false
+71,305,49,Utah Jazz,3,Western,Midwest,,,,true,0,false,false
+41,305,13,Dallas Mavericks,3,Western,Midwest,,,,true,1,false,false
+55,305,31,Minnesota Timberwolves,3,Western,Midwest,,,,true,0,false,false
+46,305,22,Houston Rockets,3,Western,Midwest,,,,false,,,
+43,305,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+52,305,62,Vancouver Grizzlies,3,Western,Midwest,,,LAST,false,,,
+51,305,27,Los Angeles Lakers,3,Western,Pacific,,,FIRST,true,4,true,true
+65,305,48,Sacramento Kings,3,Western,Pacific,,,,true,1,false,false
+61,305,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+63,305,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+58,305,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+50,305,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+45,305,52,Golden State Warriors,3,Western,Pacific,,LAST,LAST,false,,,
+35,311,35,New Jersey Nets,3,Eastern,Atlantic,,FIRST,FIRST,true,3,true,false
+34,311,5,Boston Celtics,3,Eastern,Atlantic,,,,true,2,false,false
+59,311,37,Orlando Magic,3,Eastern,Atlantic,,,,true,0,false,false
+60,311,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+73,311,63,Washington Wizards,3,Eastern,Atlantic,,,,false,,,
+53,311,29,Miami Heat,3,Eastern,Atlantic,,,,false,,,
+57,311,35,New York Knicks,3,Eastern,Atlantic,,,LAST,false,,,
+44,311,16,Detroit Pistons,3,Eastern,Central,,,FIRST,true,1,false,false
+36,311,8,Charlotte Hornets,3,Eastern,Central,,,,true,1,false,false
+70,311,59,Toronto Raptors,3,Eastern,Central,,,,true,0,false,false
+47,311,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+54,311,30,Milwaukee Bucks,3,Eastern,Central,,,,false,,,
+32,311,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+39,311,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+37,311,9,Chicago Bulls,3,Eastern,Central,LAST_TIED,LAST,LAST,false,,,
+66,311,50,San Antonio Spurs,3,Western,Midwest,,,FIRST,true,1,false,false
+41,311,13,Dallas Mavericks,3,Western,Midwest,,,,true,1,false,false
+55,311,31,Minnesota Timberwolves,3,Western,Midwest,,,,true,0,false,false
+71,311,49,Utah Jazz,3,Western,Midwest,,,,true,0,false,false
+46,311,22,Houston Rockets,3,Western,Midwest,,,,false,,,
+43,311,15,Denver Nuggets,3,Western,Midwest,,,,false,,,
+52,311,28,Memphis Grizzlies,3,Western,Midwest,,,LAST,false,,,
+65,311,48,Sacramento Kings,3,Western,Pacific,FIRST,FIRST,FIRST,true,2,false,false
+51,311,27,Los Angeles Lakers,3,Western,Pacific,,,,true,4,true,true
+63,311,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+58,311,53,Seattle SuperSonics,3,Western,Pacific,,,,true,0,false,false
+50,311,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+61,311,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+45,311,52,Golden State Warriors,3,Western,Pacific,LAST_TIED,LAST,LAST,false,,,
+35,317,35,New Jersey Nets,3,Eastern,Atlantic,,,FIRST,true,3,true,false
+60,317,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+34,317,5,Boston Celtics,3,Eastern,Atlantic,,,,true,1,false,false
+59,317,37,Orlando Magic,3,Eastern,Atlantic,,,,true,0,false,false
+73,317,63,Washington Wizards,3,Eastern,Atlantic,,,,false,,,
+57,317,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+53,317,29,Miami Heat,3,Eastern,Atlantic,,,LAST,false,,,
+44,317,16,Detroit Pistons,3,Eastern,Central,,FIRST,FIRST,true,2,false,false
+47,317,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+56,317,34,New Orleans Hornets,3,Eastern,Central,,,,true,0,false,false
+54,317,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+32,317,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+37,317,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+70,317,59,Toronto Raptors,3,Eastern,Central,,,,false,,,
+39,317,11,Cleveland Cavaliers,3,Eastern,Central,LAST_TIED,LAST,LAST,false,,,
+66,317,50,San Antonio Spurs,3,Western,Midwest,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,4,true,true
+41,317,13,Dallas Mavericks,3,Western,Midwest,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,2,false,false
+55,317,31,Minnesota Timberwolves,3,Western,Midwest,,,,true,0,false,false
+71,317,49,Utah Jazz,3,Western,Midwest,,,,true,0,false,false
+46,317,22,Houston Rockets,3,Western,Midwest,,,,false,,,
+52,317,28,Memphis Grizzlies,3,Western,Midwest,,,,false,,,
+43,317,15,Denver Nuggets,3,Western,Midwest,LAST_TIED,LAST,LAST,false,,,
+65,317,48,Sacramento Kings,3,Western,Pacific,,,FIRST,true,1,false,false
+51,317,27,Los Angeles Lakers,3,Western,Pacific,,,,true,1,false,false
+63,317,42,Portland Trail Blazers,3,Western,Pacific,,,,true,0,false,false
+61,317,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+58,317,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+45,317,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,317,27,Los Angeles Clippers,3,Western,Pacific,,,LAST,false,,,
+35,323,35,New Jersey Nets,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+53,323,29,Miami Heat,3,Eastern,Atlantic,,,,true,1,false,false
+57,323,35,New York Knicks,3,Eastern,Atlantic,,,,true,0,false,false
+34,323,5,Boston Celtics,3,Eastern,Atlantic,,,,true,0,false,false
+60,323,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+73,323,63,Washington Wizards,3,Eastern,Atlantic,,,,false,,,
+59,323,37,Orlando Magic,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+47,323,23,Indiana Pacers,3,Eastern,Central,FIRST,FIRST,FIRST,true,2,false,false
+44,323,16,Detroit Pistons,3,Eastern,Central,,,,true,4,true,true
+56,323,34,New Orleans Hornets,3,Eastern,Central,,,,true,0,false,false
+54,323,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+39,323,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+70,323,59,Toronto Raptors,3,Eastern,Central,,,,false,,,
+32,323,2,Atlanta Hawks,3,Eastern,Central,,,,false,,,
+37,323,9,Chicago Bulls,3,Eastern,Central,,,LAST,false,,,
+55,323,31,Minnesota Timberwolves,3,Western,Midwest,,FIRST,FIRST,true,2,false,false
+66,323,50,San Antonio Spurs,3,Western,Midwest,,,,true,1,false,false
+41,323,13,Dallas Mavericks,3,Western,Midwest,,,,true,0,false,false
+52,323,28,Memphis Grizzlies,3,Western,Midwest,,,,true,0,false,false
+46,323,22,Houston Rockets,3,Western,Midwest,,,,true,0,false,false
+43,323,15,Denver Nuggets,3,Western,Midwest,,,,true,0,false,false
+71,323,49,Utah Jazz,3,Western,Midwest,,,LAST,false,,,
+51,323,27,Los Angeles Lakers,3,Western,Pacific,,,FIRST,true,3,true,false
+65,323,48,Sacramento Kings,3,Western,Pacific,,,,true,1,false,false
+63,323,42,Portland Trail Blazers,3,Western,Pacific,,,,false,,,
+58,323,53,Seattle SuperSonics,3,Western,Pacific,,,,false,,,
+45,323,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+61,323,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+50,323,27,Los Angeles Clippers,3,Western,Pacific,,LAST,LAST,false,,,
+34,328,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST,true,0,false,false
+60,328,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+35,328,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,0,false,false
+57,328,35,New York Knicks,3,Eastern,Atlantic,,,LAST_TIED,false,,,
+70,328,59,Toronto Raptors,3,Eastern,Atlantic,,,LAST_TIED,false,,,
+44,328,16,Detroit Pistons,3,Eastern,Central,,,FIRST,true,3,true,false
+37,328,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+47,328,23,Indiana Pacers,3,Eastern,Central,,,,true,1,false,false
+39,328,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+54,328,30,Milwaukee Bucks,3,Eastern,Central,,,LAST,false,,,
+53,328,29,Miami Heat,3,Eastern,Southeast,,FIRST,FIRST,true,2,false,false
+73,328,63,Washington Wizards,3,Eastern,Southeast,,,,true,1,false,false
+59,328,37,Orlando Magic,3,Eastern,Southeast,,,,false,,,
+36,328,8,Charlotte Bobcats,3,Eastern,Southeast,,,,false,,,
+32,328,2,Atlanta Hawks,3,Eastern,Southeast,LAST,LAST,LAST,false,,,
+58,328,53,Seattle SuperSonics,3,Western,Northwest,,,FIRST,true,1,false,false
+43,328,15,Denver Nuggets,3,Western,Northwest,,,,true,0,false,false
+55,328,31,Minnesota Timberwolves,3,Western,Northwest,,,,false,,,
+63,328,42,Portland Trail Blazers,3,Western,Northwest,,,,false,,,
+71,328,49,Utah Jazz,3,Western,Northwest,,,LAST,false,,,
+61,328,40,Phoenix Suns,3,Western,Pacific,FIRST,FIRST,FIRST,true,2,false,false
+65,328,48,Sacramento Kings,3,Western,Pacific,,,,true,0,false,false
+50,328,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+51,328,27,Los Angeles Lakers,3,Western,Pacific,,,LAST_TIED,false,,,
+45,328,52,Golden State Warriors,3,Western,Pacific,,,LAST_TIED,false,,,
+66,328,50,San Antonio Spurs,3,Western,Southwest,,,FIRST,true,4,true,true
+41,328,13,Dallas Mavericks,3,Western,Southwest,,,,true,1,false,false
+46,328,22,Houston Rockets,3,Western,Southwest,,,,true,0,false,false
+52,328,28,Memphis Grizzlies,3,Western,Southwest,,,,true,0,false,false
+56,328,34,New Orleans Hornets,3,Western,Southwest,,LAST,LAST,false,,,
+35,334,35,New Jersey Nets,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+60,334,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+34,334,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+70,334,59,Toronto Raptors,3,Eastern,Atlantic,,,,false,,,
+57,334,35,New York Knicks,3,Eastern,Atlantic,,LAST,LAST,false,,,
+44,334,16,Detroit Pistons,3,Eastern,Central,FIRST,FIRST,FIRST,true,2,false,false
+39,334,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,1,false,false
+47,334,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+37,334,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+54,334,30,Milwaukee Bucks,3,Eastern,Central,,,LAST,true,0,false,false
+53,334,29,Miami Heat,3,Eastern,Southeast,,,FIRST,true,4,true,true
+73,334,63,Washington Wizards,3,Eastern,Southeast,,,,true,0,false,false
+59,334,37,Orlando Magic,3,Eastern,Southeast,,,,false,,,
+36,334,8,Charlotte Bobcats,3,Eastern,Southeast,,,LAST_TIED,false,,,
+32,334,2,Atlanta Hawks,3,Eastern,Southeast,,,LAST_TIED,false,,,
+43,334,15,Denver Nuggets,3,Western,Northwest,,,FIRST,true,0,false,false
+71,334,49,Utah Jazz,3,Western,Northwest,,,,false,,,
+58,334,53,Seattle SuperSonics,3,Western,Northwest,,,,false,,,
+55,334,31,Minnesota Timberwolves,3,Western,Northwest,,,,false,,,
+63,334,42,Portland Trail Blazers,3,Western,Northwest,LAST,LAST,LAST,false,,,
+61,334,40,Phoenix Suns,3,Western,Pacific,,,FIRST,true,2,false,false
+50,334,27,Los Angeles Clippers,3,Western,Pacific,,,,true,1,false,false
+51,334,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+65,334,48,Sacramento Kings,3,Western,Pacific,,,,true,0,false,false
+45,334,52,Golden State Warriors,3,Western,Pacific,,,LAST,false,,,
+66,334,50,San Antonio Spurs,3,Western,Southwest,,FIRST,FIRST,true,1,false,false
+41,334,13,Dallas Mavericks,3,Western,Southwest,,,,true,3,true,false
+52,334,28,Memphis Grizzlies,3,Western,Southwest,,,,true,0,false,false
+56,334,34,New Orleans Hornets,3,Western,Southwest,,,,false,,,
+46,334,22,Houston Rockets,3,Western,Southwest,,,LAST,false,,,
+70,340,59,Toronto Raptors,3,Eastern,Atlantic,,,FIRST,true,0,false,false
+35,340,35,New Jersey Nets,3,Eastern,Atlantic,,,,true,1,false,false
+60,340,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+57,340,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+34,340,5,Boston Celtics,3,Eastern,Atlantic,,LAST,LAST,false,,,
+44,340,16,Detroit Pistons,3,Eastern,Central,,FIRST,FIRST,true,2,false,false
+39,340,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,3,true,false
+37,340,9,Chicago Bulls,3,Eastern,Central,,,,true,1,false,false
+47,340,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+54,340,30,Milwaukee Bucks,3,Eastern,Central,,,LAST,false,,,
+53,340,29,Miami Heat,3,Eastern,Southeast,,,FIRST,true,0,false,false
+73,340,63,Washington Wizards,3,Eastern,Southeast,,,,true,0,false,false
+59,340,37,Orlando Magic,3,Eastern,Southeast,,,,true,0,false,false
+36,340,8,Charlotte Bobcats,3,Eastern,Southeast,,,,false,,,
+32,340,2,Atlanta Hawks,3,Eastern,Southeast,,,LAST,false,,,
+71,340,49,Utah Jazz,3,Western,Northwest,,,FIRST,true,2,false,false
+43,340,15,Denver Nuggets,3,Western,Northwest,,,,true,0,false,false
+63,340,42,Portland Trail Blazers,3,Western,Northwest,,,,false,,,
+55,340,31,Minnesota Timberwolves,3,Western,Northwest,,,,false,,,
+58,340,53,Seattle SuperSonics,3,Western,Northwest,,,LAST,false,,,
+61,340,40,Phoenix Suns,3,Western,Pacific,,,FIRST,true,1,false,false
+51,340,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+45,340,52,Golden State Warriors,3,Western,Pacific,,,,true,1,false,false
+50,340,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+65,340,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+41,340,13,Dallas Mavericks,3,Western,Southwest,FIRST,FIRST,FIRST,true,0,false,false
+66,340,50,San Antonio Spurs,3,Western,Southwest,,,,true,4,true,true
+46,340,22,Houston Rockets,3,Western,Southwest,,,,true,0,false,false
+56,340,34,New Orleans Hornets,3,Western,Southwest,,,,false,,,
+52,340,28,Memphis Grizzlies,3,Western,Southwest,LAST,LAST,LAST,false,,,
+34,346,5,Boston Celtics,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,4,true,true
+70,346,59,Toronto Raptors,3,Eastern,Atlantic,,,,true,0,false,false
+60,346,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+35,346,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+57,346,35,New York Knicks,3,Eastern,Atlantic,,,LAST,false,,,
+44,346,16,Detroit Pistons,3,Eastern,Central,,,FIRST,true,2,false,false
+39,346,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,1,false,false
+47,346,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+37,346,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+54,346,30,Milwaukee Bucks,3,Eastern,Central,,,LAST,false,,,
+59,346,37,Orlando Magic,3,Eastern,Southeast,,,FIRST,true,1,false,false
+73,346,63,Washington Wizards,3,Eastern,Southeast,,,,true,0,false,false
+32,346,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,0,false,false
+36,346,8,Charlotte Bobcats,3,Eastern,Southeast,,,,false,,,
+53,346,29,Miami Heat,3,Eastern,Southeast,LAST,LAST,LAST,false,,,
+71,346,49,Utah Jazz,3,Western,Northwest,,,FIRST,true,1,false,false
+43,346,15,Denver Nuggets,3,Western,Northwest,,,,true,0,false,false
+63,346,42,Portland Trail Blazers,3,Western,Northwest,,,,false,,,
+55,346,31,Minnesota Timberwolves,3,Western,Northwest,,,,false,,,
+58,346,53,Seattle SuperSonics,3,Western,Northwest,,LAST,LAST,false,,,
+51,346,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,3,true,false
+61,346,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+45,346,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+65,346,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+50,346,27,Los Angeles Clippers,3,Western,Pacific,,,LAST,false,,,
+56,346,34,New Orleans Hornets,3,Western,Southwest,,,FIRST_TIED,true,1,false,false
+66,346,50,San Antonio Spurs,3,Western,Southwest,,,FIRST_TIED,true,2,false,false
+46,346,22,Houston Rockets,3,Western,Southwest,,,,true,0,false,false
+41,346,13,Dallas Mavericks,3,Western,Southwest,,,,true,0,false,false
+52,346,28,Memphis Grizzlies,3,Western,Southwest,,,LAST,false,,,
+34,352,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+60,352,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+35,352,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+70,352,59,Toronto Raptors,3,Eastern,Atlantic,,,,false,,,
+57,352,35,New York Knicks,3,Eastern,Atlantic,,,LAST,false,,,
+39,352,11,Cleveland Cavaliers,3,Eastern,Central,FIRST,FIRST,FIRST,true,2,false,false
+37,352,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+44,352,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+47,352,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+54,352,30,Milwaukee Bucks,3,Eastern,Central,,,LAST,false,,,
+59,352,37,Orlando Magic,3,Eastern,Southeast,,,FIRST,true,3,true,false
+32,352,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,1,false,false
+53,352,29,Miami Heat,3,Eastern,Southeast,,,,true,0,false,false
+36,352,8,Charlotte Bobcats,3,Eastern,Southeast,,,,false,,,
+73,352,63,Washington Wizards,3,Eastern,Southeast,,LAST,LAST,false,,,
+43,352,15,Denver Nuggets,3,Western,Northwest,,,FIRST_TIED,true,2,false,false
+63,352,42,Portland Trail Blazers,3,Western,Northwest,,,FIRST_TIED,true,0,false,false
+71,352,49,Utah Jazz,3,Western,Northwest,,,,true,0,false,false
+55,352,31,Minnesota Timberwolves,3,Western,Northwest,,,,false,,,
+58,352,36,Oklahoma City Thunder,3,Western,Northwest,,,LAST,false,,,
+51,352,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,4,true,true
+61,352,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+45,352,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,352,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+65,352,48,Sacramento Kings,3,Western,Pacific,LAST,LAST,LAST,false,,,
+66,352,50,San Antonio Spurs,3,Western,Southwest,,,FIRST,true,0,false,false
+46,352,22,Houston Rockets,3,Western,Southwest,,,,true,1,false,false
+41,352,13,Dallas Mavericks,3,Western,Southwest,,,,true,1,false,false
+56,352,34,New Orleans Hornets,3,Western,Southwest,,,,true,0,false,false
+52,352,28,Memphis Grizzlies,3,Western,Southwest,,,LAST,false,,,
+34,358,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST,true,3,true,false
+70,358,59,Toronto Raptors,3,Eastern,Atlantic,,,,false,,,
+57,358,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+60,358,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+35,358,35,New Jersey Nets,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+39,358,11,Cleveland Cavaliers,3,Eastern,Central,FIRST,FIRST,FIRST,true,1,false,false
+54,358,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+37,358,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+47,358,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+44,358,16,Detroit Pistons,3,Eastern,Central,,,LAST,false,,,
+59,358,37,Orlando Magic,3,Eastern,Southeast,,,FIRST,true,2,false,false
+32,358,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,1,false,false
+53,358,29,Miami Heat,3,Eastern,Southeast,,,,true,0,false,false
+36,358,8,Charlotte Bobcats,3,Eastern,Southeast,,,,true,0,false,false
+73,358,63,Washington Wizards,3,Eastern,Southeast,,,LAST,false,,,
+43,358,15,Denver Nuggets,3,Western,Northwest,,,FIRST_TIED,true,0,false,false
+71,358,49,Utah Jazz,3,Western,Northwest,,,FIRST_TIED,true,1,false,false
+63,358,42,Portland Trail Blazers,3,Western,Northwest,,,,true,0,false,false
+58,358,36,Oklahoma City Thunder,3,Western,Northwest,,,,true,0,false,false
+55,358,31,Minnesota Timberwolves,3,Western,Northwest,,LAST,LAST,false,,,
+51,358,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,4,true,true
+61,358,40,Phoenix Suns,3,Western,Pacific,,,,true,2,false,false
+50,358,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+45,358,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+65,358,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+41,358,13,Dallas Mavericks,3,Western,Southwest,,,FIRST,true,0,false,false
+66,358,50,San Antonio Spurs,3,Western,Southwest,,,,true,1,false,false
+46,358,22,Houston Rockets,3,Western,Southwest,,,,false,,,
+52,358,28,Memphis Grizzlies,3,Western,Southwest,,,,false,,,
+56,358,34,New Orleans Hornets,3,Western,Southwest,,,LAST,false,,,
+34,364,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+57,364,35,New York Knicks,3,Eastern,Atlantic,,,,true,0,false,false
+60,364,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+35,364,35,New Jersey Nets,3,Eastern,Atlantic,,,,false,,,
+70,364,59,Toronto Raptors,3,Eastern,Atlantic,,,LAST,false,,,
+37,364,9,Chicago Bulls,3,Eastern,Central,FIRST,FIRST,FIRST,true,2,false,false
+47,364,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+54,364,30,Milwaukee Bucks,3,Eastern,Central,,,,false,,,
+44,364,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+39,364,11,Cleveland Cavaliers,3,Eastern,Central,,LAST,LAST,false,,,
+53,364,29,Miami Heat,3,Eastern,Southeast,,,FIRST,true,3,true,false
+59,364,37,Orlando Magic,3,Eastern,Southeast,,,,true,0,false,false
+32,364,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,1,false,false
+36,364,8,Charlotte Bobcats,3,Eastern,Southeast,,,,false,,,
+73,364,63,Washington Wizards,3,Eastern,Southeast,,,LAST,false,,,
+58,364,36,Oklahoma City Thunder,3,Western,Northwest,,,FIRST,true,2,false,false
+43,364,15,Denver Nuggets,3,Western,Northwest,,,,true,0,false,false
+63,364,42,Portland Trail Blazers,3,Western,Northwest,,,,true,0,false,false
+71,364,49,Utah Jazz,3,Western,Northwest,,,,false,,,
+55,364,31,Minnesota Timberwolves,3,Western,Northwest,LAST,LAST,LAST,false,,,
+51,364,27,Los Angeles Lakers,3,Western,Pacific,,,FIRST,true,1,false,false
+61,364,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+45,364,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+50,364,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+65,364,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+66,364,50,San Antonio Spurs,3,Western,Southwest,,FIRST,FIRST,true,0,false,false
+41,364,13,Dallas Mavericks,3,Western,Southwest,,,,true,4,true,true
+56,364,34,New Orleans Hornets,3,Western,Southwest,,,,true,0,false,false
+52,364,28,Memphis Grizzlies,3,Western,Southwest,,,,true,1,false,false
+46,364,22,Houston Rockets,3,Western,Southwest,,,LAST,false,,,
+34,370,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST,true,2,false,false
+57,370,35,New York Knicks,3,Eastern,Atlantic,,,,true,0,false,false
+60,370,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+70,370,59,Toronto Raptors,3,Eastern,Atlantic,,,,false,,,
+35,370,35,New Jersey Nets,3,Eastern,Atlantic,,,LAST,false,,,
+37,370,9,Chicago Bulls,3,Eastern,Central,FIRST_TIED,FIRST,FIRST,true,0,false,false
+47,370,23,Indiana Pacers,3,Eastern,Central,,,,true,1,false,false
+54,370,30,Milwaukee Bucks,3,Eastern,Central,,,,false,,,
+44,370,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+39,370,11,Cleveland Cavaliers,3,Eastern,Central,,,LAST,false,,,
+53,370,29,Miami Heat,3,Eastern,Southeast,,,FIRST,true,4,true,true
+32,370,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,0,false,false
+59,370,37,Orlando Magic,3,Eastern,Southeast,,,,true,0,false,false
+73,370,63,Washington Wizards,3,Eastern,Southeast,,,,false,,,
+36,370,8,Charlotte Bobcats,3,Eastern,Southeast,LAST,LAST,LAST,false,,,
+58,370,36,Oklahoma City Thunder,3,Western,Northwest,,,FIRST,true,3,true,false
+43,370,15,Denver Nuggets,3,Western,Northwest,,,,true,0,false,false
+71,370,49,Utah Jazz,3,Western,Northwest,,,,true,0,false,false
+63,370,42,Portland Trail Blazers,3,Western,Northwest,,,,false,,,
+55,370,31,Minnesota Timberwolves,3,Western,Northwest,,,LAST,false,,,
+51,370,27,Los Angeles Lakers,3,Western,Pacific,,,FIRST,true,1,false,false
+50,370,27,Los Angeles Clippers,3,Western,Pacific,,,,true,1,false,false
+61,370,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+45,370,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+65,370,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+66,370,50,San Antonio Spurs,3,Western,Southwest,FIRST_TIED,FIRST,FIRST,true,2,false,false
+52,370,28,Memphis Grizzlies,3,Western,Southwest,,,,true,0,false,false
+41,370,13,Dallas Mavericks,3,Western,Southwest,,,,true,0,false,false
+46,370,22,Houston Rockets,3,Western,Southwest,,,,false,,,
+56,370,34,New Orleans Hornets,3,Western,Southwest,,LAST,LAST,false,,,
+57,376,35,New York Knicks,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+35,376,35,Brooklyn Nets,3,Eastern,Atlantic,,,,true,0,false,false
+34,376,5,Boston Celtics,3,Eastern,Atlantic,,,,true,0,false,false
+60,376,39,Philadelphia 76ers,3,Eastern,Atlantic,,,LAST_TIED,false,,,
+70,376,59,Toronto Raptors,3,Eastern,Atlantic,,,LAST_TIED,false,,,
+47,376,23,Indiana Pacers,3,Eastern,Central,,,FIRST,true,2,false,false
+37,376,9,Chicago Bulls,3,Eastern,Central,,,,true,1,false,false
+54,376,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+44,376,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+39,376,11,Cleveland Cavaliers,3,Eastern,Central,,,LAST,false,,,
+53,376,29,Miami Heat,3,Eastern,Southeast,FIRST,FIRST,FIRST,true,4,true,true
+32,376,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,0,false,false
+73,376,63,Washington Wizards,3,Eastern,Southeast,,,,false,,,
+36,376,8,Charlotte Bobcats,3,Eastern,Southeast,,,,false,,,
+59,376,37,Orlando Magic,3,Eastern,Southeast,LAST,LAST,LAST,false,,,
+58,376,36,Oklahoma City Thunder,3,Western,Northwest,,FIRST,FIRST,true,1,false,false
+43,376,15,Denver Nuggets,3,Western,Northwest,,,,true,0,false,false
+71,376,49,Utah Jazz,3,Western,Northwest,,,,false,,,
+63,376,42,Portland Trail Blazers,3,Western,Northwest,,,,false,,,
+55,376,31,Minnesota Timberwolves,3,Western,Northwest,,,LAST,false,,,
+50,376,27,Los Angeles Clippers,3,Western,Pacific,,,FIRST,true,0,false,false
+45,376,52,Golden State Warriors,3,Western,Pacific,,,,true,1,false,false
+51,376,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+65,376,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+61,376,40,Phoenix Suns,3,Western,Pacific,,LAST,LAST,false,,,
+66,376,50,San Antonio Spurs,3,Western,Southwest,,,FIRST,true,3,true,false
+52,376,28,Memphis Grizzlies,3,Western,Southwest,,,,true,2,false,false
+46,376,22,Houston Rockets,3,Western,Southwest,,,,true,0,false,false
+41,376,13,Dallas Mavericks,3,Western,Southwest,,,,false,,,
+56,376,34,New Orleans Hornets,3,Western,Southwest,,,LAST,false,,,
+70,382,59,Toronto Raptors,3,Eastern,Atlantic,,,FIRST,true,0,false,false
+35,382,35,Brooklyn Nets,3,Eastern,Atlantic,,,,true,1,false,false
+57,382,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+34,382,5,Boston Celtics,3,Eastern,Atlantic,,,,false,,,
+60,382,39,Philadelphia 76ers,3,Eastern,Atlantic,,,LAST,false,,,
+47,382,23,Indiana Pacers,3,Eastern,Central,,FIRST,FIRST,true,2,false,false
+37,382,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+39,382,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+44,382,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+54,382,30,Milwaukee Bucks,3,Eastern,Central,LAST,LAST,LAST,false,,,
+53,382,29,Miami Heat,3,Eastern,Southeast,,,FIRST,true,3,true,false
+73,382,63,Washington Wizards,3,Eastern,Southeast,,,,true,1,false,false
+36,382,8,Charlotte Bobcats,3,Eastern,Southeast,,,,true,0,false,false
+32,382,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,0,false,false
+59,382,37,Orlando Magic,3,Eastern,Southeast,,,LAST,false,,,
+58,382,36,Oklahoma City Thunder,3,Western,Northwest,,,FIRST,true,2,false,false
+63,382,42,Portland Trail Blazers,3,Western,Northwest,,,,true,1,false,false
+55,382,31,Minnesota Timberwolves,3,Western,Northwest,,,,false,,,
+43,382,15,Denver Nuggets,3,Western,Northwest,,,,false,,,
+71,382,49,Utah Jazz,3,Western,Northwest,,LAST,LAST,false,,,
+50,382,27,Los Angeles Clippers,3,Western,Pacific,,,FIRST,true,1,false,false
+45,382,52,Golden State Warriors,3,Western,Pacific,,,,true,0,false,false
+61,382,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+65,382,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+51,382,27,Los Angeles Lakers,3,Western,Pacific,,,LAST,false,,,
+66,382,50,San Antonio Spurs,3,Western,Southwest,FIRST,FIRST,FIRST,true,4,true,true
+46,382,22,Houston Rockets,3,Western,Southwest,,,,true,0,false,false
+52,382,28,Memphis Grizzlies,3,Western,Southwest,,,,true,0,false,false
+41,382,13,Dallas Mavericks,3,Western,Southwest,,,,true,0,false,false
+56,382,34,New Orleans Hornets,3,Western,Southwest,,,LAST,false,,,
+70,388,59,Toronto Raptors,3,Eastern,Atlantic,,,FIRST,true,0,false,false
+34,388,5,Boston Celtics,3,Eastern,Atlantic,,,,true,0,false,false
+35,388,35,Brooklyn Nets,3,Eastern,Atlantic,,,,true,0,false,false
+60,388,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+57,388,35,New York Knicks,3,Eastern,Atlantic,,LAST,LAST,false,,,
+39,388,11,Cleveland Cavaliers,3,Eastern,Central,,,FIRST,true,3,true,false
+37,388,9,Chicago Bulls,3,Eastern,Central,,,,true,1,false,false
+54,388,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+47,388,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+44,388,16,Detroit Pistons,3,Eastern,Central,,,LAST,false,,,
+32,388,2,Atlanta Hawks,3,Eastern,Southeast,,FIRST,FIRST,true,2,false,false
+73,388,63,Washington Wizards,3,Eastern,Southeast,,,,true,1,false,false
+53,388,29,Miami Heat,3,Eastern,Southeast,,,,false,,,
+36,388,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+59,388,37,Orlando Magic,3,Eastern,Southeast,,,LAST,false,,,
+63,388,42,Portland Trail Blazers,3,Western,Northwest,,,FIRST,true,0,false,false
+58,388,36,Oklahoma City Thunder,3,Western,Northwest,,,,false,,,
+71,388,49,Utah Jazz,3,Western,Northwest,,,,false,,,
+43,388,15,Denver Nuggets,3,Western,Northwest,,,,false,,,
+55,388,31,Minnesota Timberwolves,3,Western,Northwest,LAST,LAST,LAST,false,,,
+45,388,52,Golden State Warriors,3,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+50,388,27,Los Angeles Clippers,3,Western,Pacific,,,,true,1,false,false
+61,388,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+65,388,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+51,388,27,Los Angeles Lakers,3,Western,Pacific,,,LAST,false,,,
+46,388,22,Houston Rockets,3,Western,Southwest,,,FIRST,true,2,false,false
+52,388,28,Memphis Grizzlies,3,Western,Southwest,,,,true,1,false,false
+66,388,50,San Antonio Spurs,3,Western,Southwest,,,,true,0,false,false
+41,388,13,Dallas Mavericks,3,Western,Southwest,,,,true,0,false,false
+56,388,34,New Orleans Pelicans,3,Western,Southwest,,,LAST,true,0,false,false
+70,394,59,Toronto Raptors,3,Eastern,Atlantic,,,FIRST,true,2,false,false
+34,394,5,Boston Celtics,3,Eastern,Atlantic,,,,true,0,false,false
+57,394,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+35,394,35,Brooklyn Nets,3,Eastern,Atlantic,,,,false,,,
+60,394,39,Philadelphia 76ers,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+39,394,11,Cleveland Cavaliers,3,Eastern,Central,,FIRST,FIRST,true,4,true,true
+47,394,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+44,394,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+37,394,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+54,394,30,Milwaukee Bucks,3,Eastern,Central,,,LAST,false,,,
+53,394,29,Miami Heat,3,Eastern,Southeast,,,FIRST_TIED,true,1,false,false
+32,394,2,Atlanta Hawks,3,Eastern,Southeast,,,FIRST_TIED,true,1,false,false
+36,394,8,Charlotte Hornets,3,Eastern,Southeast,,,FIRST_TIED,true,0,false,false
+73,394,63,Washington Wizards,3,Eastern,Southeast,,,,false,,,
+59,394,37,Orlando Magic,3,Eastern,Southeast,,,LAST,false,,,
+58,394,36,Oklahoma City Thunder,3,Western,Northwest,,,FIRST,true,2,false,false
+63,394,42,Portland Trail Blazers,3,Western,Northwest,,,,true,1,false,false
+71,394,49,Utah Jazz,3,Western,Northwest,,,,false,,,
+43,394,15,Denver Nuggets,3,Western,Northwest,,,,false,,,
+55,394,31,Minnesota Timberwolves,3,Western,Northwest,,,LAST,false,,,
+45,394,52,Golden State Warriors,3,Western,Pacific,FIRST,FIRST,FIRST,true,3,true,false
+50,394,27,Los Angeles Clippers,3,Western,Pacific,,,,true,0,false,false
+65,394,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+61,394,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+51,394,27,Los Angeles Lakers,3,Western,Pacific,,LAST,LAST,false,,,
+66,394,50,San Antonio Spurs,3,Western,Southwest,,,FIRST,true,1,false,false
+41,394,13,Dallas Mavericks,3,Western,Southwest,,,,true,0,false,false
+52,394,28,Memphis Grizzlies,3,Western,Southwest,,,,true,0,false,false
+46,394,22,Houston Rockets,3,Western,Southwest,,,,true,0,false,false
+56,394,34,New Orleans Pelicans,3,Western,Southwest,,,LAST,false,,,
+34,400,5,Boston Celtics,3,Eastern,Atlantic,,FIRST,FIRST,true,2,false,false
+70,400,59,Toronto Raptors,3,Eastern,Atlantic,,,,true,1,false,false
+57,400,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+60,400,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,false,,,
+35,400,35,Brooklyn Nets,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+39,400,11,Cleveland Cavaliers,3,Eastern,Central,,,FIRST,true,3,true,false
+54,400,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+47,400,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+37,400,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+44,400,16,Detroit Pistons,3,Eastern,Central,,,LAST,false,,,
+73,400,63,Washington Wizards,3,Eastern,Southeast,,,FIRST,true,1,false,false
+32,400,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,0,false,false
+53,400,29,Miami Heat,3,Eastern,Southeast,,,,false,,,
+36,400,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+59,400,37,Orlando Magic,3,Eastern,Southeast,,,LAST,false,,,
+71,400,49,Utah Jazz,3,Western,Northwest,,,FIRST,true,1,false,false
+58,400,36,Oklahoma City Thunder,3,Western,Northwest,,,,true,0,false,false
+63,400,42,Portland Trail Blazers,3,Western,Northwest,,,,true,0,false,false
+43,400,15,Denver Nuggets,3,Western,Northwest,,,,false,,,
+55,400,31,Minnesota Timberwolves,3,Western,Northwest,,,LAST,false,,,
+45,400,52,Golden State Warriors,3,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+50,400,27,Los Angeles Clippers,3,Western,Pacific,,,,true,0,false,false
+65,400,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+51,400,27,Los Angeles Lakers,3,Western,Pacific,,,,false,,,
+61,400,40,Phoenix Suns,3,Western,Pacific,,LAST,LAST,false,,,
+66,400,50,San Antonio Spurs,3,Western,Southwest,,,FIRST,true,2,false,false
+46,400,22,Houston Rockets,3,Western,Southwest,,,,true,1,false,false
+52,400,28,Memphis Grizzlies,3,Western,Southwest,,,,true,0,false,false
+56,400,34,New Orleans Pelicans,3,Western,Southwest,,,,false,,,
+41,400,13,Dallas Mavericks,3,Western,Southwest,,,LAST,false,,,
+70,406,59,Toronto Raptors,3,Eastern,Atlantic,,FIRST,FIRST,true,1,false,false
+34,406,5,Boston Celtics,3,Eastern,Atlantic,,,,true,2,false,false
+60,406,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+57,406,35,New York Knicks,3,Eastern,Atlantic,,,,false,,,
+35,406,35,Brooklyn Nets,3,Eastern,Atlantic,,,LAST,false,,,
+39,406,11,Cleveland Cavaliers,3,Eastern,Central,,,FIRST,true,3,true,false
+47,406,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+54,406,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+44,406,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+37,406,9,Chicago Bulls,3,Eastern,Central,,,LAST,false,,,
+53,406,29,Miami Heat,3,Eastern,Southeast,,,FIRST,true,0,false,false
+73,406,63,Washington Wizards,3,Eastern,Southeast,,,,true,0,false,false
+36,406,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+59,406,37,Orlando Magic,3,Eastern,Southeast,,,,false,,,
+32,406,2,Atlanta Hawks,3,Eastern,Southeast,,LAST,LAST,false,,,
+63,406,42,Portland Trail Blazers,3,Western,Northwest,,,FIRST,true,0,false,false
+58,406,36,Oklahoma City Thunder,3,Western,Northwest,,,,true,0,false,false
+71,406,49,Utah Jazz,3,Western,Northwest,,,,true,1,false,false
+55,406,31,Minnesota Timberwolves,3,Western,Northwest,,,,true,0,false,false
+43,406,15,Denver Nuggets,3,Western,Northwest,,,LAST,false,,,
+45,406,52,Golden State Warriors,3,Western,Pacific,,,FIRST,true,4,true,true
+50,406,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+51,406,27,Los Angeles Lakers,3,Western,Pacific,,,,false,,,
+65,406,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+61,406,40,Phoenix Suns,3,Western,Pacific,LAST,LAST,LAST,false,,,
+46,406,22,Houston Rockets,3,Western,Southwest,FIRST,FIRST,FIRST,true,2,false,false
+56,406,34,New Orleans Pelicans,3,Western,Southwest,,,,true,1,false,false
+66,406,50,San Antonio Spurs,3,Western,Southwest,,,,true,0,false,false
+41,406,13,Dallas Mavericks,3,Western,Southwest,,,,false,,,
+52,406,28,Memphis Grizzlies,3,Western,Southwest,,,LAST,false,,,
+70,412,59,Toronto Raptors,3,Eastern,Atlantic,,,FIRST,true,4,true,true
+60,412,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+34,412,5,Boston Celtics,3,Eastern,Atlantic,,,,true,1,false,false
+35,412,35,Brooklyn Nets,3,Eastern,Atlantic,,,,true,0,false,false
+57,412,35,New York Knicks,3,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+54,412,30,Milwaukee Bucks,3,Eastern,Central,FIRST,FIRST,FIRST,true,2,false,false
+47,412,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+44,412,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+37,412,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+39,412,11,Cleveland Cavaliers,3,Eastern,Central,,,LAST,false,,,
+59,412,37,Orlando Magic,3,Eastern,Southeast,,,FIRST,true,0,false,false
+36,412,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+53,412,29,Miami Heat,3,Eastern,Southeast,,,,false,,,
+73,412,63,Washington Wizards,3,Eastern,Southeast,,,,false,,,
+32,412,2,Atlanta Hawks,3,Eastern,Southeast,,,LAST,false,,,
+43,412,15,Denver Nuggets,3,Western,Northwest,,,FIRST,true,1,false,false
+63,412,42,Portland Trail Blazers,3,Western,Northwest,,,,true,2,false,false
+71,412,49,Utah Jazz,3,Western,Northwest,,,,true,0,false,false
+58,412,36,Oklahoma City Thunder,3,Western,Northwest,,,,true,0,false,false
+55,412,31,Minnesota Timberwolves,3,Western,Northwest,,,LAST,false,,,
+45,412,52,Golden State Warriors,3,Western,Pacific,,FIRST,FIRST,true,3,true,false
+50,412,27,Los Angeles Clippers,3,Western,Pacific,,,,true,0,false,false
+65,412,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+51,412,27,Los Angeles Lakers,3,Western,Pacific,,,,false,,,
+61,412,40,Phoenix Suns,3,Western,Pacific,,LAST,LAST,false,,,
+46,412,22,Houston Rockets,3,Western,Southwest,,,FIRST,true,1,false,false
+66,412,50,San Antonio Spurs,3,Western,Southwest,,,,true,0,false,false
+52,412,28,Memphis Grizzlies,3,Western,Southwest,,,LAST_TIED,false,,,
+56,412,34,New Orleans Pelicans,3,Western,Southwest,,,LAST_TIED,false,,,
+41,412,13,Dallas Mavericks,3,Western,Southwest,,,LAST_TIED,false,,,
+70,418,59,Toronto Raptors,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+34,418,5,Boston Celtics,3,Eastern,Atlantic,,,,true,2,false,false
+60,418,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+35,418,35,Brooklyn Nets,3,Eastern,Atlantic,,,,true,0,false,false
+57,418,35,New York Knicks,3,Eastern,Atlantic,,,LAST,false,,,
+54,418,30,Milwaukee Bucks,3,Eastern,Central,FIRST,FIRST,FIRST,true,1,false,false
+47,418,23,Indiana Pacers,3,Eastern,Central,,,,true,0,false,false
+37,418,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+44,418,16,Detroit Pistons,3,Eastern,Central,,,,false,,,
+39,418,11,Cleveland Cavaliers,3,Eastern,Central,,LAST,LAST,false,,,
+53,418,29,Miami Heat,3,Eastern,Southeast,,,FIRST,true,3,true,false
+59,418,37,Orlando Magic,3,Eastern,Southeast,,,,true,0,false,false
+73,418,63,Washington Wizards,3,Eastern,Southeast,,,,false,,,
+36,418,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+32,418,2,Atlanta Hawks,3,Eastern,Southeast,,,LAST,false,,,
+43,418,15,Denver Nuggets,3,Western,Northwest,,,FIRST,true,2,false,false
+58,418,36,Oklahoma City Thunder,3,Western,Northwest,,,,true,0,false,false
+71,418,49,Utah Jazz,3,Western,Northwest,,,,true,0,false,false
+63,418,42,Portland Trail Blazers,3,Western,Northwest,,,,true,0,false,false
+55,418,31,Minnesota Timberwolves,3,Western,Northwest,,,LAST,false,,,
+51,418,27,Los Angeles Lakers,3,Western,Pacific,,FIRST,FIRST,true,4,true,true
+50,418,27,Los Angeles Clippers,3,Western,Pacific,,,,true,1,false,false
+61,418,40,Phoenix Suns,3,Western,Pacific,,,,false,,,
+65,418,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+45,418,52,Golden State Warriors,3,Western,Pacific,LAST,LAST,LAST,false,,,
+46,418,22,Houston Rockets,3,Western,Southwest,,,FIRST,true,1,false,false
+41,418,13,Dallas Mavericks,3,Western,Southwest,,,,true,0,false,false
+52,418,28,Memphis Grizzlies,3,Western,Southwest,,,,false,,,
+66,418,50,San Antonio Spurs,3,Western,Southwest,,,,false,,,
+56,418,34,New Orleans Pelicans,3,Western,Southwest,,,LAST,false,,,
+60,424,39,Philadelphia 76ers,3,Eastern,Atlantic,,FIRST,FIRST,true,1,false,false
+35,424,35,Brooklyn Nets,3,Eastern,Atlantic,,,,true,1,false,false
+57,424,35,New York Knicks,3,Eastern,Atlantic,,,,true,0,false,false
+34,424,5,Boston Celtics,3,Eastern,Atlantic,,,,true,0,false,false
+70,424,59,Toronto Raptors,3,Eastern,Atlantic,,,LAST,false,,,
+54,424,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,4,true,true
+47,424,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+37,424,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+39,424,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+44,424,16,Detroit Pistons,3,Eastern,Central,,LAST,LAST,false,,,
+32,424,2,Atlanta Hawks,3,Eastern,Southeast,,,FIRST,true,2,false,false
+53,424,29,Miami Heat,3,Eastern,Southeast,,,,true,0,false,false
+73,424,63,Washington Wizards,3,Eastern,Southeast,,,,true,0,false,false
+36,424,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+59,424,37,Orlando Magic,3,Eastern,Southeast,,,LAST,false,,,
+71,424,49,Utah Jazz,3,Western,Northwest,FIRST,FIRST,FIRST,true,1,false,false
+43,424,15,Denver Nuggets,3,Western,Northwest,,,,true,1,false,false
+63,424,42,Portland Trail Blazers,3,Western,Northwest,,,,true,0,false,false
+55,424,31,Minnesota Timberwolves,3,Western,Northwest,,,,false,,,
+58,424,36,Oklahoma City Thunder,3,Western,Northwest,,,LAST,false,,,
+61,424,40,Phoenix Suns,3,Western,Pacific,,,FIRST,true,3,true,false
+50,424,27,Los Angeles Clippers,3,Western,Pacific,,,,true,2,false,false
+51,424,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+45,424,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+65,424,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+41,424,13,Dallas Mavericks,3,Western,Southwest,,,FIRST,true,0,false,false
+52,424,28,Memphis Grizzlies,3,Western,Southwest,,,,true,0,false,false
+66,424,50,San Antonio Spurs,3,Western,Southwest,,,,false,,,
+56,424,34,New Orleans Pelicans,3,Western,Southwest,,,,false,,,
+46,424,22,Houston Rockets,3,Western,Southwest,LAST,LAST,LAST,false,,,
+34,430,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST_TIED,true,3,true,false
+60,430,39,Philadelphia 76ers,3,Eastern,Atlantic,,,FIRST_TIED,true,1,false,false
+70,430,59,Toronto Raptors,3,Eastern,Atlantic,,,,true,0,false,false
+35,430,35,Brooklyn Nets,3,Eastern,Atlantic,,,,true,0,false,false
+57,430,35,New York Knicks,3,Eastern,Atlantic,,,LAST,false,,,
+54,430,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,1,false,false
+37,430,9,Chicago Bulls,3,Eastern,Central,,,,true,0,false,false
+39,430,11,Cleveland Cavaliers,3,Eastern,Central,,,,false,,,
+47,430,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+44,430,16,Detroit Pistons,3,Eastern,Central,,,LAST,false,,,
+53,430,29,Miami Heat,3,Eastern,Southeast,,FIRST,FIRST,true,2,false,false
+32,430,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,0,false,false
+36,430,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+73,430,63,Washington Wizards,3,Eastern,Southeast,,,,false,,,
+59,430,37,Orlando Magic,3,Eastern,Southeast,,LAST,LAST,false,,,
+71,430,49,Utah Jazz,3,Western,Northwest,,,FIRST,true,0,false,false
+43,430,15,Denver Nuggets,3,Western,Northwest,,,,true,0,false,false
+55,430,31,Minnesota Timberwolves,3,Western,Northwest,,,,true,0,false,false
+63,430,42,Portland Trail Blazers,3,Western,Northwest,,,,false,,,
+58,430,36,Oklahoma City Thunder,3,Western,Northwest,,,LAST,false,,,
+61,430,40,Phoenix Suns,3,Western,Pacific,FIRST,FIRST,FIRST,true,1,false,false
+45,430,52,Golden State Warriors,3,Western,Pacific,,,,true,4,true,true
+50,430,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+51,430,27,Los Angeles Lakers,3,Western,Pacific,,,,false,,,
+65,430,48,Sacramento Kings,3,Western,Pacific,,,LAST,false,,,
+52,430,28,Memphis Grizzlies,3,Western,Southwest,,,FIRST,true,1,false,false
+41,430,13,Dallas Mavericks,3,Western,Southwest,,,,true,2,false,false
+56,430,34,New Orleans Pelicans,3,Western,Southwest,,,,true,0,false,false
+66,430,50,San Antonio Spurs,3,Western,Southwest,,,,false,,,
+46,430,22,Houston Rockets,3,Western,Southwest,LAST,LAST,LAST,false,,,
+34,436,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST,true,2,false,false
+60,436,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+57,436,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+35,436,35,Brooklyn Nets,3,Eastern,Atlantic,,,,true,0,false,false
+70,436,59,Toronto Raptors,3,Eastern,Atlantic,,,LAST,false,,,
+54,436,30,Milwaukee Bucks,3,Eastern,Central,FIRST,FIRST,FIRST,true,0,false,false
+39,436,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,0,false,false
+37,436,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+47,436,23,Indiana Pacers,3,Eastern,Central,,,,false,,,
+44,436,16,Detroit Pistons,3,Eastern,Central,LAST,LAST,LAST,false,,,
+53,436,29,Miami Heat,3,Eastern,Southeast,,,FIRST,true,3,true,false
+32,436,2,Atlanta Hawks,3,Eastern,Southeast,,,,true,0,false,false
+73,436,63,Washington Wizards,3,Eastern,Southeast,,,,false,,,
+59,436,37,Orlando Magic,3,Eastern,Southeast,,,,false,,,
+36,436,8,Charlotte Hornets,3,Eastern,Southeast,,,LAST,false,,,
+43,436,15,Denver Nuggets,3,Western,Northwest,,FIRST,FIRST,true,4,true,true
+55,436,31,Minnesota Timberwolves,3,Western,Northwest,,,,true,0,false,false
+58,436,36,Oklahoma City Thunder,3,Western,Northwest,,,,false,,,
+71,436,49,Utah Jazz,3,Western,Northwest,,,,false,,,
+63,436,42,Portland Trail Blazers,3,Western,Northwest,,,LAST,false,,,
+65,436,48,Sacramento Kings,3,Western,Pacific,,,FIRST,true,0,false,false
+61,436,40,Phoenix Suns,3,Western,Pacific,,,,true,1,false,false
+50,436,27,Los Angeles Clippers,3,Western,Pacific,,,,true,0,false,false
+45,436,52,Golden State Warriors,3,Western,Pacific,,,,true,1,false,false
+51,436,27,Los Angeles Lakers,3,Western,Pacific,,,LAST,true,2,false,false
+52,436,28,Memphis Grizzlies,3,Western,Southwest,,,FIRST,true,0,false,false
+56,436,34,New Orleans Pelicans,3,Western,Southwest,,,,false,,,
+41,436,13,Dallas Mavericks,3,Western,Southwest,,,,false,,,
+46,436,22,Houston Rockets,3,Western,Southwest,,LAST_TIED,LAST_TIED,false,,,
+66,436,50,San Antonio Spurs,3,Western,Southwest,,LAST_TIED,LAST_TIED,false,,,
+34,442,5,Boston Celtics,3,Eastern,Atlantic,FIRST,FIRST,FIRST,true,4,true,true
+57,442,35,New York Knicks,3,Eastern,Atlantic,,,,true,1,false,false
+60,442,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,0,false,false
+35,442,35,Brooklyn Nets,3,Eastern,Atlantic,,,,false,,,
+70,442,59,Toronto Raptors,3,Eastern,Atlantic,,,LAST,false,,,
+54,442,30,Milwaukee Bucks,3,Eastern,Central,,,FIRST,true,0,false,false
+39,442,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,1,false,false
+47,442,23,Indiana Pacers,3,Eastern,Central,,,,true,2,false,false
+37,442,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+44,442,16,Detroit Pistons,3,Eastern,Central,LAST,LAST,LAST,false,,,
+59,442,37,Orlando Magic,3,Eastern,Southeast,,,FIRST,true,0,false,false
+53,442,29,Miami Heat,3,Eastern,Southeast,,,,true,0,false,false
+32,442,2,Atlanta Hawks,3,Eastern,Southeast,,,,false,,,
+36,442,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+73,442,63,Washington Wizards,3,Eastern,Southeast,,,LAST,false,,,
+58,442,36,Oklahoma City Thunder,3,Western,Northwest,,FIRST_TIED,FIRST_TIED,true,1,false,false
+43,442,15,Denver Nuggets,3,Western,Northwest,,FIRST_TIED,FIRST_TIED,true,1,false,false
+55,442,31,Minnesota Timberwolves,3,Western,Northwest,,,,true,2,false,false
+71,442,49,Utah Jazz,3,Western,Northwest,,,,false,,,
+63,442,42,Portland Trail Blazers,3,Western,Northwest,,LAST,LAST,false,,,
+50,442,27,Los Angeles Clippers,3,Western,Pacific,,,FIRST,true,0,false,false
+61,442,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+51,442,27,Los Angeles Lakers,3,Western,Pacific,,,,true,0,false,false
+65,442,48,Sacramento Kings,3,Western,Pacific,,,LAST_TIED,false,,,
+45,442,52,Golden State Warriors,3,Western,Pacific,,,LAST_TIED,false,,,
+41,442,13,Dallas Mavericks,3,Western,Southwest,,,FIRST,true,3,true,false
+56,442,34,New Orleans Pelicans,3,Western,Southwest,,,,true,0,false,false
+46,442,22,Houston Rockets,3,Western,Southwest,,,,false,,,
+52,442,28,Memphis Grizzlies,3,Western,Southwest,,,,false,,,
+66,442,50,San Antonio Spurs,3,Western,Southwest,,,LAST,false,,,
+34,448,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST,true,1,false,false
+57,448,35,New York Knicks,3,Eastern,Atlantic,,,,true,2,false,false
+70,448,59,Toronto Raptors,3,Eastern,Atlantic,,,,false,,,
+35,448,35,Brooklyn Nets,3,Eastern,Atlantic,,,,false,,,
+60,448,39,Philadelphia 76ers,3,Eastern,Atlantic,,,LAST,false,,,
+39,448,11,Cleveland Cavaliers,3,Eastern,Central,,FIRST,FIRST,true,1,false,false
+47,448,23,Indiana Pacers,3,Eastern,Central,,,,true,3,true,false
+54,448,30,Milwaukee Bucks,3,Eastern,Central,,,,true,0,false,false
+44,448,16,Detroit Pistons,3,Eastern,Central,,,,true,0,false,false
+37,448,9,Chicago Bulls,3,Eastern,Central,,,LAST,false,,,
+59,448,37,Orlando Magic,3,Eastern,Southeast,,,FIRST,true,0,false,false
+32,448,2,Atlanta Hawks,3,Eastern,Southeast,,,,false,,,
+53,448,29,Miami Heat,3,Eastern,Southeast,,,,true,0,false,false
+36,448,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+73,448,63,Washington Wizards,3,Eastern,Southeast,,LAST,LAST,false,,,
+58,448,36,Oklahoma City Thunder,3,Western,Northwest,FIRST,FIRST,FIRST,true,4,true,true
+43,448,15,Denver Nuggets,3,Western,Northwest,,,,true,1,false,false
+55,448,31,Minnesota Timberwolves,3,Western,Northwest,,,,true,2,false,false
+63,448,42,Portland Trail Blazers,3,Western,Northwest,,,,false,,,
+71,448,49,Utah Jazz,3,Western,Northwest,LAST,LAST,LAST,false,,,
+51,448,27,Los Angeles Lakers,3,Western,Pacific,,,FIRST_TIED,true,0,false,false
+50,448,27,Los Angeles Clippers,3,Western,Pacific,,,FIRST_TIED,true,0,false,false
+45,448,52,Golden State Warriors,3,Western,Pacific,,,,true,1,false,false
+65,448,48,Sacramento Kings,3,Western,Pacific,,,,false,,,
+61,448,40,Phoenix Suns,3,Western,Pacific,,,LAST,false,,,
+46,448,22,Houston Rockets,3,Western,Southwest,,,FIRST,true,0,false,false
+52,448,28,Memphis Grizzlies,3,Western,Southwest,,,,true,0,false,false
+41,448,13,Dallas Mavericks,3,Western,Southwest,,,,false,,,
+66,448,50,San Antonio Spurs,3,Western,Southwest,,,,false,,,
+56,448,34,New Orleans Pelicans,3,Western,Southwest,,,LAST,false,,,

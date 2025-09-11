@@ -1,31 +1,31 @@
-name,is_defunct,league
-Chicago Cubs,false,MLB
-Atlanta Braves,false,MLB
-San Francisco Giants,false,MLB
-Philadelphia Phillies,false,MLB
-Pittsburgh Pirates,false,MLB
-Cincinnati Reds,false,MLB
-Los Angeles Dodgers,false,MLB
-St. Louis Cardinals,false,MLB
-Boston Red Sox,false,MLB
-Chicago White Sox,false,MLB
-Cleveland Guardians,false,MLB
-Detroit Tigers,false,MLB
-Baltimore Orioles,false,MLB
-Oakland Athletics,false,MLB
-Minnesota Twins,false,MLB
-New York Yankees,false,MLB
-Texas Rangers,false,MLB
-Los Angeles Angels,false,MLB
-New York Mets,false,MLB
-Houston Astros,false,MLB
-Kansas City Royals,false,MLB
-Milwaukee Brewers,false,MLB
-San Diego Padres,false,MLB
-Washington Nationals,false,MLB
-Seattle Mariners,false,MLB
-Toronto Blue Jays,false,MLB
-Colorado Rockies,false,MLB
-Miami Marlins,false,MLB
-Arizona Diamondbacks,false,MLB
-Tampa Bay Rays,false,MLB
+id,name,label,is_defunct,league_id
+1,Arizona Diamondbacks,diamondbacks,false,1
+2,Atlanta Braves,braves,false,1
+3,Baltimore Orioles,orioles,false,1
+4,Boston Red Sox,red-sox,false,1
+5,Chicago Cubs,cubs,false,1
+6,Chicago White Sox,white-sox,false,1
+7,Cincinnati Reds,reds,false,1
+8,Cleveland Guardians,guardians,false,1
+9,Colorado Rockies,rockies,false,1
+10,Detroit Tigers,tigers,false,1
+11,Houston Astros,astros,false,1
+12,Kansas City Royals,royals,false,1
+13,Los Angeles Angels,angels,false,1
+14,Los Angeles Dodgers,dodgers,false,1
+15,Miami Marlins,marlins,false,1
+16,Milwaukee Brewers,brewers,false,1
+17,Minnesota Twins,twins,false,1
+18,New York Mets,mets,false,1
+19,New York Yankees,yankees,false,1
+20,Oakland Athletics,athletics,false,1
+21,Philadelphia Phillies,phillies,false,1
+22,Pittsburgh Pirates,pirates,false,1
+23,San Diego Padres,padres,false,1
+24,San Francisco Giants,giants-mlb,false,1
+25,Seattle Mariners,mariners,false,1
+26,St. Louis Cardinals,cardinals-mlb,false,1
+27,Tampa Bay Rays,rays,false,1
+28,Texas Rangers,rangers,false,1
+29,Toronto Blue Jays,blue-jays,false,1
+30,Washington Nationals,nationals,false,1

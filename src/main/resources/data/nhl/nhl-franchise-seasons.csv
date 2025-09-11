@@ -1,0 +1,1688 @@
+franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+99,25,38,Ottawa Senators,4,Canadian,,FIRST,FIRST,,true,2,true,true
+92,25,32,Montreal Canadiens,4,Canadian,,,,,true,1,false,false
+93,25,32,Montreal Maroons,4,Canadian,,,,,true,0,false,false
+96,25,35,New York Americans,4,Canadian,,,,,false,,,
+108,25,59,Toronto St. Patricks,4,Canadian,,,LAST,,false,,,
+98,25,35,New York Rangers,4,American,,,FIRST,,true,0,false,false
+78,25,5,Boston Bruins,4,American,,,,,true,2,true,false
+83,25,9,Chicago Black Hawks,4,American,,,,,true,0,false,false
+103,25,41,Pittsburgh Pirates,4,American,,,,,false,,,
+87,25,16,Detroit Cougars,4,American,,LAST,LAST,,false,,,
+78,27,5,Boston Bruins,4,American,,,FIRST,,true,0,false,false
+98,27,35,New York Rangers,4,American,,,,,true,3,true,true
+103,27,41,Pittsburgh Pirates,4,American,,,,,true,0,false,false
+87,27,16,Detroit Cougars,4,American,,,,,false,,,
+83,27,9,Chicago Black Hawks,4,American,,LAST,LAST,,false,,,
+92,27,32,Montreal Canadiens,4,Canadian,,FIRST,FIRST,,true,0,false,false
+93,27,32,Montreal Maroons,4,Canadian,,,,,true,2,true,false
+99,27,38,Ottawa Senators,4,Canadian,,,,,true,0,false,false
+108,27,59,Toronto Maple Leafs,4,Canadian,,,,,false,,,
+96,27,35,New York Americans,4,Canadian,,,LAST,,false,,,
+78,29,5,Boston Bruins,4,American,,,FIRST,,true,2,true,true
+98,29,35,New York Rangers,4,American,,,,,true,2,true,false
+87,29,16,Detroit Cougars,4,American,,,,,true,0,false,false
+103,29,41,Pittsburgh Pirates,4,American,,,,,false,,,
+83,29,9,Chicago Black Hawks,4,American,,LAST,LAST,,false,,,
+92,29,32,Montreal Canadiens,4,Canadian,,FIRST,FIRST,,true,0,false,false
+96,29,35,New York Americans,4,Canadian,,,,,true,0,false,false
+108,29,59,Toronto Maple Leafs,4,Canadian,,,,,true,1,false,false
+99,29,38,Ottawa Senators,4,Canadian,,,,,false,,,
+93,29,32,Montreal Maroons,4,Canadian,,,LAST,,false,,,
+78,31,5,Boston Bruins,4,American,,FIRST,FIRST,,true,1,true,false
+83,31,9,Chicago Black Hawks,4,American,,,,,true,0,false,false
+98,31,35,New York Rangers,4,American,,,,,true,1,false,false
+87,31,16,Detroit Cougars,4,American,,,,,false,,,
+103,31,41,Pittsburgh Pirates,4,American,,LAST,LAST,,false,,,
+93,31,32,Montreal Maroons,4,Canadian,,,FIRST_TIED,,true,0,false,false
+92,31,32,Montreal Canadiens,4,Canadian,,,FIRST_TIED,,true,3,true,true
+99,31,38,Ottawa Senators,4,Canadian,,,,,true,0,false,false
+108,31,59,Toronto Maple Leafs,4,Canadian,,,,,false,,,
+96,31,35,New York Americans,4,Canadian,,,LAST,,false,,,
+78,33,5,Boston Bruins,4,American,,FIRST,FIRST,,true,0,false,false
+83,33,9,Chicago Black Hawks,4,American,,,,,true,2,true,false
+98,33,35,New York Rangers,4,American,,,,,true,1,false,false
+87,33,16,Detroit Falcons,4,American,,,,,false,,,
+103,33,39,Philadelphia Quakers,4,American,,LAST,LAST,,false,,,
+92,33,32,Montreal Canadiens,4,Canadian,,,FIRST,,true,2,true,true
+108,33,59,Toronto Maple Leafs,4,Canadian,,,,,true,0,false,false
+93,33,32,Montreal Maroons,4,Canadian,,,,,true,0,false,false
+96,33,35,New York Americans,4,Canadian,,,,,false,,,
+99,33,38,Ottawa Senators,4,Canadian,,,LAST,,false,,,
+98,35,35,New York Rangers,4,American,,,FIRST,,true,1,true,false
+83,35,9,Chicago Black Hawks,4,American,,,,,true,0,false,false
+87,35,16,Detroit Falcons,4,American,,,,,true,0,false,false
+78,35,5,Boston Bruins,4,American,,,LAST,,false,,,
+92,35,32,Montreal Canadiens,4,Canadian,,FIRST,FIRST,,true,0,false,false
+108,35,59,Toronto Maple Leafs,4,Canadian,,,,,true,3,true,true
+93,35,32,Montreal Maroons,4,Canadian,,,,,true,1,false,false
+96,35,35,New York Americans,4,Canadian,,LAST,LAST,,false,,,
+78,37,5,Boston Bruins,4,American,,FIRST_TIED,FIRST_TIED,,true,0,false,false
+87,37,16,Detroit Red Wings,4,American,,FIRST_TIED,FIRST_TIED,,true,1,false,false
+98,37,35,New York Rangers,4,American,,,,,true,3,true,true
+83,37,9,Chicago Black Hawks,4,American,,,LAST,,false,,,
+108,37,59,Toronto Maple Leafs,4,Canadian,,,FIRST,,true,1,true,false
+93,37,32,Montreal Maroons,4,Canadian,,,,,true,0,false,false
+92,37,32,Montreal Canadiens,4,Canadian,,,,,true,0,false,false
+96,37,35,New York Americans,4,Canadian,,,,,false,,,
+99,37,38,Ottawa Senators,4,Canadian,,LAST,LAST,,false,,,
+87,40,16,Detroit Red Wings,4,American,,,FIRST,,true,1,true,false
+83,40,9,Chicago Black Hawks,4,American,,,,,true,3,true,true
+98,40,35,New York Rangers,4,American,,,,,true,0,false,false
+78,40,5,Boston Bruins,4,American,,,LAST,,false,,,
+108,40,59,Toronto Maple Leafs,4,Canadian,,FIRST,FIRST,,true,0,false,false
+92,40,32,Montreal Canadiens,4,Canadian,,,,,true,0,false,false
+93,40,32,Montreal Maroons,4,Canadian,,,,,true,1,false,false
+96,40,35,New York Americans,4,Canadian,,,,,false,,,
+99,40,38,Ottawa Senators,4,Canadian,,LAST,LAST,,false,,,
+78,43,5,Boston Bruins,4,American,,,FIRST,,true,0,false,false
+83,43,9,Chicago Black Hawks,4,American,,,,,true,0,false,false
+98,43,35,New York Rangers,4,American,,,,,true,1,false,false
+87,43,16,Detroit Red Wings,4,American,,,LAST,,false,,,
+108,43,59,Toronto Maple Leafs,4,Canadian,,FIRST,FIRST,,true,1,true,false
+93,43,32,Montreal Maroons,4,Canadian,,,,,true,3,true,true
+92,43,32,Montreal Canadiens,4,Canadian,,,,,true,0,false,false
+96,43,35,New York Americans,4,Canadian,,,,,false,,,
+99,43,56,St. Louis Eagles,4,Canadian,,LAST,LAST,,false,,,
+87,46,16,Detroit Red Wings,4,American,,FIRST,FIRST,,true,2,true,true
+78,46,5,Boston Bruins,4,American,,,LAST_TIED,,true,0,false,false
+83,46,9,Chicago Black Hawks,4,American,,,LAST_TIED,,true,0,false,false
+98,46,35,New York Rangers,4,American,,,LAST_TIED,,false,,,
+93,46,32,Montreal Maroons,4,Canadian,,,FIRST,,true,0,false,false
+108,46,59,Toronto Maple Leafs,4,Canadian,,,,,true,2,true,false
+96,46,35,New York Americans,4,Canadian,,,,,true,1,false,false
+92,46,32,Montreal Canadiens,4,Canadian,,LAST,LAST,,false,,,
+87,49,16,Detroit Red Wings,4,American,,FIRST,FIRST,,true,2,true,true
+78,49,5,Boston Bruins,4,American,,,,,true,0,false,false
+98,49,35,New York Rangers,4,American,,,,,true,2,true,false
+83,49,9,Chicago Black Hawks,4,American,,,LAST,,false,,,
+92,49,32,Montreal Canadiens,4,Canadian,,,FIRST,,true,0,false,false
+93,49,32,Montreal Maroons,4,Canadian,,,,,true,1,false,false
+108,49,59,Toronto Maple Leafs,4,Canadian,,,,,true,0,false,false
+96,49,35,New York Americans,4,Canadian,,LAST,LAST,,false,,,
+78,52,5,Boston Bruins,4,American,,FIRST,FIRST,,true,0,false,false
+98,52,35,New York Rangers,4,American,,,,,true,0,false,false
+83,52,9,Chicago Black Hawks,4,American,,,,,true,3,true,true
+87,52,16,Detroit Red Wings,4,American,,,LAST,,false,,,
+108,52,59,Toronto Maple Leafs,4,Canadian,,,FIRST,,true,1,true,false
+96,52,35,New York Americans,4,Canadian,,,,,true,1,false,false
+92,52,32,Montreal Canadiens,4,Canadian,,,,,true,0,false,false
+93,52,32,Montreal Maroons,4,Canadian,,LAST,LAST,,false,,,
+78,55,5,Boston Bruins,4,,,FIRST,,,true,2,true,true
+98,55,35,New York Rangers,4,,,,,,true,0,false,false
+108,55,59,Toronto Maple Leafs,4,,,,,,true,2,true,false
+96,55,35,New York Americans,4,,,,,,true,0,false,false
+87,55,16,Detroit Red Wings,4,,,,,,true,1,false,false
+92,55,32,Montreal Canadiens,4,,,,,,true,0,false,false
+83,55,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+78,58,5,Boston Bruins,4,,,FIRST,,,true,0,false,false
+98,58,35,New York Rangers,4,,,,,,true,2,true,true
+108,58,59,Toronto Maple Leafs,4,,,,,,true,2,true,false
+83,58,9,Chicago Black Hawks,4,,,,,,true,0,false,false
+87,58,16,Detroit Red Wings,4,,,,,,true,1,false,false
+96,58,35,New York Americans,4,,,,,,true,0,false,false
+92,58,32,Montreal Canadiens,4,,,LAST,,,false,,,
+78,61,5,Boston Bruins,4,,,FIRST,,,true,2,true,true
+108,61,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+87,61,16,Detroit Red Wings,4,,,,,,true,2,true,false
+98,61,35,New York Rangers,4,,,,,,true,0,false,false
+83,61,9,Chicago Black Hawks,4,,,,,,true,1,false,false
+92,61,32,Montreal Canadiens,4,,,,,,true,0,false,false
+96,61,35,New York Americans,4,,,LAST,,,false,,,
+98,64,35,New York Rangers,4,,,FIRST,,,true,0,false,false
+108,64,59,Toronto Maple Leafs,4,,,,,,true,2,true,true
+78,64,5,Boston Bruins,4,,,,,,true,1,false,false
+83,64,9,Chicago Black Hawks,4,,,,,,true,0,false,false
+87,64,16,Detroit Red Wings,4,,,,,,true,2,true,false
+92,64,32,Montreal Canadiens,4,,,,,,true,0,false,false
+96,64,35,Brooklyn Americans,4,,,LAST,,,false,,,
+87,67,16,Detroit Red Wings,4,,,FIRST,,,true,2,true,true
+78,67,5,Boston Bruins,4,,,,,,true,1,true,false
+108,67,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+92,67,32,Montreal Canadiens,4,,,,,,true,0,false,false
+83,67,9,Chicago Black Hawks,4,,,,,,false,,,
+98,67,35,New York Rangers,4,,,LAST,,,false,,,
+92,70,32,Montreal Canadiens,4,,,FIRST,,,true,2,true,true
+87,70,16,Detroit Red Wings,4,,,,,,true,0,false,false
+108,70,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+83,70,9,Chicago Black Hawks,4,,,,,,true,1,true,false
+78,70,5,Boston Bruins,4,,,,,,false,,,
+98,70,35,New York Rangers,4,,,LAST,,,false,,,
+92,73,32,Montreal Canadiens,4,,,FIRST,,,true,0,false,false
+87,73,16,Detroit Red Wings,4,,,,,,true,1,true,false
+108,73,59,Toronto Maple Leafs,4,,,,,,true,2,true,true
+78,73,5,Boston Bruins,4,,,,,,true,0,false,false
+83,73,9,Chicago Black Hawks,4,,,,,,false,,,
+98,73,35,New York Rangers,4,,,LAST,,,false,,,
+92,76,32,Montreal Canadiens,4,,,FIRST,,,true,2,true,true
+78,76,5,Boston Bruins,4,,,,,,true,1,true,false
+83,76,9,Chicago Black Hawks,4,,,,,,true,0,false,false
+87,76,16,Detroit Red Wings,4,,,,,,true,0,false,false
+108,76,59,Toronto Maple Leafs,4,,,,,,false,,,
+98,76,35,New York Rangers,4,,,LAST,,,false,,,
+92,79,32,Montreal Canadiens,4,,,FIRST,,,true,1,true,false
+108,79,59,Toronto Maple Leafs,4,,,,,,true,2,true,true
+78,79,5,Boston Bruins,4,,,,,,true,0,false,false
+87,79,16,Detroit Red Wings,4,,,,,,true,0,false,false
+98,79,35,New York Rangers,4,,,,,,false,,,
+83,79,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+108,83,59,Toronto Maple Leafs,4,,,FIRST,,,true,2,true,true
+87,83,16,Detroit Red Wings,4,,,,,,true,1,true,false
+78,83,5,Boston Bruins,4,,,,,,true,0,false,false
+98,83,35,New York Rangers,4,,,,,,true,0,false,false
+92,83,32,Montreal Canadiens,4,,,,,,false,,,
+83,83,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+87,87,16,Detroit Red Wings,4,,,FIRST,,,true,1,true,false
+78,87,5,Boston Bruins,4,,,,,,true,0,false,false
+92,87,32,Montreal Canadiens,4,,,,,,true,0,false,false
+108,87,59,Toronto Maple Leafs,4,,,,,,true,2,true,true
+83,87,9,Chicago Black Hawks,4,,,,,,false,,,
+98,87,35,New York Rangers,4,,,LAST,,,false,,,
+87,91,16,Detroit Red Wings,4,,,FIRST,,,true,2,true,true
+92,91,32,Montreal Canadiens,4,,,,,,true,0,false,false
+108,91,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+98,91,35,New York Rangers,4,,,,,,true,1,true,false
+78,91,5,Boston Bruins,4,,,,,,false,,,
+83,91,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+87,95,16,Detroit Red Wings,4,,,FIRST,,,true,0,false,false
+108,95,59,Toronto Maple Leafs,4,,,,,,true,2,true,true
+92,95,32,Montreal Canadiens,4,,,,,,true,1,true,false
+78,95,5,Boston Bruins,4,,,,,,true,0,false,false
+98,95,35,New York Rangers,4,,,,,,false,,,
+83,95,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+87,99,16,Detroit Red Wings,4,,,FIRST,,,true,2,true,true
+92,99,32,Montreal Canadiens,4,,,,,,true,1,true,false
+108,99,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+78,99,5,Boston Bruins,4,,,,,,true,0,false,false
+98,99,35,New York Rangers,4,,,,,,false,,,
+83,99,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+87,103,16,Detroit Red Wings,4,,,FIRST,,,true,0,false,false
+92,103,32,Montreal Canadiens,4,,,,,,true,2,true,true
+78,103,5,Boston Bruins,4,,,,,,true,1,true,false
+83,103,9,Chicago Black Hawks,4,,,,,,true,0,false,false
+108,103,59,Toronto Maple Leafs,4,,,,,,false,,,
+98,103,35,New York Rangers,4,,,LAST,,,false,,,
+87,107,16,Detroit Red Wings,4,,,FIRST,,,true,2,true,true
+92,107,32,Montreal Canadiens,4,,,,,,true,1,true,false
+108,107,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+78,107,5,Boston Bruins,4,,,,,,true,0,false,false
+98,107,35,New York Rangers,4,,,,,,false,,,
+83,107,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+87,111,16,Detroit Red Wings,4,,,FIRST,,,true,2,true,true
+92,111,32,Montreal Canadiens,4,,,,,,true,1,true,false
+108,111,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+78,111,5,Boston Bruins,4,,,,,,true,0,false,false
+98,111,35,New York Rangers,4,,,,,,false,,,
+83,111,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+92,115,32,Montreal Canadiens,4,,,FIRST,,,true,2,true,true
+87,115,16,Detroit Red Wings,4,,,,,,true,1,true,false
+98,115,35,New York Rangers,4,,,,,,true,0,false,false
+108,115,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+78,115,5,Boston Bruins,4,,,,,,false,,,
+83,115,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+87,119,16,Detroit Red Wings,4,,,FIRST,,,true,0,false,false
+92,119,32,Montreal Canadiens,4,,,,,,true,2,true,true
+78,119,5,Boston Bruins,4,,,,,,true,1,true,false
+98,119,35,New York Rangers,4,,,,,,true,0,false,false
+108,119,59,Toronto Maple Leafs,4,,,,,,false,,,
+83,119,9,Chicago Black Hawks,4,,,LAST,,,false,,,
+92,123,32,Montreal Canadiens,4,,,FIRST,,,true,2,true,true
+98,123,35,New York Rangers,4,,,,,,true,0,false,false
+87,123,16,Detroit Red Wings,4,,,,,,true,0,false,false
+78,123,5,Boston Bruins,4,,,,,,true,1,true,false
+83,123,9,Chicago Black Hawks,4,,,,,,false,,,
+108,123,59,Toronto Maple Leafs,4,,,LAST,,,false,,,
+92,127,32,Montreal Canadiens,4,,,FIRST,,,true,2,true,true
+78,127,5,Boston Bruins,4,,,,,,true,0,false,false
+83,127,9,Chicago Black Hawks,4,,,,,,true,0,false,false
+108,127,59,Toronto Maple Leafs,4,,,,,,true,1,true,false
+98,127,35,New York Rangers,4,,,,,,false,,,
+87,127,16,Detroit Red Wings,4,,,LAST,,,false,,,
+92,131,32,Montreal Canadiens,4,,,FIRST,,,true,2,true,true
+108,131,59,Toronto Maple Leafs,4,,,,,,true,1,true,false
+83,131,9,Chicago Black Hawks,4,,,,,,true,0,false,false
+87,131,16,Detroit Red Wings,4,,,,,,true,0,false,false
+78,131,5,Boston Bruins,4,,,,,,false,,,
+98,131,35,New York Rangers,4,,,LAST,,,false,,,
+92,135,32,Montreal Canadiens,4,,,FIRST,,,true,0,false,false
+108,135,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+83,135,9,Chicago Black Hawks,4,,,,,,true,2,true,true
+87,135,16,Detroit Red Wings,4,,,,,,true,1,true,false
+98,135,35,New York Rangers,4,,,,,,false,,,
+78,135,5,Boston Bruins,4,,,LAST,,,false,,,
+92,139,32,Montreal Canadiens,4,,,FIRST,,,true,0,false,false
+108,139,59,Toronto Maple Leafs,4,,,,,,true,2,true,true
+83,139,9,Chicago Black Hawks,4,,,,,,true,1,true,false
+98,139,35,New York Rangers,4,,,,,,true,0,false,false
+87,139,16,Detroit Red Wings,4,,,,,,false,,,
+78,139,5,Boston Bruins,4,,,LAST,,,false,,,
+108,143,59,Toronto Maple Leafs,4,,,FIRST,,,true,2,true,true
+83,143,9,Chicago Black Hawks,4,,,,,,true,0,false,false
+92,143,32,Montreal Canadiens,4,,,,,,true,0,false,false
+87,143,16,Detroit Red Wings,4,,,,,,true,1,true,false
+98,143,35,New York Rangers,4,,,,,,false,,,
+78,143,5,Boston Bruins,4,,,LAST,,,false,,,
+92,147,32,Montreal Canadiens,4,,,FIRST,,,true,0,false,false
+83,147,9,Chicago Black Hawks,4,,,,,,true,0,false,false
+108,147,59,Toronto Maple Leafs,4,,,,,,true,2,true,true
+87,147,16,Detroit Red Wings,4,,,,,,true,1,true,false
+98,147,35,New York Rangers,4,,,,,,false,,,
+78,147,5,Boston Bruins,4,,,LAST,,,false,,,
+87,151,16,Detroit Red Wings,4,,,FIRST,,,true,0,false,false
+92,151,32,Montreal Canadiens,4,,,,,,true,2,true,true
+83,151,9,Chicago Black Hawks,4,,,,,,true,1,true,false
+108,151,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+98,151,35,New York Rangers,4,,,,,,false,,,
+78,151,5,Boston Bruins,4,,,LAST,,,false,,,
+92,155,32,Montreal Canadiens,4,,,FIRST,,,true,2,true,true
+83,155,9,Chicago Black Hawks,4,,,,,,true,0,false,false
+108,155,59,Toronto Maple Leafs,4,,,,,,true,0,false,false
+87,155,16,Detroit Red Wings,4,,,,,,true,1,true,false
+78,155,5,Boston Bruins,4,,,,,,false,,,
+98,155,35,New York Rangers,4,,,LAST,,,false,,,
+83,159,9,Chicago Black Hawks,4,,,FIRST,,,true,0,false,false
+92,159,32,Montreal Canadiens,4,,,,,,true,1,true,false
+108,159,59,Toronto Maple Leafs,4,,,,,,true,2,true,true
+98,159,35,New York Rangers,4,,,,,,true,0,false,false
+87,159,16,Detroit Red Wings,4,,,,,,false,,,
+78,159,5,Boston Bruins,4,,,LAST,,,false,,,
+92,163,32,Montreal Canadiens,4,East,,FIRST,FIRST,,true,3,true,true
+98,163,35,New York Rangers,4,East,,,,,true,0,false,false
+78,163,5,Boston Bruins,4,East,,,,,true,0,false,false
+83,163,9,Chicago Black Hawks,4,East,,,,,true,1,false,false
+108,163,59,Toronto Maple Leafs,4,East,,,,,false,,,
+87,163,16,Detroit Red Wings,4,East,,,LAST,,false,,,
+101,163,39,Philadelphia Flyers,4,West,,,FIRST,,true,0,false,false
+90,163,27,Los Angeles Kings,4,West,,,,,true,0,false,false
+106,163,56,St. Louis Blues,4,West,,,,,true,2,true,false
+86,163,31,Minnesota North Stars,4,West,,,,,true,1,false,false
+102,163,41,Pittsburgh Penguins,4,West,,,,,false,,,
+81,163,52,Oakland Seals,4,West,,LAST,LAST,,false,,,
+92,167,32,Montreal Canadiens,4,East,,FIRST,FIRST,,true,3,true,true
+78,167,5,Boston Bruins,4,East,,,,,true,1,false,false
+98,167,35,New York Rangers,4,East,,,,,true,0,false,false
+108,167,59,Toronto Maple Leafs,4,East,,,,,true,0,false,false
+87,167,16,Detroit Red Wings,4,East,,,,,false,,,
+83,167,9,Chicago Black Hawks,4,East,,,LAST,,false,,,
+106,167,56,St. Louis Blues,4,West,,,FIRST,,true,2,true,false
+81,167,52,Oakland Seals,4,West,,,,,true,0,false,false
+101,167,39,Philadelphia Flyers,4,West,,,,,true,0,false,false
+90,167,27,Los Angeles Kings,4,West,,,,,true,1,false,false
+102,167,41,Pittsburgh Penguins,4,West,,LAST_TIED,LAST_TIED,,false,,,
+86,167,31,Minnesota North Stars,4,West,,LAST_TIED,LAST_TIED,,false,,,
+83,171,9,Chicago Black Hawks,4,East,,FIRST_TIED,FIRST_TIED,,true,1,false,false
+78,171,5,Boston Bruins,4,East,,FIRST_TIED,FIRST_TIED,,true,3,true,true
+87,171,16,Detroit Red Wings,4,East,,,,,true,0,false,false
+98,171,35,New York Rangers,4,East,,,,,true,0,false,false
+92,171,32,Montreal Canadiens,4,East,,,,,false,,,
+108,171,59,Toronto Maple Leafs,4,East,,,LAST,,false,,,
+106,171,56,St. Louis Blues,4,West,,,FIRST,,true,2,true,false
+102,171,41,Pittsburgh Penguins,4,West,,,,,true,1,false,false
+86,171,31,Minnesota North Stars,4,West,,,,,true,0,false,false
+81,171,52,Oakland Seals,4,West,,,,,true,0,false,false
+101,171,39,Philadelphia Flyers,4,West,,,,,false,,,
+90,171,27,Los Angeles Kings,4,West,,LAST,LAST,,false,,,
+78,175,5,Boston Bruins,4,East,,FIRST,FIRST,,true,0,false,false
+98,175,35,New York Rangers,4,East,,,,,true,1,false,false
+92,175,32,Montreal Canadiens,4,East,,,,,true,3,true,true
+108,175,59,Toronto Maple Leafs,4,East,,,,,true,0,false,false
+79,175,6,Buffalo Sabres,4,East,,,,,false,,,
+109,175,62,Vancouver Canucks,4,East,,,,,false,,,
+87,175,16,Detroit Red Wings,4,East,,,LAST,,false,,,
+83,175,9,Chicago Black Hawks,4,West,,,FIRST,,true,2,true,false
+106,175,56,St. Louis Blues,4,West,,,,,true,0,false,false
+101,175,39,Philadelphia Flyers,4,West,,,,,true,0,false,false
+86,175,31,Minnesota North Stars,4,West,,,,,true,1,false,false
+90,175,27,Los Angeles Kings,4,West,,,,,false,,,
+102,175,41,Pittsburgh Penguins,4,West,,,,,false,,,
+81,175,52,California Golden Seals,4,West,,LAST,LAST,,false,,,
+78,179,5,Boston Bruins,4,East,,FIRST,FIRST,,true,3,true,true
+98,179,35,New York Rangers,4,East,,,,,true,2,true,false
+92,179,32,Montreal Canadiens,4,East,,,,,true,0,false,false
+108,179,59,Toronto Maple Leafs,4,East,,,,,true,0,false,false
+87,179,16,Detroit Red Wings,4,East,,,,,false,,,
+79,179,6,Buffalo Sabres,4,East,,,,,false,,,
+109,179,62,Vancouver Canucks,4,East,,LAST,LAST,,false,,,
+83,179,9,Chicago Black Hawks,4,West,,,FIRST,,true,1,false,false
+86,179,31,Minnesota North Stars,4,West,,,,,true,0,false,false
+106,179,56,St. Louis Blues,4,West,,,,,true,1,false,false
+102,179,41,Pittsburgh Penguins,4,West,,,,,true,0,false,false
+101,179,39,Philadelphia Flyers,4,West,,,,,false,,,
+81,179,52,California Golden Seals,4,West,,,,,false,,,
+90,179,27,Los Angeles Kings,4,West,,,LAST,,false,,,
+92,183,32,Montreal Canadiens,4,East,,FIRST,FIRST,,true,3,true,true
+78,183,5,Boston Bruins,4,East,,,,,true,0,false,false
+98,183,35,New York Rangers,4,East,,,,,true,1,false,false
+79,183,6,Buffalo Sabres,4,East,,,,,true,0,false,false
+87,183,16,Detroit Red Wings,4,East,,,,,false,,,
+108,183,59,Toronto Maple Leafs,4,East,,,,,false,,,
+109,183,62,Vancouver Canucks,4,East,,,,,false,,,
+97,183,35,New York Islanders,4,East,,LAST,LAST,,false,,,
+83,183,9,Chicago Black Hawks,4,West,,,FIRST,,true,2,true,false
+101,183,39,Philadelphia Flyers,4,West,,,,,true,1,false,false
+86,183,31,Minnesota North Stars,4,West,,,,,true,0,false,false
+106,183,56,St. Louis Blues,4,West,,,,,true,0,false,false
+102,183,41,Pittsburgh Penguins,4,West,,,,,false,,,
+90,183,27,Los Angeles Kings,4,West,,,,,false,,,
+80,183,2,Atlanta Flames,4,West,,,,,false,,,
+81,183,52,California Golden Seals,4,West,,,LAST,,false,,,
+78,187,5,Boston Bruins,4,East,,FIRST,FIRST,,true,2,true,false
+92,187,32,Montreal Canadiens,4,East,,,,,true,0,false,false
+98,187,35,New York Rangers,4,East,,,,,true,1,false,false
+108,187,59,Toronto Maple Leafs,4,East,,,,,true,0,false,false
+79,187,6,Buffalo Sabres,4,East,,,,,false,,,
+87,187,16,Detroit Red Wings,4,East,,,,,false,,,
+109,187,62,Vancouver Canucks,4,East,,,,,false,,,
+97,187,35,New York Islanders,4,East,,,LAST,,false,,,
+101,187,39,Philadelphia Flyers,4,West,,,FIRST,,true,3,true,true
+83,187,9,Chicago Black Hawks,4,West,,,,,true,1,false,false
+90,187,27,Los Angeles Kings,4,West,,,,,true,0,false,false
+80,187,2,Atlanta Flames,4,West,,,,,true,0,false,false
+102,187,41,Pittsburgh Penguins,4,West,,,,,false,,,
+106,187,56,St. Louis Blues,4,West,,,,,false,,,
+86,187,31,Minnesota North Stars,4,West,,,,,false,,,
+81,187,52,California Golden Seals,4,West,,LAST,LAST,,false,,,
+101,191,39,Philadelphia Flyers,4,Campbell,Patrick,FIRST_TIED,FIRST,FIRST,true,3,true,true
+98,191,35,New York Rangers,4,Campbell,Patrick,,,,true,0,false,false
+97,191,35,New York Islanders,4,Campbell,Patrick,,,,true,2,false,false
+80,191,2,Atlanta Flames,4,Campbell,Patrick,,,LAST,false,,,
+109,191,62,Vancouver Canucks,4,Campbell,Smythe,,,FIRST,true,0,false,false
+106,191,56,St. Louis Blues,4,Campbell,Smythe,,,,true,0,false,false
+83,191,9,Chicago Black Hawks,4,Campbell,Smythe,,,,true,1,false,false
+86,191,31,Minnesota North Stars,4,Campbell,Smythe,,,,false,,,
+95,191,25,Kansas City Scouts,4,Campbell,Smythe,,LAST,LAST,false,,,
+79,191,6,Buffalo Sabres,4,Prince of Wales,Adams,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
+78,191,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,0,false,false
+108,191,59,Toronto Maple Leafs,4,Prince of Wales,Adams,,,,true,1,false,false
+81,191,52,California Golden Seals,4,Prince of Wales,Adams,,,LAST,false,,,
+92,191,32,Montreal Canadiens,4,Prince of Wales,Norris,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+90,191,27,Los Angeles Kings,4,Prince of Wales,Norris,,,,true,0,false,false
+102,191,41,Pittsburgh Penguins,4,Prince of Wales,Norris,,,,true,1,false,false
+87,191,16,Detroit Red Wings,4,Prince of Wales,Norris,,,,false,,,
+111,191,63,Washington Capitals,4,Prince of Wales,Norris,LAST,LAST,LAST,false,,,
+101,195,39,Philadelphia Flyers,4,Campbell,Patrick,,FIRST,FIRST,true,2,true,false
+97,195,35,New York Islanders,4,Campbell,Patrick,,,,true,2,false,false
+80,195,2,Atlanta Flames,4,Campbell,Patrick,,,,true,0,false,false
+98,195,35,New York Rangers,4,Campbell,Patrick,,,LAST,false,,,
+83,195,9,Chicago Black Hawks,4,Campbell,Smythe,,,FIRST,true,0,false,false
+109,195,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,0,false,false
+106,195,56,St. Louis Blues,4,Campbell,Smythe,,,,true,0,false,false
+86,195,31,Minnesota North Stars,4,Campbell,Smythe,,,,false,,,
+95,195,25,Kansas City Scouts,4,Campbell,Smythe,,LAST,LAST,false,,,
+78,195,5,Boston Bruins,4,Prince of Wales,Adams,,,FIRST,true,1,false,false
+79,195,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,1,false,false
+108,195,59,Toronto Maple Leafs,4,Prince of Wales,Adams,,,,true,1,false,false
+81,195,52,California Golden Seals,4,Prince of Wales,Adams,,,LAST,false,,,
+92,195,32,Montreal Canadiens,4,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,3,true,true
+90,195,27,Los Angeles Kings,4,Prince of Wales,Norris,,,,true,1,false,false
+102,195,41,Pittsburgh Penguins,4,Prince of Wales,Norris,,,,true,0,false,false
+87,195,16,Detroit Red Wings,4,Prince of Wales,Norris,,,,false,,,
+111,195,63,Washington Capitals,4,Prince of Wales,Norris,LAST,LAST,LAST,false,,,
+101,199,39,Philadelphia Flyers,4,Campbell,Patrick,,FIRST,FIRST,true,1,false,false
+97,199,35,New York Islanders,4,Campbell,Patrick,,,,true,2,false,false
+80,199,2,Atlanta Flames,4,Campbell,Patrick,,,,true,0,false,false
+98,199,35,New York Rangers,4,Campbell,Patrick,,,LAST,false,,,
+106,199,56,St. Louis Blues,4,Campbell,Smythe,,,FIRST,true,0,false,false
+86,199,31,Minnesota North Stars,4,Campbell,Smythe,,,,true,0,false,false
+83,199,9,Chicago Black Hawks,4,Campbell,Smythe,,,,true,0,false,false
+109,199,62,Vancouver Canucks,4,Campbell,Smythe,,,,false,,,
+95,199,15,Colorado Rockies,4,Campbell,Smythe,,LAST,LAST,false,,,
+78,199,5,Boston Bruins,4,Prince of Wales,Adams,,,FIRST,true,2,true,false
+79,199,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,1,false,false
+108,199,59,Toronto Maple Leafs,4,Prince of Wales,Adams,,,,true,1,false,false
+81,199,11,Cleveland Barons,4,Prince of Wales,Adams,,,LAST,false,,,
+92,199,32,Montreal Canadiens,4,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,3,true,true
+90,199,27,Los Angeles Kings,4,Prince of Wales,Norris,,,,true,1,false,false
+102,199,41,Pittsburgh Penguins,4,Prince of Wales,Norris,,,,true,0,false,false
+111,199,63,Washington Capitals,4,Prince of Wales,Norris,,,,false,,,
+87,199,16,Detroit Red Wings,4,Prince of Wales,Norris,LAST,LAST,LAST,false,,,
+97,203,35,New York Islanders,4,Campbell,Patrick,,FIRST,FIRST,true,0,false,false
+101,203,39,Philadelphia Flyers,4,Campbell,Patrick,,,,true,2,false,false
+80,203,2,Atlanta Flames,4,Campbell,Patrick,,,,true,0,false,false
+98,203,35,New York Rangers,4,Campbell,Patrick,,,LAST,true,0,false,false
+83,203,9,Chicago Black Hawks,4,Campbell,Smythe,,,FIRST,true,0,false,false
+95,203,15,Colorado Rockies,4,Campbell,Smythe,,,,true,0,false,false
+109,203,62,Vancouver Canucks,4,Campbell,Smythe,,,,false,,,
+106,203,56,St. Louis Blues,4,Campbell,Smythe,,,,false,,,
+86,203,31,Minnesota North Stars,4,Campbell,Smythe,LAST,LAST,LAST,false,,,
+78,203,5,Boston Bruins,4,Prince of Wales,Adams,,,FIRST,true,2,true,false
+79,203,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,1,false,false
+108,203,59,Toronto Maple Leafs,4,Prince of Wales,Adams,,,,true,2,false,false
+81,203,11,Cleveland Barons,4,Prince of Wales,Adams,,,LAST,false,,,
+92,203,32,Montreal Canadiens,4,Prince of Wales,Norris,FIRST,FIRST,FIRST,true,3,true,true
+87,203,16,Detroit Red Wings,4,Prince of Wales,Norris,,,,true,1,false,false
+90,203,27,Los Angeles Kings,4,Prince of Wales,Norris,,,,true,0,false,false
+102,203,41,Pittsburgh Penguins,4,Prince of Wales,Norris,,,,false,,,
+111,203,63,Washington Capitals,4,Prince of Wales,Norris,,LAST,LAST,false,,,
+97,207,35,New York Islanders,4,Campbell,Patrick,FIRST,FIRST,FIRST,true,1,false,false
+101,207,39,Philadelphia Flyers,4,Campbell,Patrick,,,,true,1,false,false
+98,207,35,New York Rangers,4,Campbell,Patrick,,,,true,3,true,false
+80,207,2,Atlanta Flames,4,Campbell,Patrick,,,LAST,true,0,false,false
+83,207,9,Chicago Black Hawks,4,Campbell,Smythe,,,FIRST,true,0,false,false
+109,207,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,0,false,false
+106,207,56,St. Louis Blues,4,Campbell,Smythe,,,,false,,,
+95,207,15,Colorado Rockies,4,Campbell,Smythe,LAST,LAST,LAST,false,,,
+78,207,5,Boston Bruins,4,Prince of Wales,Adams,,,FIRST,true,1,false,false
+79,207,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,0,false,false
+108,207,59,Toronto Maple Leafs,4,Prince of Wales,Adams,,,,true,1,false,false
+86,207,31,Minnesota North Stars,4,Prince of Wales,Adams,,,LAST,false,,,
+92,207,32,Montreal Canadiens,4,Prince of Wales,Norris,,FIRST,FIRST,true,3,true,true
+102,207,41,Pittsburgh Penguins,4,Prince of Wales,Norris,,,,true,1,false,false
+90,207,27,Los Angeles Kings,4,Prince of Wales,Norris,,,,true,0,false,false
+111,207,63,Washington Capitals,4,Prince of Wales,Norris,,,,false,,,
+87,207,16,Detroit Red Wings,4,Prince of Wales,Norris,,LAST,LAST,false,,,
+101,211,39,Philadelphia Flyers,4,Campbell,Patrick,FIRST,FIRST,FIRST,true,3,true,false
+97,211,35,New York Islanders,4,Campbell,Patrick,,,,true,4,true,true
+98,211,35,New York Rangers,4,Campbell,Patrick,,,,true,1,false,false
+80,211,2,Atlanta Flames,4,Campbell,Patrick,,,,true,0,false,false
+111,211,63,Washington Capitals,4,Campbell,Patrick,,,LAST,false,,,
+83,211,9,Chicago Black Hawks,4,Campbell,Smythe,,,FIRST,true,1,false,false
+106,211,56,St. Louis Blues,4,Campbell,Smythe,,,,true,0,false,false
+109,211,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,0,false,false
+88,211,17,Edmonton Oilers,4,Campbell,Smythe,,,,true,0,false,false
+77,211,64,Winnipeg Jets,4,Campbell,Smythe,LAST_TIED,LAST_TIED,LAST_TIED,false,,,
+95,211,15,Colorado Rockies,4,Campbell,Smythe,LAST_TIED,LAST_TIED,LAST_TIED,false,,,
+79,211,6,Buffalo Sabres,4,Prince of Wales,Adams,,FIRST,FIRST,true,2,false,false
+78,211,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,1,false,false
+86,211,31,Minnesota North Stars,4,Prince of Wales,Adams,,,,true,2,false,false
+108,211,59,Toronto Maple Leafs,4,Prince of Wales,Adams,,,,true,0,false,false
+84,211,45,Quebec Nordiques,4,Prince of Wales,Adams,,LAST,LAST,false,,,
+92,211,32,Montreal Canadiens,4,Prince of Wales,Norris,,,FIRST,true,1,false,false
+90,211,27,Los Angeles Kings,4,Prince of Wales,Norris,,,,true,0,false,false
+102,211,41,Pittsburgh Penguins,4,Prince of Wales,Norris,,,,true,0,false,false
+82,211,21,Hartford Whalers,4,Prince of Wales,Norris,,,,true,0,false,false
+87,211,16,Detroit Red Wings,4,Prince of Wales,Norris,,,LAST,false,,,
+97,215,35,New York Islanders,4,Campbell,Patrick,FIRST,FIRST,FIRST,true,4,true,true
+101,215,39,Philadelphia Flyers,4,Campbell,Patrick,,,,true,1,false,false
+80,215,7,Calgary Flames,4,Campbell,Patrick,,,,true,2,false,false
+98,215,35,New York Rangers,4,Campbell,Patrick,,,,true,2,false,false
+111,215,63,Washington Capitals,4,Campbell,Patrick,,,LAST,false,,,
+106,215,56,St. Louis Blues,4,Campbell,Smythe,,,FIRST,true,1,false,false
+83,215,9,Chicago Black Hawks,4,Campbell,Smythe,,,,true,0,false,false
+109,215,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,0,false,false
+88,215,17,Edmonton Oilers,4,Campbell,Smythe,,,,true,1,false,false
+95,215,15,Colorado Rockies,4,Campbell,Smythe,,,,false,,,
+77,215,64,Winnipeg Jets,4,Campbell,Smythe,LAST,LAST,LAST,false,,,
+79,215,6,Buffalo Sabres,4,Prince of Wales,Adams,,,FIRST,true,1,false,false
+78,215,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,0,false,false
+86,215,31,Minnesota North Stars,4,Prince of Wales,Adams,,,,true,3,true,false
+84,215,45,Quebec Nordiques,4,Prince of Wales,Adams,,,,true,0,false,false
+108,215,59,Toronto Maple Leafs,4,Prince of Wales,Adams,,,LAST,true,0,false,false
+92,215,32,Montreal Canadiens,4,Prince of Wales,Norris,,FIRST,FIRST,true,0,false,false
+90,215,27,Los Angeles Kings,4,Prince of Wales,Norris,,,,true,0,false,false
+102,215,41,Pittsburgh Penguins,4,Prince of Wales,Norris,,,,true,0,false,false
+82,215,21,Hartford Whalers,4,Prince of Wales,Norris,,,,false,,,
+87,215,16,Detroit Red Wings,4,Prince of Wales,Norris,,LAST,LAST,false,,,
+86,219,31,Minnesota North Stars,4,Campbell,Norris,,,FIRST,true,0,false,false
+77,219,64,Winnipeg Jets,4,Campbell,Norris,,,,true,0,false,false
+106,219,56,St. Louis Blues,4,Campbell,Norris,,,,true,1,false,false
+83,219,9,Chicago Black Hawks,4,Campbell,Norris,,,,true,2,false,false
+108,219,59,Toronto Maple Leafs,4,Campbell,Norris,,,,false,,,
+87,219,16,Detroit Red Wings,4,Campbell,Norris,,,LAST,false,,,
+88,219,17,Edmonton Oilers,4,Campbell,Smythe,,FIRST,FIRST,true,0,false,false
+109,219,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,3,true,false
+80,219,7,Calgary Flames,4,Campbell,Smythe,,,,true,0,false,false
+90,219,27,Los Angeles Kings,4,Campbell,Smythe,,,,true,1,false,false
+95,219,15,Colorado Rockies,4,Campbell,Smythe,LAST,LAST,LAST,false,,,
+92,219,32,Montreal Canadiens,4,Prince of Wales,Adams,,,FIRST,true,0,false,false
+78,219,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,1,false,false
+79,219,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,0,false,false
+84,219,45,Quebec Nordiques,4,Prince of Wales,Adams,,,,true,2,false,false
+82,219,21,Hartford Whalers,4,Prince of Wales,Adams,,LAST,LAST,false,,,
+97,219,35,New York Islanders,4,Prince of Wales,Patrick,FIRST,FIRST,FIRST,true,4,true,true
+98,219,35,New York Rangers,4,Prince of Wales,Patrick,,,,true,1,false,false
+101,219,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,,,true,0,false,false
+102,219,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,,,,true,0,false,false
+111,219,63,Washington Capitals,4,Prince of Wales,Patrick,,,LAST,false,,,
+83,223,9,Chicago Black Hawks,4,Campbell,Norris,,,FIRST,true,2,false,false
+86,223,31,Minnesota North Stars,4,Campbell,Norris,,,,true,1,false,false
+108,223,59,Toronto Maple Leafs,4,Campbell,Norris,,,,true,0,false,false
+106,223,56,St. Louis Blues,4,Campbell,Norris,,,,true,0,false,false
+87,223,16,Detroit Red Wings,4,Campbell,Norris,,LAST,LAST,false,,,
+88,223,17,Edmonton Oilers,4,Campbell,Smythe,,FIRST,FIRST,true,3,true,false
+80,223,7,Calgary Flames,4,Campbell,Smythe,,,,true,1,false,false
+109,223,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,0,false,false
+77,223,64,Winnipeg Jets,4,Campbell,Smythe,,,,true,0,false,false
+90,223,27,Los Angeles Kings,4,Campbell,Smythe,,,LAST,false,,,
+78,223,5,Boston Bruins,4,Prince of Wales,Adams,FIRST,FIRST,FIRST,true,2,false,false
+92,223,32,Montreal Canadiens,4,Prince of Wales,Adams,,,,true,0,false,false
+79,223,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,1,false,false
+84,223,45,Quebec Nordiques,4,Prince of Wales,Adams,,,,true,0,false,false
+82,223,21,Hartford Whalers,4,Prince of Wales,Adams,LAST_TIED,LAST_TIED,LAST,false,,,
+101,223,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,,FIRST,true,0,false,false
+97,223,35,New York Islanders,4,Prince of Wales,Patrick,,,,true,4,true,true
+111,223,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,0,false,false
+98,223,35,New York Rangers,4,Prince of Wales,Patrick,,,,true,1,false,false
+95,223,35,New Jersey Devils,4,Prince of Wales,Patrick,,,,false,,,
+102,223,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,LAST_TIED,LAST_TIED,LAST,false,,,
+86,227,31,Minnesota North Stars,4,Campbell,Norris,,,FIRST,true,2,false,false
+106,227,56,St. Louis Blues,4,Campbell,Norris,,,,true,1,false,false
+87,227,16,Detroit Red Wings,4,Campbell,Norris,,,,true,0,false,false
+83,227,9,Chicago Black Hawks,4,Campbell,Norris,,,,true,0,false,false
+108,227,59,Toronto Maple Leafs,4,Campbell,Norris,,,LAST,false,,,
+88,227,17,Edmonton Oilers,4,Campbell,Smythe,FIRST,FIRST,FIRST,true,4,true,true
+80,227,7,Calgary Flames,4,Campbell,Smythe,,,,true,1,false,false
+109,227,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,0,false,false
+77,227,64,Winnipeg Jets,4,Campbell,Smythe,,,,true,0,false,false
+90,227,27,Los Angeles Kings,4,Campbell,Smythe,,LAST,LAST,false,,,
+78,227,5,Boston Bruins,4,Prince of Wales,Adams,,FIRST_TIED,FIRST,true,0,false,false
+79,227,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,0,false,false
+84,227,45,Quebec Nordiques,4,Prince of Wales,Adams,,,,true,1,false,false
+92,227,32,Montreal Canadiens,4,Prince of Wales,Adams,,,,true,2,false,false
+82,227,21,Hartford Whalers,4,Prince of Wales,Adams,,,LAST,false,,,
+97,227,35,New York Islanders,4,Prince of Wales,Patrick,,FIRST_TIED,FIRST,true,3,true,false
+111,227,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,1,false,false
+101,227,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,,,true,0,false,false
+98,227,35,New York Rangers,4,Prince of Wales,Patrick,,,,true,0,false,false
+95,227,35,New Jersey Devils,4,Prince of Wales,Patrick,,,,false,,,
+102,227,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,LAST,LAST,LAST,false,,,
+106,231,56,St. Louis Blues,4,Campbell,Norris,,,FIRST,true,0,false,false
+83,231,9,Chicago Black Hawks,4,Campbell,Norris,,,,true,2,false,false
+87,231,16,Detroit Red Wings,4,Campbell,Norris,,,,true,0,false,false
+86,231,31,Minnesota North Stars,4,Campbell,Norris,,,,true,1,false,false
+108,231,59,Toronto Maple Leafs,4,Campbell,Norris,LAST,LAST,LAST,false,,,
+88,231,17,Edmonton Oilers,4,Campbell,Smythe,,FIRST,FIRST,true,4,true,true
+77,231,64,Winnipeg Jets,4,Campbell,Smythe,,,,true,1,false,false
+80,231,7,Calgary Flames,4,Campbell,Smythe,,,,true,0,false,false
+90,231,27,Los Angeles Kings,4,Campbell,Smythe,,,,true,0,false,false
+109,231,62,Vancouver Canucks,4,Campbell,Smythe,,,LAST,false,,,
+92,231,32,Montreal Canadiens,4,Prince of Wales,Adams,,,FIRST,true,1,false,false
+84,231,45,Quebec Nordiques,4,Prince of Wales,Adams,,,,true,2,false,false
+79,231,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,0,false,false
+78,231,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,0,false,false
+82,231,21,Hartford Whalers,4,Prince of Wales,Adams,,,LAST,false,,,
+101,231,39,Philadelphia Flyers,4,Prince of Wales,Patrick,FIRST,FIRST,FIRST,true,3,true,false
+111,231,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,0,false,false
+97,231,35,New York Islanders,4,Prince of Wales,Patrick,,,,true,1,false,false
+98,231,35,New York Rangers,4,Prince of Wales,Patrick,,,,true,0,false,false
+95,231,35,New Jersey Devils,4,Prince of Wales,Patrick,,,,false,,,
+102,231,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,,LAST,LAST,false,,,
+83,235,9,Chicago Black Hawks,4,Campbell,Norris,,,FIRST,true,0,false,false
+86,235,31,Minnesota North Stars,4,Campbell,Norris,,,,true,0,false,false
+106,235,56,St. Louis Blues,4,Campbell,Norris,,,,true,2,false,false
+108,235,59,Toronto Maple Leafs,4,Campbell,Norris,,,,true,1,false,false
+87,235,16,Detroit Red Wings,4,Campbell,Norris,LAST,LAST,LAST,false,,,
+88,235,17,Edmonton Oilers,4,Campbell,Smythe,FIRST,FIRST,FIRST,true,1,false,false
+80,235,7,Calgary Flames,4,Campbell,Smythe,,,,true,3,true,false
+77,235,64,Winnipeg Jets,4,Campbell,Smythe,,,,true,0,false,false
+109,235,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,0,false,false
+90,235,27,Los Angeles Kings,4,Campbell,Smythe,,,LAST,false,,,
+84,235,45,Quebec Nordiques,4,Prince of Wales,Adams,,,FIRST,true,0,false,false
+92,235,32,Montreal Canadiens,4,Prince of Wales,Adams,,,,true,4,true,true
+78,235,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,0,false,false
+82,235,21,Hartford Whalers,4,Prince of Wales,Adams,,,,true,1,false,false
+79,235,6,Buffalo Sabres,4,Prince of Wales,Adams,,,LAST,false,,,
+101,235,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,FIRST,FIRST,true,0,false,false
+111,235,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,1,false,false
+97,235,35,New York Islanders,4,Prince of Wales,Patrick,,,,true,0,false,false
+98,235,35,New York Rangers,4,Prince of Wales,Patrick,,,,true,2,false,false
+102,235,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,,,,false,,,
+95,235,35,New Jersey Devils,4,Prince of Wales,Patrick,,LAST,LAST,false,,,
+106,239,56,St. Louis Blues,4,Campbell,Norris,,,FIRST,true,0,false,false
+87,239,16,Detroit Red Wings,4,Campbell,Norris,,,,true,2,false,false
+83,239,9,Chicago Blackhawks,4,Campbell,Norris,,,,true,0,false,false
+108,239,59,Toronto Maple Leafs,4,Campbell,Norris,,,LAST_TIED,true,1,false,false
+86,239,31,Minnesota North Stars,4,Campbell,Norris,,,LAST_TIED,false,,,
+88,239,17,Edmonton Oilers,4,Campbell,Smythe,FIRST,FIRST,FIRST,true,4,true,true
+80,239,7,Calgary Flames,4,Campbell,Smythe,,,,true,0,false,false
+77,239,64,Winnipeg Jets,4,Campbell,Smythe,,,,true,1,false,false
+90,239,27,Los Angeles Kings,4,Campbell,Smythe,,,,true,0,false,false
+109,239,62,Vancouver Canucks,4,Campbell,Smythe,,LAST,LAST,false,,,
+82,239,21,Hartford Whalers,4,Prince of Wales,Adams,,,FIRST,true,0,false,false
+92,239,32,Montreal Canadiens,4,Prince of Wales,Adams,,,,true,2,false,false
+78,239,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,0,false,false
+84,239,45,Quebec Nordiques,4,Prince of Wales,Adams,,,,true,1,false,false
+79,239,6,Buffalo Sabres,4,Prince of Wales,Adams,LAST_TIED,LAST_TIED,LAST,false,,,
+101,239,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,FIRST,FIRST,true,3,true,false
+111,239,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,0,false,false
+97,239,35,New York Islanders,4,Prince of Wales,Patrick,,,,true,1,false,false
+98,239,35,New York Rangers,4,Prince of Wales,Patrick,,,,true,0,false,false
+102,239,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,,,,false,,,
+95,239,35,New Jersey Devils,4,Prince of Wales,Patrick,LAST_TIED,LAST_TIED,LAST,false,,,
+87,243,16,Detroit Red Wings,4,Campbell,Norris,,,FIRST,true,2,false,false
+106,243,56,St. Louis Blues,4,Campbell,Norris,,,,true,1,false,false
+83,243,9,Chicago Blackhawks,4,Campbell,Norris,,,,true,0,false,false
+108,243,59,Toronto Maple Leafs,4,Campbell,Norris,,,,true,0,false,false
+86,243,31,Minnesota North Stars,4,Campbell,Norris,LAST,LAST,LAST,false,,,
+80,243,7,Calgary Flames,4,Campbell,Smythe,FIRST,FIRST,FIRST,true,1,false,false
+88,243,17,Edmonton Oilers,4,Campbell,Smythe,,,,true,4,true,true
+77,243,64,Winnipeg Jets,4,Campbell,Smythe,,,,true,0,false,false
+90,243,27,Los Angeles Kings,4,Campbell,Smythe,,,,true,0,false,false
+109,243,62,Vancouver Canucks,4,Campbell,Smythe,,,LAST,false,,,
+92,243,32,Montreal Canadiens,4,Prince of Wales,Adams,,FIRST,FIRST,true,1,false,false
+78,243,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,3,true,false
+79,243,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,0,false,false
+82,243,21,Hartford Whalers,4,Prince of Wales,Adams,,,,true,0,false,false
+84,243,45,Quebec Nordiques,4,Prince of Wales,Adams,,LAST,LAST,false,,,
+97,243,35,New York Islanders,4,Prince of Wales,Patrick,,,FIRST,true,0,false,false
+111,243,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,1,false,false
+101,243,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,,,true,0,false,false
+95,243,35,New Jersey Devils,4,Prince of Wales,Patrick,,,,true,2,false,false
+98,243,35,New York Rangers,4,Prince of Wales,Patrick,,,,false,,,
+102,243,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,,,LAST,false,,,
+87,247,16,Detroit Red Wings,4,Campbell,Norris,,,FIRST,true,0,false,false
+106,247,56,St. Louis Blues,4,Campbell,Norris,,,,true,1,false,false
+86,247,31,Minnesota North Stars,4,Campbell,Norris,,,,true,0,false,false
+83,247,9,Chicago Blackhawks,4,Campbell,Norris,,,,true,2,false,false
+108,247,59,Toronto Maple Leafs,4,Campbell,Norris,,LAST,LAST,false,,,
+80,247,7,Calgary Flames,4,Campbell,Smythe,FIRST,FIRST,FIRST,true,4,true,true
+90,247,27,Los Angeles Kings,4,Campbell,Smythe,,,,true,1,false,false
+88,247,17,Edmonton Oilers,4,Campbell,Smythe,,,,true,0,false,false
+109,247,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,0,false,false
+77,247,64,Winnipeg Jets,4,Campbell,Smythe,,,LAST,false,,,
+92,247,32,Montreal Canadiens,4,Prince of Wales,Adams,,FIRST,FIRST,true,3,true,false
+78,247,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,1,false,false
+79,247,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,0,false,false
+82,247,21,Hartford Whalers,4,Prince of Wales,Adams,,,,true,0,false,false
+84,247,45,Quebec Nordiques,4,Prince of Wales,Adams,LAST_TIED,LAST_TIED,LAST,false,,,
+111,247,63,Washington Capitals,4,Prince of Wales,Patrick,,,FIRST,true,0,false,false
+102,247,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,,,,true,1,false,false
+98,247,35,New York Rangers,4,Prince of Wales,Patrick,,,,true,0,false,false
+101,247,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,,,true,2,false,false
+95,247,35,New Jersey Devils,4,Prince of Wales,Patrick,,,,false,,,
+97,247,35,New York Islanders,4,Prince of Wales,Patrick,LAST_TIED,LAST_TIED,LAST,false,,,
+83,251,9,Chicago Blackhawks,4,Campbell,Norris,,,FIRST,true,2,false,false
+106,251,56,St. Louis Blues,4,Campbell,Norris,,,,true,1,false,false
+108,251,59,Toronto Maple Leafs,4,Campbell,Norris,,,,true,0,false,false
+86,251,31,Minnesota North Stars,4,Campbell,Norris,,,,true,0,false,false
+87,251,16,Detroit Red Wings,4,Campbell,Norris,,,LAST,false,,,
+80,251,7,Calgary Flames,4,Campbell,Smythe,,FIRST,FIRST,true,0,false,false
+88,251,17,Edmonton Oilers,4,Campbell,Smythe,,,,true,4,true,true
+77,251,64,Winnipeg Jets,4,Campbell,Smythe,,,,true,0,false,false
+90,251,27,Los Angeles Kings,4,Campbell,Smythe,,,,true,1,false,false
+109,251,62,Vancouver Canucks,4,Campbell,Smythe,,LAST,LAST,false,,,
+78,251,5,Boston Bruins,4,Prince of Wales,Adams,FIRST,FIRST,FIRST,true,3,true,false
+79,251,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,0,false,false
+92,251,32,Montreal Canadiens,4,Prince of Wales,Adams,,,,true,1,false,false
+82,251,21,Hartford Whalers,4,Prince of Wales,Adams,,,,true,0,false,false
+84,251,45,Quebec Nordiques,4,Prince of Wales,Adams,LAST,LAST,LAST,false,,,
+98,251,35,New York Rangers,4,Prince of Wales,Patrick,,,FIRST,true,1,false,false
+95,251,35,New Jersey Devils,4,Prince of Wales,Patrick,,,,true,0,false,false
+111,251,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,2,false,false
+97,251,35,New York Islanders,4,Prince of Wales,Patrick,,,,true,0,false,false
+102,251,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,,,,false,,,
+101,251,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,,LAST,false,,,
+83,255,9,Chicago Blackhawks,4,Campbell,Norris,FIRST,FIRST,FIRST,true,0,false,false
+106,255,56,St. Louis Blues,4,Campbell,Norris,,,,true,1,false,false
+87,255,16,Detroit Red Wings,4,Campbell,Norris,,,,true,0,false,false
+86,255,31,Minnesota North Stars,4,Campbell,Norris,,,,true,3,true,false
+108,255,59,Toronto Maple Leafs,4,Campbell,Norris,,LAST,LAST,false,,,
+90,255,27,Los Angeles Kings,4,Campbell,Smythe,,,FIRST,true,1,false,false
+80,255,7,Calgary Flames,4,Campbell,Smythe,,,,true,0,false,false
+88,255,17,Edmonton Oilers,4,Campbell,Smythe,,,,true,2,false,false
+109,255,62,Vancouver Canucks,4,Campbell,Smythe,,,,true,0,false,false
+77,255,64,Winnipeg Jets,4,Campbell,Smythe,,,LAST,false,,,
+78,255,5,Boston Bruins,4,Prince of Wales,Adams,,FIRST,FIRST,true,2,false,false
+92,255,32,Montreal Canadiens,4,Prince of Wales,Adams,,,,true,1,false,false
+79,255,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,0,false,false
+82,255,21,Hartford Whalers,4,Prince of Wales,Adams,,,,true,0,false,false
+84,255,45,Quebec Nordiques,4,Prince of Wales,Adams,LAST,LAST,LAST,false,,,
+102,255,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,,,FIRST,true,4,true,true
+98,255,35,New York Rangers,4,Prince of Wales,Patrick,,,,true,0,false,false
+111,255,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,1,false,false
+95,255,35,New Jersey Devils,4,Prince of Wales,Patrick,,,,true,0,false,false
+101,255,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,,,false,,,
+97,255,35,New York Islanders,4,Prince of Wales,Patrick,,,LAST,false,,,
+87,259,16,Detroit Red Wings,4,Campbell,Norris,,FIRST,FIRST,true,1,false,false
+83,259,9,Chicago Blackhawks,4,Campbell,Norris,,,,true,3,true,false
+106,259,56,St. Louis Blues,4,Campbell,Norris,,,,true,0,false,false
+86,259,31,Minnesota North Stars,4,Campbell,Norris,,,,true,0,false,false
+108,259,59,Toronto Maple Leafs,4,Campbell,Norris,,,LAST,false,,,
+109,259,62,Vancouver Canucks,4,Campbell,Smythe,,,FIRST,true,1,false,false
+90,259,27,Los Angeles Kings,4,Campbell,Smythe,,,,true,0,false,false
+88,259,17,Edmonton Oilers,4,Campbell,Smythe,,,,true,2,false,false
+77,259,64,Winnipeg Jets,4,Campbell,Smythe,,,,true,0,false,false
+80,259,7,Calgary Flames,4,Campbell,Smythe,,,,false,,,
+104,259,52,San Jose Sharks,4,Campbell,Smythe,LAST,LAST,LAST,false,,,
+92,259,32,Montreal Canadiens,4,Prince of Wales,Adams,,,FIRST,true,1,false,false
+78,259,5,Boston Bruins,4,Prince of Wales,Adams,,,,true,2,false,false
+79,259,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,0,false,false
+82,259,21,Hartford Whalers,4,Prince of Wales,Adams,,,,true,0,false,false
+84,259,45,Quebec Nordiques,4,Prince of Wales,Adams,,LAST,LAST,false,,,
+98,259,35,New York Rangers,4,Prince of Wales,Patrick,FIRST,FIRST,FIRST,true,1,false,false
+111,259,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,0,false,false
+102,259,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,,,,true,4,true,true
+95,259,35,New Jersey Devils,4,Prince of Wales,Patrick,,,,true,0,false,false
+97,259,35,New York Islanders,4,Prince of Wales,Patrick,,,,false,,,
+101,259,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,,LAST,false,,,
+83,263,9,Chicago Blackhawks,4,Campbell,Norris,,FIRST,FIRST,true,0,false,false
+87,263,16,Detroit Red Wings,4,Campbell,Norris,,,,true,0,false,false
+108,263,59,Toronto Maple Leafs,4,Campbell,Norris,,,,true,2,false,false
+106,263,56,St. Louis Blues,4,Campbell,Norris,,,,true,1,false,false
+86,263,31,Minnesota North Stars,4,Campbell,Norris,,,,false,,,
+107,263,58,Tampa Bay Lightning,4,Campbell,Norris,,,LAST,false,,,
+109,263,62,Vancouver Canucks,4,Campbell,Smythe,,,FIRST,true,1,false,false
+80,263,7,Calgary Flames,4,Campbell,Smythe,,,,true,0,false,false
+90,263,27,Los Angeles Kings,4,Campbell,Smythe,,,,true,3,true,false
+77,263,64,Winnipeg Jets,4,Campbell,Smythe,,,,true,0,false,false
+88,263,17,Edmonton Oilers,4,Campbell,Smythe,,,,false,,,
+104,263,52,San Jose Sharks,4,Campbell,Smythe,LAST_TIED,LAST,LAST,false,,,
+78,263,5,Boston Bruins,4,Prince of Wales,Adams,,,FIRST,true,0,false,false
+84,263,45,Quebec Nordiques,4,Prince of Wales,Adams,,,,true,0,false,false
+92,263,32,Montreal Canadiens,4,Prince of Wales,Adams,,,,true,4,true,true
+79,263,6,Buffalo Sabres,4,Prince of Wales,Adams,,,,true,1,false,false
+82,263,21,Hartford Whalers,4,Prince of Wales,Adams,,,,false,,,
+100,263,38,Ottawa Senators,4,Prince of Wales,Adams,LAST_TIED,LAST,LAST,false,,,
+102,263,41,Pittsburgh Penguins,4,Prince of Wales,Patrick,FIRST,FIRST,FIRST,true,1,false,false
+111,263,63,Washington Capitals,4,Prince of Wales,Patrick,,,,true,0,false,false
+97,263,35,New York Islanders,4,Prince of Wales,Patrick,,,,true,2,false,false
+95,263,35,New Jersey Devils,4,Prince of Wales,Patrick,,,,true,0,false,false
+101,263,39,Philadelphia Flyers,4,Prince of Wales,Patrick,,,,false,,,
+98,263,35,New York Rangers,4,Prince of Wales,Patrick,,,LAST,false,,,
+98,267,35,New York Rangers,4,Eastern,Atlantic,FIRST,FIRST,FIRST,true,4,true,true
+95,267,35,New Jersey Devils,4,Eastern,Atlantic,,,,true,2,false,false
+111,267,63,Washington Capitals,4,Eastern,Atlantic,,,,true,1,false,false
+97,267,35,New York Islanders,4,Eastern,Atlantic,,,,true,0,false,false
+89,267,29,Florida Panthers,4,Eastern,Atlantic,,,,false,,,
+101,267,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,false,,,
+107,267,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,LAST,false,,,
+102,267,41,Pittsburgh Penguins,4,Eastern,Northeast,,,FIRST,true,0,false,false
+78,267,5,Boston Bruins,4,Eastern,Northeast,,,,true,1,false,false
+92,267,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,0,false,false
+79,267,6,Buffalo Sabres,4,Eastern,Northeast,,,,true,0,false,false
+84,267,45,Quebec Nordiques,4,Eastern,Northeast,,,,false,,,
+82,267,21,Hartford Whalers,4,Eastern,Northeast,,,,false,,,
+100,267,38,Ottawa Senators,4,Eastern,Northeast,LAST,LAST,LAST,false,,,
+87,267,16,Detroit Red Wings,4,Western,Central,,FIRST,FIRST,true,0,false,false
+108,267,59,Toronto Maple Leafs,4,Western,Central,,,,true,2,false,false
+86,267,13,Dallas Stars,4,Western,Central,,,,true,1,false,false
+106,267,56,St. Louis Blues,4,Western,Central,,,,true,0,false,false
+83,267,9,Chicago Blackhawks,4,Western,Central,,,,true,0,false,false
+77,267,64,Winnipeg Jets,4,Western,Central,,LAST,LAST,false,,,
+80,267,7,Calgary Flames,4,Western,Pacific,,,FIRST,true,0,false,false
+109,267,62,Vancouver Canucks,4,Western,Pacific,,,,true,3,true,false
+104,267,52,San Jose Sharks,4,Western,Pacific,,,,true,1,false,false
+76,267,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,,false,,,
+90,267,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+88,267,17,Edmonton Oilers,4,Western,Pacific,,,LAST,false,,,
+101,271,39,Philadelphia Flyers,4,Eastern,Atlantic,,,FIRST,true,2,false,false
+95,271,35,New Jersey Devils,4,Eastern,Atlantic,,,,true,4,true,true
+111,271,63,Washington Capitals,4,Eastern,Atlantic,,,,true,0,false,false
+98,271,35,New York Rangers,4,Eastern,Atlantic,,,,true,1,false,false
+89,271,29,Florida Panthers,4,Eastern,Atlantic,,,,false,,,
+107,271,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,false,,,
+97,271,35,New York Islanders,4,Eastern,Atlantic,,,LAST,false,,,
+84,271,45,Quebec Nordiques,4,Eastern,Northeast,,FIRST,FIRST,true,0,false,false
+102,271,41,Pittsburgh Penguins,4,Eastern,Northeast,,,,true,1,false,false
+78,271,5,Boston Bruins,4,Eastern,Northeast,,,,true,0,false,false
+79,271,6,Buffalo Sabres,4,Eastern,Northeast,,,,true,0,false,false
+82,271,21,Hartford Whalers,4,Eastern,Northeast,,,,false,,,
+92,271,32,Montreal Canadiens,4,Eastern,Northeast,,,,false,,,
+100,271,38,Ottawa Senators,4,Eastern,Northeast,LAST,LAST,LAST,false,,,
+87,271,16,Detroit Red Wings,4,Western,Central,FIRST,FIRST,FIRST,true,3,true,false
+106,271,56,St. Louis Blues,4,Western,Central,,,,true,0,false,false
+83,271,9,Chicago Blackhawks,4,Western,Central,,,,true,2,false,false
+108,271,59,Toronto Maple Leafs,4,Western,Central,,,,true,0,false,false
+86,271,13,Dallas Stars,4,Western,Central,,,,true,0,false,false
+77,271,64,Winnipeg Jets,4,Western,Central,,,LAST,false,,,
+80,271,7,Calgary Flames,4,Western,Pacific,,,FIRST,true,0,false,false
+109,271,62,Vancouver Canucks,4,Western,Pacific,,,,true,1,false,false
+104,271,52,San Jose Sharks,4,Western,Pacific,,,,true,1,false,false
+90,271,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+88,271,17,Edmonton Oilers,4,Western,Pacific,,,,false,,,
+76,271,27,Mighty Ducks of Anaheim,4,Western,Pacific,,LAST,LAST,false,,,
+101,275,39,Philadelphia Flyers,4,Eastern,Atlantic,,FIRST,FIRST,true,1,false,false
+98,275,35,New York Rangers,4,Eastern,Atlantic,,,,true,1,false,false
+89,275,29,Florida Panthers,4,Eastern,Atlantic,,,,true,3,true,false
+111,275,63,Washington Capitals,4,Eastern,Atlantic,,,,true,0,false,false
+107,275,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,0,false,false
+95,275,35,New Jersey Devils,4,Eastern,Atlantic,,,,false,,,
+97,275,35,New York Islanders,4,Eastern,Atlantic,,,LAST,false,,,
+102,275,41,Pittsburgh Penguins,4,Eastern,Northeast,,,FIRST,true,2,false,false
+78,275,5,Boston Bruins,4,Eastern,Northeast,,,,true,0,false,false
+92,275,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,0,false,false
+82,275,21,Hartford Whalers,4,Eastern,Northeast,,,,false,,,
+79,275,6,Buffalo Sabres,4,Eastern,Northeast,,,,false,,,
+100,275,38,Ottawa Senators,4,Eastern,Northeast,LAST,LAST,LAST,false,,,
+87,275,16,Detroit Red Wings,4,Western,Central,FIRST,FIRST,FIRST,true,2,false,false
+83,275,9,Chicago Blackhawks,4,Western,Central,,,,true,1,false,false
+108,275,59,Toronto Maple Leafs,4,Western,Central,,,,true,0,false,false
+106,275,56,St. Louis Blues,4,Western,Central,,,,true,1,false,false
+77,275,64,Winnipeg Jets,4,Western,Central,,,,true,0,false,false
+86,275,13,Dallas Stars,4,Western,Central,,,LAST,false,,,
+84,275,15,Colorado Avalanche,4,Western,Pacific,,,FIRST,true,4,true,true
+80,275,7,Calgary Flames,4,Western,Pacific,,,,true,0,false,false
+109,275,62,Vancouver Canucks,4,Western,Pacific,,,,true,0,false,false
+76,275,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,,false,,,
+88,275,17,Edmonton Oilers,4,Western,Pacific,,,,false,,,
+90,275,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+104,275,52,San Jose Sharks,4,Western,Pacific,,LAST,LAST,false,,,
+95,280,35,New Jersey Devils,4,Eastern,Atlantic,,FIRST,FIRST,true,1,false,false
+101,280,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,true,3,true,false
+89,280,29,Florida Panthers,4,Eastern,Atlantic,,,,true,0,false,false
+98,280,35,New York Rangers,4,Eastern,Atlantic,,,,true,2,false,false
+111,280,63,Washington Capitals,4,Eastern,Atlantic,,,,false,,,
+107,280,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,false,,,
+97,280,35,New York Islanders,4,Eastern,Atlantic,,,LAST,false,,,
+79,280,6,Buffalo Sabres,4,Eastern,Northeast,,,FIRST,true,1,false,false
+102,280,41,Pittsburgh Penguins,4,Eastern,Northeast,,,,true,0,false,false
+100,280,38,Ottawa Senators,4,Eastern,Northeast,,,,true,0,false,false
+92,280,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,0,false,false
+82,280,21,Hartford Whalers,4,Eastern,Northeast,,,,false,,,
+78,280,5,Boston Bruins,4,Eastern,Northeast,LAST,LAST,LAST,false,,,
+86,280,13,Dallas Stars,4,Western,Central,,,FIRST,true,0,false,false
+87,280,16,Detroit Red Wings,4,Western,Central,,,,true,4,true,true
+77,280,40,Phoenix Coyotes,4,Western,Central,,,,true,0,false,false
+106,280,56,St. Louis Blues,4,Western,Central,,,,true,0,false,false
+83,280,9,Chicago Blackhawks,4,Western,Central,,,,true,0,false,false
+108,280,59,Toronto Maple Leafs,4,Western,Central,,,LAST,false,,,
+84,280,15,Colorado Avalanche,4,Western,Pacific,FIRST,FIRST,FIRST,true,2,false,false
+76,280,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,,true,1,false,false
+88,280,17,Edmonton Oilers,4,Western,Pacific,,,,true,1,false,false
+109,280,62,Vancouver Canucks,4,Western,Pacific,,,,false,,,
+80,280,7,Calgary Flames,4,Western,Pacific,,,,false,,,
+90,280,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+104,280,52,San Jose Sharks,4,Western,Pacific,,LAST,LAST,false,,,
+95,286,35,New Jersey Devils,4,Eastern,Atlantic,,FIRST,FIRST,true,0,false,false
+101,286,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,true,0,false,false
+111,286,63,Washington Capitals,4,Eastern,Atlantic,,,,true,3,true,false
+97,286,35,New York Islanders,4,Eastern,Atlantic,,,,false,,,
+98,286,35,New York Rangers,4,Eastern,Atlantic,,,,false,,,
+89,286,29,Florida Panthers,4,Eastern,Atlantic,,,,false,,,
+107,286,58,Tampa Bay Lightning,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+102,286,41,Pittsburgh Penguins,4,Eastern,Northeast,,,FIRST,true,0,false,false
+78,286,5,Boston Bruins,4,Eastern,Northeast,,,,true,0,false,false
+79,286,6,Buffalo Sabres,4,Eastern,Northeast,,,,true,2,false,false
+92,286,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,1,false,false
+100,286,38,Ottawa Senators,4,Eastern,Northeast,,,,true,1,false,false
+82,286,46,Carolina Hurricanes,4,Eastern,Northeast,,,LAST,false,,,
+86,286,13,Dallas Stars,4,Western,Central,FIRST,FIRST,FIRST,true,2,false,false
+87,286,16,Detroit Red Wings,4,Western,Central,,,,true,4,true,true
+106,286,56,St. Louis Blues,4,Western,Central,,,,true,1,false,false
+77,286,40,Phoenix Coyotes,4,Western,Central,,,,true,0,false,false
+83,286,9,Chicago Blackhawks,4,Western,Central,,,,false,,,
+108,286,59,Toronto Maple Leafs,4,Western,Central,,,LAST,false,,,
+84,286,15,Colorado Avalanche,4,Western,Pacific,,,FIRST,true,0,false,false
+90,286,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+88,286,17,Edmonton Oilers,4,Western,Pacific,,,,true,1,false,false
+104,286,52,San Jose Sharks,4,Western,Pacific,,,,true,0,false,false
+80,286,7,Calgary Flames,4,Western,Pacific,,,,false,,,
+76,286,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,,false,,,
+109,286,62,Vancouver Canucks,4,Western,Pacific,,LAST,LAST,false,,,
+95,292,35,New Jersey Devils,4,Eastern,Atlantic,,FIRST,FIRST,true,0,false,false
+101,292,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,true,0,false,false
+102,292,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,,true,1,false,false
+98,292,35,New York Rangers,4,Eastern,Atlantic,,,,false,,,
+97,292,35,New York Islanders,4,Eastern,Atlantic,,,LAST,false,,,
+100,292,38,Ottawa Senators,4,Eastern,Northeast,,,FIRST,true,0,false,false
+108,292,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,true,2,false,false
+78,292,5,Boston Bruins,4,Eastern,Northeast,,,,true,1,false,false
+79,292,6,Buffalo Sabres,4,Eastern,Northeast,,,,true,3,true,false
+92,292,32,Montreal Canadiens,4,Eastern,Northeast,,,LAST,false,,,
+82,292,46,Carolina Hurricanes,4,Eastern,Southeast,,,FIRST,true,0,false,false
+89,292,29,Florida Panthers,4,Eastern,Southeast,,,,false,,,
+111,292,63,Washington Capitals,4,Eastern,Southeast,,,,false,,,
+107,292,58,Tampa Bay Lightning,4,Eastern,Southeast,LAST,LAST,LAST,false,,,
+87,292,16,Detroit Red Wings,4,Western,Central,,,FIRST,true,1,false,false
+106,292,56,St. Louis Blues,4,Western,Central,,,,true,1,false,false
+83,292,9,Chicago Blackhawks,4,Western,Central,,,,false,,,
+94,292,33,Nashville Predators,4,Western,Central,,,LAST,false,,,
+84,292,15,Colorado Avalanche,4,Western,Northwest,,,FIRST,true,2,false,false
+88,292,17,Edmonton Oilers,4,Western,Northwest,,,,true,0,false,false
+80,292,7,Calgary Flames,4,Western,Northwest,,,,false,,,
+109,292,62,Vancouver Canucks,4,Western,Northwest,,LAST,LAST,false,,,
+86,292,13,Dallas Stars,4,Western,Pacific,FIRST,FIRST,FIRST,true,4,true,true
+77,292,40,Phoenix Coyotes,4,Western,Pacific,,,,true,0,false,false
+76,292,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,,true,0,false,false
+104,292,52,San Jose Sharks,4,Western,Pacific,,,,true,0,false,false
+90,292,27,Los Angeles Kings,4,Western,Pacific,,,LAST,false,,,
+101,298,39,Philadelphia Flyers,4,Eastern,Atlantic,,FIRST,FIRST,true,2,false,false
+95,298,35,New Jersey Devils,4,Eastern,Atlantic,,,,true,4,true,true
+102,298,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,,true,1,false,false
+98,298,35,New York Rangers,4,Eastern,Atlantic,,,,false,,,
+97,298,35,New York Islanders,4,Eastern,Atlantic,,,LAST,false,,,
+108,298,59,Toronto Maple Leafs,4,Eastern,Northeast,,,FIRST,true,1,false,false
+100,298,38,Ottawa Senators,4,Eastern,Northeast,,,,true,0,false,false
+79,298,6,Buffalo Sabres,4,Eastern,Northeast,,,,true,0,false,false
+92,298,32,Montreal Canadiens,4,Eastern,Northeast,,,,false,,,
+78,298,5,Boston Bruins,4,Eastern,Northeast,,,LAST,false,,,
+111,298,63,Washington Capitals,4,Eastern,Southeast,,,FIRST,true,0,false,false
+89,298,29,Florida Panthers,4,Eastern,Southeast,,,,true,0,false,false
+82,298,46,Carolina Hurricanes,4,Eastern,Southeast,,,,false,,,
+107,298,58,Tampa Bay Lightning,4,Eastern,Southeast,,,,false,,,
+112,298,2,Atlanta Thrashers,4,Eastern,Southeast,LAST,LAST,LAST,false,,,
+106,298,56,St. Louis Blues,4,Western,Central,FIRST,FIRST,FIRST,true,0,false,false
+87,298,16,Detroit Red Wings,4,Western,Central,,,,true,1,false,false
+83,298,9,Chicago Blackhawks,4,Western,Central,,,,false,,,
+94,298,33,Nashville Predators,4,Western,Central,,LAST,LAST,false,,,
+84,298,15,Colorado Avalanche,4,Western,Northwest,,,FIRST,true,2,false,false
+88,298,17,Edmonton Oilers,4,Western,Northwest,,,,true,0,false,false
+109,298,62,Vancouver Canucks,4,Western,Northwest,,,,false,,,
+80,298,7,Calgary Flames,4,Western,Northwest,,,LAST,false,,,
+86,298,13,Dallas Stars,4,Western,Pacific,,,FIRST,true,3,true,false
+90,298,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+77,298,40,Phoenix Coyotes,4,Western,Pacific,,,,true,0,false,false
+104,298,52,San Jose Sharks,4,Western,Pacific,,,,true,1,false,false
+76,298,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,LAST,false,,,
+95,304,35,New Jersey Devils,4,Eastern,Atlantic,,FIRST,FIRST,true,3,true,false
+101,304,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,true,0,false,false
+102,304,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,,true,2,false,false
+98,304,35,New York Rangers,4,Eastern,Atlantic,,,,false,,,
+97,304,35,New York Islanders,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+100,304,38,Ottawa Senators,4,Eastern,Northeast,,,FIRST,true,0,false,false
+79,304,6,Buffalo Sabres,4,Eastern,Northeast,,,,true,1,false,false
+108,304,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,true,1,false,false
+78,304,5,Boston Bruins,4,Eastern,Northeast,,,,false,,,
+92,304,32,Montreal Canadiens,4,Eastern,Northeast,,,LAST,false,,,
+111,304,63,Washington Capitals,4,Eastern,Southeast,,,FIRST,true,0,false,false
+82,304,46,Carolina Hurricanes,4,Eastern,Southeast,,,,true,0,false,false
+89,304,29,Florida Panthers,4,Eastern,Southeast,,,,false,,,
+112,304,2,Atlanta Thrashers,4,Eastern,Southeast,,,,false,,,
+107,304,58,Tampa Bay Lightning,4,Eastern,Southeast,,,LAST,false,,,
+87,304,16,Detroit Red Wings,4,Western,Central,,,FIRST,true,0,false,false
+106,304,56,St. Louis Blues,4,Western,Central,,,,true,2,false,false
+94,304,33,Nashville Predators,4,Western,Central,,,,false,,,
+83,304,9,Chicago Blackhawks,4,Western,Central,,,LAST_TIED,false,,,
+85,304,12,Columbus Blue Jackets,4,Western,Central,,,LAST_TIED,false,,,
+84,304,15,Colorado Avalanche,4,Western,Northwest,FIRST,FIRST,FIRST,true,4,true,true
+88,304,17,Edmonton Oilers,4,Western,Northwest,,,,true,0,false,false
+109,304,62,Vancouver Canucks,4,Western,Northwest,,,,true,0,false,false
+80,304,7,Calgary Flames,4,Western,Northwest,,,,false,,,
+91,304,31,Minnesota Wild,4,Western,Northwest,,,LAST,false,,,
+86,304,13,Dallas Stars,4,Western,Pacific,,,FIRST,true,1,false,false
+104,304,52,San Jose Sharks,4,Western,Pacific,,,,true,0,false,false
+90,304,27,Los Angeles Kings,4,Western,Pacific,,,,true,1,false,false
+77,304,40,Phoenix Coyotes,4,Western,Pacific,,,,false,,,
+76,304,27,Mighty Ducks of Anaheim,4,Western,Pacific,,LAST,LAST,false,,,
+101,310,39,Philadelphia Flyers,4,Eastern,Atlantic,,,FIRST,true,0,false,false
+97,310,35,New York Islanders,4,Eastern,Atlantic,,,,true,0,false,false
+95,310,35,New Jersey Devils,4,Eastern,Atlantic,,,,true,0,false,false
+98,310,35,New York Rangers,4,Eastern,Atlantic,,,,false,,,
+102,310,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,LAST,false,,,
+78,310,5,Boston Bruins,4,Eastern,Northeast,,FIRST,FIRST,true,0,false,false
+108,310,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,true,2,false,false
+100,310,38,Ottawa Senators,4,Eastern,Northeast,,,,true,1,false,false
+92,310,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,1,false,false
+79,310,6,Buffalo Sabres,4,Eastern,Northeast,,,LAST,false,,,
+82,310,46,Carolina Hurricanes,4,Eastern,Southeast,,,FIRST,true,3,true,false
+111,310,63,Washington Capitals,4,Eastern,Southeast,,,,false,,,
+107,310,58,Tampa Bay Lightning,4,Eastern,Southeast,,,,false,,,
+89,310,29,Florida Panthers,4,Eastern,Southeast,,,,false,,,
+112,310,2,Atlanta Thrashers,4,Eastern,Southeast,LAST,LAST,LAST,false,,,
+87,310,16,Detroit Red Wings,4,Western,Central,FIRST,FIRST,FIRST,true,4,true,true
+106,310,56,St. Louis Blues,4,Western,Central,,,,true,1,false,false
+83,310,9,Chicago Blackhawks,4,Western,Central,,,,true,0,false,false
+94,310,33,Nashville Predators,4,Western,Central,,,,false,,,
+85,310,12,Columbus Blue Jackets,4,Western,Central,,LAST,LAST,false,,,
+84,310,15,Colorado Avalanche,4,Western,Northwest,,,FIRST,true,2,false,false
+109,310,62,Vancouver Canucks,4,Western,Northwest,,,,true,0,false,false
+88,310,17,Edmonton Oilers,4,Western,Northwest,,,,false,,,
+80,310,7,Calgary Flames,4,Western,Northwest,,,,false,,,
+91,310,31,Minnesota Wild,4,Western,Northwest,,,LAST,false,,,
+104,310,52,San Jose Sharks,4,Western,Pacific,,,FIRST,true,1,false,false
+77,310,40,Phoenix Coyotes,4,Western,Pacific,,,,true,0,false,false
+90,310,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+86,310,13,Dallas Stars,4,Western,Pacific,,,,false,,,
+76,310,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,LAST,false,,,
+95,316,35,New Jersey Devils,4,Eastern,Atlantic,,,FIRST,true,4,true,true
+101,316,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,true,1,false,false
+97,316,35,New York Islanders,4,Eastern,Atlantic,,,,true,0,false,false
+98,316,35,New York Rangers,4,Eastern,Atlantic,,,,false,,,
+102,316,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,LAST,false,,,
+100,316,38,Ottawa Senators,4,Eastern,Northeast,FIRST,FIRST,FIRST,true,2,false,false
+108,316,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,true,0,false,false
+78,316,5,Boston Bruins,4,Eastern,Northeast,,,,true,0,false,false
+92,316,32,Montreal Canadiens,4,Eastern,Northeast,,,,false,,,
+79,316,6,Buffalo Sabres,4,Eastern,Northeast,,,LAST,false,,,
+107,316,58,Tampa Bay Lightning,4,Eastern,Southeast,,,FIRST,true,1,false,false
+111,316,63,Washington Capitals,4,Eastern,Southeast,,,,true,0,false,false
+112,316,2,Atlanta Thrashers,4,Eastern,Southeast,,,,false,,,
+89,316,29,Florida Panthers,4,Eastern,Southeast,,,,false,,,
+82,316,46,Carolina Hurricanes,4,Eastern,Southeast,LAST,LAST,LAST,false,,,
+87,316,16,Detroit Red Wings,4,Western,Central,,,FIRST,true,0,false,false
+106,316,56,St. Louis Blues,4,Western,Central,,,,true,0,false,false
+83,316,9,Chicago Blackhawks,4,Western,Central,,,,false,,,
+94,316,33,Nashville Predators,4,Western,Central,,,,false,,,
+85,316,12,Columbus Blue Jackets,4,Western,Central,,LAST,LAST,false,,,
+84,316,15,Colorado Avalanche,4,Western,Northwest,,,FIRST,true,0,false,false
+109,316,62,Vancouver Canucks,4,Western,Northwest,,,,true,1,false,false
+91,316,31,Minnesota Wild,4,Western,Northwest,,,,true,2,false,false
+88,316,17,Edmonton Oilers,4,Western,Northwest,,,,true,0,false,false
+80,316,7,Calgary Flames,4,Western,Northwest,,,LAST,false,,,
+86,316,13,Dallas Stars,4,Western,Pacific,,FIRST,FIRST,true,1,false,false
+76,316,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,,true,3,true,false
+90,316,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+77,316,40,Phoenix Coyotes,4,Western,Pacific,,,,false,,,
+104,316,52,San Jose Sharks,4,Western,Pacific,,,LAST,false,,,
+101,322,39,Philadelphia Flyers,4,Eastern,Atlantic,,,FIRST,true,2,false,false
+95,322,35,New Jersey Devils,4,Eastern,Atlantic,,,,true,0,false,false
+97,322,35,New York Islanders,4,Eastern,Atlantic,,,,true,0,false,false
+98,322,35,New York Rangers,4,Eastern,Atlantic,,,,false,,,
+102,322,41,Pittsburgh Penguins,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+78,322,5,Boston Bruins,4,Eastern,Northeast,,,FIRST,true,0,false,false
+108,322,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,true,1,false,false
+100,322,38,Ottawa Senators,4,Eastern,Northeast,,,,true,0,false,false
+92,322,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,1,false,false
+79,322,6,Buffalo Sabres,4,Eastern,Northeast,,,LAST,false,,,
+107,322,58,Tampa Bay Lightning,4,Eastern,Southeast,,FIRST,FIRST,true,4,true,true
+112,322,2,Atlanta Thrashers,4,Eastern,Southeast,,,,false,,,
+82,322,46,Carolina Hurricanes,4,Eastern,Southeast,,,,false,,,
+89,322,29,Florida Panthers,4,Eastern,Southeast,,,,false,,,
+111,322,63,Washington Capitals,4,Eastern,Southeast,,,LAST,false,,,
+87,322,16,Detroit Red Wings,4,Western,Central,FIRST,FIRST,FIRST,true,1,false,false
+106,322,56,St. Louis Blues,4,Western,Central,,,,true,0,false,false
+94,322,33,Nashville Predators,4,Western,Central,,,,true,0,false,false
+85,322,12,Columbus Blue Jackets,4,Western,Central,,,,false,,,
+83,322,9,Chicago Blackhawks,4,Western,Central,,LAST,LAST,false,,,
+109,322,62,Vancouver Canucks,4,Western,Northwest,,,FIRST,true,0,false,false
+84,322,15,Colorado Avalanche,4,Western,Northwest,,,,true,1,false,false
+80,322,7,Calgary Flames,4,Western,Northwest,,,,true,3,true,false
+88,322,17,Edmonton Oilers,4,Western,Northwest,,,,false,,,
+91,322,31,Minnesota Wild,4,Western,Northwest,,,LAST,false,,,
+104,322,52,San Jose Sharks,4,Western,Pacific,,,FIRST,true,2,false,false
+86,322,13,Dallas Stars,4,Western,Pacific,,,,true,0,false,false
+90,322,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+76,322,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,,false,,,
+77,322,40,Phoenix Coyotes,4,Western,Pacific,,,LAST,false,,,
+95,333,35,New Jersey Devils,4,Eastern,Atlantic,,,FIRST_TIED,true,1,false,false
+101,333,39,Philadelphia Flyers,4,Eastern,Atlantic,,,FIRST_TIED,true,0,false,false
+98,333,35,New York Rangers,4,Eastern,Atlantic,,,,true,0,false,false
+97,333,35,New York Islanders,4,Eastern,Atlantic,,,,false,,,
+102,333,41,Pittsburgh Penguins,4,Eastern,Atlantic,,LAST,LAST,false,,,
+100,333,38,Ottawa Senators,4,Eastern,Northeast,,FIRST,FIRST,true,1,false,false
+79,333,6,Buffalo Sabres,4,Eastern,Northeast,,,,true,2,false,false
+92,333,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,0,false,false
+108,333,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,false,,,
+78,333,5,Boston Bruins,4,Eastern,Northeast,,,LAST,false,,,
+82,333,46,Carolina Hurricanes,4,Eastern,Southeast,,,FIRST,true,4,true,true
+107,333,58,Tampa Bay Lightning,4,Eastern,Southeast,,,,true,0,false,false
+112,333,2,Atlanta Thrashers,4,Eastern,Southeast,,,,false,,,
+89,333,29,Florida Panthers,4,Eastern,Southeast,,,,false,,,
+111,333,63,Washington Capitals,4,Eastern,Southeast,,,LAST,false,,,
+87,333,16,Detroit Red Wings,4,Western,Central,FIRST,FIRST,FIRST,true,0,false,false
+94,333,33,Nashville Predators,4,Western,Central,,,,true,0,false,false
+85,333,12,Columbus Blue Jackets,4,Western,Central,,,,false,,,
+83,333,9,Chicago Blackhawks,4,Western,Central,,,,false,,,
+106,333,56,St. Louis Blues,4,Western,Central,LAST,LAST,LAST,false,,,
+80,333,7,Calgary Flames,4,Western,Northwest,,,FIRST,true,0,false,false
+84,333,15,Colorado Avalanche,4,Western,Northwest,,,,true,1,false,false
+88,333,17,Edmonton Oilers,4,Western,Northwest,,,,true,3,true,false
+109,333,62,Vancouver Canucks,4,Western,Northwest,,,,false,,,
+91,333,31,Minnesota Wild,4,Western,Northwest,,,LAST,false,,,
+86,333,13,Dallas Stars,4,Western,Pacific,,,FIRST,true,0,false,false
+104,333,52,San Jose Sharks,4,Western,Pacific,,,,true,1,false,false
+76,333,27,Mighty Ducks of Anaheim,4,Western,Pacific,,,,true,2,false,false
+90,333,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+77,333,40,Phoenix Coyotes,4,Western,Pacific,,,LAST,false,,,
+95,339,35,New Jersey Devils,4,Eastern,Atlantic,,,FIRST,true,1,false,false
+102,339,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,,true,0,false,false
+98,339,35,New York Rangers,4,Eastern,Atlantic,,,,true,1,false,false
+97,339,35,New York Islanders,4,Eastern,Atlantic,,,,true,0,false,false
+101,339,39,Philadelphia Flyers,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+79,339,6,Buffalo Sabres,4,Eastern,Northeast,FIRST_TIED,FIRST,FIRST,true,2,false,false
+100,339,38,Ottawa Senators,4,Eastern,Northeast,,,,true,3,true,false
+108,339,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,false,,,
+92,339,32,Montreal Canadiens,4,Eastern,Northeast,,,,false,,,
+78,339,5,Boston Bruins,4,Eastern,Northeast,,,LAST,false,,,
+112,339,2,Atlanta Thrashers,4,Eastern,Southeast,,,FIRST,true,0,false,false
+107,339,58,Tampa Bay Lightning,4,Eastern,Southeast,,,,true,0,false,false
+82,339,46,Carolina Hurricanes,4,Eastern,Southeast,,,,false,,,
+89,339,29,Florida Panthers,4,Eastern,Southeast,,,,false,,,
+111,339,63,Washington Capitals,4,Eastern,Southeast,,,LAST,false,,,
+87,339,16,Detroit Red Wings,4,Western,Central,FIRST_TIED,FIRST,FIRST,true,2,false,false
+94,339,33,Nashville Predators,4,Western,Central,,,,true,0,false,false
+106,339,56,St. Louis Blues,4,Western,Central,,,,false,,,
+85,339,12,Columbus Blue Jackets,4,Western,Central,,,,false,,,
+83,339,9,Chicago Blackhawks,4,Western,Central,,,LAST,false,,,
+109,339,62,Vancouver Canucks,4,Western,Northwest,,,FIRST,true,1,false,false
+91,339,31,Minnesota Wild,4,Western,Northwest,,,,true,0,false,false
+80,339,7,Calgary Flames,4,Western,Northwest,,,,true,0,false,false
+84,339,15,Colorado Avalanche,4,Western,Northwest,,,,false,,,
+88,339,17,Edmonton Oilers,4,Western,Northwest,,,LAST,false,,,
+76,339,27,Anaheim Ducks,4,Western,Pacific,,,FIRST,true,4,true,true
+104,339,52,San Jose Sharks,4,Western,Pacific,,,,true,1,false,false
+86,339,13,Dallas Stars,4,Western,Pacific,,,,true,0,false,false
+90,339,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+77,339,40,Phoenix Coyotes,4,Western,Pacific,,LAST,LAST,false,,,
+102,345,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,FIRST,true,3,true,false
+95,345,35,New Jersey Devils,4,Eastern,Atlantic,,,,true,0,false,false
+98,345,35,New York Rangers,4,Eastern,Atlantic,,,,true,1,false,false
+101,345,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,true,2,false,false
+97,345,35,New York Islanders,4,Eastern,Atlantic,,,LAST,false,,,
+92,345,32,Montreal Canadiens,4,Eastern,Northeast,,FIRST,FIRST,true,1,false,false
+100,345,38,Ottawa Senators,4,Eastern,Northeast,,,,true,0,false,false
+78,345,5,Boston Bruins,4,Eastern,Northeast,,,,true,0,false,false
+79,345,6,Buffalo Sabres,4,Eastern,Northeast,,,,false,,,
+108,345,59,Toronto Maple Leafs,4,Eastern,Northeast,,,LAST,false,,,
+111,345,63,Washington Capitals,4,Eastern,Southeast,,,FIRST,true,0,false,false
+82,345,46,Carolina Hurricanes,4,Eastern,Southeast,,,,false,,,
+89,345,29,Florida Panthers,4,Eastern,Southeast,,,,false,,,
+112,345,2,Atlanta Thrashers,4,Eastern,Southeast,,,,false,,,
+107,345,58,Tampa Bay Lightning,4,Eastern,Southeast,LAST_TIED,LAST,LAST,false,,,
+87,345,16,Detroit Red Wings,4,Western,Central,FIRST,FIRST,FIRST,true,4,true,true
+94,345,33,Nashville Predators,4,Western,Central,,,,true,0,false,false
+83,345,9,Chicago Blackhawks,4,Western,Central,,,,false,,,
+85,345,12,Columbus Blue Jackets,4,Western,Central,,,,false,,,
+106,345,56,St. Louis Blues,4,Western,Central,,,LAST,false,,,
+91,345,31,Minnesota Wild,4,Western,Northwest,,,FIRST,true,0,false,false
+84,345,15,Colorado Avalanche,4,Western,Northwest,,,,true,1,false,false
+80,345,7,Calgary Flames,4,Western,Northwest,,,,true,0,false,false
+88,345,17,Edmonton Oilers,4,Western,Northwest,,,LAST_TIED,false,,,
+109,345,62,Vancouver Canucks,4,Western,Northwest,,,LAST_TIED,false,,,
+104,345,52,San Jose Sharks,4,Western,Pacific,,,FIRST,true,1,false,false
+76,345,27,Anaheim Ducks,4,Western,Pacific,,,,true,0,false,false
+86,345,13,Dallas Stars,4,Western,Pacific,,,,true,2,false,false
+77,345,40,Phoenix Coyotes,4,Western,Pacific,,,,false,,,
+90,345,27,Los Angeles Kings,4,Western,Pacific,LAST_TIED,LAST,LAST,false,,,
+95,351,35,New Jersey Devils,4,Eastern,Atlantic,,,FIRST,true,0,false,false
+102,351,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,,true,4,true,true
+101,351,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,true,0,false,false
+98,351,35,New York Rangers,4,Eastern,Atlantic,,,,true,0,false,false
+97,351,35,New York Islanders,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+78,351,5,Boston Bruins,4,Eastern,Northeast,,FIRST,FIRST,true,1,false,false
+92,351,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,0,false,false
+79,351,6,Buffalo Sabres,4,Eastern,Northeast,,,,false,,,
+100,351,38,Ottawa Senators,4,Eastern,Northeast,,,,false,,,
+108,351,59,Toronto Maple Leafs,4,Eastern,Northeast,,,LAST,false,,,
+111,351,63,Washington Capitals,4,Eastern,Southeast,,,FIRST,true,1,false,false
+82,351,46,Carolina Hurricanes,4,Eastern,Southeast,,,,true,2,false,false
+89,351,29,Florida Panthers,4,Eastern,Southeast,,,,false,,,
+112,351,2,Atlanta Thrashers,4,Eastern,Southeast,,,,false,,,
+107,351,58,Tampa Bay Lightning,4,Eastern,Southeast,,,LAST,false,,,
+87,351,16,Detroit Red Wings,4,Western,Central,,,FIRST,true,3,true,false
+83,351,9,Chicago Blackhawks,4,Western,Central,,,,true,2,false,false
+106,351,56,St. Louis Blues,4,Western,Central,,,,true,0,false,false
+85,351,12,Columbus Blue Jackets,4,Western,Central,,,,true,0,false,false
+94,351,33,Nashville Predators,4,Western,Central,,,LAST,false,,,
+109,351,62,Vancouver Canucks,4,Western,Northwest,,,FIRST,true,1,false,false
+80,351,7,Calgary Flames,4,Western,Northwest,,,,true,0,false,false
+91,351,31,Minnesota Wild,4,Western,Northwest,,,,false,,,
+88,351,17,Edmonton Oilers,4,Western,Northwest,,,,false,,,
+84,351,15,Colorado Avalanche,4,Western,Northwest,,LAST,LAST,false,,,
+104,351,52,San Jose Sharks,4,Western,Pacific,FIRST,FIRST,FIRST,true,0,false,false
+76,351,27,Anaheim Ducks,4,Western,Pacific,,,,true,1,false,false
+86,351,13,Dallas Stars,4,Western,Pacific,,,,false,,,
+77,351,40,Phoenix Coyotes,4,Western,Pacific,,,LAST_TIED,false,,,
+90,351,27,Los Angeles Kings,4,Western,Pacific,,,LAST_TIED,false,,,
+95,357,35,New Jersey Devils,4,Eastern,Atlantic,,,FIRST,true,0,false,false
+102,357,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,,true,1,false,false
+101,357,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,true,3,true,false
+98,357,35,New York Rangers,4,Eastern,Atlantic,,,,false,,,
+97,357,35,New York Islanders,4,Eastern,Atlantic,,,LAST,false,,,
+79,357,6,Buffalo Sabres,4,Eastern,Northeast,,,FIRST,true,0,false,false
+100,357,38,Ottawa Senators,4,Eastern,Northeast,,,,true,0,false,false
+78,357,5,Boston Bruins,4,Eastern,Northeast,,,,true,1,false,false
+92,357,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,2,false,false
+108,357,59,Toronto Maple Leafs,4,Eastern,Northeast,,LAST,LAST,false,,,
+111,357,63,Washington Capitals,4,Eastern,Southeast,FIRST,FIRST,FIRST,true,0,false,false
+112,357,2,Atlanta Thrashers,4,Eastern,Southeast,,,,false,,,
+82,357,46,Carolina Hurricanes,4,Eastern,Southeast,,,,false,,,
+107,357,58,Tampa Bay Lightning,4,Eastern,Southeast,,,,false,,,
+89,357,29,Florida Panthers,4,Eastern,Southeast,,,LAST,false,,,
+83,357,9,Chicago Blackhawks,4,Western,Central,,,FIRST,true,4,true,true
+87,357,16,Detroit Red Wings,4,Western,Central,,,,true,1,false,false
+94,357,33,Nashville Predators,4,Western,Central,,,,true,0,false,false
+106,357,56,St. Louis Blues,4,Western,Central,,,,false,,,
+85,357,12,Columbus Blue Jackets,4,Western,Central,,,LAST,false,,,
+109,357,62,Vancouver Canucks,4,Western,Northwest,,,FIRST,true,1,false,false
+84,357,15,Colorado Avalanche,4,Western,Northwest,,,,true,0,false,false
+80,357,7,Calgary Flames,4,Western,Northwest,,,,false,,,
+91,357,31,Minnesota Wild,4,Western,Northwest,,,,false,,,
+88,357,17,Edmonton Oilers,4,Western,Northwest,LAST,LAST,LAST,false,,,
+104,357,52,San Jose Sharks,4,Western,Pacific,,FIRST,FIRST,true,2,false,false
+77,357,40,Phoenix Coyotes,4,Western,Pacific,,,,true,0,false,false
+90,357,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+76,357,27,Anaheim Ducks,4,Western,Pacific,,,,false,,,
+86,357,13,Dallas Stars,4,Western,Pacific,,,LAST,false,,,
+101,363,39,Philadelphia Flyers,4,Eastern,Atlantic,,,FIRST_TIED,true,1,false,false
+102,363,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,FIRST_TIED,true,0,false,false
+98,363,35,New York Rangers,4,Eastern,Atlantic,,,,true,0,false,false
+95,363,35,New Jersey Devils,4,Eastern,Atlantic,,,,false,,,
+97,363,35,New York Islanders,4,Eastern,Atlantic,,,LAST,false,,,
+78,363,5,Boston Bruins,4,Eastern,Northeast,,,FIRST,true,4,true,true
+92,363,32,Montreal Canadiens,4,Eastern,Northeast,,,,true,0,false,false
+79,363,6,Buffalo Sabres,4,Eastern,Northeast,,,,true,0,false,false
+108,363,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,false,,,
+100,363,38,Ottawa Senators,4,Eastern,Northeast,,,LAST,false,,,
+111,363,63,Washington Capitals,4,Eastern,Southeast,,FIRST,FIRST,true,1,false,false
+107,363,58,Tampa Bay Lightning,4,Eastern,Southeast,,,,true,2,false,false
+82,363,46,Carolina Hurricanes,4,Eastern,Southeast,,,,false,,,
+112,363,2,Atlanta Thrashers,4,Eastern,Southeast,,,,false,,,
+89,363,29,Florida Panthers,4,Eastern,Southeast,,LAST,LAST,false,,,
+87,363,16,Detroit Red Wings,4,Western,Central,,,FIRST,true,1,false,false
+94,363,33,Nashville Predators,4,Western,Central,,,,true,1,false,false
+83,363,9,Chicago Blackhawks,4,Western,Central,,,,true,0,false,false
+106,363,56,St. Louis Blues,4,Western,Central,,,,false,,,
+85,363,12,Columbus Blue Jackets,4,Western,Central,,,LAST,false,,,
+109,363,62,Vancouver Canucks,4,Western,Northwest,FIRST,FIRST,FIRST,true,3,true,false
+80,363,7,Calgary Flames,4,Western,Northwest,,,,false,,,
+91,363,31,Minnesota Wild,4,Western,Northwest,,,,false,,,
+84,363,15,Colorado Avalanche,4,Western,Northwest,,,,false,,,
+88,363,17,Edmonton Oilers,4,Western,Northwest,LAST,LAST,LAST,false,,,
+104,363,52,San Jose Sharks,4,Western,Pacific,,,FIRST,true,2,false,false
+76,363,27,Anaheim Ducks,4,Western,Pacific,,,,true,0,false,false
+77,363,40,Phoenix Coyotes,4,Western,Pacific,,,,true,0,false,false
+90,363,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+86,363,13,Dallas Stars,4,Western,Pacific,,,LAST,false,,,
+98,369,35,New York Rangers,4,Eastern,Atlantic,,FIRST,FIRST,true,2,false,false
+102,369,41,Pittsburgh Penguins,4,Eastern,Atlantic,,,,true,0,false,false
+101,369,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,true,1,false,false
+95,369,35,New Jersey Devils,4,Eastern,Atlantic,,,,true,3,true,false
+97,369,35,New York Islanders,4,Eastern,Atlantic,,,LAST,false,,,
+78,369,5,Boston Bruins,4,Eastern,Northeast,,,FIRST,true,0,false,false
+100,369,38,Ottawa Senators,4,Eastern,Northeast,,,,true,0,false,false
+79,369,6,Buffalo Sabres,4,Eastern,Northeast,,,,false,,,
+108,369,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,false,,,
+92,369,32,Montreal Canadiens,4,Eastern,Northeast,,LAST,LAST,false,,,
+89,369,29,Florida Panthers,4,Eastern,Southeast,,,FIRST,true,0,false,false
+111,369,63,Washington Capitals,4,Eastern,Southeast,,,,true,1,false,false
+107,369,58,Tampa Bay Lightning,4,Eastern,Southeast,,,,false,,,
+112,369,64,Winnipeg Jets,4,Eastern,Southeast,,,,false,,,
+82,369,46,Carolina Hurricanes,4,Eastern,Southeast,,,LAST,false,,,
+106,369,56,St. Louis Blues,4,Western,Central,,,FIRST,true,1,false,false
+94,369,33,Nashville Predators,4,Western,Central,,,,true,1,false,false
+87,369,16,Detroit Red Wings,4,Western,Central,,,,true,0,false,false
+83,369,9,Chicago Blackhawks,4,Western,Central,,,,true,0,false,false
+85,369,12,Columbus Blue Jackets,4,Western,Central,LAST,LAST,LAST,false,,,
+109,369,62,Vancouver Canucks,4,Western,Northwest,FIRST,FIRST,FIRST,true,0,false,false
+80,369,7,Calgary Flames,4,Western,Northwest,,,,false,,,
+84,369,15,Colorado Avalanche,4,Western,Northwest,,,,false,,,
+91,369,31,Minnesota Wild,4,Western,Northwest,,,,false,,,
+88,369,17,Edmonton Oilers,4,Western,Northwest,,,LAST,false,,,
+77,369,40,Phoenix Coyotes,4,Western,Pacific,,,FIRST,true,2,false,false
+104,369,52,San Jose Sharks,4,Western,Pacific,,,,true,0,false,false
+90,369,27,Los Angeles Kings,4,Western,Pacific,,,,true,4,true,true
+86,369,13,Dallas Stars,4,Western,Pacific,,,,false,,,
+76,369,27,Anaheim Ducks,4,Western,Pacific,,,LAST,false,,,
+102,375,41,Pittsburgh Penguins,4,Eastern,Atlantic,,FIRST,FIRST,true,2,false,false
+98,375,35,New York Rangers,4,Eastern,Atlantic,,,,true,1,false,false
+97,375,35,New York Islanders,4,Eastern,Atlantic,,,,true,0,false,false
+101,375,39,Philadelphia Flyers,4,Eastern,Atlantic,,,,false,,,
+95,375,35,New Jersey Devils,4,Eastern,Atlantic,,,LAST,false,,,
+92,375,32,Montreal Canadiens,4,Eastern,Northeast,,,FIRST,true,0,false,false
+78,375,5,Boston Bruins,4,Eastern,Northeast,,,,true,3,true,false
+108,375,59,Toronto Maple Leafs,4,Eastern,Northeast,,,,true,0,false,false
+100,375,38,Ottawa Senators,4,Eastern,Northeast,,,,true,1,false,false
+79,375,6,Buffalo Sabres,4,Eastern,Northeast,,,LAST,false,,,
+111,375,63,Washington Capitals,4,Eastern,Southeast,,,FIRST,true,0,false,false
+112,375,64,Winnipeg Jets,4,Eastern,Southeast,,,,false,,,
+82,375,46,Carolina Hurricanes,4,Eastern,Southeast,,,,false,,,
+107,375,58,Tampa Bay Lightning,4,Eastern,Southeast,,,,false,,,
+89,375,29,Florida Panthers,4,Eastern,Southeast,LAST,LAST,LAST,false,,,
+83,375,9,Chicago Blackhawks,4,Western,Central,FIRST,FIRST,FIRST,true,4,true,true
+106,375,56,St. Louis Blues,4,Western,Central,,,,true,0,false,false
+87,375,16,Detroit Red Wings,4,Western,Central,,,,true,1,false,false
+85,375,12,Columbus Blue Jackets,4,Western,Central,,,,false,,,
+94,375,33,Nashville Predators,4,Western,Central,,,LAST,false,,,
+109,375,62,Vancouver Canucks,4,Western,Northwest,,,FIRST,true,0,false,false
+91,375,31,Minnesota Wild,4,Western,Northwest,,,,true,0,false,false
+88,375,17,Edmonton Oilers,4,Western,Northwest,,,,false,,,
+80,375,7,Calgary Flames,4,Western,Northwest,,,,false,,,
+84,375,15,Colorado Avalanche,4,Western,Northwest,,LAST,LAST,false,,,
+76,375,27,Anaheim Ducks,4,Western,Pacific,,,FIRST,true,0,false,false
+90,375,27,Los Angeles Kings,4,Western,Pacific,,,,true,2,false,false
+104,375,52,San Jose Sharks,4,Western,Pacific,,,,true,1,false,false
+77,375,40,Phoenix Coyotes,4,Western,Pacific,,,,false,,,
+86,375,13,Dallas Stars,4,Western,Pacific,,,LAST,false,,,
+78,381,5,Boston Bruins,4,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
+107,381,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,0,false,false
+92,381,32,Montreal Canadiens,4,Eastern,Atlantic,,,,true,2,false,false
+87,381,16,Detroit Red Wings,4,Eastern,Atlantic,,,,true,0,false,false
+100,381,38,Ottawa Senators,4,Eastern,Atlantic,,,,false,,,
+108,381,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,false,,,
+89,381,29,Florida Panthers,4,Eastern,Atlantic,,,,false,,,
+79,381,6,Buffalo Sabres,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+102,381,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,FIRST,true,1,false,false
+98,381,35,New York Rangers,4,Eastern,Metropolitan,,,,true,3,true,false
+101,381,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,true,0,false,false
+85,381,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,,true,0,false,false
+111,381,63,Washington Capitals,4,Eastern,Metropolitan,,,,false,,,
+95,381,35,New Jersey Devils,4,Eastern,Metropolitan,,,,false,,,
+82,381,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,,false,,,
+97,381,35,New York Islanders,4,Eastern,Metropolitan,,,LAST,false,,,
+84,381,15,Colorado Avalanche,4,Western,Central,,,FIRST,true,0,false,false
+106,381,56,St. Louis Blues,4,Western,Central,,,,true,0,false,false
+83,381,9,Chicago Blackhawks,4,Western,Central,,,,true,2,false,false
+91,381,31,Minnesota Wild,4,Western,Central,,,,true,1,false,false
+86,381,13,Dallas Stars,4,Western,Central,,,,true,0,false,false
+94,381,33,Nashville Predators,4,Western,Central,,,,false,,,
+112,381,64,Winnipeg Jets,4,Western,Central,,,LAST,false,,,
+76,381,27,Anaheim Ducks,4,Western,Pacific,,FIRST,FIRST,true,1,false,false
+104,381,52,San Jose Sharks,4,Western,Pacific,,,,true,0,false,false
+90,381,27,Los Angeles Kings,4,Western,Pacific,,,,true,4,true,true
+77,381,40,Phoenix Coyotes,4,Western,Pacific,,,,false,,,
+109,381,62,Vancouver Canucks,4,Western,Pacific,,,,false,,,
+80,381,7,Calgary Flames,4,Western,Pacific,,,,false,,,
+88,381,17,Edmonton Oilers,4,Western,Pacific,,LAST,LAST,false,,,
+92,387,32,Montreal Canadiens,4,Eastern,Atlantic,,,FIRST,true,1,false,false
+107,387,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,3,true,false
+87,387,16,Detroit Red Wings,4,Eastern,Atlantic,,,,true,0,false,false
+100,387,38,Ottawa Senators,4,Eastern,Atlantic,,,,true,0,false,false
+78,387,5,Boston Bruins,4,Eastern,Atlantic,,,,false,,,
+89,387,29,Florida Panthers,4,Eastern,Atlantic,,,,false,,,
+108,387,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,false,,,
+79,387,6,Buffalo Sabres,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+98,387,35,New York Rangers,4,Eastern,Metropolitan,FIRST,FIRST,FIRST,true,2,false,false
+111,387,63,Washington Capitals,4,Eastern,Metropolitan,,,,true,1,false,false
+97,387,35,New York Islanders,4,Eastern,Metropolitan,,,,true,0,false,false
+102,387,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,true,0,false,false
+85,387,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,,false,,,
+101,387,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,false,,,
+95,387,35,New Jersey Devils,4,Eastern,Metropolitan,,,,false,,,
+82,387,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,LAST,false,,,
+106,387,56,St. Louis Blues,4,Western,Central,,FIRST_TIED,FIRST,true,0,false,false
+94,387,33,Nashville Predators,4,Western,Central,,,,true,0,false,false
+83,387,9,Chicago Blackhawks,4,Western,Central,,,,true,4,true,true
+91,387,31,Minnesota Wild,4,Western,Central,,,,true,1,false,false
+112,387,64,Winnipeg Jets,4,Western,Central,,,,true,0,false,false
+86,387,13,Dallas Stars,4,Western,Central,,,,false,,,
+84,387,15,Colorado Avalanche,4,Western,Central,,,LAST,false,,,
+76,387,27,Anaheim Ducks,4,Western,Pacific,,FIRST_TIED,FIRST,true,2,false,false
+109,387,62,Vancouver Canucks,4,Western,Pacific,,,,true,0,false,false
+80,387,7,Calgary Flames,4,Western,Pacific,,,,true,1,false,false
+90,387,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+104,387,52,San Jose Sharks,4,Western,Pacific,,,,false,,,
+88,387,17,Edmonton Oilers,4,Western,Pacific,,,,false,,,
+77,387,40,Arizona Coyotes,4,Western,Pacific,,LAST,LAST,false,,,
+89,393,29,Florida Panthers,4,Eastern,Atlantic,,,FIRST,true,0,false,false
+107,393,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,2,false,false
+87,393,16,Detroit Red Wings,4,Eastern,Atlantic,,,,true,0,false,false
+78,393,5,Boston Bruins,4,Eastern,Atlantic,,,,false,,,
+100,393,38,Ottawa Senators,4,Eastern,Atlantic,,,,false,,,
+92,393,32,Montreal Canadiens,4,Eastern,Atlantic,,,,false,,,
+79,393,6,Buffalo Sabres,4,Eastern,Atlantic,,,,false,,,
+108,393,59,Toronto Maple Leafs,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+111,393,63,Washington Capitals,4,Eastern,Metropolitan,FIRST,FIRST,FIRST,true,1,false,false
+102,393,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,true,4,true,true
+98,393,35,New York Rangers,4,Eastern,Metropolitan,,,,true,0,false,false
+97,393,35,New York Islanders,4,Eastern,Metropolitan,,,,true,1,false,false
+101,393,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,true,0,false,false
+82,393,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,,false,,,
+95,393,35,New Jersey Devils,4,Eastern,Metropolitan,,,,false,,,
+85,393,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,LAST,false,,,
+86,393,13,Dallas Stars,4,Western,Central,,FIRST,FIRST,true,1,false,false
+106,393,56,St. Louis Blues,4,Western,Central,,,,true,2,false,false
+83,393,9,Chicago Blackhawks,4,Western,Central,,,,true,0,false,false
+94,393,33,Nashville Predators,4,Western,Central,,,,true,1,false,false
+91,393,31,Minnesota Wild,4,Western,Central,,,,true,0,false,false
+84,393,15,Colorado Avalanche,4,Western,Central,,,,false,,,
+112,393,64,Winnipeg Jets,4,Western,Central,,,LAST,false,,,
+76,393,27,Anaheim Ducks,4,Western,Pacific,,,FIRST,true,0,false,false
+90,393,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+104,393,52,San Jose Sharks,4,Western,Pacific,,,,true,3,true,false
+77,393,40,Arizona Coyotes,4,Western,Pacific,,,,false,,,
+80,393,7,Calgary Flames,4,Western,Pacific,,,,false,,,
+109,393,62,Vancouver Canucks,4,Western,Pacific,,,,false,,,
+88,393,17,Edmonton Oilers,4,Western,Pacific,,LAST,LAST,false,,,
+92,399,32,Montreal Canadiens,4,Eastern,Atlantic,,,FIRST,true,0,false,false
+100,399,38,Ottawa Senators,4,Eastern,Atlantic,,,,true,2,false,false
+78,399,5,Boston Bruins,4,Eastern,Atlantic,,,,true,0,false,false
+108,399,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,true,0,false,false
+107,399,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,false,,,
+89,399,29,Florida Panthers,4,Eastern,Atlantic,,,,false,,,
+87,399,16,Detroit Red Wings,4,Eastern,Atlantic,,,,false,,,
+79,399,6,Buffalo Sabres,4,Eastern,Atlantic,,,LAST,false,,,
+111,399,63,Washington Capitals,4,Eastern,Metropolitan,FIRST,FIRST,FIRST,true,1,false,false
+102,399,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,true,4,true,true
+85,399,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,,true,0,false,false
+98,399,35,New York Rangers,4,Eastern,Metropolitan,,,,true,1,false,false
+97,399,35,New York Islanders,4,Eastern,Metropolitan,,,,false,,,
+101,399,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,false,,,
+82,399,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,,false,,,
+95,399,35,New Jersey Devils,4,Eastern,Metropolitan,,LAST,LAST,false,,,
+83,399,9,Chicago Blackhawks,4,Western,Central,,FIRST,FIRST,true,0,false,false
+91,399,31,Minnesota Wild,4,Western,Central,,,,true,0,false,false
+106,399,56,St. Louis Blues,4,Western,Central,,,,true,1,false,false
+94,399,33,Nashville Predators,4,Western,Central,,,,true,3,true,false
+112,399,64,Winnipeg Jets,4,Western,Central,,,,false,,,
+86,399,13,Dallas Stars,4,Western,Central,,,,false,,,
+84,399,15,Colorado Avalanche,4,Western,Central,LAST,LAST,LAST,false,,,
+76,399,27,Anaheim Ducks,4,Western,Pacific,,,FIRST,true,2,false,false
+88,399,17,Edmonton Oilers,4,Western,Pacific,,,,true,1,false,false
+104,399,52,San Jose Sharks,4,Western,Pacific,,,,true,0,false,false
+80,399,7,Calgary Flames,4,Western,Pacific,,,,true,0,false,false
+90,399,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+77,399,40,Arizona Coyotes,4,Western,Pacific,,,,false,,,
+109,399,62,Vancouver Canucks,4,Western,Pacific,,,LAST,false,,,
+107,405,58,Tampa Bay Lightning,4,Eastern,Atlantic,,FIRST,FIRST,true,2,false,false
+78,405,5,Boston Bruins,4,Eastern,Atlantic,,,,true,1,false,false
+108,405,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,true,0,false,false
+89,405,29,Florida Panthers,4,Eastern,Atlantic,,,,false,,,
+87,405,16,Detroit Red Wings,4,Eastern,Atlantic,,,,false,,,
+92,405,32,Montreal Canadiens,4,Eastern,Atlantic,,,,false,,,
+100,405,38,Ottawa Senators,4,Eastern,Atlantic,,,,false,,,
+79,405,6,Buffalo Sabres,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+111,405,63,Washington Capitals,4,Eastern,Metropolitan,,,FIRST,true,4,true,true
+102,405,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,true,1,false,false
+101,405,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,true,0,false,false
+85,405,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,,true,0,false,false
+95,405,35,New Jersey Devils,4,Eastern,Metropolitan,,,,true,0,false,false
+82,405,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,,false,,,
+97,405,35,New York Islanders,4,Eastern,Metropolitan,,,,false,,,
+98,405,35,New York Rangers,4,Eastern,Metropolitan,,,LAST,false,,,
+94,405,33,Nashville Predators,4,Western,Central,FIRST,FIRST,FIRST,true,1,false,false
+112,405,64,Winnipeg Jets,4,Western,Central,,,,true,2,false,false
+91,405,31,Minnesota Wild,4,Western,Central,,,,true,0,false,false
+84,405,15,Colorado Avalanche,4,Western,Central,,,,true,0,false,false
+106,405,56,St. Louis Blues,4,Western,Central,,,,false,,,
+86,405,13,Dallas Stars,4,Western,Central,,,,false,,,
+83,405,9,Chicago Blackhawks,4,Western,Central,,,LAST,false,,,
+110,405,26,Vegas Golden Knights,4,Western,Pacific,,,FIRST,true,3,true,false
+76,405,27,Anaheim Ducks,4,Western,Pacific,,,,true,0,false,false
+104,405,52,San Jose Sharks,4,Western,Pacific,,,,true,1,false,false
+90,405,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+80,405,7,Calgary Flames,4,Western,Pacific,,,,false,,,
+88,405,17,Edmonton Oilers,4,Western,Pacific,,,,false,,,
+109,405,62,Vancouver Canucks,4,Western,Pacific,,,,false,,,
+77,405,40,Arizona Coyotes,4,Western,Pacific,,LAST,LAST,false,,,
+107,411,58,Tampa Bay Lightning,4,Eastern,Atlantic,FIRST,FIRST,FIRST,true,0,false,false
+78,411,5,Boston Bruins,4,Eastern,Atlantic,,,,true,3,true,false
+108,411,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,true,0,false,false
+92,411,32,Montreal Canadiens,4,Eastern,Atlantic,,,,false,,,
+89,411,29,Florida Panthers,4,Eastern,Atlantic,,,,false,,,
+79,411,6,Buffalo Sabres,4,Eastern,Atlantic,,,,false,,,
+87,411,16,Detroit Red Wings,4,Eastern,Atlantic,,,,false,,,
+100,411,38,Ottawa Senators,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+111,411,63,Washington Capitals,4,Eastern,Metropolitan,,,FIRST,true,0,false,false
+97,411,35,New York Islanders,4,Eastern,Metropolitan,,,,true,1,false,false
+102,411,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,true,0,false,false
+82,411,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,,true,2,false,false
+85,411,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,,true,1,false,false
+101,411,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,false,,,
+98,411,35,New York Rangers,4,Eastern,Metropolitan,,,,false,,,
+95,411,35,New Jersey Devils,4,Eastern,Metropolitan,,,LAST,false,,,
+94,411,33,Nashville Predators,4,Western,Central,,,FIRST,true,0,false,false
+112,411,64,Winnipeg Jets,4,Western,Central,,,,true,0,false,false
+106,411,56,St. Louis Blues,4,Western,Central,,,,true,4,true,true
+86,411,13,Dallas Stars,4,Western,Central,,,,true,1,false,false
+84,411,15,Colorado Avalanche,4,Western,Central,,,,true,1,false,false
+83,411,9,Chicago Blackhawks,4,Western,Central,,,,false,,,
+91,411,31,Minnesota Wild,4,Western,Central,,,LAST,false,,,
+80,411,7,Calgary Flames,4,Western,Pacific,,FIRST,FIRST,true,0,false,false
+104,411,52,San Jose Sharks,4,Western,Pacific,,,,true,2,false,false
+110,411,26,Vegas Golden Knights,4,Western,Pacific,,,,true,0,false,false
+77,411,40,Arizona Coyotes,4,Western,Pacific,,,,false,,,
+109,411,62,Vancouver Canucks,4,Western,Pacific,,,,false,,,
+76,411,27,Anaheim Ducks,4,Western,Pacific,,,,false,,,
+88,411,17,Edmonton Oilers,4,Western,Pacific,,,,false,,,
+90,411,27,Los Angeles Kings,4,Western,Pacific,,LAST,LAST,false,,,
+78,417,5,Boston Bruins,4,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
+107,417,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,4,true,true
+108,417,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,true,0,false,false
+89,417,29,Florida Panthers,4,Eastern,Atlantic,,,,true,0,false,false
+92,417,32,Montreal Canadiens,4,Eastern,Atlantic,,,,true,1,false,false
+79,417,6,Buffalo Sabres,4,Eastern,Atlantic,,,,false,,,
+100,417,38,Ottawa Senators,4,Eastern,Atlantic,,,,false,,,
+87,417,16,Detroit Red Wings,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+111,417,63,Washington Capitals,4,Eastern,Metropolitan,,,FIRST,true,0,false,false
+101,417,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,true,1,false,false
+102,417,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,true,0,false,false
+82,417,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,,true,1,false,false
+85,417,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,,true,1,false,false
+97,417,35,New York Islanders,4,Eastern,Metropolitan,,,,true,3,false,false
+98,417,35,New York Rangers,4,Eastern,Metropolitan,,,,true,0,false,false
+95,417,35,New Jersey Devils,4,Eastern,Metropolitan,,,LAST,false,,,
+106,417,56,St. Louis Blues,4,Western,Central,,FIRST,FIRST,true,0,false,false
+84,417,15,Colorado Avalanche,4,Western,Central,,,,true,1,false,false
+86,417,13,Dallas Stars,4,Western,Central,,,,true,3,true,false
+112,417,64,Winnipeg Jets,4,Western,Central,,,,true,0,false,false
+94,417,33,Nashville Predators,4,Western,Central,,,,true,0,false,false
+91,417,31,Minnesota Wild,4,Western,Central,,,,true,0,false,false
+83,417,9,Chicago Blackhawks,4,Western,Central,,,LAST,true,1,false,false
+110,417,26,Vegas Golden Knights,4,Western,Pacific,,,FIRST,true,2,false,false
+88,417,17,Edmonton Oilers,4,Western,Pacific,,,,true,0,false,false
+80,417,7,Calgary Flames,4,Western,Pacific,,,,true,1,false,false
+109,417,62,Vancouver Canucks,4,Western,Pacific,,,,true,2,false,false
+77,417,40,Arizona Coyotes,4,Western,Pacific,,,,true,1,false,false
+76,417,27,Anaheim Ducks,4,Western,Pacific,,,,false,,,
+90,417,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
+104,417,52,San Jose Sharks,4,Western,Pacific,,LAST,LAST,false,,,
+82,423,46,Carolina Hurricanes,4,Central,,,FIRST,,true,1,false,false
+89,423,29,Florida Panthers,4,Central,,,,,true,0,false,false
+107,423,58,Tampa Bay Lightning,4,Central,,,,,true,4,true,true
+94,423,33,Nashville Predators,4,Central,,,,,true,0,false,false
+86,423,13,Dallas Stars,4,Central,,,,,false,,,
+83,423,9,Chicago Blackhawks,4,Central,,,,,false,,,
+87,423,16,Detroit Red Wings,4,Central,,,LAST_TIED,,false,,,
+85,423,12,Columbus Blue Jackets,4,Central,,,LAST_TIED,,false,,,
+102,423,41,Pittsburgh Penguins,4,East,,,FIRST_TIED,,true,0,false,false
+111,423,63,Washington Capitals,4,East,,,FIRST_TIED,,true,0,false,false
+78,423,5,Boston Bruins,4,East,,,,,true,1,false,false
+97,423,35,New York Islanders,4,East,,,,,true,2,false,false
+98,423,35,New York Rangers,4,East,,,,,false,,,
+101,423,39,Philadelphia Flyers,4,East,,,,,false,,,
+95,423,35,New Jersey Devils,4,East,,,,,false,,,
+79,423,6,Buffalo Sabres,4,East,,LAST,LAST,,false,,,
+108,423,59,Toronto Maple Leafs,4,North,,,FIRST,,true,0,false,false
+88,423,17,Edmonton Oilers,4,North,,,,,true,0,false,false
+112,423,64,Winnipeg Jets,4,North,,,,,true,1,false,false
+92,423,32,Montreal Canadiens,4,North,,,,,true,3,true,false
+80,423,7,Calgary Flames,4,North,,,,,false,,,
+100,423,38,Ottawa Senators,4,North,,,,,false,,,
+109,423,62,Vancouver Canucks,4,North,,,LAST,,false,,,
+84,423,15,Colorado Avalanche,4,West,,FIRST_TIED,FIRST_TIED,,true,1,false,false
+110,423,26,Vegas Golden Knights,4,West,,FIRST_TIED,FIRST_TIED,,true,2,false,false
+91,423,31,Minnesota Wild,4,West,,,,,true,0,false,false
+106,423,56,St. Louis Blues,4,West,,,,,true,0,false,false
+77,423,40,Arizona Coyotes,4,West,,,,,false,,,
+90,423,27,Los Angeles Kings,4,West,,,,,false,,,
+104,423,52,San Jose Sharks,4,West,,,,,false,,,
+76,423,27,Anaheim Ducks,4,West,,,LAST,,false,,,
+89,429,29,Florida Panthers,4,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
+108,429,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,true,0,false,false
+107,429,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,3,true,false
+78,429,5,Boston Bruins,4,Eastern,Atlantic,,,,true,0,false,false
+79,429,6,Buffalo Sabres,4,Eastern,Atlantic,,,,false,,,
+87,429,16,Detroit Red Wings,4,Eastern,Atlantic,,,,false,,,
+100,429,38,Ottawa Senators,4,Eastern,Atlantic,,,,false,,,
+92,429,32,Montreal Canadiens,4,Eastern,Atlantic,LAST,LAST,LAST,false,,,
+82,429,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,FIRST,true,1,false,false
+98,429,35,New York Rangers,4,Eastern,Metropolitan,,,,true,2,false,false
+102,429,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,true,0,false,false
+111,429,63,Washington Capitals,4,Eastern,Metropolitan,,,,true,0,false,false
+97,429,35,New York Islanders,4,Eastern,Metropolitan,,,,false,,,
+85,429,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,,false,,,
+95,429,35,New Jersey Devils,4,Eastern,Metropolitan,,,,false,,,
+101,429,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,LAST,false,,,
+84,429,15,Colorado Avalanche,4,Western,Central,,FIRST,FIRST,true,4,true,true
+91,429,31,Minnesota Wild,4,Western,Central,,,,true,0,false,false
+106,429,56,St. Louis Blues,4,Western,Central,,,,true,1,false,false
+86,429,13,Dallas Stars,4,Western,Central,,,,true,0,false,false
+94,429,33,Nashville Predators,4,Western,Central,,,,true,0,false,false
+112,429,64,Winnipeg Jets,4,Western,Central,,,,false,,,
+83,429,9,Chicago Blackhawks,4,Western,Central,,,,false,,,
+77,429,40,Arizona Coyotes,4,Western,Central,,LAST,LAST,false,,,
+80,429,7,Calgary Flames,4,Western,Pacific,,,FIRST,true,1,false,false
+88,429,17,Edmonton Oilers,4,Western,Pacific,,,,true,2,false,false
+90,429,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+110,429,26,Vegas Golden Knights,4,Western,Pacific,,,,false,,,
+109,429,62,Vancouver Canucks,4,Western,Pacific,,,,false,,,
+104,429,52,San Jose Sharks,4,Western,Pacific,,,,false,,,
+76,429,27,Anaheim Ducks,4,Western,Pacific,,,,false,,,
+105,429,53,Seattle Kraken,4,Western,Pacific,,,LAST,false,,,
+78,435,5,Boston Bruins,4,Eastern,Atlantic,FIRST,FIRST,FIRST,true,0,false,false
+108,435,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,true,1,false,false
+107,435,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,0,false,false
+89,435,29,Florida Panthers,4,Eastern,Atlantic,,,,true,3,true,false
+79,435,6,Buffalo Sabres,4,Eastern,Atlantic,,,,false,,,
+100,435,38,Ottawa Senators,4,Eastern,Atlantic,,,,false,,,
+87,435,16,Detroit Red Wings,4,Eastern,Atlantic,,,,false,,,
+92,435,32,Montreal Canadiens,4,Eastern,Atlantic,,,LAST,false,,,
+82,435,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,FIRST,true,2,false,false
+95,435,35,New Jersey Devils,4,Eastern,Metropolitan,,,,true,1,false,false
+98,435,35,New York Rangers,4,Eastern,Metropolitan,,,,true,0,false,false
+97,435,35,New York Islanders,4,Eastern,Metropolitan,,,,true,0,false,false
+102,435,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,false,,,
+111,435,63,Washington Capitals,4,Eastern,Metropolitan,,,,false,,,
+101,435,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,false,,,
+85,435,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,LAST,LAST,false,,,
+84,435,15,Colorado Avalanche,4,Western,Central,,,FIRST,true,0,false,false
+86,435,13,Dallas Stars,4,Western,Central,,,,true,2,false,false
+91,435,31,Minnesota Wild,4,Western,Central,,,,true,0,false,false
+112,435,64,Winnipeg Jets,4,Western,Central,,,,true,0,false,false
+94,435,33,Nashville Predators,4,Western,Central,,,,false,,,
+106,435,56,St. Louis Blues,4,Western,Central,,,,false,,,
+77,435,40,Arizona Coyotes,4,Western,Central,,,,false,,,
+83,435,9,Chicago Blackhawks,4,Western,Central,,,LAST,false,,,
+110,435,26,Vegas Golden Knights,4,Western,Pacific,,FIRST,FIRST,true,4,true,true
+88,435,17,Edmonton Oilers,4,Western,Pacific,,,,true,1,false,false
+90,435,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+105,435,53,Seattle Kraken,4,Western,Pacific,,,,true,1,false,false
+80,435,7,Calgary Flames,4,Western,Pacific,,,,false,,,
+109,435,62,Vancouver Canucks,4,Western,Pacific,,,,false,,,
+104,435,52,San Jose Sharks,4,Western,Pacific,,,,false,,,
+76,435,27,Anaheim Ducks,4,Western,Pacific,LAST,LAST,LAST,false,,,
+89,441,29,Florida Panthers,4,Eastern,Atlantic,,,FIRST,true,4,true,true
+78,441,5,Boston Bruins,4,Eastern,Atlantic,,,,true,1,false,false
+108,441,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,true,0,false,false
+107,441,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,0,false,false
+87,441,16,Detroit Red Wings,4,Eastern,Atlantic,,,,false,,,
+79,441,6,Buffalo Sabres,4,Eastern,Atlantic,,,,false,,,
+100,441,38,Ottawa Senators,4,Eastern,Atlantic,,,,false,,,
+92,441,32,Montreal Canadiens,4,Eastern,Atlantic,,,LAST,false,,,
+98,441,35,New York Rangers,4,Eastern,Metropolitan,FIRST,FIRST,FIRST,true,2,false,false
+82,441,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,,true,1,false,false
+97,441,35,New York Islanders,4,Eastern,Metropolitan,,,,true,0,false,false
+111,441,63,Washington Capitals,4,Eastern,Metropolitan,,,,true,0,false,false
+102,441,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,false,,,
+101,441,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,false,,,
+95,441,35,New Jersey Devils,4,Eastern,Metropolitan,,,,false,,,
+85,441,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,LAST,LAST,false,,,
+86,441,13,Dallas Stars,4,Western,Central,,FIRST,FIRST,true,2,false,false
+112,441,64,Winnipeg Jets,4,Western,Central,,,,true,0,false,false
+84,441,15,Colorado Avalanche,4,Western,Central,,,,true,1,false,false
+94,441,33,Nashville Predators,4,Western,Central,,,,true,0,false,false
+106,441,56,St. Louis Blues,4,Western,Central,,,,false,,,
+91,441,31,Minnesota Wild,4,Western,Central,,,,false,,,
+77,441,40,Arizona Coyotes,4,Western,Central,,,,false,,,
+83,441,9,Chicago Blackhawks,4,Western,Central,,,LAST,false,,,
+109,441,62,Vancouver Canucks,4,Western,Pacific,,,FIRST,true,1,false,false
+88,441,17,Edmonton Oilers,4,Western,Pacific,,,,true,3,true,false
+90,441,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+110,441,26,Vegas Golden Knights,4,Western,Pacific,,,,true,0,false,false
+80,441,7,Calgary Flames,4,Western,Pacific,,,,false,,,
+105,441,53,Seattle Kraken,4,Western,Pacific,,,,false,,,
+76,441,27,Anaheim Ducks,4,Western,Pacific,,,,false,,,
+104,441,52,San Jose Sharks,4,Western,Pacific,LAST,LAST,LAST,false,,,
+108,447,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,FIRST,true,1,false,false
+107,447,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,0,false,false
+89,447,29,Florida Panthers,4,Eastern,Atlantic,,,,true,4,true,true
+100,447,38,Ottawa Senators,4,Eastern,Atlantic,,,,true,0,false,false
+92,447,32,Montreal Canadiens,4,Eastern,Atlantic,,,,true,0,false,false
+87,447,16,Detroit Red Wings,4,Eastern,Atlantic,,,,false,,,
+79,447,6,Buffalo Sabres,4,Eastern,Atlantic,,,,false,,,
+78,447,5,Boston Bruins,4,Eastern,Atlantic,,LAST_TIED,LAST,false,,,
+111,447,63,Washington Capitals,4,Eastern,Metropolitan,,FIRST,FIRST,true,1,false,false
+82,447,46,Carolina Hurricanes,4,Eastern,Metropolitan,,,,true,2,false,false
+95,447,35,New Jersey Devils,4,Eastern,Metropolitan,,,,true,0,false,false
+85,447,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,,false,,,
+98,447,35,New York Rangers,4,Eastern,Metropolitan,,,,false,,,
+97,447,35,New York Islanders,4,Eastern,Metropolitan,,,,false,,,
+102,447,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,false,,,
+101,447,39,Philadelphia Flyers,4,Eastern,Metropolitan,,LAST_TIED,LAST,false,,,
+112,447,64,Winnipeg Jets,4,Western,Central,FIRST,FIRST,FIRST,true,1,false,false
+86,447,13,Dallas Stars,4,Western,Central,,,,true,2,false,false
+84,447,15,Colorado Avalanche,4,Western,Central,,,,true,0,false,false
+91,447,31,Minnesota Wild,4,Western,Central,,,,true,0,false,false
+106,447,56,St. Louis Blues,4,Western,Central,,,,true,0,false,false
+202,447,49,Utah Hockey Club,4,Western,Central,,,,false,,,
+94,447,33,Nashville Predators,4,Western,Central,,,,false,,,
+83,447,9,Chicago Blackhawks,4,Western,Central,,,LAST,false,,,
+110,447,26,Vegas Golden Knights,4,Western,Pacific,,,FIRST,true,1,false,false
+90,447,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+88,447,17,Edmonton Oilers,4,Western,Pacific,,,,true,3,true,false
+80,447,7,Calgary Flames,4,Western,Pacific,,,,false,,,
+109,447,62,Vancouver Canucks,4,Western,Pacific,,,,false,,,
+76,447,27,Anaheim Ducks,4,Western,Pacific,,,,false,,,
+105,447,53,Seattle Kraken,4,Western,Pacific,,,,false,,,
+104,447,52,San Jose Sharks,4,Western,Pacific,LAST,LAST,LAST,false,,,

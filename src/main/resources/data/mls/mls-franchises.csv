@@ -1,33 +1,34 @@
-name,is_defunct,league
-Atlanta United,false,MLS
-Austin FC,false,MLS
-CF Montreal,false,MLS
-Charlotte FC,false,MLS
-Chicago Fire,false,MLS
-Chivas USA,true,MLS
-Colorado Rapids,false,MLS
-Columbus Crew,false,MLS
-DC United,false,MLS
-FC Cincinnati,false,MLS
-FC Dallas,false,MLS
-Houston Dynamo,false,MLS
-Inter Miami CF,false,MLS
-LA Galaxy,false,MLS
-Los Angeles FC,false,MLS
-Miami Fusion,true,MLS
-Minnesota United,false,MLS
-Nashville SC,false,MLS
-New England Revolution,false,MLS
-New York City FC,false,MLS
-Orlando City SC,false,MLS
-Philadelphia Union,false,MLS
-Portland Timbers,false,MLS
-Real Salt Lake,false,MLS
-Red Bull New York,false,MLS
-San Jose Earthquakes,false,MLS
-Seattle Sounders,false,MLS
-Sporting KC,false,MLS
-St. Louis City SC,false,MLS
-Tampa Bay Mutiny,true,MLS
-Toronto FC,false,MLS
-Vancouver Whitecaps,false,MLS
+id,name,label,is_defunct,league_id
+132,Atlanta United,atlantaunited,false,6
+133,Austin FC,austinfc,false,6
+134,CF Montreal,cfmontreal,false,6
+135,Charlotte FC,charlotte-fc,false,6
+136,Chicago Fire,fire,false,6
+137,Chivas USA,chivasusa,true,6
+138,Colorado Rapids,rapids,false,6
+139,Columbus Crew,crew,false,6
+140,DC United,dcunited,false,6
+141,FC Cincinnati,fccincinnati,false,6
+142,FC Dallas,fcdallas,false,6
+143,Houston Dynamo,dynamo,false,6
+144,Inter Miami,intermiami,false,6
+145,LA Galaxy,galaxy,false,6
+146,LAFC,lafc,false,6
+147,Miami Fusion,fusion,true,6
+148,Minnesota United,minnesotaunited,false,6
+149,Nashville SC,nashvillesc,false,6
+150,New England Revolution,revolution,false,6
+151,NYCFC,nycfc,false,6
+152,Orlando City,orlandocity,false,6
+153,Philadelphia Union,union,false,6
+154,Portland Timbers,timbers,false,6
+155,Real Salt Lake,rsl,false,6
+156,Red Bull New York,rbny,false,6
+157,San Diego FC,sandiegofc,false,6
+158,San Jose Earthquakes,earthquakes,false,6
+159,Seattle Sounders,sounders,false,6
+160,Sporting KC,skc,false,6
+161,St. Louis City,stlcity,false,6
+162,Tampa Bay Mutiny,mutiny,true,6
+163,Toronto FC,torontofc,false,6
+164,Vancouver Whitecaps,whitecaps,false,6

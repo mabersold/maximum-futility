@@ -1,0 +1,2113 @@
+franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+192,39,35,New York Giants,2,East,,,FIRST,,true,0,true,false
+170,39,35,Brooklyn Dodgers,2,East,,,,,false,,,
+201,39,5,Boston Redskins,2,East,,,,,false,,,
+194,39,39,Philadelphia Eagles,2,East,,,,,false,,,
+195,39,41,Pittsburgh Pirates,2,East,,,LAST,,false,,,
+173,39,9,Chicago Bears,2,West,,FIRST,FIRST,,true,1,true,true
+179,39,43,Portsmouth Spartans,2,West,,,,,false,,,
+180,39,20,Green Bay Packers,2,West,,,,,false,,,
+175,39,10,Cincinnati Reds,2,West,,,,,false,,,
+165,39,9,Chicago Cardinals,2,West,,LAST,LAST,,false,,,
+192,42,35,New York Giants,2,East,,,FIRST,,true,1,true,true
+201,42,5,Boston Redskins,2,East,,,,,false,,,
+170,42,35,Brooklyn Dodgers,2,East,,,,,false,,,
+194,42,39,Philadelphia Eagles,2,East,,,,,false,,,
+195,42,41,Pittsburgh Pirates,2,East,,,LAST,,false,,,
+173,42,9,Chicago Bears,2,West,,FIRST,FIRST,,true,0,true,false
+179,42,16,Detroit Lions,2,West,,,,,false,,,
+180,42,20,Green Bay Packers,2,West,,,,,false,,,
+165,42,9,Chicago Cardinals,2,West,,,,,false,,,
+198,42,56,St. Louis Gunners,2,West,,,,,false,,,
+175,42,10,Cincinnati Reds,2,West,,LAST,LAST,,false,,,
+192,45,35,New York Giants,2,East,,FIRST,FIRST,,true,0,true,false
+170,45,35,Brooklyn Dodgers,2,East,,,,,false,,,
+195,45,41,Pittsburgh Pirates,2,East,,,,,false,,,
+201,45,5,Boston Redskins,2,East,,,,,false,,,
+194,45,39,Philadelphia Eagles,2,East,,LAST,LAST,,false,,,
+179,45,16,Detroit Lions,2,West,,,FIRST,,true,1,true,true
+180,45,20,Green Bay Packers,2,West,,,,,false,,,
+173,45,9,Chicago Bears,2,West,,,LAST_TIED,,false,,,
+165,45,9,Chicago Cardinals,2,West,,,LAST_TIED,,false,,,
+201,48,5,Boston Redskins,2,East,,,FIRST,,true,0,true,false
+195,48,41,Pittsburgh Pirates,2,East,,,,,false,,,
+192,48,35,New York Giants,2,East,,,,,false,,,
+170,48,35,Brooklyn Dodgers,2,East,,,,,false,,,
+194,48,39,Philadelphia Eagles,2,East,,LAST,LAST,,false,,,
+180,48,20,Green Bay Packers,2,West,,FIRST,FIRST,,true,1,true,true
+173,48,9,Chicago Bears,2,West,,,,,false,,,
+179,48,16,Detroit Lions,2,West,,,,,false,,,
+165,48,9,Chicago Cardinals,2,West,,,LAST,,false,,,
+201,51,63,Washington Redskins,2,East,,,FIRST,,true,1,true,true
+192,51,35,New York Giants,2,East,,,,,false,,,
+195,51,41,Pittsburgh Pirates,2,East,,,,,false,,,
+170,51,35,Brooklyn Dodgers,2,East,,,,,false,,,
+194,51,39,Philadelphia Eagles,2,East,,,LAST,,false,,,
+173,51,9,Chicago Bears,2,West,,FIRST,FIRST,,true,0,true,false
+179,51,16,Detroit Lions,2,West,,,,,false,,,
+180,51,20,Green Bay Packers,2,West,,,,,false,,,
+165,51,9,Chicago Cardinals,2,West,,,,,false,,,
+187,51,11,Cleveland Rams,2,West,,LAST,LAST,,false,,,
+192,54,35,New York Giants,2,East,,FIRST,FIRST,,true,1,true,true
+201,54,63,Washington Redskins,2,East,,,,,false,,,
+170,54,35,Brooklyn Dodgers,2,East,,,,,false,,,
+194,54,39,Philadelphia Eagles,2,East,,,,,false,,,
+195,54,41,Pittsburgh Pirates,2,East,,LAST_TIED,LAST,,false,,,
+180,54,20,Green Bay Packers,2,West,,,FIRST,,true,0,true,false
+179,54,16,Detroit Lions,2,West,,,,,false,,,
+173,54,9,Chicago Bears,2,West,,,,,false,,,
+187,54,11,Cleveland Rams,2,West,,,,,false,,,
+165,54,9,Chicago Cardinals,2,West,,LAST_TIED,LAST,,false,,,
+192,57,35,New York Giants,2,East,,FIRST,FIRST,,true,0,true,false
+201,57,63,Washington Redskins,2,East,,,,,false,,,
+170,57,35,Brooklyn Dodgers,2,East,,,,,false,,,
+194,57,39,Philadelphia Eagles,2,East,,,LAST_TIED,,false,,,
+195,57,41,Pittsburgh Pirates,2,East,,,LAST_TIED,,false,,,
+180,57,20,Green Bay Packers,2,West,,,FIRST,,true,1,true,true
+173,57,9,Chicago Bears,2,West,,,,,false,,,
+179,57,16,Detroit Lions,2,West,,,,,false,,,
+187,57,11,Cleveland Rams,2,West,,,,,false,,,
+165,57,9,Chicago Cardinals,2,West,,LAST,LAST,,false,,,
+201,60,63,Washington Redskins,2,East,,FIRST,FIRST,,true,0,true,false
+170,60,35,Brooklyn Dodgers,2,East,,,,,false,,,
+192,60,35,New York Giants,2,East,,,,,false,,,
+195,60,41,Pittsburgh Steelers,2,East,,,,,false,,,
+194,60,39,Philadelphia Eagles,2,East,,LAST,LAST,,false,,,
+173,60,9,Chicago Bears,2,West,,,FIRST,,true,1,true,true
+180,60,20,Green Bay Packers,2,West,,,,,false,,,
+179,60,16,Detroit Lions,2,West,,,,,false,,,
+187,60,11,Cleveland Rams,2,West,,,,,false,,,
+165,60,9,Chicago Cardinals,2,West,,,LAST,,false,,,
+192,63,35,New York Giants,2,East,,,FIRST,,true,0,true,false
+170,63,35,Brooklyn Dodgers,2,East,,,,,false,,,
+201,63,63,Washington Redskins,2,East,,,,,false,,,
+194,63,39,Philadelphia Eagles,2,East,,,,,false,,,
+195,63,41,Pittsburgh Steelers,2,East,,LAST,LAST,,false,,,
+173,63,9,Chicago Bears,2,West,,FIRST_TIED,FIRST_TIED,,true,1,true,true
+180,63,20,Green Bay Packers,2,West,,FIRST_TIED,FIRST_TIED,,false,,,
+179,63,16,Detroit Lions,2,West,,,,,false,,,
+165,63,9,Chicago Cardinals,2,West,,,,,false,,,
+187,63,11,Cleveland Rams,2,West,,,LAST,,false,,,
+201,66,63,Washington Redskins,2,East,,,FIRST,,true,1,true,true
+195,66,41,Pittsburgh Steelers,2,East,,,,,false,,,
+192,66,35,New York Giants,2,East,,,,,false,,,
+170,66,35,Brooklyn Dodgers,2,East,,,,,false,,,
+194,66,39,Philadelphia Eagles,2,East,,,LAST,,false,,,
+173,66,9,Chicago Bears,2,West,,FIRST,FIRST,,true,0,true,false
+180,66,20,Green Bay Packers,2,West,,,,,false,,,
+187,66,11,Cleveland Rams,2,West,,,,,false,,,
+165,66,9,Chicago Cardinals,2,West,,,,,false,,,
+179,66,16,Detroit Lions,2,West,,LAST,LAST,,false,,,
+201,69,63,Washington Redskins,2,East,,,FIRST_TIED,,true,0,true,false
+192,69,35,New York Giants,2,East,,,FIRST_TIED,,false,,,
+195,69,41,Steagles,2,East,,,,,false,,,
+170,69,35,Brooklyn Dodgers,2,East,,,LAST,,false,,,
+173,69,9,Chicago Bears,2,West,,FIRST,FIRST,,true,1,true,true
+180,69,20,Green Bay Packers,2,West,,,,,false,,,
+179,69,16,Detroit Lions,2,West,,,,,false,,,
+165,69,9,Chicago Cardinals,2,West,,LAST,LAST,,false,,,
+194,69,39,Steagles,2,East,,,,,false,,,
+192,72,35,New York Giants,2,East,,FIRST,FIRST,,true,0,true,false
+194,72,39,Philadelphia Eagles,2,East,,,,,false,,,
+201,72,63,Washington Redskins,2,East,,,,,false,,,
+169,72,5,Boston Yanks,2,East,,,,,false,,,
+170,72,35,Brooklyn Tigers,2,East,,LAST_TIED,LAST,,false,,,
+180,72,20,Green Bay Packers,2,West,,,FIRST,,true,1,true,true
+173,72,9,Chicago Bears,2,West,,,,,false,,,
+179,72,16,Detroit Lions,2,West,,,,,false,,,
+187,72,11,Cleveland Rams,2,West,,,,,false,,,
+195,72,41,Card-Pitt,2,West,,LAST_TIED,LAST,,false,,,
+165,72,9,Card-Pitt,2,West,,LAST_TIED,LAST,,false,,,
+201,75,63,Washington Redskins,2,East,,,FIRST,,true,0,true,false
+194,75,39,Philadelphia Eagles,2,East,,,,,false,,,
+169,75,5,Boston Yanks,2,East,,,,,false,,,
+192,75,35,New York Giants,2,East,,,,,false,,,
+195,75,41,Pittsburgh Steelers,2,East,,,LAST,,false,,,
+187,75,11,Cleveland Rams,2,West,,FIRST,FIRST,,true,1,true,true
+179,75,16,Detroit Lions,2,West,,,,,false,,,
+180,75,20,Green Bay Packers,2,West,,,,,false,,,
+173,75,9,Chicago Bears,2,West,,,,,false,,,
+165,75,9,Chicago Cardinals,2,West,,LAST,LAST,,false,,,
+170,75,35,Yanks,2,East,,,,,false,,,
+192,78,35,New York Giants,2,East,,,FIRST,,true,0,true,false
+194,78,39,Philadelphia Eagles,2,East,,,,,false,,,
+195,78,41,Pittsburgh Steelers,2,East,,,,,false,,,
+201,78,63,Washington Redskins,2,East,,,,,false,,,
+169,78,5,Boston Yanks,2,East,,,LAST,,false,,,
+173,78,9,Chicago Bears,2,West,,FIRST,FIRST,,true,1,true,true
+187,78,27,Los Angeles Rams,2,West,,,,,false,,,
+165,78,9,Chicago Cardinals,2,West,,,,,false,,,
+180,78,20,Green Bay Packers,2,West,,,,,false,,,
+179,78,16,Detroit Lions,2,West,,LAST,LAST,,false,,,
+194,82,39,Philadelphia Eagles,2,East,,,FIRST_TIED,,true,0,true,false
+195,82,41,Pittsburgh Steelers,2,East,,,FIRST_TIED,,false,,,
+169,82,5,Boston Yanks,2,East,,,,,false,,,
+201,82,63,Washington Redskins,2,East,,,,,false,,,
+192,82,35,New York Giants,2,East,,LAST,LAST,,false,,,
+165,82,9,Chicago Cardinals,2,West,,FIRST,FIRST,,true,1,true,true
+173,82,9,Chicago Bears,2,West,,,,,false,,,
+180,82,20,Green Bay Packers,2,West,,,,,false,,,
+187,82,27,Los Angeles Rams,2,West,,,,,false,,,
+179,82,16,Detroit Lions,2,West,,,LAST,,false,,,
+194,86,39,Philadelphia Eagles,2,East,,,FIRST,,true,1,true,true
+201,86,63,Washington Redskins,2,East,,,,,false,,,
+192,86,35,New York Giants,2,East,,,,,false,,,
+195,86,41,Pittsburgh Steelers,2,East,,,,,false,,,
+169,86,5,Boston Yanks,2,East,,,LAST,,false,,,
+165,86,9,Chicago Cardinals,2,West,,FIRST,FIRST,,true,0,true,false
+173,86,9,Chicago Bears,2,West,,,,,false,,,
+187,86,27,Los Angeles Rams,2,West,,,,,false,,,
+180,86,20,Green Bay Packers,2,West,,,,,false,,,
+179,86,16,Detroit Lions,2,West,,LAST,LAST,,false,,,
+194,90,39,Philadelphia Eagles,2,East,,FIRST,FIRST,,true,1,true,true
+195,90,41,Pittsburgh Steelers,2,East,,,,,false,,,
+192,90,35,New York Giants,2,East,,,,,false,,,
+201,90,63,Washington Redskins,2,East,,,,,false,,,
+169,90,35,New York Bulldogs,2,East,,LAST,LAST,,false,,,
+187,90,27,Los Angeles Rams,2,West,,,FIRST,,true,0,true,false
+173,90,9,Chicago Bears,2,West,,,,,false,,,
+165,90,9,Chicago Cardinals,2,West,,,,,false,,,
+179,90,16,Detroit Lions,2,West,,,,,false,,,
+180,90,20,Green Bay Packers,2,West,,,LAST,,false,,,
+176,94,11,Cleveland Browns,2,American,,FIRST_TIED,FIRST_TIED,,true,1,true,true
+192,94,35,New York Giants,2,American,,FIRST_TIED,FIRST_TIED,,false,,,
+194,94,39,Philadelphia Eagles,2,American,,,,,false,,,
+195,94,41,Pittsburgh Steelers,2,American,,,,,false,,,
+165,94,9,Chicago Cardinals,2,American,,,,,false,,,
+201,94,63,Washington Redskins,2,American,,,LAST,,false,,,
+187,94,27,Los Angeles Rams,2,National,,,FIRST_TIED,,true,0,true,false
+173,94,9,Chicago Bears,2,National,,,FIRST_TIED,,false,,,
+169,94,35,New York Yanks,2,National,,,,,false,,,
+179,94,16,Detroit Lions,2,National,,,,,false,,,
+180,94,20,Green Bay Packers,2,National,,,,,false,,,
+196,94,52,San Francisco 49ers,2,National,,,,,false,,,
+167,94,4,Baltimore Colts,2,National,,LAST,LAST,,false,,,
+176,98,11,Cleveland Browns,2,American,,FIRST,FIRST,,true,0,true,false
+192,98,35,New York Giants,2,American,,,,,false,,,
+201,98,63,Washington Redskins,2,American,,,,,false,,,
+195,98,41,Pittsburgh Steelers,2,American,,,,,false,,,
+194,98,39,Philadelphia Eagles,2,American,,,,,false,,,
+165,98,9,Chicago Cardinals,2,American,,,LAST,,false,,,
+187,98,27,Los Angeles Rams,2,National,,,FIRST,,true,1,true,true
+179,98,16,Detroit Lions,2,National,,,,,false,,,
+196,98,52,San Francisco 49ers,2,National,,,,,false,,,
+173,98,9,Chicago Bears,2,National,,,,,false,,,
+180,98,20,Green Bay Packers,2,National,,,,,false,,,
+169,98,35,New York Yanks,2,National,,LAST,LAST,,false,,,
+176,102,11,Cleveland Browns,2,American,,,FIRST,,true,0,true,false
+192,102,35,New York Giants,2,American,,,,,false,,,
+194,102,39,Philadelphia Eagles,2,American,,,,,false,,,
+195,102,41,Pittsburgh Steelers,2,American,,,,,false,,,
+165,102,9,Chicago Cardinals,2,American,,,LAST_TIED,,false,,,
+201,102,63,Washington Redskins,2,American,,,LAST_TIED,,false,,,
+179,102,16,Detroit Lions,2,National,,FIRST_TIED,FIRST_TIED,,true,1,true,true
+187,102,27,Los Angeles Rams,2,National,,FIRST_TIED,FIRST_TIED,,false,,,
+196,102,52,San Francisco 49ers,2,National,,,,,false,,,
+180,102,20,Green Bay Packers,2,National,,,,,false,,,
+173,102,9,Chicago Bears,2,National,,,,,false,,,
+169,102,13,Dallas Texans,2,National,,LAST,LAST,,false,,,
+176,106,11,Cleveland Browns,2,East,,FIRST,FIRST,,true,0,true,false
+194,106,39,Philadelphia Eagles,2,East,,,,,false,,,
+201,106,63,Washington Redskins,2,East,,,,,false,,,
+195,106,41,Pittsburgh Steelers,2,East,,,,,false,,,
+192,106,35,New York Giants,2,East,,,,,false,,,
+165,106,9,Chicago Cardinals,2,East,,LAST,LAST,,false,,,
+179,106,16,Detroit Lions,2,West,,,FIRST,,true,1,true,true
+196,106,52,San Francisco 49ers,2,West,,,,,false,,,
+187,106,27,Los Angeles Rams,2,West,,,,,false,,,
+173,106,9,Chicago Bears,2,West,,,,,false,,,
+182,106,4,Baltimore Colts,2,West,,,,,false,,,
+180,106,20,Green Bay Packers,2,West,,,LAST,,false,,,
+176,110,11,Cleveland Browns,2,East,,,FIRST,,true,1,true,true
+194,110,39,Philadelphia Eagles,2,East,,,,,false,,,
+192,110,35,New York Giants,2,East,,,,,false,,,
+195,110,41,Pittsburgh Steelers,2,East,,,,,false,,,
+201,110,63,Washington Redskins,2,East,,,,,false,,,
+165,110,9,Chicago Cardinals,2,East,,LAST,LAST,,false,,,
+179,110,16,Detroit Lions,2,West,,FIRST,FIRST,,true,0,true,false
+173,110,9,Chicago Bears,2,West,,,,,false,,,
+196,110,52,San Francisco 49ers,2,West,,,,,false,,,
+187,110,27,Los Angeles Rams,2,West,,,,,false,,,
+180,110,20,Green Bay Packers,2,West,,,,,false,,,
+182,110,4,Baltimore Colts,2,West,,,LAST,,false,,,
+176,114,11,Cleveland Browns,2,East,,FIRST,FIRST,,true,1,true,true
+201,114,63,Washington Redskins,2,East,,,,,false,,,
+192,114,35,New York Giants,2,East,,,,,false,,,
+165,114,9,Chicago Cardinals,2,East,,,,,false,,,
+194,114,39,Philadelphia Eagles,2,East,,,,,false,,,
+195,114,41,Pittsburgh Steelers,2,East,,,LAST,,false,,,
+187,114,27,Los Angeles Rams,2,West,,,FIRST,,true,0,true,false
+173,114,9,Chicago Bears,2,West,,,,,false,,,
+180,114,20,Green Bay Packers,2,West,,,,,false,,,
+182,114,4,Baltimore Colts,2,West,,,,,false,,,
+196,114,52,San Francisco 49ers,2,West,,,,,false,,,
+179,114,16,Detroit Lions,2,West,,LAST,LAST,,false,,,
+192,118,35,New York Giants,2,East,,,FIRST,,true,1,true,true
+165,118,9,Chicago Cardinals,2,East,,,,,false,,,
+201,118,63,Washington Redskins,2,East,,,,,false,,,
+176,118,11,Cleveland Browns,2,East,,,,,false,,,
+195,118,41,Pittsburgh Steelers,2,East,,,,,false,,,
+194,118,39,Philadelphia Eagles,2,East,,LAST,LAST,,false,,,
+173,118,9,Chicago Bears,2,West,,FIRST,FIRST,,true,0,true,false
+179,118,16,Detroit Lions,2,West,,,,,false,,,
+196,118,52,San Francisco 49ers,2,West,,,,,false,,,
+182,118,4,Baltimore Colts,2,West,,,,,false,,,
+180,118,20,Green Bay Packers,2,West,,,LAST_TIED,,false,,,
+187,118,27,Los Angeles Rams,2,West,,,LAST_TIED,,false,,,
+176,122,11,Cleveland Browns,2,East,,FIRST,FIRST,,true,0,true,false
+192,122,35,New York Giants,2,East,,,,,false,,,
+195,122,41,Pittsburgh Steelers,2,East,,,,,false,,,
+201,122,63,Washington Redskins,2,East,,,,,false,,,
+194,122,39,Philadelphia Eagles,2,East,,,,,false,,,
+165,122,9,Chicago Cardinals,2,East,,LAST_TIED,LAST,,false,,,
+179,122,16,Detroit Lions,2,West,,,FIRST_TIED,,true,1,true,true
+196,122,52,San Francisco 49ers,2,West,,,FIRST_TIED,,false,,,
+182,122,4,Baltimore Colts,2,West,,,,,false,,,
+187,122,27,Los Angeles Rams,2,West,,,,,false,,,
+173,122,9,Chicago Bears,2,West,,,,,false,,,
+180,122,20,Green Bay Packers,2,West,,LAST_TIED,LAST,,false,,,
+192,126,35,New York Giants,2,East,,FIRST_TIED,FIRST_TIED,,true,0,true,false
+176,126,11,Cleveland Browns,2,East,,FIRST_TIED,FIRST_TIED,,false,,,
+195,126,41,Pittsburgh Steelers,2,East,,,,,false,,,
+201,126,63,Washington Redskins,2,East,,,,,false,,,
+165,126,9,Chicago Cardinals,2,East,,,LAST_TIED,,false,,,
+194,126,39,Philadelphia Eagles,2,East,,,LAST_TIED,,false,,,
+182,126,4,Baltimore Colts,2,West,,FIRST_TIED,FIRST,,true,1,true,true
+173,126,9,Chicago Bears,2,West,,,,,false,,,
+187,126,27,Los Angeles Rams,2,West,,,,,false,,,
+196,126,52,San Francisco 49ers,2,West,,,,,false,,,
+179,126,16,Detroit Lions,2,West,,,,,false,,,
+180,126,20,Green Bay Packers,2,West,,LAST,LAST,,false,,,
+192,130,35,New York Giants,2,East,,FIRST,FIRST,,true,0,true,false
+176,130,11,Cleveland Browns,2,East,,,,,false,,,
+194,130,39,Philadelphia Eagles,2,East,,,,,false,,,
+195,130,41,Pittsburgh Steelers,2,East,,,,,false,,,
+201,130,63,Washington Redskins,2,East,,,,,false,,,
+165,130,9,Chicago Cardinals,2,East,,LAST_TIED,LAST,,false,,,
+182,130,4,Baltimore Colts,2,West,,,FIRST,,true,1,true,true
+173,130,9,Chicago Bears,2,West,,,,,false,,,
+180,130,20,Green Bay Packers,2,West,,,,,false,,,
+196,130,52,San Francisco 49ers,2,West,,,,,false,,,
+179,130,16,Detroit Lions,2,West,,,,,false,,,
+187,130,27,Los Angeles Rams,2,West,,LAST_TIED,LAST,,false,,,
+194,134,39,Philadelphia Eagles,2,East,,FIRST,FIRST,,true,1,true,true
+176,134,11,Cleveland Browns,2,East,,,,,false,,,
+192,134,35,New York Giants,2,East,,,,,false,,,
+165,134,56,St. Louis Cardinals,2,East,,,,,false,,,
+195,134,41,Pittsburgh Steelers,2,East,,,,,false,,,
+201,134,63,Washington Redskins,2,East,,,LAST,,false,,,
+180,134,20,Green Bay Packers,2,West,,,FIRST,,true,0,true,false
+179,134,16,Detroit Lions,2,West,,,,,false,,,
+196,134,52,San Francisco 49ers,2,West,,,,,false,,,
+182,134,4,Baltimore Colts,2,West,,,,,false,,,
+173,134,9,Chicago Bears,2,West,,,,,false,,,
+187,134,27,Los Angeles Rams,2,West,,,,,false,,,
+177,134,13,Dallas Cowboys,2,West,,LAST,LAST,,false,,,
+192,138,35,New York Giants,2,East,,,FIRST,,true,0,true,false
+194,138,39,Philadelphia Eagles,2,East,,,,,false,,,
+176,138,11,Cleveland Browns,2,East,,,,,false,,,
+165,138,56,St. Louis Cardinals,2,East,,,,,false,,,
+195,138,41,Pittsburgh Steelers,2,East,,,,,false,,,
+177,138,13,Dallas Cowboys,2,East,,,,,false,,,
+201,138,63,Washington Redskins,2,East,,LAST,LAST,,false,,,
+180,138,20,Green Bay Packers,2,West,,FIRST,FIRST,,true,1,true,true
+179,138,16,Detroit Lions,2,West,,,,,false,,,
+173,138,9,Chicago Bears,2,West,,,,,false,,,
+182,138,4,Baltimore Colts,2,West,,,,,false,,,
+196,138,52,San Francisco 49ers,2,West,,,,,false,,,
+187,138,27,Los Angeles Rams,2,West,,,,,false,,,
+189,138,31,Minnesota Vikings,2,West,,,LAST,,false,,,
+192,142,35,New York Giants,2,East,,,FIRST,,true,0,true,false
+195,142,41,Pittsburgh Steelers,2,East,,,,,false,,,
+176,142,11,Cleveland Browns,2,East,,,,,false,,,
+201,142,63,Washington Redskins,2,East,,,,,false,,,
+177,142,13,Dallas Cowboys,2,East,,,,,false,,,
+165,142,56,St. Louis Cardinals,2,East,,,,,false,,,
+194,142,39,Philadelphia Eagles,2,East,,,LAST,,false,,,
+180,142,20,Green Bay Packers,2,West,,FIRST,FIRST,,true,1,true,true
+179,142,16,Detroit Lions,2,West,,,,,false,,,
+173,142,9,Chicago Bears,2,West,,,,,false,,,
+182,142,4,Baltimore Colts,2,West,,,,,false,,,
+196,142,52,San Francisco 49ers,2,West,,,,,false,,,
+189,142,31,Minnesota Vikings,2,West,,,,,false,,,
+187,142,27,Los Angeles Rams,2,West,,LAST,LAST,,false,,,
+192,146,35,New York Giants,2,East,,,FIRST,,true,0,true,false
+176,146,11,Cleveland Browns,2,East,,,,,false,,,
+165,146,56,St. Louis Cardinals,2,East,,,,,false,,,
+195,146,41,Pittsburgh Steelers,2,East,,,,,false,,,
+177,146,13,Dallas Cowboys,2,East,,,,,false,,,
+201,146,63,Washington Redskins,2,East,,,,,false,,,
+194,146,39,Philadelphia Eagles,2,East,,,LAST,,false,,,
+173,146,9,Chicago Bears,2,West,,FIRST,FIRST,,true,1,true,true
+180,146,20,Green Bay Packers,2,West,,,,,false,,,
+182,146,4,Baltimore Colts,2,West,,,,,false,,,
+179,146,16,Detroit Lions,2,West,,,,,false,,,
+189,146,31,Minnesota Vikings,2,West,,,,,false,,,
+187,146,27,Los Angeles Rams,2,West,,,,,false,,,
+196,146,52,San Francisco 49ers,2,West,,LAST,LAST,,false,,,
+176,150,11,Cleveland Browns,2,East,,,FIRST,,true,1,true,true
+165,150,56,St. Louis Cardinals,2,East,,,,,false,,,
+194,150,39,Philadelphia Eagles,2,East,,,,,false,,,
+201,150,63,Washington Redskins,2,East,,,,,false,,,
+177,150,13,Dallas Cowboys,2,East,,,,,false,,,
+195,150,41,Pittsburgh Steelers,2,East,,,,,false,,,
+192,150,35,New York Giants,2,East,,LAST,LAST,,false,,,
+182,150,4,Baltimore Colts,2,West,,FIRST,FIRST,,true,0,true,false
+180,150,20,Green Bay Packers,2,West,,,,,false,,,
+189,150,31,Minnesota Vikings,2,West,,,,,false,,,
+179,150,16,Detroit Lions,2,West,,,,,false,,,
+187,150,27,Los Angeles Rams,2,West,,,,,false,,,
+173,150,9,Chicago Bears,2,West,,,,,false,,,
+196,150,52,San Francisco 49ers,2,West,,,LAST,,false,,,
+176,154,11,Cleveland Browns,2,East,,FIRST,FIRST,,true,0,true,false
+177,154,13,Dallas Cowboys,2,East,,,,,false,,,
+192,154,35,New York Giants,2,East,,,,,false,,,
+201,154,63,Washington Redskins,2,East,,,,,false,,,
+165,154,56,St. Louis Cardinals,2,East,,,,,false,,,
+194,154,39,Philadelphia Eagles,2,East,,,,,false,,,
+195,154,41,Pittsburgh Steelers,2,East,,LAST,LAST,,false,,,
+180,154,20,Green Bay Packers,2,West,,,FIRST_TIED,,true,1,true,true
+182,154,4,Baltimore Colts,2,West,,,FIRST_TIED,,false,,,
+173,154,9,Chicago Bears,2,West,,,,,false,,,
+196,154,52,San Francisco 49ers,2,West,,,,,false,,,
+189,154,31,Minnesota Vikings,2,West,,,,,false,,,
+179,154,16,Detroit Lions,2,West,,,,,false,,,
+187,154,27,Los Angeles Rams,2,West,,,LAST,,false,,,
+177,158,13,Dallas Cowboys,2,NFL East,,,FIRST,,true,0,false,false
+176,158,11,Cleveland Browns,2,NFL East,,,,,false,,,
+194,158,39,Philadelphia Eagles,2,NFL East,,,,,false,,,
+165,158,56,St. Louis Cardinals,2,NFL East,,,,,false,,,
+201,158,63,Washington Redskins,2,NFL East,,,,,false,,,
+195,158,41,Pittsburgh Steelers,2,NFL East,,,,,false,,,
+166,158,2,Atlanta Falcons,2,NFL East,,,,,false,,,
+192,158,35,New York Giants,2,NFL East,,LAST,LAST,,false,,,
+180,158,20,Green Bay Packers,2,NFL West,,FIRST,FIRST,,true,2,true,true
+182,158,4,Baltimore Colts,2,NFL West,,,,,false,,,
+187,158,27,Los Angeles Rams,2,NFL West,,,,,false,,,
+196,158,52,San Francisco 49ers,2,NFL West,,,,,false,,,
+173,158,9,Chicago Bears,2,NFL West,,,,,false,,,
+179,158,16,Detroit Lions,2,NFL West,,,LAST_TIED,,false,,,
+189,158,31,Minnesota Vikings,2,NFL West,,,LAST_TIED,,false,,,
+171,158,6,Buffalo Bills,2,AFL East,,,FIRST,,true,0,false,false
+190,158,5,Boston Patriots,2,AFL East,,,,,false,,,
+193,158,35,New York Jets,2,AFL East,,,,,false,,,
+188,158,29,Miami Dolphins,2,AFL East,,,LAST_TIED,,false,,,
+200,158,22,Houston Oilers,2,AFL East,,,LAST_TIED,,false,,,
+184,158,25,Kansas City Chiefs,2,AFL West,,,FIRST,,true,1,true,false
+185,158,52,Oakland Raiders,2,AFL West,,,,,false,,,
+186,158,51,San Diego Chargers,2,AFL West,,,,,false,,,
+178,158,15,Denver Broncos,2,AFL West,,,LAST,,false,,,
+177,162,13,Dallas Cowboys,2,NFL East,Capitol,,FIRST_TIED,FIRST,true,1,false,false
+194,162,39,Philadelphia Eagles,2,NFL East,Capitol,,,,false,,,
+201,162,63,Washington Redskins,2,NFL East,Capitol,,,,false,,,
+191,162,34,New Orleans Saints,2,NFL East,Capitol,,LAST,LAST,false,,,
+176,162,11,Cleveland Browns,2,NFL East,Century,,FIRST_TIED,FIRST,true,0,false,false
+192,162,35,New York Giants,2,NFL East,Century,,,,false,,,
+165,162,56,St. Louis Cardinals,2,NFL East,Century,,,,false,,,
+195,162,41,Pittsburgh Steelers,2,NFL East,Century,,,LAST,false,,,
+187,162,27,Los Angeles Rams,2,NFL West,Coastal,,FIRST_TIED,FIRST_TIED,true,0,false,false
+182,162,4,Baltimore Colts,2,NFL West,Coastal,,FIRST_TIED,FIRST_TIED,false,,,
+196,162,52,San Francisco 49ers,2,NFL West,Coastal,,,,false,,,
+166,162,2,Atlanta Falcons,2,NFL West,Coastal,LAST,LAST,LAST,false,,,
+180,162,20,Green Bay Packers,2,NFL West,Central,,,FIRST,true,3,true,true
+173,162,9,Chicago Bears,2,NFL West,Central,,,,false,,,
+179,162,16,Detroit Lions,2,NFL West,Central,,,,false,,,
+189,162,31,Minnesota Vikings,2,NFL West,Central,,,LAST,false,,,
+200,162,22,Houston Oilers,2,AFL East,,,FIRST,,true,0,false,false
+193,162,35,New York Jets,2,AFL East,,,,,false,,,
+171,162,6,Buffalo Bills,2,AFL East,,,,,false,,,
+188,162,29,Miami Dolphins,2,AFL East,,,,,false,,,
+190,162,5,Boston Patriots,2,AFL East,,,LAST,,false,,,
+185,162,52,Oakland Raiders,2,AFL West,,FIRST,FIRST,,true,1,true,false
+184,162,25,Kansas City Chiefs,2,AFL West,,,,,false,,,
+186,162,51,San Diego Chargers,2,AFL West,,,,,false,,,
+178,162,15,Denver Broncos,2,AFL West,,,LAST,,false,,,
+177,166,13,Dallas Cowboys,2,NFL East,Capitol,FIRST_TIED,FIRST,FIRST,true,0,false,false
+192,166,35,New York Giants,2,NFL East,Capitol,,,,false,,,
+194,166,39,Philadelphia Eagles,2,NFL East,Capitol,,,,false,,,
+201,166,63,Washington Redskins,2,NFL East,Capitol,,LAST,LAST,false,,,
+176,166,11,Cleveland Browns,2,NFL East,Century,,,FIRST,true,1,false,false
+165,166,56,St. Louis Cardinals,2,NFL East,Century,,,,false,,,
+191,166,34,New Orleans Saints,2,NFL East,Century,,,,false,,,
+195,166,41,Pittsburgh Steelers,2,NFL East,Century,,,LAST,false,,,
+182,166,4,Baltimore Colts,2,NFL West,Coastal,,FIRST,FIRST,true,2,true,false
+187,166,27,Los Angeles Rams,2,NFL West,Coastal,,,,false,,,
+196,166,52,San Francisco 49ers,2,NFL West,Coastal,,,,false,,,
+166,166,2,Atlanta Falcons,2,NFL West,Coastal,,LAST,LAST,false,,,
+189,166,31,Minnesota Vikings,2,NFL West,Central,,,FIRST,true,0,false,false
+173,166,9,Chicago Bears,2,NFL West,Central,,,,false,,,
+180,166,20,Green Bay Packers,2,NFL West,Central,,,,false,,,
+179,166,16,Detroit Lions,2,NFL West,Central,,,LAST,false,,,
+193,166,35,New York Jets,2,AFL East,,,FIRST,,true,2,true,true
+200,166,22,Houston Oilers,2,AFL East,,,,,false,,,
+188,166,29,Miami Dolphins,2,AFL East,,,,,false,,,
+190,166,5,Boston Patriots,2,AFL East,,,,,false,,,
+171,166,6,Buffalo Bills,2,AFL East,,LAST,LAST,,false,,,
+185,166,52,Oakland Raiders,2,AFL West,,FIRST_TIED,FIRST_TIED,,true,1,false,false
+184,166,25,Kansas City Chiefs,2,AFL West,,FIRST_TIED,FIRST_TIED,,true,0,false,false
+186,166,51,San Diego Chargers,2,AFL West,,,,,false,,,
+178,166,15,Denver Broncos,2,AFL West,,,,,false,,,
+174,166,10,Cincinnati Bengals,2,AFL West,,,LAST,,false,,,
+177,170,13,Dallas Cowboys,2,NFL East,Capitol,,FIRST,FIRST,true,0,false,false
+201,170,63,Washington Redskins,2,NFL East,Capitol,,,,false,,,
+191,170,34,New Orleans Saints,2,NFL East,Capitol,,,,false,,,
+194,170,39,Philadelphia Eagles,2,NFL East,Capitol,,,LAST,false,,,
+176,170,11,Cleveland Browns,2,NFL East,Century,,,FIRST,true,1,false,false
+192,170,35,New York Giants,2,NFL East,Century,,,,false,,,
+165,170,56,St. Louis Cardinals,2,NFL East,Century,,,,false,,,
+195,170,41,Pittsburgh Steelers,2,NFL East,Century,LAST_TIED,LAST,LAST,false,,,
+187,170,27,Los Angeles Rams,2,NFL West,Coastal,,,FIRST,true,0,false,false
+182,170,4,Baltimore Colts,2,NFL West,Coastal,,,,false,,,
+166,170,2,Atlanta Falcons,2,NFL West,Coastal,,,,false,,,
+196,170,52,San Francisco 49ers,2,NFL West,Coastal,,,LAST,false,,,
+189,170,31,Minnesota Vikings,2,NFL West,Central,,FIRST,FIRST,true,2,true,false
+179,170,16,Detroit Lions,2,NFL West,Central,,,,false,,,
+180,170,20,Green Bay Packers,2,NFL West,Central,,,,false,,,
+173,170,9,Chicago Bears,2,NFL West,Central,LAST_TIED,LAST,LAST,false,,,
+193,170,35,New York Jets,2,AFL East,,,FIRST,,true,0,false,false
+200,170,22,Houston Oilers,2,AFL East,,,,,true,0,false,false
+171,170,6,Buffalo Bills,2,AFL East,,,,,false,,,
+190,170,5,Boston Patriots,2,AFL East,,,,,false,,,
+188,170,29,Miami Dolphins,2,AFL East,,,LAST,,false,,,
+185,170,52,Oakland Raiders,2,AFL West,,FIRST,FIRST,,true,1,false,false
+184,170,25,Kansas City Chiefs,2,AFL West,,,,,true,3,true,true
+186,170,51,San Diego Chargers,2,AFL West,,,,,false,,,
+178,170,15,Denver Broncos,2,AFL West,,,,,false,,,
+174,170,10,Cincinnati Bengals,2,AFL West,,,LAST,,false,,,
+182,174,4,Baltimore Colts,2,AFC,AFC East,,FIRST,FIRST,true,3,true,true
+188,174,29,Miami Dolphins,2,AFC,AFC East,,,,true,0,false,false
+193,174,35,New York Jets,2,AFC,AFC East,,,,false,,,
+171,174,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+190,174,5,Boston Patriots,2,AFC,AFC East,LAST,LAST,LAST,false,,,
+174,174,10,Cincinnati Bengals,2,AFC,AFC Central,,,FIRST,true,0,false,false
+176,174,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+195,174,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+200,174,22,Houston Oilers,2,AFC,AFC Central,,,LAST,false,,,
+185,174,52,Oakland Raiders,2,AFC,AFC West,,,FIRST,true,1,false,false
+184,174,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+186,174,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+178,174,15,Denver Broncos,2,AFC,AFC West,,,LAST,false,,,
+177,174,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST,true,2,true,false
+192,174,35,New York Giants,2,NFC,NFC East,,,,false,,,
+165,174,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+201,174,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+194,174,39,Philadelphia Eagles,2,NFC,NFC East,,,LAST,false,,,
+189,174,31,Minnesota Vikings,2,NFC,NFC Central,FIRST,FIRST,FIRST,true,0,false,false
+179,174,16,Detroit Lions,2,NFC,NFC Central,,,,true,0,false,false
+180,174,20,Green Bay Packers,2,NFC,NFC Central,,,LAST_TIED,false,,,
+173,174,9,Chicago Bears,2,NFC,NFC Central,,,LAST_TIED,false,,,
+196,174,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,1,false,false
+187,174,27,Los Angeles Rams,2,NFC,NFC West,,,,false,,,
+166,174,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+191,174,34,New Orleans Saints,2,NFC,NFC West,,LAST,LAST,false,,,
+188,178,29,Miami Dolphins,2,AFC,AFC East,,FIRST_TIED,FIRST,true,2,true,false
+182,178,4,Baltimore Colts,2,AFC,AFC East,,,,true,1,false,false
+190,178,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,178,35,New York Jets,2,AFC,AFC East,,,,false,,,
+171,178,6,Buffalo Bills,2,AFC,AFC East,LAST,LAST,LAST,false,,,
+176,178,11,Cleveland Browns,2,AFC,AFC Central,,,FIRST,true,0,false,false
+195,178,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+200,178,22,Houston Oilers,2,AFC,AFC Central,,,,false,,,
+174,178,10,Cincinnati Bengals,2,AFC,AFC Central,,,LAST,false,,,
+184,178,25,Kansas City Chiefs,2,AFC,AFC West,,FIRST_TIED,FIRST,true,0,false,false
+185,178,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+186,178,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+178,178,15,Denver Broncos,2,AFC,AFC West,,,LAST,false,,,
+177,178,13,Dallas Cowboys,2,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST,true,3,true,true
+201,178,63,Washington Redskins,2,NFC,NFC East,,,,true,0,false,false
+194,178,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+165,178,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+192,178,35,New York Giants,2,NFC,NFC East,,LAST,LAST,false,,,
+189,178,31,Minnesota Vikings,2,NFC,NFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+179,178,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+173,178,9,Chicago Bears,2,NFC,NFC Central,,,,false,,,
+180,178,20,Green Bay Packers,2,NFC,NFC Central,,,LAST,false,,,
+196,178,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,1,false,false
+187,178,27,Los Angeles Rams,2,NFC,NFC West,,,,false,,,
+166,178,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+191,178,34,New Orleans Saints,2,NFC,NFC West,,,LAST,false,,,
+188,182,29,Miami Dolphins,2,AFC,AFC East,FIRST,FIRST,FIRST,true,3,true,true
+193,182,35,New York Jets,2,AFC,AFC East,,,,false,,,
+182,182,4,Baltimore Colts,2,AFC,AFC East,,,,false,,,
+171,182,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+190,182,5,New England Patriots,2,AFC,AFC East,,,LAST,false,,,
+195,182,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST,true,1,false,false
+176,182,11,Cleveland Browns,2,AFC,AFC Central,,,,true,0,false,false
+174,182,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+200,182,22,Houston Oilers,2,AFC,AFC Central,LAST,LAST,LAST,false,,,
+185,182,52,Oakland Raiders,2,AFC,AFC West,,,FIRST,true,0,false,false
+184,182,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+178,182,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+186,182,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+201,182,63,Washington Redskins,2,NFC,NFC East,,FIRST,FIRST,true,2,true,false
+177,182,13,Dallas Cowboys,2,NFC,NFC East,,,,true,1,false,false
+192,182,35,New York Giants,2,NFC,NFC East,,,,false,,,
+165,182,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+194,182,39,Philadelphia Eagles,2,NFC,NFC East,,LAST_TIED,LAST,false,,,
+180,182,20,Green Bay Packers,2,NFC,NFC Central,,,FIRST,true,0,false,false
+179,182,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+189,182,31,Minnesota Vikings,2,NFC,NFC Central,,,,false,,,
+173,182,9,Chicago Bears,2,NFC,NFC Central,,,LAST,false,,,
+196,182,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,0,false,false
+166,182,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+187,182,27,Los Angeles Rams,2,NFC,NFC West,,,,false,,,
+191,182,34,New Orleans Saints,2,NFC,NFC West,,LAST_TIED,LAST,false,,,
+188,186,29,Miami Dolphins,2,AFC,AFC East,FIRST_TIED,FIRST,FIRST,true,3,true,true
+171,186,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+190,186,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,186,35,New York Jets,2,AFC,AFC East,,,LAST_TIED,false,,,
+182,186,4,Baltimore Colts,2,AFC,AFC East,,,LAST_TIED,false,,,
+174,186,10,Cincinnati Bengals,2,AFC,AFC Central,,,FIRST_TIED,true,0,false,false
+195,186,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST_TIED,true,0,false,false
+176,186,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+200,186,22,Houston Oilers,2,AFC,AFC Central,LAST,LAST,LAST,false,,,
+185,186,52,Oakland Raiders,2,AFC,AFC West,,,FIRST,true,1,false,false
+184,186,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+178,186,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+186,186,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+177,186,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST_TIED,true,1,false,false
+201,186,63,Washington Redskins,2,NFC,NFC East,,,FIRST_TIED,true,0,false,false
+194,186,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+165,186,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+192,186,35,New York Giants,2,NFC,NFC East,,LAST,LAST,false,,,
+189,186,31,Minnesota Vikings,2,NFC,NFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
+179,186,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+180,186,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+173,186,9,Chicago Bears,2,NFC,NFC Central,,,LAST,false,,,
+187,186,27,Los Angeles Rams,2,NFC,NFC West,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+166,186,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+196,186,52,San Francisco 49ers,2,NFC,NFC West,,,LAST_TIED,false,,,
+191,186,34,New Orleans Saints,2,NFC,NFC West,,,LAST_TIED,false,,,
+188,190,29,Miami Dolphins,2,AFC,AFC East,,,FIRST,true,0,false,false
+171,190,6,Buffalo Bills,2,AFC,AFC East,,,,true,0,false,false
+190,190,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,190,35,New York Jets,2,AFC,AFC East,,,,false,,,
+182,190,4,Baltimore Colts,2,AFC,AFC East,LAST_TIED,LAST,LAST,false,,,
+195,190,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST,true,3,true,true
+200,190,22,Houston Oilers,2,AFC,AFC Central,,,,false,,,
+174,190,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+176,190,11,Cleveland Browns,2,AFC,AFC Central,,,LAST,false,,,
+185,190,52,Oakland Raiders,2,AFC,AFC West,FIRST,FIRST,FIRST,true,1,false,false
+178,190,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+184,190,25,Kansas City Chiefs,2,AFC,AFC West,,,LAST_TIED,false,,,
+186,190,51,San Diego Chargers,2,AFC,AFC West,,,LAST_TIED,false,,,
+165,190,56,St. Louis Cardinals,2,NFC,NFC East,,FIRST_TIED,FIRST_TIED,true,0,false,false
+201,190,63,Washington Redskins,2,NFC,NFC East,,FIRST_TIED,FIRST_TIED,true,0,false,false
+177,190,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+194,190,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+192,190,35,New York Giants,2,NFC,NFC East,LAST_TIED,LAST,LAST,false,,,
+189,190,31,Minnesota Vikings,2,NFC,NFC Central,,FIRST_TIED,FIRST,true,2,true,false
+179,190,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+180,190,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+173,190,9,Chicago Bears,2,NFC,NFC Central,,,LAST,false,,,
+187,190,27,Los Angeles Rams,2,NFC,NFC West,,FIRST_TIED,FIRST,true,1,false,false
+196,190,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+191,190,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+166,190,2,Atlanta Falcons,2,NFC,NFC West,,,LAST,false,,,
+182,194,4,Baltimore Colts,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+188,194,29,Miami Dolphins,2,AFC,AFC East,,,FIRST_TIED,false,,,
+171,194,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+193,194,35,New York Jets,2,AFC,AFC East,,,LAST_TIED,false,,,
+190,194,5,New England Patriots,2,AFC,AFC East,,,LAST_TIED,false,,,
+195,194,41,Pittsburgh Steelers,2,AFC,AFC Central,FIRST_TIED,FIRST,FIRST,true,3,true,true
+174,194,10,Cincinnati Bengals,2,AFC,AFC Central,,,,true,0,false,false
+200,194,22,Houston Oilers,2,AFC,AFC Central,,,,false,,,
+176,194,11,Cleveland Browns,2,AFC,AFC Central,,,LAST,false,,,
+185,194,52,Oakland Raiders,2,AFC,AFC West,,,FIRST,true,1,false,false
+178,194,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+184,194,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+186,194,51,San Diego Chargers,2,AFC,AFC West,LAST_TIED,LAST,LAST,false,,,
+165,194,56,St. Louis Cardinals,2,NFC,NFC East,,,FIRST,true,0,false,false
+177,194,13,Dallas Cowboys,2,NFC,NFC East,,,,true,2,true,false
+201,194,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+192,194,35,New York Giants,2,NFC,NFC East,,,,false,,,
+194,194,39,Philadelphia Eagles,2,NFC,NFC East,,,LAST,false,,,
+189,194,31,Minnesota Vikings,2,NFC,NFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+179,194,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+173,194,9,Chicago Bears,2,NFC,NFC Central,,,LAST_TIED,false,,,
+180,194,20,Green Bay Packers,2,NFC,NFC Central,,,LAST_TIED,false,,,
+187,194,27,Los Angeles Rams,2,NFC,NFC West,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+196,194,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+166,194,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+191,194,34,New Orleans Saints,2,NFC,NFC West,LAST_TIED,LAST,LAST,false,,,
+182,198,4,Baltimore Colts,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+190,198,5,New England Patriots,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+188,198,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+193,198,35,New York Jets,2,AFC,AFC East,,,,false,,,
+171,198,6,Buffalo Bills,2,AFC,AFC East,,,LAST,false,,,
+195,198,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST_TIED,true,1,false,false
+174,198,10,Cincinnati Bengals,2,AFC,AFC Central,,,FIRST_TIED,false,,,
+176,198,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+200,198,22,Houston Oilers,2,AFC,AFC Central,,,LAST,false,,,
+185,198,52,Oakland Raiders,2,AFC,AFC West,FIRST,FIRST,FIRST,true,3,true,true
+178,198,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+186,198,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+184,198,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+199,198,58,Tampa Bay Buccaneers,2,AFC,AFC West,LAST,LAST,LAST,false,,,
+177,198,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST,true,0,false,false
+201,198,63,Washington Redskins,2,NFC,NFC East,,,,true,0,false,false
+165,198,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+194,198,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+192,198,35,New York Giants,2,NFC,NFC East,,,LAST,false,,,
+189,198,31,Minnesota Vikings,2,NFC,NFC Central,,FIRST,FIRST,true,2,true,false
+173,198,9,Chicago Bears,2,NFC,NFC Central,,,,false,,,
+179,198,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+180,198,20,Green Bay Packers,2,NFC,NFC Central,,,LAST,false,,,
+187,198,27,Los Angeles Rams,2,NFC,NFC West,,,FIRST,true,1,false,false
+196,198,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+166,198,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+191,198,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+197,198,53,Seattle Seahawks,2,NFC,NFC West,,LAST,LAST,false,,,
+182,202,4,Baltimore Colts,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+188,202,29,Miami Dolphins,2,AFC,AFC East,,,FIRST_TIED,false,,,
+190,202,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+171,202,6,Buffalo Bills,2,AFC,AFC East,,,LAST_TIED,false,,,
+193,202,35,New York Jets,2,AFC,AFC East,,,LAST_TIED,false,,,
+195,202,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST,true,0,false,false
+174,202,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+200,202,22,Houston Oilers,2,AFC,AFC Central,,,,false,,,
+176,202,11,Cleveland Browns,2,AFC,AFC Central,,,LAST,false,,,
+178,202,15,Denver Broncos,2,AFC,AFC West,FIRST_TIED,FIRST,FIRST,true,2,true,false
+185,202,52,Oakland Raiders,2,AFC,AFC West,,,,true,1,false,false
+186,202,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+197,202,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+184,202,25,Kansas City Chiefs,2,AFC,AFC West,LAST_TIED,LAST,LAST,false,,,
+177,202,13,Dallas Cowboys,2,NFC,NFC East,FIRST_TIED,FIRST,FIRST,true,3,true,true
+201,202,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+165,202,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+194,202,39,Philadelphia Eagles,2,NFC,NFC East,,,LAST_TIED,false,,,
+192,202,35,New York Giants,2,NFC,NFC East,,,LAST_TIED,false,,,
+189,202,31,Minnesota Vikings,2,NFC,NFC Central,,,FIRST_TIED,true,1,false,false
+173,202,9,Chicago Bears,2,NFC,NFC Central,,,FIRST_TIED,true,0,false,false
+179,202,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+180,202,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+199,202,58,Tampa Bay Buccaneers,2,NFC,NFC Central,LAST_TIED,LAST,LAST,false,,,
+187,202,27,Los Angeles Rams,2,NFC,NFC West,,,FIRST,true,0,false,false
+166,202,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+196,202,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+191,202,34,New Orleans Saints,2,NFC,NFC West,,,LAST,false,,,
+190,206,5,New England Patriots,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+188,206,29,Miami Dolphins,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+193,206,35,New York Jets,2,AFC,AFC East,,,,false,,,
+171,206,6,Buffalo Bills,2,AFC,AFC East,,,LAST_TIED,false,,,
+182,206,4,Baltimore Colts,2,AFC,AFC East,,,LAST_TIED,false,,,
+195,206,41,Pittsburgh Steelers,2,AFC,AFC Central,FIRST,FIRST,FIRST,true,3,true,true
+200,206,22,Houston Oilers,2,AFC,AFC Central,,,,true,2,false,false
+176,206,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+174,206,10,Cincinnati Bengals,2,AFC,AFC Central,,LAST_TIED,LAST,false,,,
+178,206,15,Denver Broncos,2,AFC,AFC West,,,FIRST,true,0,false,false
+185,206,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+197,206,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+186,206,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+184,206,25,Kansas City Chiefs,2,AFC,AFC West,,LAST_TIED,LAST,false,,,
+177,206,13,Dallas Cowboys,2,NFC,NFC East,,FIRST_TIED,FIRST,true,2,true,false
+194,206,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,0,false,false
+201,206,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+165,206,56,St. Louis Cardinals,2,NFC,NFC East,,,LAST_TIED,false,,,
+192,206,35,New York Giants,2,NFC,NFC East,,,LAST_TIED,false,,,
+189,206,31,Minnesota Vikings,2,NFC,NFC Central,,,FIRST_TIED,true,0,false,false
+180,206,20,Green Bay Packers,2,NFC,NFC Central,,,FIRST_TIED,false,,,
+179,206,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+173,206,9,Chicago Bears,2,NFC,NFC Central,,,,false,,,
+199,206,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,LAST,false,,,
+187,206,27,Los Angeles Rams,2,NFC,NFC West,,FIRST_TIED,FIRST,true,1,false,false
+166,206,2,Atlanta Falcons,2,NFC,NFC West,,,,true,1,false,false
+191,206,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+196,206,52,San Francisco 49ers,2,NFC,NFC West,LAST,LAST,LAST,false,,,
+188,210,29,Miami Dolphins,2,AFC,AFC East,,,FIRST,true,0,false,false
+190,210,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,210,35,New York Jets,2,AFC,AFC East,,,,false,,,
+171,210,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+182,210,4,Baltimore Colts,2,AFC,AFC East,,,LAST,false,,,
+195,210,41,Pittsburgh Steelers,2,AFC,AFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,3,true,true
+200,210,22,Houston Oilers,2,AFC,AFC Central,,,,true,2,false,false
+176,210,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+174,210,10,Cincinnati Bengals,2,AFC,AFC Central,,LAST,LAST,false,,,
+186,210,51,San Diego Chargers,2,AFC,AFC West,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+178,210,15,Denver Broncos,2,AFC,AFC West,,,,true,0,false,false
+197,210,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+185,210,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+184,210,25,Kansas City Chiefs,2,AFC,AFC West,,,LAST,false,,,
+177,210,13,Dallas Cowboys,2,NFC,NFC East,,FIRST_TIED,FIRST_TIED,true,0,false,false
+194,210,39,Philadelphia Eagles,2,NFC,NFC East,,FIRST_TIED,FIRST_TIED,true,1,false,false
+201,210,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+192,210,35,New York Giants,2,NFC,NFC East,,,,false,,,
+165,210,56,St. Louis Cardinals,2,NFC,NFC East,,,LAST,false,,,
+199,210,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,FIRST_TIED,true,1,false,false
+173,210,9,Chicago Bears,2,NFC,NFC Central,,,FIRST_TIED,true,0,false,false
+189,210,31,Minnesota Vikings,2,NFC,NFC Central,,,,false,,,
+180,210,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+179,210,16,Detroit Lions,2,NFC,NFC Central,LAST_TIED,LAST_TIED,LAST,false,,,
+187,210,27,Los Angeles Rams,2,NFC,NFC West,,,FIRST,true,2,true,false
+191,210,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+166,210,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+196,210,52,San Francisco 49ers,2,NFC,NFC West,LAST_TIED,LAST_TIED,LAST,false,,,
+171,214,6,Buffalo Bills,2,AFC,AFC East,,FIRST_TIED,FIRST,true,0,false,false
+190,214,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+188,214,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+182,214,4,Baltimore Colts,2,AFC,AFC East,,,,false,,,
+193,214,35,New York Jets,2,AFC,AFC East,,LAST_TIED,LAST,false,,,
+176,214,11,Cleveland Browns,2,AFC,AFC Central,,FIRST_TIED,FIRST_TIED,true,0,false,false
+200,214,22,Houston Oilers,2,AFC,AFC Central,,FIRST_TIED,FIRST_TIED,true,0,false,false
+195,214,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+174,214,10,Cincinnati Bengals,2,AFC,AFC Central,,,LAST,false,,,
+186,214,51,San Diego Chargers,2,AFC,AFC West,,FIRST_TIED,FIRST_TIED,true,1,false,false
+185,214,52,Oakland Raiders,2,AFC,AFC West,,FIRST_TIED,FIRST_TIED,true,4,true,true
+184,214,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+178,214,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+197,214,53,Seattle Seahawks,2,AFC,AFC West,,LAST_TIED,LAST,false,,,
+194,214,39,Philadelphia Eagles,2,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,2,true,false
+177,214,13,Dallas Cowboys,2,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,2,false,false
+201,214,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+165,214,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+192,214,35,New York Giants,2,NFC,NFC East,,,LAST,false,,,
+189,214,31,Minnesota Vikings,2,NFC,NFC Central,,,FIRST_TIED,true,0,false,false
+179,214,16,Detroit Lions,2,NFC,NFC Central,,,FIRST_TIED,false,,,
+173,214,9,Chicago Bears,2,NFC,NFC Central,,,,false,,,
+199,214,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,LAST_TIED,false,,,
+180,214,20,Green Bay Packers,2,NFC,NFC Central,,,LAST_TIED,false,,,
+166,214,2,Atlanta Falcons,2,NFC,NFC West,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+187,214,27,Los Angeles Rams,2,NFC,NFC West,,,,true,0,false,false
+196,214,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+191,214,34,New Orleans Saints,2,NFC,NFC West,LAST,LAST,LAST,false,,,
+188,218,29,Miami Dolphins,2,AFC,AFC East,,,FIRST,true,0,false,false
+193,218,35,New York Jets,2,AFC,AFC East,,,,true,0,false,false
+171,218,6,Buffalo Bills,2,AFC,AFC East,,,,true,1,false,false
+182,218,4,Baltimore Colts,2,AFC,AFC East,LAST_TIED,LAST_TIED,LAST_TIED,false,,,
+190,218,5,New England Patriots,2,AFC,AFC East,LAST_TIED,LAST_TIED,LAST_TIED,false,,,
+174,218,10,Cincinnati Bengals,2,AFC,AFC Central,,FIRST,FIRST,true,2,true,false
+195,218,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+200,218,22,Houston Oilers,2,AFC,AFC Central,,,,false,,,
+176,218,11,Cleveland Browns,2,AFC,AFC Central,,,LAST,false,,,
+186,218,51,San Diego Chargers,2,AFC,AFC West,,,FIRST_TIED,true,1,false,false
+178,218,15,Denver Broncos,2,AFC,AFC West,,,FIRST_TIED,false,,,
+184,218,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+185,218,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+197,218,53,Seattle Seahawks,2,AFC,AFC West,,,LAST,false,,,
+177,218,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST,true,1,false,false
+194,218,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,0,false,false
+192,218,35,New York Giants,2,NFC,NFC East,,,,true,1,false,false
+201,218,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+165,218,56,St. Louis Cardinals,2,NFC,NFC East,,,LAST,false,,,
+199,218,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,FIRST,true,0,false,false
+179,218,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+180,218,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+189,218,31,Minnesota Vikings,2,NFC,NFC Central,,,,false,,,
+173,218,9,Chicago Bears,2,NFC,NFC Central,,,LAST,false,,,
+196,218,52,San Francisco 49ers,2,NFC,NFC West,FIRST,FIRST,FIRST,true,3,true,true
+166,218,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+187,218,27,Los Angeles Rams,2,NFC,NFC West,,,,false,,,
+191,218,34,New Orleans Saints,2,NFC,NFC West,,LAST,LAST,false,,,
+185,222,27,Los Angeles Raiders,2,AFC,,FIRST_TIED,FIRST,,true,1,false,false
+188,222,29,Miami Dolphins,2,AFC,,,,,true,3,true,false
+174,222,10,Cincinnati Bengals,2,AFC,,,,,true,0,false,false
+195,222,41,Pittsburgh Steelers,2,AFC,,,,,true,0,false,false
+186,222,51,San Diego Chargers,2,AFC,,,,,true,1,false,false
+193,222,35,New York Jets,2,AFC,,,,,true,2,false,false
+190,222,5,New England Patriots,2,AFC,,,,,true,0,false,false
+176,222,11,Cleveland Browns,2,AFC,,,,,true,0,false,false
+171,222,6,Buffalo Bills,2,AFC,,,,,false,,,
+197,222,53,Seattle Seahawks,2,AFC,,,,,false,,,
+184,222,25,Kansas City Chiefs,2,AFC,,,,,false,,,
+178,222,15,Denver Broncos,2,AFC,,,,,false,,,
+200,222,22,Houston Oilers,2,AFC,,,,,false,,,
+182,222,4,Baltimore Colts,2,AFC,,LAST,LAST,,false,,,
+201,222,63,Washington Redskins,2,NFC,,FIRST_TIED,FIRST,,true,4,true,true
+177,222,13,Dallas Cowboys,2,NFC,,,,,true,2,false,false
+180,222,20,Green Bay Packers,2,NFC,,,,,true,1,false,false
+189,222,31,Minnesota Vikings,2,NFC,,,,,true,1,false,false
+166,222,2,Atlanta Falcons,2,NFC,,,,,true,0,false,false
+165,222,56,St. Louis Cardinals,2,NFC,,,,,true,0,false,false
+199,222,58,Tampa Bay Buccaneers,2,NFC,,,,,true,0,false,false
+179,222,16,Detroit Lions,2,NFC,,,,,true,0,false,false
+191,222,34,New Orleans Saints,2,NFC,,,,,false,,,
+192,222,35,New York Giants,2,NFC,,,,,false,,,
+196,222,52,San Francisco 49ers,2,NFC,,,,,false,,,
+173,222,9,Chicago Bears,2,NFC,,,,,false,,,
+194,222,39,Philadelphia Eagles,2,NFC,,,,,false,,,
+187,222,27,Los Angeles Rams,2,NFC,,,LAST,,false,,,
+188,226,29,Miami Dolphins,2,AFC,AFC East,,FIRST_TIED,FIRST,true,0,false,false
+190,226,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+171,226,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+182,226,4,Baltimore Colts,2,AFC,AFC East,,,LAST_TIED,false,,,
+193,226,35,New York Jets,2,AFC,AFC East,,,LAST_TIED,false,,,
+195,226,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST,true,0,false,false
+176,226,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+174,226,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+200,226,22,Houston Oilers,2,AFC,AFC Central,LAST_TIED,LAST,LAST,false,,,
+185,226,27,Los Angeles Raiders,2,AFC,AFC West,,FIRST_TIED,FIRST,true,3,true,true
+197,226,53,Seattle Seahawks,2,AFC,AFC West,,,,true,2,false,false
+178,226,15,Denver Broncos,2,AFC,AFC West,,,,true,0,false,false
+186,226,51,San Diego Chargers,2,AFC,AFC West,,,LAST_TIED,false,,,
+184,226,25,Kansas City Chiefs,2,AFC,AFC West,,,LAST_TIED,false,,,
+201,226,63,Washington Redskins,2,NFC,NFC East,FIRST,FIRST,FIRST,true,2,true,false
+177,226,13,Dallas Cowboys,2,NFC,NFC East,,,,true,0,false,false
+165,226,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+194,226,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+192,226,35,New York Giants,2,NFC,NFC East,,,LAST,false,,,
+179,226,16,Detroit Lions,2,NFC,NFC Central,,,FIRST,true,0,false,false
+180,226,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+173,226,9,Chicago Bears,2,NFC,NFC Central,,,,false,,,
+189,226,31,Minnesota Vikings,2,NFC,NFC Central,,,,false,,,
+199,226,58,Tampa Bay Buccaneers,2,NFC,NFC Central,LAST_TIED,LAST,LAST,false,,,
+196,226,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,1,false,false
+187,226,27,Los Angeles Rams,2,NFC,NFC West,,,,true,1,false,false
+191,226,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+166,226,2,Atlanta Falcons,2,NFC,NFC West,,,LAST,false,,,
+188,230,29,Miami Dolphins,2,AFC,AFC East,,FIRST,FIRST,true,2,true,false
+190,230,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,230,35,New York Jets,2,AFC,AFC East,,,,false,,,
+182,230,23,Indianapolis Colts,2,AFC,AFC East,,,,false,,,
+171,230,6,Buffalo Bills,2,AFC,AFC East,LAST,LAST,LAST,false,,,
+195,230,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST,true,1,false,false
+174,230,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+176,230,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+200,230,22,Houston Oilers,2,AFC,AFC Central,,,LAST,false,,,
+178,230,15,Denver Broncos,2,AFC,AFC West,,,FIRST,true,0,false,false
+197,230,53,Seattle Seahawks,2,AFC,AFC West,,,,true,1,false,false
+185,230,27,Los Angeles Raiders,2,AFC,AFC West,,,,true,0,false,false
+184,230,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+186,230,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+201,230,63,Washington Redskins,2,NFC,NFC East,,,FIRST,true,0,false,false
+192,230,35,New York Giants,2,NFC,NFC East,,,,true,1,false,false
+165,230,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+177,230,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+194,230,39,Philadelphia Eagles,2,NFC,NFC East,,,LAST,false,,,
+173,230,9,Chicago Bears,2,NFC,NFC Central,,,FIRST,true,1,false,false
+180,230,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+199,230,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,,false,,,
+179,230,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+189,230,31,Minnesota Vikings,2,NFC,NFC Central,,LAST,LAST,false,,,
+196,230,52,San Francisco 49ers,2,NFC,NFC West,FIRST,FIRST,FIRST,true,3,true,true
+187,230,27,Los Angeles Rams,2,NFC,NFC West,,,,true,0,false,false
+191,230,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+166,230,2,Atlanta Falcons,2,NFC,NFC West,,,LAST,false,,,
+188,234,29,Miami Dolphins,2,AFC,AFC East,,FIRST_TIED,FIRST,true,1,false,false
+193,234,35,New York Jets,2,AFC,AFC East,,,,true,0,false,false
+190,234,5,New England Patriots,2,AFC,AFC East,,,,true,3,true,false
+182,234,23,Indianapolis Colts,2,AFC,AFC East,,,,false,,,
+171,234,6,Buffalo Bills,2,AFC,AFC East,LAST_TIED,LAST,LAST,false,,,
+176,234,11,Cleveland Browns,2,AFC,AFC Central,,,FIRST,true,0,false,false
+174,234,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+195,234,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+200,234,22,Houston Oilers,2,AFC,AFC Central,,,LAST,false,,,
+185,234,27,Los Angeles Raiders,2,AFC,AFC West,,FIRST_TIED,FIRST,true,0,false,false
+178,234,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+197,234,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+186,234,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+184,234,25,Kansas City Chiefs,2,AFC,AFC West,,,LAST,false,,,
+177,234,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST_TIED,true,0,false,false
+192,234,35,New York Giants,2,NFC,NFC East,,,FIRST_TIED,true,1,false,false
+201,234,63,Washington Redskins,2,NFC,NFC East,,,FIRST_TIED,false,,,
+194,234,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+165,234,56,St. Louis Cardinals,2,NFC,NFC East,,,LAST,false,,,
+173,234,9,Chicago Bears,2,NFC,NFC Central,FIRST,FIRST,FIRST,true,3,true,true
+180,234,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+189,234,31,Minnesota Vikings,2,NFC,NFC Central,,,,false,,,
+179,234,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+199,234,58,Tampa Bay Buccaneers,2,NFC,NFC Central,LAST_TIED,LAST,LAST,false,,,
+187,234,27,Los Angeles Rams,2,NFC,NFC West,,,FIRST,true,1,false,false
+196,234,52,San Francisco 49ers,2,NFC,NFC West,,,,true,0,false,false
+191,234,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+166,234,2,Atlanta Falcons,2,NFC,NFC West,,,LAST,false,,,
+190,238,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,0,false,false
+193,238,35,New York Jets,2,AFC,AFC East,,,,true,1,false,false
+188,238,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+171,238,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+182,238,23,Indianapolis Colts,2,AFC,AFC East,,LAST,LAST,false,,,
+176,238,11,Cleveland Browns,2,AFC,AFC Central,,FIRST,FIRST,true,1,false,false
+174,238,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+195,238,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+200,238,22,Houston Oilers,2,AFC,AFC Central,,,LAST,false,,,
+178,238,15,Denver Broncos,2,AFC,AFC West,,,FIRST,true,2,true,false
+184,238,25,Kansas City Chiefs,2,AFC,AFC West,,,,true,0,false,false
+197,238,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+185,238,27,Los Angeles Raiders,2,AFC,AFC West,,,,false,,,
+186,238,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+192,238,35,New York Giants,2,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST,true,3,true,true
+201,238,63,Washington Redskins,2,NFC,NFC East,,,,true,2,false,false
+177,238,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+194,238,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+165,238,56,St. Louis Cardinals,2,NFC,NFC East,,,LAST,false,,,
+173,238,9,Chicago Bears,2,NFC,NFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+189,238,31,Minnesota Vikings,2,NFC,NFC Central,,,,false,,,
+179,238,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+180,238,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+199,238,58,Tampa Bay Buccaneers,2,NFC,NFC Central,LAST,LAST,LAST,false,,,
+196,238,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,0,false,false
+187,238,27,Los Angeles Rams,2,NFC,NFC West,,,,true,0,false,false
+166,238,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+191,238,34,New Orleans Saints,2,NFC,NFC West,,,LAST,false,,,
+182,242,23,Indianapolis Colts,2,AFC,AFC East,,,FIRST,true,0,false,false
+190,242,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+188,242,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+171,242,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+193,242,35,New York Jets,2,AFC,AFC East,,,LAST,false,,,
+176,242,11,Cleveland Browns,2,AFC,AFC Central,,,FIRST,true,1,false,false
+200,242,22,Houston Oilers,2,AFC,AFC Central,,,,true,1,false,false
+195,242,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+174,242,10,Cincinnati Bengals,2,AFC,AFC Central,,LAST_TIED,LAST,false,,,
+178,242,15,Denver Broncos,2,AFC,AFC West,,FIRST,FIRST,true,2,true,false
+197,242,53,Seattle Seahawks,2,AFC,AFC West,,,,true,0,false,false
+186,242,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+185,242,27,Los Angeles Raiders,2,AFC,AFC West,,,,false,,,
+184,242,25,Kansas City Chiefs,2,AFC,AFC West,,LAST_TIED,LAST,false,,,
+201,242,63,Washington Redskins,2,NFC,NFC East,,,FIRST,true,3,true,true
+177,242,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+165,242,56,St. Louis Cardinals,2,NFC,NFC East,,,,false,,,
+194,242,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+192,242,35,New York Giants,2,NFC,NFC East,,,LAST,false,,,
+173,242,9,Chicago Bears,2,NFC,NFC Central,,,FIRST,true,0,false,false
+189,242,31,Minnesota Vikings,2,NFC,NFC Central,,,,true,2,false,false
+180,242,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+199,242,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,LAST_TIED,false,,,
+179,242,16,Detroit Lions,2,NFC,NFC Central,,,LAST_TIED,false,,,
+196,242,52,San Francisco 49ers,2,NFC,NFC West,FIRST,FIRST,FIRST,true,0,false,false
+191,242,34,New Orleans Saints,2,NFC,NFC West,,,,true,0,false,false
+187,242,27,Los Angeles Rams,2,NFC,NFC West,,,,false,,,
+166,242,2,Atlanta Falcons,2,NFC,NFC West,LAST,LAST,LAST,false,,,
+171,246,6,Buffalo Bills,2,AFC,AFC East,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+182,246,23,Indianapolis Colts,2,AFC,AFC East,,,,false,,,
+190,246,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,246,35,New York Jets,2,AFC,AFC East,,,,false,,,
+188,246,29,Miami Dolphins,2,AFC,AFC East,,,LAST,false,,,
+174,246,10,Cincinnati Bengals,2,AFC,AFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
+176,246,11,Cleveland Browns,2,AFC,AFC Central,,,,true,0,false,false
+200,246,22,Houston Oilers,2,AFC,AFC Central,,,,true,1,false,false
+195,246,41,Pittsburgh Steelers,2,AFC,AFC Central,,,LAST,false,,,
+197,246,53,Seattle Seahawks,2,AFC,AFC West,,,FIRST,true,0,false,false
+178,246,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+185,246,27,Los Angeles Raiders,2,AFC,AFC West,,,,false,,,
+186,246,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+184,246,25,Kansas City Chiefs,2,AFC,AFC West,,LAST,LAST,false,,,
+194,246,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST_TIED,true,0,false,false
+192,246,35,New York Giants,2,NFC,NFC East,,,FIRST_TIED,false,,,
+201,246,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+165,246,40,Phoenix Cardinals,2,NFC,NFC East,,,,false,,,
+177,246,13,Dallas Cowboys,2,NFC,NFC East,LAST,LAST,LAST,false,,,
+173,246,9,Chicago Bears,2,NFC,NFC Central,FIRST_TIED,FIRST,FIRST,true,1,false,false
+189,246,31,Minnesota Vikings,2,NFC,NFC Central,,,,true,1,false,false
+199,246,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,,false,,,
+179,246,16,Detroit Lions,2,NFC,NFC Central,,,LAST_TIED,false,,,
+180,246,20,Green Bay Packers,2,NFC,NFC Central,,,LAST_TIED,false,,,
+196,246,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST_TIED,true,3,true,true
+187,246,27,Los Angeles Rams,2,NFC,NFC West,,,FIRST_TIED,true,0,false,false
+191,246,34,New Orleans Saints,2,NFC,NFC West,,,FIRST_TIED,false,,,
+166,246,2,Atlanta Falcons,2,NFC,NFC West,,,LAST,false,,,
+171,250,6,Buffalo Bills,2,AFC,AFC East,,,FIRST,true,0,false,false
+182,250,23,Indianapolis Colts,2,AFC,AFC East,,,,false,,,
+188,250,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+190,250,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,250,35,New York Jets,2,AFC,AFC East,,LAST,LAST,false,,,
+176,250,11,Cleveland Browns,2,AFC,AFC Central,,,FIRST,true,1,false,false
+200,250,22,Houston Oilers,2,AFC,AFC Central,,,,true,0,false,false
+195,250,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,true,1,false,false
+174,250,10,Cincinnati Bengals,2,AFC,AFC Central,,,LAST,false,,,
+178,250,15,Denver Broncos,2,AFC,AFC West,,FIRST,FIRST,true,2,true,false
+184,250,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+185,250,27,Los Angeles Raiders,2,AFC,AFC West,,,,false,,,
+197,250,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+186,250,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+192,250,35,New York Giants,2,NFC,NFC East,,,FIRST,true,0,false,false
+194,250,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,0,false,false
+201,250,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+165,250,40,Phoenix Cardinals,2,NFC,NFC East,,,,false,,,
+177,250,13,Dallas Cowboys,2,NFC,NFC East,LAST,LAST,LAST,false,,,
+189,250,31,Minnesota Vikings,2,NFC,NFC Central,,,FIRST_TIED,true,0,false,false
+180,250,20,Green Bay Packers,2,NFC,NFC Central,,,FIRST_TIED,false,,,
+179,250,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+173,250,9,Chicago Bears,2,NFC,NFC Central,,,,false,,,
+199,250,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,LAST,false,,,
+196,250,52,San Francisco 49ers,2,NFC,NFC West,FIRST,FIRST,FIRST,true,3,true,true
+187,250,27,Los Angeles Rams,2,NFC,NFC West,,,,true,2,false,false
+191,250,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+166,250,2,Atlanta Falcons,2,NFC,NFC West,,,LAST,false,,,
+171,254,6,Buffalo Bills,2,AFC,AFC East,,FIRST,FIRST,true,2,true,false
+188,254,29,Miami Dolphins,2,AFC,AFC East,,,,true,1,false,false
+182,254,23,Indianapolis Colts,2,AFC,AFC East,,,,false,,,
+193,254,35,New York Jets,2,AFC,AFC East,,,,false,,,
+190,254,5,New England Patriots,2,AFC,AFC East,LAST,LAST,LAST,false,,,
+174,254,10,Cincinnati Bengals,2,AFC,AFC Central,,,FIRST_TIED,true,1,false,false
+200,254,22,Houston Oilers,2,AFC,AFC Central,,,FIRST_TIED,true,0,false,false
+195,254,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST_TIED,false,,,
+176,254,11,Cleveland Browns,2,AFC,AFC Central,,,LAST,false,,,
+185,254,27,Los Angeles Raiders,2,AFC,AFC West,,,FIRST,true,1,false,false
+184,254,25,Kansas City Chiefs,2,AFC,AFC West,,,,true,0,false,false
+197,254,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+186,254,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+178,254,15,Denver Broncos,2,AFC,AFC West,,,LAST,false,,,
+192,254,35,New York Giants,2,NFC,NFC East,,,FIRST,true,3,true,true
+194,254,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,0,false,false
+201,254,63,Washington Redskins,2,NFC,NFC East,,,,true,1,false,false
+177,254,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+165,254,40,Phoenix Cardinals,2,NFC,NFC East,,LAST_TIED,LAST,false,,,
+173,254,9,Chicago Bears,2,NFC,NFC Central,,,FIRST,true,1,false,false
+199,254,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,LAST_TIED,false,,,
+179,254,16,Detroit Lions,2,NFC,NFC Central,,,LAST_TIED,false,,,
+180,254,20,Green Bay Packers,2,NFC,NFC Central,,,LAST_TIED,false,,,
+189,254,31,Minnesota Vikings,2,NFC,NFC Central,,,LAST_TIED,false,,,
+196,254,52,San Francisco 49ers,2,NFC,NFC West,FIRST,FIRST,FIRST,true,1,false,false
+191,254,34,New Orleans Saints,2,NFC,NFC West,,,,true,0,false,false
+187,254,27,Los Angeles Rams,2,NFC,NFC West,,LAST_TIED,LAST_TIED,false,,,
+166,254,2,Atlanta Falcons,2,NFC,NFC West,,LAST_TIED,LAST_TIED,false,,,
+171,258,6,Buffalo Bills,2,AFC,AFC East,,FIRST,FIRST,true,2,true,false
+193,258,35,New York Jets,2,AFC,AFC East,,,,true,0,false,false
+188,258,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+190,258,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+182,258,23,Indianapolis Colts,2,AFC,AFC East,LAST,LAST,LAST,false,,,
+200,258,22,Houston Oilers,2,AFC,AFC Central,,,FIRST,true,1,false,false
+195,258,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+176,258,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+174,258,10,Cincinnati Bengals,2,AFC,AFC Central,,,LAST,false,,,
+178,258,15,Denver Broncos,2,AFC,AFC West,,,FIRST,true,1,false,false
+184,258,25,Kansas City Chiefs,2,AFC,AFC West,,,,true,1,false,false
+185,258,27,Los Angeles Raiders,2,AFC,AFC West,,,,true,0,false,false
+197,258,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+186,258,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+201,258,63,Washington Redskins,2,NFC,NFC East,FIRST,FIRST,FIRST,true,3,true,true
+177,258,13,Dallas Cowboys,2,NFC,NFC East,,,,true,1,false,false
+194,258,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+192,258,35,New York Giants,2,NFC,NFC East,,,,false,,,
+165,258,40,Phoenix Cardinals,2,NFC,NFC East,,,LAST,false,,,
+179,258,16,Detroit Lions,2,NFC,NFC Central,,,FIRST,true,1,false,false
+173,258,9,Chicago Bears,2,NFC,NFC Central,,,,true,0,false,false
+189,258,31,Minnesota Vikings,2,NFC,NFC Central,,,,false,,,
+180,258,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+199,258,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,LAST_TIED,LAST,false,,,
+191,258,34,New Orleans Saints,2,NFC,NFC West,,,FIRST,true,0,false,false
+166,258,2,Atlanta Falcons,2,NFC,NFC West,,,,true,1,false,false
+196,258,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+187,258,27,Los Angeles Rams,2,NFC,NFC West,,LAST_TIED,LAST,false,,,
+188,262,29,Miami Dolphins,2,AFC,AFC East,,FIRST_TIED,FIRST_TIED,true,1,false,false
+171,262,6,Buffalo Bills,2,AFC,AFC East,,FIRST_TIED,FIRST_TIED,true,3,true,false
+182,262,23,Indianapolis Colts,2,AFC,AFC East,,,,false,,,
+193,262,35,New York Jets,2,AFC,AFC East,,,,false,,,
+190,262,5,New England Patriots,2,AFC,AFC East,LAST_TIED,LAST_TIED,LAST,false,,,
+195,262,41,Pittsburgh Steelers,2,AFC,AFC Central,,FIRST_TIED,FIRST,true,0,false,false
+200,262,22,Houston Oilers,2,AFC,AFC Central,,,,true,0,false,false
+176,262,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+174,262,10,Cincinnati Bengals,2,AFC,AFC Central,,,LAST,false,,,
+186,262,51,San Diego Chargers,2,AFC,AFC West,,FIRST_TIED,FIRST,true,1,false,false
+184,262,25,Kansas City Chiefs,2,AFC,AFC West,,,,true,0,false,false
+178,262,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+185,262,27,Los Angeles Raiders,2,AFC,AFC West,,,,false,,,
+197,262,53,Seattle Seahawks,2,AFC,AFC West,LAST_TIED,LAST_TIED,LAST,false,,,
+177,262,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST,true,3,true,true
+194,262,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,1,false,false
+201,262,63,Washington Redskins,2,NFC,NFC East,,,,true,1,false,false
+192,262,35,New York Giants,2,NFC,NFC East,,,,false,,,
+165,262,40,Phoenix Cardinals,2,NFC,NFC East,,LAST,LAST,false,,,
+189,262,31,Minnesota Vikings,2,NFC,NFC Central,,,FIRST,true,0,false,false
+180,262,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+199,262,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,LAST_TIED,false,,,
+173,262,9,Chicago Bears,2,NFC,NFC Central,,,LAST_TIED,false,,,
+179,262,16,Detroit Lions,2,NFC,NFC Central,,,LAST_TIED,false,,,
+196,262,52,San Francisco 49ers,2,NFC,NFC West,FIRST,FIRST,FIRST,true,1,false,false
+191,262,34,New Orleans Saints,2,NFC,NFC West,,,,true,0,false,false
+166,262,2,Atlanta Falcons,2,NFC,NFC West,,,LAST_TIED,false,,,
+187,262,27,Los Angeles Rams,2,NFC,NFC West,,,LAST_TIED,false,,,
+171,266,6,Buffalo Bills,2,AFC,AFC East,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
+188,266,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+193,266,35,New York Jets,2,AFC,AFC East,,,,false,,,
+190,266,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+182,266,23,Indianapolis Colts,2,AFC,AFC East,,,LAST,false,,,
+200,266,22,Houston Oilers,2,AFC,AFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+195,266,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,true,0,false,false
+176,266,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+174,266,10,Cincinnati Bengals,2,AFC,AFC Central,LAST,LAST,LAST,false,,,
+184,266,25,Kansas City Chiefs,2,AFC,AFC West,,,FIRST,true,2,false,false
+185,266,27,Los Angeles Raiders,2,AFC,AFC West,,,,true,1,false,false
+178,266,15,Denver Broncos,2,AFC,AFC West,,,,true,0,false,false
+186,266,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+197,266,53,Seattle Seahawks,2,AFC,AFC West,,,LAST,false,,,
+177,266,13,Dallas Cowboys,2,NFC,NFC East,FIRST_TIED,FIRST,FIRST,true,3,true,true
+192,266,35,New York Giants,2,NFC,NFC East,,,,true,1,false,false
+194,266,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+165,266,40,Phoenix Cardinals,2,NFC,NFC East,,,,false,,,
+201,266,63,Washington Redskins,2,NFC,NFC East,,LAST,LAST,false,,,
+179,266,16,Detroit Lions,2,NFC,NFC Central,,,FIRST,true,0,false,false
+189,266,31,Minnesota Vikings,2,NFC,NFC Central,,,,true,0,false,false
+180,266,20,Green Bay Packers,2,NFC,NFC Central,,,,true,1,false,false
+173,266,9,Chicago Bears,2,NFC,NFC Central,,,,false,,,
+199,266,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,LAST,false,,,
+196,266,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,1,false,false
+191,266,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+166,266,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+187,266,27,Los Angeles Rams,2,NFC,NFC West,,,LAST,false,,,
+188,270,29,Miami Dolphins,2,AFC,AFC East,,,FIRST_TIED,true,1,false,false
+190,270,5,New England Patriots,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+182,270,23,Indianapolis Colts,2,AFC,AFC East,,,,false,,,
+171,270,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+193,270,35,New York Jets,2,AFC,AFC East,,,LAST,false,,,
+195,270,41,Pittsburgh Steelers,2,AFC,AFC Central,,FIRST,FIRST,true,1,false,false
+176,270,11,Cleveland Browns,2,AFC,AFC Central,,,,true,1,false,false
+174,270,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+200,270,22,Houston Oilers,2,AFC,AFC Central,LAST,LAST,LAST,false,,,
+186,270,51,San Diego Chargers,2,AFC,AFC West,,,FIRST,true,2,true,false
+184,270,25,Kansas City Chiefs,2,AFC,AFC West,,,,true,0,false,false
+185,270,27,Los Angeles Raiders,2,AFC,AFC West,,,,false,,,
+178,270,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+197,270,53,Seattle Seahawks,2,AFC,AFC West,,,LAST,false,,,
+177,270,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST,true,1,false,false
+192,270,35,New York Giants,2,NFC,NFC East,,,,false,,,
+165,270,40,Arizona Cardinals,2,NFC,NFC East,,,,false,,,
+194,270,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+201,270,63,Washington Redskins,2,NFC,NFC East,,LAST,LAST,false,,,
+189,270,31,Minnesota Vikings,2,NFC,NFC Central,,,FIRST,true,0,false,false
+180,270,20,Green Bay Packers,2,NFC,NFC Central,,,,true,1,false,false
+179,270,16,Detroit Lions,2,NFC,NFC Central,,,,true,0,false,false
+173,270,9,Chicago Bears,2,NFC,NFC Central,,,,true,1,false,false
+199,270,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,LAST,false,,,
+196,270,52,San Francisco 49ers,2,NFC,NFC West,FIRST,FIRST,FIRST,true,3,true,true
+191,270,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+166,270,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+187,270,27,Los Angeles Rams,2,NFC,NFC West,,,LAST,false,,,
+171,274,6,Buffalo Bills,2,AFC,AFC East,,,FIRST,true,1,false,false
+182,274,23,Indianapolis Colts,2,AFC,AFC East,,,,true,2,false,false
+188,274,29,Miami Dolphins,2,AFC,AFC East,,,,true,0,false,false
+190,274,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,274,35,New York Jets,2,AFC,AFC East,LAST,LAST,LAST,false,,,
+195,274,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST,true,2,true,false
+174,274,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+200,274,22,Houston Oilers,2,AFC,AFC Central,,,,false,,,
+176,274,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+183,274,24,Jacksonville Jaguars,2,AFC,AFC Central,,,LAST,false,,,
+184,274,25,Kansas City Chiefs,2,AFC,AFC West,FIRST,FIRST,FIRST,true,0,false,false
+186,274,51,San Diego Chargers,2,AFC,AFC West,,,,true,0,false,false
+197,274,53,Seattle Seahawks,2,AFC,AFC West,,,LAST_TIED,false,,,
+178,274,15,Denver Broncos,2,AFC,AFC West,,,LAST_TIED,false,,,
+185,274,52,Oakland Raiders,2,AFC,AFC West,,,LAST_TIED,false,,,
+177,274,13,Dallas Cowboys,2,NFC,NFC East,,FIRST,FIRST,true,3,true,true
+194,274,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,1,false,false
+201,274,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+192,274,35,New York Giants,2,NFC,NFC East,,,,false,,,
+165,274,40,Arizona Cardinals,2,NFC,NFC East,,LAST,LAST,false,,,
+180,274,20,Green Bay Packers,2,NFC,NFC Central,,,FIRST,true,2,false,false
+179,274,16,Detroit Lions,2,NFC,NFC Central,,,,true,0,false,false
+173,274,9,Chicago Bears,2,NFC,NFC Central,,,,false,,,
+189,274,31,Minnesota Vikings,2,NFC,NFC Central,,,,false,,,
+199,274,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,LAST,false,,,
+196,274,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,0,false,false
+166,274,2,Atlanta Falcons,2,NFC,NFC West,,,,true,0,false,false
+187,274,56,St. Louis Rams,2,NFC,NFC West,,,LAST_TIED,false,,,
+172,274,8,Carolina Panthers,2,NFC,NFC West,,,LAST_TIED,false,,,
+191,274,34,New Orleans Saints,2,NFC,NFC West,,,LAST_TIED,false,,,
+190,279,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,2,true,false
+171,279,6,Buffalo Bills,2,AFC,AFC East,,,,true,0,false,false
+182,279,23,Indianapolis Colts,2,AFC,AFC East,,,,true,0,false,false
+188,279,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+193,279,35,New York Jets,2,AFC,AFC East,LAST,LAST,LAST,false,,,
+195,279,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST,true,1,false,false
+183,279,24,Jacksonville Jaguars,2,AFC,AFC Central,,,,true,2,false,false
+174,279,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+200,279,22,Houston Oilers,2,AFC,AFC Central,,,,false,,,
+168,279,4,Baltimore Ravens,2,AFC,AFC Central,,,LAST,false,,,
+178,279,15,Denver Broncos,2,AFC,AFC West,FIRST_TIED,FIRST,FIRST,true,0,false,false
+184,279,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+186,279,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+185,279,52,Oakland Raiders,2,AFC,AFC West,,,LAST_TIED,false,,,
+197,279,53,Seattle Seahawks,2,AFC,AFC West,,,LAST_TIED,false,,,
+177,279,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST_TIED,true,1,false,false
+194,279,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST_TIED,true,0,false,false
+201,279,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+165,279,40,Arizona Cardinals,2,NFC,NFC East,,,,false,,,
+192,279,35,New York Giants,2,NFC,NFC East,,,LAST,false,,,
+180,279,20,Green Bay Packers,2,NFC,NFC Central,FIRST_TIED,FIRST,FIRST,true,3,true,true
+189,279,31,Minnesota Vikings,2,NFC,NFC Central,,,,true,0,false,false
+173,279,9,Chicago Bears,2,NFC,NFC Central,,,,false,,,
+199,279,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,,false,,,
+179,279,16,Detroit Lions,2,NFC,NFC Central,,,LAST,false,,,
+172,279,8,Carolina Panthers,2,NFC,NFC West,,,FIRST_TIED,true,1,false,false
+196,279,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST_TIED,true,1,false,false
+187,279,56,St. Louis Rams,2,NFC,NFC West,,,,false,,,
+166,279,2,Atlanta Falcons,2,NFC,NFC West,,LAST_TIED,LAST_TIED,false,,,
+191,279,34,New Orleans Saints,2,NFC,NFC West,,LAST_TIED,LAST_TIED,false,,,
+190,285,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,1,false,false
+188,285,29,Miami Dolphins,2,AFC,AFC East,,,,true,0,false,false
+193,285,35,New York Jets,2,AFC,AFC East,,,,false,,,
+171,285,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+182,285,23,Indianapolis Colts,2,AFC,AFC East,LAST,LAST,LAST,false,,,
+195,285,41,Pittsburgh Steelers,2,AFC,AFC Central,,,FIRST_TIED,true,1,false,false
+183,285,24,Jacksonville Jaguars,2,AFC,AFC Central,,,FIRST_TIED,true,0,false,false
+200,285,28,Tennessee Oilers,2,AFC,AFC Central,,,,false,,,
+174,285,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+168,285,4,Baltimore Ravens,2,AFC,AFC Central,,,LAST,false,,,
+184,285,25,Kansas City Chiefs,2,AFC,AFC West,FIRST_TIED,FIRST,FIRST,true,0,false,false
+178,285,15,Denver Broncos,2,AFC,AFC West,,,,true,4,true,true
+197,285,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+185,285,52,Oakland Raiders,2,AFC,AFC West,,,LAST_TIED,false,,,
+186,285,51,San Diego Chargers,2,AFC,AFC West,,,LAST_TIED,false,,,
+192,285,35,New York Giants,2,NFC,NFC East,,,FIRST,true,0,false,false
+201,285,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+194,285,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+177,285,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+165,285,40,Arizona Cardinals,2,NFC,NFC East,,LAST_TIED,LAST,false,,,
+180,285,20,Green Bay Packers,2,NFC,NFC Central,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
+199,285,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,,true,1,false,false
+179,285,16,Detroit Lions,2,NFC,NFC Central,,,,true,0,false,false
+189,285,31,Minnesota Vikings,2,NFC,NFC Central,,,,true,1,false,false
+173,285,9,Chicago Bears,2,NFC,NFC Central,,LAST_TIED,LAST,false,,,
+196,285,52,San Francisco 49ers,2,NFC,NFC West,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+172,285,8,Carolina Panthers,2,NFC,NFC West,,,,false,,,
+166,285,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+191,285,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+187,285,56,St. Louis Rams,2,NFC,NFC West,,,LAST,false,,,
+193,291,35,New York Jets,2,AFC,AFC East,,,FIRST,true,1,false,false
+188,291,29,Miami Dolphins,2,AFC,AFC East,,,,true,1,false,false
+171,291,6,Buffalo Bills,2,AFC,AFC East,,,,true,0,false,false
+190,291,5,New England Patriots,2,AFC,AFC East,,,,true,0,false,false
+182,291,23,Indianapolis Colts,2,AFC,AFC East,LAST_TIED,LAST_TIED,LAST,false,,,
+183,291,24,Jacksonville Jaguars,2,AFC,AFC Central,,,FIRST,true,1,false,false
+200,291,33,Tennessee Oilers,2,AFC,AFC Central,,,,false,,,
+195,291,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+168,291,4,Baltimore Ravens,2,AFC,AFC Central,,,,false,,,
+174,291,10,Cincinnati Bengals,2,AFC,AFC Central,LAST_TIED,LAST_TIED,LAST,false,,,
+178,291,15,Denver Broncos,2,AFC,AFC West,,FIRST,FIRST,true,3,true,true
+185,291,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+197,291,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+184,291,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+186,291,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+177,291,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST,true,0,false,false
+165,291,40,Arizona Cardinals,2,NFC,NFC East,,,,true,1,false,false
+192,291,35,New York Giants,2,NFC,NFC East,,,,false,,,
+201,291,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+194,291,39,Philadelphia Eagles,2,NFC,NFC East,LAST_TIED,LAST,LAST,false,,,
+189,291,31,Minnesota Vikings,2,NFC,NFC Central,FIRST,FIRST,FIRST,true,1,false,false
+180,291,20,Green Bay Packers,2,NFC,NFC Central,,,,true,0,false,false
+199,291,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,,false,,,
+179,291,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+173,291,9,Chicago Bears,2,NFC,NFC Central,,,LAST,false,,,
+166,291,2,Atlanta Falcons,2,NFC,NFC West,,,FIRST,true,2,true,false
+196,291,52,San Francisco 49ers,2,NFC,NFC West,,,,true,1,false,false
+191,291,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+172,291,8,Carolina Panthers,2,NFC,NFC West,,,LAST_TIED,false,,,
+187,291,56,St. Louis Rams,2,NFC,NFC West,,,LAST_TIED,false,,,
+182,297,23,Indianapolis Colts,2,AFC,AFC East,,,FIRST,true,0,false,false
+171,297,6,Buffalo Bills,2,AFC,AFC East,,,,true,0,false,false
+188,297,29,Miami Dolphins,2,AFC,AFC East,,,,true,1,false,false
+193,297,35,New York Jets,2,AFC,AFC East,,,LAST_TIED,false,,,
+190,297,5,New England Patriots,2,AFC,AFC East,,,LAST_TIED,false,,,
+183,297,24,Jacksonville Jaguars,2,AFC,AFC Central,FIRST,FIRST,FIRST,true,1,false,false
+200,297,33,Tennessee Titans,2,AFC,AFC Central,,,,true,3,true,false
+168,297,4,Baltimore Ravens,2,AFC,AFC Central,,,,false,,,
+195,297,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+174,297,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+176,297,11,Cleveland Browns,2,AFC,AFC Central,LAST,LAST,LAST,false,,,
+197,297,53,Seattle Seahawks,2,AFC,AFC West,,,FIRST_TIED,true,0,false,false
+184,297,25,Kansas City Chiefs,2,AFC,AFC West,,,FIRST_TIED,false,,,
+186,297,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+185,297,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+178,297,15,Denver Broncos,2,AFC,AFC West,,,LAST,false,,,
+201,297,63,Washington Redskins,2,NFC,NFC East,,,FIRST,true,1,false,false
+177,297,13,Dallas Cowboys,2,NFC,NFC East,,,,true,0,false,false
+192,297,35,New York Giants,2,NFC,NFC East,,,,false,,,
+165,297,40,Arizona Cardinals,2,NFC,NFC East,,,,false,,,
+194,297,39,Philadelphia Eagles,2,NFC,NFC East,,,LAST,false,,,
+199,297,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,FIRST,true,1,false,false
+189,297,31,Minnesota Vikings,2,NFC,NFC Central,,,,true,1,false,false
+179,297,16,Detroit Lions,2,NFC,NFC Central,,,,true,0,false,false
+180,297,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+173,297,9,Chicago Bears,2,NFC,NFC Central,,,LAST,false,,,
+187,297,56,St. Louis Rams,2,NFC,NFC West,,FIRST,FIRST,true,3,true,true
+172,297,8,Carolina Panthers,2,NFC,NFC West,,,,false,,,
+166,297,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+196,297,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+191,297,34,New Orleans Saints,2,NFC,NFC West,,LAST,LAST,false,,,
+188,303,29,Miami Dolphins,2,AFC,AFC East,,,FIRST,true,1,false,false
+182,303,23,Indianapolis Colts,2,AFC,AFC East,,,,true,0,false,false
+193,303,35,New York Jets,2,AFC,AFC East,,,,false,,,
+171,303,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+190,303,5,New England Patriots,2,AFC,AFC East,,,LAST,false,,,
+200,303,33,Tennessee Titans,2,AFC,AFC Central,FIRST,FIRST,FIRST,true,0,false,false
+168,303,4,Baltimore Ravens,2,AFC,AFC Central,,,,true,4,true,true
+195,303,41,Pittsburgh Steelers,2,AFC,AFC Central,,,,false,,,
+183,303,24,Jacksonville Jaguars,2,AFC,AFC Central,,,,false,,,
+174,303,10,Cincinnati Bengals,2,AFC,AFC Central,,,,false,,,
+176,303,11,Cleveland Browns,2,AFC,AFC Central,,,LAST,false,,,
+185,303,52,Oakland Raiders,2,AFC,AFC West,,,FIRST,true,1,false,false
+178,303,15,Denver Broncos,2,AFC,AFC West,,,,true,0,false,false
+184,303,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+197,303,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+186,303,51,San Diego Chargers,2,AFC,AFC West,LAST,LAST,LAST,false,,,
+192,303,35,New York Giants,2,NFC,NFC East,,FIRST,FIRST,true,2,true,false
+194,303,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,1,false,false
+201,303,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+177,303,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+165,303,40,Arizona Cardinals,2,NFC,NFC East,,LAST,LAST,false,,,
+189,303,31,Minnesota Vikings,2,NFC,NFC Central,,,FIRST,true,1,false,false
+199,303,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,,true,0,false,false
+180,303,20,Green Bay Packers,2,NFC,NFC Central,,,,false,,,
+179,303,16,Detroit Lions,2,NFC,NFC Central,,,,false,,,
+173,303,9,Chicago Bears,2,NFC,NFC Central,,,LAST,false,,,
+191,303,34,New Orleans Saints,2,NFC,NFC West,,,FIRST_TIED,true,1,false,false
+187,303,56,St. Louis Rams,2,NFC,NFC West,,,FIRST_TIED,true,0,false,false
+172,303,8,Carolina Panthers,2,NFC,NFC West,,,,false,,,
+196,303,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+166,303,2,Atlanta Falcons,2,NFC,NFC West,,,LAST,false,,,
+190,309,5,New England Patriots,2,AFC,AFC East,,,FIRST_TIED,true,3,true,true
+188,309,29,Miami Dolphins,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+193,309,35,New York Jets,2,AFC,AFC East,,,,true,0,false,false
+182,309,23,Indianapolis Colts,2,AFC,AFC East,,,,false,,,
+171,309,6,Buffalo Bills,2,AFC,AFC East,,LAST,LAST,false,,,
+195,309,41,Pittsburgh Steelers,2,AFC,AFC Central,,FIRST,FIRST,true,1,false,false
+168,309,4,Baltimore Ravens,2,AFC,AFC Central,,,,true,1,false,false
+176,309,11,Cleveland Browns,2,AFC,AFC Central,,,,false,,,
+200,309,33,Tennessee Titans,2,AFC,AFC Central,,,,false,,,
+183,309,24,Jacksonville Jaguars,2,AFC,AFC Central,,,LAST_TIED,false,,,
+174,309,10,Cincinnati Bengals,2,AFC,AFC Central,,,LAST_TIED,false,,,
+185,309,52,Oakland Raiders,2,AFC,AFC West,,,FIRST,true,1,false,false
+197,309,53,Seattle Seahawks,2,AFC,AFC West,,,,false,,,
+178,309,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+184,309,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+186,309,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+194,309,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST,true,2,false,false
+201,309,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+192,309,35,New York Giants,2,NFC,NFC East,,,,false,,,
+165,309,40,Arizona Cardinals,2,NFC,NFC East,,,,false,,,
+177,309,13,Dallas Cowboys,2,NFC,NFC East,,,LAST,false,,,
+173,309,9,Chicago Bears,2,NFC,NFC Central,,,FIRST,true,0,false,false
+180,309,20,Green Bay Packers,2,NFC,NFC Central,,,,true,1,false,false
+199,309,58,Tampa Bay Buccaneers,2,NFC,NFC Central,,,,true,0,false,false
+189,309,31,Minnesota Vikings,2,NFC,NFC Central,,,,false,,,
+179,309,16,Detroit Lions,2,NFC,NFC Central,,,LAST,false,,,
+187,309,56,St. Louis Rams,2,NFC,NFC West,FIRST,FIRST,FIRST,true,2,true,false
+196,309,52,San Francisco 49ers,2,NFC,NFC West,,,,true,0,false,false
+191,309,34,New Orleans Saints,2,NFC,NFC West,,,,false,,,
+166,309,2,Atlanta Falcons,2,NFC,NFC West,,,,false,,,
+172,309,8,Carolina Panthers,2,NFC,NFC West,LAST,LAST,LAST,false,,,
+193,315,35,New York Jets,2,AFC,AFC East,,,FIRST_TIED,true,1,false,false
+190,315,5,New England Patriots,2,AFC,AFC East,,,FIRST_TIED,false,,,
+188,315,29,Miami Dolphins,2,AFC,AFC East,,,FIRST_TIED,false,,,
+171,315,6,Buffalo Bills,2,AFC,AFC East,,,LAST,false,,,
+195,315,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST,true,1,false,false
+176,315,11,Cleveland Browns,2,AFC,AFC North,,,,true,0,false,false
+168,315,4,Baltimore Ravens,2,AFC,AFC North,,,,false,,,
+174,315,10,Cincinnati Bengals,2,AFC,AFC North,LAST,LAST,LAST,false,,,
+200,315,33,Tennessee Titans,2,AFC,AFC South,,FIRST_TIED,FIRST,true,1,false,false
+182,315,23,Indianapolis Colts,2,AFC,AFC South,,,,true,0,false,false
+183,315,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+181,315,22,Houston Texans,2,AFC,AFC South,,,LAST,false,,,
+185,315,52,Oakland Raiders,2,AFC,AFC West,,FIRST_TIED,FIRST,true,2,true,false
+178,315,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+186,315,51,San Diego Chargers,2,AFC,AFC West,,,LAST_TIED,false,,,
+184,315,25,Kansas City Chiefs,2,AFC,AFC West,,,LAST_TIED,false,,,
+194,315,39,Philadelphia Eagles,2,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+192,315,35,New York Giants,2,NFC,NFC East,,,,true,0,false,false
+201,315,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+177,315,13,Dallas Cowboys,2,NFC,NFC East,,,LAST,false,,,
+180,315,20,Green Bay Packers,2,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+189,315,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+173,315,9,Chicago Bears,2,NFC,NFC North,,,,false,,,
+179,315,16,Detroit Lions,2,NFC,NFC North,,LAST,LAST,false,,,
+199,315,58,Tampa Bay Buccaneers,2,NFC,NFC South,FIRST_TIED,FIRST_TIED,FIRST,true,3,true,true
+166,315,2,Atlanta Falcons,2,NFC,NFC South,,,,true,1,false,false
+191,315,34,New Orleans Saints,2,NFC,NFC South,,,,false,,,
+172,315,8,Carolina Panthers,2,NFC,NFC South,,,LAST,false,,,
+196,315,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,1,false,false
+187,315,56,St. Louis Rams,2,NFC,NFC West,,,,false,,,
+197,315,53,Seattle Seahawks,2,NFC,NFC West,,,,false,,,
+165,315,40,Arizona Cardinals,2,NFC,NFC West,,,LAST,false,,,
+190,321,5,New England Patriots,2,AFC,AFC East,FIRST,FIRST,FIRST,true,3,true,true
+188,321,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+171,321,6,Buffalo Bills,2,AFC,AFC East,,,LAST_TIED,false,,,
+193,321,35,New York Jets,2,AFC,AFC East,,,LAST_TIED,false,,,
+168,321,4,Baltimore Ravens,2,AFC,AFC North,,,FIRST,true,0,false,false
+174,321,10,Cincinnati Bengals,2,AFC,AFC North,,,,false,,,
+195,321,41,Pittsburgh Steelers,2,AFC,AFC North,,,,false,,,
+176,321,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+182,321,23,Indianapolis Colts,2,AFC,AFC South,,,FIRST_TIED,true,2,false,false
+200,321,33,Tennessee Titans,2,AFC,AFC South,,,FIRST_TIED,true,1,false,false
+183,321,24,Jacksonville Jaguars,2,AFC,AFC South,,,LAST_TIED,false,,,
+181,321,22,Houston Texans,2,AFC,AFC South,,,LAST_TIED,false,,,
+184,321,25,Kansas City Chiefs,2,AFC,AFC West,,,FIRST,true,0,false,false
+178,321,15,Denver Broncos,2,AFC,AFC West,,,,true,0,false,false
+185,321,52,Oakland Raiders,2,AFC,AFC West,LAST_TIED,LAST_TIED,LAST_TIED,false,,,
+186,321,51,San Diego Chargers,2,AFC,AFC West,LAST_TIED,LAST_TIED,LAST_TIED,false,,,
+194,321,39,Philadelphia Eagles,2,NFC,NFC East,,FIRST_TIED,FIRST,true,1,false,false
+177,321,13,Dallas Cowboys,2,NFC,NFC East,,,,true,0,false,false
+201,321,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+192,321,35,New York Giants,2,NFC,NFC East,LAST_TIED,LAST_TIED,LAST,false,,,
+180,321,20,Green Bay Packers,2,NFC,NFC North,,,FIRST,true,1,false,false
+189,321,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+173,321,9,Chicago Bears,2,NFC,NFC North,,,,false,,,
+179,321,16,Detroit Lions,2,NFC,NFC North,,,LAST,false,,,
+172,321,8,Carolina Panthers,2,NFC,NFC South,,,FIRST,true,3,true,false
+191,321,34,New Orleans Saints,2,NFC,NFC South,,,,false,,,
+199,321,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,,false,,,
+166,321,2,Atlanta Falcons,2,NFC,NFC South,,,LAST,false,,,
+187,321,56,St. Louis Rams,2,NFC,NFC West,,FIRST_TIED,FIRST,true,0,false,false
+197,321,53,Seattle Seahawks,2,NFC,NFC West,,,,true,0,false,false
+196,321,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+165,321,40,Arizona Cardinals,2,NFC,NFC West,LAST_TIED,LAST_TIED,LAST,false,,,
+190,327,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,3,true,true
+193,327,35,New York Jets,2,AFC,AFC East,,,,true,1,false,false
+171,327,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+188,327,29,Miami Dolphins,2,AFC,AFC East,,LAST_TIED,LAST,false,,,
+195,327,41,Pittsburgh Steelers,2,AFC,AFC North,FIRST,FIRST,FIRST,true,1,false,false
+168,327,4,Baltimore Ravens,2,AFC,AFC North,,,,false,,,
+174,327,10,Cincinnati Bengals,2,AFC,AFC North,,,,false,,,
+176,327,11,Cleveland Browns,2,AFC,AFC North,,LAST_TIED,LAST,false,,,
+182,327,23,Indianapolis Colts,2,AFC,AFC South,,,FIRST,true,1,false,false
+183,327,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+181,327,22,Houston Texans,2,AFC,AFC South,,,,false,,,
+200,327,33,Tennessee Titans,2,AFC,AFC South,,,LAST,false,,,
+186,327,51,San Diego Chargers,2,AFC,AFC West,,,FIRST,true,0,false,false
+178,327,15,Denver Broncos,2,AFC,AFC West,,,,true,0,false,false
+184,327,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+185,327,52,Oakland Raiders,2,AFC,AFC West,,,LAST,false,,,
+194,327,39,Philadelphia Eagles,2,NFC,NFC East,,FIRST,FIRST,true,2,true,false
+192,327,35,New York Giants,2,NFC,NFC East,,,LAST_TIED,false,,,
+177,327,13,Dallas Cowboys,2,NFC,NFC East,,,LAST_TIED,false,,,
+201,327,63,Washington Redskins,2,NFC,NFC East,,,LAST_TIED,false,,,
+180,327,20,Green Bay Packers,2,NFC,NFC North,,,FIRST,true,0,false,false
+189,327,31,Minnesota Vikings,2,NFC,NFC North,,,,true,1,false,false
+179,327,16,Detroit Lions,2,NFC,NFC North,,,,false,,,
+173,327,9,Chicago Bears,2,NFC,NFC North,,,LAST,false,,,
+166,327,2,Atlanta Falcons,2,NFC,NFC South,,,FIRST,true,1,false,false
+191,327,34,New Orleans Saints,2,NFC,NFC South,,,,false,,,
+172,327,8,Carolina Panthers,2,NFC,NFC South,,,,false,,,
+199,327,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,LAST,false,,,
+197,327,53,Seattle Seahawks,2,NFC,NFC West,,,FIRST,true,0,false,false
+187,327,56,St. Louis Rams,2,NFC,NFC West,,,,true,1,false,false
+165,327,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
+196,327,52,San Francisco 49ers,2,NFC,NFC West,LAST,LAST,LAST,false,,,
+190,332,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,1,false,false
+188,332,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+171,332,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+193,332,35,New York Jets,2,AFC,AFC East,,,LAST,false,,,
+174,332,10,Cincinnati Bengals,2,AFC,AFC North,,,FIRST_TIED,true,0,false,false
+195,332,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST_TIED,true,4,true,true
+168,332,4,Baltimore Ravens,2,AFC,AFC North,,,LAST_TIED,false,,,
+176,332,11,Cleveland Browns,2,AFC,AFC North,,,LAST_TIED,false,,,
+182,332,23,Indianapolis Colts,2,AFC,AFC South,FIRST,FIRST,FIRST,true,0,false,false
+183,332,24,Jacksonville Jaguars,2,AFC,AFC South,,,,true,0,false,false
+200,332,33,Tennessee Titans,2,AFC,AFC South,,,,false,,,
+181,332,22,Houston Texans,2,AFC,AFC South,LAST,LAST,LAST,false,,,
+178,332,15,Denver Broncos,2,AFC,AFC West,,,FIRST,true,1,false,false
+184,332,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+186,332,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+185,332,52,Oakland Raiders,2,AFC,AFC West,,,LAST,false,,,
+192,332,35,New York Giants,2,NFC,NFC East,,,FIRST,true,0,false,false
+201,332,63,Washington Redskins,2,NFC,NFC East,,,,true,1,false,false
+177,332,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+194,332,39,Philadelphia Eagles,2,NFC,NFC East,,,LAST,false,,,
+173,332,9,Chicago Bears,2,NFC,NFC North,,,FIRST,true,0,false,false
+189,332,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+179,332,16,Detroit Lions,2,NFC,NFC North,,,,false,,,
+180,332,20,Green Bay Packers,2,NFC,NFC North,,,LAST,false,,,
+199,332,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,FIRST_TIED,true,0,false,false
+172,332,8,Carolina Panthers,2,NFC,NFC South,,,FIRST_TIED,true,2,false,false
+166,332,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+191,332,34,New Orleans Saints,2,NFC,NFC South,,LAST,LAST,false,,,
+197,332,53,Seattle Seahawks,2,NFC,NFC West,,FIRST,FIRST,true,2,true,false
+187,332,56,St. Louis Rams,2,NFC,NFC West,,,,false,,,
+165,332,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
+196,332,52,San Francisco 49ers,2,NFC,NFC West,,,LAST,false,,,
+190,338,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,2,false,false
+193,338,35,New York Jets,2,AFC,AFC East,,,,true,0,false,false
+171,338,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+188,338,29,Miami Dolphins,2,AFC,AFC East,,,LAST,false,,,
+168,338,4,Baltimore Ravens,2,AFC,AFC North,,,FIRST,true,0,false,false
+174,338,10,Cincinnati Bengals,2,AFC,AFC North,,,,false,,,
+195,338,41,Pittsburgh Steelers,2,AFC,AFC North,,,,false,,,
+176,338,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+182,338,23,Indianapolis Colts,2,AFC,AFC South,,,FIRST,true,4,true,true
+200,338,33,Tennessee Titans,2,AFC,AFC South,,,,false,,,
+183,338,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+181,338,22,Houston Texans,2,AFC,AFC South,,,LAST,false,,,
+186,338,51,San Diego Chargers,2,AFC,AFC West,FIRST,FIRST,FIRST,true,0,false,false
+184,338,25,Kansas City Chiefs,2,AFC,AFC West,,,,true,0,false,false
+178,338,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+185,338,52,Oakland Raiders,2,AFC,AFC West,LAST,LAST,LAST,false,,,
+194,338,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST,true,1,false,false
+177,338,13,Dallas Cowboys,2,NFC,NFC East,,,,true,0,false,false
+192,338,35,New York Giants,2,NFC,NFC East,,,,true,0,false,false
+201,338,63,Washington Redskins,2,NFC,NFC East,,,LAST,false,,,
+173,338,9,Chicago Bears,2,NFC,NFC North,,FIRST,FIRST,true,2,true,false
+180,338,20,Green Bay Packers,2,NFC,NFC North,,,,false,,,
+189,338,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+179,338,16,Detroit Lions,2,NFC,NFC North,,LAST,LAST,false,,,
+191,338,34,New Orleans Saints,2,NFC,NFC South,,,FIRST,true,1,false,false
+172,338,8,Carolina Panthers,2,NFC,NFC South,,,,false,,,
+166,338,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+199,338,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,LAST,false,,,
+197,338,53,Seattle Seahawks,2,NFC,NFC West,,,FIRST,true,1,false,false
+187,338,56,St. Louis Rams,2,NFC,NFC West,,,,false,,,
+196,338,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+165,338,40,Arizona Cardinals,2,NFC,NFC West,,,LAST,false,,,
+190,344,5,New England Patriots,2,AFC,AFC East,FIRST,FIRST,FIRST,true,2,true,false
+171,344,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+193,344,35,New York Jets,2,AFC,AFC East,,,,false,,,
+188,344,29,Miami Dolphins,2,AFC,AFC East,LAST,LAST,LAST,false,,,
+195,344,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST_TIED,true,0,false,false
+176,344,11,Cleveland Browns,2,AFC,AFC North,,,FIRST_TIED,false,,,
+174,344,10,Cincinnati Bengals,2,AFC,AFC North,,,,false,,,
+168,344,4,Baltimore Ravens,2,AFC,AFC North,,,LAST,false,,,
+182,344,23,Indianapolis Colts,2,AFC,AFC South,,,FIRST,true,0,false,false
+183,344,24,Jacksonville Jaguars,2,AFC,AFC South,,,,true,1,false,false
+200,344,33,Tennessee Titans,2,AFC,AFC South,,,,true,0,false,false
+181,344,22,Houston Texans,2,AFC,AFC South,,,LAST,false,,,
+186,344,51,San Diego Chargers,2,AFC,AFC West,,,FIRST,true,2,false,false
+178,344,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+184,344,25,Kansas City Chiefs,2,AFC,AFC West,,,LAST_TIED,false,,,
+185,344,52,Oakland Raiders,2,AFC,AFC West,,,LAST_TIED,false,,,
+177,344,13,Dallas Cowboys,2,NFC,NFC East,,FIRST_TIED,FIRST,true,0,false,false
+192,344,35,New York Giants,2,NFC,NFC East,,,,true,4,true,true
+201,344,63,Washington Redskins,2,NFC,NFC East,,,,true,0,false,false
+194,344,39,Philadelphia Eagles,2,NFC,NFC East,,,LAST,false,,,
+180,344,20,Green Bay Packers,2,NFC,NFC North,,FIRST_TIED,FIRST,true,1,false,false
+189,344,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+179,344,16,Detroit Lions,2,NFC,NFC North,,,LAST_TIED,false,,,
+173,344,9,Chicago Bears,2,NFC,NFC North,,,LAST_TIED,false,,,
+199,344,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,FIRST,true,0,false,false
+172,344,8,Carolina Panthers,2,NFC,NFC South,,,,false,,,
+191,344,34,New Orleans Saints,2,NFC,NFC South,,,,false,,,
+166,344,2,Atlanta Falcons,2,NFC,NFC South,,,LAST,false,,,
+197,344,53,Seattle Seahawks,2,NFC,NFC West,,,FIRST,true,1,false,false
+165,344,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
+196,344,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+187,344,56,St. Louis Rams,2,NFC,NFC West,,LAST,LAST,false,,,
+188,350,29,Miami Dolphins,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+190,350,5,New England Patriots,2,AFC,AFC East,,,FIRST_TIED,false,,,
+193,350,35,New York Jets,2,AFC,AFC East,,,,false,,,
+171,350,6,Buffalo Bills,2,AFC,AFC East,,,LAST,false,,,
+195,350,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST,true,3,true,true
+168,350,4,Baltimore Ravens,2,AFC,AFC North,,,,true,2,false,false
+174,350,10,Cincinnati Bengals,2,AFC,AFC North,,,,false,,,
+176,350,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+200,350,33,Tennessee Titans,2,AFC,AFC South,FIRST,FIRST,FIRST,true,0,false,false
+182,350,23,Indianapolis Colts,2,AFC,AFC South,,,,true,0,false,false
+181,350,22,Houston Texans,2,AFC,AFC South,,,,false,,,
+183,350,24,Jacksonville Jaguars,2,AFC,AFC South,,,LAST,false,,,
+186,350,51,San Diego Chargers,2,AFC,AFC West,,,FIRST_TIED,true,1,false,false
+178,350,15,Denver Broncos,2,AFC,AFC West,,,FIRST_TIED,false,,,
+185,350,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+184,350,25,Kansas City Chiefs,2,AFC,AFC West,,LAST,LAST,false,,,
+192,350,35,New York Giants,2,NFC,NFC East,,FIRST_TIED,FIRST,true,0,false,false
+194,350,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,2,false,false
+177,350,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+201,350,63,Washington Redskins,2,NFC,NFC East,,,LAST,false,,,
+189,350,31,Minnesota Vikings,2,NFC,NFC North,,,FIRST,true,0,false,false
+173,350,9,Chicago Bears,2,NFC,NFC North,,,,false,,,
+180,350,20,Green Bay Packers,2,NFC,NFC North,,,,false,,,
+179,350,16,Detroit Lions,2,NFC,NFC North,LAST,LAST,LAST,false,,,
+172,350,8,Carolina Panthers,2,NFC,NFC South,,FIRST_TIED,FIRST,true,0,false,false
+166,350,2,Atlanta Falcons,2,NFC,NFC South,,,,true,0,false,false
+199,350,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,,false,,,
+191,350,34,New Orleans Saints,2,NFC,NFC South,,,LAST,false,,,
+165,350,40,Arizona Cardinals,2,NFC,NFC West,,,FIRST,true,3,true,false
+196,350,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+197,350,53,Seattle Seahawks,2,NFC,NFC West,,,,false,,,
+187,350,56,St. Louis Rams,2,NFC,NFC West,,,LAST,false,,,
+190,356,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,0,false,false
+193,356,35,New York Jets,2,AFC,AFC East,,,,true,2,false,false
+188,356,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+171,356,6,Buffalo Bills,2,AFC,AFC East,,,LAST,false,,,
+174,356,10,Cincinnati Bengals,2,AFC,AFC North,,,FIRST,true,0,false,false
+168,356,4,Baltimore Ravens,2,AFC,AFC North,,,,true,1,false,false
+195,356,41,Pittsburgh Steelers,2,AFC,AFC North,,,,false,,,
+176,356,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+182,356,23,Indianapolis Colts,2,AFC,AFC South,FIRST,FIRST,FIRST,true,2,true,false
+181,356,22,Houston Texans,2,AFC,AFC South,,,,false,,,
+200,356,33,Tennessee Titans,2,AFC,AFC South,,,,false,,,
+183,356,24,Jacksonville Jaguars,2,AFC,AFC South,,,LAST,false,,,
+186,356,51,San Diego Chargers,2,AFC,AFC West,,,FIRST,true,0,false,false
+178,356,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+185,356,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+184,356,25,Kansas City Chiefs,2,AFC,AFC West,,LAST,LAST,false,,,
+177,356,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST_TIED,true,1,false,false
+194,356,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST_TIED,true,0,false,false
+192,356,35,New York Giants,2,NFC,NFC East,,,,false,,,
+201,356,63,Washington Redskins,2,NFC,NFC East,,,LAST,false,,,
+189,356,31,Minnesota Vikings,2,NFC,NFC North,,,FIRST,true,1,false,false
+180,356,20,Green Bay Packers,2,NFC,NFC North,,,,true,0,false,false
+173,356,9,Chicago Bears,2,NFC,NFC North,,,,false,,,
+179,356,16,Detroit Lions,2,NFC,NFC North,,,LAST,false,,,
+191,356,34,New Orleans Saints,2,NFC,NFC South,,FIRST,FIRST,true,3,true,true
+166,356,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+172,356,8,Carolina Panthers,2,NFC,NFC South,,,,false,,,
+199,356,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,LAST,false,,,
+165,356,40,Arizona Cardinals,2,NFC,NFC West,,,FIRST,true,1,false,false
+196,356,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+197,356,53,Seattle Seahawks,2,NFC,NFC West,,,,false,,,
+187,356,56,St. Louis Rams,2,NFC,NFC West,LAST,LAST,LAST,false,,,
+190,362,5,New England Patriots,2,AFC,AFC East,FIRST,FIRST,FIRST,true,0,false,false
+193,362,35,New York Jets,2,AFC,AFC East,,,,true,2,false,false
+188,362,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+171,362,6,Buffalo Bills,2,AFC,AFC East,,LAST_TIED,LAST,false,,,
+195,362,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST_TIED,true,2,true,false
+168,362,4,Baltimore Ravens,2,AFC,AFC North,,,FIRST_TIED,true,1,false,false
+176,362,11,Cleveland Browns,2,AFC,AFC North,,,,false,,,
+174,362,10,Cincinnati Bengals,2,AFC,AFC North,,LAST_TIED,LAST,false,,,
+182,362,23,Indianapolis Colts,2,AFC,AFC South,,,FIRST,true,0,false,false
+183,362,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+181,362,22,Houston Texans,2,AFC,AFC South,,,LAST_TIED,false,,,
+200,362,33,Tennessee Titans,2,AFC,AFC South,,,LAST_TIED,false,,,
+184,362,25,Kansas City Chiefs,2,AFC,AFC West,,,FIRST,true,0,false,false
+186,362,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+185,362,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+178,362,15,Denver Broncos,2,AFC,AFC West,,LAST_TIED,LAST,false,,,
+194,362,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST_TIED,true,0,false,false
+192,362,35,New York Giants,2,NFC,NFC East,,,FIRST_TIED,false,,,
+177,362,13,Dallas Cowboys,2,NFC,NFC East,,,LAST_TIED,false,,,
+201,362,63,Washington Redskins,2,NFC,NFC East,,,LAST_TIED,false,,,
+173,362,9,Chicago Bears,2,NFC,NFC North,,,FIRST,true,1,false,false
+180,362,20,Green Bay Packers,2,NFC,NFC North,,,,true,4,true,true
+179,362,16,Detroit Lions,2,NFC,NFC North,,,LAST_TIED,false,,,
+189,362,31,Minnesota Vikings,2,NFC,NFC North,,,LAST_TIED,false,,,
+166,362,2,Atlanta Falcons,2,NFC,NFC South,,FIRST,FIRST,true,0,false,false
+191,362,34,New Orleans Saints,2,NFC,NFC South,,,,true,0,false,false
+199,362,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,,false,,,
+172,362,8,Carolina Panthers,2,NFC,NFC South,LAST,LAST,LAST,false,,,
+197,362,53,Seattle Seahawks,2,NFC,NFC West,,,FIRST_TIED,true,1,false,false
+187,362,56,St. Louis Rams,2,NFC,NFC West,,,FIRST_TIED,false,,,
+196,362,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+165,362,40,Arizona Cardinals,2,NFC,NFC West,,,LAST,false,,,
+190,368,5,New England Patriots,2,AFC,AFC East,,FIRST,FIRST,true,2,true,false
+193,368,35,New York Jets,2,AFC,AFC East,,,,false,,,
+188,368,29,Miami Dolphins,2,AFC,AFC East,,,LAST_TIED,false,,,
+171,368,6,Buffalo Bills,2,AFC,AFC East,,,LAST_TIED,false,,,
+168,368,4,Baltimore Ravens,2,AFC,AFC North,,,FIRST_TIED,true,1,false,false
+195,368,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST_TIED,true,0,false,false
+174,368,10,Cincinnati Bengals,2,AFC,AFC North,,,,true,0,false,false
+176,368,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+181,368,22,Houston Texans,2,AFC,AFC South,,,FIRST,true,1,false,false
+200,368,33,Tennessee Titans,2,AFC,AFC South,,,,false,,,
+183,368,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+182,368,23,Indianapolis Colts,2,AFC,AFC South,LAST_TIED,LAST,LAST,false,,,
+178,368,15,Denver Broncos,2,AFC,AFC West,,,FIRST_TIED,true,1,false,false
+186,368,51,San Diego Chargers,2,AFC,AFC West,,,FIRST_TIED,false,,,
+185,368,52,Oakland Raiders,2,AFC,AFC West,,,FIRST_TIED,false,,,
+184,368,25,Kansas City Chiefs,2,AFC,AFC West,,,LAST,false,,,
+192,368,35,New York Giants,2,NFC,NFC East,,,FIRST,true,4,true,true
+194,368,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+177,368,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+201,368,63,Washington Redskins,2,NFC,NFC East,,,LAST,false,,,
+180,368,20,Green Bay Packers,2,NFC,NFC North,FIRST,FIRST,FIRST,true,0,false,false
+179,368,16,Detroit Lions,2,NFC,NFC North,,,,true,0,false,false
+173,368,9,Chicago Bears,2,NFC,NFC North,,,,false,,,
+189,368,31,Minnesota Vikings,2,NFC,NFC North,,,LAST,false,,,
+191,368,34,New Orleans Saints,2,NFC,NFC South,,,FIRST,true,1,false,false
+166,368,2,Atlanta Falcons,2,NFC,NFC South,,,,true,0,false,false
+172,368,8,Carolina Panthers,2,NFC,NFC South,,,,false,,,
+199,368,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,LAST,false,,,
+196,368,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,1,false,false
+165,368,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
+197,368,53,Seattle Seahawks,2,NFC,NFC West,,,,false,,,
+187,368,56,St. Louis Rams,2,NFC,NFC West,LAST_TIED,LAST,LAST,false,,,
+190,374,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,1,false,false
+188,374,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+193,374,35,New York Jets,2,AFC,AFC East,,,LAST_TIED,false,,,
+171,374,6,Buffalo Bills,2,AFC,AFC East,,,LAST_TIED,false,,,
+168,374,4,Baltimore Ravens,2,AFC,AFC North,,,FIRST_TIED,true,4,true,true
+174,374,10,Cincinnati Bengals,2,AFC,AFC North,,,FIRST_TIED,true,0,false,false
+195,374,41,Pittsburgh Steelers,2,AFC,AFC North,,,,false,,,
+176,374,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+181,374,22,Houston Texans,2,AFC,AFC South,,,FIRST,true,1,false,false
+182,374,23,Indianapolis Colts,2,AFC,AFC South,,,,true,0,false,false
+200,374,33,Tennessee Titans,2,AFC,AFC South,,,,false,,,
+183,374,24,Jacksonville Jaguars,2,AFC,AFC South,LAST_TIED,LAST_TIED,LAST,false,,,
+178,374,15,Denver Broncos,2,AFC,AFC West,FIRST_TIED,FIRST,FIRST,true,0,false,false
+186,374,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+185,374,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+184,374,25,Kansas City Chiefs,2,AFC,AFC West,LAST_TIED,LAST_TIED,LAST,false,,,
+201,374,63,Washington Redskins,2,NFC,NFC East,,,FIRST,true,0,false,false
+192,374,35,New York Giants,2,NFC,NFC East,,,,false,,,
+177,374,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+194,374,39,Philadelphia Eagles,2,NFC,NFC East,,LAST_TIED,LAST,false,,,
+180,374,20,Green Bay Packers,2,NFC,NFC North,,,FIRST,true,1,false,false
+189,374,31,Minnesota Vikings,2,NFC,NFC North,,,,true,0,false,false
+173,374,9,Chicago Bears,2,NFC,NFC North,,,,false,,,
+179,374,16,Detroit Lions,2,NFC,NFC North,,LAST_TIED,LAST,false,,,
+166,374,2,Atlanta Falcons,2,NFC,NFC South,FIRST_TIED,FIRST,FIRST,true,1,false,false
+172,374,8,Carolina Panthers,2,NFC,NFC South,,,LAST_TIED,false,,,
+191,374,34,New Orleans Saints,2,NFC,NFC South,,,LAST_TIED,false,,,
+199,374,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,LAST_TIED,false,,,
+196,374,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,2,true,false
+197,374,53,Seattle Seahawks,2,NFC,NFC West,,,,true,1,false,false
+187,374,56,St. Louis Rams,2,NFC,NFC West,,,,false,,,
+165,374,40,Arizona Cardinals,2,NFC,NFC West,,,LAST,false,,,
+190,380,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,1,false,false
+193,380,35,New York Jets,2,AFC,AFC East,,,,false,,,
+188,380,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+171,380,6,Buffalo Bills,2,AFC,AFC East,,,LAST,false,,,
+174,380,10,Cincinnati Bengals,2,AFC,AFC North,,,FIRST,true,0,false,false
+195,380,41,Pittsburgh Steelers,2,AFC,AFC North,,,,false,,,
+168,380,4,Baltimore Ravens,2,AFC,AFC North,,,,false,,,
+176,380,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+182,380,23,Indianapolis Colts,2,AFC,AFC South,,,FIRST,true,1,false,false
+200,380,33,Tennessee Titans,2,AFC,AFC South,,,,false,,,
+183,380,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+181,380,22,Houston Texans,2,AFC,AFC South,LAST,LAST,LAST,false,,,
+178,380,15,Denver Broncos,2,AFC,AFC West,FIRST_TIED,FIRST,FIRST,true,2,true,false
+184,380,25,Kansas City Chiefs,2,AFC,AFC West,,,,true,0,false,false
+186,380,51,San Diego Chargers,2,AFC,AFC West,,,,true,1,false,false
+185,380,52,Oakland Raiders,2,AFC,AFC West,,,LAST,false,,,
+194,380,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST,true,0,false,false
+177,380,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+192,380,35,New York Giants,2,NFC,NFC East,,,,false,,,
+201,380,63,Washington Redskins,2,NFC,NFC East,,LAST,LAST,false,,,
+180,380,20,Green Bay Packers,2,NFC,NFC North,,,FIRST,true,0,false,false
+173,380,9,Chicago Bears,2,NFC,NFC North,,,,false,,,
+179,380,16,Detroit Lions,2,NFC,NFC North,,,,false,,,
+189,380,31,Minnesota Vikings,2,NFC,NFC North,,,LAST,false,,,
+172,380,8,Carolina Panthers,2,NFC,NFC South,,,FIRST,true,0,false,false
+191,380,34,New Orleans Saints,2,NFC,NFC South,,,,true,1,false,false
+166,380,2,Atlanta Falcons,2,NFC,NFC South,,,LAST_TIED,false,,,
+199,380,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,LAST_TIED,false,,,
+197,380,53,Seattle Seahawks,2,NFC,NFC West,FIRST_TIED,FIRST,FIRST,true,3,true,true
+196,380,52,San Francisco 49ers,2,NFC,NFC West,,,,true,2,false,false
+165,380,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
+187,380,56,St. Louis Rams,2,NFC,NFC West,,,LAST,false,,,
+190,386,5,New England Patriots,2,AFC,AFC East,FIRST_TIED,FIRST_TIED,FIRST,true,3,true,true
+171,386,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+188,386,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+193,386,35,New York Jets,2,AFC,AFC East,,,LAST,false,,,
+195,386,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST,true,0,false,false
+174,386,10,Cincinnati Bengals,2,AFC,AFC North,,,,true,0,false,false
+168,386,4,Baltimore Ravens,2,AFC,AFC North,,,,true,1,false,false
+176,386,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+182,386,23,Indianapolis Colts,2,AFC,AFC South,,,FIRST,true,2,false,false
+181,386,22,Houston Texans,2,AFC,AFC South,,,,false,,,
+183,386,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+200,386,33,Tennessee Titans,2,AFC,AFC South,LAST_TIED,LAST,LAST,false,,,
+178,386,15,Denver Broncos,2,AFC,AFC West,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+184,386,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+186,386,51,San Diego Chargers,2,AFC,AFC West,,,,false,,,
+185,386,52,Oakland Raiders,2,AFC,AFC West,,,LAST,false,,,
+177,386,13,Dallas Cowboys,2,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+194,386,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+192,386,35,New York Giants,2,NFC,NFC East,,,,false,,,
+201,386,63,Washington Redskins,2,NFC,NFC East,,,LAST,false,,,
+180,386,20,Green Bay Packers,2,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+179,386,16,Detroit Lions,2,NFC,NFC North,,,,true,0,false,false
+189,386,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+173,386,9,Chicago Bears,2,NFC,NFC North,,,LAST,false,,,
+172,386,8,Carolina Panthers,2,NFC,NFC South,,,FIRST,true,1,false,false
+191,386,34,New Orleans Saints,2,NFC,NFC South,,,,false,,,
+166,386,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+199,386,58,Tampa Bay Buccaneers,2,NFC,NFC South,LAST_TIED,LAST,LAST,false,,,
+197,386,53,Seattle Seahawks,2,NFC,NFC West,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
+165,386,40,Arizona Cardinals,2,NFC,NFC West,,,,true,0,false,false
+196,386,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+187,386,56,St. Louis Rams,2,NFC,NFC West,,,LAST,false,,,
+190,392,5,New England Patriots,2,AFC,AFC East,,FIRST_TIED,FIRST,true,1,false,false
+193,392,35,New York Jets,2,AFC,AFC East,,,,false,,,
+171,392,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+188,392,29,Miami Dolphins,2,AFC,AFC East,,,LAST,false,,,
+174,392,10,Cincinnati Bengals,2,AFC,AFC North,,FIRST_TIED,FIRST,true,0,false,false
+195,392,41,Pittsburgh Steelers,2,AFC,AFC North,,,,true,1,false,false
+168,392,4,Baltimore Ravens,2,AFC,AFC North,,,,false,,,
+176,392,11,Cleveland Browns,2,AFC,AFC North,LAST_TIED,LAST_TIED,LAST,false,,,
+181,392,22,Houston Texans,2,AFC,AFC South,,,FIRST,true,0,false,false
+182,392,23,Indianapolis Colts,2,AFC,AFC South,,,,false,,,
+183,392,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+200,392,33,Tennessee Titans,2,AFC,AFC South,LAST_TIED,LAST_TIED,LAST,false,,,
+178,392,15,Denver Broncos,2,AFC,AFC West,,FIRST_TIED,FIRST,true,3,true,true
+184,392,25,Kansas City Chiefs,2,AFC,AFC West,,,,true,1,false,false
+185,392,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+186,392,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+201,392,63,Washington Redskins,2,NFC,NFC East,,,FIRST,true,0,false,false
+194,392,39,Philadelphia Eagles,2,NFC,NFC East,,,,false,,,
+192,392,35,New York Giants,2,NFC,NFC East,,,,false,,,
+177,392,13,Dallas Cowboys,2,NFC,NFC East,,LAST,LAST,false,,,
+189,392,31,Minnesota Vikings,2,NFC,NFC North,,,FIRST,true,0,false,false
+180,392,20,Green Bay Packers,2,NFC,NFC North,,,,true,1,false,false
+179,392,16,Detroit Lions,2,NFC,NFC North,,,,false,,,
+173,392,9,Chicago Bears,2,NFC,NFC North,,,LAST,false,,,
+172,392,8,Carolina Panthers,2,NFC,NFC South,FIRST,FIRST,FIRST,true,2,true,false
+166,392,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+191,392,34,New Orleans Saints,2,NFC,NFC South,,,,false,,,
+199,392,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,LAST,false,,,
+165,392,40,Arizona Cardinals,2,NFC,NFC West,,,FIRST,true,1,false,false
+197,392,53,Seattle Seahawks,2,NFC,NFC West,,,,true,1,false,false
+187,392,56,St. Louis Rams,2,NFC,NFC West,,,,false,,,
+196,392,52,San Francisco 49ers,2,NFC,NFC West,,,LAST,false,,,
+190,398,5,New England Patriots,2,AFC,AFC East,FIRST,FIRST,FIRST,true,3,true,true
+188,398,29,Miami Dolphins,2,AFC,AFC East,,,,true,0,false,false
+171,398,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+193,398,35,New York Jets,2,AFC,AFC East,,,LAST,false,,,
+195,398,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST,true,2,false,false
+168,398,4,Baltimore Ravens,2,AFC,AFC North,,,,false,,,
+174,398,10,Cincinnati Bengals,2,AFC,AFC North,,,,false,,,
+176,398,11,Cleveland Browns,2,AFC,AFC North,LAST,LAST,LAST,false,,,
+181,398,22,Houston Texans,2,AFC,AFC South,,,FIRST_TIED,true,1,false,false
+200,398,33,Tennessee Titans,2,AFC,AFC South,,,FIRST_TIED,false,,,
+182,398,23,Indianapolis Colts,2,AFC,AFC South,,,,false,,,
+183,398,24,Jacksonville Jaguars,2,AFC,AFC South,,,LAST,false,,,
+184,398,25,Kansas City Chiefs,2,AFC,AFC West,,,FIRST_TIED,true,0,false,false
+185,398,52,Oakland Raiders,2,AFC,AFC West,,,FIRST_TIED,true,0,false,false
+178,398,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+186,398,51,San Diego Chargers,2,AFC,AFC West,,,LAST,false,,,
+177,398,13,Dallas Cowboys,2,NFC,NFC East,,FIRST,FIRST,true,0,false,false
+192,398,35,New York Giants,2,NFC,NFC East,,,,true,0,false,false
+201,398,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+194,398,39,Philadelphia Eagles,2,NFC,NFC East,,,LAST,false,,,
+180,398,20,Green Bay Packers,2,NFC,NFC North,,,FIRST,true,2,false,false
+179,398,16,Detroit Lions,2,NFC,NFC North,,,,true,0,false,false
+189,398,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+173,398,9,Chicago Bears,2,NFC,NFC North,,,LAST,false,,,
+166,398,2,Atlanta Falcons,2,NFC,NFC South,,,FIRST,true,2,true,false
+199,398,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,,false,,,
+191,398,34,New Orleans Saints,2,NFC,NFC South,,,,false,,,
+172,398,8,Carolina Panthers,2,NFC,NFC South,,,LAST,false,,,
+197,398,53,Seattle Seahawks,2,NFC,NFC West,,,FIRST,true,1,false,false
+165,398,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
+187,398,27,Los Angeles Rams,2,NFC,NFC West,,,,false,,,
+196,398,52,San Francisco 49ers,2,NFC,NFC West,,LAST,LAST,false,,,
+190,404,5,New England Patriots,2,AFC,AFC East,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
+171,404,6,Buffalo Bills,2,AFC,AFC East,,,,true,0,false,false
+188,404,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+193,404,35,New York Jets,2,AFC,AFC East,,,LAST,false,,,
+195,404,41,Pittsburgh Steelers,2,AFC,AFC North,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+168,404,4,Baltimore Ravens,2,AFC,AFC North,,,,false,,,
+174,404,10,Cincinnati Bengals,2,AFC,AFC North,,,,false,,,
+176,404,11,Cleveland Browns,2,AFC,AFC North,LAST,LAST,LAST,false,,,
+183,404,24,Jacksonville Jaguars,2,AFC,AFC South,,,FIRST,true,2,false,false
+200,404,33,Tennessee Titans,2,AFC,AFC South,,,,true,1,false,false
+182,404,23,Indianapolis Colts,2,AFC,AFC South,,,LAST_TIED,false,,,
+181,404,22,Houston Texans,2,AFC,AFC South,,,LAST_TIED,false,,,
+184,404,25,Kansas City Chiefs,2,AFC,AFC West,,,FIRST,true,0,false,false
+186,404,27,Los Angeles Chargers,2,AFC,AFC West,,,,false,,,
+185,404,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+178,404,15,Denver Broncos,2,AFC,AFC West,,,LAST,false,,,
+194,404,39,Philadelphia Eagles,2,NFC,NFC East,FIRST_TIED,FIRST_TIED,FIRST,true,3,true,true
+177,404,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+201,404,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+192,404,35,New York Giants,2,NFC,NFC East,,LAST,LAST,false,,,
+189,404,31,Minnesota Vikings,2,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+179,404,16,Detroit Lions,2,NFC,NFC North,,,,false,,,
+180,404,20,Green Bay Packers,2,NFC,NFC North,,,,false,,,
+173,404,9,Chicago Bears,2,NFC,NFC North,,,LAST,false,,,
+191,404,34,New Orleans Saints,2,NFC,NFC South,,,FIRST_TIED,true,1,false,false
+172,404,8,Carolina Panthers,2,NFC,NFC South,,,FIRST_TIED,true,0,false,false
+166,404,2,Atlanta Falcons,2,NFC,NFC South,,,,true,1,false,false
+199,404,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,LAST,false,,,
+187,404,27,Los Angeles Rams,2,NFC,NFC West,,,FIRST,true,0,false,false
+197,404,53,Seattle Seahawks,2,NFC,NFC West,,,,false,,,
+165,404,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
+196,404,52,San Francisco 49ers,2,NFC,NFC West,,,LAST,false,,,
+190,410,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,3,true,true
+188,410,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+171,410,6,Buffalo Bills,2,AFC,AFC East,,,,false,,,
+193,410,35,New York Jets,2,AFC,AFC East,,LAST_TIED,LAST,false,,,
+168,410,4,Baltimore Ravens,2,AFC,AFC North,,,FIRST,true,0,false,false
+195,410,41,Pittsburgh Steelers,2,AFC,AFC North,,,,false,,,
+176,410,11,Cleveland Browns,2,AFC,AFC North,,,,false,,,
+174,410,10,Cincinnati Bengals,2,AFC,AFC North,,,LAST,false,,,
+181,410,22,Houston Texans,2,AFC,AFC South,,,FIRST,true,0,false,false
+182,410,23,Indianapolis Colts,2,AFC,AFC South,,,,true,1,false,false
+200,410,33,Tennessee Titans,2,AFC,AFC South,,,,false,,,
+183,410,24,Jacksonville Jaguars,2,AFC,AFC South,,,LAST,false,,,
+184,410,25,Kansas City Chiefs,2,AFC,AFC West,,FIRST_TIED,FIRST_TIED,true,1,false,false
+186,410,27,Los Angeles Chargers,2,AFC,AFC West,,FIRST_TIED,FIRST_TIED,true,1,false,false
+178,410,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+185,410,52,Oakland Raiders,2,AFC,AFC West,,LAST_TIED,LAST,false,,,
+177,410,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST,true,1,false,false
+194,410,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,1,false,false
+201,410,63,Washington Redskins,2,NFC,NFC East,,,,false,,,
+192,410,35,New York Giants,2,NFC,NFC East,,,LAST,false,,,
+173,410,9,Chicago Bears,2,NFC,NFC North,,,FIRST,true,0,false,false
+189,410,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+180,410,20,Green Bay Packers,2,NFC,NFC North,,,,false,,,
+179,410,16,Detroit Lions,2,NFC,NFC North,,,LAST,false,,,
+191,410,34,New Orleans Saints,2,NFC,NFC South,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+166,410,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+172,410,8,Carolina Panthers,2,NFC,NFC South,,,,false,,,
+199,410,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,LAST,false,,,
+187,410,27,Los Angeles Rams,2,NFC,NFC West,FIRST_TIED,FIRST_TIED,FIRST,true,2,true,false
+197,410,53,Seattle Seahawks,2,NFC,NFC West,,,,true,0,false,false
+196,410,52,San Francisco 49ers,2,NFC,NFC West,,,,false,,,
+165,410,40,Arizona Cardinals,2,NFC,NFC West,LAST,LAST,LAST,false,,,
+190,416,5,New England Patriots,2,AFC,AFC East,,,FIRST,true,0,false,false
+171,416,6,Buffalo Bills,2,AFC,AFC East,,,,true,0,false,false
+193,416,35,New York Jets,2,AFC,AFC East,,,,false,,,
+188,416,29,Miami Dolphins,2,AFC,AFC East,,,LAST,false,,,
+168,416,4,Baltimore Ravens,2,AFC,AFC North,FIRST,FIRST,FIRST,true,0,false,false
+195,416,41,Pittsburgh Steelers,2,AFC,AFC North,,,,false,,,
+176,416,11,Cleveland Browns,2,AFC,AFC North,,,,false,,,
+174,416,10,Cincinnati Bengals,2,AFC,AFC North,LAST,LAST,LAST,false,,,
+181,416,22,Houston Texans,2,AFC,AFC South,,,FIRST,true,1,false,false
+200,416,33,Tennessee Titans,2,AFC,AFC South,,,,true,2,false,false
+182,416,23,Indianapolis Colts,2,AFC,AFC South,,,,false,,,
+183,416,24,Jacksonville Jaguars,2,AFC,AFC South,,,LAST,false,,,
+184,416,25,Kansas City Chiefs,2,AFC,AFC West,,,FIRST,true,3,true,true
+178,416,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+185,416,52,Oakland Raiders,2,AFC,AFC West,,,,false,,,
+186,416,27,Los Angeles Chargers,2,AFC,AFC West,,,LAST,false,,,
+194,416,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST,true,0,false,false
+177,416,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+192,416,35,New York Giants,2,NFC,NFC East,,,,false,,,
+201,416,63,Washington Redskins,2,NFC,NFC East,,LAST,LAST,false,,,
+180,416,20,Green Bay Packers,2,NFC,NFC North,,FIRST_TIED,FIRST,true,1,false,false
+189,416,31,Minnesota Vikings,2,NFC,NFC North,,,,true,1,false,false
+173,416,9,Chicago Bears,2,NFC,NFC North,,,,false,,,
+179,416,16,Detroit Lions,2,NFC,NFC North,,,LAST,false,,,
+191,416,34,New Orleans Saints,2,NFC,NFC South,,FIRST_TIED,FIRST,true,0,false,false
+166,416,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+199,416,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,,false,,,
+172,416,8,Carolina Panthers,2,NFC,NFC South,,,LAST,false,,,
+196,416,52,San Francisco 49ers,2,NFC,NFC West,,FIRST_TIED,FIRST,true,2,true,false
+197,416,53,Seattle Seahawks,2,NFC,NFC West,,,,true,1,false,false
+187,416,27,Los Angeles Rams,2,NFC,NFC West,,,,false,,,
+165,416,40,Arizona Cardinals,2,NFC,NFC West,,,LAST,false,,,
+171,422,6,Buffalo Bills,2,AFC,AFC East,,,FIRST,true,2,false,false
+188,422,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+190,422,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,422,35,New York Jets,2,AFC,AFC East,,,LAST,false,,,
+195,422,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST,true,0,false,false
+168,422,4,Baltimore Ravens,2,AFC,AFC North,,,,true,1,false,false
+176,422,11,Cleveland Browns,2,AFC,AFC North,,,,true,1,false,false
+174,422,10,Cincinnati Bengals,2,AFC,AFC North,,,LAST,false,,,
+200,422,33,Tennessee Titans,2,AFC,AFC South,,,FIRST_TIED,true,0,false,false
+182,422,23,Indianapolis Colts,2,AFC,AFC South,,,FIRST_TIED,true,0,false,false
+181,422,22,Houston Texans,2,AFC,AFC South,,,,false,,,
+183,422,24,Jacksonville Jaguars,2,AFC,AFC South,LAST,LAST,LAST,false,,,
+184,422,25,Kansas City Chiefs,2,AFC,AFC West,FIRST,FIRST,FIRST,true,2,true,false
+185,422,26,Las Vegas Raiders,2,AFC,AFC West,,,,false,,,
+186,422,27,Los Angeles Chargers,2,AFC,AFC West,,,,false,,,
+178,422,15,Denver Broncos,2,AFC,AFC West,,,LAST,false,,,
+201,422,63,Washington Football Team,2,NFC,NFC East,,,FIRST,true,0,false,false
+192,422,35,New York Giants,2,NFC,NFC East,,,,false,,,
+177,422,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+194,422,39,Philadelphia Eagles,2,NFC,NFC East,,,LAST,false,,,
+180,422,20,Green Bay Packers,2,NFC,NFC North,,FIRST,FIRST,true,1,false,false
+173,422,9,Chicago Bears,2,NFC,NFC North,,,,true,0,false,false
+189,422,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+179,422,16,Detroit Lions,2,NFC,NFC North,,,LAST,false,,,
+191,422,34,New Orleans Saints,2,NFC,NFC South,,,FIRST,true,1,false,false
+199,422,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,,true,4,true,true
+172,422,8,Carolina Panthers,2,NFC,NFC South,,,,false,,,
+166,422,2,Atlanta Falcons,2,NFC,NFC South,,LAST,LAST,false,,,
+197,422,53,Seattle Seahawks,2,NFC,NFC West,,,FIRST,true,0,false,false
+187,422,27,Los Angeles Rams,2,NFC,NFC West,,,,true,1,false,false
+165,422,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
+196,422,52,San Francisco 49ers,2,NFC,NFC West,,,LAST,false,,,
+171,428,6,Buffalo Bills,2,AFC,AFC East,,,FIRST,true,1,false,false
+190,428,5,New England Patriots,2,AFC,AFC East,,,,true,0,false,false
+188,428,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+193,428,35,New York Jets,2,AFC,AFC East,,,LAST,false,,,
+174,428,10,Cincinnati Bengals,2,AFC,AFC North,,,FIRST,true,3,true,false
+195,428,41,Pittsburgh Steelers,2,AFC,AFC North,,,,true,0,false,false
+176,428,11,Cleveland Browns,2,AFC,AFC North,,,LAST_TIED,false,,,
+168,428,4,Baltimore Ravens,2,AFC,AFC North,,,LAST_TIED,false,,,
+200,428,33,Tennessee Titans,2,AFC,AFC South,,FIRST_TIED,FIRST,true,0,false,false
+182,428,23,Indianapolis Colts,2,AFC,AFC South,,,,false,,,
+181,428,22,Houston Texans,2,AFC,AFC South,,,,false,,,
+183,428,24,Jacksonville Jaguars,2,AFC,AFC South,LAST,LAST,LAST,false,,,
+184,428,25,Kansas City Chiefs,2,AFC,AFC West,,FIRST_TIED,FIRST,true,2,false,false
+185,428,26,Las Vegas Raiders,2,AFC,AFC West,,,,true,0,false,false
+186,428,27,Los Angeles Chargers,2,AFC,AFC West,,,,false,,,
+178,428,15,Denver Broncos,2,AFC,AFC West,,,LAST,false,,,
+177,428,13,Dallas Cowboys,2,NFC,NFC East,,,FIRST,true,0,false,false
+194,428,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,0,false,false
+201,428,63,Washington Football Team,2,NFC,NFC East,,,,false,,,
+192,428,35,New York Giants,2,NFC,NFC East,,,LAST,false,,,
+180,428,20,Green Bay Packers,2,NFC,NFC North,FIRST_TIED,FIRST_TIED,FIRST,true,0,false,false
+189,428,31,Minnesota Vikings,2,NFC,NFC North,,,,false,,,
+173,428,9,Chicago Bears,2,NFC,NFC North,,,,false,,,
+179,428,16,Detroit Lions,2,NFC,NFC North,,LAST,LAST,false,,,
+199,428,58,Tampa Bay Buccaneers,2,NFC,NFC South,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+191,428,34,New Orleans Saints,2,NFC,NFC South,,,,false,,,
+166,428,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+172,428,8,Carolina Panthers,2,NFC,NFC South,,,LAST,false,,,
+187,428,27,Los Angeles Rams,2,NFC,NFC West,,,FIRST,true,4,true,true
+165,428,40,Arizona Cardinals,2,NFC,NFC West,,,,true,0,false,false
+196,428,52,San Francisco 49ers,2,NFC,NFC West,,,,true,2,false,false
+197,428,53,Seattle Seahawks,2,NFC,NFC West,,,LAST,false,,,
+171,434,6,Buffalo Bills,2,AFC,AFC East,,,FIRST,true,1,false,false
+188,434,29,Miami Dolphins,2,AFC,AFC East,,,,true,0,false,false
+190,434,5,New England Patriots,2,AFC,AFC East,,,,false,,,
+193,434,35,New York Jets,2,AFC,AFC East,,,LAST,false,,,
+174,434,10,Cincinnati Bengals,2,AFC,AFC North,,,FIRST,true,2,false,false
+168,434,4,Baltimore Ravens,2,AFC,AFC North,,,,true,0,false,false
+195,434,41,Pittsburgh Steelers,2,AFC,AFC North,,,,false,,,
+176,434,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+183,434,24,Jacksonville Jaguars,2,AFC,AFC South,,,FIRST,true,1,false,false
+200,434,33,Tennessee Titans,2,AFC,AFC South,,,,false,,,
+182,434,23,Indianapolis Colts,2,AFC,AFC South,,,,false,,,
+181,434,22,Houston Texans,2,AFC,AFC South,,LAST,LAST,false,,,
+184,434,25,Kansas City Chiefs,2,AFC,AFC West,FIRST_TIED,FIRST,FIRST,true,3,true,true
+186,434,27,Los Angeles Chargers,2,AFC,AFC West,,,,true,0,false,false
+185,434,26,Las Vegas Raiders,2,AFC,AFC West,,,,false,,,
+178,434,15,Denver Broncos,2,AFC,AFC West,,,LAST,false,,,
+194,434,39,Philadelphia Eagles,2,NFC,NFC East,FIRST_TIED,FIRST,FIRST,true,2,true,false
+177,434,13,Dallas Cowboys,2,NFC,NFC East,,,,true,1,false,false
+192,434,35,New York Giants,2,NFC,NFC East,,,,true,1,false,false
+201,434,63,Washington Commanders,2,NFC,NFC East,,,LAST,false,,,
+189,434,31,Minnesota Vikings,2,NFC,NFC North,,,FIRST,true,0,false,false
+179,434,16,Detroit Lions,2,NFC,NFC North,,,,false,,,
+180,434,20,Green Bay Packers,2,NFC,NFC North,,,,false,,,
+173,434,9,Chicago Bears,2,NFC,NFC North,LAST,LAST,LAST,false,,,
+199,434,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,FIRST,true,0,false,false
+172,434,8,Carolina Panthers,2,NFC,NFC South,,,LAST_TIED,false,,,
+191,434,34,New Orleans Saints,2,NFC,NFC South,,,LAST_TIED,false,,,
+166,434,2,Atlanta Falcons,2,NFC,NFC South,,,LAST_TIED,false,,,
+196,434,52,San Francisco 49ers,2,NFC,NFC West,,,FIRST,true,2,false,false
+197,434,53,Seattle Seahawks,2,NFC,NFC West,,,,true,0,false,false
+187,434,27,Los Angeles Rams,2,NFC,NFC West,,,,false,,,
+165,434,40,Arizona Cardinals,2,NFC,NFC West,,,LAST,false,,,
+171,440,6,Buffalo Bills,2,AFC,AFC East,,,FIRST_TIED,true,1,false,false
+188,440,29,Miami Dolphins,2,AFC,AFC East,,,FIRST_TIED,true,0,false,false
+193,440,35,New York Jets,2,AFC,AFC East,,,,false,,,
+190,440,5,New England Patriots,2,AFC,AFC East,,LAST,LAST,false,,,
+168,440,4,Baltimore Ravens,2,AFC,AFC North,FIRST,FIRST,FIRST,true,1,false,false
+176,440,11,Cleveland Browns,2,AFC,AFC North,,,,true,0,false,false
+195,440,41,Pittsburgh Steelers,2,AFC,AFC North,,,,true,0,false,false
+174,440,10,Cincinnati Bengals,2,AFC,AFC North,,,LAST,false,,,
+181,440,22,Houston Texans,2,AFC,AFC South,,,FIRST,true,1,false,false
+183,440,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+182,440,23,Indianapolis Colts,2,AFC,AFC South,,,,false,,,
+200,440,33,Tennessee Titans,2,AFC,AFC South,,,LAST,false,,,
+184,440,25,Kansas City Chiefs,2,AFC,AFC West,,,FIRST,true,4,true,true
+185,440,26,Las Vegas Raiders,2,AFC,AFC West,,,,false,,,
+178,440,15,Denver Broncos,2,AFC,AFC West,,,,false,,,
+186,440,27,Los Angeles Chargers,2,AFC,AFC West,,,LAST,false,,,
+177,440,13,Dallas Cowboys,2,NFC,NFC East,,FIRST_TIED,FIRST,true,0,false,false
+194,440,39,Philadelphia Eagles,2,NFC,NFC East,,,,true,0,false,false
+192,440,35,New York Giants,2,NFC,NFC East,,,,false,,,
+201,440,63,Washington Commanders,2,NFC,NFC East,,,LAST,false,,,
+179,440,16,Detroit Lions,2,NFC,NFC North,,FIRST_TIED,FIRST,true,2,false,false
+180,440,20,Green Bay Packers,2,NFC,NFC North,,,,true,1,false,false
+189,440,31,Minnesota Vikings,2,NFC,NFC North,,,LAST_TIED,false,,,
+173,440,9,Chicago Bears,2,NFC,NFC North,,,LAST_TIED,false,,,
+199,440,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,FIRST_TIED,true,1,false,false
+191,440,34,New Orleans Saints,2,NFC,NFC South,,,FIRST_TIED,false,,,
+166,440,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+172,440,8,Carolina Panthers,2,NFC,NFC South,LAST,LAST,LAST,false,,,
+196,440,52,San Francisco 49ers,2,NFC,NFC West,,FIRST_TIED,FIRST,true,2,true,false
+187,440,27,Los Angeles Rams,2,NFC,NFC West,,,,true,0,false,false
+197,440,53,Seattle Seahawks,2,NFC,NFC West,,,,false,,,
+165,440,40,Arizona Cardinals,2,NFC,NFC West,,,LAST,false,,,
+171,446,6,Buffalo Bills,2,AFC,AFC East,,,FIRST,true,2,false,false
+188,446,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+193,446,35,New York Jets,2,AFC,AFC East,,,,false,,,
+190,446,5,New England Patriots,2,AFC,AFC East,,,LAST,false,,,
+168,446,4,Baltimore Ravens,2,AFC,AFC North,,,FIRST,true,1,false,false
+195,446,41,Pittsburgh Steelers,2,AFC,AFC North,,,,true,0,false,false
+174,446,10,Cincinnati Bengals,2,AFC,AFC North,,,,false,,,
+176,446,11,Cleveland Browns,2,AFC,AFC North,LAST_TIED,LAST_TIED,LAST,false,,,
+181,446,22,Houston Texans,2,AFC,AFC South,,,FIRST,true,1,false,false
+182,446,23,Indianapolis Colts,2,AFC,AFC South,,,,false,,,
+183,446,24,Jacksonville Jaguars,2,AFC,AFC South,,,,false,,,
+200,446,33,Tennessee Titans,2,AFC,AFC South,LAST_TIED,LAST_TIED,LAST,false,,,
+184,446,25,Kansas City Chiefs,2,AFC,AFC West,FIRST_TIED,FIRST,FIRST,true,2,true,false
+186,446,27,Los Angeles Chargers,2,AFC,AFC West,,,,true,0,false,false
+178,446,15,Denver Broncos,2,AFC,AFC West,,,,true,0,false,false
+185,446,26,Las Vegas Raiders,2,AFC,AFC West,,,LAST,false,,,
+194,446,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST,true,4,true,true
+201,446,63,Washington Commanders,2,NFC,NFC East,,,,true,2,false,false
+177,446,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+192,446,35,New York Giants,2,NFC,NFC East,LAST_TIED,LAST,LAST,false,,,
+179,446,16,Detroit Lions,2,NFC,NFC North,FIRST_TIED,FIRST,FIRST,true,0,false,false
+189,446,31,Minnesota Vikings,2,NFC,NFC North,,,,true,0,false,false
+180,446,20,Green Bay Packers,2,NFC,NFC North,,,,true,0,false,false
+173,446,9,Chicago Bears,2,NFC,NFC North,,,LAST,false,,,
+199,446,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,FIRST,true,0,false,false
+166,446,2,Atlanta Falcons,2,NFC,NFC South,,,,false,,,
+172,446,8,Carolina Panthers,2,NFC,NFC South,,,LAST_TIED,false,,,
+191,446,34,New Orleans Saints,2,NFC,NFC South,,,LAST_TIED,false,,,
+187,446,27,Los Angeles Rams,2,NFC,NFC West,,,FIRST_TIED,true,1,false,false
+197,446,53,Seattle Seahawks,2,NFC,NFC West,,,FIRST_TIED,false,,,
+165,446,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
+196,446,52,San Francisco 49ers,2,NFC,NFC West,,,LAST,false,,,

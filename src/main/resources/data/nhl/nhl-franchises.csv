@@ -1,38 +1,39 @@
-name,is_defunct,league
-Anaheim Ducks,false,NHL
-Arizona Coyotes,false,NHL
-Boston Bruins,false,NHL
-Buffalo Sabres,false,NHL
-Calgary Flames,false,NHL
-California Golden Seals,true,NHL
-Carolina Hurricanes,false,NHL
-Chicago Blackhawks,false,NHL
-Colorado Avalanche,false,NHL
-Columbus Blue Jackets,false,NHL
-Dallas Stars,false,NHL
-Detroit Red Wings,false,NHL
-Edmonton Oilers,false,NHL
-Florida Panthers,false,NHL
-Los Angeles Kings,false,NHL
-Minnesota Wild,false,NHL
-Montreal Canadiens,false,NHL
-Montreal Maroons,true,NHL
-Nashville Predators,false,NHL
-New Jersey Devils,false,NHL
-New York Americans,true,NHL
-New York Islanders,false,NHL
-New York Rangers,false,NHL
-Ottawa Senators,false,NHL
-Ottawa Senators (original),true,NHL
-Philadelphia Flyers,false,NHL
-Pittsburgh Penguins,false,NHL
-Pittsburgh Pirates (NHL),true,NHL
-San Jose Sharks,false,NHL
-Seattle Kraken,false,NHL
-St. Louis Blues,false,NHL
-Tampa Bay Lightning,false,NHL
-Toronto Maple Leafs,false,NHL
-Vancouver Canucks,false,NHL
-Vegas Golden Knights,false,NHL
-Washington Capitals,false,NHL
-Winnipeg Jets,false,NHL
+id,name,label,is_defunct,league_id
+76,Anaheim Ducks,ducks,false,4
+77,Arizona Coyotes,coyotes,true,4
+78,Boston Bruins,bruins,false,4
+79,Buffalo Sabres,sabres,false,4
+80,Calgary Flames,flames,false,4
+81,California Golden Seals,seals,true,4
+82,Carolina Hurricanes,hurricanes,false,4
+83,Chicago Blackhawks,blackhawks,false,4
+84,Colorado Avalanche,avalanche,false,4
+85,Columbus Blue Jackets,blue-jackets,false,4
+86,Dallas Stars,stars,false,4
+87,Detroit Red Wings,red-wings,false,4
+88,Edmonton Oilers,oilers,false,4
+89,Florida Panthers,panthers-nhl,false,4
+90,Los Angeles Kings,kings-nhl,false,4
+91,Minnesota Wild,wild,false,4
+92,Montreal Canadiens,canadiens,false,4
+93,Montreal Maroons,maroons,true,4
+94,Nashville Predators,predators,false,4
+95,New Jersey Devils,devils,false,4
+96,New York Americans,americans,true,4
+97,New York Islanders,islanders,false,4
+98,New York Rangers,rangers-nhl,false,4
+99,Ottawa Senators (Original),senators-original,true,4
+100,Ottawa Senators,senators,false,4
+101,Philadelphia Flyers,flyers,false,4
+102,Pittsburgh Penguins,penguins,false,4
+103,Pittsburgh Pirates (NHL),pirates-nhl,true,4
+104,San Jose Sharks,sharks,false,4
+105,Seattle Kraken,kraken,false,4
+106,St. Louis Blues,blues,false,4
+107,Tampa Bay Lightning,lightning,false,4
+108,Toronto Maple Leafs,maple-leafs,false,4
+109,Vancouver Canucks,canucks,false,4
+110,Vegas Golden Knights,golden-knights,false,4
+111,Washington Capitals,capitals,false,4
+112,Winnipeg Jets,jets-nhl,false,4
+202,Utah Mammoth,mammoth,false,4

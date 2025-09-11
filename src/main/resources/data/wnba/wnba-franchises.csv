@@ -1,19 +1,20 @@
-name,is_defunct,league
-Atlanta Dream,false,WNBA
-Charlotte Sting,true,WNBA
-Chicago Sky,false,WNBA
-Cleveland Rockers,true,WNBA
-Connecticut Sun,false,WNBA
-Dallas Wings,false,WNBA
-Houston Comets,true,WNBA
-Indiana Fever,false,WNBA
-Las Vegas Aces,false,WNBA
-Los Angeles Sparks,false,WNBA
-Miami Sol,true,WNBA
-Minnesota Lynx,false,WNBA
-New York Liberty,false,WNBA
-Phoenix Mercury,false,WNBA
-Portland Fire,true,WNBA
-Sacramento Monarchs,true,WNBA
-Seattle Storm,false,WNBA
-Washington Mystics,false,WNBA
+id,name,label,is_defunct,league_id
+113,Atlanta Dream,dream,false,5
+114,Charlotte Sting,sting,true,5
+115,Chicago Sky,sky,false,5
+116,Cleveland Rockers,rockers,true,5
+117,Connecticut Sun,sun,false,5
+118,Dallas Wings,wings,false,5
+119,Golden State Valkyries,valkyries,false,5
+120,Houston Comets,comets,true,5
+121,Indiana Fever,fever,false,5
+122,Las Vegas Aces,aces,false,5
+123,Los Angeles Sparks,sparks,false,5
+124,Miami Sol,sol,true,5
+125,Minnesota Lynx,lynx,false,5
+126,New York Liberty,liberty,false,5
+127,Phoenix Mercury,mercury,false,5
+128,Portland Fire,fire-wnba,true,5
+129,Sacramento Monarchs,monarchs,true,5
+130,Seattle Storm,storm,false,5
+131,Washington Mystics,mystics,false,5

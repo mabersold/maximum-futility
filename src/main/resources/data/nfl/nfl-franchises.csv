@@ -1,37 +1,38 @@
-name,is_defunct,league
-Arizona Cardinals,false,NFL
-Atlanta Falcons,false,NFL
-Baltimore Colts,true,NFL
-Baltimore Ravens,false,NFL
-Buffalo Bills,false,NFL
-Carolina Panthers,false,NFL
-Chicago Bears,false,NFL
-Cincinnati Bengals,false,NFL
-Cleveland Browns,false,NFL
-Dallas Cowboys,false,NFL
-Denver Broncos,false,NFL
-Detroit Lions,false,NFL
-Green Bay Packers,false,NFL
-Houston Texans,false,NFL
-Indianapolis Colts,false,NFL
-Jacksonville Jaguars,false,NFL
-Kansas City Chiefs,false,NFL
-Las Vegas Raiders,false,NFL
-Los Angeles Chargers,false,NFL
-Los Angeles Rams,false,NFL
-Miami Dolphins,false,NFL
-Minnesota Vikings,false,NFL
-New England Patriots,false,NFL
-New Orleans Saints,false,NFL
-New York Giants,false,NFL
-New York Jets,false,NFL
-Philadelphia Eagles,false,NFL
-Pittsburgh Steelers,false,NFL
-San Francisco 49ers,false,NFL
-Seattle Seahawks,false,NFL
-Tampa Bay Buccaneers,false,NFL
-Tennessee Titans,false,NFL
-Washington Commanders,false,NFL
-Boston Yanks,true,NFL
-Brooklyn Dodgers,true,NFL
-Cincinnati Reds (NFL),true,NFL
+id,name,label,is_defunct,league_id
+165,Arizona Cardinals,cardinals-nfl,false,2
+166,Atlanta Falcons,falcons,false,2
+167,Baltimore Colts,colts-original,true,2
+168,Baltimore Ravens,ravens,false,2
+169,Boston Yanks,yanks,true,2
+170,Brooklyn Dodgers,dodgers-nfl,true,2
+171,Buffalo Bills,bills,false,2
+172,Carolina Panthers,panthers-nfl,false,2
+173,Chicago Bears,bears,false,2
+174,Cincinnati Bengals,bengals,false,2
+175,Cincinnati Reds (NFL),reds-nfl,true,2
+176,Cleveland Browns,browns,false,2
+177,Dallas Cowboys,cowboys,false,2
+178,Denver Broncos,broncos,false,2
+179,Detroit Lions,lions,false,2
+180,Green Bay Packers,packers,false,2
+181,Houston Texans,texans,false,2
+182,Indianapolis Colts,colts,false,2
+183,Jacksonville Jaguars,jaguars,false,2
+184,Kansas City Chiefs,chiefs,false,2
+185,Las Vegas Raiders,raiders,false,2
+186,Los Angeles Chargers,chargers,false,2
+187,Los Angeles Rams,rams,false,2
+188,Miami Dolphins,dolphins,false,2
+189,Minnesota Vikings,vikings,false,2
+190,New England Patriots,patriots,false,2
+191,New Orleans Saints,saints,false,2
+192,New York Giants,giants-nfl,false,2
+193,New York Jets,jets-nfl,false,2
+194,Philadelphia Eagles,eagles,false,2
+195,Pittsburgh Steelers,steelers,false,2
+196,San Francisco 49ers,49ers,false,2
+197,Seattle Seahawks,seahawks,false,2
+198,St. Louis Gunners,gunners,true,2
+199,Tampa Bay Buccaneers,buccaneers,false,2
+200,Tennessee Titans,titans,false,2
+201,Washington Commanders,commanders,false,2

@@ -1,0 +1,504 @@
+franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_position,conference_position,division_position,qualified_for_postseason,rounds_won,appeared_in_championship,won_championship
+162,278,58,Tampa Bay Mutiny,6,East,,FIRST,FIRST,,true,1,false,false
+140,278,63,DC United,6,East,,,,,true,3,true,true
+156,278,35,New York/New Jersey MetroStars,6,East,,,,,true,0,false,false
+139,278,12,Columbus Crew,6,East,,,,,true,0,false,false
+150,278,5,New England Revolution,6,East,,,LAST,,false,,,
+145,278,27,LA Galaxy,6,West,,,FIRST,,true,2,true,false
+142,278,13,Dallas Burn,6,West,,,,,true,0,false,false
+160,278,25,Kansas City Wiz,6,West,,,,,true,1,false,false
+158,278,52,San Jose Clash,6,West,,,,,true,0,false,false
+138,278,15,Colorado Rapids,6,West,,LAST,LAST,,false,,,
+140,284,63,DC United,6,East,,FIRST,FIRST,,true,3,true,true
+162,284,58,Tampa Bay Mutiny,6,East,,,,,true,0,false,false
+139,284,12,Columbus Crew,6,East,,,,,true,1,false,false
+150,284,5,New England Revolution,6,East,,,,,true,0,false,false
+156,284,35,New York/New Jersey MetroStars,6,East,,,LAST,,false,,,
+160,284,25,Kansas City Wizards,6,West,,,FIRST,,true,0,false,false
+145,284,27,LA Galaxy,6,West,,,,,true,0,false,false
+142,284,13,Dallas Burn,6,West,,,,,true,1,false,false
+138,284,15,Colorado Rapids,6,West,,,,,true,2,true,false
+158,284,52,San Jose Clash,6,West,,LAST,LAST,,false,,,
+140,290,63,DC United,6,East,,,FIRST,,true,2,true,false
+139,290,12,Columbus Crew,6,East,,,,,true,1,false,false
+156,290,35,MetroStars,6,East,,,,,true,0,false,false
+147,290,29,Miami Fusion,6,East,,,,,true,0,false,false
+162,290,58,Tampa Bay Mutiny,6,East,,,,,false,,,
+150,290,5,New England Revolution,6,East,,LAST,LAST,,false,,,
+145,290,27,LA Galaxy,6,West,,FIRST,FIRST,,true,1,false,false
+136,290,9,Chicago Fire,6,West,,,,,true,3,true,true
+138,290,15,Colorado Rapids,6,West,,,,,true,0,false,false
+142,290,13,Dallas Burn,6,West,,,,,true,0,false,false
+158,290,52,San Jose Clash,6,West,,,,,false,,,
+160,290,25,Kansas City Wizards,6,West,,,LAST,,false,,,
+140,296,63,DC United,6,East,,FIRST,FIRST,,true,3,true,true
+139,296,12,Columbus Crew,6,East,,,,,true,1,false,false
+162,296,58,Tampa Bay Mutiny,6,East,,,,,true,0,false,false
+147,296,29,Miami Fusion,6,East,,,,,true,0,false,false
+150,296,5,New England Revolution,6,East,,,,,false,,,
+156,296,35,MetroStars,6,East,,LAST,LAST,,false,,,
+145,296,27,LA Galaxy,6,West,,,FIRST,,true,2,true,false
+142,296,13,Dallas Burn,6,West,,,,,true,1,false,false
+136,296,9,Chicago Fire,6,West,,,,,true,0,false,false
+138,296,15,Colorado Rapids,6,West,,,,,true,0,false,false
+158,296,52,San Jose Clash,6,West,,,,,false,,,
+160,296,25,Kansas City Wizards,6,West,,,LAST,,false,,,
+156,302,35,MetroStars,6,East,,,FIRST,,true,1,false,false
+150,302,5,New England Revolution,6,East,,,,,true,0,false,false
+147,302,29,Miami Fusion,6,East,,,,,false,,,
+140,302,63,DC United,6,East,,,LAST,,false,,,
+136,302,9,Chicago Fire,6,Central,,FIRST_TIED,FIRST,,true,2,true,false
+162,302,58,Tampa Bay Mutiny,6,Central,,,,,true,0,false,false
+142,302,13,Dallas Burn,6,Central,,,,,true,0,false,false
+139,302,12,Columbus Crew,6,Central,,,LAST,,false,,,
+160,302,25,Kansas City Wizards,6,West,,FIRST_TIED,FIRST,,true,3,true,true
+145,302,27,LA Galaxy,6,West,,,,,true,1,false,false
+138,302,15,Colorado Rapids,6,West,,,,,true,0,false,false
+158,302,52,San Jose Earthquakes,6,West,,LAST,LAST,,false,,,
+147,308,29,Miami Fusion,6,East,,FIRST_TIED,FIRST,,true,1,false,false
+156,308,35,MetroStars,6,East,,,,,true,0,false,false
+150,308,5,New England Revolution,6,East,,,,,false,,,
+140,308,63,DC United,6,East,,,LAST,,false,,,
+136,308,9,Chicago Fire,6,Central,,FIRST_TIED,FIRST,,true,1,false,false
+139,308,12,Columbus Crew,6,Central,,,,,true,0,false,false
+142,308,13,Dallas Burn,6,Central,,,,,true,0,false,false
+162,308,58,Tampa Bay Mutiny,6,Central,,LAST,LAST,,false,,,
+145,308,27,LA Galaxy,6,West,,,FIRST,,true,2,true,false
+158,308,52,San Jose Earthquakes,6,West,,,,,true,3,true,true
+160,308,25,Kansas City Wizards,6,West,,,,,true,0,false,false
+138,308,15,Colorado Rapids,6,West,,,LAST,,false,,,
+150,314,5,New England Revolution,6,East,,,FIRST_TIED,,true,2,true,false
+139,314,12,Columbus Crew,6,East,,,FIRST_TIED,,true,1,false,false
+136,314,9,Chicago Fire,6,East,,,,,true,0,false,false
+156,314,35,MetroStars,6,East,,,,,false,,,
+140,314,63,DC United,6,East,,LAST,LAST,,false,,,
+145,314,27,LA Galaxy,6,West,,FIRST,FIRST,,true,3,true,true
+158,314,52,San Jose Earthquakes,6,West,,,,,true,0,false,false
+142,314,13,Dallas Burn,6,West,,,,,true,0,false,false
+138,314,15,Colorado Rapids,6,West,,,,,true,1,false,false
+160,314,25,Kansas City Wizards,6,West,,,LAST,,true,0,false,false
+136,320,9,Chicago Fire,6,East,,FIRST,FIRST,,true,2,true,false
+150,320,5,New England Revolution,6,East,,,,,true,1,false,false
+156,320,35,MetroStars,6,East,,,,,true,0,false,false
+140,320,63,DC United,6,East,,,,,true,0,false,false
+139,320,12,Columbus Crew,6,East,,,LAST,,false,,,
+158,320,52,San Jose Earthquakes,6,West,,,FIRST,,true,3,true,true
+160,320,25,Kansas City Wizards,6,West,,,,,true,1,false,false
+138,320,15,Colorado Rapids,6,West,,,,,true,0,false,false
+145,320,27,LA Galaxy,6,West,,,,,true,0,false,false
+142,320,13,Dallas Burn,6,West,,LAST,LAST,,false,,,
+139,326,12,Columbus Crew,6,East,,FIRST_TIED,FIRST,,true,0,false,false
+140,326,63,DC United,6,East,,,,,true,3,true,true
+156,326,35,MetroStars,6,East,,,,,true,0,false,false
+150,326,5,New England Revolution,6,East,,LAST_TIED,LAST_TIED,,true,1,false,false
+136,326,9,Chicago Fire,6,East,,LAST_TIED,LAST_TIED,,false,,,
+160,326,25,Kansas City Wizards,6,West,,FIRST_TIED,FIRST,,true,2,true,false
+145,326,27,LA Galaxy,6,West,,,,,true,1,false,false
+138,326,15,Colorado Rapids,6,West,,,,,true,0,false,false
+158,326,52,San Jose Earthquakes,6,West,,,,,true,0,false,false
+142,326,13,FC Dallas,6,West,,,LAST,,false,,,
+150,331,5,New England Revolution,6,East,,,FIRST,,true,2,true,false
+140,331,63,DC United,6,East,,,,,true,0,false,false
+136,331,9,Chicago Fire,6,East,,,,,true,1,false,false
+156,331,35,MetroStars,6,East,,,,,true,0,false,false
+160,331,25,Kansas City Wizards,6,East,,,,,false,,,
+139,331,12,Columbus Crew,6,East,,,LAST,,false,,,
+158,331,52,San Jose Earthquakes,6,West,,FIRST,FIRST,,true,0,false,false
+142,331,13,FC Dallas,6,West,,,,,true,0,false,false
+138,331,15,Colorado Rapids,6,West,,,,,true,1,false,false
+145,331,27,LA Galaxy,6,West,,,,,true,3,true,true
+155,331,49,Real Salt Lake,6,West,,,,,false,,,
+137,331,27,Chivas USA,6,West,,LAST,LAST,,false,,,
+140,337,63,DC United,6,East,,FIRST,FIRST,,true,1,false,false
+150,337,5,New England Revolution,6,East,,,,,true,2,true,false
+136,337,9,Chicago Fire,6,East,,,,,true,0,false,false
+156,337,35,New York Red Bulls,6,East,,,,,true,0,false,false
+160,337,25,Kansas City Wizards,6,East,,,,,false,,,
+139,337,12,Columbus Crew,6,East,,LAST,LAST,,false,,,
+142,337,13,FC Dallas,6,West,,,FIRST,,true,0,false,false
+143,337,22,Houston Dynamo,6,West,,,,,true,3,true,true
+137,337,27,Chivas USA,6,West,,,,,true,0,false,false
+138,337,15,Colorado Rapids,6,West,,,,,true,1,false,false
+145,337,27,LA Galaxy,6,West,,,LAST_TIED,,false,,,
+155,337,49,Real Salt Lake,6,West,,,LAST_TIED,,false,,,
+140,343,63,DC United,6,East,,FIRST,FIRST,,true,0,false,false
+150,343,5,New England Revolution,6,East,,,,,true,2,true,false
+156,343,35,New York Red Bulls,6,East,,,,,true,0,false,false
+136,343,9,Chicago Fire,6,East,,,,,true,1,false,false
+160,343,25,Kansas City Wizards,6,East,,,,,true,1,false,false
+139,343,12,Columbus Crew,6,East,,,,,false,,,
+163,343,59,Toronto FC,6,East,,LAST,LAST,,false,,,
+137,343,27,Chivas USA,6,West,,,FIRST,,true,0,false,false
+143,343,22,Houston Dynamo,6,West,,,,,true,3,true,true
+142,343,13,FC Dallas,6,West,,,,,true,0,false,false
+138,343,15,Colorado Rapids,6,West,,,,,false,,,
+145,343,27,LA Galaxy,6,West,,,,,false,,,
+155,343,49,Real Salt Lake,6,West,,,LAST,,false,,,
+139,349,12,Columbus Crew,6,East,,FIRST,FIRST,,true,3,true,true
+136,349,9,Chicago Fire,6,East,,,,,true,1,false,false
+150,349,5,New England Revolution,6,East,,,,,true,0,false,false
+160,349,25,Kansas City Wizards,6,East,,,,,true,0,false,false
+156,349,35,New York Red Bulls,6,East,,,,,true,2,true,false
+140,349,63,DC United,6,East,,,,,false,,,
+163,349,59,Toronto FC,6,East,,,LAST,,false,,,
+143,349,22,Houston Dynamo,6,West,,,FIRST,,true,0,false,false
+137,349,27,Chivas USA,6,West,,,,,true,0,false,false
+155,349,49,Real Salt Lake,6,West,,,,,true,1,false,false
+138,349,15,Colorado Rapids,6,West,,,,,false,,,
+142,349,13,FC Dallas,6,West,,,,,false,,,
+145,349,27,LA Galaxy,6,West,,LAST_TIED,LAST_TIED,,false,,,
+158,349,52,San Jose Earthquakes,6,West,,LAST_TIED,LAST_TIED,,false,,,
+139,355,12,Columbus Crew,6,East,,FIRST,FIRST,,true,0,false,false
+136,355,9,Chicago Fire,6,East,,,,,true,1,false,false
+150,355,5,New England Revolution,6,East,,,,,true,0,false,false
+140,355,63,DC United,6,East,,,,,false,,,
+163,355,59,Toronto FC,6,East,,,,,false,,,
+160,355,25,Kansas City Wizards,6,East,,,,,false,,,
+156,355,35,New York Red Bulls,6,East,,LAST,LAST,,false,,,
+145,355,27,LA Galaxy,6,West,,,FIRST_TIED,,true,2,true,false
+143,355,22,Houston Dynamo,6,West,,,FIRST_TIED,,true,1,false,false
+159,355,53,Seattle Sounders,6,West,,,,,true,0,false,false
+137,355,27,Chivas USA,6,West,,,,,true,0,false,false
+155,355,49,Real Salt Lake,6,West,,,,,true,3,true,true
+138,355,15,Colorado Rapids,6,West,,,,,false,,,
+142,355,13,FC Dallas,6,West,,,,,false,,,
+158,355,52,San Jose Earthquakes,6,West,,,LAST,,false,,,
+156,361,35,New York Red Bulls,6,East,,,FIRST,,true,0,false,false
+139,361,12,Columbus Crew,6,East,,,,,true,0,false,false
+160,361,25,Kansas City Wizards,6,East,,,,,false,,,
+136,361,9,Chicago Fire,6,East,,,,,false,,,
+163,361,59,Toronto FC,6,East,,,,,false,,,
+150,361,5,New England Revolution,6,East,,,,,false,,,
+153,361,39,Philadelphia Union,6,East,,,,,false,,,
+140,361,63,DC United,6,East,,LAST,LAST,,false,,,
+145,361,27,LA Galaxy,6,West,,FIRST,FIRST,,true,1,false,false
+155,361,49,Real Salt Lake,6,West,,,,,true,0,false,false
+142,361,13,FC Dallas,6,West,,,,,true,2,true,false
+159,361,53,Seattle Sounders,6,West,,,,,true,0,false,false
+138,361,15,Colorado Rapids,6,West,,,,,true,3,true,true
+158,361,52,San Jose Earthquakes,6,West,,,,,true,1,false,false
+143,361,22,Houston Dynamo,6,West,,,,,false,,,
+137,361,27,Chivas USA,6,West,,,LAST,,false,,,
+160,367,25,Sporting KC,6,East,,,FIRST,,true,1,false,false
+143,367,22,Houston Dynamo,6,East,,,,,true,2,true,false
+153,367,39,Philadelphia Union,6,East,,,,,true,0,false,false
+139,367,12,Columbus Crew,6,East,,,,,true,0,false,false
+156,367,35,New York Red Bulls,6,East,,,,,true,1,false,false
+136,367,9,Chicago Fire,6,East,,,,,false,,,
+140,367,63,DC United,6,East,,,,,false,,,
+163,367,59,Toronto FC,6,East,,,,,false,,,
+150,367,5,New England Revolution,6,East,,LAST_TIED,LAST,,false,,,
+145,367,27,LA Galaxy,6,West,,FIRST,FIRST,,true,3,true,true
+159,367,53,Seattle Sounders,6,West,,,,,true,0,false,false
+155,367,49,Real Salt Lake,6,West,,,,,true,1,false,false
+142,367,13,FC Dallas,6,West,,,,,true,0,false,false
+138,367,15,Colorado Rapids,6,West,,,,,true,1,false,false
+154,367,42,Portland Timbers,6,West,,,,,false,,,
+158,367,52,San Jose Earthquakes,6,West,,,,,false,,,
+137,367,27,Chivas USA,6,West,,,,,false,,,
+164,367,62,Vancouver Whitecaps,6,West,,LAST_TIED,LAST,,false,,,
+160,373,25,Sporting KC,6,East,,,FIRST,,true,0,false,false
+140,373,63,DC United,6,East,,,,,true,1,false,false
+156,373,35,New York Red Bulls,6,East,,,,,true,0,false,false
+136,373,9,Chicago Fire,6,East,,,,,true,0,false,false
+143,373,22,Houston Dynamo,6,East,,,,,true,3,true,false
+139,373,12,Columbus Crew,6,East,,,,,false,,,
+134,373,32,Montreal Impact,6,East,,,,,false,,,
+153,373,39,Philadelphia Union,6,East,,,,,false,,,
+150,373,5,New England Revolution,6,East,,,,,false,,,
+163,373,59,Toronto FC,6,East,,LAST,LAST,,false,,,
+158,373,52,San Jose Earthquakes,6,West,,FIRST,FIRST,,true,0,false,false
+155,373,49,Real Salt Lake,6,West,,,,,true,0,false,false
+159,373,53,Seattle Sounders,6,West,,,,,true,1,false,false
+145,373,27,LA Galaxy,6,West,,,,,true,4,true,true
+164,373,62,Vancouver Whitecaps,6,West,,,,,true,0,false,false
+142,373,13,FC Dallas,6,West,,,,,false,,,
+138,373,15,Colorado Rapids,6,West,,,,,false,,,
+154,373,42,Portland Timbers,6,West,,,,,false,,,
+137,373,27,Chivas USA,6,West,,,LAST,,false,,,
+156,379,35,New York Red Bulls,6,East,,FIRST,FIRST,,true,0,false,false
+160,379,25,Sporting KC,6,East,,,,,true,3,true,true
+150,379,5,New England Revolution,6,East,,,,,true,0,false,false
+143,379,22,Houston Dynamo,6,East,,,,,true,2,false,false
+134,379,32,Montreal Impact,6,East,,,,,true,0,false,false
+136,379,9,Chicago Fire,6,East,,,,,false,,,
+153,379,39,Philadelphia Union,6,East,,,,,false,,,
+139,379,12,Columbus Crew,6,East,,,,,false,,,
+163,379,59,Toronto FC,6,East,,,,,false,,,
+140,379,63,DC United,6,East,,LAST,LAST,,false,,,
+154,379,42,Portland Timbers,6,West,,,FIRST,,true,1,false,false
+155,379,49,Real Salt Lake,6,West,,,,,true,2,true,false
+145,379,27,LA Galaxy,6,West,,,,,true,0,false,false
+159,379,53,Seattle Sounders,6,West,,,,,true,1,false,false
+138,379,15,Colorado Rapids,6,West,,,,,true,0,false,false
+158,379,52,San Jose Earthquakes,6,West,,,,,false,,,
+164,379,62,Vancouver Whitecaps,6,West,,,,,false,,,
+142,379,13,FC Dallas,6,West,,,,,false,,,
+137,379,27,Chivas USA,6,West,,,LAST,,false,,,
+140,385,63,DC United,6,East,,,FIRST,,true,0,false,false
+150,385,5,New England Revolution,6,East,,,,,true,2,true,false
+139,385,12,Columbus Crew,6,East,,,,,true,0,false,false
+156,385,35,New York Red Bulls,6,East,,,,,true,2,false,false
+160,385,25,Sporting KC,6,East,,,,,true,0,false,false
+153,385,39,Philadelphia Union,6,East,,,,,false,,,
+163,385,59,Toronto FC,6,East,,,,,false,,,
+143,385,22,Houston Dynamo,6,East,,,,,false,,,
+136,385,9,Chicago Fire,6,East,,,,,false,,,
+134,385,32,Montreal Impact,6,East,,LAST,LAST,,false,,,
+159,385,53,Seattle Sounders,6,West,,FIRST,FIRST,,true,1,false,false
+145,385,27,LA Galaxy,6,West,,,,,true,3,true,true
+155,385,49,Real Salt Lake,6,West,,,,,true,0,false,false
+142,385,13,FC Dallas,6,West,,,,,true,1,false,false
+164,385,62,Vancouver Whitecaps,6,West,,,,,true,0,false,false
+154,385,42,Portland Timbers,6,West,,,,,false,,,
+137,385,27,Chivas USA,6,West,,,,,false,,,
+138,385,15,Colorado Rapids,6,West,,,,,false,,,
+158,385,52,San Jose Earthquakes,6,West,,,LAST,,false,,,
+156,391,35,New York Red Bulls,6,East,,FIRST_TIED,FIRST,,true,1,false,false
+139,391,12,Columbus Crew,6,East,,,,,true,2,true,false
+134,391,32,Montreal Impact,6,East,,,,,true,1,false,false
+140,391,63,DC United,6,East,,,,,true,1,false,false
+150,391,5,New England Revolution,6,East,,,,,true,0,false,false
+163,391,59,Toronto FC,6,East,,,,,true,0,false,false
+152,391,37,Orlando City SC,6,East,,,,,false,,,
+151,391,35,NYCFC,6,East,,,,,false,,,
+153,391,39,Philadelphia Union,6,East,,,,,false,,,
+136,391,9,Chicago Fire,6,East,,LAST,LAST,,false,,,
+142,391,13,FC Dallas,6,West,,FIRST_TIED,FIRST,,true,1,false,false
+164,391,62,Vancouver Whitecaps,6,West,,,,,true,0,false,false
+154,391,42,Portland Timbers,6,West,,,,,true,4,true,true
+159,391,53,Seattle Sounders,6,West,,,,,true,1,false,false
+145,391,27,LA Galaxy,6,West,,,,,true,0,false,false
+160,391,25,Sporting KC,6,West,,,,,true,0,false,false
+158,391,52,San Jose Earthquakes,6,West,,,,,false,,,
+143,391,22,Houston Dynamo,6,West,,,,,false,,,
+155,391,49,Real Salt Lake,6,West,,,,,false,,,
+138,391,15,Colorado Rapids,6,West,,,LAST,,false,,,
+156,397,35,New York Red Bulls,6,East,,,FIRST,,true,0,false,false
+151,397,35,NYCFC,6,East,,,,,true,0,false,false
+163,397,59,Toronto FC,6,East,,,,,true,3,true,false
+140,397,63,DC United,6,East,,,,,true,0,false,false
+134,397,32,Montreal Impact,6,East,,,,,true,2,false,false
+153,397,39,Philadelphia Union,6,East,,,,,true,0,false,false
+150,397,5,New England Revolution,6,East,,,,,false,,,
+152,397,37,Orlando City SC,6,East,,,,,false,,,
+139,397,12,Columbus Crew,6,East,,,,,false,,,
+136,397,9,Chicago Fire,6,East,,LAST,LAST,,false,,,
+142,397,13,FC Dallas,6,West,,FIRST,FIRST,,true,0,false,false
+138,397,15,Colorado Rapids,6,West,,,,,true,1,false,false
+145,397,27,LA Galaxy,6,West,,,,,true,1,false,false
+159,397,53,Seattle Sounders,6,West,,,,,true,4,true,true
+160,397,25,Sporting KC,6,West,,,,,true,0,false,false
+155,397,49,Real Salt Lake,6,West,,,,,true,0,false,false
+154,397,42,Portland Timbers,6,West,,,,,false,,,
+164,397,62,Vancouver Whitecaps,6,West,,,,,false,,,
+158,397,52,San Jose Earthquakes,6,West,,,,,false,,,
+143,397,22,Houston Dynamo,6,West,,,LAST,,false,,,
+163,403,59,Toronto FC,6,East,,FIRST,FIRST,,true,3,true,true
+151,403,35,NYCFC,6,East,,,,,true,0,false,false
+136,403,9,Chicago Fire,6,East,,,,,true,0,false,false
+132,403,2,Atlanta United,6,East,,,,,true,0,false,false
+139,403,12,Columbus Crew,6,East,,,,,true,2,false,false
+156,403,35,New York Red Bulls,6,East,,,,,true,1,false,false
+150,403,5,New England Revolution,6,East,,,,,false,,,
+153,403,39,Philadelphia Union,6,East,,,,,false,,,
+134,403,32,Montreal Impact,6,East,,,,,false,,,
+152,403,37,Orlando City SC,6,East,,,,,false,,,
+140,403,63,DC United,6,East,,LAST_TIED,LAST,,false,,,
+154,403,42,Portland Timbers,6,West,,,FIRST_TIED,,true,0,false,false
+159,403,53,Seattle Sounders,6,West,,,FIRST_TIED,,true,2,true,false
+164,403,62,Vancouver Whitecaps,6,West,,,,,true,1,false,false
+143,403,22,Houston Dynamo,6,West,,,,,true,2,false,false
+160,403,25,Sporting KC,6,West,,,,,true,0,false,false
+158,403,52,San Jose Earthquakes,6,West,,,,,true,0,false,false
+142,403,13,FC Dallas,6,West,,,,,false,,,
+155,403,49,Real Salt Lake,6,West,,,,,false,,,
+148,403,31,Minnesota United,6,West,,,,,false,,,
+138,403,15,Colorado Rapids,6,West,,,,,false,,,
+145,403,27,LA Galaxy,6,West,,LAST_TIED,LAST,,false,,,
+156,409,35,New York Red Bulls,6,East,,FIRST,FIRST,,true,1,false,false
+132,409,2,Atlanta United,6,East,,,,,true,3,true,true
+151,409,35,NYCFC,6,East,,,,,true,1,false,false
+140,409,63,DC United,6,East,,,,,true,0,false,false
+139,409,12,Columbus Crew,6,East,,,,,true,1,false,false
+153,409,39,Philadelphia Union,6,East,,,,,true,0,false,false
+134,409,32,Montreal Impact,6,East,,,,,false,,,
+150,409,5,New England Revolution,6,East,,,,,false,,,
+163,409,59,Toronto FC,6,East,,,,,false,,,
+136,409,9,Chicago Fire,6,East,,,,,false,,,
+152,409,37,Orlando City SC,6,East,,,LAST,,false,,,
+160,409,25,Sporting KC,6,West,,,FIRST,,true,1,false,false
+159,409,53,Seattle Sounders,6,West,,,,,true,0,false,false
+146,409,27,LAFC,6,West,,,,,true,0,false,false
+142,409,13,FC Dallas,6,West,,,,,true,0,false,false
+154,409,42,Portland Timbers,6,West,,,,,true,3,true,false
+155,409,49,Real Salt Lake,6,West,,,,,true,1,false,false
+145,409,27,LA Galaxy,6,West,,,,,false,,,
+164,409,62,Vancouver Whitecaps,6,West,,,,,false,,,
+143,409,22,Houston Dynamo,6,West,,,,,false,,,
+148,409,31,Minnesota United,6,West,,,,,false,,,
+138,409,15,Colorado Rapids,6,West,,,,,false,,,
+158,409,52,San Jose Earthquakes,6,West,,LAST,LAST,,false,,,
+151,415,35,NYCFC,6,East,,,FIRST,,true,0,false,false
+132,415,2,Atlanta United,6,East,,,,,true,2,false,false
+153,415,39,Philadelphia Union,6,East,,,,,true,1,false,false
+163,415,59,Toronto FC,6,East,,,,,true,3,true,false
+140,415,63,DC United,6,East,,,,,true,0,false,false
+156,415,35,New York Red Bulls,6,East,,,,,true,0,false,false
+150,415,5,New England Revolution,6,East,,,,,true,0,false,false
+136,415,9,Chicago Fire,6,East,,,,,false,,,
+134,415,32,Montreal Impact,6,East,,,,,false,,,
+139,415,12,Columbus Crew,6,East,,,,,false,,,
+152,415,37,Orlando City SC,6,East,,,,,false,,,
+141,415,10,FC Cincinnati,6,East,,LAST,LAST,,false,,,
+146,415,27,LAFC,6,West,,FIRST,FIRST,,true,1,false,false
+159,415,53,Seattle Sounders,6,West,,,,,true,4,true,true
+155,415,49,Real Salt Lake,6,West,,,,,true,1,false,false
+148,415,31,Minnesota United,6,West,,,,,true,0,false,false
+145,415,27,LA Galaxy,6,West,,,,,true,1,false,false
+154,415,42,Portland Timbers,6,West,,,,,true,0,false,false
+142,415,13,FC Dallas,6,West,,,,,true,0,false,false
+158,415,52,San Jose Earthquakes,6,West,,,,,false,,,
+138,415,15,Colorado Rapids,6,West,,,,,false,,,
+143,415,22,Houston Dynamo,6,West,,,,,false,,,
+160,415,25,Sporting KC,6,West,,,,,false,,,
+164,415,62,Vancouver Whitecaps,6,West,,,LAST,,false,,,
+153,421,39,Philadelphia Union,6,East,,FIRST,FIRST,,true,0,false,false
+163,421,59,Toronto FC,6,East,,,,,true,0,false,false
+139,421,12,Columbus Crew,6,East,,,,,true,4,true,true
+152,421,37,Orlando City SC,6,East,,,,,true,1,false,false
+151,421,35,NYCFC,6,East,,,,,true,0,false,false
+156,421,35,New York Red Bulls,6,East,,,,,true,0,false,false
+149,421,33,Nashville SC,6,East,,,,,true,2,false,false
+150,421,5,New England Revolution,6,East,,,,,true,3,false,false
+134,421,32,CF Montreal,6,East,,,,,true,0,false,false
+144,421,29,Inter Miami,6,East,,,,,true,0,false,false
+136,421,9,Chicago Fire,6,East,,,,,false,,,
+132,421,2,Atlanta United,6,East,,,,,false,,,
+140,421,63,DC United,6,East,,,,,false,,,
+141,421,10,FC Cincinnati,6,East,,LAST,LAST,,false,,,
+160,421,25,Sporting KC,6,West,,,FIRST_TIED,,true,1,false,false
+159,421,53,Seattle Sounders,6,West,,,FIRST_TIED,,true,3,true,false
+154,421,42,Portland Timbers,6,West,,,FIRST_TIED,,true,0,false,false
+148,421,31,Minnesota United,6,West,,,,,true,2,false,false
+142,421,13,FC Dallas,6,West,,,,,true,1,false,false
+146,421,27,LAFC,6,West,,,,,true,0,false,false
+158,421,52,San Jose Earthquakes,6,West,,,,,true,0,false,false
+138,421,15,Colorado Rapids,6,West,,,,,true,0,false,false
+164,421,62,Vancouver Whitecaps,6,West,,,,,false,,,
+145,421,27,LA Galaxy,6,West,,,,,false,,,
+155,421,49,Real Salt Lake,6,West,,,,,false,,,
+143,421,22,Houston Dynamo,6,West,,,LAST,,false,,,
+150,427,5,New England Revolution,6,East,,FIRST,FIRST,,true,0,false,false
+153,427,39,Philadelphia Union,6,East,,,,,true,2,false,false
+149,427,33,Nashville SC,6,East,,,,,true,1,false,false
+151,427,35,NYCFC,6,East,,,,,true,4,true,true
+132,427,2,Atlanta United,6,East,,,,,true,0,false,false
+152,427,37,Orlando City SC,6,East,,,,,true,0,false,false
+156,427,35,New York Red Bulls,6,East,,,,,true,0,false,false
+140,427,63,DC United,6,East,,,,,false,,,
+139,427,12,Columbus Crew,6,East,,,,,false,,,
+134,427,32,CF Montreal,6,East,,,,,false,,,
+144,427,29,Inter Miami,6,East,,,,,false,,,
+136,427,9,Chicago Fire,6,East,,,,,false,,,
+163,427,59,Toronto FC,6,East,,,,,false,,,
+141,427,10,FC Cincinnati,6,East,,LAST,LAST,,false,,,
+138,427,15,Colorado Rapids,6,West,,,FIRST,,true,0,false,false
+159,427,53,Seattle Sounders,6,West,,,,,true,0,false,false
+160,427,25,Sporting KC,6,West,,,,,true,1,false,false
+154,427,42,Portland Timbers,6,West,,,,,true,3,true,false
+148,427,31,Minnesota United,6,West,,,,,true,0,false,false
+164,427,62,Vancouver Whitecaps,6,West,,,,,true,0,false,false
+155,427,49,Real Salt Lake,6,West,,,,,true,2,false,false
+145,427,27,LA Galaxy,6,West,,,,,false,,,
+146,427,27,LAFC,6,West,,,,,false,,,
+158,427,52,San Jose Earthquakes,6,West,,,,,false,,,
+142,427,13,FC Dallas,6,West,,,,,false,,,
+133,427,3,Austin FC,6,West,,,,,false,,,
+143,427,22,Houston Dynamo,6,West,,,LAST,,false,,,
+153,433,39,Philadelphia Union,6,East,,FIRST_TIED,FIRST,,true,2,true,false
+134,433,32,CF Montreal,6,East,,,,,true,1,false,false
+151,433,35,NYCFC,6,East,,,,,true,2,false,false
+156,433,35,New York Red Bulls,6,East,,,,,true,0,false,false
+141,433,10,FC Cincinnati,6,East,,,,,true,1,false,false
+144,433,29,Inter Miami,6,East,,,,,true,0,false,false
+152,433,37,Orlando City SC,6,East,,,,,true,0,false,false
+139,433,12,Columbus Crew,6,East,,,,,false,,,
+135,433,8,Charlotte FC,6,East,,,,,false,,,
+150,433,5,New England Revolution,6,East,,,,,false,,,
+132,433,2,Atlanta United,6,East,,,,,false,,,
+136,433,9,Chicago Fire,6,East,,,,,false,,,
+163,433,59,Toronto FC,6,East,,,,,false,,,
+140,433,63,DC United,6,East,,LAST,LAST,,false,,,
+146,433,27,LAFC,6,West,,FIRST_TIED,FIRST,,true,3,true,true
+133,433,3,Austin FC,6,West,,,,,true,2,false,false
+142,433,13,FC Dallas,6,West,,,,,true,1,false,false
+145,433,27,LA Galaxy,6,West,,,,,true,1,false,false
+149,433,33,Nashville SC,6,West,,,,,true,0,false,false
+148,433,31,Minnesota United,6,West,,,,,true,0,false,false
+155,433,49,Real Salt Lake,6,West,,,,,true,0,false,false
+154,433,42,Portland Timbers,6,West,,,,,false,,,
+164,433,62,Vancouver Whitecaps,6,West,,,,,false,,,
+138,433,15,Colorado Rapids,6,West,,,,,false,,,
+159,433,53,Seattle Sounders,6,West,,,,,false,,,
+160,433,25,Sporting KC,6,West,,,,,false,,,
+143,433,22,Houston Dynamo,6,West,,,,,false,,,
+158,433,52,San Jose Earthquakes,6,West,,,LAST,,false,,,
+141,439,10,FC Cincinnati,6,East,,FIRST,FIRST,,true,2,false,false
+152,439,37,Orlando City SC,6,East,,,,,true,1,false,false
+139,439,12,Columbus Crew,6,East,,,,,true,4,true,true
+153,439,39,Philadelphia Union,6,East,,,,,true,1,false,false
+150,439,5,New England Revolution,6,East,,,,,true,0,false,false
+132,439,2,Atlanta United,6,East,,,,,true,0,false,false
+149,439,33,Nashville SC,6,East,,,,,true,0,false,false
+156,439,35,New York Red Bulls,6,East,,,,,true,1,false,false
+135,439,8,Charlotte FC,6,East,,,,,true,0,false,false
+134,439,32,CF Montreal,6,East,,,,,false,,,
+151,439,35,NYCFC,6,East,,,,,false,,,
+140,439,63,DC United,6,East,,,,,false,,,
+136,439,9,Chicago Fire,6,East,,,,,false,,,
+144,439,29,Inter Miami,6,East,,,,,false,,,
+163,439,59,Toronto FC,6,East,,LAST,LAST,,false,,,
+161,439,56,St. Louis City SC,6,West,,,FIRST,,true,0,false,false
+159,439,53,Seattle Sounders,6,West,,,,,true,1,false,false
+146,439,27,LAFC,6,West,,,,,true,3,true,false
+143,439,22,Houston Dynamo,6,West,,,,,true,2,false,false
+155,439,49,Real Salt Lake,6,West,,,,,true,0,false,false
+164,439,62,Vancouver Whitecaps,6,West,,,,,true,0,false,false
+142,439,13,FC Dallas,6,West,,,,,true,0,false,false
+160,439,25,Sporting KC,6,West,,,,,true,2,false,false
+158,439,52,San Jose Earthquakes,6,West,,,,,true,0,false,false
+154,439,42,Portland Timbers,6,West,,,,,false,,,
+148,439,31,Minnesota United,6,West,,,,,false,,,
+133,439,3,Austin FC,6,West,,,,,false,,,
+145,439,27,LA Galaxy,6,West,,,,,false,,,
+138,439,15,Colorado Rapids,6,West,,,LAST,,false,,,
+144,445,29,Inter Miami,6,East,,FIRST,FIRST,,true,0,false,false
+139,445,12,Columbus Crew,6,East,,,,,true,0,false,false
+141,445,10,FC Cincinnati,6,East,,,,,true,0,false,false
+152,445,37,Orlando City SC,6,East,,,,,true,2,false,false
+135,445,8,Charlotte FC,6,East,,,,,true,0,false,false
+151,445,35,NYCFC,6,East,,,,,true,1,false,false
+156,445,35,New York Red Bulls,6,East,,,,,true,3,true,false
+134,445,32,CF Montreal,6,East,,,,,true,0,false,false
+132,445,2,Atlanta United,6,East,,,,,true,2,false,false
+140,445,63,DC United,6,East,,,,,false,,,
+163,445,59,Toronto FC,6,East,,,,,false,,,
+153,445,39,Philadelphia Union,6,East,,,,,false,,,
+149,445,33,Nashville SC,6,East,,,,,false,,,
+150,445,5,New England Revolution,6,East,,,,,false,,,
+136,445,9,Chicago Fire,6,East,,,LAST,,false,,,
+146,445,27,LAFC,6,West,,,FIRST_TIED,,true,1,false,false
+145,445,27,LA Galaxy,6,West,,,FIRST_TIED,,true,4,true,true
+155,445,49,Real Salt Lake,6,West,,,,,true,0,false,false
+159,445,53,Seattle Sounders,6,West,,,,,true,2,false,false
+143,445,22,Houston Dynamo,6,West,,,,,true,0,false,false
+148,445,31,Minnesota United,6,West,,,,,true,1,false,false
+138,445,15,Colorado Rapids,6,West,,,,,true,0,false,false
+164,445,62,Vancouver Whitecaps,6,West,,,,,true,1,false,false
+154,445,42,Portland Timbers,6,West,,,,,true,0,false,false
+133,445,3,Austin FC,6,West,,,,,false,,,
+142,445,13,FC Dallas,6,West,,,,,false,,,
+161,445,56,St. Louis City SC,6,West,,,,,false,,,
+160,445,25,Sporting KC,6,West,,,,,false,,,
+158,445,52,San Jose Earthquakes,6,West,,LAST,LAST,,false,,,

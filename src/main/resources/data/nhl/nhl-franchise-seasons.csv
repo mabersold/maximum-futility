@@ -1527,37 +1527,37 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 76,417,27,Anaheim Ducks,4,Western,Pacific,,,,false,,,
 90,417,27,Los Angeles Kings,4,Western,Pacific,,,,false,,,
 104,417,52,San Jose Sharks,4,Western,Pacific,,LAST,LAST,false,,,
-82,423,46,Carolina Hurricanes,4,Central,,,FIRST,,true,1,false,false
-89,423,29,Florida Panthers,4,Central,,,,,true,0,false,false
-107,423,58,Tampa Bay Lightning,4,Central,,,,,true,4,true,true
-94,423,33,Nashville Predators,4,Central,,,,,true,0,false,false
-86,423,13,Dallas Stars,4,Central,,,,,false,,,
-83,423,9,Chicago Blackhawks,4,Central,,,,,false,,,
-87,423,16,Detroit Red Wings,4,Central,,,LAST_TIED,,false,,,
-85,423,12,Columbus Blue Jackets,4,Central,,,LAST_TIED,,false,,,
-102,423,41,Pittsburgh Penguins,4,East,,,FIRST_TIED,,true,0,false,false
-111,423,63,Washington Capitals,4,East,,,FIRST_TIED,,true,0,false,false
-78,423,5,Boston Bruins,4,East,,,,,true,1,false,false
-97,423,35,New York Islanders,4,East,,,,,true,2,false,false
-98,423,35,New York Rangers,4,East,,,,,false,,,
-101,423,39,Philadelphia Flyers,4,East,,,,,false,,,
-95,423,35,New Jersey Devils,4,East,,,,,false,,,
-79,423,6,Buffalo Sabres,4,East,,LAST,LAST,,false,,,
-108,423,59,Toronto Maple Leafs,4,North,,,FIRST,,true,0,false,false
-88,423,17,Edmonton Oilers,4,North,,,,,true,0,false,false
-112,423,64,Winnipeg Jets,4,North,,,,,true,1,false,false
-92,423,32,Montreal Canadiens,4,North,,,,,true,3,true,false
-80,423,7,Calgary Flames,4,North,,,,,false,,,
-100,423,38,Ottawa Senators,4,North,,,,,false,,,
-109,423,62,Vancouver Canucks,4,North,,,LAST,,false,,,
-84,423,15,Colorado Avalanche,4,West,,FIRST_TIED,FIRST_TIED,,true,1,false,false
-110,423,26,Vegas Golden Knights,4,West,,FIRST_TIED,FIRST_TIED,,true,2,false,false
-91,423,31,Minnesota Wild,4,West,,,,,true,0,false,false
-106,423,56,St. Louis Blues,4,West,,,,,true,0,false,false
-77,423,40,Arizona Coyotes,4,West,,,,,false,,,
-90,423,27,Los Angeles Kings,4,West,,,,,false,,,
-104,423,52,San Jose Sharks,4,West,,,,,false,,,
-76,423,27,Anaheim Ducks,4,West,,,LAST,,false,,,
+82,423,46,Carolina Hurricanes,4,,Central,,,FIRST,true,1,false,false
+89,423,29,Florida Panthers,4,,Central,,,,true,0,false,false
+107,423,58,Tampa Bay Lightning,4,,Central,,,,true,4,true,true
+94,423,33,Nashville Predators,4,,Central,,,,true,0,false,false
+86,423,13,Dallas Stars,4,,Central,,,,false,,,
+83,423,9,Chicago Blackhawks,4,,Central,,,,false,,,
+87,423,16,Detroit Red Wings,4,,Central,,,LAST_TIED,false,,,
+85,423,12,Columbus Blue Jackets,4,,Central,,,LAST_TIED,false,,,
+102,423,41,Pittsburgh Penguins,4,,East,,,FIRST_TIED,true,0,false,false
+111,423,63,Washington Capitals,4,,East,,,FIRST_TIED,true,0,false,false
+78,423,5,Boston Bruins,4,,East,,,,true,1,false,false
+97,423,35,New York Islanders,4,,East,,,,true,2,false,false
+98,423,35,New York Rangers,4,,East,,,,false,,,
+101,423,39,Philadelphia Flyers,4,,East,,,,false,,,
+95,423,35,New Jersey Devils,4,,East,,,,false,,,
+79,423,6,Buffalo Sabres,4,,East,LAST,,LAST,false,,,
+108,423,59,Toronto Maple Leafs,4,,North,,,FIRST,true,0,false,false
+88,423,17,Edmonton Oilers,4,,North,,,,true,0,false,false
+112,423,64,Winnipeg Jets,4,,North,,,,true,1,false,false
+92,423,32,Montreal Canadiens,4,,North,,,,true,3,true,false
+80,423,7,Calgary Flames,4,,North,,,,false,,,
+100,423,38,Ottawa Senators,4,,North,,,,false,,,
+109,423,62,Vancouver Canucks,4,,North,,,LAST,false,,,
+84,423,15,Colorado Avalanche,4,,West,FIRST_TIED,,FIRST_TIED,true,1,false,false
+110,423,26,Vegas Golden Knights,4,,West,FIRST_TIED,,FIRST_TIED,true,2,false,false
+91,423,31,Minnesota Wild,4,,West,,,,true,0,false,false
+106,423,56,St. Louis Blues,4,,West,,,,true,0,false,false
+77,423,40,Arizona Coyotes,4,,West,,,,false,,,
+90,423,27,Los Angeles Kings,4,,West,,,,false,,,
+104,423,52,San Jose Sharks,4,,West,,,,false,,,
+76,423,27,Anaheim Ducks,4,,West,,,LAST,false,,,
 89,429,29,Florida Panthers,4,Eastern,Atlantic,FIRST,FIRST,FIRST,true,1,false,false
 108,429,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,,true,0,false,false
 107,429,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,3,true,false

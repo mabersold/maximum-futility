@@ -4,8 +4,9 @@
     "start_year": 2020,
     "end_year": 2021,
     "league": "nhl",
-    "total_major_divisions": 4,
-    "total_minor_divisions": 0,
+    "total_major_divisions": 0,
+    "total_minor_divisions": 4,
+    "conferences_are_divisions": true,
     "standings": {
         "sub_groups": [
             {

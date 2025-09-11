@@ -169,25 +169,24 @@ def get_seasons(leagues: dict):
             fs['team_name'] = chapter['team_name']
             
             # Overall results
-            has_tie = True if sum(1 for r in franchise_seasons if r['metric'] == fs['metric']) > 1 else 0
-            if fs['metric'] == max_values['Overall']:
-                fs['league_position'] = 'FIRST_TIED' if has_tie else 'FIRST'
-            elif fs['metric'] == min_values['Overall']:
-                fs['league_position'] = 'LAST_TIED' if has_tie else 'LAST'
+            has_tie = sum(1 for r in franchise_seasons if r['metric'] == fs['metric']) > 1
+            fs['league_position'] = get_position(fs['metric'], 'Overall', max_values, min_values, True, has_tie)
 
             # Conference results
-            has_tie = True if has_conferences and sum(1 for r in groupings[fs['conference_name']] if r['metric'] == fs['metric']) > 1 else 0
-            if has_conferences and fs['metric'] == max_values[fs['conference_name']]:
-                fs['conference_position'] = 'FIRST_TIED' if has_tie else 'FIRST'
-            elif has_conferences and fs['metric'] == min_values[fs['conference_name']]:
-                fs['conference_position'] = 'LAST_TIED' if has_tie else 'LAST'
+            if season_dict.get('conferences_are_divisions', False):
+                # This block is for when we want to consider conferences as divisions instead (which is rare)
+                fs['division_name'] = fs['conference_name']
+                fs['conference_name'] = None
+                has_tie = has_divisions and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1
+                fs['division_position'] = get_position(fs['metric'], fs.get('division_name'), max_values, min_values, has_divisions, has_tie)
+            else:
+                has_tie = has_conferences and sum(1 for r in groupings[fs['conference_name']] if r['metric'] == fs['metric']) > 1
+                fs['conference_position'] = get_position(fs['metric'], fs.get('conference_name'), max_values, min_values, has_conferences, has_tie)
 
             # Division results
-            has_tie = True if has_divisions and fs.get('division_name') and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1 else 0
-            if has_divisions and fs.get('division_name') and fs['metric'] == max_values[fs['division_name']]:
-                fs['division_position'] = 'FIRST_TIED' if has_tie else 'FIRST'
-            elif has_divisions and fs.get('division_name') and fs['metric'] == min_values[fs['division_name']]:
-                fs['division_position'] = 'LAST_TIED' if has_tie else 'LAST'
+            if not season_dict.get('conferences_are_divisions', False):
+                has_tie = has_divisions and fs.get('division_name') and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1
+                fs['division_position'] = get_position(fs['metric'], fs.get('division_name'), max_values, min_values, has_divisions, has_tie)
 
             # Postseason results
             ps_result = postseason_results.get(franchise_id, None)
@@ -205,6 +204,7 @@ def get_seasons(leagues: dict):
     # Store CSVs for seasons
     for league in leagues:
         sorted_seasons = sorted(seasons_by_league[league], key=lambda d: d['id'])
+        # Store seasons CSV
         with open(f'{csv_base_directory}/{league}/{league}-seasons.csv', 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(['id', 'name', 'start_year', 'end_year', 'league_id', 'total_major_divisions', 'total_minor_divisions', 'postseason_rounds'])
@@ -212,6 +212,7 @@ def get_seasons(leagues: dict):
                 writer.writerow([season['id'], season['name'], season['start_year'], season['end_year'], season['league_id'], season['total_major_divisions'], season['total_minor_divisions'], season['total_postseason_rounds']])
         
         sorted_franchise_seasons = sorted(franchise_season_by_league[league], key=lambda d: d['season_id'])
+        # Store franchise seasons CSV
         with open(f'{csv_base_directory}/{league}/{league}-franchise-seasons.csv', 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(['franchise_id', 'season_id', 'metro_id', 'team_name', 'league_id', 'conference', 'division', 'league_position', 'conference_position', 'division_position', 'qualified_for_postseason', 'rounds_won', 'appeared_in_championship', 'won_championship'])
@@ -234,6 +235,12 @@ def get_seasons(leagues: dict):
                     str(fs.get('won_championship', '')).lower()
                 ])
     print(f"Highest season id is {highest_id}")
+
+def get_position(metric, unit_name, max_values, min_values, has_unit: bool, has_tie: bool):
+    if has_unit and unit_name and metric == max_values[unit_name]:
+        return 'FIRST_TIED' if has_tie else 'FIRST'
+    elif has_unit and unit_name and metric == min_values[unit_name]:
+        return 'LAST_TIED' if has_tie else 'LAST'
 
 def get_franchise_id(label: str, league: str, year: int):
     label = label.lower()

@@ -92,7 +92,7 @@ id,name,start_year,end_year,league_id,total_major_divisions,total_minor_division
 405,2017-18 NHL Season,2017,2018,4,2,4,4
 411,2018-19 NHL Season,2018,2019,4,2,4,4
 417,2019-20 NHL Season,2019,2020,4,2,4,5
-423,2020-21 NHL Season,2020,2021,4,4,0,4
+423,2020-21 NHL Season,2020,2021,4,0,4,4
 429,2021-22 NHL Season,2021,2022,4,2,4,4
 435,2022-23 NHL Season,2022,2023,4,2,4,4
 441,2023-24 NHL Season,2023,2024,4,2,4,4

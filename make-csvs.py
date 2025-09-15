@@ -114,6 +114,7 @@ def get_seasons(leagues: dict):
         max_values = {}
         min_values = {}
         groupings = {}
+        additional_groupings = {}
         max_depth = 0
         
         has_divisions = season_dict.get('total_minor_divisions', 0) > 0
@@ -126,6 +127,12 @@ def get_seasons(leagues: dict):
         get_mins_and_maxes(season_dict.get('standings'), min_values, max_values, max_depth)
         get_flattened_franchise_list(season_dict.get('standings'), max_depth, franchise_seasons, groupings)
         postseason_results = get_postseason_results(season_dict.get('postseason', {}), league_label, season_dict.get('start_year'))
+
+        additional_standings = season_dict.get('additional_standings')
+        if additional_standings:
+            # This only applies to three NFL seasons before the AFL/NFL merger, so we can hard-code max_depth to 1
+            get_mins_and_maxes(additional_standings, min_values, max_values, 1, 0, 'Additional-Overall')
+            get_flattened_franchise_list(additional_standings, 1, franchise_seasons, additional_groupings)
 
         # Special cases for three NFL seasons where teams merged
         if season_dict['start_year'] == 1943 and season_dict['league'] == 'nfl':
@@ -169,8 +176,13 @@ def get_seasons(leagues: dict):
             fs['team_name'] = chapter['team_name']
             
             # Overall results
-            has_tie = sum(1 for r in franchise_seasons if r['metric'] == fs['metric']) > 1
-            fs['league_position'] = get_position(fs['metric'], 'Overall', max_values, min_values, True, has_tie)
+            is_afl_franchise = fs.get('conference_name') and fs['conference_name'].startswith('AFL')
+            if is_afl_franchise:
+                has_tie = sum(1 for r in additional_groupings['Overall'] if r['metric'] == fs['metric']) > 1
+                fs['league_position'] = get_position(fs['metric'], 'Additional-Overall', max_values, min_values, True, has_tie)
+            else:                
+                has_tie = sum(1 for r in groupings["Overall"] if r['metric'] == fs['metric']) > 1
+                fs['league_position'] = get_position(fs['metric'], 'Overall', max_values, min_values, True, has_tie)
 
             # Conference results
             if season_dict.get('conferences_are_divisions', False):
@@ -179,12 +191,15 @@ def get_seasons(leagues: dict):
                 fs['conference_name'] = None
                 has_tie = has_divisions and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1
                 fs['division_position'] = get_position(fs['metric'], fs.get('division_name'), max_values, min_values, has_divisions, has_tie)
+            elif is_afl_franchise:
+                has_tie = has_conferences and sum(1 for r in additional_groupings[fs['conference_name']] if r['metric'] == fs['metric']) > 1
+                fs['conference_position'] = get_position(fs['metric'], fs.get('conference_name'), max_values, min_values, has_conferences, has_tie)
             else:
                 has_tie = has_conferences and sum(1 for r in groupings[fs['conference_name']] if r['metric'] == fs['metric']) > 1
                 fs['conference_position'] = get_position(fs['metric'], fs.get('conference_name'), max_values, min_values, has_conferences, has_tie)
 
             # Division results
-            if not season_dict.get('conferences_are_divisions', False):
+            if not season_dict.get('conferences_are_divisions', False) and not is_afl_franchise:
                 has_tie = has_divisions and fs.get('division_name') and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1
                 fs['division_position'] = get_position(fs['metric'], fs.get('division_name'), max_values, min_values, has_divisions, has_tie)
 
@@ -268,8 +283,8 @@ def find_chapter(chapters, year):
 
     return chapters[-1] if chapters else None  # If past the last start_year, return the last chapter
 
-def get_mins_and_maxes(standings: dict, mins: dict, maxes: dict, max_depth: int, level=0):
-    name = standings.get('name', 'Overall')
+def get_mins_and_maxes(standings: dict, mins: dict, maxes: dict, max_depth: int, level=0, base_name='Overall'):
+    name = standings.get('name', base_name)
     
     # if level == max_depth:
     if standings.get('sub_groups', None) == None:
@@ -328,6 +343,11 @@ def get_flattened_franchise_list(standings: dict, max_depth: int, franchises: li
                     groupings[conference_name].append(f)
                 else:
                     groupings[conference_name] = [f]
+
+            if 'Overall' in groupings:
+                groupings['Overall'].append(f)
+            else:
+                groupings['Overall'] = [f]
 
             franchises.append(extended_f)
     else:

@@ -32,7 +32,11 @@
                     {"label": "lions", "wins": 4, "losses": 9, "ties": 1},
                     {"label": "vikings", "wins": 4, "losses": 9, "ties": 1}
                 ]
-            },
+            }
+        ]
+    },
+    "additional_standings": {
+        "sub_groups": [
             {
                 "name": "AFL East",
                 "results": [

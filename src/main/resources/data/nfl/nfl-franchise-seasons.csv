@@ -391,9 +391,9 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 171,158,6,Buffalo Bills,2,AFL East,,,FIRST,,true,0,false,false
 190,158,5,Boston Patriots,2,AFL East,,,,,false,,,
 193,158,35,New York Jets,2,AFL East,,,,,false,,,
-188,158,29,Miami Dolphins,2,AFL East,,,LAST_TIED,,false,,,
-200,158,22,Houston Oilers,2,AFL East,,,LAST_TIED,,false,,,
-184,158,25,Kansas City Chiefs,2,AFL West,,,FIRST,,true,1,true,false
+188,158,29,Miami Dolphins,2,AFL East,,LAST_TIED,LAST_TIED,,false,,,
+200,158,22,Houston Oilers,2,AFL East,,LAST_TIED,LAST_TIED,,false,,,
+184,158,25,Kansas City Chiefs,2,AFL West,,FIRST,FIRST,,true,1,true,false
 185,158,52,Oakland Raiders,2,AFL West,,,,,false,,,
 186,158,51,San Diego Chargers,2,AFL West,,,,,false,,,
 178,158,15,Denver Broncos,2,AFL West,,,LAST,,false,,,
@@ -405,8 +405,8 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 192,162,35,New York Giants,2,NFL East,Century,,,,false,,,
 165,162,56,St. Louis Cardinals,2,NFL East,Century,,,,false,,,
 195,162,41,Pittsburgh Steelers,2,NFL East,Century,,,LAST,false,,,
-187,162,27,Los Angeles Rams,2,NFL West,Coastal,,FIRST_TIED,FIRST_TIED,true,0,false,false
-182,162,4,Baltimore Colts,2,NFL West,Coastal,,FIRST_TIED,FIRST_TIED,false,,,
+187,162,27,Los Angeles Rams,2,NFL West,Coastal,FIRST_TIED,FIRST_TIED,FIRST_TIED,true,0,false,false
+182,162,4,Baltimore Colts,2,NFL West,Coastal,FIRST_TIED,FIRST_TIED,FIRST_TIED,false,,,
 196,162,52,San Francisco 49ers,2,NFL West,Coastal,,,,false,,,
 166,162,2,Atlanta Falcons,2,NFL West,Coastal,LAST,LAST,LAST,false,,,
 180,162,20,Green Bay Packers,2,NFL West,Central,,,FIRST,true,3,true,true
@@ -421,11 +421,11 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 185,162,52,Oakland Raiders,2,AFL West,,FIRST,FIRST,,true,1,true,false
 184,162,25,Kansas City Chiefs,2,AFL West,,,,,false,,,
 186,162,51,San Diego Chargers,2,AFL West,,,,,false,,,
-178,162,15,Denver Broncos,2,AFL West,,,LAST,,false,,,
-177,166,13,Dallas Cowboys,2,NFL East,Capitol,FIRST_TIED,FIRST,FIRST,true,0,false,false
+178,162,15,Denver Broncos,2,AFL West,,LAST,LAST,,false,,,
+177,166,13,Dallas Cowboys,2,NFL East,Capitol,FIRST,FIRST,FIRST,true,0,false,false
 192,166,35,New York Giants,2,NFL East,Capitol,,,,false,,,
 194,166,39,Philadelphia Eagles,2,NFL East,Capitol,,,,false,,,
-201,166,63,Washington Redskins,2,NFL East,Capitol,,LAST,LAST,false,,,
+201,166,63,Washington Redskins,2,NFL East,Capitol,LAST,LAST,LAST,false,,,
 176,166,11,Cleveland Browns,2,NFL East,Century,,,FIRST,true,1,false,false
 165,166,56,St. Louis Cardinals,2,NFL East,Century,,,,false,,,
 191,166,34,New Orleans Saints,2,NFL East,Century,,,,false,,,
@@ -460,7 +460,7 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 182,170,4,Baltimore Colts,2,NFL West,Coastal,,,,false,,,
 166,170,2,Atlanta Falcons,2,NFL West,Coastal,,,,false,,,
 196,170,52,San Francisco 49ers,2,NFL West,Coastal,,,LAST,false,,,
-189,170,31,Minnesota Vikings,2,NFL West,Central,,FIRST,FIRST,true,2,true,false
+189,170,31,Minnesota Vikings,2,NFL West,Central,FIRST,FIRST,FIRST,true,2,true,false
 179,170,16,Detroit Lions,2,NFL West,Central,,,,false,,,
 180,170,20,Green Bay Packers,2,NFL West,Central,,,,false,,,
 173,170,9,Chicago Bears,2,NFL West,Central,LAST_TIED,LAST,LAST,false,,,
@@ -468,7 +468,7 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 200,170,22,Houston Oilers,2,AFL East,,,,,true,0,false,false
 171,170,6,Buffalo Bills,2,AFL East,,,,,false,,,
 190,170,5,Boston Patriots,2,AFL East,,,,,false,,,
-188,170,29,Miami Dolphins,2,AFL East,,,LAST,,false,,,
+188,170,29,Miami Dolphins,2,AFL East,,LAST,LAST,,false,,,
 185,170,52,Oakland Raiders,2,AFL West,,FIRST,FIRST,,true,1,false,false
 184,170,25,Kansas City Chiefs,2,AFL West,,,,,true,3,true,true
 186,170,51,San Diego Chargers,2,AFL West,,,,,false,,,

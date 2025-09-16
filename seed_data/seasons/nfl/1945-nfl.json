@@ -13,7 +13,7 @@
                 "results": [
                     {"label": "redskins", "wins": 8, "losses": 2, "ties": 0},
                     {"label": "eagles", "wins": 7, "losses": 3, "ties": 0},
-                    {"label": "yanks", "wins": 3, "losses": 6, "ties": 1},
+                    {"label": "yanks", "merged_team": "tigers", "wins": 3, "losses": 6, "ties": 1},
                     {"label": "giants", "wins": 3, "losses": 6, "ties": 1},
                     {"label": "steelers", "wins": 2, "losses": 8, "ties": 0}
                 ]

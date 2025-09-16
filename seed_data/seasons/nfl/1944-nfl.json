@@ -25,7 +25,7 @@
                     {"label": "bears", "wins": 6, "losses": 3, "ties": 1},
                     {"label": "lions", "wins": 6, "losses": 3, "ties": 1},
                     {"label": "rams", "wins": 4, "losses": 6, "ties": 0},
-                    {"label": "card-pitt", "wins": 0, "losses": 10, "ties": 0}
+                    {"label": "cardinals", "merged_team": "steelers", "wins": 0, "losses": 10, "ties": 0}
                 ]
             }
         ]

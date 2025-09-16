@@ -101,12 +101,12 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 201,69,63,Washington Redskins,2,East,,,FIRST_TIED,,true,0,true,false
 192,69,35,New York Giants,2,East,,,FIRST_TIED,,false,,,
 195,69,41,Steagles,2,East,,,,,false,,,
+194,69,39,Steagles,2,East,,,,,false,,,
 170,69,35,Brooklyn Dodgers,2,East,,,LAST,,false,,,
 173,69,9,Chicago Bears,2,West,,FIRST,FIRST,,true,1,true,true
 180,69,20,Green Bay Packers,2,West,,,,,false,,,
 179,69,16,Detroit Lions,2,West,,,,,false,,,
 165,69,9,Chicago Cardinals,2,West,,LAST,LAST,,false,,,
-194,69,39,Steagles,2,East,,,,,false,,,
 192,72,35,New York Giants,2,East,,FIRST,FIRST,,true,0,true,false
 194,72,39,Philadelphia Eagles,2,East,,,,,false,,,
 201,72,63,Washington Redskins,2,East,,,,,false,,,
@@ -120,6 +120,7 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 165,72,9,Card-Pitt,2,West,,LAST_TIED,LAST,,false,,,
 201,75,63,Washington Redskins,2,East,,,FIRST,,true,0,true,false
 194,75,39,Philadelphia Eagles,2,East,,,,,false,,,
+170,75,35,Yanks,2,East,,,,,false,,,
 169,75,5,Boston Yanks,2,East,,,,,false,,,
 192,75,35,New York Giants,2,East,,,,,false,,,
 195,75,41,Pittsburgh Steelers,2,East,,,LAST,,false,,,
@@ -128,7 +129,6 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 180,75,20,Green Bay Packers,2,West,,,,,false,,,
 173,75,9,Chicago Bears,2,West,,,,,false,,,
 165,75,9,Chicago Cardinals,2,West,,LAST,LAST,,false,,,
-170,75,35,Yanks,2,East,,,,,false,,,
 192,78,35,New York Giants,2,East,,,FIRST,,true,0,true,false
 194,78,39,Philadelphia Eagles,2,East,,,,,false,,,
 195,78,41,Pittsburgh Steelers,2,East,,,,,false,,,

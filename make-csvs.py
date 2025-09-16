@@ -75,9 +75,7 @@ def get_franchises(leagues: dict, metros: dict):
     return franchises_by_league
 
 def get_seasons(leagues: dict):
-    # Get files
     all_files = [p for p in Path(seasons_directory).glob('**/*') if p.is_file()]
-    season_ids = {0}
 
     seasons_by_league = {key: [] for key in leagues}
     franchise_season_by_league = {key: [] for key in leagues}
@@ -91,132 +89,31 @@ def get_seasons(leagues: dict):
         
         season_dict = json.loads(content)
 
-        # Make sure ID is unique
-        if not season_dict.get('id'):
-            print(f"ERROR: {season_dict['name']} does not have an ID")
-        else:
-            id = season_dict.get('id')
-            if id in season_ids:
-                print(f"ERROR: {id} is a repeated season id")
-            else:
-                season_ids.add(id)
-                highest_id = max(highest_id, id)
-        
-        # Add correct annotations for the season
+        id = season_dict.get('id', 0)
+        highest_id = max(highest_id, id)
+
         league_label = season_dict.get('league')
         season_dict['league_id'] = leagues[league_label]
-
         season_dict['total_postseason_rounds'] = len(season_dict.get('postseason', {}).get('rounds', []))
-
         seasons_by_league[league_label].append(season_dict)
 
-        franchise_seasons = []
-        max_values = {}
-        min_values = {}
-        groupings = {}
-        additional_groupings = {}
-        max_depth = 0
-        
-        has_divisions = season_dict.get('total_minor_divisions', 0) > 0
-        has_conferences = season_dict.get('total_major_divisions', 0) > 0
-        if has_divisions:
-            max_depth = 2
-        elif has_conferences:
-            max_depth = 1
-        
-        get_mins_and_maxes(season_dict.get('standings'), min_values, max_values, max_depth)
-        get_flattened_franchise_list(season_dict.get('standings'), max_depth, franchise_seasons, groupings)
-        postseason_results = get_postseason_results(season_dict.get('postseason', {}), league_label, season_dict.get('start_year'))
+        # Define the structure of the league
+        level_types = ['league', 'conference', 'division']
+        if season_dict.get('conferences_are_divisions'):
+            level_types = ['league', 'division']
 
-        additional_standings = season_dict.get('additional_standings')
-        if additional_standings:
-            # This only applies to three NFL seasons before the AFL/NFL merger, so we can hard-code max_depth to 1
-            get_mins_and_maxes(additional_standings, min_values, max_values, 1, 0, 'Additional-Overall')
-            get_flattened_franchise_list(additional_standings, 1, franchise_seasons, additional_groupings)
+        # Retrieve annotated franchise seasons from the standings
+        results = get_standings_info(season_dict.get('standings', {}), season_dict, level_types)
+        if season_dict.get('additional_standings'):
+            # Additional standings are present in the first 4 NFL seasons prior to the AFL-NFL merger
+            additional_results = get_standings_info(season_dict.get('additional_standings'), season_dict, level_types)
+            results.extend(additional_results)
 
-        # Special cases for three NFL seasons where teams merged
-        if season_dict['start_year'] == 1943 and season_dict['league'] == 'nfl':
-            steagles = [fs for fs in franchise_seasons if fs.get('label') == 'steagles'][0]
-            eagles = steagles.copy()
-            eagles['label'] = 'eagles'
-            steagles['label'] = 'steelers'
-            franchise_seasons.append(eagles)
-
-        if season_dict['start_year'] == 1944 and season_dict['league'] == 'nfl':
-            cardpitt = [fs for fs in franchise_seasons if fs.get('label') == 'card-pitt'][0]
-            cards = cardpitt.copy()
-            cards['label'] = 'cardinals'
-            cardpitt['label'] = 'steelers'
-            franchise_seasons.append(cards)
-
-        if season_dict['start_year'] == 1945 and season_dict['league'] == 'nfl':
-            yankstigers = [fs for fs in franchise_seasons if fs.get('label') == 'yanks'][0]
-            tigers = yankstigers.copy()
-            tigers['label'] = 'tigers'
-            franchise_seasons.append(tigers)
-
-        for fs in franchise_seasons:
-            label = fs.get('label', '')
-            franchise_id = get_franchise_id(label, league_label, season_dict.get('start_year'))
-            
-            franchise = franchises[franchise_id - 1]
-            chapter = find_chapter(franchise.get('chapters', []), season_dict.get('start_year'))
-            
-            if chapter == None:
-                print(f"Could not find a chapter for franchise {franchise['name']}")
-            
-            fs['label'] = franchise['label']
-            fs['season_id'] = season_dict['id']
-            fs['start_year'] = season_dict['start_year']
-            fs['franchise_id'] = franchise_id
-            fs['metro_id'] = chapter['metro_id']
-            fs['metro_name'] = chapter['metro_name']
-            fs['league_id'] = chapter['league_id']
-            fs['league_name'] = chapter['league_name']
-            fs['team_name'] = chapter['team_name']
-            
-            # Overall results
-            is_afl_franchise = fs.get('conference_name') and fs['conference_name'].startswith('AFL')
-            if is_afl_franchise:
-                has_tie = sum(1 for r in additional_groupings['Overall'] if r['metric'] == fs['metric']) > 1
-                fs['league_position'] = get_position(fs['metric'], 'Additional-Overall', max_values, min_values, True, has_tie)
-            else:                
-                has_tie = sum(1 for r in groupings["Overall"] if r['metric'] == fs['metric']) > 1
-                fs['league_position'] = get_position(fs['metric'], 'Overall', max_values, min_values, True, has_tie)
-
-            # Conference results
-            if season_dict.get('conferences_are_divisions', False):
-                # This block is for when we want to consider conferences as divisions instead (which is rare)
-                fs['division_name'] = fs['conference_name']
-                fs['conference_name'] = None
-                has_tie = has_divisions and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1
-                fs['division_position'] = get_position(fs['metric'], fs.get('division_name'), max_values, min_values, has_divisions, has_tie)
-            elif is_afl_franchise:
-                has_tie = has_conferences and sum(1 for r in additional_groupings[fs['conference_name']] if r['metric'] == fs['metric']) > 1
-                fs['conference_position'] = get_position(fs['metric'], fs.get('conference_name'), max_values, min_values, has_conferences, has_tie)
-            else:
-                has_tie = has_conferences and sum(1 for r in groupings[fs['conference_name']] if r['metric'] == fs['metric']) > 1
-                fs['conference_position'] = get_position(fs['metric'], fs.get('conference_name'), max_values, min_values, has_conferences, has_tie)
-
-            # Division results
-            if not season_dict.get('conferences_are_divisions', False) and not is_afl_franchise:
-                has_tie = has_divisions and fs.get('division_name') and sum(1 for r in groupings[fs['division_name']] if r['metric'] == fs['metric']) > 1
-                fs['division_position'] = get_position(fs['metric'], fs.get('division_name'), max_values, min_values, has_divisions, has_tie)
-
-            # Postseason results
-            ps_result = postseason_results.get(franchise_id, None)
-
-            if ps_result:
-                fs['qualified_for_postseason'] = True
-                fs['rounds_won'] = ps_result.get('rounds_won', 0)
-                fs['appeared_in_championship'] = ps_result.get('appeared_in_championship', False)
-                fs['won_championship'] = ps_result.get('won_championship', False)
-            elif len(postseason_results) > 0:
-                fs['qualified_for_postseason'] = False
-
-            franchise_season_by_league.get(league_label).append(fs)
-
-    # Store CSVs for seasons
+        # Update results with postseason info
+        annotate_with_postseason(results, season_dict.get('postseason', {}))
+        franchise_season_by_league.get(league_label).extend(results)
+    
+    # Now, iterate through and store the results
     for league in leagues:
         sorted_seasons = sorted(seasons_by_league[league], key=lambda d: d['id'])
         # Store seasons CSV
@@ -227,35 +124,127 @@ def get_seasons(leagues: dict):
                 writer.writerow([season['id'], season['name'], season['start_year'], season['end_year'], season['league_id'], season['total_major_divisions'], season['total_minor_divisions'], season['total_postseason_rounds']])
         
         sorted_franchise_seasons = sorted(franchise_season_by_league[league], key=lambda d: d['season_id'])
+
         # Store franchise seasons CSV
         with open(f'{csv_base_directory}/{league}/{league}-franchise-seasons.csv', 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(['franchise_id', 'season_id', 'metro_id', 'team_name', 'league_id', 'conference', 'division', 'league_position', 'conference_position', 'division_position', 'qualified_for_postseason', 'rounds_won', 'appeared_in_championship', 'won_championship'])
 
             for fs in sorted_franchise_seasons:
-                writer.writerow([
-                    fs['franchise_id'],
-                    fs['season_id'],
-                    fs['metro_id'],
-                    fs['team_name'],
-                    fs['league_id'],
-                    fs.get('conference_name', None),
-                    fs.get('division_name', None),
-                    fs.get('league_position', None),
-                    fs.get('conference_position', None),
-                    fs.get('division_position', None),
-                    str(fs.get('qualified_for_postseason', '')).lower(),
-                    fs.get('rounds_won', None),
-                    str(fs.get('appeared_in_championship', '')).lower(),
-                    str(fs.get('won_championship', '')).lower()
-                ])
+                if not fs.get('qualified_for_postseason') and fs.get('has_postseason', False):
+                    fs['qualified_for_postseason'] = False
+
+                # If it has a merged franchise, we created an additional franchise season
+                if fs.get('merged_team'):
+                    additional_fs = fs.copy()
+                    additional_fs['label'] = additional_fs['merged_team']
+                    annotate_with_metro(additional_fs, league)
+                    write_franchise_season(additional_fs, writer)
+                    pass
+                
+                # A few final annotations to set franchise ID, metro ID and team name
+                annotate_with_metro(fs, league)
+                write_franchise_season(fs, writer)
     print(f"Highest season id is {highest_id}")
 
-def get_position(metric, unit_name, max_values, min_values, has_unit: bool, has_tie: bool):
-    if has_unit and unit_name and metric == max_values[unit_name]:
-        return 'FIRST_TIED' if has_tie else 'FIRST'
-    elif has_unit and unit_name and metric == min_values[unit_name]:
-        return 'LAST_TIED' if has_tie else 'LAST'
+def get_standings_info(standings: dict, season_dict: dict, level_types, level: int = 0):
+    has_postseason = bool(season_dict.get('postseason', {}).get('rounds'))
+    
+    # Basis case: there are results
+    if 'results' in standings:
+        results = standings['results']
+        for r in results:
+            r.update({
+                'season_id': season_dict['id'],
+                'league_id': season_dict['league_id'],
+                'year': season_dict['start_year'],
+                'has_postseason': has_postseason,
+                'metric': r.get('points') or (
+                    r['wins'] / (r['wins'] + r['losses']) if (r['wins'] + r['losses']) > 0 else 0.0
+                )
+            })
+
+        annotate_with_positions(results, level_types[level], standings.get('name'))
+        return results
+    
+    # Recursive case: there are sub_groups
+    all_results = []
+    for sg in standings.get('sub_groups', []):
+        results = get_standings_info(sg, season_dict, level_types, level + 1)
+        all_results.extend(results)
+
+    annotate_with_positions(all_results, level_types[level], standings.get('name'))
+    return all_results
+
+def annotate_with_positions(results, level_type, group_name):
+    if not results:
+        return
+
+    metrics = [r.get('metric', 0) for r in results]
+    highest = max(metrics)
+    lowest = min(metrics)
+    highest_count = metrics.count(highest)
+    lowest_count = metrics.count(lowest)
+
+    for r in results:
+        if group_name and level_type != 'league':
+            r[f"{level_type}_name"] = group_name
+
+        if r.get('metric', 0) == highest:
+            r[f"{level_type}_position"] = 'FIRST_TIED' if highest_count > 1 else 'FIRST'
+        elif r.get('metric', 0) == lowest:
+            r[f"{level_type}_position"] = 'LAST_TIED' if lowest_count > 1 else 'LAST'
+
+def annotate_with_postseason(results, postseason: dict):
+    results_by_label = {team['label']: team for team in results}
+    
+    for round in postseason.get('rounds', []):
+        for matchup in round.get('matchups', []):
+            winner_label = matchup['winner']['label']
+            loser_label = matchup['loser']['label']
+
+            winning_team = results_by_label[winner_label]
+            losing_team = results_by_label[loser_label]
+
+            for team in (winning_team, losing_team):
+                team.setdefault('qualified_for_postseason', True)
+                team.setdefault('appeared_in_championship', False)
+                team.setdefault('won_championship', False)
+                team.setdefault('rounds_won', 0)
+
+            winning_team['rounds_won'] += 1
+            
+            if matchup.get('is_championship_round') == True:
+                winning_team['appeared_in_championship'] = True
+                winning_team['won_championship'] = True
+                losing_team['appeared_in_championship'] = True
+                losing_team['won_championship'] = False
+
+def annotate_with_metro(fs: dict, league_label: str):
+    franchise_id = get_franchise_id(fs['label'], league_label, fs['year'])
+    franchise = franchises[franchise_id - 1]
+    chapter = find_chapter(franchise.get('chapters', []), fs['year'])
+    fs['franchise_id'] = franchise_id
+    fs['metro_id'] = chapter['metro_id']
+    fs['team_name'] = chapter['team_name']
+
+def write_franchise_season(fs: dict, writer):
+    writer.writerow([
+        fs['franchise_id'],
+        fs['season_id'],
+        fs['metro_id'],
+        fs['team_name'],
+        fs['league_id'],
+        fs.get('conference_name', None),
+        fs.get('division_name', None),
+        fs.get('league_position', None),
+        fs.get('conference_position', None),
+        fs.get('division_position', None),
+        str(fs.get('qualified_for_postseason', '')).lower(),
+        fs.get('rounds_won', None),
+        str(fs.get('appeared_in_championship', '')).lower(),
+        str(fs.get('won_championship', '')).lower()
+    ])
 
 def get_franchise_id(label: str, league: str, year: int):
     label = label.lower()
@@ -282,103 +271,6 @@ def find_chapter(chapters, year):
             return chapter
 
     return chapters[-1] if chapters else None  # If past the last start_year, return the last chapter
-
-def get_mins_and_maxes(standings: dict, mins: dict, maxes: dict, max_depth: int, level=0, base_name='Overall'):
-    name = standings.get('name', base_name)
-    
-    # if level == max_depth:
-    if standings.get('sub_groups', None) == None:
-        for r in standings.get('results', []):
-            if 'points' in r:
-                r['metric'] = r['points']
-            else:
-                total_wins = r['wins'] + r['losses']
-                r['metric'] = r['wins'] / total_wins if total_wins > 0 else 0.0
-
-        highest = max(standings.get('results'), key=lambda x: x['metric']).get('metric')
-        lowest = min(standings.get('results'), key=lambda x: x['metric']).get('metric')
-        mins[name] = lowest
-        maxes[name] = highest
-        return highest, lowest
-    
-    highest = float('-inf')
-    lowest = float('inf')
-
-    for sub_group in standings.get('sub_groups', []):
-        r_highest, r_lowest = get_mins_and_maxes(sub_group, mins, maxes, max_depth, level + 1)
-
-        if r_highest > highest:
-            highest = r_highest
-        if r_lowest < lowest:
-            lowest = r_lowest
-
-    mins[name] = lowest
-    maxes[name] = highest
-
-    return highest, lowest
-
-def get_flattened_franchise_list(standings: dict, max_depth: int, franchises: list, groupings: dict, level=0, prev_name=''):
-    if standings.get('results'):
-        for f in standings.get('results'):
-            extended_f = f.copy()
-            if extended_f.get('metric'):
-                extended_f['metric'] = float(extended_f.get('metric', None))
-            if level == 2:
-                extended_f['conference_name'] = prev_name
-                division_name = standings.get('name', 'None')
-                extended_f['division_name'] = division_name
-                if prev_name in groupings:
-                    groupings[prev_name].append(f)
-                else:
-                    groupings[prev_name] = [f]
-                
-                if division_name in groupings:
-                    groupings[division_name].append(f)
-                else:
-                    groupings[division_name] = [f]
-            elif level == 1:
-                conference_name = standings.get('name', 'None')
-                extended_f['conference_name'] = conference_name
-                if conference_name in groupings:
-                    groupings[conference_name].append(f)
-                else:
-                    groupings[conference_name] = [f]
-
-            if 'Overall' in groupings:
-                groupings['Overall'].append(f)
-            else:
-                groupings['Overall'] = [f]
-
-            franchises.append(extended_f)
-    else:
-        name = standings.get('name', 'Overall')
-        for sub_group in standings.get('sub_groups', []):
-            get_flattened_franchise_list(sub_group, max_depth, franchises, groupings, level + 1, name)
-    
-def get_postseason_results(postseason: dict, league: str, year: int):
-    results = {}
-
-    for round in postseason.get('rounds', []):
-        for matchup in round.get('matchups', []):
-            winner_label = matchup.get('winner', {}).get('label')
-            winner_id = get_franchise_id(winner_label, league, year)
-            
-            loser_label = matchup.get('loser', {}).get('label')
-            loser_id = get_franchise_id(loser_label, league, year)
-
-            winner_results = results.get(winner_id, {})
-            winner_results['rounds_won'] = winner_results.get('rounds_won', 0) + 1
-            if matchup.get('is_championship_round', False) == True:
-                winner_results['appeared_in_championship'] = True
-                winner_results['won_championship'] = True
-            results[winner_id] = winner_results
-
-            loser_results = results.get(loser_id, {'rounds_won': 0})
-            if matchup.get('is_championship_round', False) == True:
-                loser_results['appeared_in_championship'] = True
-            results[loser_id] = loser_results
-
-    return results
 
 leagues = get_leagues()
 metros = get_metros()

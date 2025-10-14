@@ -1,0 +1,126 @@
+{
+    "id": 449,
+    "name": "2025 WNBA Season",
+    "start_year": 2025,
+    "end_year": 2025,
+    "league": "wnba",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "dream", "wins": 30, "losses": 14},
+                    {"label": "liberty", "wins": 27, "losses": 17},
+                    {"label": "fever", "wins": 24, "losses": 20},
+                    {"label": "mystics", "wins": 16, "losses": 28},
+                    {"label": "sun", "wins": 11, "losses": 33},
+                    {"label": "sky", "wins": 10, "losses": 34}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "lynx", "wins": 34, "losses": 10},
+                    {"label": "aces", "wins": 30, "losses": 14},
+                    {"label": "mercury", "wins": 27, "losses": 17},
+                    {"label": "valkyries", "wins": 23, "losses": 21},
+                    {"label": "storm", "wins": 23, "losses": 21},
+                    {"label": "sparks", "wins": 21, "losses": 23},
+                    {"label": "wings", "wins": 10, "losses": 34}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "lynx",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "valkyries",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "liberty",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "aces",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "storm",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "fever",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "dream",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "mercury",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "lynx",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "aces",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "fever",
+                            "games_won": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "aces",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "mercury",
+                            "games_won": 0
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

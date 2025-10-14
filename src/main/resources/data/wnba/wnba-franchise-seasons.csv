@@ -351,3 +351,16 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 127,443,40,Phoenix Mercury,5,West,,,,,true,0,false,false
 118,443,13,Dallas Wings,5,West,,,,,false,,,
 123,443,27,Los Angeles Sparks,5,West,,LAST,LAST,,false,,,
+113,449,2,Atlanta Dream,5,East,,,FIRST,,true,0,false,false
+126,449,35,New York Liberty,5,East,,,,,true,0,false,false
+121,449,23,Indiana Fever,5,East,,,,,true,1,false,false
+131,449,63,Washington Mystics,5,East,,,,,false,,,
+117,449,21,Connecticut Sun,5,East,,,,,false,,,
+115,449,9,Chicago Sky,5,East,,LAST_TIED,LAST,,false,,,
+125,449,31,Minnesota Lynx,5,West,,FIRST,FIRST,,true,1,false,false
+122,449,26,Las Vegas Aces,5,West,,,,,true,3,true,true
+127,449,40,Phoenix Mercury,5,West,,,,,true,2,true,false
+119,449,52,Golden State Valkyries,5,West,,,,,true,0,false,false
+130,449,53,Seattle Storm,5,West,,,,,true,0,false,false
+123,449,27,Los Angeles Sparks,5,West,,,,,false,,,
+118,449,13,Dallas Wings,5,West,,LAST_TIED,LAST,,false,,,

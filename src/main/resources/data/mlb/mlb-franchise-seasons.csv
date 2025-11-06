@@ -2643,3 +2643,33 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 1,444,40,Arizona Diamondbacks,1,NL,NL West,,,,false,,,
 24,444,52,San Francisco Giants,1,NL,NL West,,,,false,,,
 9,444,15,Colorado Rockies,1,NL,NL West,,LAST,LAST,false,,,
+29,450,59,Toronto Blue Jays,1,AL,AL East,,FIRST_TIED,FIRST_TIED,true,2,true,false
+19,450,35,New York Yankees,1,AL,AL East,,FIRST_TIED,FIRST_TIED,true,1,false,false
+4,450,5,Boston Red Sox,1,AL,AL East,,,,true,0,false,false
+27,450,58,Tampa Bay Rays,1,AL,AL East,,,,false,,,
+3,450,4,Baltimore Orioles,1,AL,AL East,,,LAST,false,,,
+8,450,11,Cleveland Guardians,1,AL,AL Central,,,FIRST,true,0,false,false
+10,450,16,Detroit Tigers,1,AL,AL Central,,,,true,1,false,false
+12,450,25,Kansas City Royals,1,AL,AL Central,,,,false,,,
+17,450,31,Minnesota Twins,1,AL,AL Central,,,,false,,,
+6,450,9,Chicago White Sox,1,AL,AL Central,,LAST,LAST,false,,,
+25,450,53,Seattle Mariners,1,AL,AL West,,,FIRST,true,1,false,false
+11,450,22,Houston Astros,1,AL,AL West,,,,false,,,
+28,450,13,Texas Rangers,1,AL,AL West,,,,false,,,
+20,450,48,Athletics,1,AL,AL West,,,,false,,,
+13,450,27,Los Angeles Angels,1,AL,AL West,,,LAST,false,,,
+21,450,39,Philadelphia Phillies,1,NL,NL East,,,FIRST,true,0,false,false
+18,450,35,New York Mets,1,NL,NL East,,,,false,,,
+15,450,29,Miami Marlins,1,NL,NL East,,,,false,,,
+2,450,2,Atlanta Braves,1,NL,NL East,,,,false,,,
+30,450,63,Washington Nationals,1,NL,NL East,,,LAST,false,,,
+16,450,30,Milwaukee Brewers,1,NL,NL Central,FIRST,FIRST,FIRST,true,1,false,false
+5,450,9,Chicago Cubs,1,NL,NL Central,,,,true,1,false,false
+7,450,10,Cincinnati Reds,1,NL,NL Central,,,,true,0,false,false
+26,450,56,St. Louis Cardinals,1,NL,NL Central,,,,false,,,
+22,450,41,Pittsburgh Pirates,1,NL,NL Central,,,LAST,false,,,
+14,450,27,Los Angeles Dodgers,1,NL,NL West,,,FIRST,true,4,true,true
+23,450,51,San Diego Padres,1,NL,NL West,,,,true,0,false,false
+24,450,52,San Francisco Giants,1,NL,NL West,,,,false,,,
+1,450,40,Arizona Diamondbacks,1,NL,NL West,,,,false,,,
+9,450,15,Colorado Rockies,1,NL,NL West,LAST,LAST,LAST,false,,,

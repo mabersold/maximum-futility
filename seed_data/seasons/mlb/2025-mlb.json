@@ -1,0 +1,218 @@
+{
+    "id": 450,
+    "name": "2025 MLB Season",
+    "start_year": 2025,
+    "end_year": 2025,
+    "league": "mlb",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 6,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "AL",
+                "sub_groups": [
+                    {
+                        "name": "AL East",
+                        "results": [
+                            {"label": "blue-jays", "wins": 94, "losses": 68},
+                            {"label": "yankees", "wins": 94, "losses": 68},
+                            {"label": "red-sox", "wins": 89, "losses": 73},
+                            {"label": "rays", "wins": 77, "losses": 85},
+                            {"label": "orioles", "wins": 75, "losses": 87}
+                        ]
+                    },
+                    {
+                        "name": "AL Central",
+                        "results": [
+                            {"label": "guardians", "wins": 88, "losses": 74},
+                            {"label": "tigers", "wins": 87, "losses": 75},
+                            {"label": "royals", "wins": 82, "losses": 80},
+                            {"label": "twins", "wins": 70, "losses": 92},
+                            {"label": "white-sox", "wins": 60, "losses": 102}
+                        ]
+                    },
+                    {
+                        "name": "AL West",
+                        "results": [
+                            {"label": "mariners", "wins": 90, "losses": 72},
+                            {"label": "astros", "wins": 87, "losses": 75},
+                            {"label": "rangers", "wins": 81, "losses": 81},
+                            {"label": "athletics", "wins": 76, "losses": 86},
+                            {"label": "angels", "wins": 72, "losses": 90}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NL",
+                "sub_groups": [
+                    {
+                        "name": "NL East",
+                        "results": [
+                            {"label": "phillies", "wins": 96, "losses": 66},
+                            {"label": "mets", "wins": 83, "losses": 79},
+                            {"label": "marlins", "wins": 79, "losses": 83},
+                            {"label": "braves", "wins": 76, "losses": 86},
+                            {"label": "nationals", "wins": 66, "losses": 96}
+                        ]
+                    },
+                    {
+                        "name": "NL Central",
+                        "results": [
+                            {"label": "brewers", "wins": 97, "losses": 65},
+                            {"label": "cubs", "wins": 92, "losses": 70},
+                            {"label": "reds", "wins": 83, "losses": 79},
+                            {"label": "cardinals", "wins": 78, "losses": 84},
+                            {"label": "pirates", "wins": 71, "losses": 91}
+                        ]
+                    },
+                    {
+                        "name": "NL West",
+                        "results": [
+                            {"label": "dodgers", "wins": 93, "losses": 69},
+                            {"label": "padres", "wins": 90, "losses": 72},
+                            {"label": "giants", "wins": 81, "losses": 81},
+                            {"label": "diamondbacks", "wins": 80, "losses": 82},
+                            {"label": "rockies", "wins": 43, "losses": 119}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "yankees",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "red-sox",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "tigers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "guardians",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "cubs",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "padres",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dodgers",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "reds",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "blue-jays",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "yankees",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "mariners",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "tigers",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "brewers",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "cubs",
+                            "games_won": 2
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dodgers",
+                            "games_won": 3
+                        },
+                        "loser": {
+                            "label": "phillies",
+                            "games_won": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "blue-jays",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "mariners",
+                            "games_won": 3
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "dodgers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "brewers",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "dodgers",
+                            "games_won": 4
+                        },
+                        "loser": {
+                            "label": "blue-jays",
+                            "games_won": 3
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

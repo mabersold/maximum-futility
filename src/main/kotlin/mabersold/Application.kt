@@ -23,6 +23,8 @@ import mabersold.dao.LeagueDAO
 import mabersold.dao.LeagueDAOImpl
 import mabersold.dao.MetroDAO
 import mabersold.dao.MetroDAOImpl
+import mabersold.dao.MetroLeagueYearDAO
+import mabersold.dao.MetroLeagueYearDAOImpl
 import mabersold.dao.SeasonDAO
 import mabersold.dao.SeasonDAOImpl
 import mabersold.models.api.requests.CreateSeasonRequest
@@ -88,6 +90,7 @@ val appModule = module {
     singleOf(::FranchiseDAOImpl) { bind<FranchiseDAO>() }
     singleOf(::MetroDAOImpl) { bind<MetroDAO>() }
     singleOf(::ChapterDAOImpl) { bind<ChapterDAO>() }
+    singleOf(::MetroLeagueYearDAOImpl) { bind<MetroLeagueYearDAO>() }
     singleOf(::SeasonDataService)
     singleOf(::CreateSeasonDataService)
     singleOf(::MetroDataService)

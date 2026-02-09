@@ -502,3 +502,33 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 161,445,56,St. Louis City SC,6,West,,,,,false,,,
 160,445,25,Sporting KC,6,West,,,,,false,,,
 158,445,52,San Jose Earthquakes,6,West,,LAST,LAST,,false,,,
+153,451,39,Philadelphia Union,6,East,,FIRST,FIRST,,true,1,false,false
+141,451,10,FC Cincinnati,6,East,,,,,true,1,false,false
+144,451,29,Inter Miami,6,East,,,,,true,4,true,true
+135,451,8,Charlotte FC,6,East,,,,,true,0,false,false
+151,451,35,NYCFC,6,East,,,,,true,2,false,false
+149,451,33,Nashville SC,6,East,,,,,true,0,false,false
+136,451,9,Chicago Fire,6,East,,,,,true,1,false,false
+139,451,12,Columbus Crew,6,East,,,,,true,0,false,false
+152,451,37,Orlando City SC,6,East,,,,,true,0,false,false
+156,451,35,New York Red Bulls,6,East,,,,,false,,,
+150,451,5,New England Revolution,6,East,,,,,false,,,
+163,451,59,Toronto FC,6,East,,,,,false,,,
+134,451,32,CF Montreal,6,East,,,,,false,,,
+132,451,2,Atlanta United,6,East,,,,,false,,,
+140,451,63,DC United,6,East,,LAST,LAST,,false,,,
+157,451,51,San Diego FC,6,West,,,FIRST_TIED,,true,2,false,false
+164,451,62,Vancouver Whitecaps,6,West,,,FIRST_TIED,,true,3,true,false
+146,451,27,LAFC,6,West,,,,,true,1,false,false
+148,451,31,Minnesota United,6,West,,,,,true,1,false,false
+159,451,53,Seattle Sounders,6,West,,,,,true,0,false,false
+133,451,3,Austin FC,6,West,,,,,true,0,false,false
+142,451,13,FC Dallas,6,West,,,,,true,0,false,false
+154,451,42,Portland Timbers,6,West,,,,,true,1,false,false
+155,451,49,Real Salt Lake,6,West,,,,,true,0,false,false
+158,451,52,San Jose Earthquakes,6,West,,,,,false,,,
+138,451,15,Colorado Rapids,6,West,,,,,false,,,
+143,451,22,Houston Dynamo,6,West,,,,,false,,,
+161,451,56,St. Louis City SC,6,West,,,,,false,,,
+145,451,27,LA Galaxy,6,West,,,,,false,,,
+160,451,25,Sporting KC,6,West,,,LAST,,false,,,

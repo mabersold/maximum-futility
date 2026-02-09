@@ -1,12 +1,13 @@
 package mabersold.services
 
 import mabersold.dao.FranchiseSeasonDAO
+import mabersold.dao.MetroLeagueYearDAO
 import mabersold.models.FranchiseSeasonInfo
 import mabersold.models.api.MetricType
 import mabersold.models.api.MetroData
 import mabersold.models.db.Standing
 
-class ReportingDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
+class ReportingDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO, private val metroLeagueYearDAO: MetroLeagueYearDAO) {
     suspend fun getMetroReportByMetric(metricType: MetricType, from: Int? = null, until: Int? = null, leagueIds: Set<Int> = setOf()) =
         franchiseSeasonDAO.all()
             .fromSeason(from)
@@ -15,6 +16,21 @@ class ReportingDataService(private val franchiseSeasonDAO: FranchiseSeasonDAO) {
             .withMetricFilter(metricType)
             .groupBy { it.metro }
             .results(metricType)
+
+    suspend fun getMetroReportFromMetroLeagueYears(metricType: MetricType, startYear: Int, endYear: Int, leagueIds: Set<Int>): List<MetroData> {
+        val metroLeagueYears = metroLeagueYearDAO.all(startYear, endYear, leagueIds)
+
+        return metroLeagueYears.groupBy { it.metroId }
+            .map { (_, recordsForMetro) ->
+                MetroData(
+                    name = recordsForMetro.first().metroName,
+                    metricType = metricType,
+                    total = recordsForMetro.sumOf(metricType.total),
+                    opportunities = recordsForMetro.sumOf(metricType.opportunities),
+                    lastActiveYear = recordsForMetro.maxOf { it.year }
+                )
+            }
+    }
 
     private fun List<FranchiseSeasonInfo>.fromSeason(from: Int?) =
         this.filter { from == null || it.startYear >= from }

@@ -7,6 +7,7 @@ franchises_directory = "seed_data/franchises"
 seasons_directory = "seed_data/seasons"
 
 franchise_lookups = []
+metro_league_years = []
 
 def get_leagues():
     leagues = []
@@ -130,7 +131,18 @@ def get_seasons(leagues: dict):
             writer = csv.writer(file)
             writer.writerow(['franchise_id', 'season_id', 'metro_id', 'team_name', 'league_id', 'conference', 'division', 'league_position', 'conference_position', 'division_position', 'qualified_for_postseason', 'rounds_won', 'appeared_in_championship', 'won_championship'])
 
+            new_metro_league_years = {}
+            season_id = 1
+
             for fs in sorted_franchise_seasons:
+                # If season_id is different, reset
+                if fs.get('season_id') != season_id:
+                    # Store the metro league years in the array
+                    metro_league_years.extend(new_metro_league_years.values())
+                    
+                    new_metro_league_years = {}
+                    season_id = fs.get('season_id')
+
                 if not fs.get('qualified_for_postseason') and fs.get('has_postseason', False):
                     fs['qualified_for_postseason'] = False
 
@@ -139,16 +151,76 @@ def get_seasons(leagues: dict):
                     additional_fs = fs.copy()
                     additional_fs['label'] = additional_fs['merged_team']
                     annotate_with_metro(additional_fs, league)
+                    generate_metro_league_year(additional_fs, new_metro_league_years)
                     write_franchise_season(additional_fs, writer)
-                    pass
                 
                 # A few final annotations to set franchise ID, metro ID and team name
                 annotate_with_metro(fs, league)
+                generate_metro_league_year(fs, new_metro_league_years)
                 write_franchise_season(fs, writer)
+    
+            # Add final value
+            metro_league_years.extend(new_metro_league_years.values())
     print(f"Highest season id is {highest_id}")
+
+def generate_metro_league_year(fs, new_metro_league_years):
+    metro_id = fs.get('metro_id')
+    has_postseason = fs.get('has_postseason')
+    multiple_postseason_rounds = fs.get('postseason_rounds', 0) > 1 and has_postseason
+    if new_metro_league_years.get(metro_id):
+        mly = new_metro_league_years.get(metro_id)
+        if fs.get('has_postseason'):
+            mly['opps_appeared_in_championship'] += 1
+            mly['opps_qualified_for_postseason'] += 1
+            mly['opps_advanced_in_postseason'] += 1 if multiple_postseason_rounds else 0
+            
+            if fs.get('won_championship'):
+                mly['championships'] = 1
+                # Only one team can win a championship, if there are multiple teams for a city, and one wins the championship,
+                # we do not count the other teams that did not win against that city
+                mly['opps_championships'] = 1
+            elif mly['championships'] == 0:
+                mly['opps_championships'] += 1
+
+        mly['opps_overall'] += 1
+        mly['opps_conference'] += 1 if fs.get('conference_name') else 0
+        mly['opps_division'] += 1 if fs.get('division_name') else 0
+        mly['first_overall'] += 1 if fs.get('league_position') in ['FIRST', 'FIRST_TIED'] else 0
+        mly['last_overall'] += 1 if fs.get('league_position') in ['LAST', 'LAST_TIED'] else 0
+        mly['first_conference'] += 1 if fs.get('conference_position') in ['FIRST', 'FIRST_TIED'] else 0
+        mly['first_division'] += 1 if fs.get('division_position') in ['FIRST', 'FIRST_TIED'] else 0
+        mly['last_conference'] += 1 if fs.get('conference_position') in ['LAST', 'LAST_TIED'] else 0
+        mly['last_division'] += 1 if fs.get('division_position') in ['LAST', 'LAST_TIED'] else 0
+        mly['appeared_in_championship'] += 1 if fs.get('appeared_in_championship') else 0
+        mly['advanced_in_postseason'] += 1 if fs.get('rounds_won', 0) > 0 and multiple_postseason_rounds else 0
+        mly['qualified_for_postseason'] += 1 if fs.get('qualified_for_postseason') else 0
+    else:
+        new_metro_league_years[metro_id] = {
+            'metro_id': fs.get('metro_id'),
+            'year': fs.get('end_year'),
+            'league_id': fs.get('league_id'),
+            'opps_championships': 1 if has_postseason else 0,
+            'championships': 1 if fs.get('won_championship') == True else 0,
+            'opps_appeared_in_championship': 1 if has_postseason else 0,
+            'appeared_in_championship': 1 if fs.get('appeared_in_championship') else 0,
+            'opps_advanced_in_postseason': 1 if multiple_postseason_rounds else 0,
+            'advanced_in_postseason': 1 if multiple_postseason_rounds and fs.get('rounds_won', 0) > 0 else 0,
+            'opps_qualified_for_postseason': 1 if has_postseason else 0,
+            'qualified_for_postseason': 1 if fs.get('qualified_for_postseason') else 0,
+            'opps_overall': 1,
+            'opps_conference': 1 if fs.get('conference_name') else 0,
+            'opps_division': 1 if fs.get('division_name') else 0,
+            'first_overall': 1 if fs.get('league_position') in ['FIRST', 'FIRST_TIED'] else 0,
+            'last_overall': 1 if fs.get('league_position') in ['LAST', 'LAST_TIED'] else 0,
+            'first_conference': 1 if fs.get('conference_position') in ['FIRST', 'FIRST_TIED'] else 0,
+            'last_conference': 1 if fs.get('conference_position') in ['LAST', 'LAST_TIED'] else 0,
+            'first_division': 1 if fs.get('division_position') in ['FIRST', 'FIRST_TIED'] else 0,
+            'last_division': 1 if fs.get('division_position') in ['LAST', 'LAST_TIED'] else 0,
+        }
 
 def get_standings_info(standings: dict, season_dict: dict, level_types, level: int = 0):
     has_postseason = bool(season_dict.get('postseason', {}).get('rounds'))
+    postseason_rounds = len(season_dict.get('postseason', {}).get('rounds', []))
     
     # Basis case: there are results
     if 'results' in standings:
@@ -158,7 +230,9 @@ def get_standings_info(standings: dict, season_dict: dict, level_types, level: i
                 'season_id': season_dict['id'],
                 'league_id': season_dict['league_id'],
                 'year': season_dict['start_year'],
+                'end_year': season_dict['end_year'],
                 'has_postseason': has_postseason,
+                'postseason_rounds': postseason_rounds,
                 'metric': r.get('points') or (
                     r['wins'] / (r['wins'] + r['losses']) if (r['wins'] + r['losses']) > 0 else 0.0
                 )
@@ -272,6 +346,59 @@ def find_chapter(chapters, year):
 
     return chapters[-1] if chapters else None  # If past the last start_year, return the last chapter
 
+def write_metro_league_years():
+    sorted_records = sorted(metro_league_years, key=lambda d: d['year'])
+    with open(f'{csv_base_directory}/metro-league-years.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(
+            [
+                'year',
+                'metro_id',
+                'league_id',
+                'opps_championships',
+                'championships',
+                'opps_appeared_in_championship',
+                'appeared_in_championship',
+                'opps_advanced_in_postseason',
+                'advanced_in_postseason',
+                'opps_qualified_for_postseason',
+                'qualified_for_postseason',
+                'opps_overall',
+                'first_overall',
+                'last_overall',
+                'opps_conference',
+                'first_conference',
+                'last_conference',
+                'opps_division',
+                'first_division',
+                'last_division'
+            ]
+        )
+
+        for m in sorted_records:
+            writer.writerow([
+                m['year'],
+                m['metro_id'],
+                m['league_id'],
+                m['opps_championships'],
+                m['championships'],
+                m['opps_appeared_in_championship'],
+                m['appeared_in_championship'],
+                m['opps_advanced_in_postseason'],
+                m['advanced_in_postseason'],
+                m['opps_qualified_for_postseason'],
+                m['qualified_for_postseason'],
+                m['opps_overall'],
+                m['first_overall'],
+                m['last_overall'],
+                m['opps_conference'],
+                m['first_conference'],
+                m['last_conference'],
+                m['opps_division'],
+                m['first_division'],
+                m['last_division']
+            ])
+
 leagues = get_leagues()
 metros = get_metros()
 franchises_by_league = get_franchises(leagues, metros)
@@ -282,4 +409,5 @@ for f in franchises:
         franchise_lookups.append({"name": c.get("label", f.get("label")), "league": c.get("league_name"), "start_year": c.get("start_year"), "end_year": c.get("end_year", None), "id": f["id"]})
 
 get_seasons(leagues)
+write_metro_league_years()
 print("Done.")

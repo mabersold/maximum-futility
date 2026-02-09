@@ -1,0 +1,235 @@
+{
+    "id": 451,
+    "name": "2025 MLS Season",
+    "start_year": 2025,
+    "end_year": 2025,
+    "league": "mls",
+    "total_major_divisions": 2,
+    "total_minor_divisions": 0,
+    "standings": {
+        "sub_groups": [
+            {
+                "name": "East",
+                "results": [
+                    {"label": "union", "points": 66},
+                    {"label": "fccincinnati", "points": 65},
+                    {"label": "intermiami", "points": 65},
+                    {"label": "charlotte-fc", "points": 59},
+                    {"label": "nycfc", "points": 56},
+                    {"label": "nashvillesc", "points": 54},
+                    {"label": "fire", "points": 54},
+                    {"label": "crew", "points": 53},
+                    {"label": "orlandocity", "points": 53},
+                    {"label": "rbny", "points": 43},
+                    {"label": "revolution", "points": 36},
+                    {"label": "torontofc", "points": 32},
+                    {"label": "cfmontreal", "points": 28},
+                    {"label": "atlantaunited", "points": 28},
+                    {"label": "dcunited", "points": 26}
+                ]
+            },
+            {
+                "name": "West",
+                "results": [
+                    {"label": "sandiegofc", "points": 63},
+                    {"label": "whitecaps", "points": 63},
+                    {"label": "lafc", "points": 60},
+                    {"label": "minnesotaunited", "points": 58},
+                    {"label": "sounders", "points": 55},
+                    {"label": "austinfc", "points": 47},
+                    {"label": "fcdallas", "points": 44},
+                    {"label": "timbers", "points": 44},
+                    {"label": "rsl", "points": 41},
+                    {"label": "earthquakes", "points": 41},
+                    {"label": "rapids", "points": 41},
+                    {"label": "dynamo", "points": 37},
+                    {"label": "stlcity", "points": 32},
+                    {"label": "galaxy", "points": 30},
+                    {"label": "skc", "points": 28}
+                ]
+            }
+        ]
+    },
+    "postseason": {
+        "rounds": [
+            {
+                "round_number": 1,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "fire"
+                        },
+                        "loser": {
+                            "label": "orlandocity"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "timbers"
+                        },
+                        "loser": {
+                            "label": "rsl"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 2,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "union",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "fire",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "nycfc",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "charlotte-fc",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "intermiami",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "nashvillesc",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "fccincinnati",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "crew",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sandiegofc",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "timbers",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "minnesotaunited",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "sounders",
+                            "games_won": 1
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "lafc",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "austinfc",
+                            "games_won": 0
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "whitecaps",
+                            "games_won": 2
+                        },
+                        "loser": {
+                            "label": "fcdallas",
+                            "games_won": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 3,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "nycfc"
+                        },
+                        "loser": {
+                            "label": "union"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "intermiami"
+                        },
+                        "loser": {
+                            "label": "fccincinnati"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "sandiegofc"
+                        },
+                        "loser": {
+                            "label": "minnesotaunited"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "whitecaps"
+                        },
+                        "loser": {
+                            "label": "lafc"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 4,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "intermiami"
+                        },
+                        "loser": {
+                            "label": "nycfc"
+                        }
+                    },
+                    {
+                        "winner": {
+                            "label": "whitecaps"
+                        },
+                        "loser": {
+                            "label": "sandiegofc"
+                        }
+                    }
+                ]
+            },
+            {
+                "round_number": 5,
+                "matchups": [
+                    {
+                        "winner": {
+                            "label": "intermiami"
+                        },
+                        "loser": {
+                            "label": "whitecaps"
+                        },
+                        "is_championship_round": true
+                    }
+                ]
+            }
+        ]
+    }
+}

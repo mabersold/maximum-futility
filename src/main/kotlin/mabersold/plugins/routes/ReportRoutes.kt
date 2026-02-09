@@ -44,14 +44,14 @@ fun Route.reportRoutes() {
         val endYear = queryParameters["endYear"]?.toInt() ?: seasonDataService.getYearRange().endYear
         val leagues = queryParameters.getAll("leagueId")?.map { it.toInt() }?.toSet() ?: emptySet()
         val minLastActiveYear = queryParameters["minLastActiveYear"]?.toInt()
+        val metroReport = reportingDataService.getMetroReportFromMetroLeagueYears(metricType, startYear, endYear + 1, leagues)
 
         return ReportResults(
             metricType,
             startYear,
             endYear,
             leagues,
-            reportingDataService.getMetroReportByMetric(metricType, startYear, endYear, leagues)
-                .filter { minLastActiveYear == null || it.lastActiveYear >= minLastActiveYear}
+            metroReport.filter { minLastActiveYear == null || it.lastActiveYear >= minLastActiveYear}
                 .sortedWith(
                     if (listOf(MetricType.WORST_OVERALL, MetricType.WORST_DIVISION, MetricType.WORST_CONFERENCE).contains(metricType)) {
                         compareByDescending<MetroData>{ it.rate }.thenBy { it.opportunities }

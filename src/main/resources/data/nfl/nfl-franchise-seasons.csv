@@ -2111,3 +2111,35 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 197,446,53,Seattle Seahawks,2,NFC,NFC West,,,FIRST_TIED,false,,,
 165,446,40,Arizona Cardinals,2,NFC,NFC West,,,,false,,,
 196,446,52,San Francisco 49ers,2,NFC,NFC West,,,LAST,false,,,
+190,452,5,New England Patriots,2,AFC,AFC East,FIRST_TIED,FIRST_TIED,FIRST,true,3,true,false
+171,452,6,Buffalo Bills,2,AFC,AFC East,,,,true,1,false,false
+188,452,29,Miami Dolphins,2,AFC,AFC East,,,,false,,,
+193,452,35,New York Jets,2,AFC,AFC East,LAST_TIED,LAST_TIED,LAST,false,,,
+195,452,41,Pittsburgh Steelers,2,AFC,AFC North,,,FIRST,true,0,false,false
+168,452,4,Baltimore Ravens,2,AFC,AFC North,,,,false,,,
+174,452,10,Cincinnati Bengals,2,AFC,AFC North,,,,false,,,
+176,452,11,Cleveland Browns,2,AFC,AFC North,,,LAST,false,,,
+183,452,24,Jacksonville Jaguars,2,AFC,AFC South,,,FIRST,true,0,false,false
+181,452,22,Houston Texans,2,AFC,AFC South,,,,true,1,false,false
+182,452,23,Indianapolis Colts,2,AFC,AFC South,,,,false,,,
+200,452,33,Tennessee Titans,2,AFC,AFC South,LAST_TIED,LAST_TIED,LAST,false,,,
+178,452,15,Denver Broncos,2,AFC,AFC West,FIRST_TIED,FIRST_TIED,FIRST,true,1,false,false
+186,452,27,Los Angeles Chargers,2,AFC,AFC West,,,,true,0,false,false
+184,452,25,Kansas City Chiefs,2,AFC,AFC West,,,,false,,,
+185,452,26,Las Vegas Raiders,2,AFC,AFC West,LAST_TIED,LAST_TIED,LAST,false,,,
+194,452,39,Philadelphia Eagles,2,NFC,NFC East,,,FIRST,true,0,false,false
+177,452,13,Dallas Cowboys,2,NFC,NFC East,,,,false,,,
+201,452,63,Washington Commanders,2,NFC,NFC East,,,,false,,,
+192,452,35,New York Giants,2,NFC,NFC East,,,LAST,false,,,
+173,452,9,Chicago Bears,2,NFC,NFC North,,,FIRST,true,1,false,false
+180,452,20,Green Bay Packers,2,NFC,NFC North,,,,true,0,false,false
+189,452,31,Minnesota Vikings,2,NFC,NFC North,,,LAST_TIED,false,,,
+179,452,16,Detroit Lions,2,NFC,NFC North,,,LAST_TIED,false,,,
+172,452,8,Carolina Panthers,2,NFC,NFC South,,,FIRST_TIED,true,0,false,false
+199,452,58,Tampa Bay Buccaneers,2,NFC,NFC South,,,FIRST_TIED,false,,,
+166,452,2,Atlanta Falcons,2,NFC,NFC South,,,FIRST_TIED,false,,,
+191,452,34,New Orleans Saints,2,NFC,NFC South,,,LAST,false,,,
+197,452,53,Seattle Seahawks,2,NFC,NFC West,FIRST_TIED,FIRST,FIRST,true,3,true,true
+187,452,27,Los Angeles Rams,2,NFC,NFC West,,,,true,2,false,false
+196,452,52,San Francisco 49ers,2,NFC,NFC West,,,,true,1,false,false
+165,452,40,Arizona Cardinals,2,NFC,NFC West,LAST_TIED,LAST,LAST,false,,,

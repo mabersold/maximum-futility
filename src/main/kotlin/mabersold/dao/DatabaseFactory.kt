@@ -8,6 +8,7 @@ import mabersold.models.db.FranchiseSeasons
 import mabersold.models.db.Franchises
 import mabersold.models.db.League
 import mabersold.models.db.Leagues
+import mabersold.models.db.MetroLeagueYears
 import mabersold.models.db.Metros
 import mabersold.models.db.Seasons
 import mabersold.models.db.Standing
@@ -37,7 +38,7 @@ object DatabaseFactory {
 
     private fun createSchema(database: Database) {
         transaction(database) {
-            val tables = listOf(Chapters, FranchiseSeasons, Seasons, Franchises, Metros, Leagues)
+            val tables = listOf(MetroLeagueYears, Chapters, FranchiseSeasons, Seasons, Franchises, Metros, Leagues)
 
             // Drop all tables, if they exist
             tables.forEach { table ->
@@ -74,6 +75,8 @@ object DatabaseFactory {
                 populate("data/${league.label}/${league.label}-seasons.csv", ::insertSeason)
                 populate("data/${league.label}/${league.label}-franchise-seasons.csv", ::insertFranchiseSeason)
             }
+
+            populate("data/metro-league-years.csv", ::insertMetroLeagueYear)
         }
     }
 
@@ -139,6 +142,29 @@ object DatabaseFactory {
         it[roundsWon] = csvRow["rounds_won"].asNullableInt()
         it[appearedInChampionship] = csvRow["appeared_in_championship"].asNullableBoolean()
         it[wonChampionship] = csvRow["won_championship"].asNullableBoolean()
+    }
+
+    private fun insertMetroLeagueYear(csvRow: Map<String, String>) = MetroLeagueYears.insert {
+        it[year] = csvRow["year"]!!.toInt()
+        it[leagueId] = csvRow["league_id"]!!.toInt()
+        it[metroId] = csvRow["metro_id"]!!.toInt()
+        it[championships] = csvRow["championships"]!!.toInt()
+        it[championshipOpportunities] = csvRow["opps_championships"]!!.toInt()
+        it[championshipAppearances] = csvRow["appeared_in_championship"]!!.toInt()
+        it[championshipAppearanceOpportunities] = csvRow["opps_appeared_in_championship"]!!.toInt()
+        it[advancedInPostseason] = csvRow["advanced_in_postseason"]!!.toInt()
+        it[advancedInPostseasonOpportunities] = csvRow["opps_advanced_in_postseason"]!!.toInt()
+        it[qualifiedForPostseason] = csvRow["qualified_for_postseason"]!!.toInt()
+        it[qualifiedForPostseasonOpportunities] = csvRow["opps_qualified_for_postseason"]!!.toInt()
+        it[overallOpportunities] = csvRow["opps_overall"]!!.toInt()
+        it[totalFirstOverall] = csvRow["first_overall"]!!.toInt()
+        it[totalLastOverall] = csvRow["last_overall"]!!.toInt()
+        it[conferenceOpportunities] = csvRow["opps_conference"]!!.toInt()
+        it[totalFirstConference] = csvRow["first_conference"]!!.toInt()
+        it[totalLastConference] = csvRow["last_conference"]!!.toInt()
+        it[divisionOpportunities] = csvRow["opps_division"]!!.toInt()
+        it[totalFirstDivision] = csvRow["first_division"]!!.toInt()
+        it[totalLastDivision] = csvRow["last_division"]!!.toInt()
     }
 
     private fun String?.asNullableBoolean(): Boolean? = when (this) {

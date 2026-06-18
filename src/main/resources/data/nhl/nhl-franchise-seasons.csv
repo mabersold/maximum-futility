@@ -1686,3 +1686,35 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 76,447,27,Anaheim Ducks,4,Western,Pacific,,,,false,,,
 105,447,53,Seattle Kraken,4,Western,Pacific,,,,false,,,
 104,447,52,San Jose Sharks,4,Western,Pacific,LAST,LAST,LAST,false,,,
+79,453,6,Buffalo Sabres,4,Eastern,Atlantic,,,FIRST,true,1,false,false
+107,453,58,Tampa Bay Lightning,4,Eastern,Atlantic,,,,true,0,false,false
+92,453,32,Montreal Canadiens,4,Eastern,Atlantic,,,,true,2,false,false
+78,453,5,Boston Bruins,4,Eastern,Atlantic,,,,true,0,false,false
+100,453,38,Ottawa Senators,4,Eastern,Atlantic,,,,true,0,false,false
+87,453,16,Detroit Red Wings,4,Eastern,Atlantic,,,,false,,,
+89,453,29,Florida Panthers,4,Eastern,Atlantic,,,,false,,,
+108,453,59,Toronto Maple Leafs,4,Eastern,Atlantic,,,LAST,false,,,
+82,453,46,Carolina Hurricanes,4,Eastern,Metropolitan,,FIRST,FIRST,true,4,true,true
+102,453,41,Pittsburgh Penguins,4,Eastern,Metropolitan,,,,true,0,false,false
+101,453,39,Philadelphia Flyers,4,Eastern,Metropolitan,,,,true,1,false,false
+111,453,63,Washington Capitals,4,Eastern,Metropolitan,,,,false,,,
+85,453,12,Columbus Blue Jackets,4,Eastern,Metropolitan,,,,false,,,
+97,453,35,New York Islanders,4,Eastern,Metropolitan,,,,false,,,
+95,453,35,New Jersey Devils,4,Eastern,Metropolitan,,,,false,,,
+98,453,35,New York Rangers,4,Eastern,Metropolitan,,LAST,LAST,false,,,
+84,453,15,Colorado Avalanche,4,Western,Central,FIRST,FIRST,FIRST,true,2,false,false
+86,453,13,Dallas Stars,4,Western,Central,,,,true,0,false,false
+91,453,31,Minnesota Wild,4,Western,Central,,,,true,1,false,false
+202,453,49,Utah Mammoth,4,Western,Central,,,,true,0,false,false
+106,453,56,St. Louis Blues,4,Western,Central,,,,false,,,
+94,453,33,Nashville Predators,4,Western,Central,,,,false,,,
+112,453,64,Winnipeg Jets,4,Western,Central,,,,false,,,
+83,453,9,Chicago Blackhawks,4,Western,Central,,,LAST,false,,,
+110,453,26,Vegas Golden Knights,4,Western,Pacific,,,FIRST,true,3,true,false
+88,453,17,Edmonton Oilers,4,Western,Pacific,,,,true,0,false,false
+76,453,27,Anaheim Ducks,4,Western,Pacific,,,,true,1,false,false
+90,453,27,Los Angeles Kings,4,Western,Pacific,,,,true,0,false,false
+104,453,52,San Jose Sharks,4,Western,Pacific,,,,false,,,
+105,453,53,Seattle Kraken,4,Western,Pacific,,,,false,,,
+80,453,7,Calgary Flames,4,Western,Pacific,,,,false,,,
+109,453,62,Vancouver Canucks,4,Western,Pacific,LAST,LAST,LAST,false,,,

@@ -1692,3 +1692,33 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 41,448,13,Dallas Mavericks,3,Western,Southwest,,,,false,,,
 66,448,50,San Antonio Spurs,3,Western,Southwest,,,,false,,,
 56,448,34,New Orleans Pelicans,3,Western,Southwest,,,LAST,false,,,
+34,454,5,Boston Celtics,3,Eastern,Atlantic,,,FIRST,true,0,false,false
+57,454,35,New York Knicks,3,Eastern,Atlantic,,,,true,4,true,true
+70,454,59,Toronto Raptors,3,Eastern,Atlantic,,,,true,0,false,false
+60,454,39,Philadelphia 76ers,3,Eastern,Atlantic,,,,true,1,false,false
+35,454,35,Brooklyn Nets,3,Eastern,Atlantic,,,LAST,false,,,
+44,454,16,Detroit Pistons,3,Eastern,Central,,FIRST,FIRST,true,1,false,false
+39,454,11,Cleveland Cavaliers,3,Eastern,Central,,,,true,2,false,false
+54,454,30,Milwaukee Bucks,3,Eastern,Central,,,,false,,,
+37,454,9,Chicago Bulls,3,Eastern,Central,,,,false,,,
+47,454,23,Indiana Pacers,3,Eastern,Central,,,LAST,false,,,
+32,454,2,Atlanta Hawks,3,Eastern,Southeast,,,FIRST,true,0,false,false
+59,454,37,Orlando Magic,3,Eastern,Southeast,,,,true,0,false,false
+36,454,8,Charlotte Hornets,3,Eastern,Southeast,,,,false,,,
+53,454,29,Miami Heat,3,Eastern,Southeast,,,,false,,,
+73,454,63,Washington Wizards,3,Eastern,Southeast,LAST,LAST,LAST,false,,,
+58,454,36,Oklahoma City Thunder,3,Western,Northwest,FIRST,FIRST,FIRST,true,2,false,false
+43,454,15,Denver Nuggets,3,Western,Northwest,,,,true,0,false,false
+55,454,31,Minnesota Timberwolves,3,Western,Northwest,,,,true,1,false,false
+63,454,42,Portland Trail Blazers,3,Western,Northwest,,,,true,0,false,false
+71,454,49,Utah Jazz,3,Western,Northwest,,LAST_TIED,LAST,false,,,
+51,454,27,Los Angeles Lakers,3,Western,Pacific,,,FIRST,true,1,false,false
+61,454,40,Phoenix Suns,3,Western,Pacific,,,,true,0,false,false
+50,454,27,Los Angeles Clippers,3,Western,Pacific,,,,false,,,
+45,454,52,Golden State Warriors,3,Western,Pacific,,,,false,,,
+65,454,48,Sacramento Kings,3,Western,Pacific,,LAST_TIED,LAST,false,,,
+66,454,50,San Antonio Spurs,3,Western,Southwest,,,FIRST,true,3,true,false
+46,454,22,Houston Rockets,3,Western,Southwest,,,,true,0,false,false
+56,454,34,New Orleans Pelicans,3,Western,Southwest,,,,false,,,
+41,454,13,Dallas Mavericks,3,Western,Southwest,,,,false,,,
+52,454,28,Memphis Grizzlies,3,Western,Southwest,,,LAST,false,,,

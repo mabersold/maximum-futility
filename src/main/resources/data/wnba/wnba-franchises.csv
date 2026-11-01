@@ -18,3 +18,4 @@ id,name,label,is_defunct,league_id
 129,Sacramento Monarchs,monarchs,true,5
 130,Seattle Storm,storm,false,5
 131,Washington Mystics,mystics,false,5
+203,Toronto Tempo,tempo,false,5

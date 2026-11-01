@@ -2673,3 +2673,33 @@ franchise_id,season_id,metro_id,team_name,league_id,conference,division,league_p
 24,450,52,San Francisco Giants,1,NL,NL West,,,,false,,,
 1,450,40,Arizona Diamondbacks,1,NL,NL West,,,,false,,,
 9,450,15,Colorado Rockies,1,NL,NL West,LAST,LAST,LAST,false,,,
+27,456,58,Tampa Bay Rays,1,AL,AL East,,FIRST,FIRST,true,2,true,false
+19,456,35,New York Yankees,1,AL,AL East,,,,true,1,false,false
+4,456,5,Boston Red Sox,1,AL,AL East,,,,true,0,false,false
+29,456,59,Toronto Blue Jays,1,AL,AL East,,,,false,,,
+3,456,4,Baltimore Orioles,1,AL,AL East,,,LAST,false,,,
+8,456,11,Cleveland Guardians,1,AL,AL Central,,,FIRST,true,1,false,false
+6,456,9,Chicago White Sox,1,AL,AL Central,,,,true,1,false,false
+17,456,31,Minnesota Twins,1,AL,AL Central,,,,false,,,
+10,456,16,Detroit Tigers,1,AL,AL Central,,,,false,,,
+12,456,25,Kansas City Royals,1,AL,AL Central,,,LAST,false,,,
+11,456,22,Houston Astros,1,AL,AL West,,,FIRST,true,0,false,false
+28,456,13,Texas Rangers,1,AL,AL West,,,,false,,,
+25,456,53,Seattle Mariners,1,AL,AL West,,,,false,,,
+20,456,48,Athletics,1,AL,AL West,,,,false,,,
+13,456,27,Los Angeles Angels,1,AL,AL West,,LAST,LAST,false,,,
+2,456,2,Atlanta Braves,1,NL,NL East,,,FIRST,true,1,false,false
+21,456,39,Philadelphia Phillies,1,NL,NL East,,,,true,0,false,false
+15,456,29,Miami Marlins,1,NL,NL East,,,,false,,,
+30,456,63,Washington Nationals,1,NL,NL East,,,,false,,,
+18,456,35,New York Mets,1,NL,NL East,,,LAST,false,,,
+16,456,30,Milwaukee Brewers,1,NL,NL Central,FIRST,FIRST,FIRST,true,3,true,true
+5,456,9,Chicago Cubs,1,NL,NL Central,,,,true,0,false,false
+26,456,56,St. Louis Cardinals,1,NL,NL Central,,,,false,,,
+22,456,41,Pittsburgh Pirates,1,NL,NL Central,,,,false,,,
+7,456,10,Cincinnati Reds,1,NL,NL Central,,,LAST,false,,,
+14,456,27,Los Angeles Dodgers,1,NL,NL West,,,FIRST,true,1,false,false
+23,456,51,San Diego Padres,1,NL,NL West,,,,true,1,false,false
+1,456,40,Arizona Diamondbacks,1,NL,NL West,,,,false,,,
+24,456,52,San Francisco Giants,1,NL,NL West,,,,false,,,
+9,456,15,Colorado Rockies,1,NL,NL West,LAST,LAST,LAST,false,,,

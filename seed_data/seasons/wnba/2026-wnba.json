@@ -1,0 +1,128 @@
+{
+  "id": 455,
+  "name": "2026 WNBA Season",
+  "start_year": 2026,
+  "end_year": 2026,
+  "league": "wnba",
+  "total_major_divisions": 2,
+  "total_minor_divisions": 0,
+  "standings": {
+    "sub_groups": [
+      {
+        "name": "East",
+        "results": [
+          {"label": "dream", "wins": 30, "losses": 14},
+          {"label": "mystics", "wins": 28, "losses": 16},
+          {"label": "fever", "wins": 28, "losses": 16},
+          {"label": "liberty", "wins": 26, "losses": 18},
+          {"label": "sky", "wins": 16, "losses": 28},
+          {"label": "tempo", "wins": 11, "losses": 33},
+          {"label": "sun", "wins": 11, "losses": 33}
+        ]
+      },
+      {
+        "name": "West",
+        "results": [
+          {"label": "lynx", "wins": 33, "losses": 11},
+          {"label": "valkyries", "wins": 32, "losses": 12},
+          {"label": "aces", "wins": 31, "losses": 13},
+          {"label": "wings", "wins": 27, "losses": 17},
+          {"label": "fire", "wins": 17, "losses": 27},
+          {"label": "mercury", "wins": 16, "losses": 28},
+          {"label": "sparks", "wins": 16, "losses": 28},
+          {"label": "storm", "wins": 8, "losses": 36}
+        ]
+      }
+    ]
+  },
+  "postseason": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "matchups": [
+          {
+            "winner": {
+              "label": "liberty",
+              "games_won": 2
+            },
+            "loser": {
+              "label": "lynx",
+              "games_won": 0
+            }
+          },
+          {
+            "winner": {
+              "label": "dream",
+              "games_won": 2
+            },
+            "loser": {
+              "label": "mystics",
+              "games_won": 0
+            }
+          },
+          {
+            "winner": {
+              "label": "valkyries",
+              "games_won": 2
+            },
+            "loser": {
+              "label": "wings",
+              "games_won": 1
+            }
+          },
+          {
+            "winner": {
+              "label": "aces",
+              "games_won": 2
+            },
+            "loser": {
+              "label": "fever",
+              "games_won": 1
+            }
+          }
+        ]
+      },
+      {
+        "round_number": 2,
+        "matchups": [
+          {
+            "winner": {
+              "label": "dream",
+              "games_won": 3
+            },
+            "loser": {
+              "label": "liberty",
+              "games_won": 0
+            }
+          },
+          {
+            "winner": {
+              "label": "valkyries",
+              "games_won": 3
+            },
+            "loser": {
+              "label": "aces",
+              "games_won": 0
+            }
+          }
+        ]
+      },
+      {
+        "round_number": 3,
+        "matchups": [
+          {
+            "winner": {
+              "label": "valkyries",
+              "games_won": 4
+            },
+            "loser": {
+              "label": "dream",
+              "games_won": 3
+            },
+            "is_championship_round": true
+          }
+        ]
+      }
+    ]
+  }
+}

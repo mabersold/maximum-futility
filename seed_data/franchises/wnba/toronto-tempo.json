@@ -1,0 +1,15 @@
+{
+  "id": 203,
+  "name": "Toronto Tempo",
+  "label": "tempo",
+  "is_defunct": false,
+  "league_id": "wnba",
+  "chapters": [
+    {
+      "team_name": "Toronto Tempo",
+      "metro_id": "toronto",
+      "league_id": "wnba",
+      "start_year": 2026
+    }
+  ]
+}

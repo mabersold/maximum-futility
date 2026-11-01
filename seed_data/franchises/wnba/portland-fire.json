@@ -12,6 +12,13 @@
         "league_id": "wnba",
         "start_year": 2000,
         "end_year": 2002
+      },
+      {
+        "team_name": "Portland Fire",
+        "metro_id": "portland",
+        "label": "fire",
+        "league_id": "wnba",
+        "start_year": 2026
       }
     ]
   }
